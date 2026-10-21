@@ -1,0 +1,18 @@
+\begin{table}[t]
+  \caption{Acceptance checks, run on every controlled table before any model sees it: 506 checks over 21 tables.}
+  \label{tab:checks}
+  \small
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabularx}{\columnwidth}{@{}>{\raggedright\arraybackslash}p{0.24\columnwidth}r>{\raggedright\arraybackslash}X@{}}
+    \toprule
+    Category & Checks & What is compared with the original \\
+    \midrule
+    Structure & 67 & shape and columns; error cells where the original has them; non-identity cells identical; seeds differ, fresh clean table shared \\
+    Error kinds and counts & 137 & per column, kinds and counts as in the original; formatting rules; errors only in the rows that carry them \\
+    Error strength & 15 & characters replaced per error cell within a tolerance of the original \\
+    Naming and leakage & 263 & one fictitious value per real value and back; no real value reused; no word of a real title; title shapes no closer to the real ones than chance; names look like names \\
+    Fresh entities & 6 & no entity of the benchmark; locations checked against sources \\
+    Reproducibility & 18 & every table rebuilt byte for byte under two hash seeds \\
+    \bottomrule
+  \end{tabularx}
+\end{table}

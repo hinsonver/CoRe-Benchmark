@@ -1,0 +1,738 @@
+{
+ "Qwen2.5-7B|hospital": {
+  "original": 0.222,
+  "fresh": [
+   0.232,
+   0.276,
+   0.271
+  ],
+  "surrogatewords": [
+   0.073,
+   0.089,
+   0.051
+  ],
+  "surrogate": [
+   0.023,
+   0.022,
+   0.029
+  ],
+  "entity": {
+   "by_seed": [
+    0.159,
+    0.188,
+    0.22
+   ],
+   "mean": 0.189,
+   "range": 0.061
+  },
+  "spelling": {
+   "by_seed": [
+    0.05,
+    0.066,
+    0.022
+   ],
+   "mean": 0.046,
+   "range": 0.044
+  },
+  "total": {
+   "by_seed": [
+    0.199,
+    0.2,
+    0.193
+   ],
+   "mean": 0.197,
+   "range": 0.007
+  },
+  "truncated_replies": 1
+ },
+ "Llama-3.1-8B|hospital": {
+  "original": 0.306,
+  "fresh": [
+   0.213,
+   0.191,
+   0.25
+  ],
+  "surrogatewords": [
+   0.022,
+   0.055,
+   0.014
+  ],
+  "surrogate": [
+   0.004,
+   0.011,
+   0.004
+  ],
+  "entity": {
+   "by_seed": [
+    0.191,
+    0.136,
+    0.236
+   ],
+   "mean": 0.188,
+   "range": 0.1
+  },
+  "spelling": {
+   "by_seed": [
+    0.018,
+    0.044,
+    0.01
+   ],
+   "mean": 0.024,
+   "range": 0.034
+  },
+  "total": {
+   "by_seed": [
+    0.302,
+    0.295,
+    0.302
+   ],
+   "mean": 0.3,
+   "range": 0.007
+  },
+  "truncated_replies": 93
+ },
+ "Qwen2.5-14B|hospital": {
+  "original": 0.437,
+  "fresh": [
+   0.421,
+   0.493,
+   0.491
+  ],
+  "surrogatewords": [
+   0.187,
+   0.179,
+   0.185
+  ],
+  "surrogate": [
+   0.038,
+   0.062,
+   0.018
+  ],
+  "entity": {
+   "by_seed": [
+    0.234,
+    0.314,
+    0.306
+   ],
+   "mean": 0.285,
+   "range": 0.08
+  },
+  "spelling": {
+   "by_seed": [
+    0.149,
+    0.117,
+    0.167
+   ],
+   "mean": 0.144,
+   "range": 0.05
+  },
+  "total": {
+   "by_seed": [
+    0.399,
+    0.374,
+    0.419
+   ],
+   "mean": 0.397,
+   "range": 0.044
+  },
+  "truncated_replies": 2
+ },
+ "Qwen2.5-32B|hospital": {
+  "original": 0.55,
+  "fresh": [
+   0.484,
+   0.575,
+   0.603
+  ],
+  "surrogatewords": [
+   0.313,
+   0.338,
+   0.303
+  ],
+  "surrogate": [
+   0.03,
+   0.058,
+   0.034
+  ],
+  "entity": {
+   "by_seed": [
+    0.17,
+    0.237,
+    0.3
+   ],
+   "mean": 0.235,
+   "range": 0.129
+  },
+  "spelling": {
+   "by_seed": [
+    0.283,
+    0.28,
+    0.27
+   ],
+   "mean": 0.278,
+   "range": 0.013
+  },
+  "total": {
+   "by_seed": [
+    0.519,
+    0.492,
+    0.516
+   ],
+   "mean": 0.509,
+   "range": 0.028
+  },
+  "truncated_replies": 0
+ },
+ "DeepSeek-V4-Pro|hospital": {
+  "original": 0.879,
+  "fresh": [
+   0.95,
+   0.917,
+   0.902
+  ],
+  "surrogatewords": [
+   0.499,
+   0.548,
+   0.562
+  ],
+  "surrogate": [
+   0.16,
+   0.215,
+   0.202
+  ],
+  "entity": {
+   "by_seed": [
+    0.451,
+    0.369,
+    0.339
+   ],
+   "mean": 0.386,
+   "range": 0.112
+  },
+  "spelling": {
+   "by_seed": [
+    0.339,
+    0.333,
+    0.36
+   ],
+   "mean": 0.344,
+   "range": 0.027
+  },
+  "total": {
+   "by_seed": [
+    0.719,
+    0.663,
+    0.677
+   ],
+   "mean": 0.687,
+   "range": 0.056
+  },
+  "truncated_replies": 0
+ },
+ "Qwen3.8-Max|hospital": {
+  "original": 0.897,
+  "fresh": [
+   0.927,
+   0.931,
+   0.915
+  ],
+  "surrogatewords": [
+   0.546,
+   0.587,
+   0.578
+  ],
+  "surrogate": [
+   0.214,
+   0.206,
+   0.215
+  ],
+  "entity": {
+   "by_seed": [
+    0.381,
+    0.344,
+    0.337
+   ],
+   "mean": 0.354,
+   "range": 0.044
+  },
+  "spelling": {
+   "by_seed": [
+    0.332,
+    0.381,
+    0.363
+   ],
+   "mean": 0.359,
+   "range": 0.049
+  },
+  "total": {
+   "by_seed": [
+    0.683,
+    0.692,
+    0.682
+   ],
+   "mean": 0.686,
+   "range": 0.01
+  },
+  "truncated_replies": 0
+ },
+ "GLM-5.3|hospital": {
+  "original": 0.781,
+  "fresh": [
+   0.832,
+   0.853,
+   0.795
+  ],
+  "surrogatewords": [
+   0.552,
+   0.566,
+   0.519
+  ],
+  "surrogate": [
+   0.187,
+   0.21,
+   0.175
+  ],
+  "entity": {
+   "by_seed": [
+    0.28,
+    0.287,
+    0.276
+   ],
+   "mean": 0.281,
+   "range": 0.01
+  },
+  "spelling": {
+   "by_seed": [
+    0.365,
+    0.355,
+    0.344
+   ],
+   "mean": 0.355,
+   "range": 0.022
+  },
+  "total": {
+   "by_seed": [
+    0.595,
+    0.571,
+    0.606
+   ],
+   "mean": 0.59,
+   "range": 0.035
+  },
+  "truncated_replies": 0
+ },
+ "GPT-6.1-Sol|hospital": {
+  "original": 0.937,
+  "fresh": [
+   0.982,
+   0.995,
+   0.973
+  ],
+  "surrogatewords": [
+   0.706,
+   0.704,
+   0.696
+  ],
+  "surrogate": [
+   0.617,
+   0.599,
+   0.597
+  ],
+  "entity": {
+   "by_seed": [
+    0.276,
+    0.292,
+    0.276
+   ],
+   "mean": 0.281,
+   "range": 0.016
+  },
+  "spelling": {
+   "by_seed": [
+    0.089,
+    0.105,
+    0.099
+   ],
+   "mean": 0.098,
+   "range": 0.016
+  },
+  "total": {
+   "by_seed": [
+    0.32,
+    0.338,
+    0.34
+   ],
+   "mean": 0.332,
+   "range": 0.02
+  },
+  "truncated_replies": 0
+ },
+ "Qwen2.5-7B|movies": {
+  "original": 0.005,
+  "fresh": [
+   0.021,
+   0.025,
+   0.015
+  ],
+  "surrogatewords": [
+   0.0,
+   0.0,
+   0.009
+  ],
+  "surrogate": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "entity": {
+   "by_seed": [
+    0.021,
+    0.025,
+    0.007
+   ],
+   "mean": 0.018,
+   "range": 0.019
+  },
+  "spelling": {
+   "by_seed": [
+    0.0,
+    0.0,
+    0.009
+   ],
+   "mean": 0.003,
+   "range": 0.009
+  },
+  "total": {
+   "by_seed": [
+    0.005,
+    0.005,
+    0.005
+   ],
+   "mean": 0.005,
+   "range": 0.0
+  },
+  "truncated_replies": 1
+ },
+ "Llama-3.1-8B|movies": {
+  "original": 0.04,
+  "fresh": [
+   0.042,
+   0.036,
+   0.042
+  ],
+  "surrogatewords": [
+   0.006,
+   0.01,
+   0.01
+  ],
+  "surrogate": [
+   0.007,
+   0.008,
+   0.009
+  ],
+  "entity": {
+   "by_seed": [
+    0.036,
+    0.026,
+    0.032
+   ],
+   "mean": 0.031,
+   "range": 0.01
+  },
+  "spelling": {
+   "by_seed": [
+    -0.001,
+    0.002,
+    0.001
+   ],
+   "mean": 0.001,
+   "range": 0.003
+  },
+  "total": {
+   "by_seed": [
+    0.033,
+    0.032,
+    0.031
+   ],
+   "mean": 0.032,
+   "range": 0.002
+  },
+  "truncated_replies": 30
+ },
+ "Qwen2.5-14B|movies": {
+  "original": 0.061,
+  "fresh": [
+   0.044,
+   0.072,
+   0.062
+  ],
+  "surrogatewords": [
+   0.011,
+   0.012,
+   0.014
+  ],
+  "surrogate": [
+   0.008,
+   0.004,
+   0.007
+  ],
+  "entity": {
+   "by_seed": [
+    0.033,
+    0.061,
+    0.048
+   ],
+   "mean": 0.047,
+   "range": 0.028
+  },
+  "spelling": {
+   "by_seed": [
+    0.003,
+    0.008,
+    0.007
+   ],
+   "mean": 0.006,
+   "range": 0.004
+  },
+  "total": {
+   "by_seed": [
+    0.053,
+    0.057,
+    0.054
+   ],
+   "mean": 0.055,
+   "range": 0.004
+  },
+  "truncated_replies": 0
+ },
+ "Qwen2.5-32B|movies": {
+  "original": 0.029,
+  "fresh": [
+   0.029,
+   0.034,
+   0.04
+  ],
+  "surrogatewords": [
+   0.004,
+   0.016,
+   0.016
+  ],
+  "surrogate": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "entity": {
+   "by_seed": [
+    0.025,
+    0.018,
+    0.024
+   ],
+   "mean": 0.022,
+   "range": 0.008
+  },
+  "spelling": {
+   "by_seed": [
+    0.004,
+    0.016,
+    0.016
+   ],
+   "mean": 0.012,
+   "range": 0.012
+  },
+  "total": {
+   "by_seed": [
+    0.029,
+    0.029,
+    0.029
+   ],
+   "mean": 0.029,
+   "range": 0.0
+  },
+  "truncated_replies": 0
+ },
+ "DeepSeek-V4-Pro|movies": {
+  "original": 0.363,
+  "fresh": [
+   0.452,
+   0.436,
+   0.477
+  ],
+  "surrogatewords": [
+   0.043,
+   0.049,
+   0.039
+  ],
+  "surrogate": [
+   0.011,
+   0.0,
+   0.007
+  ],
+  "entity": {
+   "by_seed": [
+    0.41,
+    0.387,
+    0.438
+   ],
+   "mean": 0.411,
+   "range": 0.051
+  },
+  "spelling": {
+   "by_seed": [
+    0.032,
+    0.049,
+    0.032
+   ],
+   "mean": 0.037,
+   "range": 0.018
+  },
+  "total": {
+   "by_seed": [
+    0.352,
+    0.363,
+    0.356
+   ],
+   "mean": 0.357,
+   "range": 0.011
+  },
+  "truncated_replies": 0
+ },
+ "Qwen3.8-Max|movies": {
+  "original": 0.295,
+  "fresh": [
+   0.443,
+   0.418,
+   0.401
+  ],
+  "surrogatewords": [
+   0.024,
+   0.031,
+   0.019
+  ],
+  "surrogate": [
+   0.004,
+   0.0,
+   0.011
+  ],
+  "entity": {
+   "by_seed": [
+    0.419,
+    0.387,
+    0.382
+   ],
+   "mean": 0.396,
+   "range": 0.037
+  },
+  "spelling": {
+   "by_seed": [
+    0.021,
+    0.031,
+    0.009
+   ],
+   "mean": 0.02,
+   "range": 0.022
+  },
+  "total": {
+   "by_seed": [
+    0.292,
+    0.295,
+    0.285
+   ],
+   "mean": 0.29,
+   "range": 0.011
+  },
+  "truncated_replies": 0
+ },
+ "GLM-5.3|movies": {
+  "original": 0.108,
+  "fresh": [
+   0.204,
+   0.181,
+   0.219
+  ],
+  "surrogatewords": [
+   0.038,
+   0.039,
+   0.033
+  ],
+  "surrogate": [
+   0.01,
+   0.01,
+   0.005
+  ],
+  "entity": {
+   "by_seed": [
+    0.166,
+    0.142,
+    0.186
+   ],
+   "mean": 0.165,
+   "range": 0.044
+  },
+  "spelling": {
+   "by_seed": [
+    0.028,
+    0.029,
+    0.028
+   ],
+   "mean": 0.028,
+   "range": 0.001
+  },
+  "total": {
+   "by_seed": [
+    0.098,
+    0.098,
+    0.103
+   ],
+   "mean": 0.1,
+   "range": 0.005
+  },
+  "truncated_replies": 7
+ },
+ "GPT-6.1-Sol|movies": {
+  "original": 0.115,
+  "fresh": [
+   0.367,
+   0.366,
+   0.394
+  ],
+  "surrogatewords": [
+   0.05,
+   0.05,
+   0.045
+  ],
+  "surrogate": [
+   0.035,
+   0.04,
+   0.035
+  ],
+  "entity": {
+   "by_seed": [
+    0.317,
+    0.316,
+    0.349
+   ],
+   "mean": 0.327,
+   "range": 0.032
+  },
+  "spelling": {
+   "by_seed": [
+    0.014,
+    0.009,
+    0.01
+   ],
+   "mean": 0.011,
+   "range": 0.005
+  },
+  "total": {
+   "by_seed": [
+    0.08,
+    0.075,
+    0.08
+   ],
+   "mean": 0.079,
+   "range": 0.005
+  },
+  "truncated_replies": 0
+ }
+}

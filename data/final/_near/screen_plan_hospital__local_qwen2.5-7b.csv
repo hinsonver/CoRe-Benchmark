@@ -1,0 +1,25 @@
+name,city,state,answer,known
+baylor university medical center,dallas,tx,"Dallas, TX",True
+barnes jewish hospital,saint louis,mo,"St. Louis, MO",True
+beth israel deaconess medical center,boston,ma,"Boston, MA",True
+st jude childrens research hospital,memphis,tn,"Memphis, TN",True
+lenox hill hospital,new york,ny,"New York, NY",True
+massachusetts general hospital,boston,ma,"Boston, MA",True
+northwestern memorial hospital,chicago,il,"Chicago, IL",True
+ronald reagan ucla medical center,los angeles,ca,"Los Angeles, CA",True
+university of iowa hospital & clinics,iowa city,ia,"Iowa City, IA",True
+vanderbilt university medical center,nashville,tn,"Nashville, TN",True
+geisinger medical center,danville,pa,"Danville, PA",True
+harborview medical center,seattle,wa,"Seattle, WA",True
+intermountain medical center,murray,ut,"Salt Lake City, UT",False
+upmc presbyterian shadyside,pittsburgh,pa,"Pittsburgh, PA",True
+texas childrens hospital,houston,tx,"Houston, TX",True
+emory university hospital,atlanta,ga,"Atlanta, GA",True
+mainehealth maine medical center,portland,me,"Portland, ME",True
+keck hospital of usc,los angeles,ca,"Los Angeles, CA",True
+brigham and women's hospital,boston,ma,"Boston, MA",True
+"johns hopkins hospital, the",baltimore,md,"Baltimore, MD",True
+jackson health system,miami,fl,"Miami, FL",True
+duke university hospital,durham,nc,"Durham, NC",True
+scripps mercy hospital,san diego,ca,"San Diego, CA",True
+university of kansas hospital,kansas city,ks,"Kansas City, MO",False

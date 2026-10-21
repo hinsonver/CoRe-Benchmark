@@ -1,0 +1,370 @@
+{
+ "summary": {
+  "model": "localbase:allenai/OLMo-2-1124-7B",
+  "dataset": "tax",
+  "source": "clean",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.5401,
+  "acc_noninferable": 0.0022,
+  "noninferable_cells": 463,
+  "acc_hard": 0.0,
+  "hard_cells": 453,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "f_name": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "l_name": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "area_code": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.021,
+    "structural": 0.042
+   },
+   "phone": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "city": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.04,
+    "trans": 0.0,
+    "structural": 0.04
+   },
+   "state": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.021,
+    "trans": 0.0,
+    "structural": 0.043
+   },
+   "zip": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "salary": {
+    "n": 31,
+    "model": 0.032,
+    "freq": 0.0,
+    "trans": 0.065,
+    "structural": 0.065
+   },
+   "rate": {
+    "n": 39,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.026,
+    "structural": 0.026
+   },
+   "married_exemp": {
+    "n": 18,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "child_exemp": {
+    "n": 12,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "single_exemp": {
+    "n": 17,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "gender": {
+    "n": 1,
+    "model": 0.0,
+    "freq": 1.0,
+    "trans": 1.0,
+    "structural": 1.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 3165,
+   "output": "Kiyoshi,Stewart,M,269,348-3484,ELKTON,MD,21001,S,Y,45000,3.9,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3455,
+   "output": "Sylvia,Strohmann,F,212,212-2121,NEW YORK,NY,10001,S,Y,80000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 341,
+   "output": "Sarai,Stevens,M,408,412-3483,SAN JOSE,CA,95112,S,Y,75000,6.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2131,
+   "output": "Sarai,DeBellis,F,620,181-6309,BURNS,KS,66840,M,Y,40000,6.45,0,4500,2250",
+   "parsed": true
+  },
+  {
+   "row": 4198,
+   "output": "Sarita,Stewart,M,801,433-4333,STANTON,UT,84076,S,Y,50000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3990,
+   "output": "Kazuki,Strohbehn,F,801,555-3483,SALT LAKE CITY,UT,84101,S,Y,75000,8.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3327,
+   "output": "Kazuyo,Erbe,F,208,498-4700,IDAHO FALLS,ID,83406,S,N,65000,7.8,3300,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2494,
+   "output": "Kazuki,Graehl,F,203,731-3735,HARTFORD,CT,6152,S,Y,75000,5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3914,
+   "output": "Suzanne,Stewart,F,510,293-3484,PORTLAND,OR,97201,S,Y,70000,7,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2943,
+   "output": "Sarai,Stevens,M,404,412-3483,ROCKFORD,IL,61101,M,Y,50000,6.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4789,
+   "output": "Koichi,Stevens,M,773,555-3483,CHICAGO,IL,60626,S,Y,100000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1799,
+   "output": "Dierk,Greif,M,660,543-4444,COLLINS,MO,64738,S,N,15000,6,2100,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4144,
+   "output": "Sarai,Stewart,M,773,412-3483,CHICAGO,IL,60626,M,Y,45000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1150,
+   "output": "Sarabia,McKenna,F,510,212-3483,SAN FRANCISCO,CA,94110,M,Y,50000,4.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2318,
+   "output": "Dennis,Stevens,F,801,555-3483,ARIZONA,AZ,85000,S,Y,10000,3.4,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1154,
+   "output": "Sarwar,McKenna,M,302,412-3483,NEWARK,DE,19702,S,Y,10000,4.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "Dennis,Stewart,M,301,555-3483,ROCKFORD,IL,61101,S,Y,80000,3.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2062,
+   "output": "Serafio,Strohmann,F,202,541-3678,WASHINGTON,DC,20224,S,Y,50000,9,1370,0,1370",
+   "parsed": true
+  },
+  {
+   "row": 4372,
+   "output": "Sarai,Shah,M,801,412-3483,ELKTON,WA,98024,S,Y,50000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4940,
+   "output": "Kris,McMains,M,402,162-3382,MYLO,ND,58353,S,Y,30000,2.1034775,3300,0,3300",
+   "parsed": true
+  },
+  {
+   "row": 1213,
+   "output": "Sarath,Chen,F,773,412-3483,CHICAGO,IL,60601,S,Y,50000,5.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2550,
+   "output": "Suzanne,Stewart,M,401,433-3483,ALBANY,CA,94501,S,Y,50000,3.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 819,
+   "output": "Dennis,Stewart,F,801,648-9169,TRIDELL,UT,84076,M,Y,95000,7,0,4950,0",
+   "parsed": true
+  },
+  {
+   "row": 614,
+   "output": "Dexter,Jutla,M,715,464-1076,NEOPIT,WI,54150,M,Y,80000,5.836415,0,1400,400",
+   "parsed": true
+  },
+  {
+   "row": 2714,
+   "output": "Kiyotaka,Waymire,M,402,959-2974,CAMBRIDGE,NE,69022,S,N,60000,6.84,103,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3877,
+   "output": "Sarai,Stewart,M,305,773-4333,ORLANDO,FL,32817,S,Y,100000,6.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4595,
+   "output": "Sarai,DeTurk,F,212,412-3483,ROCKFORD,IL,61101,S,Y,65000,6,4500,0,0",
+   "parsed": true
+  },
+  {
+   "row": 834,
+   "output": "Sergey,Stark,M,920,212-3483,ALBUQUERQUE,NM,87102,S,Y,40000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2908,
+   "output": "Kathleen,Strohmann,F,212,212-2003,NEW YORK,NY,10039,M,Y,80000,4.4170732,0,0,1000",
+   "parsed": true
+  },
+  {
+   "row": 3566,
+   "output": "Sarai,Stewart,F,541,847-5677,BEAVERTON,OR,97007,S,Y,20000,9,159,0,159",
+   "parsed": true
+  },
+  {
+   "row": 2600,
+   "output": "Kiyoshi,Stewart,M,801,555-3483,SALT LAKE CITY,UT,84190,M,Y,70000,7,0,4950,2475",
+   "parsed": true
+  },
+  {
+   "row": 1685,
+   "output": "Rajesh,Chandran,F,302,401-3483,NEWARK,DE,19702,M,Y,100000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4536,
+   "output": "Zhuang,Strohmann,F,212,773-3483,CHICAGO,IL,60601,M,Y,100000,5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3917,
+   "output": "Sudipto,Devgan,M,505,836-5092,ANIMAS,NM,88020,S,N,100000,5.3,3300,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3636,
+   "output": "Sarvesh,Stewart,M,801,212-3483,SEATTLE,WA,98101,M,Y,85000,3.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4280,
+   "output": "Dhruv,Stewart,F,801,412-3483,SALT LAKE CITY,UT,84101,S,Y,45000,6.9,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2143,
+   "output": "Suresh,Biss,M,406,234-4288,HUNGRY HORSE,MT,59919,S,Y,35000,6.9,1900,0,1900",
+   "parsed": true
+  },
+  {
+   "row": 520,
+   "output": "Dennis,Stevens,M,404,412-3483,ALBUQUERQUE,NM,87119,S,Y,10000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4504,
+   "output": "Kiyoshi,Stolcke,F,775,799-3012,SPARKS,NV,89435,M,Y,70000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 125,
+   "output": "Kai,McDowell,F,412,412-4124,PORTERVILLE,MS,39352,S,Y,100000,5.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 774,
+   "output": "Sarai,Stewart,F,801,412-3484,ALBUQUERQUE,NM,87108,M,Y,50000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3277,
+   "output": "Kazuko,Shimada,F,801,401-3484,ROCKFORD,IL,61101,M,Y,45000,3.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 19,
+   "output": "Violet,Shaw,M,212,555-3233,NEW YORK,NY,10001,S,Y,70000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4053,
+   "output": "Vishesh,Kukimoto,M,724,713-4928,DUSHORE,PA,18614,S,Y,70000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2739,
+   "output": "Kirkwood,Stewart,M,510,212-3483,ALBANY,CA,94501,M,Y,10000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2008,
+   "output": "Kazuko,Stewart,F,701,555-3483,ELK CITY,OK,73601,S,Y,60000,4.75,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2674,
+   "output": "Diana,Stark,M,510,332-4604,ROCHESTER,NY,14650,S,Y,45000,4.2143292,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 525,
+   "output": "Kirk,Stevens,M,401,433-3484,ALBUQUERQUE,NM,87119,S,Y,55000,5.3,3300,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1575,
+   "output": "Suzanne,Stewart,F,801,734-3483,SALT LAKE CITY,UT,84101,S,Y,100000,0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4659,
+   "output": "Kirk,Stewart,M,801,412-3483,SALT LAKE CITY,UT,84124,M,Y,40000,7,0,4950,2475",
+   "parsed": true
+  }
+ ]
+}

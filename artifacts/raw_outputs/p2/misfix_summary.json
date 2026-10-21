@@ -1,0 +1,193 @@
+{
+  "hospital": {
+    "identity_cells": 7000,
+    "wrong_edits": 26,
+    "labels": {
+      "misrepair": 26
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  },
+  "hospital_fresh": {
+    "identity_cells": 7000,
+    "wrong_edits": 11,
+    "labels": {
+      "misrepair": 11
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  },
+  "hospital_surrogatewords": {
+    "identity_cells": 7000,
+    "wrong_edits": 94,
+    "labels": {
+      "misrepair": 94
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  },
+  "hospital_surrogate": {
+    "identity_cells": 7000,
+    "wrong_edits": 104,
+    "labels": {
+      "misrepair": 101,
+      "tweak": 3
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  },
+  "movies": {
+    "identity_cells": 5000,
+    "wrong_edits": 58,
+    "labels": {
+      "other": 2,
+      "misrepair": 51,
+      "tweak": 2,
+      "real": 3
+    },
+    "knowledge_induced": 3,
+    "knowledge_induced_on_correct_cells": 1
+  },
+  "movies_fresh": {
+    "identity_cells": 5000,
+    "wrong_edits": 99,
+    "labels": {
+      "misrepair": 60,
+      "real": 32,
+      "tweak": 1,
+      "other": 5,
+      "format": 1
+    },
+    "knowledge_induced": 32,
+    "knowledge_induced_on_correct_cells": 22
+  },
+  "movies_surrogatewords": {
+    "identity_cells": 5000,
+    "wrong_edits": 122,
+    "labels": {
+      "misrepair": 115,
+      "tweak": 1,
+      "other": 5,
+      "real": 1
+    },
+    "knowledge_induced": 1,
+    "knowledge_induced_on_correct_cells": 1
+  },
+  "movies_surrogate": {
+    "identity_cells": 5000,
+    "wrong_edits": 136,
+    "labels": {
+      "misrepair": 109,
+      "other": 26,
+      "tweak": 1
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  },
+  "beers_orig": {
+    "identity_cells": 3000,
+    "wrong_edits": 2,
+    "labels": {
+      "tweak": 1,
+      "real": 1
+    },
+    "knowledge_induced": 1,
+    "knowledge_induced_on_correct_cells": 1
+  },
+  "beers_fresh": {
+    "identity_cells": 3000,
+    "wrong_edits": 5,
+    "labels": {
+      "tweak": 5
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  },
+  "beers_surrogatewords": {
+    "identity_cells": 3000,
+    "wrong_edits": 34,
+    "labels": {
+      "format": 20,
+      "tweak": 7,
+      "real": 3,
+      "misrepair": 1,
+      "other": 3
+    },
+    "knowledge_induced": 3,
+    "knowledge_induced_on_correct_cells": 2
+  },
+  "beers_surrogate": {
+    "identity_cells": 3000,
+    "wrong_edits": 8,
+    "labels": {
+      "tweak": 6,
+      "format": 2
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  },
+  "beers_fresh@v1": {
+    "identity_cells": 3000,
+    "wrong_edits": 53,
+    "labels": {
+      "real": 40,
+      "tweak": 4,
+      "other": 9
+    },
+    "knowledge_induced": 40,
+    "knowledge_induced_on_correct_cells": 40
+  },
+  "beers_surrogatewords@v1": {
+    "identity_cells": 3000,
+    "wrong_edits": 157,
+    "labels": {
+      "other": 59,
+      "restore": 37,
+      "real": 32,
+      "tweak": 16,
+      "format": 7,
+      "misrepair": 6
+    },
+    "knowledge_induced": 69,
+    "knowledge_induced_on_correct_cells": 63
+  },
+  "beers_surrogate@v1": {
+    "identity_cells": 3000,
+    "wrong_edits": 62,
+    "labels": {
+      "format": 5,
+      "tweak": 6,
+      "restore": 20,
+      "real": 23,
+      "other": 8
+    },
+    "knowledge_induced": 43,
+    "knowledge_induced_on_correct_cells": 40
+  },
+  "beers_surrogatewords@v2": {
+    "identity_cells": 3000,
+    "wrong_edits": 95,
+    "labels": {
+      "format": 4,
+      "other": 23,
+      "real": 36,
+      "tweak": 21,
+      "restore": 9,
+      "misrepair": 2
+    },
+    "knowledge_induced": 45,
+    "knowledge_induced_on_correct_cells": 40
+  },
+  "beers_surrogatewords@v3": {
+    "identity_cells": 3000,
+    "wrong_edits": 52,
+    "labels": {
+      "other": 39,
+      "tweak": 4,
+      "misrepair": 4,
+      "format": 5
+    },
+    "knowledge_induced": 0,
+    "knowledge_induced_on_correct_cells": 0
+  }
+}

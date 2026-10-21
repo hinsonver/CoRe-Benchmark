@@ -1,0 +1,545 @@
+name,city,state,answer,known
+10 Barrel Brewing Company,Bend,OR,"Bend, OR",True
+18th Street Brewery,Gary,IN,"Gary, IN",True
+2 Towns Ciderhouse,Corvallis,OR,"Corvallis, OR",True
+21st Amendment Brewery,San Francisco,CA,"San Francisco, CA",True
+3 Daughters Brewing,St Petersburg,FL,"St. Petersburg, FL",True
+4 Hands Brewing Company,Saint Louis,MO,"St. Louis, MO",True
+450 North Brewing Company,Columbus,IN,"Columbus, IN",True
+7 Seas Brewing Company,Gig Harbor,WA,"Gig Harbor, WA",True
+7venth Sun,Dunedin,FL,"Dunedin, FL",True
+AC Golden Brewing Company,Golden,CO,"Golden, CO",True
+Abita Brewing Company,Abita Springs,LA,"Abita Springs, LA",True
+Against The Grain Brewery,Louisville,KY,"Louisville, KY",True
+Against the Grain Brewery,Louisville,KY,"Louisville, KY",True
+Airways Brewing Company,Kent,WA,"Kent, WA",True
+Alameda Brewing,Portland,OR,"Portland, OR",True
+Alaskan Brewing Company,Juneau,AK,"Juneau, AK",True
+Ale Asylum,Madison,WI,"Madison, WI",True
+Alltech's Lexington Brewing Company,Lexington,KY,"Lexington, KY",True
+Amnesia Brewing Company,Washougal,WA,"Portland, OR",False
+Anchor Brewing Company,San Francisco,CA,"San Francisco, CA",True
+Anderson Valley Brewing Company,Boonville,CA,"Boonville, CA",True
+Angry Minnow,Hayward,WI,"Hayward, WI",True
+Angry Minnow Brewing Company,Hayward,WI,"Hayward, WI",True
+Angry Orchard Cider Company,Cincinnati,OH,"Walden, NY",False
+Anthem Brewing Company,Oklahoma City,OK,"Oklahoma City, OK",True
+Appalachian Mountain Brewery,Boone,NC,"Boone, NC",True
+Arcadia Brewing Company,Battle Creek,MI,"Kalamazoo, MI",False
+Arctic Craft Brewery,Colorado Springs,CO,"Colorado Springs, CO",True
+Armadillo Ale Works,Denton,TX,"Denton, TX",True
+Armstrong Brewing Company,South San Francisco,CA,"South San Francisco, CA",True
+Asher Brewing Company,Boulder,CO,"Boulder, CO",True
+Asheville Brewing Company,Asheville,NC,"Asheville, NC",True
+Aslan Brewing Company,Bellingham,WA,"Bellingham, WA",True
+Aspen Brewing Company,Aspen,CO,"Aspen, CO",True
+Astoria Brewing Company,Astoria,OR,"Astoria, OR",True
+Atwater Brewery,Detroit,MI,"Detroit, MI",True
+Austin Beerworks,Austin,TX,"Austin, TX",True
+Avery Brewing Company,Boulder,CO,"Boulder, CO",True
+Aviator Brewing Company,Fuquay-Varina,NC,"Fuquay-Varina, NC",True
+Back East Brewing Company,Bloomfield,CT,"Bloomfield, CT",True
+Back Forty Beer Company,Gadsden,AL,"Gadsden, AL",True
+Bale Breaker Brewing Company,Yakima,WA,"Yakima, WA",True
+Ballast Point Brewing Company,San Diego,CA,"San Diego, CA",True
+Banner Beer Company,Williamsburg,MA,"Brewer, ME",False
+Bare Hands Brewery,Granger,IN,"Granger, IN",True
+Barrio Brewing Company,Tucson,AZ,"Tucson, AZ",True
+Base Camp Brewing Co.,Portland,OR,"Portland, OR",True
+Bauhaus Brew Labs,Minneapolis,MN,"Minneapolis, MN",True
+Baxter Brewing Company,Lewiston,ME,"Lewiston, ME",True
+Beach Brewing Company,Virginia Beach,VA,"Virginia Beach, VA",True
+Beer Works Brewery,Lowell,MA,"Boston, MA",False
+Bell's Brewery,Kalamazoo,MI,"Kalamazoo, MI",True
+Bent Brewstillery,Roseville,MN,"Roseville, MN",True
+Bent Paddle Brewing Company,Duluth,MN,"Duluth, MN",True
+Berkshire Brewing Company,South Deerfield,MA,"South Deerfield, MA",True
+Big Bend Brewing Company,Alpine,TX,"Alpine, TX",True
+Big Choice Brewing,Broomfield,CO,"Brighton, CO",False
+Big Elm Brewing,Sheffield,MA,"Sheffield, MA",True
+Big Lake Brewing,Holland,MI,"Holland, MI",True
+Big Muddy Brewing,Murphysboro,IL,"Murphysboro, IL",True
+Big River Brewing Company,Chattanooga,TN,"Chattanooga, TN",True
+Big Sky Brewing Company,Missoula,MT,"Missoula, MT",True
+Big Storm Brewing Company,Odessa,FL,"Clearwater, FL",False
+Big Wood Brewery,Vadnais Heights,MN,"Vadnais Heights, MN",True
+Birdsong Brewing Company,Charlotte,NC,"Charlotte, NC",True
+Bitter Root Brewing,Hamilton,MT,"Hamilton, MT",True
+Black Acre Brewing Co.,Indianapolis,IN,"Indianapolis, IN",True
+Black Market Brewing Company,Temecula,CA,"Temecula, CA",True
+Black Shirt Brewing Company,Denver,CO,"Denver, CO",True
+Black Tooth Brewing Company,Sheridan,WY,"Sheridan, WY",True
+Blue Blood Brewing Company,Lincoln,NE,"Lincoln, NE",True
+Blue Dog Mead,Eugene,OR,"Eugene, OR",True
+Blue Hills Brewery,Canton,MA,"Canton, MA",True
+Blue Owl Brewing,Austin,TX,"Austin, TX",True
+Blue Point Brewing Company,Patchogue,NY,"Patchogue, NY",True
+Bohemian Brewery,Midvale,UT,"Midvale, UT",True
+Bold City Brewery,Jacksonville,FL,"Jacksonville, FL",True
+Bolero Snort Brewery,Ridgefield Park,NJ,"Carlstadt, NJ",False
+Bomb Beer Company,New York,NY,"Lexington, KY",False
+Bonfire Brewing Company,Eagle,CO,"Eagle, CO",True
+Borderlands Brewing Company,Tucson,AZ,"Tucson, AZ",True
+Boston Beer Company,Boston,MA,"Boston, MA",True
+Boulder Beer Company,Boulder,CO,"Boulder, CO",True
+Boulevard Brewing Company,Kansas City,MO,"Kansas City, MO",True
+Boxcar Brewing Company,West Chester,PA,"West Chester, PA",True
+Bozeman Brewing Company,Bozeman,MT,"Bozeman, MT",True
+Branchline Brewing Company,San Antonio,TX,"San Antonio, TX",True
+Breakside Brewery,Portland,OR,"Portland, OR",True
+Breckenridge Brewery,Denver,CO,"Breckenridge, CO",False
+Brew Bus Brewing,Tampa,FL,"Tampa, FL",True
+Brew Link Brewing,Plainfield,IN,"Plainfield, IN",True
+Brewery Terra Firma,Traverse City,MI,"Traverse City, MI",True
+Brewery Vivant,Grand Rapids,MI,"Grand Rapids, MI",True
+Brindle Dog Brewing Company,Tampa Bay,FL,"Tampa, FL",False
+Broad Brook Brewing LLC,East Windsor,CT,"East Windsor, CT",True
+Broken Tooth Brewing Company,Anchorage,AK,"Anchorage, AK",True
+Brooklyn Brewery,Brooklyn,NY,"Brooklyn, NY",True
+Buckbean Brewing Company,Reno,NV,"Reno, NV",True
+Buckeye Brewing,Cleveland,OH,"Bedford, OH",False
+BuckleDown Brewing,Lyons,IL,"Lyons, IL",True
+Buffalo Bayou Brewing Company,Houston,TX,"Houston, TX",True
+Burn 'Em Brewing,Michigan City,IN,"Michigan City, IN",True
+Burnside Brewing Co.,Portland,OR,"Portland, OR",True
+Butcher's Brewing,Carlsbad,CA,"Santee, CA",False
+Butternuts Beer and Ale,Garrattsville,NY,"Garrattsville, NY",True
+COAST Brewing Company,Charleston,SC,"North Charleston, SC",False
+COOP Ale Works,Oklahoma City,OK,"Oklahoma City, OK",True
+Caldera Brewing Company,Ashland,OR,"Ashland, OR",True
+Cambridge Brewing Company,Cambridge,MA,"Cambridge, MA",True
+Cans Bar and Canteen,Charlotte,NC,"Charlotte, NC",True
+Cape Ann Brewing Company,Gloucester,MA,"Gloucester, MA",True
+Cape Cod Beer,Hyannis,MA,"Hyannis, MA",True
+Capital Brewery,Middleton,WI,"Middleton, WI",True
+Carolina Beer & Beverage,Mooresville,NC,"Mooresville, NC",True
+Carolina Brewery,Pittsboro,NC,"Chapel Hill, NC",False
+Carton Brewing Company,Atlantic Highlands,NJ,"Atlantic Highlands, NJ",True
+Cascadia Ciderworks United,Portland,OR,"Portland, OR",True
+Catawba Brewing Company,Morganton,NC,"Morganton, NC",True
+Catawba Island Brewing,Port Clinton,OH,"Port Clinton, OH",True
+Catawba Valley Brewing Company,Morganton,NC,"Morganton, NC",True
+Cedar Creek Brewery,Seven Points,TX,"Seven Points, TX",True
+Centennial Beer Company,Edwards,CO,"Denver, CO",False
+Center of the Universe Brewing C...,Ashland,VA,"Ashland, VA",True
+Central Coast Brewing Company,San Luis Obispo,CA,"San Luis Obispo, CA",True
+Champion Brewing Company,Charlottesville,VA,"Charlottesville, VA",True
+Chapman's Brewing,Angola,IN,"Angola, IN",True
+Chatham Brewing,Chatham,NY,"Chatham, NY",True
+Cheboygan Brewing Company,Cheboygan,MI,"Cheboygan, MI",True
+Christian Moerlein Brewing Company,Cincinnati,OH,"Cincinnati, OH",True
+Churchkey Can Company,Seattle,WA,"Seattle, WA",True
+Ciderboys,Stevens Point,WI,"Stevens Point, WI",True
+Cigar City Brewing Company,Tampa,FL,"Tampa, FL",True
+Cisco Brewers,Nantucket,MA,"Nantucket, MA",True
+Claremont Craft Ales,Claremont,CA,"Claremont, CA",True
+Coalition Brewing Company,Portland,OR,"Portland, OR",True
+Coastal Empire Beer Company,Savannah,GA,"Savannah, GA",True
+Coastal Extreme Brewing Company,Newport,RI,"Newport, RI",True
+College Street Brewhouse and Pub,Lake Havasu City,AZ,"Lake Havasu City, AZ",True
+Confluence Brewing Company,Des Moines,IA,"Des Moines, IA",True
+Core Brewing & Distilling Company,Springdale,AR,"Springdale, AR",True
+Cottrell Brewing,Pawcatuck,CT,"Pawcatuck, CT",True
+Covington Brewhouse,Covington,LA,"Covington, LA",True
+Crabtree Brewing Company,Greeley,CO,"Greeley, CO",True
+Crazy Mountain Brewing Company,Edwards,CO,"Denver, CO",False
+Creature Comforts,Athens,GA,"Athens, GA",True
+Crooked Fence Brewing Company,Garden City,ID,"Garden City, ID",True
+Crow Peak Brewing Company,Spearfish,SD,"Spearfish, SD",True
+Crystal Springs Brewing Company,Boulder,CO,"Louisville, CO",False
+Cutters Brewing Company,Avon,IN,"Bloomington, IN",False
+D.L. Geary Brewing Company,Portland,ME,"Portland, ME",True
+DC Brau Brewing Company,Washington,DC,"Washington, DC",True
+Dad & Dude's Breweria,Aurora,CO,"Aurora, CO",True
+Daredevil Brewing Company,Shelbyville,IN,"Speedway, IN",False
+Dave's Brewfarm,Wilson,WI,"Wilson, WI",True
+David's Ale Works,Diamond Springs,CA,"San Francisco, CA",False
+Dead Armadillo Craft Brewing,Tulsa,OK,"Tulsa, OK",True
+Deep Ellum Brewing Company,Dallas,TX,"Dallas, TX",True
+Defiance Brewing Company,Hays,KS,"Hays, KS",True
+Denali Brewing Company,Talkeetna,AK,"Talkeetna, AK",True
+Denver Beer Company,Denver,CO,"Denver, CO",True
+Deschutes Brewery,Bend,OR,"Bend, OR",True
+Destihl Brewery,Bloomington,IL,"Normal, IL",False
+Devil's Backbone Brewing Company,Lexington,VA,"Roseland, VA",False
+Devil's Canyon Brewery,Belmont,CA,"San Carlos, CA",False
+Dick's Brewing Company,Centralia,WA,"Centralia, WA",True
+Dirty Bucket Brewing Company,Woodinville,WA,"Woodinville, WA",True
+Dock Street Brewery,Philadelphia,PA,"Philadelphia, PA",True
+Dolores River Brewery,Dolores,CO,"Dolores, CO",True
+Downeast Cider House,Leominster,MA,"Boston, MA",False
+Dry Dock Brewing Company,Aurora,CO,"Aurora, CO",True
+Due South Brewing Company,Boynton Beach,FL,"Boynton Beach, FL",True
+Dundee Brewing Company,Rochester,NY,"Rochester, NY",True
+Eddyline Brewery & Restaurant,Buena Vista,CO,"Buena Vista, CO",True
+Elevator Brewing Company,Columbus,OH,"Columbus, OH",True
+Emerald City Beer Company,Seattle,WA,"Seattle, WA",True
+Engine 15 Brewing,Jacksonville Beach,FL,"Jacksonville, FL",False
+Engine House 9,Tacoma,WA,"Tacoma, WA",True
+Epic Brewing,Denver,CO,"Salt Lake City, UT",False
+Everybody's Brewing,White Salmon,WA,"White Salmon, WA",True
+Evil Czech Brewery,Mishawaka,IN,"Mishawaka, IN",True
+Evil Twin Brewing,Brooklyn,NY,"Brooklyn, NY",True
+Fargo Brewing Company,Fargo,ND,"Fargo, ND",True
+Fat Head's Brewery,Middleburg Heights,OH,"Middleburg Heights, OH",True
+Fate Brewing Company,Boulder,CO,"Boulder, CO",True
+Fearless Brewing Company,Estacada,OR,"Estacada, OR",True
+Fiddlehead Brewing Company,Shelburne,VT,"Shelburne, VT",True
+Figueroa Mountain Brewing Company,Buellton,CA,"Buellton, CA",True
+Finch's Beer Company,Chicago,IL,"Chicago, IL",True
+Firestone Walker Brewing Company,Paso Robles,CA,"Paso Robles, CA",True
+Flat 12 Bierwerks,Indianapolis,IN,"Indianapolis, IN",True
+Flat Rock Brewing Company,Smithton,PA,"Flat Rock, NC",False
+Flesk Brewing Company,Lombard,IL,"Barrington, IL",False
+Flying Dog Brewery,Frederick,MD,"Frederick, MD",True
+Flying Mouse Brewery,Troutville,VA,"Troutville, VA",True
+Foolproof Brewing Company,Pawtucket,RI,"Pawtucket, RI",True
+Forgotten Boardwalk,Cherry Hill,NJ,"Cherry Hill, NJ",True
+Fort George Brewery,Astoria,OR,"Astoria, OR",True
+Fort Pitt Brewing Company,Latrobe,PA,"Sharpsburg, PA",False
+Fort Point Beer Company,San Francisco,CA,"San Francisco, CA",True
+Founders Brewing Company,Grand Rapids,MI,"Grand Rapids, MI",True
+Four Corners Brewing Company,Dallas,TX,"Dallas, TX",True
+Four Fathers Brewing,Valparaiso,IN,"Valparaiso, IN",True
+Four Horsemen Brewing Company,South Bend,IN,"South Bend, IN",True
+Four Peaks Brewing Company,Tempe,AZ,"Tempe, AZ",True
+Four String Brewing Company,Columbus,OH,"Columbus, OH",True
+Frankenmuth Brewery,Frankenmuth,MI,"Frankenmuth, MI",True
+Freetail Brewing Company,San Antonio,TX,"San Antonio, TX",True
+Fremont Brewing Company,Seattle,WA,"Seattle, WA",True
+French Broad Brewery,Asheville,NC,"Asheville, NC",True
+Frog Level Brewing Company,Waynesville,NC,"Waynesville, NC",True
+Fullsteam Brewery,Durham,NC,"Durham, NC",True
+Geneva Lake Brewing Company,Lake Geneva,WI,"Lake Geneva, WI",True
+Glabrous Brewing Company,Pineland,ME,"I wasn't able to find a US brewery called ""Glabrous Brewing Company"" in my knowledge base. It may be a very new, very small, or fictional brewery, or there might",False
+Golden Road Brewing,Los Angeles,CA,"Los Angeles, CA",True
+Gonzo's BiggDogg Brewing,Kalamazoo,MI,"Kalamazoo, MI",True
+Good Life Brewing Company,Bend,OR,"Bend, OR",True
+Good People Brewing Company,Birmingham,AL,"Birmingham, AL",True
+Goodlife Brewing Co.,Bend,OR,"Bend, OR",True
+Goose Island Brewery Company,Chicago,IL,"Chicago, IL",True
+Goose Island Brewing Company,Chicago,IL,"Chicago, IL",True
+Gore Range Brewery,Edwards,CO,"Edwards, CO",True
+Grand Canyon Brewing Company,Williams,AZ,"Williams, AZ",True
+Grapevine Craft Brewery,Farmers Branch,TX,"Grapevine, TX",False
+Great Crescent Brewery,Aurora,IN,"Aurora, IN",True
+Great Divide Brewing Company,Denver,CO,"Denver, CO",True
+Great Northern Brewing Company,Whitefish,MT,"Whitefish, MT",True
+Great Raft Brewing Company,Shreveport,LA,"Shreveport, LA",True
+Great River Brewery,Davenport,IA,"Davenport, IA",True
+Green Room Brewing,Jacksonville,FL,"Jacksonville Beach, FL",False
+Greenbrier Valley Brewing Company,Lewisburg,WV,"Maxwelton, WV",False
+Grey Sail Brewing Company,Westerly,RI,"Westerly, RI",True
+Grey Sail Brewing of Rhode Island,Westerly,RI,"Westerly, RI",True
+Griffin Claw Brewing Company,Birmingham,MI,"Birmingham, MI",True
+Grimm Brothers Brewhouse,Loveland,CO,"Loveland, CO",True
+Hale's Ales,Seattle,WA,"Seattle, WA",True
+Half Acre Beer Company,Chicago,IL,"Chicago, IL",True
+Half Full Brewery,Stamford,CT,"Stamford, CT",True
+Hangar 24 Craft Brewery,Redlands,CA,"Redlands, CA",True
+Hardywood Park Craft Brewery,Richmond,VA,"Richmond, VA",True
+Harpoon Brewery,Boston,MA,"Boston, MA",True
+Harvest Moon Brewing Company,Belt,MT,"New Brunswick, NJ",False
+Hawai'i Nui Brewing Co.,Hilo,HI,"Hilo, HI",True
+Headlands Brewing Company,Mill Valley,CA,"Lafayette, CA",False
+Heavy Seas Beer,Halethorpe,MD,"Baltimore, MD",False
+Hess Brewing Company,San Diego,CA,"San Diego, CA",True
+High Hops Brewery,Windsor,CO,"Windsor, CO",True
+High Noon Saloon And Brewery,Leavenworth,KS,"Leavenworth, WA",False
+Hilliard's Beer,Seattle,WA,"Seattle, WA",True
+Hinterland Brewery,Green Bay,WI,"Green Bay, WI",True
+Hop Farm Brewing Company,Pittsburgh,PA,"Pittsburgh, PA",True
+Hop Valley Brewing Company,Springfield,OR,"Springfield, OR",True
+Hops & Grain Brewery,Austin,TX,"Austin, TX",True
+Hops & Grains Brewing Company,Austin,TX,"Panama City, FL",False
+Hopworks Urban Brewery,Portland,OR,"Portland, OR",True
+Horny Goat Brew Pub,Milwaukee,WI,"Milwaukee, WI",True
+Howard Brewing Company,Lenoir,NC,"Lenoir, NC",True
+Indeed Brewing Company,Minneapolis,MN,"Minneapolis, MN",True
+Independence Brewing Company,Austin,TX,"Austin, TX",True
+Indiana City Brewing,Indianapolis,IN,"Indianapolis, IN",True
+Infamous Brewing Company,Austin,TX,"Austin, TX",True
+Intuition Ale Works,Jacksonville,FL,"Jacksonville, FL",True
+Ipswich Ale Brewery,Ipswich,MA,"Ipswich, MA",True
+Iron Hill Brewery & Restaurant,Wilmington,DE,"Wilmington, DE",True
+Jack's Abby Craft Lagers,Framingham,MA,"Framingham, MA",True
+Jack's Hard Cider (Hauser Estate...,Biglerville,PA,"Biglerville, PA",True
+Jackalope Brewing Company,Nashville,TN,"Nashville, TN",True
+Jackie O's Pub & Brewery,Athens,OH,"Athens, OH",True
+Jailbreak Brewing Company,Laurel,MD,"Laurel, MD",True
+James Page Brewing Company,Stevens Point,WI,"Stevens Point, WI",True
+Joseph James Brewing Company,Henderson,NV,"Henderson, NV",True
+Kalona Brewing Company,Kalona,IA,"Kalona, IA",True
+Karbach Brewing Company,Houston,TX,"Houston, TX",True
+KelSo Beer Company,Brooklyn,NY,"Brooklyn, NY",True
+Kenai River Brewing Company,Soldotna,AK,"Soldotna, AK",True
+Kettle House Brewing Company,Missoula,MT,"Missoula, MT",True
+Keweenaw Brewing Company,Houghton,MI,"Houghton, MI",True
+King Street Brewing Company,Anchorage,AK,"Anchorage, AK",True
+Kirkwood Station Brewing Company,Kirkwood,MO,"Kirkwood, MO",True
+Kona Brewing Company,Kona,HI,"Kailua-Kona, HI",False
+Krebs Brewing Company (Pete's Pl...,Krebs,OK,"Krebs, OK",True
+Kulshan Brewery,Bellingham,WA,"Bellingham, WA",True
+La Cumbre Brewing Company,Albuquerque,NM,"Albuquerque, NM",True
+Lancaster Brewing Company,Lancaster,PA,"Lancaster, PA",True
+Latitude 42 Brewing Company,Portage,MI,"Portage, MI",True
+Laughing Dog Brewing Company,Ponderay,ID,"Ponderay, ID",True
+Lavery Brewing Company,Erie,PA,"Erie, PA",True
+Lazy Monk Brewing,Eau Claire,WI,"Eau Claire, WI",True
+Lewis and Clark Brewing Company,Helena,MT,"Helena, MT",True
+Lift Bridge Brewing Company,Stillwater,MN,"Stillwater, MN",True
+Liquid Hero Brewery,York,PA,"York, PA",True
+Lone Tree Brewing Company,Lone Tree,CO,"Lone Tree, CO",True
+Lonerider Brewing Company,Raleigh,NC,"Raleigh, NC",True
+Long Trail Brewing Company,Bridgewater Corners,VT,"Bridgewater Corners, VT",True
+Lost Nation Brewing,East Fairfield,VT,"Morristown, VT",False
+Lost Rhino Brewing Company,Ashburn,VA,"Ashburn, VA",True
+Lucky Town Brewing Company,Jackson,MS,"Jackson, MS",True
+Lumberyard Brewing Company,Flagstaff,AZ,"Flagstaff, AZ",True
+MacTarnahans Brewing Company,Portland,OR,"Portland, OR",True
+Macon Beer Company,Macon,GA,"Macon, GA",True
+Madtree Brewing Company,Cincinnati,OH,"Cincinnati, OH",True
+Magic Hat Brewing Company,South Burlington,VT,"South Burlington, VT",True
+Mammoth Brewing Company,Mammoth Lakes,CA,"Mammoth Lakes, CA",True
+Manayunk Brewing Company,Philadelphia,PA,"Philadelphia, PA",True
+Manzanita Brewing Company,Santee,CA,"Santee, CA",True
+Marble Brewery,Albuquerque,NM,"Albuquerque, NM",True
+Marshall Wharf Brewing Company,Belfast,ME,"Belfast, ME",True
+Martin House Brewing Company,Fort Worth,TX,"Fort Worth, TX",True
+Matt Brewing Company,Utica,NY,"Utica, NY",True
+Maui Brewing Company,Lahaina,HI,"Kihei, HI",False
+Mavericks Beer Company,Half Moon Bay,CA,"Half Moon Bay, CA",True
+Meckley's Cidery,Somerset Center,MI,"Somerset Center, MI",True
+Mehana Brewing Co.,Hilo,HI,"Hilo, HI",True
+Miami Brewing Company,Miami,FL,"Homestead, FL",False
+Mickey Finn's Brewery,Libertyville,IL,"Libertyville, IL",True
+Midnight Sun Brewing Company,Anchorage,AK,"Anchorage, AK",True
+Mike Hess Brewing Company,San Diego,CA,"San Diego, CA",True
+Mikerphone Brewing,Chicago,IL,"Elk Grove Village, IL",False
+Mikkeller,Pottstown,PA,"San Diego, CA",False
+MillKing It Productions,Royal Oak,MI,"Royal Oak, MI",True
+Milwaukee Brewing Company,Milwaukee,WI,"Milwaukee, WI",True
+Minhas Craft Brewery,Monroe,WI,"Monroe, WI",True
+Mission Brewery,San Diego,CA,"San Diego, CA",True
+Moab Brewery,Moab,UT,"Moab, UT",True
+Moat Mountain Smoke House & Brew...,North Conway,NH,"North Conway, NH",True
+Modern Monks Brewery,Lincoln,NE,"Lincoln, NE",True
+Modern Times Beer,San Diego,CA,"San Diego, CA",True
+Mogollon Brewing Company,Flagstaff,AZ,"Flagstaff, AZ",True
+Monkey Paw Pub & Brewery,San Diego,CA,"San Diego, CA",True
+Montauk Brewing Company,Montauk,NY,"Montauk, NY",True
+Morgan Street Brewery,Saint Louis,MO,"St. Louis, MO",True
+Mother Earth Brew Company,Vista,CA,"Vista, CA",True
+Mother Earth Brewing Company,Kinston,NC,"Vista, CA",False
+Mother's Brewing,Springfield,MO,"Springfield, MO",True
+Mountain Town Brewing Company,Mount Pleasant,MI,"Mt. Pleasant, MI",True
+Mudshark Brewing Company,Lake Havasu City,AZ,"Lake Havasu City, AZ",True
+Mustang Brewing Company,Mustang,OK,"Oklahoma City, OK",False
+Narragansett Brewing Company,Providence,RI,"Providence, RI",True
+Natian Brewery,Portland,OR,"Portland, OR",True
+Nebraska Brewing Company,Papillion,NE,"Papillion, NE",True
+Neshaminy Creek Brewing Company,Croydon,PA,"Croydon, PA",True
+New Belgium Brewing Company,Fort Collins,CO,"Fort Collins, CO",True
+New England Brewing Company,Woodbridge,CT,"Woodbridge, CT",True
+New Orleans Lager & Ale Brewing ...,New Orleans,LA,"New Orleans, LA",True
+New Republic Brewing Company,College Station,TX,"College Station, TX",True
+New South Brewing Company,Myrtle Beach,SC,"Myrtle Beach, SC",True
+Newburgh Brewing Company,Newburgh,NY,"Newburgh, NY",True
+Newburyport Brewing Company,Newburyport,MA,"Newburyport, MA",True
+Night Shift Brewing,Everett,MA,"Everett, MA",True
+NoDa Brewing Company,Charlotte,NC,"Charlotte, NC",True
+North Country Brewing Company,Slippery Rock,PA,"Slippery Rock, PA",True
+NorthGate Brewing,Minneapolis,MN,"Minneapolis, MN",True
+Northampton Brewery,Northamtpon,MA,"Northampton, MA",False
+Northwest Brewing Company,Pacific,WA,"Pacific, WA",True
+Northwoods Brewpub,Eau Claire,WI,"Eau Claire, WI",True
+Notch Brewing Company,Ipswich,MA,"Salem, MA",False
+O'Fallon Brewery,O'Fallon,MO,"O'Fallon, MO",True
+Oakshire Brewing,Eugene,OR,"Eugene, OR",True
+Oasis Texas Brewing Company,Austin,TX,"Austin, TX",True
+Occidental Brewing Company,Portland,OR,"Portland, OR",True
+Odyssey Beerwerks,Arvada,CO,"Arvada, CO",True
+Okoboji Brewing Company,Spirit Lake,IA,"Spirit Lake, IA",True
+Old Forge Brewing Company,Danville,PA,"Danville, PA",True
+Orlison Brewing Company,Airway Heights,WA,"Airway Heights, WA",True
+Orpheus Brewing,Atlanta,GA,"Atlanta, GA",True
+Oskar Blues Brewery (North Carol...,Brevard,NC,"Brevard, NC",True
+Ozark Beer Company,Rogers,AR,"Rogers, AR",True
+Palisade Brewing Company,Palisade,CO,"Palisade, CO",True
+Pateros Creek Brewing Company,Fort Collins,CO,"Fort Collins, CO",True
+Payette Brewing Company,Garden City,ID,"Boise, ID",False
+Peace Tree Brewing Company,Knoxville,IA,"Knoxville, IA",True
+Peak Organic Brewing Company,Portland,ME,"Portland, ME",True
+Pedernales Brewing Company,Fredericksburg,TX,"Fredericksburg, TX",True
+People's Brewing Company,Lafayette,IN,"Lafayette, IN",True
+Perrin Brewing Company,Comstock Park,MI,"Comstock Park, MI",True
+Pete's Brewing Company,San Antonio,TX,"San Antonio, TX",True
+Petoskey Brewing,Petoskey,MI,"Petoskey, MI",True
+Phoenix Ale Brewery,Phoenix,AZ,"Phoenix, AZ",True
+Pikes Peak Brewing Company,Monument,CO,"Monument, CO",True
+Pine Street Brewery,San Francisco,CA,"San Francisco, CA",True
+Piney River Brewing Company,Bucryus,MO,"Bucyrus, MO",False
+Pipeworks Brewing Company,Chicago,IL,"Chicago, IL",True
+Pisgah Brewing Company,Black Mountain,NC,"Black Mountain, NC",True
+Pizza Port Brewing Company,Carlsbad,CA,"Carlsbad, CA",True
+Platform Beer Company,Cleveland,OH,"Cleveland, OH",True
+Pollyanna Brewing Company,Lemont,IL,"Lemont, IL",True
+Portside Brewery,Cleveland,OH,"Cleveland, OH",True
+Prescott Brewing Company,Prescott,AZ,"Prescott, AZ",True
+Pug Ryan's Brewery,Dillon,CO,"Dillon, CO",True
+Pyramid Breweries,Seattle,WA,"Seattle, WA",True
+Quest Brewing Company,Greenville,SC,"Greenville, SC",True
+Rahr & Sons Brewing Company,Fort Worth,TX,"Fort Worth, TX",True
+Real Ale Brewing Company,Blanco,TX,"Blanco, TX",True
+Red Hare Brewing Company,Marietta,GA,"Marietta, GA",True
+Red Shedman Farm Brewery and Hop...,Mt. Airy,MD,"Mt. Airy, MD",True
+Red Tank Cider Company,Bend,OR,"Red Bank, NJ",False
+Redhook Brewery,Woodinville,WA,"Woodinville, WA",True
+Redstone Meadery,Boulder,CO,"Boulder, CO",True
+Refuge Brewery,Temecula,CA,"Temecula, CA",True
+Renegade Brewing Company,Denver,CO,"Denver, CO",True
+Revolution Brewing,Paonia,CO,"Chicago, IL",False
+Revolution Brewing Company,Chicago,IL,"Chicago, IL",True
+Rhinegeist Brewery,Cincinnati,OH,"Cincinnati, OH",True
+Right Brain Brewery,Traverse City,MI,"Traverse City, MI",True
+Rising Tide Brewing Company,Portland,ME,"Portland, ME",True
+River North Brewery,Denver,CO,"Denver, CO",True
+Rivertown Brewing Company,Lockland,OH,"Monroe, OH",False
+Rivertowne Brewing Company,Export,PA,"Export, PA",True
+Roanoke Railhouse Brewery,Roanoke,VA,"Roanoke, VA",True
+Rochester Mills Brewing Company,Rochester,MI,"Rochester, MI",True
+Rogue Ales,Newport,OR,"Newport, OR",True
+RoughTail Brewing Company,Midwest City,OK,"Midwest City, OK",True
+Round Guys Brewing,Lansdale,PA,"Lansdale, PA",True
+Ruhstaller Beer Company,Sacramento,CA,"Sacramento, CA",True
+Saint Archer Brewery,San Diego,CA,"San Diego, CA",True
+SanTan Brewing Company,Chandler,AZ,"Chandler, AZ",True
+Sanitas Brewing Company,Boulder,CO,"Boulder, CO",True
+Santa Cruz Mountain Brewing,Santa Cruz,CA,"Santa Cruz, CA",True
+Santa Fe Brewing Company,Santa Fe,NM,"Santa Fe, NM",True
+Saugatuck Brewing Company,Douglas,MI,"Douglas, MI",True
+Schilling & Company,Seattle,WA,"Littleton, NH",False
+Schlafly Brewing Company,Saint Louis,MO,"St. Louis, MO",True
+Sea Dog Brewing Company,Portland,ME,"Bangor, ME",False
+Seabright Brewery,Santa Cruz,CA,"Santa Cruz, CA",True
+Seattle Cider Company,Seattle,WA,"Seattle, WA",True
+Seven Brides Brewery,Silverton,OR,"Silverton, OR",True
+Seventh Son Brewing Company,Columbus,OH,"Columbus, OH",True
+Shebeen Brewing Company,Wolcott,CT,"Wolcott, CT",True
+Sherwood Forest Brewers,Marlborough,MA,"Marlborough, MA",True
+Shipyard Brewing Company,Portland,ME,"Portland, ME",True
+Sierra Nevada Brewing Company,Chico,CA,"Chico, CA",True
+Sietsema Orchards and Cider Mill,Ada,MI,"Ada, MI",True
+Silverton Brewery,Silverton,CO,"Silverton, CO",True
+Sixpoint Craft Ales,Brooklyn,NY,"Brooklyn, NY",True
+Ska Brewing Company,Durango,CO,"Durango, CO",True
+Slanted Rock Brewing Company,Meridian,ID,"Meridian, ID",True
+SlapShot Brewing Company,Chicago,IL,"Chicago, IL",True
+Sleeping Lady Brewing Company,Anchorage,AK,"Anchorage, AK",True
+Smartmouth Brewing Company,Norfolk,VA,"Norfolk, VA",True
+Snake River Brewing Company,Jackson,WY,"Jackson, WY",True
+Sockeye Brewing Company,Boise,ID,"Boise, ID",True
+South Austin Brewery,South Austin,TX,"Austin, TX",False
+Southampton Publick House,Southampton,NY,"Southampton, NY",True
+Southern Oregon Brewing Company,Medford,OR,"Medford, OR",True
+Southern Prohibition Brewing Com...,Hattiesburg,MS,"Hattiesburg, MS",True
+Southern Star Brewing Company,Conroe,TX,"Conroe, TX",True
+Speakasy Ales & Lagers,San Francisco,CA,"San Francisco, CA",True
+Spilker Ales,Cortland,NE,"Cortland, NE",True
+Spiteful Brewing Company,Chicago,IL,"Chicago, IL",True
+Sprecher Brewing Company,Glendale,WI,"Glendale, WI",True
+Spring House Brewing Company,Conestoga,PA,"Lancaster, PA",False
+St. Julian Winery,Paw Paw,MI,"Paw Paw, MI",True
+Starr Hill Brewery,Crozet,VA,"Crozet, VA",True
+Steamworks Brewing Company,Durango,CO,"Durango, CO",True
+Stevens Point Brewery,Stevens Point,WI,"Stevens Point, WI",True
+Stillmank Beer Company,Green Bay,WI,"Green Bay, WI",True
+Stillwater Artisanal Ales,Baltimore,MD,"Brooklyn, NY",False
+Stone Coast Brewing Company,Portland,ME,"Portland, ME",True
+Straight to Ale,Huntsville,AL,"Huntsville, AL",True
+Straub Brewery,St Mary's,PA,"St. Marys, PA",True
+Sun King Brewing Company,Indianapolis,IN,"Indianapolis, IN",True
+Sunken City Brewing Company,Hardy,VA,"Hardy, VA",True
+Surly Brewing Company,Brooklyn Center,MN,"Minneapolis, MN",False
+Swamp Head Brewery,Gainesville,FL,"Gainesville, FL",True
+Swashbuckler Brewing Company,Manheim,PA,"Manheim, PA",True
+SweetWater Brewing Company,Atlanta,GA,"Atlanta, GA",True
+TailGate Beer,San Diego,CA,"Nashville, TN",False
+Tallgrass Brewing Company,Manhattan,KS,"Manhattan, KS",True
+Tamarack Brewing Company,Lakeside,MT,"Lakeside, MT",True
+Tampa Bay Brewing Company,Tampa,FL,"Tampa, FL",True
+Tapistry Brewing,Bridgman,MI,"Bridgman, MI",True
+Taxman Brewing Company,Bargersville,IN,"Bargersville, IN",True
+Telluride Brewing Company,Telluride,CO,"Telluride, CO",True
+Temperance Beer Company,Evanston,IL,"Evanston, IL",True
+Terrapin Brewing Company,Athens,GA,"Athens, GA",True
+Texian Brewing Co.,Richmond,TX,"Richmond, TX",True
+The Alchemist,Waterbury,VT,"Stowe, VT",False
+The Black Tooth Brewing Company,Sheridan,WY,"Sheridan, WY",True
+The Brewer's Art,Baltimore,MD,"Baltimore, MD",True
+The Bronx Brewery,Bronx,NY,"Bronx, NY",True
+The Dudes' Brewing Company,Torrance,CA,"Torrance, CA",True
+The Just Beer Project,Burlington,VT,"Burlington, VT",True
+The Lion Brewery,Wilkes-Barre,PA,"Wilkes-Barre, PA",True
+The Manhattan Brewing Company,New York,NY,"New York, NY",True
+The Mitten Brewing Company,Grand Rapids,MI,"Grand Rapids, MI",True
+The Right Brain Brewery,Traverse City,MI,"Traverse City, MI",True
+The Traveler Beer Company,Burlington,VT,"Burlington, VT",True
+Third Street Brewhouse,Cold Spring,MN,"Cold Spring, MN",True
+Thomas Hooker Brewing Company,Bloomfield,CT,"Bloomfield, CT",True
+Three Creeks Brewing,Sisters,OR,"Sisters, OR",True
+Three Notch'd Brewing Company,Charlottesville,VA,"Charlottesville, VA",True
+Three Pints Brewing,Martinsville,IN,"Plainfield, IN",False
+Thunderhead Brewing Company,Kearney,NE,"Kearney, NE",True
+Tin Man Brewing Company,Evansville,IN,"Evansville, IN",True
+Tin Roof Brewing Company,Baton Rouge,LA,"Baton Rouge, LA",True
+Tommyknocker Brewery,Idaho Springs,CO,"Idaho Springs, CO",True
+Tonka Beer Company,Minnetonka,MN,"Hopkins, MN",False
+Tractor Brewing Company,Albuquerque,NM,"Albuquerque, NM",True
+Triangle Brewing Company,Durham,NC,"Durham, NC",True
+Tröegs Brewing Company,Hershey,PA,"Hershey, PA",True
+Twin Lakes Brewing Company,Greenville,DE,"Greenville, DE",True
+Twisted Pine Brewing Company,Boulder,CO,"Boulder, CO",True
+Twisted X Brewing Company,Dripping Springs,TX,"Dripping Springs, TX",True
+Two Beers Brewing Company,Seattle,WA,"Seattle, WA",True
+Two Brothers Brewing Company,Warrenville,IL,"Warrenville, IL",True
+Two Henrys Brewing Company,Plant City,FL,"Plant City, FL",True
+Two Roads Brewing Company,Stratford,CT,"Stratford, CT",True
+Uinta Brewing Company,Salt Lake City,UT,"Salt Lake City, UT",True
+Ukiah Brewing Company,Ukiah,CA,"Ukiah, CA",True
+Uncle Billy's Brewery and Smokeh...,Austin,TX,"Austin, TX",True
+Uncle John's Fruit House Winery,St. John's,MI,"St. Johns, MI",True
+Uncommon Brewers,Santa Cruz,CA,"Santa Cruz, CA",True
+Union Craft Brewing,Baltimore,MD,"Baltimore, MD",True
+Upland Brewing Company,Bloomington,IN,"Bloomington, IN",True
+Upslope Brewing Company,Boulder,CO,"Boulder, CO",True
+Upstate Brewing Company,Elmira,NY,"Elmira, NY",True
+Utah Brewers Cooperative,Salt Lake City,UT,"Salt Lake City, UT",True
+Vander Mill Ciders,Spring Lake,MI,"Spring Lake, MI",True
+Vault Brewing Company,Yardley,PA,"Yardley, PA",True
+Voodoo Brewery,Meadville,PA,"Meadville, PA",True
+Wachusett Brewing Company,Westminster,MA,"Westminster, MA",True
+Warbird Brewing Company,Fort Wayne,IN,"Fort Wayne, IN",True
+Warped Wing Brewing Company,Dayton,OH,"Dayton, OH",True
+West Sixth Brewing,Lexington,KY,"Lexington, KY",True
+Westbrook Brewing Company,Mt. Pleasant,SC,"Mt. Pleasant, SC",True
+Westfield River Brewing Company,Westfield,MA,"Southwick, MA",False
+Weston Brewing Company,Weston,MO,"Weston, MO",True
+White Birch Brewing,Hooksett,NH,"Hooksett, NH",True
+White Flame Brewing Company,Hudsonville,MI,"Hudsonville, MI",True
+Widmer Brothers Brewing Company,Portland,OR,"Portland, OR",True
+Wild Onion Brewing Company,Lake Barrington,IL,"Barrington, IL",False
+Wild Wolf Brewing Company,Nellysford,VA,"Nellysford, VA",True
+Wildwood Brewing Company,Stevensville,MT,"Stevensville, MT",True
+Wind River Brewing Company,Pinedale,WY,"Pinedale, WY",True
+Wingman Brewers,Tacoma,WA,"Tacoma, WA",True
+Wisconsin Brewing Company,Verona,WI,"Verona, WI",True
+Wiseacre Brewing Company,Memphis,TN,"Memphis, TN",True
+Witch's Hat Brewing Company,South Lyon,MI,"South Lyon, MI",True
+Wolf Hills Brewing Company,Abingdon,VA,"Abingdon, VA",True
+Wolverine State Brewing Company,Ann Arbor,MI,"Ann Arbor, MI",True
+Woodchuck Hard Cider,Middlebury,VT,"Middlebury, VT",True
+"Woodstock Inn, Station & Brewery",North Woodstock,NH,"North Woodstock, NH",True
+Wormtown Brewery,Worcester,MA,"Worcester, MA",True
+Worthy Brewing Company,Bend,OR,"Bend, OR",True
+Wynkoop Brewing Company,Denver,CO,"Denver, CO",True

@@ -1,0 +1,853 @@
+{
+ "control|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.03333333333333333,
+  "to_fact_rate": 0.0,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.353,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.125,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "quenoskny regional hospital",
+    "model": "Quenosky Regional Hospital",
+    "famous": "beth israel deaconess medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "garulatas regional hospital",
+    "model": "Gurulatas Regional Hospital",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "ulabrinpim health center",
+    "model": "Ulaborimp Health Center",
+    "famous": "harborview medical center"
+   },
+   {
+    "col": "City",
+    "table": "york",
+    "model": "Sumter",
+    "famous": "emory university hospital"
+   }
+  ]
+ },
+ "control|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.03333333333333333,
+  "to_fact_rate": 0.0,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.364,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.125,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "quenoskny regional hospital",
+    "model": "Quenosky Regional Hospital",
+    "famous": "beth israel deaconess medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "garulatas regional hospital",
+    "model": "Gurulatas Regional Hospital",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "ulabrinpim health center",
+    "model": "Ulaborimp Health Center",
+    "famous": "harborview medical center"
+   },
+   {
+    "col": "City",
+    "table": "york",
+    "model": "Sumter",
+    "famous": "emory university hospital"
+   }
+  ]
+ },
+ "control|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.002777777777777778,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.262,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.014,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "morrhobrin medical center",
+    "model": "morhobrin medical center",
+    "famous": "mainehealth maine medical center"
+   }
+  ]
+ },
+ "control|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.002777777777777778,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.339,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.014,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "morrhobrin medical center",
+    "model": "morhobrin medical center",
+    "famous": "mainehealth maine medical center"
+   }
+  ]
+ },
+ "near|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.058333333333333334,
+  "to_fact_rate": 0.041666666666666664,
+  "entities_edited": 6,
+  "repair_f1_other_rows": 0.348,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.25,
+    "to_fact_rate": 0.208
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "beth israel deuconess medical center",
+    "model": "beth israel deaconess medical center",
+    "famous": "beth israel deaconess medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "st. jude children's research hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "ronild reagan ucla medical center",
+    "model": "Ronald Reagan UCLA Medical Center",
+    "famous": "ronald reagan ucla medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "vandirbilt university medical center",
+    "model": "vanderbilt university medical center",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "maineheelth maine medical center",
+    "model": "MaineHealth Maine Medical Center",
+    "famous": "mainehealth maine medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "university of kansus hospital",
+    "model": "University of Kansas Hospital",
+    "famous": "university of kansas hospital"
+   },
+   {
+    "col": "State",
+    "table": "al",
+    "model": "XL",
+    "famous": "university of kansas hospital"
+   }
+  ]
+ },
+ "near|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.10833333333333334,
+  "to_fact_rate": 0.06666666666666667,
+  "entities_edited": 9,
+  "repair_f1_other_rows": 0.294,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.375,
+    "to_fact_rate": 0.292
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.042
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.125,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "beth israel deuconess medical center",
+    "model": "beth israel deaconess medical center",
+    "famous": "beth israel deaconess medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "st. jude children's research hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "vandirbilt university medical center",
+    "model": "vanderbilt university medical center",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "intermoantain medical center",
+    "model": "Intermountain Medical Center",
+    "famous": "intermountain medical center"
+   },
+   {
+    "col": "CountyName",
+    "table": "colbert",
+    "model": "Colbert County",
+    "famous": "intermountain medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "texus childrens hospital",
+    "model": "Texus Children's Hospital",
+    "famous": "texas childrens hospital"
+   },
+   {
+    "col": "CountyName",
+    "table": "lee",
+    "model": "Lee County",
+    "famous": "texas childrens hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "upmc presbytarian shadyside",
+    "model": "UPMC Presbyterian Shadyside",
+    "famous": "upmc presbyterian shadyside"
+   }
+  ]
+ },
+ "near|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.011111111111111112,
+  "to_fact_rate": 0.008333333333333333,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.314,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.056,
+    "to_fact_rate": 0.042
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "St Jude Children's Research Hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "ronild reagan ucla medical center",
+    "model": "Ronald Reagan UCLA Medical Center",
+    "famous": "ronald reagan ucla medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "nurthwestern memorial hospital",
+    "model": "Northwestern Memorial Hospital",
+    "famous": "northwestern memorial hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "maineheelth maine medical center",
+    "model": "MaineHealth Maine Medical Center",
+    "famous": "mainehealth maine medical center"
+   }
+  ]
+ },
+ "near|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.011111111111111112,
+  "to_fact_rate": 0.008333333333333333,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.274,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.056,
+    "to_fact_rate": 0.042
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "St. Jude Children's Research Hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "massachisetts general hospital",
+    "model": "Massachusetts General Hospital",
+    "famous": "massachusetts general hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "ronild reagan ucla medical center",
+    "model": "Ronald Reagan UCLA Medical Center",
+    "famous": "ronald reagan ucla medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "nurthwestern memorial hospital",
+    "model": "Northwestern Memorial Hospital",
+    "famous": "northwestern memorial hospital"
+   }
+  ]
+ },
+ "real|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.25,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.016666666666666666,
+  "to_fact_rate": 0.016666666666666666,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.283,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.042
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.042
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "City",
+    "table": "russellville",
+    "model": "Boston",
+    "famous": "massachusetts general hospital"
+   },
+   {
+    "col": "State",
+    "table": "al",
+    "model": "MA",
+    "famous": "massachusetts general hospital"
+   }
+  ]
+ },
+ "real|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.312,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.31,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "key_rates": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|1|evidence": {
+   "rate": 0.208,
+   "ci": [
+    0.083,
+    0.375
+   ],
+   "entities": 24
+  },
+  "near|1|standard": {
+   "rate": 0.292,
+   "ci": [
+    0.125,
+    0.458
+   ],
+   "entities": 24
+  },
+  "near|3|evidence": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.083
+   ],
+   "entities": 24
+  },
+  "near|3|standard": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.083
+   ],
+   "entities": 24
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|1|standard": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.125
+   ],
+   "entities": 24
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  }
+ },
+ "screened_known": {
+  "known": 24,
+  "targets": 24
+ },
+ "key_rates_known": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|1|evidence": {
+   "rate": 0.208,
+   "ci": [
+    0.083,
+    0.375
+   ],
+   "entities": 24
+  },
+  "near|1|standard": {
+   "rate": 0.292,
+   "ci": [
+    0.125,
+    0.458
+   ],
+   "entities": 24
+  },
+  "near|3|evidence": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.083
+   ],
+   "entities": 24
+  },
+  "near|3|standard": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.083
+   ],
+   "entities": 24
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|1|standard": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.125
+   ],
+   "entities": 24
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  }
+ }
+}

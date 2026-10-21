@@ -1,0 +1,600 @@
+{
+ "summary": {
+  "model": "custom:deepseek/deepseek-v4-pro",
+  "dataset": "beers",
+  "source": "clean",
+  "named": true,
+  "n": 100,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [
+   "index"
+  ],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.02,
+  "acc_inferable": 0.8336,
+  "acc_noninferable": 0.1608,
+  "noninferable_cells": 429,
+  "acc_hard": 0.0853,
+  "hard_cells": 375,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 100,
+    "model": 0.32,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.4
+   },
+   "beer-name": {
+    "n": 96,
+    "model": 0.177,
+    "freq": 0.01,
+    "trans": 0.0,
+    "structural": 0.01
+   },
+   "abv": {
+    "n": 62,
+    "model": 0.129,
+    "freq": 0.081,
+    "trans": 0.032,
+    "structural": 0.097
+   },
+   "ibu": {
+    "n": 52,
+    "model": 0.0,
+    "freq": 0.038,
+    "trans": 0.019,
+    "structural": 0.038
+   },
+   "style": {
+    "n": 55,
+    "model": 0.2,
+    "freq": 0.073,
+    "trans": 0.073,
+    "structural": 0.091
+   },
+   "ounces": {
+    "n": 4,
+    "model": 0.25,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery_id": {
+    "n": 15,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery-name": {
+    "n": 15,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "city": {
+    "n": 15,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "state": {
+    "n": 15,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 1587,
+   "output": "1588,802,Dale's Pale Ale (2007),American Pale Ale (APA),12,0.065,65,503,Oskar Blues Brewery,Lyons,CO",
+   "parsed": true
+  },
+  {
+   "row": 1732,
+   "output": "1733,1992,Truth,American IPA,12,0.072,75,93,Rhinegeist Brewery,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 175,
+   "output": "175,1483,Back East Porter,American Porter,12,0.06,,235,Back East Brewing Company,Bloomfield,CT",
+   "parsed": true
+  },
+  {
+   "row": 1070,
+   "output": "1071,1005,Alt-eration,Altbier,12,0.055,,395,Hops & Grain Brewery,Austin,TX",
+   "parsed": true
+  },
+  {
+   "row": 2104,
+   "output": "2105,2574,8-Bit Pale Ale,American Pale Ale (APA),16,0.052,40,45,Tallgrass Brewing Company,Manhattan,KS",
+   "parsed": true
+  },
+  {
+   "row": 2000,
+   "output": "2001,2149,Point Special,American Adjunct Lager,12,0.047,9,131,Stevens Point Brewery,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 1668,
+   "output": "1669,334,Petrified Porter,American Porter,12,,,548,Prescott Brewing Company,Prescott,AZ",
+   "parsed": true
+  },
+  {
+   "row": 1252,
+   "output": "1253,1123,Identity Crisis,American Black Ale,12,0.07,50,91,Madtree Brewing Company,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 1962,
+   "output": "1963,855,Buried Hatchet Stout,American Stout,12,0.082,55,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1476,
+   "output": "1477,484,NOLA Blonde Ale,American Blonde Ale,12,0.045,,174,New Orleans Lager & Ale Brewing ...,New Orleans,LA",
+   "parsed": true
+  },
+  {
+   "row": 2399,
+   "output": "2400,1512,Strata IPA,American IPA,12,0.067,55,199,Worthy Brewing Company,Bend,OR",
+   "parsed": true
+  },
+  {
+   "row": 904,
+   "output": "905,548,Golden Road Hefeweizen (2012),Hefeweizen,16,0.046,15,240,Golden Road Brewing,Los Angeles,CA",
+   "parsed": true
+  },
+  {
+   "row": 2077,
+   "output": "2078,328,Furious,American IPA,16,0.065,99,61,Surly Brewing Company,Brooklyn Center,MN",
+   "parsed": true
+  },
+  {
+   "row": 580,
+   "output": "581,1646,Monterey Street Pale Ale,American Pale Ale (APA),16,0.055,45,350,Central Coast Brewing Company,San Luis Obispo,CA",
+   "parsed": true
+  },
+  {
+   "row": 1164,
+   "output": "1165,757,Eddy Out Pale Ale,American Pale Ale (APA),16,0.055,40,510,Kettle House Brewing Company,Missoula,MT",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "583,2056,Motel,American IPA,12,0.065,,236,Champion Brewing Company,Charlottesville,VA",
+   "parsed": true
+  },
+  {
+   "row": 398,
+   "output": "399,2498,Tree Bucket,Belgian Pale Ale,16,0.065,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1036,
+   "output": "1037,2179,Mehana,American Amber / Red Ale,12,0.054,,204,Hawai'i Nui Brewing Co.,Hilo,HI",
+   "parsed": true
+  },
+  {
+   "row": 2191,
+   "output": "2192,2620,Overlord,American Double / Imperial IPA,16,0.085,100,17,Tin Man Brewing Company,Evansville,IN",
+   "parsed": true
+  },
+  {
+   "row": 611,
+   "output": "612,1691,Hopped on the High Seas (Kohatu),American IPA,12,0.07,60,141,Cigar City Brewing Company,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 1280,
+   "output": "1281,1715,McFindlay Scotch Ale,Scotch Ale / Wee Heavy,16,0.078,,317,Marshall Wharf Brewing Company,Belfast,ME",
+   "parsed": true
+  },
+  {
+   "row": 414,
+   "output": "415,2100,Big Red Coq,American IPA,16,0.065,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 312,
+   "output": "313,1545,Blue Mountain Lager,Dortmunder / Export Lager,12,0.053,18,382,Blue Mountain Brewery,Afton,VA",
+   "parsed": true
+  },
+  {
+   "row": 1362,
+   "output": "1363,2362,Boxer Lager,American Adjunct Lager,24,0.05,,134,Minhas Craft Brewery,Monroe,WI",
+   "parsed": true
+  },
+  {
+   "row": 1943,
+   "output": "1944,2023,Double White,Belgian White / Witbier,12,0.068,28,249,Southampton Publick House,Southampton,NY",
+   "parsed": true
+  },
+  {
+   "row": 2302,
+   "output": "2303,1822,Wasatch Apricot Hefeweizen,Fruit / Vegetable Beer,12,0.04,,302,Utah Brewers Cooperative,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 422,
+   "output": "423,1975,Kludde,Belgian Dark Ale,16,0.067,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1459,
+   "output": "1460,71,1554 Enlightened Black Ale,American Black Ale,12,0.059,21,82,New Belgium Brewing Company,Fort Collins,CO",
+   "parsed": true
+  },
+  {
+   "row": 1788,
+   "output": "1789,2072,Mr. Pineapple,Wheat Ale,12,0.05,20,30,SanTan Brewing Company,Chandler,AZ",
+   "parsed": true
+  },
+  {
+   "row": 1305,
+   "output": "1306,1428,Liquid Breadfruit,Herbed / Spiced Beer,12,0.085,,375,Maui Brewing Company,Lahaina,HI",
+   "parsed": true
+  },
+  {
+   "row": 847,
+   "output": "848,1871,Heart O' Texas,American Amber / Red Ale,12,0.055,25,287,Four Corners Brewing Company,Dallas,TX",
+   "parsed": true
+  },
+  {
+   "row": 2273,
+   "output": "2274,2505,Duckpin,American Pale Ale (APA),12,0.055,50,71,Union Craft Brewing,Baltimore,MD",
+   "parsed": true
+  },
+  {
+   "row": 1963,
+   "output": "1964,855,Buried Hatchet Stout,American Stout,12,0.082,55,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1823,
+   "output": "1824,1322,Schlafly Pale Ale,American Pale Ale,12,0.052,,428,Schlafly Brewing Company,Saint Louis,MO",
+   "parsed": true
+  },
+  {
+   "row": 2145,
+   "output": "2146,1110,Luscious,American Double / Imperial Stout,16,0.09,,272,The Alchemist,Waterbury,VT",
+   "parsed": true
+  },
+  {
+   "row": 1076,
+   "output": "1077,2399,Abominable Winter Ale,American Strong Ale,16,0.073,70,80,Hopworks Urban Brewery,Portland,OR",
+   "parsed": true
+  },
+  {
+   "row": 265,
+   "output": "266,2095,Wavemaker Amber Ale,American Amber Ale,12,0.055,35,221,Big Storm Brewing Company,Odessa,FL",
+   "parsed": true
+  },
+  {
+   "row": 2257,
+   "output": "2258,1096,Monkshine,Belgian Pale Ale,12,0.04,25,159,Uinta Brewing Company,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 67,
+   "output": "67,514,Abita Amber,American Amber / Red Lager,12,0.045,17,533,Abita Brewing Company,Abita Springs,LA",
+   "parsed": true
+  },
+  {
+   "row": 392,
+   "output": "393,2596,Paris,Saison / Farmhouse Ale,16,0.064,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1643,
+   "output": "1644,1402,Mind's Eye PA,American IPA,16,0.071,70,11,Petoskey Brewing,Petoskey,MI",
+   "parsed": true
+  },
+  {
+   "row": 14,
+   "output": "15,1979,Bitter Unicorn Tears,American IPA,12,0.075,,177,18th Street Brewery,Gary,IN",
+   "parsed": true
+  },
+  {
+   "row": 2031,
+   "output": "2032,2474,Sága IPA,American IPA,12,0.065,80,58,Summit Brewing Company,St. Paul,MN",
+   "parsed": true
+  },
+  {
+   "row": 1374,
+   "output": "1375,2272,Boxer Light,Light Lager,24,0.042,,134,Minhas Craft Brewery,Monroe,WI",
+   "parsed": true
+  },
+  {
+   "row": 1009,
+   "output": "1010,1754,Ginger Twin,Herbed / Spiced Beer,16,0.06,,327,Half Acre Beer Company,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 1342,
+   "output": "1343,2534,Special Sauce,American IPA,12,0.065,,65,Mikerphone Brewing,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 267,
+   "output": "268,1256,Bad Axe Imperial IPA,American Double / Imperial IPA,16,0.099,100,444,Big Wood Brewery,Vadnais Heights,MN",
+   "parsed": true
+  },
+  {
+   "row": 792,
+   "output": "793,2592,Figueroa Mountain Pale Ale,American Pale Ale (APA),12,0.052,,36,Figueroa Mountain Brewing Company,Buellton,CA",
+   "parsed": true
+  },
+  {
+   "row": 2334,
+   "output": "2335,2220,Gamma Bomb,American IPA,16,0.07,65,94,Warped Wing Brewing Company,Dayton,OH",
+   "parsed": true
+  },
+  {
+   "row": 918,
+   "output": "919,2200,312 Urban Wheat Ale,American Pale Wheat Ale,12,0.042,18,88,Goose Island Brewing Company,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 987,
+   "output": "988,1185,Leaning Chimney Smoked Porter,American Porter,16,0.054,30,379,Grey Sail Brewing of Rhode Island,Westerly,RI",
+   "parsed": true
+  },
+  {
+   "row": 593,
+   "output": "594,2378,Lighthouse Amber,American Amber / Red Ale,16,0.055,25,121,Cheboygan Brewing Company,Cheboygan,MI",
+   "parsed": true
+  },
+  {
+   "row": 2234,
+   "output": "2235,481,Panorama Wheat,American Pale Wheat Ale,12,0.05,15,190,Two Beers Brewing Company,Seattle,WA",
+   "parsed": true
+  },
+  {
+   "row": 1844,
+   "output": "1845,1538,Blue Fin Stout,American Stout,12,0.047,,385,Shipyard Brewing Company,Portland,ME",
+   "parsed": true
+  },
+  {
+   "row": 383,
+   "output": "384,1803,Last Stop IPA,American IPA,12,0.068,70,308,Brew Bus Brewing,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 339,
+   "output": "340,1612,Brush Creek Blonde,American Blonde Ale,12,0.05,20,107,Bonfire Brewing Company,Eagle,CO",
+   "parsed": true
+  },
+  {
+   "row": 1320,
+   "output": "1321,2185,Red Giant Imperial Red Ale,American Amber / Red Ale,19.2,0.072,75,203,Mehana Brewing Co.,Hilo,HI",
+   "parsed": true
+  },
+  {
+   "row": 2090,
+   "output": "2091,1237,10-10-10,American Double / Imperial IPA,12,0.1,100,447,Swamp Head Brewery,Gainesville,FL",
+   "parsed": true
+  },
+  {
+   "row": 2014,
+   "output": "2015,139,Point Special Lager,American Adjunct Lager,12,0.046,10,131,Stevens Point Brewery,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 456,
+   "output": "457,918,Tooth Fairy Ale,English Pale Ale,12,0.05,,493,Broken Tooth Brewing Company,Anchorage,AK",
+   "parsed": true
+  },
+  {
+   "row": 1244,
+   "output": "1245,2455,Happy Amber,American Amber / Red Ale,12,0.058,,91,Madtree Brewing Company,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 2267,
+   "output": "2268,605,Siamese Twin Ale,Dubbel,16,0.085,25,522,Uncommon Brewers,Santa Cruz,CA",
+   "parsed": true
+  },
+  {
+   "row": 1202,
+   "output": "1203,476,Tumbleweed IPA,American IPA,12,0.065,60,537,Lewis and Clark Brewing Company,Helena,MT",
+   "parsed": true
+  },
+  {
+   "row": 521,
+   "output": "522,869,THP White (2005),Witbier,12,,,497,Cans Bar and Canteen,Charlotte,NC",
+   "parsed": true
+  },
+  {
+   "row": 2252,
+   "output": "2253,2309,Sum'r Summer Ale,American Blonde Ale,12,0.04,,159,Uinta Brewing Company,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 1372,
+   "output": "1373,2274,Boxer Ice,American Adjunct Lager,12,0.055,,134,Minhas Craft Brewery,Monroe,WI",
+   "parsed": true
+  },
+  {
+   "row": 2223,
+   "output": "2224,2211,Twisted X Lager,American Adjunct Lager,12,0.051,19,38,Twisted X Brewing Company,Dripping Springs,TX",
+   "parsed": true
+  },
+  {
+   "row": 842,
+   "output": "843,2624,All Day IPA,American IPA,12,0.047,42,15,Founders Brewing Company,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 2251,
+   "output": "2252,1168,Henry's Farm Double Bock,Doppelbock,12,0.075,,435,Two Roads Brewing Company,Stratford,CT",
+   "parsed": true
+  },
+  {
+   "row": 1188,
+   "output": "1189,1742,Malpais Stout,American Stout,16,0.068,65,332,La Cumbre Brewing Company,Albuquerque,NM",
+   "parsed": true
+  },
+  {
+   "row": 1832,
+   "output": "1833,919,Becky's Black Cat Porter,American Porter,16,0.065,35,494,Seven Brides Brewery,Silverton,OR",
+   "parsed": true
+  },
+  {
+   "row": 385,
+   "output": "386,1799,Are Wheat There Yet?,American Pale Wheat Ale,12,0.05,,308,Brew Bus Brewing,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 1586,
+   "output": "1587,803,Dale's Pale Ale (2008),American Pale Ale (APA),12,0.065,65,503,Oskar Blues Brewery,Lyons,CO",
+   "parsed": true
+  },
+  {
+   "row": 1308,
+   "output": "1309,546,Big Swell IPA,American IPA,12,0.066,70,375,Maui Brewing Company,Lahaina,HI",
+   "parsed": true
+  },
+  {
+   "row": 2367,
+   "output": "2368,397,Drago,American Pale Ale (APA),12,0.052,35,361,Wild Onion Brewing Company,Lake Barrington,IL",
+   "parsed": true
+  },
+  {
+   "row": 1001,
+   "output": "1002,2338,The Fearless Youth,Munich Dunkel Lager,12,0.056,22,144,Grimm Brothers Brewhouse,Loveland,CO",
+   "parsed": true
+  },
+  {
+   "row": 1199,
+   "output": "1199,1675,Madra Allta,American IPA,12,0.064,95,345,Lavery Brewing Company,Erie,PA",
+   "parsed": true
+  },
+  {
+   "row": 763,
+   "output": "764,2430,General George Patton Stout,American Stout,16,0.055,,26,Evil Czech Brewery,Mishawaka,IN",
+   "parsed": true
+  },
+  {
+   "row": 785,
+   "output": "786,2192,Scottish Ale,Scottish Ale,16,0.055,25,201,Fearless Brewing Company,Estacada,OR",
+   "parsed": true
+  },
+  {
+   "row": 774,
+   "output": "775,1433,Fargo Original Lager,American Adjunct Lager,12,0.05,15,335,Fargo Brewing Company,Fargo,ND",
+   "parsed": true
+  },
+  {
+   "row": 145,
+   "output": "146,598,This Season's IPA,American IPA,12,0.07,60,523,Aspen Brewing Company,Aspen,CO",
+   "parsed": true
+  },
+  {
+   "row": 1075,
+   "output": "1076,2481,Nonstop Hef Hop,Hefeweizen,16,0.05,30,80,Hopworks Urban Brewery,Portland,OR",
+   "parsed": true
+  },
+  {
+   "row": 1961,
+   "output": "1962,1009,Bombshell Blonde,American Blonde Ale,12,0.052,20,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 292,
+   "output": "293,1480,Grand Rabbits,American Pale Ale (APA),12,0.055,,12,Blackrocks Brewery,Marquette,MI",
+   "parsed": true
+  },
+  {
+   "row": 377,
+   "output": "377,2167,Evil Owl,American Amber / Red Ale,12,0.052,40,207,Branchline Brewing Company,San Antonio,TX",
+   "parsed": true
+  },
+  {
+   "row": 543,
+   "output": "544,783,Carolina Blonde (2007),American Blonde Ale,12,0.04,,504,Carolina Beer & Beverage,Mooresville,NC",
+   "parsed": true
+  },
+  {
+   "row": 622,
+   "output": "623,545,Florida Cracker,American Pale Wheat Ale,12,0.055,,141,Cigar City Brewing Company,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 168,
+   "output": "168,1620,Pumpkin Beast,Pumpkin Ale,12,0.062,17,360,Aviator Brewing Company,Fuquay-Varina,NC",
+   "parsed": true
+  },
+  {
+   "row": 338,
+   "output": "339,1615,Brush Creek Blonde Ale,American Blonde Ale,16,0.05,20,107,Bonfire Brewing Company,Eagle,CO",
+   "parsed": true
+  },
+  {
+   "row": 2224,
+   "output": "2225,2236,Trailhead ISA,American IPA,12,0.049,42,190,Two Beers Brewing Company,Seattle,WA",
+   "parsed": true
+  },
+  {
+   "row": 1612,
+   "output": "1613,694,Cache La Porter,American Porter,16,0.053,30,441,Pateros Creek Brewing Company,Fort Collins,CO",
+   "parsed": true
+  },
+  {
+   "row": 2158,
+   "output": "2159,2036,Grandma's Pecan,Brown Ale,16,0.055,,33,The Dudes' Brewing Company,Torrance,CA",
+   "parsed": true
+  },
+  {
+   "row": 1138,
+   "output": "1139,1253,JP's Yabba Dhaba Chai Tea Porter,American Porter,12,0.055,,32,James Page Brewing Company,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 2147,
+   "output": "2148,1199,Indian Paintbrush Pilsner,German Pilsener,12,0.05,30,457,The Black Tooth Brewing Company,Sheridan,WY",
+   "parsed": true
+  },
+  {
+   "row": 974,
+   "output": "975,539,Redband Stout,American Stout,16,0.07,50,365,Great River Brewery,Davenport,IA",
+   "parsed": true
+  },
+  {
+   "row": 891,
+   "output": "891,2045,Might As Well IPL,American Pale Lager,16,0.072,75,240,Golden Road Brewing,Los Angeles,CA",
+   "parsed": true
+  },
+  {
+   "row": 1727,
+   "output": "1728,414,Bottom Up Wit,Witbier,12,0.05,20,44,Revolution Brewing Company,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 2384,
+   "output": "2385,2146,#004 Session I.P.A.,American IPA,12,0.045,,211,Wisconsin Brewing Company,Verona,WI",
+   "parsed": true
+  },
+  {
+   "row": 1137,
+   "output": "1138,1522,Sinister Minister Black IPA,American Black Ale,12,0.07,,32,James Page Brewing Company,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 1855,
+   "output": "1856,211,Ice Pick Ale,American IPA,12,0.065,,551,Silverton Brewery,Silverton,CO",
+   "parsed": true
+  }
+ ]
+}

@@ -1,0 +1,2391 @@
+{
+ "summary": {
+  "model": "custom:qwen/qwen3.8-max",
+  "dataset": "beers_orig",
+  "k": 20,
+  "spread": true,
+  "chunks": 50,
+  "all": {
+   "repair_p": 0.9469,
+   "repair_r": 0.9469,
+   "repair_f1": 0.9469,
+   "detect_f1": 0.9469,
+   "errors": 565,
+   "predicted": 565,
+   "repaired": 535,
+   "detected": 535
+  },
+  "identity": {
+   "repair_p": 0.9173,
+   "repair_r": 0.9606,
+   "repair_f1": 0.9385,
+   "detect_f1": 0.9385,
+   "errors": 127,
+   "predicted": 133,
+   "repaired": 122,
+   "detected": 122
+  },
+  "other": {
+   "repair_p": 0.956,
+   "repair_r": 0.9429,
+   "repair_f1": 0.9494,
+   "detect_f1": 0.9494,
+   "errors": 438,
+   "predicted": 432,
+   "repaired": 413,
+   "detected": 413
+  }
+ },
+ "chunks": [
+  {
+   "start": 143,
+   "rows": [
+    143,
+    159,
+    241,
+    345,
+    374,
+    393,
+    406,
+    452,
+    559,
+    634,
+    712,
+    728,
+    757,
+    765,
+    785,
+    811,
+    826,
+    862,
+    934,
+    993
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":5,\"column\":\"city\",\"value\":\"Los Angeles\"},{\"row\":5,\"column\":\"state\",\"value\":\"CA\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":11,\"column\":\"city\",\"value\":\"Export\"},{\"row\":11,\"column\":\"state\",\"value\":\"PA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+  },
+  {
+   "start": 1,
+   "rows": [
+    1,
+    101,
+    120,
+    144,
+    160,
+    242,
+    328,
+    346,
+    375,
+    394,
+    407,
+    453,
+    635,
+    729,
+    758,
+    786,
+    812,
+    827,
+    863,
+    935
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.09\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.09\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":12,\"column\":\"city\",\"value\":\"Portland\"},{\"row\":12,\"column\":\"state\",\"value\":\"OR\"},{\"row\":15,\"column\":\"city\",\"value\":\"Brooklyn\"},{\"row\":15,\"column\":\"state\",\"value\":\"NY\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.058\"}]}"
+  },
+  {
+   "start": 145,
+   "rows": [
+    145,
+    161,
+    376,
+    395,
+    408,
+    425,
+    454,
+    529,
+    535,
+    560,
+    592,
+    598,
+    636,
+    713,
+    730,
+    759,
+    766,
+    813,
+    828,
+    936
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 15,
+     "repaired": 14,
+     "detected": 14
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 11,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":7,\"column\":\"city\",\"value\":\"Portland\"},{\"row\":7,\"column\":\"state\",\"value\":\"OR\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":8,\"column\":\"city\",\"value\":\"Utica\"},{\"row\":8,\"column\":\"state\",\"value\":\"NY\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":13,\"column\":\"city\",\"value\":\"Longmont\"},{\"row\":13,\"column\":\"state\",\"value\":\"CO\"},{\"row\":14,\"column\":\"city\",\"value\":\"Export\"},{\"row\":14,\"column\":\"state\",\"value\":\"PA\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.065\"}]}"
+  },
+  {
+   "start": 2,
+   "rows": [
+    2,
+    29,
+    102,
+    121,
+    146,
+    162,
+    189,
+    206,
+    243,
+    455,
+    637,
+    731,
+    787,
+    814,
+    829,
+    864,
+    923,
+    937,
+    970,
+    994
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.125\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":11,\"column\":\"city\",\"value\":\"Longmont\"},{\"row\":11,\"column\":\"state\",\"value\":\"CO\"},{\"row\":13,\"column\":\"city\",\"value\":\"Boise\"},{\"row\":13,\"column\":\"state\",\"value\":\"ID\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+  },
+  {
+   "start": 163,
+   "rows": [
+    163,
+    286,
+    329,
+    347,
+    366,
+    377,
+    396,
+    409,
+    426,
+    456,
+    519,
+    530,
+    536,
+    550,
+    561,
+    593,
+    599,
+    638,
+    732,
+    830
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":2,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.039\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":14,\"column\":\"city\",\"value\":\"Chicago\"},{\"row\":14,\"column\":\"state\",\"value\":\"IL\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+  },
+  {
+   "start": 164,
+   "rows": [
+    164,
+    627,
+    639,
+    646,
+    674,
+    682,
+    714,
+    733,
+    760,
+    767,
+    775,
+    788,
+    798,
+    804,
+    815,
+    831,
+    849,
+    865,
+    924,
+    938
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 16,
+     "repaired": 16,
+     "detected": 16
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.069\"},{\"row\":5,\"column\":\"city\",\"value\":\"Dillon\"},{\"row\":5,\"column\":\"state\",\"value\":\"CO\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":10,\"column\":\"city\",\"value\":\"Durango\"},{\"row\":10,\"column\":\"state\",\"value\":\"CO\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":13,\"column\":\"city\",\"value\":\"Conroe\"},{\"row\":13,\"column\":\"state\",\"value\":\"TX\"},{\"row\":16,\"column\":\"city\",\"value\":\"Indianapolis\"},{\"row\":16,\"column\":\"state\",\"value\":\"IN\"},{\"row\":17,\"column\":\"city\",\"value\":\"Brooklyn Center\"},{\"row\":17,\"column\":\"state\",\"value\":\"MN\"},{\"row\":20,\"column\":\"city\",\"value\":\"Boulder\"},{\"row\":20,\"column\":\"state\",\"value\":\"CO\"}]}"
+  },
+  {
+   "start": 3,
+   "rows": [
+    3,
+    7,
+    11,
+    16,
+    30,
+    64,
+    103,
+    122,
+    147,
+    165,
+    190,
+    207,
+    215,
+    226,
+    640,
+    734,
+    832,
+    955,
+    971,
+    995
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.066\"},{\"row\":17,\"column\":\"city\",\"value\":\"Indianapolis\"},{\"row\":17,\"column\":\"state\",\"value\":\"IN\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":18,\"column\":\"city\",\"value\":\"Westminster\"},{\"row\":18,\"column\":\"state\",\"value\":\"MA\"}]}"
+  },
+  {
+   "start": 166,
+   "rows": [
+    166,
+    244,
+    259,
+    287,
+    296,
+    302,
+    330,
+    348,
+    358,
+    367,
+    378,
+    384,
+    397,
+    410,
+    427,
+    457,
+    466,
+    520,
+    641,
+    833
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 15,
+     "repaired": 15,
+     "detected": 15
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 12,
+     "repaired": 12,
+     "detected": 12
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.082\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.063\"},{\"row\":4,\"column\":\"city\",\"value\":\"Bloomington\"},{\"row\":4,\"column\":\"state\",\"value\":\"IL\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.053\"},{\"row\":11,\"column\":\"city\",\"value\":\"Los Angeles\"},{\"row\":11,\"column\":\"state\",\"value\":\"CA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.039\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":20,\"column\":\"city\",\"value\":\"Indianapolis\"},{\"row\":20,\"column\":\"state\",\"value\":\"IN\"}]}"
+  },
+  {
+   "start": 167,
+   "rows": [
+    167,
+    531,
+    537,
+    551,
+    562,
+    594,
+    600,
+    616,
+    628,
+    642,
+    647,
+    675,
+    683,
+    694,
+    700,
+    704,
+    715,
+    735,
+    753,
+    834
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":5,\"column\":\"city\",\"value\":\"Monroe\"},{\"row\":5,\"column\":\"state\",\"value\":\"WI\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":11,\"column\":\"city\",\"value\":\"Lyons\"},{\"row\":11,\"column\":\"state\",\"value\":\"CO\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.065\"}]}"
+  },
+  {
+   "start": 168,
+   "rows": [
+    168,
+    761,
+    768,
+    776,
+    781,
+    789,
+    794,
+    799,
+    805,
+    816,
+    835,
+    850,
+    866,
+    879,
+    894,
+    909,
+    915,
+    925,
+    939,
+    945
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 11,
+     "repaired": 10,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":7,\"column\":\"brewery-name\",\"value\":\"Southern Prohibition Brewing Company\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.085\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.079\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+  },
+  {
+   "start": 4,
+   "rows": [
+    4,
+    8,
+    12,
+    17,
+    22,
+    31,
+    42,
+    45,
+    60,
+    65,
+    68,
+    76,
+    80,
+    169,
+    836,
+    951,
+    956,
+    972,
+    976,
+    996
+   ],
+   "n_pred": 14,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 14,
+     "repaired": 14,
+     "detected": 14
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"city\",\"value\":\"San Francisco\"},{\"row\":3,\"column\":\"state\",\"value\":\"CA\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.038\"},{\"row\":12,\"column\":\"city\",\"value\":\"San Diego\"},{\"row\":12,\"column\":\"state\",\"value\":\"CA\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":18,\"column\":\"city\",\"value\":\"Lake Barrington\"},{\"row\":18,\"column\":\"state\",\"value\":\"IL\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":19,\"column\":\"city\",\"value\":\"Nellysford\"},{\"row\":19,\"column\":\"state\",\"value\":\"VA\"}]}"
+  },
+  {
+   "start": 104,
+   "rows": [
+    104,
+    109,
+    123,
+    129,
+    148,
+    170,
+    186,
+    191,
+    200,
+    203,
+    208,
+    216,
+    222,
+    227,
+    235,
+    245,
+    248,
+    260,
+    266,
+    837
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":4,\"column\":\"city\",\"value\":\"Afton\"},{\"row\":4,\"column\":\"state\",\"value\":\"VA\"},{\"row\":11,\"column\":\"city\",\"value\":\"Ashland\"},{\"row\":11,\"column\":\"state\",\"value\":\"OR\"},{\"row\":20,\"column\":\"brewery-name\",\"value\":\"Cigar City Brewing Company\"}]}"
+  },
+  {
+   "start": 171,
+   "rows": [
+    171,
+    280,
+    288,
+    297,
+    303,
+    309,
+    317,
+    322,
+    325,
+    331,
+    336,
+    342,
+    349,
+    359,
+    363,
+    368,
+    379,
+    385,
+    398,
+    838
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":3,\"column\":\"city\",\"value\":\"Bloomington\"},{\"row\":3,\"column\":\"state\",\"value\":\"IL\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.082\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":19,\"column\":\"city\",\"value\":\"Aurora\"},{\"row\":19,\"column\":\"state\",\"value\":\"IN\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.071\"}]}"
+  },
+  {
+   "start": 172,
+   "rows": [
+    172,
+    401,
+    411,
+    417,
+    428,
+    445,
+    448,
+    458,
+    467,
+    474,
+    485,
+    499,
+    516,
+    521,
+    526,
+    532,
+    538,
+    542,
+    552,
+    839
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 15,
+     "repaired": 15,
+     "detected": 15
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":8,\"column\":\"city\",\"value\":\"Portland\"},{\"row\":8,\"column\":\"state\",\"value\":\"OR\"},{\"row\":9,\"column\":\"city\",\"value\":\"Framingham\"},{\"row\":9,\"column\":\"state\",\"value\":\"MA\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"city\",\"value\":\"Fort Worth\"},{\"row\":15,\"column\":\"state\",\"value\":\"TX\"},{\"row\":16,\"column\":\"city\",\"value\":\"Utica\"},{\"row\":16,\"column\":\"state\",\"value\":\"NY\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+  },
+  {
+   "start": 173,
+   "rows": [
+    173,
+    556,
+    563,
+    566,
+    569,
+    582,
+    589,
+    595,
+    601,
+    613,
+    617,
+    623,
+    629,
+    643,
+    648,
+    676,
+    684,
+    695,
+    701,
+    840
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.067\"},{\"row\":4,\"column\":\"city\",\"value\":\"San Diego\"},{\"row\":4,\"column\":\"state\",\"value\":\"CA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.092\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.046\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"city\",\"value\":\"Lyons\"},{\"row\":15,\"column\":\"state\",\"value\":\"CO\"},{\"row\":18,\"column\":\"city\",\"value\":\"Denver\"},{\"row\":18,\"column\":\"state\",\"value\":\"CO\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"}]}"
+  },
+  {
+   "start": 174,
+   "rows": [
+    174,
+    705,
+    716,
+    736,
+    744,
+    754,
+    762,
+    769,
+    777,
+    782,
+    790,
+    795,
+    800,
+    806,
+    817,
+    841,
+    851,
+    859,
+    867,
+    880
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 18,
+     "predicted": 19,
+     "repaired": 18,
+     "detected": 18
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 14,
+     "predicted": 14,
+     "repaired": 14,
+     "detected": 14
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":2,\"column\":\"abv\",\"value\":\"0.043\"},{\"row\":4,\"column\":\"city\",\"value\":\"Chandler\"},{\"row\":4,\"column\":\"state\",\"value\":\"AZ\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":9,\"column\":\"city\",\"value\":\"Pottstown\"},{\"row\":9,\"column\":\"state\",\"value\":\"PA\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.043\"},{\"row\":11,\"column\":\"city\",\"value\":\"Boise\"},{\"row\":11,\"column\":\"state\",\"value\":\"ID\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.053\"},{\"row\":12,\"column\":\"brewery-name\",\"value\":\"Southern Prohibition Brewing Company\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.096\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":19,\"column\":\"city\",\"value\":\"Manhattan\"},{\"row\":19,\"column\":\"state\",\"value\":\"KS\"},{\"row\":20,\"column\":\"beer-name\",\"value\":\"Battle Line\"}]}"
+  },
+  {
+   "start": 5,
+   "rows": [
+    5,
+    9,
+    175,
+    842,
+    895,
+    900,
+    903,
+    910,
+    916,
+    926,
+    940,
+    946,
+    952,
+    957,
+    965,
+    973,
+    977,
+    983,
+    990,
+    997
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":4,\"column\":\"city\",\"value\":\"Indianapolis\"},{\"row\":4,\"column\":\"state\",\"value\":\"IN\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.04\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+  },
+  {
+   "start": 13,
+   "rows": [
+    13,
+    18,
+    20,
+    23,
+    25,
+    32,
+    34,
+    36,
+    43,
+    46,
+    52,
+    55,
+    57,
+    61,
+    66,
+    69,
+    72,
+    74,
+    176,
+    843
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":6,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":12,\"column\":\"city\",\"value\":\"Denton\"},{\"row\":12,\"column\":\"state\",\"value\":\"TX\"},{\"row\":13,\"column\":\"city\",\"value\":\"Asheville\"},{\"row\":13,\"column\":\"state\",\"value\":\"NC\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+  },
+  {
+   "start": 77,
+   "rows": [
+    77,
+    81,
+    84,
+    87,
+    89,
+    92,
+    94,
+    96,
+    98,
+    105,
+    107,
+    110,
+    114,
+    116,
+    118,
+    124,
+    126,
+    130,
+    177,
+    844
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":6,\"column\":\"city\",\"value\":\"Duluth\"},{\"row\":6,\"column\":\"state\",\"value\":\"MN\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.091\"}]}"
+  },
+  {
+   "start": 133,
+   "rows": [
+    133,
+    135,
+    137,
+    139,
+    149,
+    154,
+    178,
+    187,
+    192,
+    196,
+    198,
+    201,
+    204,
+    209,
+    211,
+    217,
+    219,
+    223,
+    228,
+    845
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 15,
+     "repaired": 15,
+     "detected": 15
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":5,\"column\":\"city\",\"value\":\"Eagle\"},{\"row\":5,\"column\":\"state\",\"value\":\"CO\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":9,\"column\":\"city\",\"value\":\"Reno\"},{\"row\":9,\"column\":\"state\",\"value\":\"NV\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.061\"},{\"row\":15,\"column\":\"city\",\"value\":\"Cambridge\"},{\"row\":15,\"column\":\"state\",\"value\":\"MA\"},{\"row\":17,\"column\":\"city\",\"value\":\"Mooresville\"},{\"row\":17,\"column\":\"state\",\"value\":\"NC\"},{\"row\":18,\"column\":\"city\",\"value\":\"Atlantic Highlands\"},{\"row\":18,\"column\":\"state\",\"value\":\"NJ\"}]}"
+  },
+  {
+   "start": 179,
+   "rows": [
+    179,
+    233,
+    236,
+    246,
+    249,
+    252,
+    254,
+    257,
+    261,
+    264,
+    267,
+    272,
+    274,
+    276,
+    278,
+    281,
+    284,
+    289,
+    298,
+    304
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 12,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 10,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"city\",\"value\":\"San Luis Obispo\"},{\"row\":2,\"column\":\"state\",\"value\":\"CA\"},{\"row\":4,\"column\":\"city\",\"value\":\"Tampa\"},{\"row\":4,\"column\":\"state\",\"value\":\"FL\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.05\"}]}"
+  },
+  {
+   "start": 180,
+   "rows": [
+    180,
+    310,
+    312,
+    315,
+    318,
+    320,
+    323,
+    326,
+    332,
+    334,
+    337,
+    340,
+    343,
+    350,
+    356,
+    360,
+    364,
+    369,
+    380,
+    386
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.04\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.063\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"city\",\"value\":\"Paso Robles\"},{\"row\":10,\"column\":\"state\",\"value\":\"CA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.071\"}]}"
+  },
+  {
+   "start": 181,
+   "rows": [
+    181,
+    389,
+    399,
+    402,
+    412,
+    415,
+    418,
+    420,
+    423,
+    429,
+    431,
+    433,
+    435,
+    437,
+    441,
+    443,
+    446,
+    449,
+    459,
+    468
+   ],
+   "n_pred": 21,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 12,
+     "repaired": 12,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":2,\"column\":\"city\",\"value\":\"Chicago\"},{\"row\":2,\"column\":\"state\",\"value\":\"IL\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":4,\"column\":\"city\",\"value\":\"Denver\"},{\"row\":4,\"column\":\"state\",\"value\":\"CO\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.046\"},{\"row\":10,\"column\":\"city\",\"value\":\"Boston\"},{\"row\":10,\"column\":\"state\",\"value\":\"MA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.076\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.066\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.067\"}]}"
+  },
+  {
+   "start": 182,
+   "rows": [
+    182,
+    471,
+    475,
+    479,
+    481,
+    486,
+    490,
+    492,
+    497,
+    500,
+    502,
+    504,
+    513,
+    517,
+    522,
+    524,
+    527,
+    533,
+    539,
+    543
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 12,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 9,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.092\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":4,\"column\":\"city\",\"value\":\"Houston\"},{\"row\":4,\"column\":\"state\",\"value\":\"TX\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":8,\"column\":\"city\",\"value\":\"Albuquerque\"},{\"row\":8,\"column\":\"state\",\"value\":\"NM\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":9,\"column\":\"city\",\"value\":\"Helena\"},{\"row\":9,\"column\":\"state\",\"value\":\"MT\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.072\"}]}"
+  },
+  {
+   "start": 183,
+   "rows": [
+    183,
+    548,
+    553,
+    557,
+    564,
+    567,
+    570,
+    574,
+    577,
+    583,
+    585,
+    587,
+    590,
+    596,
+    602,
+    604,
+    614,
+    618,
+    621,
+    624
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":6,\"column\":\"city\",\"value\":\"San Diego\"},{\"row\":6,\"column\":\"state\",\"value\":\"CA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.053\"},{\"row\":12,\"column\":\"city\",\"value\":\"Portland\"},{\"row\":12,\"column\":\"state\",\"value\":\"OR\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.09\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.05\"}]}"
+  },
+  {
+   "start": 630,
+   "rows": [
+    630,
+    632,
+    644,
+    649,
+    651,
+    655,
+    657,
+    660,
+    663,
+    665,
+    677,
+    685,
+    687,
+    692,
+    696,
+    698,
+    702,
+    706,
+    708,
+    717
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 12,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":2,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.087\"},{\"row\":5,\"column\":\"brewery-name\",\"value\":\"Oskar Blues Brewery (North Carolina)\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.053\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":13,\"column\":\"city\",\"value\":\"Marietta\"},{\"row\":13,\"column\":\"state\",\"value\":\"GA\"},{\"row\":16,\"column\":\"city\",\"value\":\"Paonia\"},{\"row\":16,\"column\":\"state\",\"value\":\"CO\"}]}"
+  },
+  {
+   "start": 719,
+   "rows": [
+    719,
+    723,
+    726,
+    737,
+    740,
+    742,
+    745,
+    748,
+    751,
+    755,
+    763,
+    770,
+    778,
+    783,
+    791,
+    796,
+    801,
+    807,
+    809,
+    818
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.077\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.069\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.057\"}]}"
+  },
+  {
+   "start": 821,
+   "rows": [
+    821,
+    824,
+    846,
+    852,
+    854,
+    857,
+    860,
+    868,
+    871,
+    876,
+    881,
+    883,
+    888,
+    896,
+    898,
+    901,
+    904,
+    911,
+    917,
+    919
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 13,
+     "repaired": 13,
+     "detected": 13
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":2,\"column\":\"city\",\"value\":\"St. Paul\"},{\"row\":2,\"column\":\"state\",\"value\":\"MN\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.064\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":10,\"column\":\"city\",\"value\":\"Evanston\"},{\"row\":10,\"column\":\"state\",\"value\":\"IL\"},{\"row\":12,\"column\":\"city\",\"value\":\"Waterbury\"},{\"row\":12,\"column\":\"state\",\"value\":\"VT\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.082\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.051\"}]}"
+  },
+  {
+   "start": 0,
+   "rows": [
+    0,
+    921,
+    927,
+    929,
+    931,
+    941,
+    943,
+    947,
+    949,
+    953,
+    958,
+    961,
+    963,
+    966,
+    974,
+    978,
+    980,
+    984,
+    991,
+    998
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.04\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.001\"},{\"row\":6,\"column\":\"city\",\"value\":\"Boulder\"},{\"row\":6,\"column\":\"state\",\"value\":\"CO\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":10,\"column\":\"city\",\"value\":\"Meadville\"},{\"row\":10,\"column\":\"state\",\"value\":\"PA\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.071\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+  },
+  {
+   "start": 6,
+   "rows": [
+    6,
+    10,
+    14,
+    15,
+    19,
+    21,
+    24,
+    26,
+    27,
+    28,
+    33,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    44,
+    47,
+    48
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.061\"},{\"row\":5,\"column\":\"city\",\"value\":\"Saint Louis\"},{\"row\":5,\"column\":\"state\",\"value\":\"MO\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":15,\"column\":\"city\",\"value\":\"Madison\"},{\"row\":15,\"column\":\"state\",\"value\":\"WI\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":20,\"column\":\"city\",\"value\":\"Hayward\"},{\"row\":20,\"column\":\"state\",\"value\":\"WI\"}]}"
+  },
+  {
+   "start": 49,
+   "rows": [
+    49,
+    50,
+    51,
+    53,
+    54,
+    56,
+    58,
+    59,
+    62,
+    63,
+    67,
+    70,
+    71,
+    73,
+    75,
+    78,
+    79,
+    82,
+    83,
+    85
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.085\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":9,\"column\":\"city\",\"value\":\"Detroit\"},{\"row\":9,\"column\":\"state\",\"value\":\"MI\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.044\"}]}"
+  },
+  {
+   "start": 86,
+   "rows": [
+    86,
+    88,
+    90,
+    91,
+    93,
+    95,
+    97,
+    99,
+    100,
+    106,
+    108,
+    111,
+    112,
+    113,
+    115,
+    117,
+    119,
+    125,
+    127,
+    128
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":10,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":20,\"column\":\"city\",\"value\":\"Canton\"},{\"row\":20,\"column\":\"state\",\"value\":\"MA\"}]}"
+  },
+  {
+   "start": 131,
+   "rows": [
+    131,
+    132,
+    134,
+    136,
+    138,
+    140,
+    141,
+    142,
+    150,
+    151,
+    152,
+    153,
+    155,
+    156,
+    157,
+    158,
+    184,
+    185,
+    188,
+    193
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 12,
+     "repaired": 12,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":6,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":13,\"column\":\"city\",\"value\":\"Denver\"},{\"row\":13,\"column\":\"state\",\"value\":\"CO\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":15,\"column\":\"city\",\"value\":\"Plainfield\"},{\"row\":15,\"column\":\"state\",\"value\":\"IN\"},{\"row\":18,\"column\":\"city\",\"value\":\"Tampa Bay\"},{\"row\":18,\"column\":\"state\",\"value\":\"FL\"},{\"row\":19,\"column\":\"city\",\"value\":\"Brooklyn\"},{\"row\":19,\"column\":\"state\",\"value\":\"NY\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.058\"}]}"
+  },
+  {
+   "start": 194,
+   "rows": [
+    194,
+    195,
+    197,
+    199,
+    202,
+    205,
+    210,
+    212,
+    213,
+    214,
+    218,
+    220,
+    221,
+    224,
+    225,
+    229,
+    230,
+    231,
+    232,
+    234
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 19,
+     "predicted": 19,
+     "repaired": 19,
+     "detected": 19
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "other": {
+     "errors": 14,
+     "predicted": 14,
+     "repaired": 14,
+     "detected": 14
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.053\"},{\"row\":2,\"column\":\"city\",\"value\":\"Houston\"},{\"row\":2,\"column\":\"state\",\"value\":\"TX\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.043\"},{\"row\":4,\"column\":\"city\",\"value\":\"Garrattsville\"},{\"row\":6,\"column\":\"city\",\"value\":\"Oklahoma City\"},{\"row\":6,\"column\":\"state\",\"value\":\"OK\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"city\",\"value\":\"Gloucester\"},{\"row\":9,\"column\":\"state\",\"value\":\"MA\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":12,\"column\":\"city\",\"value\":\"Mooresville\"},{\"row\":12,\"column\":\"state\",\"value\":\"NC\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":19,\"column\":\"city\",\"value\":\"Edwards\"},{\"row\":19,\"column\":\"state\",\"value\":\"CO\"}]}"
+  },
+  {
+   "start": 237,
+   "rows": [
+    237,
+    238,
+    239,
+    240,
+    247,
+    250,
+    251,
+    253,
+    255,
+    256,
+    258,
+    262,
+    263,
+    265,
+    268,
+    269,
+    270,
+    271,
+    273,
+    275
+   ],
+   "n_pred": 26,
+   "counts": {
+    "all": {
+     "errors": 17,
+     "predicted": 26,
+     "repaired": 15,
+     "detected": 15
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 13,
+     "predicted": 22,
+     "repaired": 11,
+     "detected": 11
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":1,\"column\":\"city\",\"value\":\"Charlottesville\"},{\"row\":1,\"column\":\"state\",\"value\":\"VA\"},{\"row\":2,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":2,\"column\":\"city\",\"value\":\"Angola\"},{\"row\":2,\"column\":\"state\",\"value\":\"IN\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.065%\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.067%\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.044%\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.062%\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.052%\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.056%\"},{\"row\":11,\"column\":\"city\",\"value\":\"Des Moines\"},{\"row\":11,\"column\":\"state\",\"value\":\"IA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.061%\"},{\"row\":12,\"column\":\"city\",\"value\":\"Springdale\"},{\"row\":12,\"column\":\"state\",\"value\":\"AR\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.077%\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.06%\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.063%\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.092%\"}]}"
+  },
+  {
+   "start": 277,
+   "rows": [
+    277,
+    279,
+    282,
+    283,
+    285,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    299,
+    300,
+    301,
+    305,
+    306,
+    307,
+    308,
+    311,
+    313
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":8,\"column\":\"city\",\"value\":\"Belmont\"},{\"row\":8,\"column\":\"state\",\"value\":\"CA\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.061\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.043\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+  },
+  {
+   "start": 314,
+   "rows": [
+    314,
+    316,
+    319,
+    321,
+    324,
+    327,
+    333,
+    335,
+    338,
+    339,
+    341,
+    344,
+    351,
+    352,
+    353,
+    354,
+    355,
+    357,
+    361,
+    362
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 13,
+     "repaired": 13,
+     "detected": 13
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"city\",\"value\":\"Boulder\"},{\"row\":3,\"column\":\"state\",\"value\":\"CO\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":6,\"column\":\"city\",\"value\":\"Buellton\"},{\"row\":6,\"column\":\"state\",\"value\":\"CA\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":14,\"column\":\"city\",\"value\":\"Latrobe\"},{\"row\":14,\"column\":\"state\",\"value\":\"PA\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":17,\"column\":\"city\",\"value\":\"Dallas\"},{\"row\":17,\"column\":\"state\",\"value\":\"TX\"},{\"row\":20,\"column\":\"city\",\"value\":\"Frankenmuth\"},{\"row\":20,\"column\":\"state\",\"value\":\"MI\"}]}"
+  },
+  {
+   "start": 365,
+   "rows": [
+    365,
+    370,
+    371,
+    372,
+    373,
+    381,
+    382,
+    383,
+    387,
+    388,
+    390,
+    391,
+    392,
+    400,
+    403,
+    404,
+    405,
+    413,
+    414,
+    416
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":4,\"column\":\"city\",\"value\":\"Lake Geneva\"},{\"row\":4,\"column\":\"state\",\"value\":\"WI\"},{\"row\":5,\"column\":\"city\",\"value\":\"Pineland\"},{\"row\":5,\"column\":\"state\",\"value\":\"ME\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.045\"}]}"
+  },
+  {
+   "start": 419,
+   "rows": [
+    419,
+    421,
+    422,
+    424,
+    430,
+    432,
+    434,
+    436,
+    438,
+    439,
+    440,
+    442,
+    444,
+    447,
+    450,
+    451,
+    460,
+    461,
+    462,
+    463
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 12,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":8,\"column\":\"city\",\"value\":\"Mill Valley\"},{\"row\":8,\"column\":\"state\",\"value\":\"CA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.066\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":13,\"column\":\"city\",\"value\":\"Pittsburgh\"},{\"row\":13,\"column\":\"state\",\"value\":\"PA\"},{\"row\":16,\"column\":\"brewery-name\",\"value\":\"Hops & Grain Brewery\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+  },
+  {
+   "start": 464,
+   "rows": [
+    464,
+    465,
+    469,
+    470,
+    472,
+    473,
+    476,
+    477,
+    478,
+    480,
+    482,
+    483,
+    484,
+    487,
+    488,
+    489,
+    491,
+    493,
+    494,
+    495
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 16,
+     "repaired": 16,
+     "detected": 16
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 13,
+     "predicted": 13,
+     "repaired": 13,
+     "detected": 13
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.069\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":7,\"column\":\"city\",\"value\":\"Stevens Point\"},{\"row\":7,\"column\":\"state\",\"value\":\"WI\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.093\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.095\"},{\"row\":11,\"column\":\"city\",\"value\":\"Brooklyn\"},{\"row\":11,\"column\":\"state\",\"value\":\"NY\"},{\"row\":12,\"column\":\"city\",\"value\":\"Soldotna\"},{\"row\":12,\"column\":\"state\",\"value\":\"AK\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.066\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.05\"}]}"
+  },
+  {
+   "start": 496,
+   "rows": [
+    496,
+    498,
+    501,
+    503,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    514,
+    515,
+    518,
+    523,
+    525,
+    528,
+    534,
+    540
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 13,
+     "repaired": 12,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"city\",\"value\":\"York\"},{\"row\":3,\"column\":\"state\",\"value\":\"PA\"},{\"row\":8,\"column\":\"city\",\"value\":\"Menomonie\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":11,\"column\":\"city\",\"value\":\"Portland\"},{\"row\":11,\"column\":\"state\",\"value\":\"OR\"},{\"row\":13,\"column\":\"city\",\"value\":\"Cincinnati\"},{\"row\":13,\"column\":\"state\",\"value\":\"OH\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.097\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":18,\"column\":\"city\",\"value\":\"Fort Worth\"},{\"row\":18,\"column\":\"state\",\"value\":\"TX\"}]}"
+  },
+  {
+   "start": 541,
+   "rows": [
+    541,
+    544,
+    545,
+    546,
+    547,
+    549,
+    554,
+    555,
+    558,
+    565,
+    568,
+    571,
+    572,
+    573,
+    575,
+    576,
+    578,
+    579,
+    580,
+    581
+   ],
+   "n_pred": 4,
+   "counts": {
+    "all": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 0,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.046\"}]}"
+  },
+  {
+   "start": 584,
+   "rows": [
+    584,
+    586,
+    588,
+    591,
+    597,
+    603,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    615,
+    619,
+    620,
+    622,
+    625,
+    626
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":7,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":9,\"column\":\"city\",\"value\":\"Myrtle Beach\"},{\"row\":9,\"column\":\"state\",\"value\":\"SC\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.067\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.05\"}]}"
+  },
+  {
+   "start": 631,
+   "rows": [
+    631,
+    633,
+    645,
+    650,
+    652,
+    653,
+    654,
+    656,
+    658,
+    659,
+    661,
+    662,
+    664,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671,
+    672
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 12,
+     "repaired": 6,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"city\",\"value\":\"Longmont\"},{\"row\":3,\"column\":\"state\",\"value\":\"CO\"},{\"row\":5,\"column\":\"brewery-name\",\"value\":\"Oskar Blues Brewery (North Carolina)\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.053%\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.044%\"},{\"row\":10,\"column\":\"city\",\"value\":\"Portland\"},{\"row\":10,\"column\":\"state\",\"value\":\"ME\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.045%\"},{\"row\":15,\"column\":\"city\",\"value\":\"Petoskey\"},{\"row\":15,\"column\":\"state\",\"value\":\"MI\"},{\"row\":16,\"column\":\"city\",\"value\":\"San Francisco\"},{\"row\":17,\"column\":\"city\",\"value\":\"Bucyrus\"},{\"row\":20,\"column\":\"beer-name\",\"value\":\"New Cleveland Pilsner\"}]}"
+  },
+  {
+   "start": 673,
+   "rows": [
+    673,
+    678,
+    679,
+    680,
+    681,
+    686,
+    688,
+    689,
+    690,
+    691,
+    693,
+    697,
+    699,
+    703,
+    707,
+    709,
+    710,
+    711,
+    718,
+    720
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 12,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 10,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":15,\"column\":\"city\",\"value\":\"Cincinnati\"},{\"row\":15,\"column\":\"state\",\"value\":\"OH\"},{\"row\":16,\"column\":\"city\",\"value\":\"Portland\"},{\"row\":16,\"column\":\"state\",\"value\":\"ME\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"}]}"
+  },
+  {
+   "start": 721,
+   "rows": [
+    721,
+    722,
+    724,
+    725,
+    727,
+    738,
+    739,
+    741,
+    743,
+    746,
+    747,
+    749,
+    750,
+    752,
+    756,
+    764,
+    771,
+    772,
+    773,
+    774
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.063\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.048\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":11,\"column\":\"city\",\"value\":\"Silverton\"},{\"row\":11,\"column\":\"state\",\"value\":\"OR\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+  },
+  {
+   "start": 779,
+   "rows": [
+    779,
+    780,
+    784,
+    792,
+    793,
+    797,
+    802,
+    803,
+    808,
+    810,
+    819,
+    820,
+    822,
+    823,
+    825,
+    847,
+    848,
+    853,
+    855,
+    856
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 10,
+     "repaired": 8,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":6,\"column\":\"brewery-name\",\"value\":\"Southern Prohibition Brewing Company\"},{\"row\":8,\"column\":\"brewery-name\",\"value\":\"Speakeasy Ales & Lagers\"},{\"row\":9,\"column\":\"city\",\"value\":\"Chicago\"},{\"row\":9,\"column\":\"state\",\"value\":\"IL\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":13,\"column\":\"city\",\"value\":\"Baltimore\"},{\"row\":13,\"column\":\"state\",\"value\":\"MD\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.083\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.056\"}]}"
+  },
+  {
+   "start": 858,
+   "rows": [
+    858,
+    861,
+    869,
+    870,
+    872,
+    873,
+    874,
+    875,
+    877,
+    878,
+    882,
+    884,
+    885,
+    886,
+    887,
+    889,
+    890,
+    891,
+    892,
+    893
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 10,
+     "repaired": 10,
+     "detected": 10
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.04\"},{\"row\":10,\"column\":\"city\",\"value\":\"Athens\"},{\"row\":10,\"column\":\"state\",\"value\":\"GA\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.057\"}]}"
+  },
+  {
+   "start": 897,
+   "rows": [
+    897,
+    899,
+    902,
+    905,
+    906,
+    907,
+    908,
+    912,
+    913,
+    914,
+    918,
+    920,
+    922,
+    928,
+    930,
+    932,
+    933,
+    942,
+    944,
+    948
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 16,
+     "repaired": 16,
+     "detected": 16
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":2,\"column\":\"city\",\"value\":\"Kearney\"},{\"row\":2,\"column\":\"state\",\"value\":\"NE\"},{\"row\":3,\"column\":\"city\",\"value\":\"Evansville\"},{\"row\":3,\"column\":\"state\",\"value\":\"IN\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":5,\"column\":\"city\",\"value\":\"Idaho Springs\"},{\"row\":5,\"column\":\"state\",\"value\":\"CO\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":8,\"column\":\"city\",\"value\":\"Hershey\"},{\"row\":8,\"column\":\"state\",\"value\":\"PA\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":15,\"column\":\"city\",\"value\":\"Santa Cruz\"},{\"row\":15,\"column\":\"state\",\"value\":\"CA\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.065\"}]}"
+  },
+  {
+   "start": 950,
+   "rows": [
+    950,
+    954,
+    959,
+    960,
+    962,
+    964,
+    967,
+    968,
+    969,
+    975,
+    979,
+    981,
+    982,
+    985,
+    986,
+    987,
+    988,
+    989,
+    992,
+    999
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":12,\"column\":\"city\",\"value\":\"Stevensville\"},{\"row\":12,\"column\":\"state\",\"value\":\"MT\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":18,\"column\":\"city\",\"value\":\"North Woodstock\"},{\"row\":18,\"column\":\"state\",\"value\":\"NH\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.077\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+  }
+ ]
+}

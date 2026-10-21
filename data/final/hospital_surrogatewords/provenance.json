@@ -1,0 +1,16 @@
+{
+ "style": "words",
+ "replaced_columns": [
+  "ProviderNumber",
+  "HospitalName",
+  "Address1",
+  "City",
+  "ZipCode",
+  "CountyName",
+  "PhoneNumber"
+ ],
+ "error_cells": 509,
+ "original_error_cells": 509,
+ "same_error_cells_as_original": true,
+ "errors": "v2 (09-30): replaced character drawn by position, as in the original"
+}

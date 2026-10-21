@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "files": {
+    "data/witnesses/movies.json": "5f802bdecd8d8ec20b2a331a99e343127916872debf41b01fe1a6cbb04f0cc8a",
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__movies__summary.json": "9cc146673a64f1fced6c061c36c47e60721bd279c74092ead789baf9d512714b",
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__movies__summary.json": "1f3d7f361139bb973b522cfd87f45a4c78965ff0d3e266bb21bf4cb31df378f4",
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__movies__summary.json": "4decbe0270f74e081e4c3931b30f7d43ce45e69f9ec4cfecedcecdf6dc1eb19f",
+    "artifacts/raw_outputs/near/local_llama3.1-8b__movies__summary.json": "3d02a3f0302cad44639bdcab4371c2aaf122fd6ee422478e33f86f9eb0ba73e0",
+    "artifacts/raw_outputs/near/local_olmo2-7b__movies__summary.json": "00b67c12759fb07958aef570d52cc6db39ba818eb4c6ff3b5a9b6c8cfb0a99d4",
+    "artifacts/raw_outputs/near/local_qwen2.5-14b__movies__summary.json": "3bfae039971393078437157ef335258593d67cd32461ead6d11470ea2df042e8",
+    "artifacts/raw_outputs/near/local_qwen2.5-32b-awq__movies__summary.json": "14151e1b27ed1c7a7c32cd4afdab9f3a1a8192acdc2e633a21346e29049f8e54",
+    "artifacts/raw_outputs/near/local_qwen2.5-7b__movies__summary.json": "49f0de51f66d9c76a88080caa8430c52423981ed2d736af92e6dc1d0dd824390",
+    "artifacts/raw_outputs/near/openai_gpt-6.1-sol__movies__summary.json": "e78a79040c86db492713ec9d647a11a8b62f2fff89f1fd21ebcd4b8ea6989f80",
+    "artifacts/raw_outputs/p2/misfix_summary.json": "69d6abc5f4a340e8523467adaa32b8f84538c1bfc28271ce10717ee17c6c5b6c"
+  }
+}

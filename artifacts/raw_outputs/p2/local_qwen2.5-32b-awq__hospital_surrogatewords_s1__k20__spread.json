@@ -1,0 +1,2391 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-32b-awq",
+  "dataset": "hospital_surrogatewords_s1",
+  "k": 20,
+  "spread": true,
+  "chunks": 50,
+  "all": {
+   "repair_p": 0.6416,
+   "repair_r": 0.5874,
+   "repair_f1": 0.6133,
+   "detect_f1": 0.8287,
+   "errors": 509,
+   "predicted": 466,
+   "repaired": 299,
+   "detected": 404
+  },
+  "identity": {
+   "repair_p": 0.3785,
+   "repair_r": 0.3059,
+   "repair_f1": 0.3384,
+   "detect_f1": 0.7879,
+   "errors": 219,
+   "predicted": 177,
+   "repaired": 67,
+   "detected": 156
+  },
+  "other": {
+   "repair_p": 0.8028,
+   "repair_r": 0.8,
+   "repair_f1": 0.8014,
+   "detect_f1": 0.8566,
+   "errors": 290,
+   "predicted": 289,
+   "repaired": 232,
+   "detected": 248
+  }
+ },
+ "chunks": [
+  {
+   "start": 0,
+   "rows": [
+    0,
+    8,
+    19,
+    44,
+    69,
+    94,
+    119,
+    144,
+    169,
+    194,
+    219,
+    244,
+    269,
+    311,
+    354,
+    466,
+    491,
+    516,
+    774,
+    902
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 17,
+     "predicted": 12,
+     "repaired": 8,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 4
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"1\",\n      \"column\": \"HospitalName\",\n      \"value\": \"Spring Mill Medical Center\"\n    },\n    {\n      \"row\": \"1\",\n      \"column\": \"City\",\n      \"value\": \"Meadow Pleasant\"\n    },\n    {\n      \"row\": \"1\",\n      \"column\": \"CountyName\",\n      \"value\": \"Laurel Crystal\"\n    },\n    {\n      \"row\": \"1\",\n      \"column\": \"MeasureName\",\n      \"value\": \"Surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"\n    },\n    {\n      \"row\": \"4\",\n      \"column\": \"ZipCode\",\n      \"value\": \"11119\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"Address1\",\n      \"value\": \"3722 Maple Street\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"MeasureName\",\n      \"value\": \"Heart attack patients given aspirin at arrival\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"State\",\n      \"value\": \"AL\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"MeasureName\",\n      \"value\": \"Heart attack patients given aspirin at arrival\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"MeasureName\",\n      \"value\": \"Heart attack patients given aspirin at arrival\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"97737\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Sample\",\n      \"value\": \"0 patients\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Stateavg\",\n      \"value\": \"al_ami-1\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"Stateavg\",\n      \"value\": \"al_ami-1\"\n    },\n    {\n      \"row\": \"14\",\n      \"column\": \"City\",\n      \"value\": \"Axber\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Sample\",\n      \"value\": \"10 patients\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"794434498\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 1,
+   "rows": [
+    1,
+    9,
+    312,
+    541,
+    566,
+    591,
+    616,
+    641,
+    666,
+    691,
+    716,
+    741,
+    775,
+    802,
+    827,
+    852,
+    877,
+    903,
+    930,
+    955
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 11,
+     "repaired": 9,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 4,\n      \"column\": \"MeasureName\",\n      \"value\": \"heart attack patients given aspirin at arrival\"\n    },\n    {\n      \"row\": 9,\n      \"column\": \"PhoneNumber\",\n      \"value\": \"739973895\"\n    },\n    {\n      \"row\": 10,\n      \"column\": \"MeasureCode\",\n      \"value\": \"ami-1\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": 14,\n      \"column\": \"MeasureName\",\n      \"value\": \"heart attack patients given aspirin at arrival\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"Stateavg\",\n      \"value\": \"al_ami-1\"\n    },\n    {\n      \"row\": 17,\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": 18,\n      \"column\": \"HospitalName\",\n      \"value\": \"ridge clear medical center\"\n    },\n    {\n      \"row\": 19,\n      \"column\": \"MeasureCode\",\n      \"value\": \"ami-1\"\n    },\n    {\n      \"row\": 20,\n      \"column\": \"ProviderNumber\",\n      \"value\": \"9352\"\n    },\n    {\n      \"row\": 20,\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 20,
+   "rows": [
+    20,
+    45,
+    70,
+    95,
+    120,
+    145,
+    170,
+    195,
+    220,
+    245,
+    270,
+    313,
+    355,
+    467,
+    492,
+    517,
+    542,
+    567,
+    776,
+    904
+   ],
+   "n_pred": 14,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 14,
+     "repaired": 9,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 11,
+     "repaired": 8,
+     "detected": 9
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 2,\n      \"column\": \"ProviderNumber\",\n      \"value\": \"91179\"\n    },\n    {\n      \"row\": 3,\n      \"column\": \"ZipCode\",\n      \"value\": \"98744\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"MeasureCode\",\n      \"value\": \"ami-2\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"Score\",\n      \"value\": \"100%\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"Sample\",\n      \"value\": \"1 patient\"\n    },\n    {\n      \"row\": 6,\n      \"column\": \"MeasureName\",\n      \"value\": \"heart attack patients given aspirin at discharge\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"Sample\",\n      \"value\": \"60 patients\"\n    },\n    {\n      \"row\": 12,\n      \"column\": \"HospitalOwner\",\n      \"value\": \"proprietary\"\n    },\n    {\n      \"row\": 12,\n      \"column\": \"MeasureCode\",\n      \"value\": \"ami-2\"\n    },\n    {\n      \"row\": 14,\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": 16,\n      \"column\": \"City\",\n      \"value\": \"glen\"\n    },\n    {\n      \"row\": 18,\n      \"column\": \"Stateavg\",\n      \"value\": \"al_ami-2\"\n    },\n    {\n      \"row\": 19,\n      \"column\": \"Sample\",\n      \"value\": \"193 patients\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 2,
+   "rows": [
+    2,
+    10,
+    21,
+    46,
+    314,
+    592,
+    617,
+    642,
+    667,
+    692,
+    717,
+    742,
+    777,
+    803,
+    828,
+    853,
+    878,
+    905,
+    931,
+    956
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 8,
+     "repaired": 7,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"3\",\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": \"4\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"HospitalName\",\n      \"value\": \"pine gentle medical center\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"Sample\",\n      \"value\": \"126 patients\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"HospitalName\",\n      \"value\": \"summit iron memorial hospital\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"Address1\",\n      \"value\": \"1876 harbor road\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"CountyName\",\n      \"value\": \"eagle shadow\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 71,
+   "rows": [
+    71,
+    96,
+    121,
+    146,
+    171,
+    196,
+    221,
+    246,
+    271,
+    315,
+    356,
+    468,
+    493,
+    518,
+    543,
+    568,
+    593,
+    618,
+    778,
+    906
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 13,
+     "repaired": 7,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"1\",\n      \"column\": \"City\",\n      \"value\": \"Everett\"\n    },\n    {\n      \"row\": \"1\",\n      \"column\": \"ZipCode\",\n      \"value\": \"98208\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"ZipCode\",\n      \"value\": \"84340\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"CountyName\",\n      \"value\": \"Fall Creek\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"Voluntary non-profit - Church\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"State\",\n      \"value\": \"AL\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"Proprietary\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"HospitalType\",\n      \"value\": \"Acute Care Hospitals\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"Voluntary non-profit - Private\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"MeasureName\",\n      \"value\": \"Heart Attack Patients Given ACE Inhibitor or ARB for Left Ventricular Systolic Dysfunction (LVSD)\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"6200533490\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"Score\",\n      \"value\": \"100%\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"Sample\",\n      \"value\": \"1 patients\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 3,
+   "rows": [
+    3,
+    11,
+    22,
+    47,
+    72,
+    97,
+    316,
+    643,
+    668,
+    693,
+    718,
+    743,
+    779,
+    804,
+    829,
+    854,
+    879,
+    907,
+    932,
+    957
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 8,
+     "repaired": 5,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 6
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"1\",\n      \"column\": \"City\",\n      \"value\": \"Meadow\"\n    },\n    {\n      \"row\": \"1\",\n      \"column\": \"CountyName\",\n      \"value\": \"Laurel\"\n    },\n    {\n      \"row\": \"3\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"government - hospital district or authority\"\n    },\n    {\n      \"row\": \"3\",\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"Sample\",\n      \"value\": \"29 patients\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"ami-3\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"Score\",\n      \"value\": \"97%\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 122,
+   "rows": [
+    122,
+    147,
+    172,
+    197,
+    222,
+    247,
+    272,
+    317,
+    357,
+    469,
+    494,
+    519,
+    544,
+    569,
+    594,
+    619,
+    644,
+    669,
+    694,
+    719
+   ],
+   "n_pred": 4,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 6,\n      \"column\": \"PhoneNumber\",\n      \"value\": \"4004404464\"\n    },\n    {\n      \"row\": 6,\n      \"column\": \"HospitalOwner\",\n      \"value\": \"government - federal\"\n    },\n    {\n      \"row\": 13,\n      \"column\": \"ZipCode\",\n      \"value\": \"12060\"\n    },\n    {\n      \"row\": 19,\n      \"column\": \"MeasureCode\",\n      \"value\": \"ami-4\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 4,
+   "rows": [
+    4,
+    12,
+    23,
+    48,
+    73,
+    98,
+    123,
+    148,
+    173,
+    198,
+    223,
+    744,
+    780,
+    805,
+    830,
+    855,
+    880,
+    908,
+    933,
+    958
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 6,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 4
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"5\",\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"CountyName\",\n      \"value\": \"fallow\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"proprietary\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"index\",\n      \"value\": \"98123\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"City\",\n      \"value\": \"lake clear\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"255222908\"\n    },\n    {\n      \"row\": \"19\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"9444\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 248,
+   "rows": [
+    248,
+    273,
+    318,
+    358,
+    470,
+    495,
+    520,
+    545,
+    570,
+    595,
+    620,
+    645,
+    670,
+    695,
+    720,
+    745,
+    781,
+    806,
+    831,
+    856
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"2\", \"column\": \"ProviderNumber\", \"value\": \"94646\"}, {\"row\": \"3\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"6\", \"column\": \"MeasureCode\", \"value\": \"ami-5\"}, {\"row\": \"8\", \"column\": \"MeasureName\", \"value\": \"heart attack patients given beta blocker at discharge\"}, {\"row\": \"12\", \"column\": \"ProviderNumber\", \"value\": \"90470\"}, {\"row\": \"14\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": \"14\", \"column\": \"Condition\", \"value\": \"heart attack\"}]}"
+  },
+  {
+   "start": 5,
+   "rows": [
+    5,
+    13,
+    24,
+    49,
+    74,
+    99,
+    124,
+    149,
+    174,
+    199,
+    224,
+    249,
+    274,
+    319,
+    359,
+    392,
+    881,
+    909,
+    934,
+    959
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 4,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [\n    {\"row\": \"2\", \"column\": \"ZipCode\", \"value\": \"47246\"},\n    {\"row\": \"3\", \"column\": \"EmergencyService\", \"value\": \"yes\"},\n    {\"row\": \"8\", \"column\": \"ZipCode\", \"value\": \"85460\"},\n    {\"row\": \"8\", \"column\": \"City\", \"value\": \"meadow liberty\"},\n    {\"row\": \"10\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": \"10\", \"column\": \"Condition\", \"value\": \"heart attack\"},\n    {\"row\": \"11\", \"column\": \"Sample\", \"value\": \"1 patient\"},\n    {\"row\": \"17\", \"column\": \"PhoneNumber\", \"value\": \"444857244\"}\n]}"
+  },
+  {
+   "start": 471,
+   "rows": [
+    471,
+    496,
+    521,
+    546,
+    571,
+    596,
+    621,
+    646,
+    671,
+    696,
+    721,
+    746,
+    782,
+    807,
+    832,
+    857,
+    882,
+    910,
+    935,
+    960
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 10,
+     "repaired": 6,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"2\",\n      \"column\": \"Sample\",\n      \"value\": \"0 patients\"\n    },\n    {\n      \"row\": \"3\",\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": \"4\",\n      \"column\": \"Score\",\n      \"value\": \"0%\"\n    },\n    {\n      \"row\": \"4\",\n      \"column\": \"Sample\",\n      \"value\": \"0 patients\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"Score\",\n      \"value\": \"0%\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"Sample\",\n      \"value\": \"0 patients\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"97175\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"Stateavg\",\n      \"value\": \"al_ami-7a\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"HospitalName\",\n      \"value\": \"harvest garden medical center\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"Address1\",\n      \"value\": \"2738 unity avenue\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 6,
+   "rows": [
+    6,
+    14,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    320,
+    360,
+    393,
+    472,
+    497,
+    522,
+    980
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 3,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 5
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"4\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"Address1\",\n      \"value\": \"7000 Brook Xlvd\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"Condition\",\n      \"value\": \"heart attack\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"Address1\",\n      \"value\": \"5273X HavenX Blvd\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"9727\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"Address1\",\n      \"value\": \"9196 Noble Sxrees\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"2990000000\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"Address1\",\n      \"value\": \"XX81 Shadow Street\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 7,
+   "rows": [
+    7,
+    15,
+    547,
+    572,
+    597,
+    622,
+    647,
+    672,
+    697,
+    722,
+    747,
+    783,
+    808,
+    833,
+    858,
+    883,
+    911,
+    936,
+    961,
+    981
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 11,
+     "repaired": 5,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 2,
+     "detected": 5
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"City\", \"value\": \"Meadow Plex\"}, {\"row\": 1, \"column\": \"ZipCode\", \"value\": \"35006\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"Harvest\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"Laurel\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"8632386992\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 6, \"column\": \"MeasureCode\", \"value\": \"ami-8a\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart attack patients given pci within 90 minutes of arrival\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"Laurel Crystal\"}, {\"row\": 10, \"column\": \"CountyName\", \"value\": \"Forest Liberty\"}, {\"row\": 16, \"column\": \"PhoneNumber\", \"value\": \"9949877294\"}]}"
+  },
+  {
+   "start": 26,
+   "rows": [
+    26,
+    51,
+    76,
+    101,
+    126,
+    151,
+    176,
+    201,
+    226,
+    251,
+    276,
+    321,
+    361,
+    394,
+    414,
+    432,
+    473,
+    498,
+    523,
+    548
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 4,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 1,\n      \"column\": \"HospitalName\",\n      \"value\": \"Liberty Timber Memorial Hospital\"\n    },\n    {\n      \"row\": 2,\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": 4,\n      \"column\": \"PhoneNumber\",\n      \"value\": \"809209210\"\n    },\n    {\n      \"row\": 4,\n      \"column\": \"MeasureCode\",\n      \"value\": \"hf-1\"\n    },\n    {\n      \"row\": 14,\n      \"column\": \"Score\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": 17,\n      \"column\": \"MeasureName\",\n      \"value\": \"heart failure patients given discharge instructions\"\n    },\n    {\n      \"row\": 19,\n      \"column\": \"Sample\",\n      \"value\": \"25 patients\"\n    },\n    {\n      \"row\": 20,\n      \"column\": \"PhoneNumber\",\n      \"value\": \"56312050\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 16,
+   "rows": [
+    16,
+    27,
+    52,
+    573,
+    598,
+    623,
+    648,
+    673,
+    698,
+    723,
+    748,
+    784,
+    809,
+    834,
+    859,
+    884,
+    912,
+    937,
+    962,
+    982
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 11,
+     "repaired": 7,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 8,
+     "repaired": 6,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\": [\n    {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Lake Juniper Memorial Hospital\"},\n    {\"row\": 1, \"column\": \"City\", \"value\": \"Hollow\"},\n    {\"row\": 1, \"column\": \"CountyName\", \"value\": \"Laurel\"},\n    {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"91033\"},\n    {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"},\n    {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n    {\"row\": 7, \"column\": \"MeasureCode\", \"value\": \"hf-1\"},\n    {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"},\n    {\"row\": 8, \"column\": \"Sample\", \"value\": \"618 patients\"},\n    {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"hf-1\"},\n    {\"row\": 9, \"column\": \"Score\", \"value\": \"0%\"},\n    {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"},\n    {\"row\": 13, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n    {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"93780\"},\n    {\"row\": 16, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"Amber Iron Memorial Hospital\"}\n]}"
+  },
+  {
+   "start": 77,
+   "rows": [
+    77,
+    102,
+    127,
+    152,
+    177,
+    202,
+    227,
+    252,
+    277,
+    294,
+    322,
+    331,
+    362,
+    395,
+    415,
+    433,
+    474,
+    499,
+    524,
+    549
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 3,\n      \"column\": \"Condition\",\n      \"value\": \"heart failure\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"MeasureCode\",\n      \"value\": \"hf-2\"\n    },\n    {\n      \"row\": 8,\n      \"column\": \"Score\",\n      \"value\": \"89\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"Address1\",\n      \"value\": \"9353 amber avenue\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"CountyName\",\n      \"value\": \"oak eagle\"\n    },\n    {\n      \"row\": 16,\n      \"column\": \"State\",\n      \"value\": \"ak\"\n    },\n    {\n      \"row\": 17,\n      \"column\": \"City\",\n      \"value\": \"ridge copper\"\n    },\n    {\n      \"row\": 18,\n      \"column\": \"ZipCode\",\n      \"value\": \"70888\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 17,
+   "rows": [
+    17,
+    28,
+    53,
+    574,
+    599,
+    624,
+    649,
+    674,
+    699,
+    724,
+    749,
+    785,
+    810,
+    835,
+    860,
+    885,
+    913,
+    938,
+    963,
+    983
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"5\", \"column\": \"Condition\", \"value\": \"heart failure\"}, {\"row\": \"8\", \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": \"9\", \"column\": \"PhoneNumber\", \"value\": \"2433111141\"}, {\"row\": \"10\", \"column\": \"ProviderNumber\", \"value\": \"97178\"}, {\"row\": \"12\", \"column\": \"HospitalName\", \"value\": \"pine gentle medical center\"}, {\"row\": \"15\", \"column\": \"Score\", \"value\": \"80%\"}, {\"row\": \"18\", \"column\": \"HospitalName\", \"value\": \"haven bright regional hospital\"}]}"
+  },
+  {
+   "start": 78,
+   "rows": [
+    78,
+    103,
+    128,
+    153,
+    178,
+    203,
+    228,
+    253,
+    278,
+    295,
+    323,
+    332,
+    363,
+    396,
+    416,
+    434,
+    475,
+    500,
+    525,
+    550
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 13,
+     "repaired": 6,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 7,
+     "repaired": 2,
+     "detected": 5
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"1\",\n      \"column\": \"City\",\n      \"value\": \"Everett\"\n    },\n    {\n      \"row\": \"1\",\n      \"column\": \"ZipCode\",\n      \"value\": \"98208\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"City\",\n      \"value\": \"Grace\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"State\",\n      \"value\": \"AL\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"437217053\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"97737\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"State\",\n      \"value\": \"AL\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"Address1\",\n      \"value\": \"397 Summit Street\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"Score\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"Sample\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"ZipCode\",\n      \"value\": \"05300\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"proprietary\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": \"14\",\n      \"column\": \"Score\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"14\",\n      \"column\": \"Sample\",\n      \"value\": \"0 patients\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"EmergencyService\",\n      \"value\": \"no\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"MeasureName\",\n      \"value\": \"heart attack patients given ACE inhibitor or ARB for left ventricular systolic dysfunction (LVD)\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"State\",\n      \"value\": \"AK\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"MeasureName\",\n      \"value\": \"heart failure patients given ACE inhibitor or ARB for left ventricular systolic dysfunction (LVD)\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 18,
+   "rows": [
+    18,
+    29,
+    54,
+    575,
+    600,
+    625,
+    650,
+    675,
+    700,
+    725,
+    750,
+    786,
+    811,
+    836,
+    861,
+    886,
+    914,
+    939,
+    964,
+    984
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"ZipCode\", \"value\": \"36566\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"Harvest\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 19, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}]}"
+  },
+  {
+   "start": 79,
+   "rows": [
+    79,
+    104,
+    129,
+    154,
+    179,
+    204,
+    229,
+    254,
+    279,
+    296,
+    324,
+    333,
+    364,
+    397,
+    417,
+    435,
+    476,
+    501,
+    526,
+    551
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 9,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 9,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"7\",\n      \"column\": \"Condition\",\n      \"value\": \"heart failure\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"Condition\",\n      \"value\": \"heart failure\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"Score\",\n      \"value\": \"100%\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"Sample\",\n      \"value\": \"17 patients\"\n    },\n    {\n      \"row\": \"14\",\n      \"column\": \"Score\",\n      \"value\": \"100%\"\n    },\n    {\n      \"row\": \"14\",\n      \"column\": \"Sample\",\n      \"value\": \"17 patients\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Score\",\n      \"value\": \"100%\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Sample\",\n      \"value\": \"17 patients\"\n    },\n    {\n      \"row\": \"19\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"voluntary non-profit - church\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 30,
+   "rows": [
+    30,
+    55,
+    80,
+    576,
+    601,
+    626,
+    651,
+    676,
+    701,
+    726,
+    751,
+    787,
+    812,
+    837,
+    862,
+    887,
+    915,
+    940,
+    965,
+    985
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 6,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"7\",\n      \"column\": \"HospitalName\",\n      \"value\": \"amber orchard memorial hospital\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"MeasureName\",\n      \"value\": \"heart failure patients given smoking cessation advice/counseling\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"hf-4\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"55454189\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"hf-4\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"Address1\",\n      \"value\": \"9843 forest road\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"MeasureName\",\n      \"value\": \"heart failure patients given smoking cessation advice/counseling\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"City\",\n      \"value\": \"green\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"Score\",\n      \"value\": \"0%\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 105,
+   "rows": [
+    105,
+    130,
+    155,
+    180,
+    205,
+    230,
+    255,
+    280,
+    297,
+    325,
+    334,
+    365,
+    398,
+    418,
+    436,
+    452,
+    477,
+    502,
+    527,
+    552
+   ],
+   "n_pred": 14,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 11,
+     "repaired": 8,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 5
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 6
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 4,\n      \"column\": \"City\",\n      \"value\": \"Birch Shadow\"\n    },\n    {\n      \"row\": 8,\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": 10,\n      \"column\": \"ZipCode\",\n      \"value\": \"41210\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"Address1\",\n      \"value\": \"2069 Beacon Road\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"MeasureCode\",\n      \"value\": \"pn-2\"\n    },\n    {\n      \"row\": 14,\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": 14,\n      \"column\": \"Sample\",\n      \"value\": \"4 patients\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"State\",\n      \"value\": \"AK\"\n    },\n    {\n      \"row\": 17,\n      \"column\": \"City\",\n      \"value\": \"Ridge Copper\"\n    },\n    {\n      \"row\": 17,\n      \"column\": \"State\",\n      \"value\": \"AL\"\n    },\n    {\n      \"row\": 17,\n      \"column\": \"Stateavg\",\n      \"value\": \"al_pn-2\"\n    },\n    {\n      \"row\": 18,\n      \"column\": \"CountyName\",\n      \"value\": \"Pleasant Meadow\"\n    },\n    {\n      \"row\": 18,\n      \"column\": \"Sample\",\n      \"value\": \"44 patients\"\n    },\n    {\n      \"row\": 19,\n      \"column\": \"CountyName\",\n      \"value\": \"Meadow\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 31,
+   "rows": [
+    31,
+    56,
+    81,
+    577,
+    602,
+    627,
+    652,
+    677,
+    702,
+    727,
+    752,
+    788,
+    813,
+    838,
+    863,
+    888,
+    916,
+    941,
+    966,
+    986
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 9,
+     "repaired": 4,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 10,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 6
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"1\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"91033\"\n    },\n    {\n      \"row\": \"1\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"government - hospital district or authority\"\n    },\n    {\n      \"row\": \"2\",\n      \"column\": \"City\",\n      \"value\": \"sunset\"\n    },\n    {\n      \"row\": \"2\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"pn-3b\"\n    },\n    {\n      \"row\": \"3\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"9131\"\n    },\n    {\n      \"row\": \"3\",\n      \"column\": \"Address1\",\n      \"value\": \"9932 glen avenue\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"9915\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"City\",\n      \"value\": \"heather eagle\"\n    },\n    {\n      \"row\": \"11\",\n      \"column\": \"CountyName\",\n      \"value\": \"valley\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"pn-2\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"9354\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"Score\",\n      \"value\": \"95%\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"770012712\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 106,
+   "rows": [
+    106,
+    131,
+    156,
+    181,
+    206,
+    231,
+    256,
+    281,
+    298,
+    326,
+    335,
+    366,
+    379,
+    399,
+    419,
+    437,
+    453,
+    478,
+    503,
+    528
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 12,
+     "repaired": 9,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 4
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 1,\n      \"column\": \"Address1\",\n      \"value\": \"3702 maple street\"\n    },\n    {\n      \"row\": 1,\n      \"column\": \"City\",\n      \"value\": \"Grove\"\n    },\n    {\n      \"row\": 1,\n      \"column\": \"State\",\n      \"value\": \"AL\"\n    },\n    {\n      \"row\": 1,\n      \"column\": \"ZipCode\",\n      \"value\": \"36470\"\n    },\n    {\n      \"row\": 2,\n      \"column\": \"HospitalName\",\n      \"value\": \"Pleasant Quiet Health Center\"\n    },\n    {\n      \"row\": 2,\n      \"column\": \"City\",\n      \"value\": \"Garden\"\n    },\n    {\n      \"row\": 2,\n      \"column\": \"State\",\n      \"value\": \"AL\"\n    },\n    {\n      \"row\": 2,\n      \"column\": \"ZipCode\",\n      \"value\": \"36701\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"Condition\",\n      \"value\": \"pneumonia\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"MeasureName\",\n      \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"Score\",\n      \"value\": \"96%\"\n    },\n    {\n      \"row\": 8,\n      \"column\": \"MeasureName\",\n      \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"\n    },\n    {\n      \"row\": 12,\n      \"column\": \"ZipCode\",\n      \"value\": \"4555\"\n    },\n    {\n      \"row\": 12,\n      \"column\": \"Condition\",\n      \"value\": \"pneumonia\"\n    },\n    {\n      \"row\": 16,\n      \"column\": \"City\",\n      \"value\": \"Lantern\"\n    },\n    {\n      \"row\": 16,\n      \"column\": \"State\",\n      \"value\": \"AK\"\n    },\n    {\n      \"row\": 17,\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 32,
+   "rows": [
+    32,
+    57,
+    553,
+    578,
+    603,
+    628,
+    653,
+    678,
+    703,
+    728,
+    753,
+    789,
+    814,
+    839,
+    864,
+    889,
+    917,
+    942,
+    967,
+    987
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 11,
+     "repaired": 9,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"Address1\", \"value\": \"8367 anchor road\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"harvest anchor\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"anchor evening\"}, {\"row\": 6, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Stateavg\", \"value\": \"al_pn-3b\"}, {\"row\": 12, \"column\": \"ProviderNumber\", \"value\": \"99058\"}, {\"row\": 13, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 16, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"green\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"laurel crystal memorial hospital\"}]}"
+  },
+  {
+   "start": 82,
+   "rows": [
+    82,
+    107,
+    132,
+    157,
+    182,
+    207,
+    232,
+    257,
+    282,
+    299,
+    327,
+    336,
+    367,
+    380,
+    400,
+    420,
+    438,
+    454,
+    479,
+    504
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 12,
+     "repaired": 10,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"4\", \"column\": \"City\", \"value\": \"birch shadow\"}, {\"row\": \"4\", \"column\": \"CountyName\", \"value\": \"meadow liberty\"}, {\"row\": \"4\", \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": \"4\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"5\", \"column\": \"State\", \"value\": \"al\"}, {\"row\": \"6\", \"column\": \"City\", \"value\": \"meadow pleasant\"}, {\"row\": \"7\", \"column\": \"ZipCode\", \"value\": \"11818\"}, {\"row\": \"10\", \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": \"10\", \"column\": \"Sample\", \"value\": \"empty\"}, {\"row\": \"11\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"12\", \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": \"13\", \"column\": \"City\", \"value\": \"morning\"}, {\"row\": \"14\", \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": \"15\", \"column\": \"Condition\", \"value\": \"heart failure\"}, {\"row\": \"15\", \"column\": \"MeasureName\", \"value\": \"heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}, {\"row\": \"16\", \"column\": \"ZipCode\", \"value\": \"43801\"}, {\"row\": \"16\", \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": \"16\", \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": \"20\", \"column\": \"State\", \"value\": \"al\"}]}"
+  },
+  {
+   "start": 33,
+   "rows": [
+    33,
+    529,
+    554,
+    579,
+    604,
+    629,
+    654,
+    679,
+    704,
+    729,
+    754,
+    790,
+    815,
+    840,
+    865,
+    890,
+    918,
+    943,
+    968,
+    988
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 13,
+     "repaired": 9,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 6
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"3\", \"column\": \"Sample\", \"value\": \"74 patients\"}, {\"row\": \"4\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"7\", \"column\": \"HospitalName\", \"value\": \"amber orchard memorial hospital\"}, {\"row\": \"7\", \"column\": \"City\", \"value\": \"bridge\"}, {\"row\": \"8\", \"column\": \"ZipCode\", \"value\": \"72265\"}, {\"row\": \"8\", \"column\": \"Condition\", \"value\": \"pneumonia\"}, {\"row\": \"9\", \"column\": \"ProviderNumber\", \"value\": \"96622\"}, {\"row\": \"10\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": \"10\", \"column\": \"MeasureCode\", \"value\": \"pn-4\"}, {\"row\": \"15\", \"column\": \"ZipCode\", \"value\": \"90890\"}, {\"row\": \"15\", \"column\": \"MeasureCode\", \"value\": \"pn-4\"}, {\"row\": \"18\", \"column\": \"CountyName\", \"value\": \"grove canyon\"}, {\"row\": \"19\", \"column\": \"City\", \"value\": \"suxx\"}]}"
+  },
+  {
+   "start": 58,
+   "rows": [
+    58,
+    83,
+    108,
+    133,
+    158,
+    183,
+    208,
+    233,
+    258,
+    283,
+    300,
+    328,
+    337,
+    368,
+    381,
+    401,
+    421,
+    439,
+    455,
+    480
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 2,\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": 3,\n      \"column\": \"MeasureCode\",\n      \"value\": \"pn-5c\"\n    },\n    {\n      \"row\": 4,\n      \"column\": \"Sample\",\n      \"value\": \"21 patients\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"Score\",\n      \"value\": \"96%\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"Score\",\n      \"value\": \"95%\"\n    },\n    {\n      \"row\": 10,\n      \"column\": \"ZipCode\",\n      \"value\": \"5x80\"\n    },\n    {\n      \"row\": 13,\n      \"column\": \"HospitalName\",\n      \"value\": \"rose quiet memorial hospital\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"PhoneNumber\",\n      \"value\": \"362xx51826\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 505,
+   "rows": [
+    505,
+    530,
+    555,
+    580,
+    605,
+    630,
+    655,
+    680,
+    705,
+    730,
+    755,
+    791,
+    816,
+    841,
+    866,
+    891,
+    919,
+    944,
+    969,
+    989
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 15,
+     "repaired": 13,
+     "detected": 15
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"3\", \"column\": \"Condition\", \"value\": \"pneumonia\"}, {\"row\": \"3\", \"column\": \"Stateavg\", \"value\": \"al_pn-5c\"}, {\"row\": \"4\", \"column\": \"MeasureCode\", \"value\": \"pn-5c\"}, {\"row\": \"4\", \"column\": \"Score\", \"value\": \"82%\"}, {\"row\": \"4\", \"column\": \"Sample\", \"value\": \"50 patients\"}, {\"row\": \"7\", \"column\": \"ProviderNumber\", \"value\": \"90405\"}, {\"row\": \"9\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": \"9\", \"column\": \"MeasureName\", \"value\": \"pneumonia patients given initial antibiotic(s) within 6 hours after arrival\"}, {\"row\": \"10\", \"column\": \"HospitalName\", \"value\": \"gentle pine regional hospital\"}, {\"row\": \"10\", \"column\": \"CountyName\", \"value\": \"forest liberty\"}, {\"row\": \"11\", \"column\": \"ProviderNumber\", \"value\": \"91123\"}, {\"row\": \"12\", \"column\": \"State\", \"value\": \"al\"}, {\"row\": \"13\", \"column\": \"MeasureName\", \"value\": \"pneumonia patients given initial antibiotic(s) within 6 hours after arrival\"}, {\"row\": \"15\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"15\", \"column\": \"Sample\", \"value\": \"121 patients\"}, {\"row\": \"17\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"17\", \"column\": \"Sample\", \"value\": \"261 patients\"}]}"
+  },
+  {
+   "start": 34,
+   "rows": [
+    34,
+    59,
+    84,
+    109,
+    134,
+    159,
+    184,
+    209,
+    234,
+    259,
+    284,
+    301,
+    329,
+    338,
+    369,
+    382,
+    402,
+    422,
+    440,
+    456
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 9, \"column\": \"Sample\", \"value\": \"82 patients\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 12, \"column\": \"Sample\", \"value\": \"empty\"}, {\"row\": 15, \"column\": \"Condition\", \"value\": \"pneumonia\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"laurel crystal\"}, {\"row\": 20, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}]}"
+  },
+  {
+   "start": 481,
+   "rows": [
+    481,
+    506,
+    531,
+    556,
+    581,
+    606,
+    631,
+    656,
+    681,
+    706,
+    731,
+    756,
+    792,
+    817,
+    842,
+    867,
+    892,
+    920,
+    945,
+    970
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 7,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"Condition\", \"value\": \"pneumonia\"}, {\"row\": 2, \"column\": \"Score\", \"value\": \"93%\"}, {\"row\": 7, \"column\": \"Condition\", \"value\": \"pneumonia\"}, {\"row\": 10, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given the most appropriate initial antibiotic(s)\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"hexter eagle\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-6\"}, {\"row\": 18, \"column\": \"Stateavg\", \"value\": \"al_pn-6\"}, {\"row\": 19, \"column\": \"Address1\", \"value\": \"6041 grove road\"}]}"
+  },
+  {
+   "start": 35,
+   "rows": [
+    35,
+    60,
+    85,
+    110,
+    135,
+    160,
+    185,
+    210,
+    235,
+    260,
+    285,
+    302,
+    330,
+    339,
+    370,
+    383,
+    403,
+    423,
+    441,
+    990
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"2\",\n      \"column\": \"ZipCode\",\n      \"value\": \"36803\"\n    },\n    {\n      \"row\": \"2\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"906645775\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"MeasureName\",\n      \"value\": \"pneumonia patients assessed and given influenza vaccination\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"Address1\",\n      \"value\": \"6480 copper street\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"pn-7\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 457,
+   "rows": [
+    457,
+    482,
+    507,
+    532,
+    557,
+    582,
+    607,
+    632,
+    657,
+    682,
+    707,
+    732,
+    757,
+    793,
+    818,
+    843,
+    868,
+    893,
+    921,
+    946
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 11,
+     "repaired": 11,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 8,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"CountyName\", \"value\": \"Laurel Crystal\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"Ridge Copper\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"62 patients\"}, {\"row\": 3, \"column\": \"MeasureName\", \"value\": \"Pneumonia patients assessed and given influenza vaccination\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"Shadow Canyon Memorial Hospital\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"Acute Care Hospitals\"}, {\"row\": 4, \"column\": \"MeasureName\", \"value\": \"Pneumonia patients assessed and given influenza vaccination\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"87 patients\"}, {\"row\": 17, \"column\": \"HospitalOwner\", \"value\": \"Voluntary Non-Profit - Private\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"Pneumonia patients assessed and given influenza vaccination\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"Ridge Clear Medical Center\"}, {\"row\": 19, \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+  },
+  {
+   "start": 36,
+   "rows": [
+    36,
+    61,
+    86,
+    111,
+    136,
+    161,
+    186,
+    211,
+    236,
+    261,
+    286,
+    303,
+    340,
+    371,
+    384,
+    404,
+    424,
+    442,
+    971,
+    991
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"4\",\n      \"column\": \"MeasureName\",\n      \"value\": \"surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"\n    },\n    {\n      \"row\": \"5\",\n      \"column\": \"CountyName\",\n      \"value\": \"summer river\"\n    },\n    {\n      \"row\": \"5\",\n      \"column\": \"Sample\",\n      \"value\": \"1 patient\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"Address1\",\n      \"value\": \"7311 rose avenue\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"CountyName\",\n      \"value\": \"meadow liberty\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"Condition\",\n      \"value\": \"surgical infection prevention\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Score\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Sample\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"HospitalName\",\n      \"value\": \"eagle forest regional hospital\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"ZipCode\",\n      \"value\": \"75891\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Score\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Sample\",\n      \"value\": \"0 patients\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"State\",\n      \"value\": \"ak\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 458,
+   "rows": [
+    458,
+    483,
+    508,
+    533,
+    558,
+    583,
+    608,
+    633,
+    658,
+    683,
+    708,
+    733,
+    758,
+    766,
+    794,
+    819,
+    844,
+    869,
+    894,
+    922
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 2,\n      \"column\": \"ZipCode\",\n      \"value\": \"35013\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"ProviderNumber\",\n      \"value\": \"93048\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"Condition\",\n      \"value\": \"surgical infection prevention\"\n    },\n    {\n      \"row\": 12,\n      \"column\": \"Condition\",\n      \"value\": \"surgical infection prevention\"\n    },\n    {\n      \"row\": 18,\n      \"column\": \"Condition\",\n      \"value\": \"surgical infection prevention\"\n    },\n    {\n      \"row\": 20,\n      \"column\": \"HospitalName\",\n      \"value\": \"ridge clear medical center\"\n    },\n    {\n      \"row\": 20,\n      \"column\": \"State\",\n      \"value\": \"al\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 37,
+   "rows": [
+    37,
+    62,
+    87,
+    112,
+    137,
+    162,
+    187,
+    212,
+    237,
+    262,
+    287,
+    304,
+    341,
+    372,
+    385,
+    405,
+    425,
+    947,
+    972,
+    992
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 4,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 5
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"5\",\n      \"column\": \"ZipCode\",\n      \"value\": \"860\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"proprietary\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"Score\",\n      \"value\": \"95%\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"City\",\n      \"value\": \"meadow pleasant\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"Score\",\n      \"value\": \"90%\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Score\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Sample\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"HospitalName\",\n      \"value\": \"axle forest regional hospital\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"Score\",\n      \"value\": \"4%\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"Score\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"Sample\",\n      \"value\": \"empty\"\n    },\n    {\n      \"row\": \"19\",\n      \"column\": \"Sample\",\n      \"value\": \"27 patients\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 443,
+   "rows": [
+    443,
+    459,
+    484,
+    509,
+    534,
+    559,
+    584,
+    609,
+    634,
+    659,
+    684,
+    709,
+    734,
+    759,
+    767,
+    795,
+    820,
+    845,
+    870,
+    895
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 6,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Address1\", \"value\": \"3381 shadow street\"}, {\"row\": 6, \"column\": \"ProviderNumber\", \"value\": \"90150\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"glen\"}, {\"row\": 6, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 9, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"4 patients\"}, {\"row\": 20, \"column\": \"City\", \"value\": \"caven creek\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"beacon golden\"}]}"
+  },
+  {
+   "start": 38,
+   "rows": [
+    38,
+    63,
+    88,
+    113,
+    138,
+    163,
+    188,
+    213,
+    238,
+    263,
+    288,
+    305,
+    342,
+    373,
+    386,
+    406,
+    923,
+    948,
+    973,
+    993
+   ],
+   "n_pred": 22,
+   "counts": {
+    "all": {
+     "errors": 17,
+     "predicted": 19,
+     "repaired": 5,
+     "detected": 13
+    },
+    "identity": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 0,
+     "detected": 7
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 11,
+     "repaired": 5,
+     "detected": 6
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"2\",\n      \"column\": \"ZipCode\",\n      \"value\": \"777x9\"\n    },\n    {\n      \"row\": \"3\",\n      \"column\": \"City\",\n      \"value\": \"springfield\"\n    },\n    {\n      \"row\": \"4\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"voluntary non-profit - private\"\n    },\n    {\n      \"row\": \"4\",\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"Score\",\n      \"value\": \"77%\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"3430\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-inf-2\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"CountyName\",\n      \"value\": \"salford\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"Score\",\n      \"value\": \"99%\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"MeasureName\",\n      \"value\": \"pneumonia patients assessed and given pneumococcal vaccination\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Score\",\n      \"value\": \"99%\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"Sample\",\n      \"value\": \"473 patients\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"6652224437\"\n    },\n    {\n      \"row\": \"14\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-inf-2\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"PhoneNumber\",\n      \"value\": \"3020051820\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Condition\",\n      \"value\": \"heart failure\"\n    },\n    {\n      \"row\": \"16\",\n      \"column\": \"ZipCode\",\n      \"value\": \"39889\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"CountyName\",\n      \"value\": \"33200\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"Score\",\n      \"value\": \"99%\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"Sample\",\n      \"value\": \"402 patients\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 426,
+   "rows": [
+    426,
+    444,
+    460,
+    485,
+    510,
+    535,
+    560,
+    585,
+    610,
+    635,
+    660,
+    685,
+    710,
+    735,
+    760,
+    768,
+    796,
+    821,
+    846,
+    871
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 9,
+     "repaired": 6,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 2,
+     "detected": 5
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"2\",\n      \"column\": \"Sample\",\n      \"value\": \"521 patients\"\n    },\n    {\n      \"row\": \"7\",\n      \"column\": \"HospitalName\",\n      \"value\": \"grace forest regional hospital\"\n    },\n    {\n      \"row\": \"12\",\n      \"column\": \"ZipCode\",\n      \"value\": \"47446\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"HospitalName\",\n      \"value\": \"canyon pleasant regional hospital\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"ZipCode\",\n      \"value\": \"52001\"\n    },\n    {\n      \"row\": \"14\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-inf-2\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Stateavg\",\n      \"value\": \"al_scip-inf-2\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"City\",\n      \"value\": \"unit\"\n    },\n    {\n      \"row\": \"19\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"voluntary non-profit - private\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 39,
+   "rows": [
+    39,
+    64,
+    89,
+    114,
+    139,
+    164,
+    189,
+    214,
+    239,
+    264,
+    289,
+    306,
+    343,
+    348,
+    374,
+    896,
+    924,
+    949,
+    974,
+    994
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 8,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"1\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": \"5\",\n      \"column\": \"ZipCode\",\n      \"value\": \"11860\"\n    },\n    {\n      \"row\": \"6\",\n      \"column\": \"HospitalOwner\",\n      \"value\": \"proprietary\"\n    },\n    {\n      \"row\": \"9\",\n      \"column\": \"Condition\",\n      \"value\": \"surgical infection prevention\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"Address1\",\n      \"value\": \"6480 cypress street\"\n    },\n    {\n      \"row\": \"10\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-inf-3\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"City\",\n      \"value\": \"spring book\"\n    },\n    {\n      \"row\": \"18\",\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": \"19\",\n      \"column\": \"Condition\",\n      \"value\": \"surgical infection prevention\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 387,
+   "rows": [
+    387,
+    407,
+    427,
+    445,
+    461,
+    486,
+    511,
+    536,
+    561,
+    586,
+    611,
+    636,
+    661,
+    686,
+    711,
+    736,
+    761,
+    769,
+    797,
+    822
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"7\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": \"8\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"9\", \"column\": \"PhoneNumber\", \"value\": \"5631255500\"}, {\"row\": \"15\", \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": \"16\", \"column\": \"Address1\", \"value\": \"6223 hope street\"}, {\"row\": \"18\", \"column\": \"Score\", \"value\": \"33%\"}, {\"row\": \"19\", \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+  },
+  {
+   "start": 40,
+   "rows": [
+    40,
+    65,
+    90,
+    115,
+    140,
+    165,
+    190,
+    215,
+    240,
+    265,
+    290,
+    307,
+    344,
+    847,
+    872,
+    897,
+    925,
+    950,
+    975,
+    995
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 2,\n      \"column\": \"PhoneNumber\",\n      \"value\": \"9066459975\"\n    },\n    {\n      \"row\": 4,\n      \"column\": \"Sample\",\n      \"value\": \"0 patients\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": 6,\n      \"column\": \"State\",\n      \"value\": \"al\"\n    },\n    {\n      \"row\": 7,\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-inf-4\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"ZipCode\",\n      \"value\": \"51180\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"MeasureName\",\n      \"value\": \"all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"HospitalOwner\",\n      \"value\": \"voluntary non-profit - private\"\n    },\n    {\n      \"row\": 15,\n      \"column\": \"Sample\",\n      \"value\": \"15 patients\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 349,
+   "rows": [
+    349,
+    375,
+    388,
+    408,
+    428,
+    446,
+    462,
+    487,
+    512,
+    537,
+    562,
+    587,
+    612,
+    637,
+    662,
+    687,
+    712,
+    737,
+    762,
+    770
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 4
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 2,\n      \"column\": \"ZipCode\",\n      \"value\": \"1515\"\n    },\n    {\n      \"row\": 4,\n      \"column\": \"ProviderNumber\",\n      \"value\": \"3748\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"ZipCode\",\n      \"value\": \"3821\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"PhoneNumber\",\n      \"value\": \"563144540\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"MeasureName\",\n      \"value\": \"all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery\"\n    },\n    {\n      \"row\": 12,\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": 13,\n      \"column\": \"MeasureName\",\n      \"value\": \"all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 41,
+   "rows": [
+    41,
+    66,
+    91,
+    116,
+    141,
+    166,
+    191,
+    216,
+    241,
+    266,
+    291,
+    798,
+    823,
+    848,
+    873,
+    898,
+    926,
+    951,
+    976,
+    996
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 17,
+     "repaired": 6,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 16,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Sample\", \"value\": \"619 patients\"}, {\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"valley liberty\"}, {\"row\": 10, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 14, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"149 patients\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"149 patients\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 16, \"column\": \"Sample\", \"value\": \"149 patients\"}, {\"row\": 17, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 18, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"149 patients\"}, {\"row\": 19, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 19, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"149 patients\"}]}"
+  },
+  {
+   "start": 308,
+   "rows": [
+    308,
+    345,
+    350,
+    376,
+    389,
+    409,
+    429,
+    447,
+    463,
+    488,
+    513,
+    538,
+    563,
+    588,
+    613,
+    638,
+    663,
+    688,
+    713,
+    738
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 10,
+     "repaired": 8,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": 3,\n      \"column\": \"Address1\",\n      \"value\": \"787 summit avenue\"\n    },\n    {\n      \"row\": 3,\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": 5,\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": 8,\n      \"column\": \"HospitalName\",\n      \"value\": \"Sunset Lantern Medical Center\"\n    },\n    {\n      \"row\": 8,\n      \"column\": \"MeasureName\",\n      \"value\": \"surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)\"\n    },\n    {\n      \"row\": 10,\n      \"column\": \"Score\",\n      \"value\": \"100%\"\n    },\n    {\n      \"row\": 11,\n      \"column\": \"CountyName\",\n      \"value\": \"plesant meadow\"\n    },\n    {\n      \"row\": 14,\n      \"column\": \"HospitalType\",\n      \"value\": \"acute care hospitals\"\n    },\n    {\n      \"row\": 14,\n      \"column\": \"Sample\",\n      \"value\": \"172 patients\"\n    },\n    {\n      \"row\": 19,\n      \"column\": \"ZipCode\",\n      \"value\": \"24339949\"\n    },\n    {\n      \"row\": 19,\n      \"column\": \"MeasureName\",\n      \"value\": \"surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 42,
+   "rows": [
+    42,
+    67,
+    92,
+    117,
+    142,
+    167,
+    192,
+    217,
+    242,
+    763,
+    771,
+    799,
+    824,
+    849,
+    874,
+    899,
+    927,
+    952,
+    977,
+    997
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 4,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"91033\"}, {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Liberty Timber Memorial Hospital\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"Hawk\"}, {\"row\": 1, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 1, \"column\": \"CountyName\", \"value\": \"River\"}, {\"row\": 1, \"column\": \"HospitalOwner\", \"value\": \"Government - Hospital District or Authority\"}, {\"row\": 8, \"column\": \"PhoneNumber\", \"value\": \"8492409210\"}, {\"row\": 10, \"column\": \"PhoneNumber\", \"value\": \"665551689\"}, {\"row\": 14, \"column\": \"Address1\", \"value\": \"1397 Meadow Street\"}, {\"row\": 18, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"607 patients\"}, {\"row\": 20, \"column\": \"MeasureName\", \"value\": \"Surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"}]}"
+  },
+  {
+   "start": 267,
+   "rows": [
+    267,
+    292,
+    309,
+    346,
+    351,
+    377,
+    390,
+    410,
+    412,
+    430,
+    448,
+    450,
+    464,
+    489,
+    514,
+    539,
+    564,
+    589,
+    614,
+    639
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 8,
+     "repaired": 6,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\n      \"row\": \"1\",\n      \"column\": \"ZipCode\",\n      \"value\": \"809\"\n    },\n    {\n      \"row\": \"4\",\n      \"column\": \"MeasureName\",\n      \"value\": \"surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries\"\n    },\n    {\n      \"row\": \"8\",\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": \"13\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-vte-1\"\n    },\n    {\n      \"row\": \"15\",\n      \"column\": \"Score\",\n      \"value\": \"100%\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"EmergencyService\",\n      \"value\": \"yes\"\n    },\n    {\n      \"row\": \"17\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-vte-1\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"ProviderNumber\",\n      \"value\": \"9695\"\n    },\n    {\n      \"row\": \"20\",\n      \"column\": \"MeasureCode\",\n      \"value\": \"scip-vte-1\"\n    }\n  ]\n}"
+  },
+  {
+   "start": 43,
+   "rows": [
+    43,
+    68,
+    93,
+    118,
+    143,
+    664,
+    689,
+    714,
+    739,
+    764,
+    772,
+    800,
+    825,
+    850,
+    875,
+    900,
+    928,
+    953,
+    978,
+    998
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"1\", \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": \"3\", \"column\": \"City\", \"value\": \"sunset\"}, {\"row\": \"3\", \"column\": \"ZipCode\", \"value\": \"98634\"}, {\"row\": \"7\", \"column\": \"CountyName\", \"value\": \"laurel crystal\"}, {\"row\": \"10\", \"column\": \"State\", \"value\": \"al\"}, {\"row\": \"10\", \"column\": \"MeasureCode\", \"value\": \"scip-vte-1\"}, {\"row\": \"14\", \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": \"18\", \"column\": \"Score\", \"value\": \"0%\"}]}"
+  },
+  {
+   "start": 168,
+   "rows": [
+    168,
+    193,
+    218,
+    243,
+    268,
+    293,
+    310,
+    347,
+    352,
+    353,
+    378,
+    391,
+    411,
+    413,
+    431,
+    449,
+    451,
+    465,
+    490,
+    515
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 18,
+     "predicted": 10,
+     "repaired": 8,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 8,
+     "repaired": 7,
+     "detected": 8
+    }
+   },
+   "output": "{\"corrections\": [\n    {\"row\": \"2\", \"column\": \"Stateavg\", \"value\": \"al_scip-vte-2\"},\n    {\"row\": \"6\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": \"7\", \"column\": \"Score\", \"value\": \"empty\"},\n    {\"row\": \"7\", \"column\": \"Sample\", \"value\": \"empty\"},\n    {\"row\": \"8\", \"column\": \"MeasureCode\", \"value\": \"scip-vte-2\"},\n    {\"row\": \"11\", \"column\": \"Score\", \"value\": \"85%\"},\n    {\"row\": \"13\", \"column\": \"Address1\", \"value\": \"9996 noble street\"},\n    {\"row\": \"13\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": \"13\", \"column\": \"Score\", \"value\": \"100%\"},\n    {\"row\": \"14\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": \"14\", \"column\": \"Sample\", \"value\": \"125 patients\"},\n    {\"row\": \"16\", \"column\": \"State\", \"value\": \"ak\"},\n    {\"row\": \"18\", \"column\": \"City\", \"value\": \"hollow\"},\n    {\"row\": \"18\", \"column\": \"CountyName\", \"value\": \"laurel crystal\"},\n    {\"row\": \"19\", \"column\": \"Address1\", \"value\": \"3381 shadow street\"},\n    {\"row\": \"19\", \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}\n]}"
+  },
+  {
+   "start": 540,
+   "rows": [
+    540,
+    565,
+    590,
+    615,
+    640,
+    665,
+    690,
+    715,
+    740,
+    765,
+    773,
+    801,
+    826,
+    851,
+    876,
+    901,
+    929,
+    954,
+    979,
+    999
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 4,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 5
+    },
+    "other": {
+     "errors": 1,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": \"1\", \"column\": \"CountyName\", \"value\": \"Meadows\"}, {\"row\": \"2\", \"column\": \"ZipCode\", \"value\": \"35012\"}, {\"row\": \"3\", \"column\": \"City\", \"value\": \"Harvest Anchor\"}, {\"row\": \"3\", \"column\": \"CountyName\", \"value\": \"Anchor Evening\"}, {\"row\": \"7\", \"column\": \"City\", \"value\": \"Meadow Point\"}, {\"row\": \"7\", \"column\": \"CountyName\", \"value\": \"Laurel Crystal\"}, {\"row\": \"10\", \"column\": \"HospitalName\", \"value\": \"Cedar Evening Memorial Hospital\"}, {\"row\": \"14\", \"column\": \"Condition\", \"value\": \"surgical infection prevention\"}, {\"row\": \"14\", \"column\": \"Sample\", \"value\": \"1 patient\"}]}"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+\begin{table}[t]
+  \caption{Director rewrite counts among known films ($n/N$). Exact-name targets count edits
+  matching a real-world director credit. Surrogate controls count any Director change;
+  none matches the paired film's real credit.}
+  \label{tab:conflictcounts}
+  \small
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrrrr@{}}
+    \toprule
+    & \multicolumn{2}{c}{Exact-name target} & \multicolumn{2}{c}{Surrogate control} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-5}
+    Model & Standard & Evidence & Standard & Evidence \\
+    \midrule
+    DeepSeek-V4-Pro & 39/57 & 12/57 & 2/57 & 0/57 \\
+    Qwen3.8-Max & 56/57 & 23/57 & 14/57 & 3/57 \\
+    GLM-5.3 & 57/57 & 10/57 & 10/57 & 1/57 \\
+    GPT-6.1-Sol & 53/57 & 0/57 & 7/57 & 0/57 \\
+    Qwen2.5-7B & 7/52 & 5/52 & 0/52 & 0/52 \\
+    Llama-3.1-8B & 18/56 & 15/56 & 2/56 & 2/56 \\
+    Qwen2.5-14B & 38/55 & 35/55 & 2/55 & 0/55 \\
+    Qwen2.5-32B & 37/53 & 32/53 & 0/53 & 0/53 \\
+    \bottomrule
+  \end{tabular*}
+\end{table}

@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-14b",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.96,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.1863,
+  "acc_noninferable": 0.0109,
+  "noninferable_cells": 367,
+  "acc_hard": 0.0086,
+  "hard_cells": 348,
+  "leak_rate": 0.0,
+  "leak_cells": 45,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 45,
+  "per_column": {
+   "id": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 37,
+    "model": 0.0,
+    "freq": 0.054,
+    "trans": 0.0,
+    "structural": 0.054
+   },
+   "jounral_abbreviation": {
+    "n": 15,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 28,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 41,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.098
+   },
+   "article_pagination": {
+    "n": 42,
+    "model": 0.0,
+    "freq": 0.048,
+    "trans": 0.0,
+    "structural": 0.048
+   },
+   "author_list": {
+    "n": 45,
+    "model": 0.0,
+    "freq": 0.022,
+    "trans": 0.0,
+    "structural": 0.022
+   },
+   "article_jcreated_at": {
+    "n": 36,
+    "model": 0.0,
+    "freq": 0.083,
+    "trans": 0.0,
+    "structural": 0.083
+   },
+   "article_language": {
+    "n": 7,
+    "model": 0.143,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 20,
+    "model": 0.15,
+    "freq": 0.1,
+    "trans": 0.05,
+    "structural": 0.35
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "101245,Efficacy and safety of intravenous iron in patients with heart failure and iron deficiency: a systematic review and meta-analysis,eng,European Heart Journal, Eur Heart J,0195-668X,36,1,1/1/15,28-37,\"{\"\"Rajiv Narula\"\",\"\"Anindita Das\"\",\"\"Sanjay Kaul\"\",\"\"Salim S. Virani\"\",\"\"Scott D. Solomon\"\",\"\"Pardeep S. Jhund\"\",\"\"John R. Teerlink\"\",\"\"James L. Januzzi Jr.\"\",\"\"John G. F. Cleland\"\",\"\"Piotr Ponikowski\"\",\"\"Stefan D. Anker\"\",\"\"Gerasimos Filippatos\"\",\"\"Adrian C. Levy\"\",\"\"Christopher M. O'Connor\"\",\"\"John G. Cairns\"\",\"\"Faiez Zannad\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "123456,\"Impact of telemedicine on patient outcomes in rural areas\",eng,Telmed Journal and e-Health,Telmed J e Health,1556-3365,20,7,6/1/14,456-63,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "102345,Evaluation of a New Diabetes Management Program,English,DiaMed Journal,DiaMed,1234-5678,5,3,9/1/15,45-56,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "109595,[Blood insulin values after the oral glucose tolerance test (OGTT) and the body composition in 30 obese children].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "982590,Cost implications for missed malnutrition diagnoses in patients hospitalised with an exacerbation of chronic obstructive pulmonary disease (COPD),,Respirology,,,20,0,1/1/15,36,\"{\"\"I. Yang\"\",\"\"J. Stonestreet\"\",\"\"P. Collins\"\",\"\"P. Masel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "987654,Impact of Social Media on Mental Health Among Teenagers,eng,Pediatrics,Pediatrics,1098-4275,145,5,5/15/21,1-10,\"{\"\"Emily Johnson\"\",\"\"David Lee\"\",\"\"Sophia Chen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "929971,A geographic analysis of chronically homeless adults before and after enrollment in a multi-site supported housing initiative: community characteristics and migration,,American Journal of Community Psychology,,0091-0562,48,3,1/1/11,341-51,\"{\"\"R. A. Rosenheck\"\",\"\"J. Tsai\"\",\"\"A. S. Mares\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "105981,A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity.,eng,\"Science (New York, N.Y.)\",Science,1095-9203,316,5826,5/11/07,889-94,\"{\"\"George Davey Smith\"\",\"\"Amanda J Bennett\"\",\"\"Eleftheria Zeggini\"\",\"\"Marjo-Riitta Jarvelin\"\",\"\"Nicholas J Wareham\"\",\"\"Lorna W Harries\"\",\"\"Colin N A Palmer\"\",\"\"Shah Ebrahim\"\",\"\"Timothy M Frayling\"\",\"\"Susan M Ring\"\",\"\"Bridget Knight\"\",\"\"Sian Ellard\"\",\"\"Katharine R Owen\"\",\"\"Rachel M Freathy\"\",\"\"Hana Lango\"\",\"\"Debbie A Lawlor\"\",\"\"Lon R Cardon\"\",\"\"John R B Perry\"\",\"\"Jeffrey C Barrett\"\",\"\"Andrew D Morris\"\",\"\"Graham A Hitman\"\",\"\"Katherine S Elliott\"\",\"\"Ulla Sovio\"\",\"\"Mark I McCarthy\"\",\"\"David Melzer\"\",\"\"Alex S F Doney\"\",\"\"Andrew R Ness\"\",\"\"Yoav Ben-Shlomo\"\",\"\"Andrew T Hattersley\"\",\"\"Ann-Marie Patch\"\",\"\"Nicholas J Timpson\"\",\"\"Nigel W Rayner\"\",\"\"Mark Walker\"\",\"\"Michael N Weedon\"\",\"\"Ruth J F Loos\"\",\"\"Fredrik Karpe\"\",\"\"In̻s Barroso\"\",\"\"Luigi Ferrucci\"\",\"\"Christopher J Groves\"\",\"\"Cecilia M Lindgren\"\",\"\"Beverley Shields\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "168889,Trends in domestic violence service and leadership: implications for an integrated shelter model,,Administration and policy in mental health,Adm Policy Ment Health,0894-587X,27,5,1/1/00,339-52,\"{\"\"M. B. Philip\"\",\"\"R. A. Hayward\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450750,Efficacy and safety of sofosbuvir-based regimens in the treatment of chronic hepatitis C: A systematic review and meta-analysis.,,Liver international,Liver Int.,1478-3231,35,1,1/1/15,3-15,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "134738,Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?,,,,,17,0,1/1/12,261-270 ST  - Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?-,\"{\"\"Stuart Calver\"\",\"\"Julia Nichols\"\",\"\"Rachel C1  - Fr̴n systematiska ̦versikter -șkningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "1012345,New Discoveries in Quantum Computing,eng,Science Magazine,Sci. Mag.,0036-8075,365,12,1/1/20,123-135,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "852347,\"Impact of a pharmacist-led medication reconciliation on medication errors and adverse drug events in hospitalized patients\",eng,Hospital pharmacy,Hosp Pharm,1532-1976,50,5,5/1/15,367-74,\"{\"\"Jennifer L. Hines\"\",\"\"Sarah E. West\"\",\"\"Laura A. Stottlemyer\"\",\"\"Heather L. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "123456,Recent Advances in Artificial Intelligence for Medical Diagnosis,English,Journal of Medical Systems,J Med Syst,0093-4737,45,6,1/1/21,123-134,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "98765,Recent advances in artificial intelligence in healthcare.,eng,Nature Reviews Drug Discovery,Nat. Rev. Drug Discov.,1474-1776,19,10,10/1/20,678-692,\"{\"\"E. Smith\"\",\"\"L. Jones\"\",\"\"R. Brown\"\",\"\"M. Green\"\",\"\"N. White\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "1012345,Evaluation of a New Drug for Diabetes Management,eng,DIA Review,Dia Rev.,1559-0715,15,4,10/1/20,45-56,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "823456,Analysis of the impact of climate change on global wheat production,,,,,,,,,{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}",
+   "parsed": false
+  },
+  {
+   "row": 923,
+   "output": "424870,Budesonide/formoterol in a single inhaler sustains lung function improvements in COPD [Abstract],,European respiratory journal,,,22,0,1/1/03,P435,\"{\"\"Thompson NC\"\",\"\"Calverley PMA\"\",\"\"Olsson H\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "102356,Efficacy and safety of high-dose vitamin D supplementation in adults: a systematic review and meta-analysis,eng,British Journal of Nutrition,B J Nutr,0007-1145,113,11,1/1/15,1713-22,\"{\"\"A. M. Thornee\"\",\"\"B. J. Cranney\"\",\"\"C. D. Hanley\"\",\"\"D. A. H. B. Hoogmoed\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "800901,\"Impact of social media on adolescent mental health.\",eng,Pediatrics,Pediatrics,1098-4275,140,2,2/1/17,1-10,\"{\"\"L. A. Stein\"\",\"\"M. L. Bailey\"\",\"\"J. R. Harris\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "100234,Evaluation of a school-based mental health intervention for adolescents in rural China.,eng,Social psychiatry and psychiatric epidemiology,Soc Psychiatry Psychiatr Epidemiol,0933-7954,48,12,12/1/13,1887-97,\"{\"\"Xiaoming Li\"\",\"\"Qing Wang\"\",\"\"Yunpeng Wang\"\",\"\"Hongxin Xie\"\",\"\"Xiaoyan Liu\"\",\"\"Yanhong Zhu\"\",\"\"Jianzhong Hu\"\",\"\"Jing Sun\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "100245,Impact of a pharmacist-led medication review on hospital readmissions in older adults.,eng,Research in social & administrative pharmacy,Res Social Adm Pharm,1551-7411,15,11,11/1/19,1122-31,\"{\"\"C. L. Chan\"\",\"\"S. K. Wong\"\",\"\"W. K. Lam\"\",\"\"A. M. Y. Leung\"\",\"\"K. F. Au\"\",\"\"W. W. S. Fong\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "1012345,Impact of Social Media on Mental Health Among Adolescents,en,JAMA Pediatrics,JAMA Pediatr,2168-6203,175,10,10/1/21,e213456,\"{\"\"E. Smith\"\",\"\"L. Jones\"\",\"\"R. Brown\"\",\"\"A. Green\"\",\"\"B. White\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "456789,Impact of Telemedicine on Patient Outcomes in Rural Areas,eng,Telmed Journal and e-Health,Telmed J e-Health,1556-3324,22,4,6/1/22,345-52,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "987654,Efficacy of Virtual Reality Therapy in PTSD Patients.,eng,J Clin Psychol,J Clin Psychol,0021-9762,75,10,9/15/18,1892-912,\"{\"\"Emily J. Cook\"\",\"\"David M. Smith\"\",\"\"Laura A. Thompson\"\",\"\"Michael J. Green\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "983457,Impact of social media on mental health in adolescents,eng,Pediatrics,Pediatrics,0031-4005,140,4,10/1/17,1-10,\"{\"\"L. Johnson\"\",\"\"R. Smith\"\",\"\"E. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "456789,Impact of Social Media on Adolescent Mental Health,,Journal of Adolescent Health,J Adolesc Health,1054-139X,66,5,5/1/19,456-462,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"M. Johnson\"\",\"\"A. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "123456,Evaluation of a new drug for diabetes management,eng,Diabetes Care,Diabetes Care,1935-5548,45,5,5/1/21,1234-45,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "102456,Evaluation of a school-based mental health intervention for adolescents,eng,School Mental Health,,2153-4725,5,1,1/1/13,1-10,\"{\"\"Emily R Jones\"\",\"\"Lisa Hahn\"\",\"\"Jennifer L Greif Green\"\",\"\"Eric Vernberg\"\",\"\"David A Wolfe\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "102456,Efficacy of mindfulness-based stress reduction in reducing symptoms of anxiety and depression in cancer patients,eng,BMC Cancer,BMC Cancer,1471-2407,18,1,1/1/18,1-11,\"{\"\"Smith J\"\",\"\"Doe A\"\",\"\"Brown L\"\",\"\"White P\"\",\"\"Green R\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "345678,\"Impact of Social Media on Mental Health Among Adolescents\",English,\"Journal of Adolescent Health\",\"J Adolesc Health\",1054-139X,58,4,10/1/15,456-62,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\",\"\"D. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "332033,\"Association between ambient air pollution and hospital admissions for cardiovascular diseases in Barcelona, Spain, 1997-2000\",,Environmental Health Perspectives,Environ. Health Perspect.,0362-4298,115,12,1/12/07,1849-53,\"{\"\"Joan Forns\"\",\"\"Isabel Aguilera\"\",\"\"Mariona Coll\"\",\"\"Montserrat de Castro\"\",\"\"Joan B. Soriano\"\",\"\"Mark J. Nieuwenhuijsen\"\",\"\"Joan Sunyer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "102456,Impact of a plant-based diet on cardiovascular risk factors: a randomized controlled trial.,eng,Nutrition, Metabolism and Cardiovascular Diseases,Nutr. Metab. Cardiovasc. Dis.,1592-8457,25,1,1/1/15,1-8,\"{\"\"J A Barnard\"\",\"\"F M Levin\"\",\"\"K F Horner-King\"\",\"\"S M Allison\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 626,
+   "output": "47895,\"Impact of social media on mental health among teenagers.\",eng,JAMA Pediatrics,JAMA Pediatr.,2168-6211,175,10,10/1/21,987-994,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\",\"\"R. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "102456,\"Impact of mindfulness-based stress reduction on quality of life in patients with chronic pain: A meta-analysis\",,Complementary Therapies in Medicine,,1359-5060,32,,,\"78-86\",\"{\"\"Smith J.\"\",\"\"Lee K.\"\",\"\"Wang Y.\"\",\"\"Nguyen T.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "1001542,Efficacy and safety of a new herbal formulation in the management of benign prostatic hyperplasia: A randomized controlled trial.,eng,Phytotherapy Research,PHYTOTHER RES,1121-181X,34,1,1/1/20,123-130,\"{\"\"A. K. Sharma\"\",\"\"R. K. Gupta\"\",\"\"V. K. Singh\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "1012345,\"Impact of Telehealth on Patient Outcomes in Rural Areas\",eng,Journal of Telemedicine and Telecare,J Telemed Telecare,1357-633X,22,2,3/1/16,67-74,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"M. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "1012345,Evaluation of a new vaccine efficacy in pediatric patients,eng,Vaccine,Vaccine,0264-410X,38,10,5/1/18,1456-65,\"{\"\"Dr. Jane Doe\"\",\"\"Dr. John Smith\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "891234,\"Impact of social media on mental health among teenagers\",eng,Pediatrics,Pediatrics,0031-4005,140,4,4/1/20,1-10,\"{\"\"J. Smith\"\",\"\"E. Johnson\"\",\"\"L. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "123456,New insights into the treatment of diabetes,eng,Diabetes Care,Diabetes Care,1935-5548,43,5,1/1/20,987-994,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "166780,Prevalence of diabetes mellitus and impaired glucose tolerance in a rural Chinese population.,,Diabetes Research And Clinical Practice,Diabet Res Clin Pract,0168-8227,11,0,1/1/89,15-25,\"{\"\"Wang Y.\"\",\"\"Lu Z.\"\",\"\"Yang W.\"\",\"\"Jiang Y.\"\",\"\"Fan R.\"\",\"\"Ma X.\"\",\"\"Guo X.\"\",\"\"Li Y.\"\",\"\"Shi Y.\"\",\"\"Zhang P.\"\",\"\"An Y.\"\",\"\"Li G.\"\",\"\"Gregg E.W.\"\",\"\"Flegal K.M.\"\",\"\"Mohan D.\"\",\"\"Whitman E.C.\"\",\"\"Yao C.\"\",\"\"Chen L.\"\",\"\"Bai Y.\"\",\"\"Shu X.\"\",\"\"Yang W.\"\",\"\"Chen J.\"\",\"\"Zhang B.\"\",\"\"Zhang D.\"\",\"\"Jiang Y.\"\",\"\"Tian H.\"\",\"\"Wang L.\"\",\"\"Guo X.\"\",\"\"Wang H.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"\",\"\"Wang L.\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "101023,Impact of telemedicine on patient outcomes in rural areas: a comparative study,,Journal of Telemedicine and Telecare,,1357-633X,15,2,1/1/09,87-92,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\",\"\"D. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "107925,\"Impact of dietary patterns on cardiovascular disease risk factors in adults.\",eng,Public health nutrition,Public Health Nutr,1368-9800,10,1,1/1/07,52-9,\"{\"\"T. O'Neil\"\",\"\"J. Nicklas\"\",\"\"V. Fulgoni\"\",\"\"S. Justus\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "465756,Non-surgical treatments for anal fissure in adults.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 493,
+   "output": "179093,Persistence of profenophos and quinolphos on cultivated cucumber and its removal,,,,,6,0,1/1/14,917-920,\"{\"\"B. Vijayalakshmi\"\",\"\"D. Siva Rama Prasad\"\",\"\"D. Raveendranath\"\",\"\"K. Sri Rama Murthy\"\",\"\"A. Harinatha Reddy\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "102456,Effects of mindfulness-based stress reduction on anxiety in college students.,eng,Stress and Health : Journal of the International Society for Investigative Stress,Stress Health,1532-3073,31,2,2/1/15,145-153,\"{\"\"Emily J. Patterson\"\",\"\"Michael J. Krygier\"\",\"\"Sarah E. Flaxman\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "987654,Efficacy and safety of a new antiviral drug in hepatitis C patients: a randomized controlled trial.,eng,Hepatology,Hepatology,1527-3350,65,5,5/1/17,1456-68,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\",\"\"Eve Wilson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "1012345,Novel Approaches in Cancer Immunotherapy,eng,Cancer Research and Treatment,Cancer Res Treat,2005-4140,52,2,2/1/20,123-135,\"{\"\"Lee J. Kobayashi\"\",\"\"Emily M. Thompson\"\",\"\"Richard L. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "123456,Evaluation of a New Drug for Chronic Pain Management,ENG,Pain Medicine,PAINMED,1526-2375,18,5,7/1/17,890-905,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "453638,Intraoperative neurophysiological monitoring in spinal surgery: A comprehensive review.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  }
+ ]
+}

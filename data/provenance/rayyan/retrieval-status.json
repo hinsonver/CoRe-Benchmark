@@ -1,0 +1,86 @@
+{
+  "full_historical_matching_replayable": false,
+  "available": [
+    "query_titles",
+    "selected_pmids",
+    "simplified_truth",
+    "field_check_flags",
+    "279 progress lines and five stratum summaries"
+  ],
+  "unavailable_in_searched_local_records": [
+    "candidate_responses",
+    "returned_titles",
+    "similarity_scores",
+    "full_metadata",
+    "unmatched_reason_codes"
+  ],
+  "local_search_scope": [
+    "preserved experiment/results including mirrored server logs and model response caches",
+    "Rayyan audit source and its output serialization"
+  ],
+  "local_records": [
+    {
+      "path": "experiment/results/logs/rayyan_audit.log",
+      "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+      "bytes": 3279
+    },
+    {
+      "path": "experiment/results/logs/rayyan_audit_n80.log",
+      "sha256": "41ae6fe43ed3f4147714db9694e8799337d5a9139781331c753f02b6a53a381b",
+      "bytes": 6854
+    },
+    {
+      "path": "experiment/results/logs/server/rayyan_audit.log",
+      "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+      "bytes": 3279
+    },
+    {
+      "path": "experiment/results/logs/server/server/rayyan_audit.log",
+      "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+      "bytes": 3279
+    },
+    {
+      "path": "experiment/results/logs/server/server/server/rayyan_audit.log",
+      "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+      "bytes": 3279
+    },
+    {
+      "path": "experiment/results/logs/server/server/server/server/rayyan_audit.log",
+      "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+      "bytes": 3279
+    },
+    {
+      "path": "experiment/results/logs/server/server/server/server/server/rayyan_audit.log",
+      "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+      "bytes": 3279
+    },
+    {
+      "path": "experiment/results/logs/server/server/server/server/server/server/rayyan_audit.log",
+      "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+      "bytes": 3279
+    },
+    {
+      "path": "experiment/results/rayyan_audit.json",
+      "sha256": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9",
+      "bytes": 111655
+    },
+    {
+      "path": "experiment/results/rayyan_audit_n30.json",
+      "sha256": "8f9818607a11e96aa4ea10dadd2dbaf384bdcd370c952c26c7a2cf090fb60868",
+      "bytes": 48546
+    }
+  ],
+  "current_pubmed_requests": 0,
+  "remote_search_target": "original experiment server; configured project root",
+  "remote_search_status": "completed_existing_material_disposition",
+  "interpretation": "Saved flags and selected scalar comparisons can be replayed. The completed remote search found the early sample and matching stdout, but no full historical response payload in its recorded scope. Historical candidate selection and encoding word-set judgments remain non-reconstructable from saved materials; no replacement query was made.",
+  "remote_search_report": "data/provenance/rayyan/remote-search.json",
+  "unavailable_in_searched_remote_records": [
+    "candidate_responses",
+    "returned_titles",
+    "similarity_scores",
+    "full_metadata",
+    "unmatched_reason_codes"
+  ],
+  "excluded_content_absence_not_claimed": true
+}

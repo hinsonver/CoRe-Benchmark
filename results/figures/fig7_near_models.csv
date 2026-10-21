@@ -1,0 +1,17 @@
+model,prompt,rate,ci_low,ci_high,films_known
+Qwen2.5-7B,standard,0.135,0.058,0.231,52
+Llama-3.1-8B,standard,0.321,0.196,0.446,56
+Qwen2.5-14B,standard,0.691,0.564,0.8,55
+Qwen2.5-32B,standard,0.698,0.566,0.811,53
+DeepSeek-V4-Pro,standard,0.684,0.561,0.789,57
+Qwen3.8-Max,standard,0.982,0.947,1.0,57
+GLM-5.3,standard,1.0,1.0,1.0,57
+GPT-6.1-Sol,standard,0.93,0.86,0.982,57
+Qwen2.5-7B,evidence,0.096,0.019,0.192,52
+Llama-3.1-8B,evidence,0.268,0.161,0.393,56
+Qwen2.5-14B,evidence,0.636,0.509,0.764,55
+Qwen2.5-32B,evidence,0.604,0.472,0.736,53
+DeepSeek-V4-Pro,evidence,0.211,0.105,0.316,57
+Qwen3.8-Max,evidence,0.404,0.281,0.526,57
+GLM-5.3,evidence,0.175,0.088,0.281,57
+GPT-6.1-Sol,evidence,0.0,0.0,0.0,57

@@ -1,0 +1,1346 @@
+[
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Dritorosk's Garbaquen Brewing Company\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Pimcal Hepsul Sulkel Ale (2007)\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Rhoocalvel\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Oskhrone Garkel IPA\"}, {\"row\": 2, \"column\": \"brewery_id\", \"value\": \"OSKQUENWEX\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Berliner Weissbier\"}, {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"Garpimfen\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Mt. Airy\"}, {\"row\": 7, \"column\": \"brewery_name\", \"value\": \"Calrhoquenlo\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"American Pale Wheat Ale\"}, {\"row\": 9, \"column\": \"brewery_id\", \"value\": \"Lojoukel\"}, {\"row\": 10, \"column\": \"style\", \"value\": \"Berliner Weissbier\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 12, \"column\": \"brewery_id\", \"value\": \"Hepbrincal Ale\"}, {\"row\": 13, \"column\": \"brewery_id\", \"value\": \"Quenkelosk Torpimpim\"}, {\"row\": 14, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 15, \"column\": \"brewery_id\", \"value\": \"Nyquensul Tasbafen\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 18, \"column\": \"style\", \"value\": \"English Pale Ale\"}, {\"row\": 19, \"column\": \"brewery_id\", \"value\": \"Rogue Ales\"}, {\"row\": 20, \"column\": \"style\", \"value\": \"American Pale Lager\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Kelzarzar\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.0052%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Keltor Pale Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Tasmanian IPA\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Belgian IPA\"}, {\"row\": 3, \"column\": \"brewery_id\", \"value\": \"Tasvasula\"}, {\"row\": 4, \"column\": \"brewery-name\", \"value\": \"Tasvasula Brewing\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Buena Vista\"}, {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"48th Morbamor\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"Cream Ale\"}, {\"row\": 9, \"column\": \"brewery_id\", \"value\": \"Velrhovel Brewing Company\"}, {\"row\": 10, \"column\": \"city\", \"value\": \"Kelvelny Nyjou\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"California Common / Steam Beer\"}, {\"row\": 12, \"column\": \"brewery_id\", \"value\": \"Pimbrinsul Brinjouzar\"}, {\"row\": 13, \"column\": \"brewery_name\", \"value\": \"Borderlands Brewing Company\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 15, \"column\": \"style\", \"value\": \"American Pale Wheat Ale\"}, {\"row\": 16, \"column\": \"brewery_id\", \"value\": \"Pimbaquen Brewing\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"Czech Pilsener\"}, {\"row\": 18, \"column\": \"brewery_id\", \"value\": \"Suloskcal Zarjou Brewing\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 20, \"column\": \"style\", \"value\": \"Belgian IPA\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.093\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.071\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.048\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"American Amber / Red Lager\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.077\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.77\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"brewery_id\", \"value\": \"656 Calrho Brewing Company\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"The Rhorvel\\u00ae\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Sulzy Rhotor\"}, {\"row\": 2, \"column\": \"city\", \"value\": \"St Zarlohep\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"brewery-name\", \"value\": \"Torquenosk Quencalosk\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 7, \"column\": \"brewery_id\", \"value\": \"154\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"Saison / Farmhouse Ale\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Drizarvel PA\"}, {\"row\": 10, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 6, \"column\": \"style\", \"value\": \"American Brown Ale\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 9, \"column\": \"style\", \"value\": \"Czech Pilsener\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.067\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.08199999999999999\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 15, \"column\": \"style\", \"value\": \"Scottish Ale\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.052000000000000005\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"English Pale Ale\"}, {\"row\": 20, \"column\": \"style\", \"value\": \"Cream Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"style\", \"value\": \"Winter Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Brown Ale\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Pale Wheat Ale\"}, {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"Ulabagar Garjou Beer Company\"}, {\"row\": 6, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.062%\"}, {\"row\": 10, \"column\": \"brewery_id\", \"value\": \"Morrho Sulquencal Brewing Company\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.051%\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"Kölsch\"}, {\"row\": 14, \"column\": \"style\", \"value\": \"English Brown Ale\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.094\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Oskhorhep Garkel IPA\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Foreign / Export Stout\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Cider\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.083\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"OH\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.08199999999999999\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"brewery_id\", \"value\": \"542\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.005%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Keltor Pale Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Brown Ale\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Pumpkin Ale\"}, {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"166\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Drizarcal Vaszar\"}, {\"row\": 6, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 8, \"column\": \"brewery_id\", \"value\": \"134\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"FL\"}, {\"row\": 10, \"column\": \"brewery_name\", \"value\": \"Rhoba Wextas Brewery Company\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.085\"}, {\"row\": 12, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.067\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.08199999999999999\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.078\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"American Pale Lager\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.0072%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vaswexquen Oskmorvas White IPA\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"abv\", \"value\": \"0.052%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"beer-name\", \"value\": \"Red Nybrin Amber Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"beer-name\", \"value\": \"Lobrin Vaszartas Pale Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"102\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.047\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Round Guys\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"beer-name\", \"value\": \"Wexlo Velzar Pale Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Veltorwex Lager\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Wexrhopim\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vasny Jouhepkel\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"beer-name\", \"value\": \"Wexnyquen Brinulaquen Velfen Osktor Hepvaszar Stout\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 11, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Pimwexba Zarquen Brown\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.048\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"abv\", \"value\": \"0.052%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.086\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"102\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.047\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.057\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Veltorwex Lager\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Kölsch\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Toroskjou\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"AZ\"}, {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"White Morhepula\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 8, \"column\": \"brewery_name\", \"value\": \"Keldrigar Beer Company\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 10, \"column\": \"brewery_id\", \"value\": \"Sulnykel Lolocal\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 13, \"column\": \"brewery_id\", \"value\": \"Airways\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"Saison / Farmhouse Ale\"}, {\"row\": 17, \"column\": \"brewery_name\", \"value\": \"Quenhepny Garny\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"AL\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"Märzen / Oktoberfest\"}, {\"row\": 20, \"column\": \"brewery_id\", \"value\": \"Hepjouzar 'Vaskelosk\"}}]"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.087\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"English India Pale Ale (IPA)\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.07%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vello's Vasbalo\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.048\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Dritorosk's Garbaquen Brewing Company\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Pimcal Hepsul Sulkel Ale (2007)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Rhoocalvel\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Oskhrone Garkel IPA\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Amber / Red Lager\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Berliner Weissbier\"}, {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"Garpimfen\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Mt. Airy\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"American Pale Wheat Ale\"}, {\"row\": 9, \"column\": \"brewery_id\", \"value\": \"Lojoukel\"}, {\"row\": 10, \"column\": \"style\", \"value\": \"Berliner Weissbier\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"Dubbel\"}, {\"row\": 12, \"column\": \"brewery_id\", \"value\": \"Hepbrincal Ale\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 15, \"column\": \"brewery_name\", \"value\": \"Nyquensul Tasbafen\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 18, \"column\": \"style\", \"value\": \"English Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Kelzarzar\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"beer-name\", \"value\": \"Velcal Zartor Zarkel\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.005%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Keltor Pale Ale\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"K\\u00fcsl\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"%\"}, {\"row\": 4, \"column\": \"beer-name\", \"value\": \"Brinbrin Suljou Nyny\"}, {\"row\": 6, \"column\": \"beer-name\", \"value\": \"Drimor\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"%\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"%\"}, {\"row\": 10, \"column\": \"brewery_id\", \"value\": \"Fenrhovas Brewery\"}, {\"row\": 11, \"column\": \"beer-name\", \"value\": \"Caltorpim Amber Ale (2004)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Tasmanian IPA\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Belgian IPA\"}, {\"row\": 3, \"column\": \"brewery_id\", \"value\": \"Tasvasula\"}, {\"row\": 4, \"column\": \"brewery-name\", \"value\": \"Tasval Brewing Company\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Buena Vista\"}, {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"Velfenpim\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"Morquentor\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.093\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.071\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.048\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.077\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 18, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"brewery_id\", \"value\": \"656 Calrho Brewing Company\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"The Rhorvel\\u00ae\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Sulzy Rhotor\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"brewery_name\", \"value\": \"Torquenosk Quencalosk\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 7, \"column\": \"brewery_id\", \"value\": \"154\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"Saison / Farmhouse Ale\"}, {\"row\": 9, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.055%\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.063\"}, {\"row\": 12, \"column\": \"brewery_id\", \"value\": \"413\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"American Double / Imperial IPA\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.099\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.042%\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"Cream Ale\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 18, \"column\": \"style\", \"value\": \"American Blonde Ale\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 6, \"column\": \"style\", \"value\": \"American Brown Ale\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 10, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.081\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.078\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"American Pale Lager\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"style\", \"value\": \"Winter Warmer\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"style\", \"value\": \"American Amber Ale\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"5.5\"}, {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"Ookshire\"}, {\"row\": 8, \"column\": \"brewery-name\", \"value\": \"Nytasbrin\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"GA\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"IN\"}, {\"row\": 16, \"column\": \"brewery_id\", \"value\": \"Ookshire\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"32\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"American Amber / Red Lager\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.094\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Oskhrone Garkel IPA\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Foreign / Export Stout\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Cider\"}, {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"28\"}, {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Logarwex Brewing Company\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"OH\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.083\"}, {\"row\": 12, \"column\": \"brewery_id\", \"value\": \"93\"}, {\"row\": 12, \"column\": \"brewery-name\", \"value\": \"Keldrimor Brewery\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 16, \"column\": \"brewery_id\", \"value\": \"227\"}, {\"row\": 16, \"column\": \"brewery-name\", \"value\": \"MORLOZAR Velgar Brewing Company\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.08199999999999999\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.067\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"style\", \"value\": \"American Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Keltor Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Brown Ale\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Pumpkin Ale\"}, {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"166\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Drizarcal Vaszar\"}, {\"row\": 6, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"American Double / Imperial IPA\"}, {\"row\": 9, \"column\": \"brewery_id\", \"value\": \"397\"}, {\"row\": 10, \"column\": \"city\", \"value\": \"Quenmorsul\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.085\"}, {\"row\": 12, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.081\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 15, \"column\": \"style\", \"value\": \"Scottish Ale\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"American Pale Lager\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.0072\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.085\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.063\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.046\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vaswexquen Oskmorvas White IPA\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"abv\", \"value\": \"0.052%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"beer-name\", \"value\": \"Red Nybrin Amber Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"beer-name\", \"value\": \"Lobrin Vaszartas Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"102\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.047\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Ruund Guys Brewing\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"beer-name\", \"value\": \"Wexlo Velzar Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Veltorwex Lager\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Tasquinbra Ale\"}, {\"row\": 2, \"column\": \"city\", \"value\": \"Hepsulbrinvel, VA\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"179\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"beer-name\", \"value\": \"Wexnyquen Brinulaquen Velfen Osktor Hepvaszar Stout\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Velfen Porter\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 11, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Pimwexba Zarquen Brown\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Fenvelosk-Kelzartas Session Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"abv\", \"value\": \"0.052%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Pimhep Brown Ale\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Blonde Ale\"}, {\"row\": 4, \"column\": \"beer-name\", \"value\": \"Nyjou Ulabrinvel Vaszar Oskgar Wheat\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Veljoubrin\"}, {\"row\": 6, \"column\": \"brewery_name\", \"value\": \"Quenkeltor Vaszar SC\"}, {\"row\": 7, \"column\": \"brewery_id\", \"value\": \"102\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 9, \"column\": \"style\", \"value\": \"Hefeweizen\"}, {\"row\": 10, \"column\": \"brewery_id\", \"value\": \"424\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Des Moines\"}, {\"row\": 12, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.047\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Nynybrin the Velvetzar Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"beer-name\", \"value\": \"Wexlo Velzar Pale Ale\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Veltorwex Lager\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Kölsch\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Toroskjou\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"AZ\"}, {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"White Morhepula\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 8, \"column\": \"brewery_name\", \"value\": \"Keldrigar Beer Company\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 10, \"column\": \"brewery_id\", \"value\": \"Sulnykel Lolocal\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 13, \"column\": \"brewery_id\", \"value\": \"Frimont\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"Saison / Farmhouse Ale\"}, {\"row\": 17, \"column\": \"brewery_name\", \"value\": \"Quenhepny Garny\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"AL\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"Märzen / Oktoberfest\"}, {\"row\": 20, \"column\": \"brewery_id\", \"value\": \"Hepjouzar 'Vaskelosk\"}}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.087\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"English India Pale Ale (IPA)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.07%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vello's Vasbalo\"}, {\"row\": 2, \"column\": \"beer-name\", \"value\": \"Oskgar Vasvelzar Torgar Kelquen (2009)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.048\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"Dritorosk's Garbaquen Brewing Company\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065%\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Pale Wheat Ale\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"510\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Ulagarcal, MT\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055%\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.125%\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 9, \"column\": \"brewery_id\", \"value\": \"115\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.072%\"}, {\"row\": 11, \"column\": \"brewery_id\", \"value\": \"15\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.055%\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"Saison / Farmhouse Ale\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.055%\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.082%\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.067%\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.067%\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.06%\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.068%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.094\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Oskhorhep Garkel IPA\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Kelzarzar\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"beer-name\", \"value\": \"Velcal Zartor Zarkel\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.0052%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Keltor Pale Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Tasmanian IPA\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Belgian IPA\"}, {\"row\": 3, \"column\": \"brewery_id\", \"value\": \"Tasvasula\"}, {\"row\": 4, \"column\": \"brewery-name\", \"value\": \"Nytasbrin\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"San Fernando\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.093\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.071\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.048\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"American Amber / Red Lager\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.077\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.77\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"Kölsch\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"brewery_id\", \"value\": \"656 Calrho Brewing Company\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"The Rhorvel\\u00ae\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Sulny Rhotor\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"style\", \"value\": \"Winter Warmer\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"style\", \"value\": \"American Brown Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.094\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Oskhorhep Garkel IPA\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"Foreign / Export Stout\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Cider\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.088\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.083\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.08199999999999999\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.047%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.005%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Keltor Pale Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.093\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.071\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.048\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"American Amber / Red Lager\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.077\"}, {\"row\": 17, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"77\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"Kölsch\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Brown Ale\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Pumpkin Ale\"}, {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"Zarcalvel Quennygar\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Drizarcal Vaszar\"}, {\"row\": 6, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 8, \"column\": \"style\", \"value\": \"American Double / Imperial IPA\"}, {\"row\": 9, \"column\": \"brewery_id\", \"value\": \"Nyquenlo Beer Company\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"IN\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.085\"}, {\"row\": 12, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Porter\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 5, \"column\": \"style\", \"value\": \"American Pale Wheat Ale\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 9, \"column\": \"style\", \"value\": \"Czech Pilsener\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.067\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American IPA\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.08199999999999999\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 14, \"column\": \"style\", \"value\": \"American Black Ale\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.078\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"Tripel\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.052000000000000005\"}, {\"row\": 18, \"column\": \"style\", \"value\": \"American Pale Wheat Ale\"}, {\"row\": 19, \"column\": \"style\", \"value\": \"English Pale Ale\"}, {\"row\": 20, \"column\": \"style\", \"value\": \"Cream Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"style\", \"value\": \"Winter Warmer\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vaswexquen Oskmorvas White IPA\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"abv\", \"value\": \"0.052%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 14, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"beer-name\", \"value\": \"Lobrin Vaszartas Pale Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery_id\", \"value\": \"102\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.047\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Nynybrin the Veltorzar Pale Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"brewery_id\", \"value\": \"Wexlo Velzar Brewing Company\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Veltorwex Lager\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Vaskelsul, AZ\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"Maine\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.055%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.087\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"English India Pale Ale (IPA)\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"beer-name\", \"value\": \"Wexnyquen Brinulaquen Velfen Osktor Hepvaszar Stout\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Velfen Porter\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 11, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 13, \"column\": \"beer-name\", \"value\": \"1836 American Blonde Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.048\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vaswexquen Oskmorvas White IPA\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"abv\", \"value\": \"0.052%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.054\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.047\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Nynybrin the Velvetzar Pale Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"style\", \"value\": \"American Pale Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Veltorwex Lager\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.087\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"English India Pale Ale (IPA)\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.07%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"English Brown Ale\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"%\"}, {\"row\": 5, \"column\": \"style\", \"value\": \"American Pale Lager\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 7, \"column\": \"style\", \"value\": \"\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 9, \"column\": \"style\", \"value\": \"American Pale Lager\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.041\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"Czech Pilsener\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"Pumpkin Ale\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.068%\"}, {\"row\": 18, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 3, \"column\": \"style\", \"value\": \"Cider\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 13, \"column\": \"beer-name\", \"value\": \"1836 American Blonde Ale\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.048\"}]}"
+ }
+]

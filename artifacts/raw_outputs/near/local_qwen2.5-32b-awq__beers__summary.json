@@ -1,0 +1,603 @@
+{
+ "control|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.162,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.278,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.359,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0023148148148148147,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.249,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.007,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Sulwexzar Brewers Tasmormorhep",
+    "model": "Sulwexzar Brewers",
+    "famous": "French Broad Brewery"
+   }
+  ]
+ },
+ "near|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.159,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "near|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.218,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.021
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Everybudy's Brewing",
+    "model": "Everybody's Brewing",
+    "famous": "Everybody's Brewing"
+   }
+  ]
+ },
+ "near|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.004629629629629629,
+  "entities_edited": 3,
+  "repair_f1_other_rows": 0.295,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.014
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Revolutiun Brewing Company",
+    "model": "Revolution Brewing Company",
+    "famous": "Revolution Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "18th Struet Brewery",
+    "model": "18th Street Brewery",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Renagade Brewing Company",
+    "model": "Renaissance Brewing Company",
+    "famous": "Renegade Brewing Company"
+   }
+  ]
+ },
+ "near|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.018518518518518517,
+  "to_fact_rate": 0.013888888888888888,
+  "entities_edited": 6,
+  "repair_f1_other_rows": 0.293,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.049,
+    "to_fact_rate": 0.042
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.007,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Revolutiun Brewing Company",
+    "model": "Revolution Brewing Company",
+    "famous": "Revolution Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "18th Struet Brewery",
+    "model": "18th Street Brewery",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "state",
+    "table": "MO",
+    "model": "OH",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "18th Struet Brewery",
+    "model": "18th Street Brewery",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Renagade Brewing Company",
+    "model": "Renaissance Brewing Company",
+    "famous": "Renegade Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Ale Asylem",
+    "model": "Ale Asylum",
+    "famous": "Ale Asylum"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Lift Brodge Brewing Company",
+    "model": "Lift Bridge Brewing Company",
+    "famous": "Lift Bridge Brewing Company"
+   }
+  ]
+ },
+ "real|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.231,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.277,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.021
+   }
+  },
+  "examples": [
+   {
+    "col": "state",
+    "table": "TX",
+    "model": "CA",
+    "famous": "Central Coast Brewing Company"
+   }
+  ]
+ },
+ "real|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.247,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.3,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "key_rates": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|1|standard": {
+   "rate": 0.021,
+   "ci": [
+    0.0,
+    0.062
+   ],
+   "entities": 48
+  },
+  "near|3|evidence": {
+   "rate": 0.014,
+   "ci": [
+    0.0,
+    0.035
+   ],
+   "entities": 48
+  },
+  "near|3|standard": {
+   "rate": 0.042,
+   "ci": [
+    0.007,
+    0.083
+   ],
+   "entities": 48
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  }
+ },
+ "screened_known": {
+  "known": 11,
+  "targets": 48
+ },
+ "key_rates_known": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "near|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "near|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "near|3|evidence": {
+   "rate": 0.03,
+   "ci": [
+    0.0,
+    0.091
+   ],
+   "entities": 11
+  },
+  "near|3|standard": {
+   "rate": 0.061,
+   "ci": [
+    0.0,
+    0.152
+   ],
+   "entities": 11
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 11
+  }
+ }
+}

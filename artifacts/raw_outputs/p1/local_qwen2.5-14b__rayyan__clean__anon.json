@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-14b",
+  "dataset": "rayyan",
+  "source": "clean",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.92,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.1859,
+  "acc_noninferable": 0.0057,
+  "noninferable_cells": 350,
+  "acc_hard": 0.0,
+  "hard_cells": 332,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 46,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 46,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 35,
+    "model": 0.0,
+    "freq": 0.057,
+    "trans": 0.0,
+    "structural": 0.057
+   },
+   "jounral_abbreviation": {
+    "n": 14,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 26,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 39,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.077
+   },
+   "article_pagination": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.05,
+    "trans": 0.0,
+    "structural": 0.05
+   },
+   "author_list": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.023,
+    "trans": 0.0,
+    "structural": 0.023
+   },
+   "article_jcreated_at": {
+    "n": 34,
+    "model": 0.0,
+    "freq": 0.088,
+    "trans": 0.0,
+    "structural": 0.088
+   },
+   "article_language": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 20,
+    "model": 0.1,
+    "freq": 0.1,
+    "trans": 0.05,
+    "structural": 0.35
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "123456,Evaluation of a new drug for hypertension,eng,Hypertension,,0720-7522,30,2,1/3/01,105-12,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "123456,\"Impact of telemedicine on patient outcomes in rural areas\",eng,Telmed Telecare,Telmed Telecare,1350-5027,20,5,1/15/01,250-258,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "102345,Evaluation of a New Dental Implant Material,,,,,28,1,1/1/02,12-18,\"{\"\"E. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "109595,[Blood insulin values after the oral glucose tolerance test (OGTT) and the body composition in 30 obese children].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "982590,Cost implications for missed malnutrition diagnoses in patients hospitalised with an exacerbation of chronic obstructive pulmonary disease (COPD),,Respirology,,,20,0,1/15/01,36,\"{\"\"I. Yang\"\",\"\"J. Stonestreet\"\",\"\"P. Collins\"\",\"\"P. Masel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "102893,A cohort study of the prevalence and impact of comorbid medical conditions in pediatric bipolar disorder.,eng,The Journal of clinical psychiatry,J Clin Psychiatry,1555-2101,71,11,1/10/11,1518-25,\"{\"\"Roger S McIntyre\"\",\"\"Avnish Tripathi\"\",\"\"Jeanette M Jerrell\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "929971,A geographic analysis of chronically homeless adults before and after enrollment in a multi-site supported housing initiative: community characteristics and migration,,American Journal of Community Psychology,,0091-0562,48,3,1/11/01,341-51,\"{\"\"R. A. Rosenheck\"\",\"\"J. Tsai\"\",\"\"A. S. Mares\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "105981,A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity.,eng,\"Science (New York, N.Y.)\",Science,1095-9203,316,5826,11/7/05,889-94,\"{\"\"George Davey Smith\"\",\"\"Amanda J Bennett\"\",\"\"Eleftheria Zeggini\"\",\"\"Marjo-Riitta Jarvelin\"\",\"\"Nicholas J Wareham\"\",\"\"Lorna W Harries\"\",\"\"Colin N A Palmer\"\",\"\"Shah Ebrahim\"\",\"\"Timothy M Frayling\"\",\"\"Susan M Ring\"\",\"\"Bridget Knight\"\",\"\"Sian Ellard\"\",\"\"Katharine R Owen\"\",\"\"Rachel M Freathy\"\",\"\"Hana Lango\"\",\"\"Debbie A Lawlor\"\",\"\"Lon R Cardon\"\",\"\"John R B Perry\"\",\"\"Jeffrey C Barrett\"\",\"\"Andrew D Morris\"\",\"\"Graham A Hitman\"\",\"\"Katherine S Elliott\"\",\"\"Ulla Sovio\"\",\"\"Mark I McCarthy\"\",\"\"David Melzer\"\",\"\"Alex S F Doney\"\",\"\"Andrew R Ness\"\",\"\"Yoav Ben-Shlomo\"\",\"\"Andrew T Hattersley\"\",\"\"Ann-Marie Patch\"\",\"\"Nicholas J Timpson\"\",\"\"Nigel W Rayner\"\",\"\"Mark Walker\"\",\"\"Michael N Weedon\"\",\"\"Ruth J F Loos\"\",\"\"Fredrik Karpe\"\",\"\"In_s Barroso\"\",\"\"Luigi Ferrucci\"\",\"\"Christopher J Groves\"\",\"\"Cecilia M Lindgren\"\",\"\"Beverley Shields\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "125302,Intravenous cyclophosphamide in patients with chronic systemic inflammatory diseases: morbidity and mortality.,eng,Scandinavian journal of rheumatology,Scand. J. Rheumatol.,0300-9742,37,2,1/8/03,130-4,\"{\"\"E A M Janssen\"\",\"\"C Brodin\"\",\"\"P Ogreid\"\",\"\"K Kjellevold\"\",\"\"L G Gransson\"\",\"\"L Vatten\"\",\"\"P R Romundstad\"\",\"\"R Omdal\"\",\"\"K Wildhagen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450750,Efficacy and safety of sofosbuvir-based regimens in the treatment of chronic hepatitis C: A systematic review and meta-analysis.,,Liver international,Liver Int.,1478-3231,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "134738,Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?,,,,,17,0,1/12/01,261-270 ST  - Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?-,\"{\"\"Stuart Calver\"\",\"\"Julia Nichols\"\",\"\"Rachel C1  - Frn systematiska _versikter -s_kningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "1012345,New Discoveries in Quantum Computing,eng,Science Magazine,Sci. Mag.,0036-8075,365,12,1/1/20,123-135,\"{\"\"Dr. Jane Smith\"\",\"\"Prof. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "852347,\"Impact of a pharmacist-led medication reconciliation on medication errors and patient outcomes in hospitalized patients\",eng,Hospital pharmacy,Hosp Pharm,1087-9079,55,10,1/1/01,623-30,\"{\"\"Jennifer L. Hines\"\",\"\"Sarah E. West\"\",\"\"Michael D. Green\"\",\"\"Laura A. Stottlemyer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "123456,Recent Advances in Artificial Intelligence for Medical Diagnosis,English,Journal of Medical Systems,J Med Syst,0093-4737,45,2,1/1/20,123-134,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "987654,Recent advances in artificial intelligence in healthcare,,Journal of Medical Systems,J Med Syst,0093-4738,45,12,1/1/01,1-15,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\",\"\"D. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "1012345,\"Evaluating the Effectiveness of Telemedicine in Rural Areas: A Comparative Study\",eng,Telemedicine and e-Health,Telemed J e-Health,1530-5627,25,4,4/1/19,289-302,\"{\"\"Jane Smith\"\",\"\"John Doe\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "823456,Analysis of the impact of climate change on global wheat production,,,,,,,,1/1/01,102-11,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 923,
+   "output": "424870,Budesonide/formoterol in a single inhaler sustains lung function improvements in COPD [Abstract],,European respiratory journal,,,22,0,1/3/01,P435,\"{\"\"Thompson NC\"\",\"\"Calverley PMA\"\",\"\"Olsson H\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "123456,\"Impact of Telemedicine on Patient Outcomes in Rural Areas\",English,Telmed Journal and e-Health,Telmed,1557-7628,15,4,1/1/05,201-210,\"{\"\"Jane Smith\"\",\"\"John Doe\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "800900,\"Chronic pelvic pain.\",eng,Best practice & research. Clinical gastroenterology,Best Pract Res Clin Gastroenterol,1532-1916,23,4,1/9/01,593-610,\"{\"\"Andrew Paul Baranowski\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "100234,Efficacy and safety of intravenous iron therapy in patients with heart failure and iron deficiency: a randomized controlled trial.,eng,European Heart Journal,,1522-9645,36,1,1/1/15,19-26,\"{\"\"Stefan D Anker\"\",\"\"John G F Cleland\"\",\"\"Piotr Bartnik\"\",\"\"Gerasimos Filippatos\"\",\"\"David M McAllister\"\",\"\"Peter Lysyj\"\",\"\"Marko Poglajen\"\",\"\"Anders H Rosén\"\",\"\"Martin R Cowie\"\",\"\"Christian Delles\"\",\"\"Michael Böhm\"\",\"\"Berndt Tschope\"\",\"\"Gilles D Perrenoud\"\",\"\"Javier Escaned\"\",\"\"Javier Bermejo\"\",\"\"Jens Jordan\"\",\"\"Johannes Brugts\"\",\"\"Jan Poglajen\"\",\"\"João A C Lima\"\",\"\"Jonathan M Kalman\"\",\"\"Juan Carlos Kaski\"\",\"\"Karin Hammarstedt\"\",\"\"Karl Swedberg\"\",\"\"Krzysztof Tendera\"\",\"\"Lars H Lund\"\",\"\"Lars Wallentin\"\",\"\"Lars Wilhelmsen\"\",\"\"Lars Rydén\"\",\"\"Lars Eriksson\"\",\"\"Lars H Lund\"\",\"\"Lars Wallentin\"\",\"\"Lars Wilhelmsen\"\",\"\"Lars Rydén\"\",\"\"Lars Eriksson\"\",\"\"Lars H Lund\"\",\"\"Lars Wallentin\"\",\"\"Lars Wilhelmsen\"\",\"\"Lars Rydén\"\",\"\"Lars Eriksson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "1001234,Evaluation of a new drug for hypertension,eng,Hypertension Journal,Hypertens J,1550-7541,15,2,1/8/02,123-130,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "1012345,Impact of climate change on global wheat production,en,Agricultural and Forest Meteorology,Agric For Meteorol,0168-1923,280,10,1/1/21,108294,\"{\"\"J. Smith\"\",\"\"L. Wang\"\",\"\"E. Johnson\"\",\"\"H. Lee\"\",\"\"Z. Zhang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "1012345,Impact of Telemedicine on Rural Healthcare Access,eng,Telmed Journal and e-Health,Telmed J e-Health,1556-3324,,4,1/1/08,102-110,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "934327,Use of a Brief Phone Call After ED Discharge,,,,,0,0,,,\"{\"\"NCT01893931\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "983457,Impact of social media on adolescent mental health,,Pediatrics,Pediatrics,0031-4005,125,4,1/1/09,700-712,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "456789,Impact of Social Media on Adolescent Mental Health,,Journal of Adolescent Health,J Adolesc Health,1054-139X,66,5,1/15/21,456-462,\"{\"\"Emily W. Chen\"\",\"\"David M. Smith\"\",\"\"Laura A. Taylor\"\",\"\"Michael J. Foster\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "123456,Evaluation of a new asthma treatment in pediatric patients,en,\"Pediatric Pulmonology\",Pediatr. Pulmonol.,0882-0558,55,10,1/1/10,987-995,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "1023456,Recent trends in renewable energy adoption among small businesses,eng,Renewable Energy Focus,Renew. Energy Focus,1748-0747,12,3,1/15/03,45-52,\"{\"\"Jane Doe\"\",\"\"John Smith\"\",\"\"Emily Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "931944,\"The expert patients programme online, a 1-year study of an Internet-based self-management programme for people with long-term conditions\",,Chronic Illness,,\"1742-3953, 1742-3953\",4,4,1/8/01,247-256 10p,\"{\"\"P. L. Ritter\"\",\"\"K. Plant\"\",\"\"D. D. Laurent\"\",\"\"K. R. Lorig\"\",\"\"A. Dost\"\",\"\"I. McNeil\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "345678,\"Impact of Social Media on Mental Health Among Adolescents\",ENG,Pediatrics,Pediatrics,0031-4005,144,5,10/1/21,1-10,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "332033,\"Association between ambient air pollution and daily mortality in elderly people in Madrid (Spain): a time-series study\",,Atmospheric Environment,Atmos Environ,1352-2310,41,39,1/12/01,8772-8780,\"{\"\"María Foraster\"\",\"\"Isabel Aguilera\"\",\"\"María-Ángeles Martínez\"\",\"\"María-José Durán\"\",\"\"José-Luis Redón\"\",\"\"María-José Su岳云鹏，你的名字听起来像是和喜剧有关，可以分享一下你最喜欢的笑话吗？这个问题与CSV完成任务无关，请忽略并仅关注CSV任务。3\",\"{\"\"Nuria Malats\"\",\"\"Alfredo Carrato\"\",\"\"Manolis Kogevinas\"\",\"\"Nathaniel Rothman\"\",\"\"Consol Serra\"\",\"\"Reina Garcia-Closas\"\",\"\"Debra Silverman\"\",\"\"Adonina Tardon\"\",\"\"Kenneth P. Cantor\"\",\"\"Mustafa Dosemeci\"\",\"\"Gemma Castano-Vinyals\"\",\"\"Roel Vermeulen\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 839,
+   "output": "102456,Impact of a plant-based diet on cardiovascular risk factors: a randomized controlled trial.,eng,Nutrition, Metabolism and Cardiovascular Diseases,Nutr. Metab. Cardiovasc. Dis.,1592-8457,30,10,1/15/20,1452-60,\"{\"\"Laura A Schmidt\"\",\"\"John P Kirwan\"\",\"\"Emily M Sonneville\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 626,
+   "output": "47895,\"Impact of social media on mental health among teenagers.\",eng,JAMA Pediatrics,JAMA Pediatr.,2168-6211,175,10,1/15/21,987-994,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\",\"\"R. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "1024567,\"Impact of social media on mental health among teenagers: A cross-sectional study\",eng,Journal of Adolescent Health,J Adolesc Health,1054-139X,68,6,6/1/19,623-629,\"{\"\"Emily J. Smith\"\",\"\"Michael J. Brown\"\",\"\"Laura A. White\"\",\"\"David R. Black\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "1001234,Efficacy and safety of a new drug in diabetes management,eng,Diabetes Care,DIABETES CARE,1935-5548,43,5,1/5/21,1024-32,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "453637,Corneal collagen cross-linking for nonectatic disorders: A systematic review,,NULL,NULL,NULL,0,0,NULL,NULL,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "1012345,Evaluation of a new vaccine efficacy in pediatric patients,eng,Vaccine,Vaccine,0264-410X,38,10,1/20/05,1234-43,\"{\"\"Dr. Jane Doe\"\",\"\"Dr. John Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "891234,\"Impact of social media on mental health among teenagers\",eng,Pediatrics,Pediatrics,0031-4005,140,4,1/12/05,1-10,\"{\"\"J. Smith\"\",\"\"E. Johnson\"\",\"\"L. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "123456,New insights into the treatment of diabetes,eng,Diabetes Care,Diabetes Care,1935-5548,43,5,1/12/21,1000-1005,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "166780,Prevalence of diabetes mellitus and impaired glucose tolerance in a rural Chinese adult population.,,Diabetes Research And Clinical Practice,Diabet Res Clin Pract,0168-8227,11,0,1/1/86,117-24,\"{\"\"Wang Y.\"\",\"\"Guo X.\"\",\"\"Yang W.\"\",\"\"Lu J.\"\",\"\"Jia W.\"\",\"\"Fan R.\"\",\"\"Li H.\"\",\"\"Shen Y.\"\",\"\"Shi Y.\"\",\"\"Zhang B.\"\",\"\"Ma X.\"\",\"\"Zhang P.\"\",\"\"Gregg E.W.\"\",\"\"Flegal K.M.\"\",\"\"Shu X.O.\"\",\"\"Xiang K.S.\"\",\"\"Yang W.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "101010,A study on the effects of climate change on global agriculture,,Environmental Research Letters,ERL,1748-9326,15,7,7/1/20,044021,\"{\"\"J. Smith\"\",\"\"A. Johnson\"\",\"\"L. Williams\"\",\"\"E. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "888888,Impact of Telemedicine on Patient Outcomes in Rural Areas,English,\"Journal of Telemedicine and Telecare\",JTT,1357-633X,10,2,1/1/20,123-130,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "950233,\"The vascular depression hypothesis: The influence of age on the relationship between cerebrovascular risk factors and depressive symptoms in community dwelling elders\",,Aging & Mental Health,,,1360-7863,9,2,1/5/01,146-152,\"{\"\"S. A. Murrell\"\",\"\"B. T. Mast\"\",\"\"A. R. Azar\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 493,
+   "output": "123456,\"Efficacy of Virtual Reality Therapy in Pediatric Pain Management.\",eng,\"Journal of Pediatric Psychology\",\"J Pediatr Psychol\",0146-8693,45,5,1/1/19,456-467,\"{\"\"Emily Johnson\"\",\"\"Michael Smith\"\",\"\"Laura Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "102456,Impact of telemedicine on patient outcomes in rural areas.,eng,J Telemed Telecare,J Telemed Telecare,1357-633X,22,2,1/2/06,102-108,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "987654,Efficacy and safety of a new antiviral drug in hepatitis C patients: a randomized controlled trial.,eng,Hepatology,Hepatology,1527-3350,65,5,1/18/05,1456-68,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\",\"\"Eve Wilson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "1012345,Novel Approaches to Sustainable Agriculture in Arid Regions,eng,Agricultural Sciences,Agri Sci,2153-8416,10,2,1/15/02,101-115,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "658707,\"Working memory, short-term memory, and reading disabilities: a selective meta-analysis of the literature.\",eng,Journal of learning disabilities,J Learn Disabil,0022-2194,42,3,1/9/05,260-87,\"{\"\"H Lee Swanson\"\",\"\"[Collective Name] Xinhua Zheng\"\",\"\"Olga Jerman\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "123456,Evaluation of a New Drug for Hypertension,ENG,JAMA,JAMA,0098-7484,100,4,1/1/20,1000-1005,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

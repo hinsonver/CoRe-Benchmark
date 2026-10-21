@@ -1,0 +1,794 @@
+{
+ "control|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.622,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.639,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.58,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.647,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "near|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.075,
+  "to_fact_rate": 0.075,
+  "entities_edited": 9,
+  "repair_f1_other_rows": 0.627,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.375,
+    "to_fact_rate": 0.375
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "university of iewa hospital & clinics",
+    "model": "university of iowa hospital & clinics",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "HospitalName",
+    "table": "ronild reagan ucla medical center",
+    "model": "ronald reagan ucla medical center",
+    "famous": "ronald reagan ucla medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "nurthwestern memorial hospital",
+    "model": "northwestern memorial hospital",
+    "famous": "northwestern memorial hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "vandirbilt university medical center",
+    "model": "vanderbilt university medical center",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "geasinger medical center",
+    "model": "geisinger medical center",
+    "famous": "geisinger medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "harborvaew medical center",
+    "model": "harborview medical center",
+    "famous": "harborview medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "intermoantain medical center",
+    "model": "intermountain medical center",
+    "famous": "intermountain medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "brogham and women's hospital",
+    "model": "brigham and women's hospital",
+    "famous": "brigham and women's hospital"
+   }
+  ]
+ },
+ "near|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.10833333333333334,
+  "to_fact_rate": 0.10833333333333334,
+  "entities_edited": 13,
+  "repair_f1_other_rows": 0.661,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.542,
+    "to_fact_rate": 0.542
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "st jude childrens research hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "massachisetts general hospital",
+    "model": "massachusetts general hospital",
+    "famous": "massachusetts general hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "university of iewa hospital & clinics",
+    "model": "university of iowa hospital & clinics",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "HospitalName",
+    "table": "ronild reagan ucla medical center",
+    "model": "ronald reagan ucla medical center",
+    "famous": "ronald reagan ucla medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "nurthwestern memorial hospital",
+    "model": "northwestern memorial hospital",
+    "famous": "northwestern memorial hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "vandirbilt university medical center",
+    "model": "vanderbilt university medical center",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "geasinger medical center",
+    "model": "geisinger medical center",
+    "famous": "geisinger medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "harborvaew medical center",
+    "model": "harborview medical center",
+    "famous": "harborview medical center"
+   }
+  ]
+ },
+ "near|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.005555555555555556,
+  "to_fact_rate": 0.005555555555555556,
+  "entities_edited": 2,
+  "repair_f1_other_rows": 0.554,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.028,
+    "to_fact_rate": 0.028
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "intermoantain medical center",
+    "model": "intermountain medical center",
+    "famous": "intermountain medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "maineheelth maine medical center",
+    "model": "mainehealth maine medical center",
+    "famous": "mainehealth maine medical center"
+   }
+  ]
+ },
+ "near|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.022222222222222223,
+  "to_fact_rate": 0.022222222222222223,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.638,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.111,
+    "to_fact_rate": 0.111
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "st jude childrens research hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "st jude childrens research hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "st jude childrens reseirch hospital",
+    "model": "st jude childrens research hospital",
+    "famous": "st jude childrens research hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "massachisetts general hospital",
+    "model": "massachusetts general hospital",
+    "famous": "massachusetts general hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "massachisetts general hospital",
+    "model": "massachusetts general hospital",
+    "famous": "massachusetts general hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "massachisetts general hospital",
+    "model": "massachusetts general hospital",
+    "famous": "massachusetts general hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "geasinger medical center",
+    "model": "geisinger medical center",
+    "famous": "geisinger medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "intermoantain medical center",
+    "model": "intermountain medical center",
+    "famous": "intermountain medical center"
+   }
+  ]
+ },
+ "real|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.615,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.644,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.657,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.657,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "key_rates": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|1|evidence": {
+   "rate": 0.375,
+   "ci": [
+    0.167,
+    0.583
+   ],
+   "entities": 24
+  },
+  "near|1|standard": {
+   "rate": 0.542,
+   "ci": [
+    0.333,
+    0.75
+   ],
+   "entities": 24
+  },
+  "near|3|evidence": {
+   "rate": 0.028,
+   "ci": [
+    0.0,
+    0.069
+   ],
+   "entities": 24
+  },
+  "near|3|standard": {
+   "rate": 0.111,
+   "ci": [
+    0.014,
+    0.236
+   ],
+   "entities": 24
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  }
+ },
+ "screened_known": {
+  "known": 24,
+  "targets": 24
+ },
+ "key_rates_known": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|1|evidence": {
+   "rate": 0.375,
+   "ci": [
+    0.167,
+    0.583
+   ],
+   "entities": 24
+  },
+  "near|1|standard": {
+   "rate": 0.542,
+   "ci": [
+    0.333,
+    0.75
+   ],
+   "entities": 24
+  },
+  "near|3|evidence": {
+   "rate": 0.028,
+   "ci": [
+    0.0,
+    0.069
+   ],
+   "entities": 24
+  },
+  "near|3|standard": {
+   "rate": 0.111,
+   "ci": [
+    0.014,
+    0.236
+   ],
+   "entities": 24
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  }
+ }
+}

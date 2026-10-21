@@ -1,0 +1,351 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-14b",
+  "dataset": "beers",
+  "source": "dirty",
+  "named": true,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [
+   "index"
+  ],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.6241,
+  "acc_noninferable": 0.0575,
+  "noninferable_cells": 226,
+  "acc_hard": 0.01,
+  "hard_cells": 200,
+  "leak_rate": 0.0,
+  "leak_cells": 84,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 23,
+  "per_column": {
+   "id": {
+    "n": 50,
+    "model": 0.22,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.36
+   },
+   "beer-name": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "abv": {
+    "n": 35,
+    "model": 0.029,
+    "freq": 0.057,
+    "trans": 0.029,
+    "structural": 0.086
+   },
+   "city": {
+    "n": 10,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "ounces": {
+    "n": 13,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.154,
+    "structural": 0.154
+   },
+   "ibu": {
+    "n": 22,
+    "model": 0.045,
+    "freq": 0.045,
+    "trans": 0.0,
+    "structural": 0.045
+   },
+   "style": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.037,
+    "trans": 0.037,
+    "structural": 0.074
+   },
+   "brewery_id": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery-name": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "state": {
+    "n": 8,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 1587,
+   "output": "1588,802,Gordon (2004),American Double / Imperial IPA,12.0 oz.,0.09,85,503,Oskar Blues Brewery,Lyons,CO",
+   "parsed": true
+  },
+  {
+   "row": 1732,
+   "output": "1733,1992,Devil's Drop,American Double / Imperial Stout,12.0 oz,0.14,60,93,Rhinegeist Brewery,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 175,
+   "output": "176,1482,Back East IPA,American IPA,12.0 oz.,0.065,45,235,Back East Brewing Company,Bloomfield,CT",
+   "parsed": true
+  },
+  {
+   "row": 1070,
+   "output": "1071,1003,Green House Session Ale,American Pale Ale,12.0 oz,0.048,N/A,395,Hops & Grain Brewery,Austin,TX",
+   "parsed": true
+  },
+  {
+   "row": 2104,
+   "output": "2105,2576,Tractor Hop Farm Pale Ale,American Pale Ale (APA),12.0 oz.,0.055,35,46,Tractor Brewing,Tucson,AZ",
+   "parsed": true
+  },
+  {
+   "row": 2000,
+   "output": "2001,2149,Point Special,American Adjunct Lager,12.0 oz.,0.047,9,131,Stevens Point Brewery,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 1668,
+   "output": "1669,1910,Foxhole Rye Pale Ale,American Pale Ale (APA),12.0 oz.,0.065,35,274,Portside Brewery,Cleveland,OH",
+   "parsed": true
+  },
+  {
+   "row": 1252,
+   "output": "1253,1123,Easy Street,Pale Lager,12.0 oz.,0.045,15,91,Madtree Brewing Company,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 1962,
+   "output": "1963,1012,Imperial Valkyrie Double IPA,American Double / Imperial IPA,12.0 oz.,0.105,120,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1476,
+   "output": "1477,484,Cream Ale,American Cream Ale,12.0 oz.,0.045,N/A,174,New Orleans Lager & Ale Brewing ...,New Orleans,LA",
+   "parsed": true
+  },
+  {
+   "row": 2399,
+   "output": "2400,1467,Worthy Red Ale,American Red Ale,12.0 oz.,0.055,25,199,Worthy Brewing Company,Bend,OR",
+   "parsed": true
+  },
+  {
+   "row": 904,
+   "output": "905,548,Devil's Elbow IPA,American IPA,16.0 oz,0.075,65,240,Golden Road Brewing,Los Angeles,CA",
+   "parsed": true
+  },
+  {
+   "row": 2077,
+   "output": "2078,1113,Flying Monkeys American Pale Ale,American Pale Ale (APA),16.0 oz.,0.055,35,61,Surly Brewing Company,Brooklyn Center,MN",
+   "parsed": true
+  },
+  {
+   "row": 580,
+   "output": "581,1646,Coastal Haze,Hazy / New England Style IPA,16.0 oz.,0.065,35,350,Central Coast Brewing Company,San Luis Obispo,CA",
+   "parsed": true
+  },
+  {
+   "row": 1164,
+   "output": "1165,757,Cold Smoke Scotch Ale (2006),Scotch Ale / Wee Heavy,16.0 oz.,0.065,11,510,Kettle House Brewing Company,Missoula,MT",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "583,1250,Old No. 2 Robust Porter,Robust Porter,12.0 oz,0.055,45,122,Center of the Universe Brewing C...,Ashland,VA",
+   "parsed": true
+  },
+  {
+   "row": 398,
+   "output": "399,2498,Blackberry Sour American Wild Ale,Farmhouse Sour,16.0 oz.,0.065,N/A,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1036,
+   "output": "1037,2179,Kaua'i Golden Ale,American Blonde Ale,12.0 oz,0.049%,N/A,204,Hawai'i Nui Brewing Co.,Hilo,HI",
+   "parsed": true
+  },
+  {
+   "row": 2191,
+   "output": "2192,1816,Dark Lord Russian Imperial Stout,Russian Imperial Stout,16.0 oz,0.15,40,17,Tin Man Brewing Company,Evansville,IN",
+   "parsed": true
+  },
+  {
+   "row": 611,
+   "output": "612,1691,Hopped on the High Seas (Simcoe),American IPA,12.0 oz.,0.07,60,141,Cigar City Brewing Company,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 1280,
+   "output": "1281,1515,Black Cat Stout,Foreign Export Stout,16.0 oz,0.06,N/A,317,Marshall Wharf Brewing Company,Belfast,ME",
+   "parsed": true
+  },
+  {
+   "row": 414,
+   "output": "415,2099,La Fin Du Monde,Belgian Strong Golden Ale,16.0 oz.,0.09,N/A,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 312,
+   "output": "313,1545,Devil's Food Stout,Foreign Export Stout,12.0 oz,0.059,45,382,Blue Mountain Brewery,Afton,VA",
+   "parsed": true
+  },
+  {
+   "row": 1362,
+   "output": "1363,1721,Devil's Milk Chocolate Milk Stout,Milk / Sweet Stout,16.0 oz.,0.055%,35,284,Milwaukee Brewing Company,Milwaukee,WI",
+   "parsed": true
+  },
+  {
+   "row": 1943,
+   "output": "1944,2023,Blue Point Toasted Lager,American Amber / Red Lager,12.0 oz.,0.05%,N/A,249,Southampton Publick House,Southampton,NY",
+   "parsed": true
+  },
+  {
+   "row": 2302,
+   "output": "2303,1822,Squatters Chocolate Oak Aged Stout,Oak Aged Stout,12.0 oz.,0.075,60,302,Utah Brewers Cooperative,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 422,
+   "output": "423,1975,Blanche du St Roch,Saison,16.0 oz,0.052,N/A,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1459,
+   "output": "1460,1708,Tripel,Strong Golden Belgian Ale,11.2 oz.,0.09,?,82,New Belgium Brewing Company,Fort Collins,CO",
+   "parsed": true
+  },
+  {
+   "row": 1788,
+   "output": "1789,2598,Sex Panther,American Porter,16.0 oz.,0.069,20,30,SanTan Brewing Company,Chandler,AZ",
+   "parsed": true
+  },
+  {
+   "row": 1305,
+   "output": "1306,1097,Hawaiian IPA,American IPA,12.0 oz. Alumi-Tek,0.065%,N/A,375,Maui Brewing Company,Lahaina,HI",
+   "parsed": true
+  },
+  {
+   "row": 847,
+   "output": "848,1871,Hell or High Watermelon American Wheat,American Wheat,12.0 oz,0.05,20,287,Four Corners Brewing Company,Dallas TX,",
+   "parsed": true
+  },
+  {
+   "row": 2273,
+   "output": "2274,2505,E.S.P.,American Pale Wheat Ale,12.0 oz,0.055,25,71,Union Craft Brewing,Baltimore,MD",
+   "parsed": true
+  },
+  {
+   "row": 1963,
+   "output": "1964,1012,Imperial Valkyrie Double IPA,American Double / Imperial IPA,12.0 oz,0.1,100,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1823,
+   "output": "1824,1322,Schlafly Amber Pizza Wurst Beer,Pale Ale (American),12.0 oz.,0.055,25,428,Schlafly Brewing Company,Saint Louis,MO",
+   "parsed": true
+  },
+  {
+   "row": 2145,
+   "output": "2146,1110,Local Option,American Pale Ale (APA),16.0 oz.,0.055,35,272,The Alchemist,Waterbury,VT",
+   "parsed": true
+  },
+  {
+   "row": 1076,
+   "output": "1077,2401,Easy Street Pilsner,Pilsner,12.0 oz.,0.048,30,80,Hopworks Urban Brewery,Portland,OR",
+   "parsed": true
+  },
+  {
+   "row": 265,
+   "output": "266,2097,Frostbite Winter Ale,English Strong Ale,12.0 oz.,0.075,25,221,Big Storm Brewing Company,Odessa,FL",
+   "parsed": true
+  },
+  {
+   "row": 2257,
+   "output": "2258,1096,City Stomp Brown Ale,Brown Ale,12.0 oz,0.05,25,159,Uinta Brewing Company,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 67,
+   "output": "68,513,Turbo Dog,American Pale Wheat Ale,12.0 oz,0.05,18,533,Abita Brewing Company,Abita Springs,LA",
+   "parsed": true
+  },
+  {
+   "row": 392,
+   "output": "393,2596,Vivant Wit,Witbier,16.0 oz.,0.05,N/A,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1643,
+   "output": "1644,1402,Blueberry Wheat,Witbier,16.0 oz.,0.052,15,11,Petoskey Brewing,Petoskey,MI",
+   "parsed": true
+  },
+  {
+   "row": 14,
+   "output": "15,1979,Smashface,American Pale Wheat Ale,12.0 oz.,0.055,N/A,177,18th Street Brewery,Gary,IN",
+   "parsed": true
+  },
+  {
+   "row": 2031,
+   "output": "2032,2474,Tripel,Tripel,12.0 ounce,0.09,80,58,Summit Brewing Company,St. Paul MN,",
+   "parsed": true
+  },
+  {
+   "row": 1374,
+   "output": "1375,2272,Huber Select,American Wheat,12.0 oz.,0.05,N/A,134,Minhas Craft Brewery,Monroe,WI",
+   "parsed": true
+  },
+  {
+   "row": 1009,
+   "output": "1010,1075,Cream Ale,American Cream Ale,12.0 oz,0.05,N/A,327,Half Acre Beer Company,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 1342,
+   "output": "1343,2534,Smashbomb,Imperial Stout,16.0 oz,0.09,60,65,Mikerphone Brewing,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 267,
+   "output": "268,1256,Jack Pine Session IPA,American Pale Wheat Ale,12.0 oz,0.045,25,444,Big Wood Brewery,Vadnais Heights,MN",
+   "parsed": true
+  },
+  {
+   "row": 792,
+   "output": "793,1456,Snow Valley Saison,Farmhouse / Saison,16.0 oz.,0.065,25,36,Figueroa Mountain Brewing Company,Buellton,CA",
+   "parsed": true
+  },
+  {
+   "row": 2334,
+   "output": "2335,2220,Devil May Haze,Hazy / New England IPA,16.0 oz.,0.065,25,94,Warped Wing Brewing Company,Dayton,OH",
+   "parsed": true
+  },
+  {
+   "row": 918,
+   "output": "919,2199,Matilda Saison,Farmhouse Saison,12.0 oz.,0.065,25,196,Goose Island Brewery Company,Chicago,IL",
+   "parsed": true
+  }
+ ]
+}

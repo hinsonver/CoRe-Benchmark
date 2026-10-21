@@ -1,0 +1,368 @@
+{
+ "summary": {
+  "model": "local:mlx-community/OLMo-2-1124-7B-Instruct-4bit",
+  "dataset": "tax",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": true,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.86,
+  "exact_row_match": 0.0,
+  "failed_calls": 5,
+  "acc_inferable": 0.3611,
+  "acc_noninferable": 0.0056,
+  "noninferable_cells": 357,
+  "acc_hard": 0.0058,
+  "hard_cells": 342,
+  "leak_rate": 0.0,
+  "leak_cells": 51,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 34,
+  "per_column": {
+   "f_name": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "l_name": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "phone": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "city": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.023,
+    "trans": 0.0,
+    "structural": 0.023
+   },
+   "zip": {
+    "n": 38,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "salary": {
+    "n": 29,
+    "model": 0.034,
+    "freq": 0.103,
+    "trans": 0.034,
+    "structural": 0.138
+   },
+   "married_exemp": {
+    "n": 11,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "area_code": {
+    "n": 38,
+    "model": 0.0,
+    "freq": 0.053,
+    "trans": 0.053,
+    "structural": 0.105
+   },
+   "state": {
+    "n": 31,
+    "model": 0.032,
+    "freq": 0.032,
+    "trans": 0.065,
+    "structural": 0.129
+   },
+   "rate": {
+    "n": 17,
+    "model": 0.0,
+    "freq": 0.118,
+    "trans": 0.118,
+    "structural": 0.118
+   },
+   "single_exemp": {
+    "n": 10,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "child_exemp": {
+    "n": 11,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 3066,
+   "output": "",
+   "parsed": false,
+   "error": "APIConnectionError"
+  },
+  {
+   "row": 3339,
+   "output": "",
+   "parsed": false,
+   "error": "APIConnectionError"
+  },
+  {
+   "row": 327,
+   "output": "",
+   "parsed": false,
+   "error": "APIConnectionError"
+  },
+  {
+   "row": 2037,
+   "output": "",
+   "parsed": false,
+   "error": "APIConnectionError"
+  },
+  {
+   "row": 4089,
+   "output": "",
+   "parsed": false,
+   "error": "APIConnectionError"
+  },
+  {
+   "row": 3898,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 3214,
+   "output": "Aruna,Sharma,F,212,646-9876,MILWAUKEE,WI,53701,S,N,8500,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2369,
+   "output": "Diana,Baker,F,720,555-1234,DALLAS,TX,78526,S,Y,45000,6.2,0,8000,4000",
+   "parsed": true
+  },
+  {
+   "row": 3820,
+   "output": "Anurag,Sharma,M,703,334-1234,ARLINGTON,VA,231234,M,Y,70000,6.2,2500,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2829,
+   "output": "Takashi,Kawamura,M,450,443-6123,FORT WORTH,TX,76046,M,Y,45000,4.8,3000,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4596,
+   "output": "Yatsuka,Paragot,M,978,628-2817,DUXBURY,MA,01907,M,N,20000,5.3,0,7150,0",
+   "parsed": true
+  },
+  {
+   "row": 1739,
+   "output": "Anuradha,Sharma,F,502,657-4567,FULTON,MO,64110,S,Y,28000,3.8,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4034,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 1115,
+   "output": "Doris,Baker,F,202,555-1234,SPRINGFIELD,IL,61864,S,Y,70000,7.2,2500,0,2500",
+   "parsed": true
+  },
+  {
+   "row": 2211,
+   "output": "Sivakumar,Kumar,M,214,617-9128,CHICAGO,IL,60613,M,Y,120000,8.5,0,3000,0,0",
+   "parsed": false
+  },
+  {
+   "row": 1117,
+   "output": "Maria,Petersen,F,303,860-4512,SAN ANTONIO,TX,78526,S,Y,85000,6.75,1250,0,1250",
+   "parsed": true
+  },
+  {
+   "row": 762,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 4739,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 1970,
+   "output": "Arun,Sharma,M,334,334-1234,CHICAGO,IL,60612,M,Y,12500,0.38,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4257,
+   "output": "Takashi,Kobayashi,M,719,563-1762,DENVER,CO,80210,M,N,65000,4.63,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4672,
+   "output": "Jia,Lin,F,808,669-9876,SAN FRANCISCO,CA,01907,S,Y,28500,5.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1178,
+   "output": "Sarita,Tretmans,F,786,906-7601,ARCADIA,FL,34266,M,Y,95000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2429,
+   "output": "Jieun,Kim,F,214,650-9876,SAN DIEGO,CA,92110,S,N,12000,2.8,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 793,
+   "output": "Diana,Harris,F,214,617-9832,WINTERSFIELD,MA,162020,S,N,60000,6.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 604,
+   "output": "Marta,Petersen,F,410,894-3766,FREDERICK,MD,21701,S,Y,10000,6.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2613,
+   "output": "Anita,Baker,F,617,617-9203,QUINCY,MA,02169,S,Y,45000,3.85,2200,0,2200",
+   "parsed": true
+  },
+  {
+   "row": 3780,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 4453,
+   "output": "Aruna,Sharma,F,214,860-9123,HIGHLAND HEIGHTS,TN,38067,M,Y,60000,6.5,0,1500,0",
+   "parsed": true
+  },
+  {
+   "row": 811,
+   "output": "Ilaria,Pelecq,M,623,890-7169,CASHION,AZ,85329,S,Y,75000,3.8775,2100,0,2300",
+   "parsed": true
+  },
+  {
+   "row": 2792,
+   "output": "Anurag,Sharma,M,214,281-9128,AUSTIN,TX,78704,S,Y,120000,7.0,2000,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3457,
+   "output": "Anuradha,Sharma,F,212,571-9123,CHICAGO,IL,60612,S,Y,45000,6.0,0,3000,0",
+   "parsed": true
+  },
+  {
+   "row": 2485,
+   "output": "Arun,Sharma,M,214,212-9876,CHICAGO,IL,60612,S,Y,35000,3.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4709,
+   "output": "Yixin,Wu,M,417,417-9123,CHICAGO O'HARE,IL,01907,M,Y,70000,6.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4893,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 1621,
+   "output": "Chandrika,Sharma,F,617,860-9128,CHICAGO,IL,60083,S,N,55000,3.8,0,5400,0",
+   "parsed": true
+  },
+  {
+   "row": 4404,
+   "output": "Anurag,Sharma,M,703,555-3123,FORT WORTH,TX,75063,S,Y,65000,7.5,1500,0,1500",
+   "parsed": true
+  },
+  {
+   "row": 3822,
+   "output": "Ranjit,Sharma,M,703,334-5521,SAN DIEGO,CA,92110,M,Y,85000,6.2,2250,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3538,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 4157,
+   "output": "Maria,Petersen,F,703,443-1234,FALL RIVER,MA,720010,S,Y,45000,7.2,2200,0,2200",
+   "parsed": true
+  },
+  {
+   "row": 2051,
+   "output": "Ariella,Barrera,F,703,555-3123,ALEXANDRIA,VA,22310,S,Y,60000,3.5,0,1500,0",
+   "parsed": true
+  },
+  {
+   "row": 497,
+   "output": "Aisha,Khan,F,720,555-9369,ORLANDO,FL,28385,S,Y,40000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4371,
+   "output": "Pier,Lakhani,M,337,895-4938,MER ROUGE,LA,71261,S,Y,80000,6.0,4500,0,1000,\"Divorced\"",
+   "parsed": false
+  },
+  {
+   "row": 114,
+   "output": "Solveig,Tierney,F,260,242-7728,FORT WAYNE,IN,46845,M,N,80000,3.4,0,2000,0",
+   "parsed": true
+  },
+  {
+   "row": 751,
+   "output": "Sarita,Sharma,F,214,281-9128,MONTGOMERY,AL,36464,S,Y,65000,6.2,0,3000,900",
+   "parsed": true
+  },
+  {
+   "row": 3171,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  },
+  {
+   "row": 4787,
+   "output": "Takashi,Kato,M,617,617-4512,CAMBRIDGE,MA,02128,S,Y,70000,6.5,3500,0,1500",
+   "parsed": true
+  },
+  {
+   "row": 15,
+   "output": "Sudhanshu,Meguro,M,915,996-7794,BROWNSVILLE,TX,78521,S,N,60000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4713,
+   "output": "Tina,Baker,F,410,970-4567,FULTON,MO,01907,S,Y,12000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3948,
+   "output": "Krisztina,Varga,F,708,773-9123,SUN CITY CENTER,IA,52243,S,Y,6000,2.8,0,2400,0",
+   "parsed": true
+  },
+  {
+   "row": 2631,
+   "output": "f_name,l_name,gender,area_code,phone,city,state,zip,marital_status,has_child,salary,rate,single_exemp,married_exemp,child_exemp",
+   "parsed": true
+  }
+ ]
+}

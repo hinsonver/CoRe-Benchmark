@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:mlx-community/OLMo-2-1124-7B-Instruct-4bit",
+  "dataset": "rayyan",
+  "source": "clean",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.64,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.1019,
+  "acc_noninferable": 0.0041,
+  "noninferable_cells": 244,
+  "acc_hard": 0.0043,
+  "hard_cells": 231,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 32,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 32,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 24,
+    "model": 0.0,
+    "freq": 0.042,
+    "trans": 0.0,
+    "structural": 0.042
+   },
+   "jounral_abbreviation": {
+    "n": 10,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 19,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.148
+   },
+   "article_pagination": {
+    "n": 28,
+    "model": 0.0,
+    "freq": 0.071,
+    "trans": 0.0,
+    "structural": 0.071
+   },
+   "author_list": {
+    "n": 31,
+    "model": 0.0,
+    "freq": 0.032,
+    "trans": 0.0,
+    "structural": 0.032
+   },
+   "article_jcreated_at": {
+    "n": 25,
+    "model": 0.0,
+    "freq": 0.08,
+    "trans": 0.0,
+    "structural": 0.08
+   },
+   "article_language": {
+    "n": 5,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 11,
+    "model": 0.091,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.273
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "318543,Review of the role of proton pump inhibitors in the management of gastroesophageal reflux disease in children with chronic lung disease,,Pediatric Drugs,,1557-7864,15,4,1/12/02,351-359,\"{\"\"S. Livesay\"\",\"\"S.D. Ruppert\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "422951,\"Exposure to second-hand smoke and the risk of tuberculosis in children and adults: a systematic review and meta-analysis of 18 observational studies.\",eng,PLoS medicine,,,12,6,1/15/06,e1001835; discussion e1001835; discussion e1001835,\"{\"\"Mehak Bhatia\"\",\"\"Shaun K Morris\"\",\"\"Prabhat Jha\"\",\"\"Wilson Suraweera\"\",\"\"Jayadeep Patra\"\",\"\"Cyril Patra\"\",\"\"Prakash C Gupta\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "972821,\"Genetic and phenotypic determinants of blood pressure and other cardiovascular risk factors (GAPP),English,Swiss Medical Weekly,,,143,0,1/13/01,w13728,\"{\"\"W. Frehner\"\",\"\"S. Aeschbacher\"\",\"\"L. Risch\"\",\"\"T. Schon\"\",\"\"M. Risch\"\",\"\"G. Pare\"\",\"\"D. Conen\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 51,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "640231,The impact of depression on the workplace: A meta-analysis of labor supply effects of interventions for major depressive disorder.,eng,Psychiatric Services.,,1075-2730,58,3,1/9/02,212-8,\"{\"\"Justin W Timbie\"\",\"\"Marcela Horvitz-Lennon\"\",\"\"Sharon-Lise T Normand\"\",\"\"Richard G Frank\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "408199,GABAA receptor subunit composition and possible roles in the regulation of network excitability in the mouse dentate gyrus.,eng,Neuroscience,Neuroscience,1873-7544,255,1,12/19/13,97-116,\"{\"\"H Heger\"\",\"\"W Sieghart\"\",\"\"T Klausberger\"\",\"\"I Milenkovic\"\",\"\"M Vasiljevic\"\",\"\"D Maurer\"\",\"\"J Fisahn\"\",\"\"M Somogyi\"\",\"\"P Freund\"\",\"\"R Freund\"\",\"\"D Freund\"\",\"\"M Draguhn\"\",\"\"J O'Donnell\"\",\"\"D Mody\"\",\"\"J Whittington\"\",\"\"J Czernik\"\",\"\"P Czernik\"\",\"\"D McCormick\"\",\"\"J Mody\"\",\"\"J Hestrin\"\",\"\"R Nicoll\"\",\"\"D Purpura\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450749,Interleukin-28B polymorphisms on the SVR in the treatment of naive chronic hepatitis C with pegylated interferon-alpha plus ribavirin: A meta-analysis.,,,,,0,0,,,\"{\"\\\"Interleukin-28B\\\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "449419,Inhibition of dxpression of VEGF in tumor cells by RNAi. [Chinese],,,,,0,0,,,\"陈宇\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "495320,Evaluation of the role of ICD implantation in primary prevention of sudden cardiac death: The Bilitch Registry Group,eng,,16,0,2/1/93,193-208,\"{\"\"S. Furman\"\",\"\"D. T. Kawanishi\"\",\"\"S. L. Song\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 859,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "90272,Role of core-needle biopsy in thyroid nodules with initially nondiagnostic cytologic results.,eng,Radiology,Radiology,1527-1315,270,2,1/14/02,629-30,\"{\"\"Qiao-Hong Hu\"\",\"\"Zhi-Liang Huang\"\",\"\"Xiao-Ming Fan\"\",\"\"Shuang-Xi Chen\"\",\"\"Xiang-Yang Song\"\",\"\"Xiao-Ying Qiu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "{\"\"Waleed Alhazzani\"\",\"\"Lehana Thabane\"\",\"\"Deborah J Cook\"\",\"\"Wojciech Szczeklik\"\",\"\"Anees Sindi\"\",\"\"Qi Zhou\"\",\"\"Sultan Altayyar\"\",\"\"Anna Wludarczyk\"\",\"\"Gordon H Guyatt\"\",\"\"[Collective Name] Fluids in Sepsis and Septic Shock Group\"\",\"\"Michael Wang\"\",\"\"Guowei Li\"\",\"\"Roman Jaeschke\"\",\"\"Diane Heels-Ansdell\"\",\"\"Alison Fox-Robichaud\"\",\"\"Bram Rochwerg\"\",\"\"Fayez Alshamsi\"\",\"\"Wang-Chun Ip\"\",\"\"Djillali Annane\"\",\"\"Lawrence Mbuagbaw\"\",\"\"Walter J. Swartz\"\"}",
+   "parsed": false
+  },
+  {
+   "row": 607,
+   "output": "914008,Bound for success: a systematic review of constraint-induced movement therapy in children with cerebral palsy supports improved arm and hand use (Full Text),Phys Ther,89,11,1/9/01,1126-1141,\"{\"\"H. H. Huang\"\",\"\"J. Hale\"\",\"\"L. Fetters\"\",\"\"A. McBride\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 923,
+   "output": "514760,Semi-automated scoring of pulmonary emphysema from X-ray CT: trainee reproducibility and accuracy.,eng,European journal of radiology,Eur J Radiol,1872-7727,82,11,1/13/11,e734-41,\"{\"\"Roya Etemad-Rezai\"\",\"\"Amir M Owrangi\"\",\"\"Nabil Hussain\"\",\"\"Jack Chiu\"\",\"\"Andrew Lu\"\",\"\"Brandon Entwistle\"\",\"\"Grace Parraga\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "720527,\"Epidemiologic and cost analysis of endovascular coiling for intracranial aneurysms\",English,Stroke,strok.pubs,9,4,1/1/00,e4,\"{\"\"D. A. Gould\"\",\"\"J. McInerney\"\",\"\"R. E. Harbaugh\"\",\"\"J. D. Birkmeyer\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 233,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "900624,Terbutaline pump for the prevention of preterm birth (Structured abstract),,Health Technology Assessment Database,,,0,4,1/11/01,,\"R. Daniel\",\"M. T. Ansari\",\"L. Weeks\",\"S. Doucette\",\"A. Tsertsvadze\",\"B. Skidmore\",\"K. Singh\",\"L. Gaudet\",\"M. Walker\",\"S. Tsouros\"",
+   "parsed": false
+  },
+  {
+   "row": 298,
+   "output": "904890,\"Myofascial trigger points: Spontaneous electrical activity and its consequences for pain induction and propagation,\"Chin. Med,,1749-8546,6,0,,,\"{\"\"Ge H.-Y.\"\",\"\"Fernndez-de-las-Peas C.\"\",\"\"Yue S.-W.\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 153,
+   "output": "520771,\"Age at peak bone mass and its relevance for the assessment of skeletal maturity in underage asylum seekers\",\"dut,\"Euthanasie en andere medische beslissingen rond het levenseinde, 1990-1995\",,0028-2162,150,22,5/28/05,1241; author reply 1241,\"{\"\"R R van Rijn\"\",\"\"S G F Robben\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "503452,Epidemiology of sporting injuries among elite soccer players: A longitudinal study,Rheumatology (United Kingdom),Rheumatology,1462-0324,51,0,1/12/01,iii26-iii26,\"{\"\"M Gimpel\"\",\"\"S Gadola\"\",\"\"P Cooper\"\",\"\"K Jameson\"\",\"\"G Deakin\"\",\"\"M Godtschailk\"\",\"\"M Stokes\"\",\"\"C Cooper\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 828,
+   "output": "407083,Vitamin D supplementation and falls prevention in older women with vitamin D insufficiency: a randomized clinical trial.,eng,J Am Geriatr Soc,1532-5415,58,11,1/10/11,Aug-63,\"{NULL}\"",
+   "parsed": false
+  },
+  {
+   "row": 266,
+   "output": "640230,A meta-analysis of labor supply effects of interventions for major depressive disorder.,eng,Psychiatric Services.,1075-2730,57,2,1/6/02,212-8,\"{\"\"Justin W Timbie\"\",\"\"Marcela Horvitz-Lennon\"\",\"\"Sharon-Lise T Normand\"\",\"\"Richard G Frank\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 941,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "796901,\"Long-term outcomes of chronic compartment syndrome: a systematic review and meta-analysis\",ENG,Journal of Neurology,Neurosurgery,and Psychiatry,\"J. Neurol. Neurosurg. Psychiatry\",1564-9369,45,11,1/6/01,1443-6,\"{\"\"J. P. Heath\"\",\"\"R. L. Williams\"\",\"\"M. H. Pritchard\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 732,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "409336,\"Efficacy, immunogenicity, and safety of a pentavalent human-bovine (WC3) reassortant rotavirus vaccine at the end of shelf life\",Pediatrics,,119,1,,18-Nov,\"{\"\"Goveia M.G.\"\",\"\"Block S.L.\"\",\"\"Rivers S.B.\"\",\"\"Dallas M.J.\"\",\"\"Bauder J.\"\",\"\"Adeyi B.A.\"\",\"\"Vesikari T.\"\",\"\"Heaton P.M.\"\",\"\"Boslego J.W.\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 160,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "72089,\"Clinical pharmacokinetics of Icotinib, an anti-cancer drug: evaluation of dose proportionality, food effect, and tolerability in healthy subjects.\",eng,Cancer chemotherapy and pharmacology,Cancer Chemother. Pharmacol.,1432-0843,73,4,1/14/04,721-7,\"{\"\"Fenlai Tan\"\",\"\"Ji Jiang\"\",\"\"Don Zhang\"\",\"\"Dongyang Liu\"\",\"\"Yingxiang Wang\"\",\"\"Li Zhang\"\",\"\"Pei Hu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "620484,The impact of breast-conserving therapy versus mastectomy on breast cancer-specific survival: an analysis of 14,981 women from the National Surgical Adjuvant Breast and Bowel Project (NSABP) B-14 trial.,eng,Oncology nursing forum,Oncol Nurs Forum,0190-535X,28,5,1/1/06,815-22,\"{\"\"Y L Ku\"\",\"\"J M Dressler\"\",\"\"J M Wicker\"\",\"\"J L Osborne\"\",\"\"R J Clarke\"\",\"\"M A Cristofanilli\"\",\"\"R J Hayes\"\",\"\"M A Hortobagyi\"\",\"\"D M Slamon\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 85,
+   "output": "715053,Health-promoting behaviors of low-income cancer survivors,,25,3,1/11/01,118-124 7p,\"{\"\"Alexa Stuifbergen\"\"\",\"\"Martha Gene Meraviglia\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 930,
+   "output": "409336,[The role of pharmacogenomics in personalized medicine: Current perspectives and future directions],eng,Personalized Medicine,,,119,2,5/1/20,e12,\"{\"\"Klein TE\"\",\"\"Altman RB\"\",\"\"Rubin DL\"\",\"\"Melton LJ 3rd\"\",\"\"Mogulnick A\"\",\"\"Mogulnick S\"\",\"\"Lindberg J\"\",\"\"Schuemann B\"\",\"\"Walls RL\"\",\"\"Fleming S\"\",\"\"Brunet J\"\",\"\"Buxton J\"\",\"\"Rubin E\"\",\"\"Blake J\"\",\"\"Buxton BL\"\",\"\"Eckel RH\"\",\"\"Ridker PM\"\",\"\"Cohen J\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 710,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "762269,\"Spontaneous pneumomediastinum in a healthy adolescent.\",eng,Acta Clin. Croat.,0353-9466,48,4,1/9/09,461-7,\"{\"\"Renata Vrsalovi_\"\",\"\"Eva Verona\"\",\"\"Iva Mihatov-Stefanovi_\"\",\"\"Biserka Cicak\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 493,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "52633,Monteggia lesions in adults. A multicenter Bota study,eng,,62,0,1/1/96,78-83,\"{\"\"W. De Groote\"\",\"\"D. Stoffelen\"\",\"\"K. Govaerts\"\",\"\"P. Reynders\"\",\"\"P. L. Broos\"\",\"\"J. Rondia\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 113,
+   "output": "{\"\"J. L. Hastings\"\",\"\"G. Biolo\"\",\"\"B. D. Levine\"\",\"\"T. Tillery\"\",\"\"R. M. Peshock\"\",\"\"T. A. Dorfman\"\",\"\"B. R. Macias\"\",\"\"A. R. DA - Jul DO - 10.1152/japplphysiol.01162.2006 DP - NLM ET - 2007/03/24 Hargens\"\",\"\"S. M. Schneider\"\",\"\"D. J. Wingfield\"\",\"\"J. M. Wingfield\"\"}",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "{\"\"Waleed Alhazzani\"\",\"\"Lehana Thabane\"\",\"\"Deborah J Cook\"\",\"\"Wojciech Szczeklik\"\",\"\"Anees Sindi\"\",\"\"Qi Zhou\"\",\"\"Sultan Altayyar\"\",\"\"Anna Wludarczyk\"\",\"\"Gordon H Guyatt\"\",\"\"[Collective Name] Fluids in Sepsis and Septic Shock Group\"\",\"\"Michael Wang\"\",\"\"Guowei Li\"\",\"\"Roman Jaeschke\"\",\"\"Diane Heels-Ansdell\"\",\"\"Alison Fox-Robichaud\"\",\"\"Bram Rochwerg\"\",\"\"Fayez Alshamsi\"\",\"\"Wang-Chun Ip\"\",\"\"Djillali Annane\"\",\"\"Lawrence Mbuagbaw\"\",\"\"Khalid Yousef\"\",\"\"Saeed M. Al-Riyami\"\"}",
+   "parsed": false
+  },
+  {
+   "row": 454,
+   "output": "397190,Say yes? Say no?,,Consumer Reports on Health,,1058-0832,19,10,1/7/01,3-Mar,",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "226419,Anterior approach unilateral right sacrospinous fixation for recurrent pelvic organ prolapse following multiple colorectal surgeries.,ENG,International journal of colorectal disease,Int J Colorectal Dis,1432-1262,-1,-1,7/15/01,,\"{\"\"Enie Akhtar Bt Nawawi\"\",\"\"Ahlam M Al-Kharabsheh\"\",\"\"Tsia-Shu Lo\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

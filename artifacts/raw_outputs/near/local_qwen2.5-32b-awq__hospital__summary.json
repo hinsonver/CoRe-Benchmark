@@ -1,0 +1,785 @@
+{
+ "control|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.008333333333333333,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.4,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "quenoskny regional hospital",
+    "model": "queensknny regional hospital",
+    "famous": "beth israel deaconess medical center"
+   }
+  ]
+ },
+ "control|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.008333333333333333,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.362,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "quenoskny regional hospital",
+    "model": "Queensknny Regional Hospital",
+    "famous": "beth israel deaconess medical center"
+   }
+  ]
+ },
+ "control|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.002777777777777778,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.318,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.014,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "drirhowex memorial hospital",
+    "model": "dirhowex memorial hospital",
+    "famous": "ronald reagan ucla medical center"
+   }
+  ]
+ },
+ "control|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.002777777777777778,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.369,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.014,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "drirhowex memorial hospital",
+    "model": "dirhowex memorial hospital",
+    "famous": "ronald reagan ucla medical center"
+   }
+  ]
+ },
+ "near|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.075,
+  "to_fact_rate": 0.05,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.393,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.167,
+    "to_fact_rate": 0.125
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.083,
+    "to_fact_rate": 0.083
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.042
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "beth israel deuconess medical center",
+    "model": "beth israel deaconess medical center",
+    "famous": "beth israel deaconess medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "university of iewa hospital & clinics",
+    "model": "university of iowa hospital & clinics",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "City",
+    "table": "camden",
+    "model": "iowa city",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "State",
+    "table": "al",
+    "model": "ia",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "ZipCode",
+    "table": "36726",
+    "model": "52242",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "HospitalName",
+    "table": "vandirbilt university medical center",
+    "model": "vanderbilt university medical center",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "City",
+    "table": "sylacauga",
+    "model": "nashville",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "CountyName",
+    "table": "talladega",
+    "model": "davidson",
+    "famous": "vanderbilt university medical center"
+   }
+  ]
+ },
+ "near|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.1,
+  "to_fact_rate": 0.058333333333333334,
+  "entities_edited": 5,
+  "repair_f1_other_rows": 0.333,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.208,
+    "to_fact_rate": 0.167
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.083,
+    "to_fact_rate": 0.083
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.042
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.083,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.083,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "beth israel deuconess medical center",
+    "model": "beth israel deaconess medical center",
+    "famous": "beth israel deaconess medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "university of iewa hospital & clinics",
+    "model": "University of Iowa Hospital & Clinics",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "City",
+    "table": "camden",
+    "model": "Iowa City",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "State",
+    "table": "al",
+    "model": "IA",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "ZipCode",
+    "table": "36726",
+    "model": "52242",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "CountyName",
+    "table": "wilcox",
+    "model": "Johnson",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "HospitalName",
+    "table": "vandirbilt university medical center",
+    "model": "vanderbilt university medical center",
+    "famous": "vanderbilt university medical center"
+   },
+   {
+    "col": "City",
+    "table": "sylacauga",
+    "model": "nashville",
+    "famous": "vanderbilt university medical center"
+   }
+  ]
+ },
+ "near|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.426,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "near|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.011111111111111112,
+  "to_fact_rate": 0.008333333333333333,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.415,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.056,
+    "to_fact_rate": 0.042
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "HospitalName",
+    "table": "ronild reagan ucla medical center",
+    "model": "Ronald Reagan UCLA Medical Center",
+    "famous": "ronald reagan ucla medical center"
+   },
+   {
+    "col": "HospitalName",
+    "table": "nurthwestern memorial hospital",
+    "model": "Northwestern Memorial Hospital",
+    "famous": "northwestern memorial hospital"
+   },
+   {
+    "col": "HospitalName",
+    "table": "university of iewa hospital & clinics",
+    "model": "University of Alabama Hospital & Clinics",
+    "famous": "university of iowa hospital & clinics"
+   },
+   {
+    "col": "HospitalName",
+    "table": "geasinger medical center",
+    "model": "Geisinger Medical Center",
+    "famous": "geisinger medical center"
+   }
+  ]
+ },
+ "real|1|evidence": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.316,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|1|standard": {
+  "entities": 24,
+  "cells": 120,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.366,
+  "by_column": {
+   "HospitalName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 24,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|evidence": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.394,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|standard": {
+  "entities": 24,
+  "cells": 360,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.329,
+  "by_column": {
+   "HospitalName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "City": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "State": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "ZipCode": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "CountyName": {
+    "cells": 72,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "key_rates": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|1|evidence": {
+   "rate": 0.125,
+   "ci": [
+    0.0,
+    0.25
+   ],
+   "entities": 24
+  },
+  "near|1|standard": {
+   "rate": 0.167,
+   "ci": [
+    0.042,
+    0.333
+   ],
+   "entities": 24
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|3|standard": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.083
+   ],
+   "entities": 24
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  }
+ },
+ "screened_known": {
+  "known": 24,
+  "targets": 24
+ },
+ "key_rates_known": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|1|evidence": {
+   "rate": 0.125,
+   "ci": [
+    0.0,
+    0.25
+   ],
+   "entities": 24
+  },
+  "near|1|standard": {
+   "rate": 0.167,
+   "ci": [
+    0.042,
+    0.333
+   ],
+   "entities": 24
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "near|3|standard": {
+   "rate": 0.042,
+   "ci": [
+    0.0,
+    0.083
+   ],
+   "entities": 24
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 24
+  }
+ }
+}

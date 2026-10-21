@@ -1,0 +1,605 @@
+{
+ "summary": {
+  "model": "custom:deepseek/deepseek-v4-pro",
+  "dataset": "rayyan",
+  "source": "clean",
+  "named": false,
+  "n": 100,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.97,
+  "exact_row_match": 0.0,
+  "acc_inferable": 0.4,
+  "acc_noninferable": 0.0,
+  "noninferable_cells": 772,
+  "acc_hard": 0.0,
+  "hard_cells": 238,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 97,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 1.0,
+    "structural": 1.0
+   },
+   "article_title": {
+    "n": 97,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 1.0,
+    "structural": 1.0
+   },
+   "journal_title": {
+    "n": 79,
+    "model": 0.0,
+    "freq": 0.025,
+    "trans": 0.722,
+    "structural": 0.722
+   },
+   "jounral_abbreviation": {
+    "n": 39,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.41,
+    "structural": 0.41
+   },
+   "journal_issn": {
+    "n": 64,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.734,
+    "structural": 0.734
+   },
+   "article_jvolumn": {
+    "n": 81,
+    "model": 0.0,
+    "freq": 0.037,
+    "trans": 0.222,
+    "structural": 0.247
+   },
+   "article_pagination": {
+    "n": 90,
+    "model": 0.0,
+    "freq": 0.078,
+    "trans": 0.889,
+    "structural": 0.889
+   },
+   "author_list": {
+    "n": 93,
+    "model": 0.0,
+    "freq": 0.022,
+    "trans": 0.978,
+    "structural": 0.978
+   },
+   "article_language": {
+    "n": 12,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jcreated_at": {
+    "n": 77,
+    "model": 0.0,
+    "freq": 0.091,
+    "trans": 0.286,
+    "structural": 0.299
+   },
+   "article_jissue": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.07,
+    "trans": 0.116,
+    "structural": 0.14
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "813024,Respiratory syncytial virus prophylaxis: cost-effective analysis in Argentina,eng,Pediatric Infectious Disease Journal,,,21,4,1/2/01,287-291,\"{\"\"G. Bauer\"\",\"\"E. Laffaire\"\",\"\"L. Bouzas\"\",\"\"C. Gilli\"\",\"\"L. Novali\"\",\"\"S. P. Rodriguez\"\",\"\"D. Farina\"\",\"\"H. Gonzalez\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "318543,",
+   "parsed": false
+  },
+  {
+   "row": 786,
+   "output": "887418,Impact of crizotinib on patient-reported symptoms and global quality of life (QoL) compared with chemotherapy in a phase III study of advanced alk-positive non-small cell lung cancer (NSCLC),,European Journal of Cancer,,,49,0,1/13/01,-,\"{\"\"V. Hirsh\"\",\"\"J.Y. Han\"\",\"\"F. Blackhall\"\",\"\"S. Iyer\"\",\"\"D.W. Kim\"\",\"\"A. Shaw\"\",\"\"A. Reisman\"\",\"\"K. Wilner\"\",\"\"H. Nokihara\"\",\"\"B. Besse\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "422951,Exposure to second-hand smoke and the risk of tuberculosis in children and adults: a systematic review and meta-analysis of 18 observational studies.,eng,PLoS medicine,,,12,6,1/15/06,e1001835; discussion e1001835-e1001835; discussion e1001835,\"{\"\"Mehak Bhatia\"\",\"\"Shaun K Morris\"\",\"\"Prabhat Jha\"\",\"\"Wilson Suraweera\"\",\"\"Jayadeep Patra\"\",\"\"Cyril Patra\"\",\"\"Prakash C Gupta\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "694007,A conservative treatment protocol of acute lumbosacral radiculopathy syndrome for general practitioner and physical therapist [Dutch],,Nederlands Tijdschrift Voor Fysiotherapie,,0377-208X,110,1,1/1/00,5-Feb,\"{\"\"R F Castien\"\",\"\"J van Wagenberg\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "217725,Use of alendronate in peri-implant defect regeneration,English,,,,70,2,1/1/99,151-158,\"{\"\"P. C. Wollan\"\",\"\"S. J. Meraw\"\",\"\"C. M. Reeve\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "867207,Early predicting of blood component quality by Statistical Process Control,,Vox Sanguinis,,0042-9007,99,0,1/10/01,227,\"{\"\"H. Jungk\"\",\"\"W. Madla\"\",\"\"V. Schottstedt\"\",\"\"T. Alt\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "408198,\"The parvalbumin-positive interneurons in the mouse dentate gyrus express GABAA receptor subunits 1, _2, and  along their extrasynaptic cell membrane.\",eng,Neuroscience,Neuroscience,1873-7544,254,-1,12/19/13,80-96,\"{\"\"H H_ger\"\",\"\"W Sieghart\"\",\"\"T Klausberger\"\",\"\"I Milenkovic\"\",\"\"M Vasiljevic\"\",\"\"D Maurer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "168889,Trends in domestic violence service and leadership: implications for an integrated shelter model,,Administration and policy in mental health,Adm Policy Ment Health,0894-587X,27,5,1/1/00,339-52,\"{\"\"M. B. Philip\"\",\"\"R. A. Hayward\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450528,Impact of hepatitis C on survival in dialysis patients: A link with cardiovascular mortality?.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "134738,Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?,,,,,17,0,1/12/01,261-270 ST  - Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?-,\"{\"\"Stuart Calver\"\",\"\"Julia Nichols\"\",\"\"Rachel C1  - Frn systematiska _versikter -s_kningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "439302,\"American Society of Clinical Oncology clinical practice guideline update on the use of pharmacologic interventions including tamoxifen, raloxifene, and aromatase inhibition for breast cancer risk reduction.\",,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "272721,Economic evaluation of inhaled nitric oxide in preterm infants undergoing mechanical ventilation,,Pediatrics,,,124,5,1/9/01,1325-1332,\"{\"\"A. M. Hibbs\"\",\"\"D. M. Black\"\",\"\"J. A. F. Zupancic\"\",\"\"A. Cnaan\"\",\"\"P. L. Ballard\"\",\"\"S. R. Wadlinger\"\",\"\"L. Palermo\"\",\"\"W. E. Truog\"\",\"\"R. A. Ballard\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "931361,Telemedicine in the management of chronic pain: a cost analysis study,,Canadian Journal of Anaesthesia,,,56,8,1/9/01,590-6,\"{\"\"R. Kern\"\",\"\"A. Pronovost\"\",\"\"P. Peng\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "863342,Molecular detection of hepatitis B virus: Recent developments,,LaboratoriumsMedizin,,,29,1,1/5/01,33-43,\"{\"\"B. Weber\"\",\"\"A. Berger\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "361906,Fluid resuscitation in sepsis: a systematic review and network meta-analysis.,eng,Annals of internal medicine,Ann. Intern. Med.,1539-3704,161,5,2/14/09,347-55,\"{\"\"Waleed Alhazzani\"\",\"\"Lehana Thabane\"\",\"\"Deborah J Cook\"\",\"\"Wojciech Szczeklik\"\",\"\"Anees Sindi\"\",\"\"Qi Zhou\"\",\"\"Sultan Altayyar\"\",\"\"Anna Wludarczyk\"\",\"\"Gordon H Guyatt\"\",\"\"[Collective Name] Fluids in Sepsis and Septic Shock Group\"\",\"\"Michael Wang\"\",\"\"Guowei Li\"\",\"\"Roman Jaeschke\"\",\"\"Diane Heels-Ansdell\"\",\"\"Alison Fox-Robichaud\"\",\"\"Bram Rochwerg\"\",\"\"Fayez Alshamsi\"\",\"\"Wang-Chun Ip\"\",\"\"Djillali Annane\"\",\"\"Lawrence Mbuagbaw\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "914008,Bound for success: a systematic review of constraint-induced movement therapy in children with cerebral palsy supports improved arm and hand use (Structured abstract),,Physical therapy,Phys Ther,0031-9023,89,11,1/9/01,1126-1141,\"{\"\"H. H. Huang\"\",\"\"J. Hale\"\",\"\"L. Fetters\"\",\"\"A. McBride\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 923,
+   "output": "973604,Health services research methods: a guide to best practice,,,,,0,0,1/1/98,,\"{\"\"N Black Brazier, J. & Fitzpatrick, R.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "589265,Consumption of fried foods and risk of metabolic syndrome: the SUN cohort study,eng,Clin Nutr,\"Clinical nutrition (Edinburgh, Scotland)\",0261-5614,33,3,1/14/01,545-9,\"{\"\"E. Flores-Gomez\"\",\"\"F. J. Basterra-Gortari\"\",\"\"C. Sayon-Orea\"\",\"\"M. A. Martinez-Gonzalez\"\",\"\"A. Gea\"\",\"\"M. Bes-Rastrollo\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "800901,Chronic pelvic pain.,eng,Best practice & research. Clinical gastroenterology,Best Pract Res Clin Gastroenterol,1532-1916,23,4,1/9/01,593-610,\"{\"\"Andrew Paul Baranowski\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "237077,Women's experiences of acupuncture during labour,,British Journal of Midwifery,,0969-4900,21,4,1/13/01,254-262,\"{\"\"Irena Anna Frei\"\",\"\"Katharina Fierz\"\",\"\"Angela Poat\"\",\"\"Martina Gisin\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "900624,Terbutaline pump for the prevention of preterm birth (Structured abstract),,Health Technology Assessment Database,,,0,4,1/11/01,,\"{\"\"R. Daniel\"\",\"\"M. T. Ansari\"\",\"\"L. Weeks\"\",\"\"S. Doucette\"\",\"\"A. Tsertsvadze\"\",\"\"B. Skidmore\"\",\"\"K. Singh\"\",\"\"L. Gaudet\"\",\"\"M. Walker\"\",\"\"S. Tsouros\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "904889,Myofascial trigger points: Spontaneous electrical activity and its consequences for pain induction and propagation,,Chin. Med,,1749-8546,6,0,,,\"{\"\"Ge H.-Y.\"\",\"\"Fernndez-de-las-Peas C.\"\",\"\"Yue S.-W.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "246528,Complex regional pain syndrome type 1 after fractures of the distal radius: a prospective study of the role of psychological factors,eng,J Hand Surg Br,\"Journal of hand surgery (Edinburgh, Scotland)\",0266-7681 (Print) 0266-7681,30,6,1/5/01,574-80,\"{\"\"A. Zyluk\"\",\"\"P. Puchalski\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "934327,Use of a Brief Phone Call After ED Discharge,,,,,0,0,,,\"{\"\"NCT01893931 \"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "847287,\"A qualitative exploration of the cancer experience among long-term survivors: comparisons by cancer type, ethnicity, gender, and age.\",eng,Psycho-oncology,Psychooncology,1057-9249,15,3,1/6/03,248-58,\"{\"\"Sarah McGraw\"\",\"\"Vida M Petronis\"\",\"\"Charles S Carver\"\",\"\"Nancy Avis\"\",\"\"Kristie Long Foley\"\",\"\"Deborah F Farmer\"\",\"\"Roselyn G Smith\"\",\"\"Kevin Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "847600,Experiences of African-American Women with Smartphone-Based Ecological Momentary Assessment.,ENG,\"Public health nursing (Boston, Mass.)\",Public Health Nurs,1525-1446,-1,-1,4/15/11,,\"{\"\"Ashley McDonald\"\",\"\"Shannon N Zenk\"\",\"\"Colleen Corte\"\",\"\"Kelly K Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "161291,Another article title,eng,Another Journal,Another J,1234-5678,40,1,2/5/01,200-5,\"{\"\"Author A\"\",\"\"Author B\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "640230,A meta-analysis of labor supply effects of interventions for major depressive disorder.,eng,Psychiatric Services.,,1075-2730,57,2,1/6/02,212-8,\"{\"\"Justin W Timbie\"\",\"\"Marcela Horvitz-Lennon\"\",\"\"Sharon-Lise T Normand\"\",\"\"Richard G Frank\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "589265,Consumption of fried foods and risk of metabolic syndrome: the SUN cohort study,eng,Clin Nutr,\"Clinical nutrition (Edinburgh, Scotland)\",0261-5614,33,3,1/14/01,545-9,\"{\"\"E. Flores-Gomez\"\",\"\"F. J. Basterra-Gortari\"\",\"\"C. Sayon-Orea\"\",\"\"M. A. Martinez-Gonzalez\"\",\"\"A. Gea\"\",\"\"M. Bes-Rastrollo\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "467318,The fundamental role of bone morphogenetic protein 15 in ovarian function and its      involvement in female fertility disorders.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "332032,Air pollution and risk of urinary bladder cancer in a case-control study in Spain,,Occupational and environmental medicine,Occup Environ Med,1470-7926,65,1,1/8/01,56-60,\"{\"\"Nuria Malats\"\",\"\"Alfredo Carrato\"\",\"\"Manolis Kogevinas\"\",\"\"Nathaniel Rothman\"\",\"\"Consol Serra\"\",\"\"Reina Garcia-Closas\"\",\"\"Debra Silverman\"\",\"\"Adonina Tardon\"\",\"\"Kenneth P. Cantor\"\",\"\"Mustafa Dosemeci\"\",\"\"Gemma Castano-Vinyals\"\",\"\"Roel Vermeulen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "382297,Doppler-derived flow pattern in the descending aorta does not predict systemic to pulmonary arterial collateral flow in patients with single ventricle palliation: a cross-sectional study.,eng,World journal for pediatric & congenital heart surgery,World J Pediatr Congenit Heart Surg,2150-136X,6,2,1/15/04,209-14,\"{\"\"Mark A Fogel\"\",\"\"Michael V Di Maria\"\",\"\"Matthew A Harris\"\",\"\"Meryl S Cohen\"\",\"\"Kevin K Whitehead\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "379988,The combined role of serotonin and interleukin-6 as biomarker for autism,,,,,284,0,1/22/15,290-296,\"{\"\"Y.-J. Du\"\",\"\"X.-M. Zhu\"\",\"\"B. Sang\"\",\"\"C.-J. Yang\"\",\"\"C.-L. Liu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "438682,,,,,,,,,,",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "912377,Assessing quality of life in patients after partial laryngectomy,English,Hippokratia,Hippokratia,1790-8019,18,2,1/14/01,156-61,\"{\"\"K. Mantsopoulos\"\",\"\"C. Bohr\"\",\"\"F. Hebel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "453637,Corneal collagen cross-linking for nonectatic disorders: A systematic review.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "689284,Intrinsically de-sialylated CD103(+) CD8 T cells mediate beneficial anti-glioma immune responses.,eng,\"Cancer immunology, immunotherapy : CII\",Cancer Immunol. Immunother.,1432-0851,63,9,1/14/09,911-24,\"{\"\"HongQiang Wang\"\",\"\"Dwain K Irvin\"\",\"\"Ashley Gragg\"\",\"\"Xiao-xue Zhang\"\",\"\"Christopher J Wheeler\"\",\"\"Keith L Black\"\",\"\"Lucia Veiga\"\",\"\"Ryan Cordner\"\",\"\"Mandana Zandian\"\",\"\"Akanksha Panwar\"\",\"\"Emmanuel Jouanneau\"\",\"\"Yuying Zhai\"\",\"\"Shyam Goverdhana\"\",\"\"Armen Mardiros\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "463557,Structural brain changes associated with antipsychotic treatment in schizophrenia      as revealed by voxel-based morphometric MRI: an activation likelihood estimation       meta-analysis.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "889481,Chronic pain related to quality of sleep,eng     por,Einstein (Sao Paulo),\"Einstein (Sao Paulo, Brazil)\",1679-4508,12,2,1/14/01,159-63,\"{\"\"W. Hummig\"\",\"\"J. Stechman Neto\"\",\"\"L. F. Tonial\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "409335,\"Efficacy, immunogenicity, and safety of a pentavalent human-bovine (WC3) reassortant rotavirus vaccine at the end of shelf life\",,Pediatrics,,,119,1,,18-Nov,\"{\"\"Goveia M.G.\"\",\"\"Block S.L.\"\",\"\"Rivers S.B.\"\",\"\"Dallas M.J.\"\",\"\"Bauder J.\"\",\"\"Adeyi B.A.\"\",\"\"Vesikari T.\"\",\"\"Heaton P.M.\"\",\"\"Boslego J.W.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "448385,Are birth kits a good idea? A systematic review of the evidence.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "187769,Feasibility of using hospital personnel to create a sustainable CPR training program for family members of hospitalized patients,,,,,126,0,1/12/01,,\"{\"\"J. Le\"\",\"\"B. Riegel\"\",\"\"B. J. Bobrow\"\",\"\"A. L. Blewer\"\",\"\"B. S. Abella\"\",\"\"M. Leary\"\",\"\"D. Buckler\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "634877,Stapled haemorrhoidopexy for the treatment of haemorrhoids: a systematic review.,eng,Colorectal disease : the official journal of the Association of Coloproctology of Great Britain and Ireland,Colorectal Dis,1463-1318,11,3,1/9/03,233-43; discussion 243,\"{\"\"H Weatherly\"\",\"\"D Epstein\"\",\"\"J Burch\"\",\"\"N Woolacott\"\",\"\"D Jayne\"\",\"\"D Fox\"\",\"\"A Baba-Akbari Sari\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 493,
+   "output": "539034,Cognitive impairment and risk of cardiovascular events and mortality.,eng,European heart journal,Eur. Heart J.,1522-9645,33,14,1/12/07,1777-86,\"{\"\"Salim Yusuf\"\",\"\"Martin O'Donnell\"\",\"\"Craig Anderson\"\",\"\"Irene Marzona\"\",\"\"Peter Sleight\"\",\"\"Jeff Probstfield\"\",\"\"Antonio Dans\"\",\"\"Peggy Gao\"\",\"\"Jackie Bosch\"\",\"\"Koon Teo\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "368652,Paracetamol versus morphine for acute painful crisis of sickle cell disease: a randomized controlled trial,eng,Journal of Pain and Symptom Management,J Pain Symptom Manage,0885-3924,20,5,1/13/01,S149,\"{\"\"R. Rehmani\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "781141,Mind the Gap: Difference between Framingham heart age and real age increases with age in HIV-positive individuals - A clinical cohort study,English,BMJ Open,,2044-6055,3,10,1/13/01,,\"{\"\"T. L. Davies\"\",\"\"B. Bovill\"\",\"\"S. Johnston\"\",\"\"M. T. May\"\",\"\"M. Gompels\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "361906,Fluid resuscitation in sepsis: a systematic review and network meta-analysis.,eng,Annals of internal medicine,Ann. Intern. Med.,1539-3704,161,5,2/14/09,347-55,\"{\"\"Waleed Alhazzani\"\",\"\"Lehana Thabane\"\",\"\"Deborah J Cook\"\",\"\"Wojciech Szczeklik\"\",\"\"Anees Sindi\"\",\"\"Qi Zhou\"\",\"\"Sultan Altayyar\"\",\"\"Anna Wludarczyk\"\",\"\"Gordon H Guyatt\"\",\"\"[Collective Name] Fluids in Sepsis and Septic Shock Group\"\",\"\"Michael Wang\"\",\"\"Guowei Li\"\",\"\"Roman Jaeschke\"\",\"\"Diane Heels-Ansdell\"\",\"\"Alison Fox-Robichaud\"\",\"\"Bram Rochwerg\"\",\"\"Fayez Alshamsi\"\",\"\"Wang-Chun Ip\"\",\"\"Djillali Annane\"\",\"\"Lawrence Mbuagbaw\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "397191,Say yes? Say no?,,Consumer Reports on Health,,1058-0832,19,11,1/7/01,3-Mar,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 635,
+   "output": "113363,Mental health symptoms in a population based survey of minority farm operators,,,,,0,0,,62928,\"{\"\"A. L. Steege\"\",\"\"T. Alterman\"\",\"\"M. R. Petersen\"\",\"\"J. Li\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 665,
+   "output": "20641,Serial postoperative awake and sleep EEG and long-term seizure outcome after anterior temporal lobectomy for hippocampal sclerosis.,eng,Epilepsy research,Epilepsy Res.,1872-6844,108,5,1/14/07,945-52,\"{\"\"Alfredo D'Aniello\"\",\"\"Addolorata Mascia\"\",\"\"Vincenzo Esposito\"\",\"\"Pier Paolo Quarato\"\",\"\"Marco De Risi\"\",\"\"Angelo Picardi\"\",\"\"Giancarlo Di Gennaro\"\",\"\"Liliana G Grammaldo\"\",\"\"Sara Casciato\"\",\"\"Giulio N Meldolesi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 944,
+   "output": "683893,Improving cognition by adherence to physical or mental exercise: a moderated mediation analysis.,eng,Aging Ment Health,,1364-6915,15,4,1/11/05,446-55,\"{\"\"Verena Klusmann\"\",\"\"Isabella Heuser\"\",\"\"Andrea Evers\"\",\"\"Ralf Schwarzer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 219,
+   "output": "184950,The situation of Romanian HIV-positive adolescents: Results from the first national representative survey,,,,,22,0,1/10/01,562-569,\"{\"\"D. Buzducea\"\",\"\"Buzducea Cohen Johnson Lazar Lazar Lejars Lyon Marin McDowell Mardarescu O'Leary Paxton Wood Berger\"\",\"\"F. Lazar\"\",\"\"E. I. Mardare\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 575,
+   "output": "677752,A systematic review of the surgical treatment of large incisional hernia.,eng,Hernia : the journal of hernias and abdominal wall surgery,Hernia,1248-9204,19,1,1/15/02,89-101,\"{\"\"L Timmermans\"\",\"\"J C Slieker\"\",\"\"J F Lange\"\",\"\"E B Deerenberg\"\",\"\"J Jeekel\"\",\"\"D P Hogerzeil\"\",\"\"P H C Eilers\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 985,
+   "output": "575935,\"The association between urinary cortisol excretion and cardiovascular risk factors, bone status and quality of life in the population.\",eng,Steroids,Steroids,1878-5867,101,-1,1/15/09,Jul-71,\"{\"\"Kerstin Landin-Wilhelmsen\"\",\"\"G_ran Oler_d\"\",\"\"Oskar Ragnarsson\"\",\"\"Penelope Trimpou\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 463,
+   "output": "743603,Comparison of energy balance-related behaviours and measures of body composition between Turkish adolescents in Turkey and Turkish immigrant adolescents in the Netherlands.,eng,Public health nutrition,Public Health Nutr,1475-2727,17,12,1/14/12,Sep-92,\"{\"\"Makbule Gezmen-Karadag\"\",\"\"Anke Oenema\"\",\"\"Saskia J te Velde\"\",\"\"Hilal Yildiran\"\",\"\"Mai J M Chinapaw\"\",\"\"Johannes Brug\"\",\"\"Mine Yildirim\"\",\"\"Eda Koksal\"\",\"\"Saniye Bilici\"\",\"\"Nilufer Acar-Tek\"\",\"\"Gamze Akbulut\"\",\"\"Nevin Sanlier\"\",\"\"Maartje M van Stralen\"\",\"\"Judith S B de Meij\"\",\"\"Amika S Singh\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 896,
+   "output": "315951,[Procalcitonin as an early marker of sepsis],,,,,55,6,1/6/01,650-4,\"{\"\"O. Thuemer\"\",\"\"S. G. Sakka\"\",\"\"E. Huttemann\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 543,
+   "output": "302268,Review of Handbook for Working with Children and Youth: Pathways to Resilience across Cultures and Contexts,English,,,,47,3,1/6/01,230-232,\"{\"\"Robert J. Flynn\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 276,
+   "output": "731703,Substance Abuse and Trauma in Incarcerated Women,,,,,0,0,1/11/01,,\"{\"\"NCT01413984 \"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 73,
+   "output": "34962,Assessing social isolation in motor neurone disease: a Rasch analysis of the MND Social Withdrawal Scale.,eng,Journal of the neurological sciences,J. Neurol. Sci.,1878-5883,334,1,11/15/13,112-8,\"{\"\"Everard W Thornton\"\",\"\"Carolyn A Young\"\",\"\"Alan Tennant\"\",\"\"John Ealing\"\",\"\"Kevin Talbot\"\",\"\"[Collective Name] UKMND-QoL Group\"\",\"\"Chris J Gibbons\"\",\"\"Pamela J Shaw\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 834,
+   "output": "446600,[Case management for moderate-need patients and recovery: what can we learn from experimental and quasi-experimental studies?]. [Review] [French],,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 571,
+   "output": "713518,ELDERLY AND PHYSICAL ACTIVITY: BENEFITS AND CHALLENGES IN SEARCH FOR LIFE QUALITY.,,Journal of Nursing UFPE / Revista de Enfermagem UFPE,REV ENFERMAGEM UFPE,1981-8963,6,11,1/12/11,2761-2769 9p,\"{\"\"Gerlane ngela da Costa Moreira\"\",\"\"Denyse Dutra Alencar Vasconcelos\"\",\"\"Amanda Costa de Freitas\"\",\"\"Carla Cristina Braga Maranho\"\",\"\"Danielle Figueiredo Patricio\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 24,
+   "output": "569841,Effects of chemotherapy in AIDS-associated non-Hodgkin's lymphoma on Kaposi's sarcoma herpesvirus DNA in blood.,eng,Journal of clinical oncology : official journal of the American Society of Clinical Oncology,J. Clin. Oncol.,1527-7755,27,15,5/20/09,2496-502,\"{\"\"Ariela Noy\"\",\"\"Lawrence D Kaplan\"\",\"\"Yanxing Yu\"\",\"\"Alexandra M Levine\"\",\"\"Richard F Ambinder\"\",\"\"Susan E Krown\"\",\"\"Bruce J Dezube\"\",\"\"Lan Lin\"\",\"\"Jeannette Y Lee\"\",\"\"Gary S Hayward\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 105,
+   "output": "72089,\"Clinical pharmacokinetics of Icotinib, an anti-cancer drug: evaluation of dose proportionality, food effect, and tolerability in healthy subjects.\",eng,Cancer chemotherapy and pharmacology,Cancer Chemother. Pharmacol.,1432-0843,73,4,1/14/04,721-7,\"{\"\"Fenlai Tan\"\",\"\"Ji Jiang\"\",\"\"Don Zhang\"\",\"\"Dongyang Liu\"\",\"\"Yingxiang Wang\"\",\"\"Li Zhang\"\",\"\"Pei Hu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 746,
+   "output": "964185,Myocardial fibrosis by T1 mapping is an early indicator of severe cardiac allograft vasculopathy,,Circulation,Circulation,22-Sep,128,22,1/13/01,,\"{\"\"N. Harcourt\"\",\"\"S. C. Masri\"\",\"\"M. Colvin\"\",\"\"G. Raveendran\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 870,
+   "output": "395808,In this issue,,Japanese Journal of Clinical Oncology,,,40,8,1/10/01,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 418,
+   "output": "205187,No need for routine closed suction drainage in elective arthroplasty of the hip: a prospective randomized trial in 104 operations,,,,,75,0,1/4/01,30-33 ST  - No need for routine closed suction drainage in elective arthroplasty of the hip: a prospective randomized trial in 104 operations-,\"{\"\"A. G. Della Valle\"\",\"\"M. Buttaro\"\",\"\"G. Slullitel\"\",\"\"R. Vestri\"\",\"\"F. Comba\"\",\"\"F. CN  - CINAHL_postop_care_150220 DB  - c8h DP  - EBSCOhost Piccaluga\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 737,
+   "output": "696985,\"The Diversion of Ultram, Ultracet, and generic tramadol HCL.\",eng,Journal of addictive diseases,J Addict Dis,1545-0848,25,2,1/6/01,53-58,\"{\"\"George E. Woody\"\",\"\"Anne Geller\"\",\"\"Edgar H. Adams\"\",\"\"Theodore J. Cicero\"\",\"\"Alvaro Munoz\"\",\"\"Edward C. Senay\"\",\"\"James A. Inciardi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 854,
+   "output": "641252,Non-steroidal anti-inflammatory drugs and myocardial infarctions: comparative systematic review of evidence from observational studies and randomised controlled trials.,eng,Ann Rheum Dis,Annals of the rheumatic diseases,Mar-67,66,10,1/7/10,1296-304,\"{\"\"E H Choy\"\",\"\"D L Scott\"\",\"\"P A Scott\"\",\"\"G H Kingsley\"\",\"\"C M Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 813,
+   "output": "410748,Preliminary validity and reliability of a Thai Berlin questionnaire in stroke patients,English,,,,7,0,1/14/01,348,\"{\"\"J. Saengsuwan\"\",\"\"K. Sawanyawisuth\"\",\"\"N. Ungtrakul\"\",\"\"J. Saengsuwan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 694,
+   "output": "876536,The rocky road to rational prescribing,,Vaccine,,,26,0,1/8/01,G11-G15,\"{\"\"I. Williamson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 650,
+   "output": "847600,Experiences of African-American Women with Smartphone-Based Ecological Momentary Assessment.,ENG,\"Public health nursing (Boston, Mass.)\",Public Health Nurs,1525-1446,-1,-1,4/15/11,,\"{\"\"Ashley McDonald\"\",\"\"Shannon N Zenk\"\",\"\"Colleen Corte\"\",\"\"Kelly K Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 11,
+   "output": "184417,Disparities in childhood asthma hospitalizations: A spatial analysis of contextual effects,,Transportation Research Part D-Transport and Environment,,1361-9209,14,5,1/9/01,317-325,\"{\"\"J. L. Li\"\",\"\"P. Newcomb\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 636,
+   "output": "944558,Motor cortex stimulation in patients with post-stroke pain: conscious somatosensory response and pain control,eng,Neurol Res,Neurological research,0161-6412 (Print) 0161-6412,25,2,1/3/01,153-6,\"{\"\"H. Oshima\"\",\"\"K. Kobayashi\"\",\"\"T. Yamamoto\"\",\"\"M. Kasai\"\",\"\"C. Fukaya\"\",\"\"Y. Katayama\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 515,
+   "output": "408903,The safety and immunogenicity of rotavirus vaccination in infants with intestinal failure,,J. Pediatric Infect. Dis. Soc.,,-14400,3,2,,66-70,\"{\"\"McNeal M.M.\"\",\"\"Sanchez S.E.\"\",\"\"Jacob S.\"\",\"\"Javid P.J.\"\",\"\"Englund J.A.\"\",\"\"Horslen S.P.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 857,
+   "output": "364080,Comparison of serum and renal gentamicin concentrations with fractional urinary excretion tests as indicators of nephrotoxicity,eng,,,,11,4,1/1/88,330-7,\"{\"\"S. A. Brown\"\",\"\"F. B. Garry\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 898,
+   "output": "162189,\"Significantly higher adrenocorticotropin-stimulated cortisol and 17-hydroxyprogesterone levels in 337 consecutive, premenopausal, caucasian, hirsute patients compared with healthy controls\",eng,,,,90,0,1/5/01,\"1347-53 ST  - Significantly higher adrenocorticotropin-stimulated cortisol and 17-hydroxyprogesterone levels in 337 consecutive, premenopausal, caucasian, hirsute patients compared with healthy controls-\",\"{\"\"C. Hagen\"\",\"\"K. Brusgaard\"\",\"\"M. DA  - Mar DO  - jc.2004-1214 [pii] 10.1210/jc.2004-1214 [doi] DP  - Nlm ET  - 2004/12/16 Andersen\"\",\"\"A. P. Hermann\"\",\"\"J. Hangaard\"\",\"\"D. Glintborg\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 351,
+   "output": "720775,Depression treatment preferences among Japanese undergraduates: using conjoint analysis,English,International Journal of Social Psychiatry,,0020-7640,58,2,1/12/01,195-203,\"{\"\"S. Sakamoto\"\",\"\"Y. Okumura\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 259,
+   "output": "384767,A multinational study of thromboprophylaxis practice in critically ill children.,eng,Critical care medicine,Crit. Care Med.,1530-0293,42,5,1/14/05,1232-40,\"{\"\"Sarah H O'Brien\"\",\"\"Marisa Tucci\"\",\"\"Antonio Rodriguez Nunez\"\",\"\"Philip C Spinella\"\",\"\"Li Qin\"\",\"\"Edward Vincent S Faustino\"\",\"\"Adrienne G Randolph\"\",\"\"Edward Truemper\"\",\"\"Simon Li\"\",\"\"Kimberly Marohn\"\",\"\"Sheila Hanson\"\",\"\"Michael Yung\"\",\"\"[Collective Name] PROphylaxis against ThRombosis prACTice (PROTRACT) Study Investigators of the PALISI BloodNet\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 961,
+   "output": "385346,\"New concepts in predicting, evaluating, and managing neurodevelopmental outcomes in children with congenital heart disease.\",eng,Current opinion in pediatrics,Curr. Opin. Pediatr.,1531-698X,25,5,1/13/10,574-84,\"{\"\"Bradley S Marino\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 343,
+   "output": "465757,Non-surgical treatments for anal fissure in adults.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 730,
+   "output": "696132,Changes of interaction during the development of a mathematical learning environment.,,Journal of Mathematics Teacher Education,,\"1386-4416, 1386-4416\",14,5,1/11/10,393-411,\"{\"\"dirk.hoek@ou.nl Hoek, Dirk1\"\",\"\"Koeno2 Gravemeijer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 901,
+   "output": "535901,Historical misrepresentation in science: the case of fetal alcohol syndrome,eng,Sci Eng Ethics,Science and engineering ethics,1353-3452 (Print)     1353-3452,4,4,1/1/98,427-35,\"{\"\"S. N. Pennington\"\",\"\"I. A. Shibley\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 74,
+   "output": "34962,Assessing social isolation in motor neurone disease: a Rasch analysis of the MND Social Withdrawal Scale.,eng,Journal of the neurological sciences,J. Neurol. Sci.,1878-5883,334,1,11/15/13,112-8,\"{\"\"Everard W Thornton\"\",\"\"Carolyn A Young\"\",\"\"Alan Tennant\"\",\"\"John Ealing\"\",\"\"Kevin Talbot\"\",\"\"[Collective Name] UKMND-QoL Group\"\",\"\"Chris J Gibbons\"\",\"\"Pamela J Shaw\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 205,
+   "output": "971456,\"An insulin-like growth factor-I gene polymorphism modifies the risk of microalbuminuria in subjects with an abnormal glucose tolerance\",English,European Journal of Endocrinology,,,154,5,1/6/01,715-721,\"{\"\"H. A. P. Pols\"\",\"\"C. M. van Duijin\"\",\"\"S. W. J. Lamberts\"\",\"\"I. Rietveld\"\",\"\"A. Hofman\"\",\"\"J. A. M. J. L. Janssen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 591,
+   "output": "587683,Support for nutrition from the older Americans act programs: a clarification on its 40th anniversary,eng,J Nutr Gerontol Geriatr,Journal of nutrition in gerontology and geriatrics,,32,1,1/13/01,Mar-81,\"{\"\"J. L. Lloyd\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 237,
+   "output": "659896,Comparative effectiveness of instructional design features in simulation-based education: systematic review and meta-analysis.,eng,Medical teacher,Med Teach,1466-187X,35,1,1/13/01,e867-98,\"{\"\"Benjamin Zendejas\"\",\"\"Stanley J Hamstra\"\",\"\"Rose Hatala\"\",\"\"David A Cook\"\",\"\"Amy T Wang\"\",\"\"Jason H Szostek\"\",\"\"Patricia J Erwin\"\",\"\"Ryan Brydges\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 254,
+   "output": "674696,Environmental and genomic factors as well as interventions influencing smoking cessation: a systematic review of reviews and a proposed working model.,eng,Public health genomics,Public Health Genomics,1662-8063,16,4,1/13/01,159-73,\"{\"\"A Brand\"\",\"\"J Van der Heyden\"\",\"\"S de Viron\"\",\"\"H Van Oyen\"\",\"\"N Malats\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 832,
+   "output": "411673,Sleep and sleep disorders in the hospital,English,,,,141,5,1/12/01,1337-45,\"{\"\"S. B. Venkateshiah\"\",\"\"N. A. Collop\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 155,
+   "output": "817047,Acupuncture anesthesia used in rabbit abdominal operations,English,American Journal of Acupuncture,AM. J. ACUPUNCT.,00913960 (ISSN),4,2,1/1/76,149-156,\"{\"\"M.M.P. Yang\"\",\"\"S.H. Kok\"\",\"\"G.T.C. Lee\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 910,
+   "output": "309275,Factors Predicting Success and Failure for Cervical Facet Radiofrequency Denervation: A Multi-Center Analysis,,,,,32,6,1/7/11,495-503,\"{\"\"Steven P. Cohen\"\",\"\"Giselle McKnight\"\",\"\"Kayode A. Williams\"\",\"\"Joshua Stream\"\",\"\"Zahid H. Bajwa\"\",\"\"Jan J. Kraemer\"\",\"\"Robert W. Hurley\"\",\"\"Anthony Dragovich\"\",\"\"Anthony Sireci\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 566,
+   "output": "828214,Transference-focused psychotherapy v. treatment by community psychotherapists for borderline personality disorder: randomised controlled trial.,eng,The British journal of psychiatry : the journal of mental science,Br J Psychiatry,1472-1465,196,5,1/10/05,389-95,\"{\"\"Philipp Martius\"\",\"\"Anna Buchheim\"\",\"\"Peter Buchheim\"\",\"\"Susanne H_rz\"\",\"\"Michael Rentrop\"\",\"\"Cord Benecke\"\",\"\"Peter Schuster\"\",\"\"Melitta Fischer-Kern\"\",\"\"Stephan Doering\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 468,
+   "output": "850788,Acute and Persistent Postoperative Pain after Breast Surgery,,Pain Medicine,,,10,4,1/9/01,708-715,\"{\"\"N. Klauber-DeMore\"\",\"\"K. Fecho\"\",\"\"N. R. Miller\"\",\"\"W. S. Blau\"\",\"\"S. A. Merritt\"\",\"\"C. S. Hultman\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 103,
+   "output": "931323,Prevalence of allergic diseases in Poland - ECAP study,,Allergy: European Journal of Allergy and Clinical Immunology,,,64,0,1/9/01,326-327,\"{\"\"N. Jakubik\"\",\"\"L. Trzpil\"\",\"\"F. Raciborski\"\",\"\"U. Samolinska-Zawisza\"\",\"\"L. Samoliski\"\",\"\"D. Paczesny\"\",\"\"Z. Halat\"\",\"\"J. Marszalkowska\"\",\"\"B. Samolinski\"\",\"\"P. Samel-Kowalik\"\",\"\"A. Lusawa\"\",\"\"J. Gutowska\"\",\"\"A. Tomaszewska\"\",\"\"A. Walkiewicz\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 92,
+   "output": "761105,\"Infusing Tolerance, Diversity, and Social Personal Curriculum into Inclusive Social Studies Classes Using Family Portraits and Contextual Teaching and Learning\",,TEACHING Exceptional Children Plus,,\"1553-9318, 1553-9318\",1,3,1/5/01,,\"{\"\"Milagros M. Sessions\"\",\"\"Kevin J. Miller\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 337,
+   "output": "352040,Usefulness of a Survey on Underage Drinking in a Rural American Indian Community Health Clinic,,American Indian and Alaska Native Mental Health Research: The Journal of the National Center,,1533-7731,20,2,1/13/01,26-Jan,\"{\"\"Joel W. Grube\"\",\"\"Juan A. Luna\"\",\"\"David A. Gilder\"\",\"\"Jennifer Roberts\"\",\"\"Daniel Calac\"\",\"\"Cindy L. Ehlers\"\",\"\"Roland S. Moore\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 530,
+   "output": "484593,New anticoagulants for atrial fibrillation.,eng,J. Cardiovasc. Med.,,1558-2027,10,6,1/9/06,446-53,\"{\"\"Raffaele De Caterina\"\",\"\"Giulia Renda\"\",\"\"Steen Dalby Kristensen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 511,
+   "output": "915464,",
+   "parsed": false
+  },
+  {
+   "row": 121,
+   "output": "886237,\"Effet d'une intervention non mdicamenteuse, Voix d'Or, sur les troubles du comportement dans la maladie d'Alzheimer ou une maladie apparente. [Effect of a non-pharmacological intervention, Voix d'Or, on behavior disturbances in Alzheimer disease and associated disorders.]\",,Griatrie et Psychologie Neuropsychiatrie du Vieillissement,,2115-7863(Electronic);2115-8789(Print),11,3,,323-330,\"{\"\"Graldine Martin-Gaujard\"\",\"\"Floriane Delphin-Combe\"\",\"\"Isabelle Rouch\"\",\"\"Solveig Relland\"\",\"\"Pierre Krolak-Salmon\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

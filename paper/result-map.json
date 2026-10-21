@@ -1,0 +1,431 @@
+{
+  "schema_version": 1,
+  "manuscript_sha256": "478afa1939ea2a56e37e1f3df0f53833fe0a89f880ff6e6f6adbbc6beb9695c1",
+  "compiled_pdf_sha256": "a7f0789d34f507c4c8c372f59575e7de00618540cc8e6a028d4fb563a0b07062",
+  "body_pages": 12,
+  "total_pages": 14,
+  "entries": [
+    {
+      "kind": "figure",
+      "label": "fig:decomposition",
+      "number": "1",
+      "page": "2",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [
+        "paper/latex/figures/fig1_decomposition.pdf"
+      ],
+      "reference_table": null,
+      "csv_paths": [
+        "results/figures/fig1_decomposition.csv"
+      ],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/figures.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:datasets",
+      "number": "1",
+      "page": "3",
+      "claim": "C1–C3/design",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [],
+      "reference_table": null,
+      "csv_paths": [],
+      "entry": "Read the inline explanatory table in paper/latex/main.tex",
+      "generator": "inline explanatory table; no experimental regeneration",
+      "evidence_scope": "Protocol schematic, dataset context or assigned-value illustration; not an additional experiment",
+      "claims": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "kind": "figure",
+      "label": "fig:overview",
+      "number": "2",
+      "page": "4",
+      "claim": "C1–C3/design",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [
+        "paper/latex/figures/fig0_overview.pdf"
+      ],
+      "reference_table": null,
+      "csv_paths": [
+        "results/figures/fig0_overview.csv"
+      ],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/figures.py",
+      "evidence_scope": "Protocol schematic, dataset context or assigned-value illustration; not an additional experiment",
+      "claims": [
+        "C1",
+        "C2",
+        "C3"
+      ]
+    },
+    {
+      "kind": "table",
+      "label": "tab:example",
+      "number": "2",
+      "page": "4",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/example.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/example.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Included Hospital row example and four-condition construction contract"
+    },
+    {
+      "kind": "table",
+      "label": "tab:conditions",
+      "number": "3",
+      "page": "4",
+      "claim": "design/context",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [],
+      "reference_table": null,
+      "csv_paths": [],
+      "entry": "Read the inline explanatory table in paper/latex/main.tex",
+      "generator": "inline explanatory table; no experimental regeneration",
+      "evidence_scope": "Protocol schematic, dataset context or assigned-value illustration; not an additional experiment"
+    },
+    {
+      "kind": "table",
+      "label": "tab:recoverability",
+      "number": "4",
+      "page": "4",
+      "claim": "design/context",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [],
+      "reference_table": null,
+      "csv_paths": [],
+      "entry": "Read the inline explanatory table in paper/latex/main.tex",
+      "generator": "inline explanatory table; no experimental regeneration",
+      "evidence_scope": "Protocol schematic, dataset context or assigned-value illustration; not an additional experiment"
+    },
+    {
+      "kind": "table",
+      "label": "tab:construction",
+      "number": "5",
+      "page": "5",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/construction.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/construction.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Frozen construction/profile counts and provenance; no new source acquisition or table rebuilding"
+    },
+    {
+      "kind": "table",
+      "label": "tab:movieserrors",
+      "number": "6",
+      "page": "6",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/movieserrors.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/movieserrors.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Frozen construction/profile counts and provenance; no new source acquisition or table rebuilding"
+    },
+    {
+      "kind": "table",
+      "label": "tab:p1",
+      "number": "7",
+      "page": "6",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/p1.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/p1.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Saved P1 summaries; included non-Movies trials and separate historical Movies trials; no claim of raw-trial rejudgment"
+    },
+    {
+      "kind": "table",
+      "label": "tab:main",
+      "number": "8",
+      "page": "8",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/decomposition.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/decomposition.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:detection",
+      "number": "9",
+      "page": "8",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/detection.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/detection.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:counts",
+      "number": "10",
+      "page": "8",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/counts.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/counts.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "figure",
+      "label": "fig:year",
+      "number": "3",
+      "page": "7",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [
+        "paper/latex/figures/fig2_year_range.pdf"
+      ],
+      "reference_table": null,
+      "csv_paths": [
+        "results/figures/fig2_year_range.csv"
+      ],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/figures.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:moviescols",
+      "number": "11",
+      "page": "8",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/moviescols.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/moviescols.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:beers",
+      "number": "12",
+      "page": "9",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/beers.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/beers.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Included Beers archived chunks, summary statistics and historical F-input provenance"
+    },
+    {
+      "kind": "table",
+      "label": "tab:seeds",
+      "number": "13",
+      "page": "9",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/seeds.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/seeds.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "figure",
+      "label": "fig:scale",
+      "number": "4",
+      "page": "8",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [
+        "paper/latex/figures/fig6_scale.pdf"
+      ],
+      "reference_table": null,
+      "csv_paths": [
+        "results/figures/fig6_scale.csv"
+      ],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/figures.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:decoding",
+      "number": "14",
+      "page": "9",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/decoding.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/decoding.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Included Hospital syllable inventory, archived repairs and recovery-category analysis"
+    },
+    {
+      "kind": "figure",
+      "label": "fig:aligned",
+      "number": "5",
+      "page": "9",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [
+        "paper/latex/figures/fig3_aligned.pdf"
+      ],
+      "reference_table": null,
+      "csv_paths": [
+        "results/figures/fig3_aligned.csv"
+      ],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/figures.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:aligned",
+      "number": "15",
+      "page": "9",
+      "claim": "C1/design",
+      "manuscript_source": "paper/latex/tables/aligned.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/aligned.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:conflictexample",
+      "number": "16",
+      "page": "10",
+      "claim": "design/context",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [],
+      "reference_table": null,
+      "csv_paths": [],
+      "entry": "Read the inline explanatory table in paper/latex/main.tex",
+      "generator": "inline explanatory table; no experimental regeneration",
+      "evidence_scope": "Protocol schematic, dataset context or assigned-value illustration; not an additional experiment"
+    },
+    {
+      "kind": "figure",
+      "label": "fig:near",
+      "number": "6",
+      "page": "10",
+      "claim": "C2",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [
+        "paper/latex/figures/fig4_near_entity.pdf"
+      ],
+      "reference_table": null,
+      "csv_paths": [
+        "results/figures/fig4_near_entity.csv"
+      ],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/figures.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "figure",
+      "label": "fig:nearmodels",
+      "number": "7",
+      "page": "10",
+      "claim": "C2",
+      "manuscript_source": "paper/latex/main.tex",
+      "asset_paths": [
+        "paper/latex/figures/fig7_near_models.pdf"
+      ],
+      "reference_table": null,
+      "csv_paths": [
+        "results/figures/fig7_near_models.csv"
+      ],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/figures.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:conflictcounts",
+      "number": "17",
+      "page": "11",
+      "claim": "C2",
+      "manuscript_source": "paper/latex/tables/conflictcounts.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/conflictcounts.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately"
+    },
+    {
+      "kind": "table",
+      "label": "tab:rayyan",
+      "number": "18",
+      "page": "11",
+      "claim": "C3",
+      "manuscript_source": "paper/latex/tables/rayyan_checks.tex",
+      "asset_paths": [],
+      "reference_table": "results/tables/rayyan_checks.tex",
+      "csv_paths": [],
+      "entry": "python tools/core.py reproduce --output build/replayed",
+      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Saved scalar/flag audit replay; independent actual TabClean repair scoring"
+    }
+  ],
+  "retained_extended_sources": {
+    "tables": [
+      "aligned.tex",
+      "beers.tex",
+      "checks.tex",
+      "conflictcounts.tex",
+      "construction.tex",
+      "counts.tex",
+      "decoding.tex",
+      "decomposition.tex",
+      "detection.tex",
+      "example.tex",
+      "moviescols.tex",
+      "movieserrors.tex",
+      "near.tex",
+      "p1.tex",
+      "publicverification.tex",
+      "rayyan.tex",
+      "rayyan_checks.tex",
+      "seeds.tex",
+      "whole_table.tex"
+    ],
+    "figure_csvs": [
+      "fig0_overview.csv",
+      "fig1_decomposition.csv",
+      "fig2_year_range.csv",
+      "fig3_aligned.csv",
+      "fig4_near_entity.csv",
+      "fig5_rayyan.csv",
+      "fig5_rayyan_display.csv",
+      "fig6_scale.csv",
+      "fig7_near_models.csv"
+    ]
+  }
+}

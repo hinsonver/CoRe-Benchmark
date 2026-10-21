@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-32b-awq",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.88,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.3597,
+  "acc_noninferable": 0.0,
+  "noninferable_cells": 345,
+  "acc_hard": 0.0,
+  "hard_cells": 327,
+  "leak_rate": 0.0,
+  "leak_cells": 43,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 43,
+  "per_column": {
+   "id": {
+    "n": 44,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 44,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 35,
+    "model": 0.0,
+    "freq": 0.057,
+    "trans": 0.0,
+    "structural": 0.057
+   },
+   "jounral_abbreviation": {
+    "n": 13,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 39,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.077
+   },
+   "article_pagination": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.05,
+    "trans": 0.0,
+    "structural": 0.05
+   },
+   "author_list": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.023,
+    "trans": 0.0,
+    "structural": 0.023
+   },
+   "article_jcreated_at": {
+    "n": 35,
+    "model": 0.0,
+    "freq": 0.086,
+    "trans": 0.0,
+    "structural": 0.086
+   },
+   "article_language": {
+    "n": 6,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 19,
+    "model": 0.0,
+    "freq": 0.105,
+    "trans": 0.053,
+    "structural": 0.368
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "121133,Preoperative radiotherapy for esophageal carcinoma,eng,,,,,,,,\"{\"\"M. Wang\"\",\"\"G. Stewart\"\",\"\"J. F. Tierney\"\",\"\"G. Spilopoulos\"\",\"\"W. Duncan\"\",\"\"H. S. Hansen\"\",\"\"Z. Rhugang\"\",\"\"M. K. Parmar\"\",\"\"A. Rousell\"\",\"\"B. Launois\"\",\"\"K. Nygaard\"\",\"\"S. J. Arnott\"\",\"\"M. Gignoux\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "318542,Pneumonia and encephalopathy in a patient with progressing Parkinson's disease and dementia,,Critical Care Nursing Quarterly,,,35,2,1/1/12,160-172,\"{\"\"S. Livesay\"\",\"\"S.D. Ruppert\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "887418,Impact of crizotinib on patient-reported symptoms and global quality of life (QoL) compared with chemotherapy in a phase III study of advanced alk-positive non-small cell lung cancer (NSCLC),,European Journal of Cancer,,,49,0,1/1/13,-,\"{\"\"V. Hirsh\"\",\"\"J.Y. Han\"\",\"\"F. Blackhall\"\",\"\"S. Iyer\"\",\"\"D.W. Kim\"\",\"\"A. Shaw\"\",\"\"A. Reisman\"\",\"\"K. Wilner\"\",\"\"H. Nokihara\"\",\"\"B. Besse\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "422951,Exposure to second-hand smoke and the risk of tuberculosis in children and adults: a systematic review and meta-analysis of 18 observational studies.,eng,PLoS medicine,,,12,6,6/1/15,e1001835; discussion e1001835-e1001835; discussion e1001835,\"{\"\"Mehak Bhatia\"\",\"\"Shaun K Morris\"\",\"\"Prabhat Jha\"\",\"\"Wilson Suraweera\"\",\"\"Jayadeep Patra\"\",\"\"Cyril Patra\"\",\"\"Prakash C Gupta\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "853882,Effective combination chemotherapy with paclitaxel and cisplatin with or without human granulocyte colony-stimulating factor and/or erythropoietin in patients with advanced gastric cancer.,eng,BR. J. CANCER,,0007-0920,86,12,6/17/02,1858-63,\"{\"\"M Raderer\"\",\"\"C Gedlicka\"\",\"\"A Lenauer\"\",\"\"D Depisch\"\",\"\"W Scheithauer\"\",\"\"B Schneeweiss\"\",\"\"W Fiebiger\"\",\"\"F Lang\"\",\"\"G V Kornek\"\",\"\"B Sch���_ll\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "217725,Use of alendronate in peri-implant defect regeneration,English,,,,,,,,151-158,\"{\"\"P. C. Wollan\"\",\"\"S. J. Meraw\"\",\"\"C. M. Reeve\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 275,
+   "output": "836847,Thoracic Aortic Aneurysm: Reading the Enemy's Playbook,,Curr. Probl. Cardiol.,,-10475,33,5,,203-277,\"{\"\"Elefteriades J.A.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "408198,\"The parvalbumin-positive interneurons in the mouse dentate gyrus express GABAA receptor subunits �1, �_2, and � along their extrasynaptic cell membrane.\",eng,Neuroscience,Neuroscience,1873-7544,254,,12/19/13,80-96,\"{\"\"H H̦ger\"\",\"\"W Sieghart\"\",\"\"T Klausberger\"\",\"\"I Milenkovic\"\",\"\"M Vasiljevic\"\",\"\"D Maurer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "125302,Intravenous cyclophosphamide in patients with chronic systemic inflammatory diseases: morbidity and mortality.,eng,Scandinavian journal of rheumatology,Scand. J. Rheumatol.,0300-9742,37,2,3/1/08,130-4,\"{\"\"E A M Janssen\"\",\"\"C Brodin\"\",\"\"P Ogreid\"\",\"\"K Kjellevold\"\",\"\"L G G��ransson\"\",\"\"L Vatten\"\",\"\"P R Romundstad\"\",\"\"R Omdal\"\",\"\"K Wildhagen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450749,Interleukin-28B polymorphisms on the SVR in the treatment of naive chronic hepatitis C with pegylated interferon-alpha plus ribavirin: A meta-analysis.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "134738,Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?,,,,,17,0,1/1/12,261-270 ST  - Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?-,\"{\"\"Stuart Calver\"\",\"\"Julia Nichols\"\",\"\"Rachel C1  - Fr̴n systematiska ̦versikter -șkningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "495319,Clinical outcome following ICD removal. The Bilitch Registry Group,eng,,,,16,0,1/1/93,186-192,\"{\"\"S. Furman\"\",\"\"D. T. Kawanishi\"\",\"\"S. L. Song\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "302179,Using a social communication intervention to improve the social interactions and employment experiences of adolescents with high functioning autism spectrum disorders,English,,,,0,0,1/1/11,3224,\"{\"\"Beth Anne Clavenna-Deane\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "385940,\"Normalisation of left ventricular systolic function after change from VVI pacing to biventricular pacing in a child with congenital complete atrioventricular block, long-QT syndrome, and congenital muscular dystrophy: a 10-year follow-up.\",eng,Cardiology in the young,Cardiol Young,1467-1107,24,3,6/1/14,520-3,\"{\"\"Jesper I Reimers\"\",\"\"Sabrina G Ellesée\"\",\"\"Henrik Ø Andersen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "863342,Molecular detection of hepatitis B virus: Recent developments,,LaboratoriumsMedizin,,,29,1,1/1/05,33-43,\"{\"\"B. Weber\"\",\"\"A. Berger\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "761676,The Impact of Culture on Learning: Exploring Student Perceptions,,Multicultural Education & Technology Journal,,1750-497X,3,3,1/1/09,182-195,\"{\"\"Prem Ramburuth\"\",\"\"Massimiliano Tani\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "914007,Bound for success: a systematic review of constraint-induced movement therapy in children with cerebral palsy supports improved arm and hand use (Structured abstract),,Physical therapy,Phys Ther,0031-9023,89,11,1/1/09,1126-1141,\"{\"\"H. H. Huang\"\",\"\"J. Hale\"\",\"\"L. Fetters\"\",\"\"A. McBride\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 923,
+   "output": "424870,Budesonide/formoterol in a single inhaler sustains lung function improvements in COPD [Abstract],,European respiratory journal,,,22,0,1/1/03,P435,\"{\"\"Thompson NC\"\",\"\"Calverley PMA\"\",\"\"Olsson H\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "741988,Changes in lower esophageal sphincter pressure (LES) after Stamm gastrostomy,eng,J Surg Res,The Journal of surgical research,0022-4804,42,5,1/1/87,570-4,\"{\"\"J. L. Grosfeld\"\",\"\"S. Goto\"\",\"\"G. P. Gardner\"\",\"\"D. F. Canal\"\",\"\"D. W. Vane\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "800900,Chronic pelvic pain.,eng,Best practice & research. Clinical gastroenterology,Best Pract Res Clin Gastroenterol,1532-1916,23,4,1/1/09,593-610,\"{\"\"Andrew Paul Baranowski\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "187552,Protective effect of ginsenoside Rb1 against myocardial ischemia/reperfusion injury in streptozotocin-induced diabetic rats,,Molecular Biology Reports,,0301-4851,38,7,1/1/11,4327-4335,\"{\"\"Y. Wu\"\",\"\"Z. Y. Xia\"\",\"\"H. M. Liu\"\",\"\"S. Q. Lei\"\",\"\"L. Zhang\"\",\"\"J. J. Xu\"\",\"\"B. Zhao\"\",\"\"J. Dou\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "663994,Hearing feelings: a quantitative meta-analysis on the neuroimaging literature of emotional prosody perception.,eng,Neuropsychologia,Neuropsychologia,1873-3514,50,12,10/1/12,2752-63,\"{\"\"Vincent J P Van Heuven\"\",\"\"Niels O Schiller\"\",\"\"Jurriaan Witteman\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "188890,Incidence of multi-resistance in gram-negative aerobes from intensive care units of 10 German hospitals.,eng,Scandinavian journal of infectious diseases. Supplementum,Scand J Infect Dis Suppl,0300-8878,78,,1/1/91,22-34,\"{\"\"R Asanger\"\",\"\"P M Shah\"\",\"\"F M Kahan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "520771,[Skeletal maturation in assessing underage asylum seekers].,dut,\"Euthanasie en andere medische beslissingen rond het levenseinde, 1990-1995\",,0028-2162,149,22,5/28/05,1241; author reply 1241,\"{\"\"R R van Rijn\"\",\"\"S G F Robben\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "934327,Use of a Brief Phone Call After ED Discharge,,,,,0,0,,,\"{\"\"NCT01893931 \"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "764224,High intensity interval exercise training in overweight young women,,,Scientific Reports,Sci Rep,2045-2322,5,3,1/1/12,255-62,\"{\"\"Y. Fengying\"\",\"\"Y. Hainai\"\",\"\"W. Jianxiong\"\",\"\"T. Sijie\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 643,
+   "output": "847600,Experiences of African-American Women with Smartphone-Based Ecological Momentary Assessment.,ENG,\"Public health nursing (Boston, Mass.)\",Public Health Nurs,1525-1446,,,11/4/15,,\"{\"\"Ashley McDonald\"\",\"\"Shannon N Zenk\"\",\"\"Colleen Corte\"\",\"\"Kelly K Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "123456,New insights into the genetic basis of Alzheimer's disease.,eng,Neurology,Neurology,0028-3878,92,10,5/1/19,456-65,\"{\"\"Jane Smith\"\",\"\"Robert Johnson\"\",\"\"Emily Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "695010,Association of Ureaplasma urealyticum colonization with development of bronchopulmonary dysplasia: a systemic review and meta-analysis.,eng,Journal of Huazhong University of Science and Technology. Medical Sciences,J Huazhong Univ Sci Technolog Med Sci,1672-0733,34,2,4/1/14,265-9,\"{\"\"Jia-rui Pu\"\",\"\"Dan Li\"\",\"\"De-hua Yang\"\",\"\"Li-duan Zheng\"\",\"\"Xiao-dan Zheng\"\",\"\"Hong Mei\"\",\"\"Xuan Xiang\"\",\"\"Qiang-song Tong\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "305933,Clinical course of patients with aspirin-exacerbated respiratory disease: can we predict the prognosis?,English,Pharmacogenomics,,,,15,4,1/1/14,449-457,\"{\"\"Choi GS\"\",\"\"Kim JH\"\",\"\"Park HS\"\",\"\"Ye YM\"\",\"\"Kim SH\"\",\"\"Kim JE\"\",\"\"Jin HJ\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 555,
+   "output": "26475,Situating universal design architecture: designing with whom?,ENG,Disability and rehabilitation,Disabil Rehabil,1464-5165,,,7/28/14,6-Jan,\"{\"\"Paul Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "332032,Air pollution and risk of urinary bladder cancer in a case-control study in Spain,,Occupational and environmental medicine,Occup Environ Med,1470-7926,65,1,1/1/08,56-60,\"{\"\"Nuria Malats\"\",\"\"Alfredo Carrato\"\",\"\"Manolis Kogevinas\"\",\"\"Nathaniel Rothman\"\",\"\"Consol Serra\"\",\"\"Reina Garcia-Closas\"\",\"\"Debra Silverman\"\",\"\"Adonina Tardon\"\",\"\"Kenneth P. Cantor\"\",\"\"Mustafa Dosemeci\"\",\"\"Gemma Castano-Vinyals\"\",\"\"Roel Vermeulen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "438681,Should psychiatrists use atypical antipsychotics to treat nonpsychotic anxiety?.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "912377,Assessing quality of life in patients after partial laryngectomy,English,Hippokratia,Hippokratia,1790-8019,18,2,1/1/14,156-61,\"{\"\"K. Mantsopoulos\"\",\"\"C. Bohr\"\",\"\"F. Hebel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "453637,Corneal collagen cross-linking for nonectatic disorders: A systematic review.,eng,,,0,0,,,{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 111,
+   "output": "816680,The embodied nature of medical concepts: Image schemas and language for pain,English,Cognitive Processing,,1612-4782     1612-4790,15,3,1/1/14,283-296,\"{\"\"M. Tercedor Sánchez\"\",\"\"J.A. Prieto Velasco\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "463556,Structural brain changes associated with antipsychotic treatment in schizophrenia as revealed by voxel-based morphometric MRI: an activation likelihood estimation meta-analysis.,,,,0,0,,,{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 85,
+   "output": "889481,Chronic pain related to quality of sleep,eng por,Einstein (Sao Paulo),\"Einstein (Sao Paulo, Brazil)\",1679-4508,12,2,1/1/14,159-63,\"{\"\"W. Hummig\"\",\"\"J. Stechman Neto\"\",\"\"L. F. Tonial\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "109595,[Blood insulin values after the oral glucose tolerance test (OGTT) and the body composition in 30 obese children].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "136032,Cost-utility analysis of osteopathy in primary care: results from a pragmatic randomized controlled trial,eng,,,,21,0,1/1/04,643-50 ST  - Cost-utility analysis of osteopathy in primary care: results from a pragmatic randomized controlled trial-,\"{\"\"D. Russell\"\",\"\"P. Linck\"\",\"\"R. Hibbs\"\",\"\"I. Russell\"\",\"\"R. Muntz\"\",\"\"N. H. Williams\"\",\"\"B. C1  - Fr̴n RCT-șkningen CN  - Pubmed DA  - Dec DO  - 10.1093/fampra/cmh612 DP  - NLM ET  - 2004/11/09 Hounsome\"\",\"\"R. T. Edwards\"\",\"\"C. Wilkinson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "853676,\"Pulsed cyclophosphamide, thalidomide and dexamethasone: an oral regimen for previously treated patients with multiple myeloma.\",eng,The hematology journal : the official journal of the European Haematology Association / EHA,Hematol. J.,1466-4860,5,2,1/1/04,112-7,\"{\"\"Meletios A Dimopoulos\"\",\"\"Nikolaos Anagnostopoulos\"\",\"\"Markela P Zorzou\"\",\"\"Athanasios Anagnostopoulos\"\",\"\"Eleni Efstathiou\"\",\"\"Christos Poziopoulos\"\",\"\"George Hamilos\"\",\"\"Vassiliki Grigoraki\"\",\"\"Dimitra Gika\"\",\"\"Athanasios Zomas\"\",\"\"Irini Xilouri\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 493,
+   "output": "208435,Comparison of tunnel positions in single-bundle anterior cruciate ligament reconstructions using computer navigation.,eng,\"Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA\",Knee Surg Sports Traumatol Arthrosc,1433-7347,18,9,9/1/10,1282-9,\"{\"\"Travis G Maak\"\",\"\"Thomas L Wickiewicz\"\",\"\"Volker Musahl\"\",\"\"James E Voos\"\",\"\"Andrew D Pearle\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "368651,A randomized controlled trial of paracetamol versus morphine for the treatment of acute painful crisis of sickle cell disease,,,Clinical Genetics,,0009-9147,20,5,1/1/13,S149,\"{\"\"R. Rehmani\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 113,
+   "output": "148787,Cardiac atrophy in women following bed rest,eng,,,,,,,,\"{\"\"J. L. Hastings\"\",\"\"G. Biolo\"\",\"\"B. D. Levine\"\",\"\"T. Tillery\"\",\"\"R. M. Peshock\"\",\"\"T. A. Dorfman\"\",\"\"B. R. Macias\"\",\"\"A. R. DA  - Jul DO  - 10.1152/japplphysiol.01162.2006 DP  - NLM ET  - 2007/03/24 Hargens\"\",\"\"S. M. Schneider\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "887131,Antidiabetic oral treatment in older people: does frailty matter?,eng,Drugs & aging,Drugs Aging,1179-1969,26,,12/1/09,53-62,\"{\"\"Angela Marie Abbatecola\"\",\"\"Andrea Corsonello\"\",\"\"Silvia Bustacchini\"\",\"\"Fabrizia Lattanzio\"\",\"\"Giuseppe Paolisso\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

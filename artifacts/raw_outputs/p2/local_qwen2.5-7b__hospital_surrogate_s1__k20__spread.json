@@ -1,0 +1,2391 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-7b",
+  "dataset": "hospital_surrogate_s1",
+  "k": 20,
+  "spread": true,
+  "chunks": 50,
+  "all": {
+   "repair_p": 0.2561,
+   "repair_r": 0.1847,
+   "repair_f1": 0.2146,
+   "detect_f1": 0.3607,
+   "errors": 509,
+   "predicted": 367,
+   "repaired": 94,
+   "detected": 158
+  },
+  "identity": {
+   "repair_p": 0.0288,
+   "repair_r": 0.0183,
+   "repair_f1": 0.0223,
+   "detect_f1": 0.2793,
+   "errors": 219,
+   "predicted": 139,
+   "repaired": 4,
+   "detected": 50
+  },
+  "other": {
+   "repair_p": 0.3947,
+   "repair_r": 0.3103,
+   "repair_f1": 0.3475,
+   "detect_f1": 0.417,
+   "errors": 290,
+   "predicted": 228,
+   "repaired": 90,
+   "detected": 108
+  }
+ },
+ "chunks": [
+  {
+   "start": 0,
+   "rows": [
+    0,
+    8,
+    19,
+    44,
+    69,
+    94,
+    119,
+    144,
+    169,
+    194,
+    219,
+    244,
+    269,
+    311,
+    354,
+    466,
+    491,
+    516,
+    774,
+    902
+   ],
+   "n_pred": 18,
+   "counts": {
+    "all": {
+     "errors": 17,
+     "predicted": 10,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"drifepvas medical center\"},\n    {\"row\": 1, \"column\": \"City\", \"value\": \"fenefen\"},\n    {\"row\": 1, \"column\": \"ZipCode\", \"value\": \"99319\"},\n    {\"row\": 1, \"column\": \"CountyName\", \"value\": \"tassoupim\"},\n    {\"row\": 4, \"column\": \"ZipCode\", \"value\": \"89333\"},\n    {\"row\": 5, \"column\": \"CountyName\", \"value\": \"ulababa\"},\n    {\"row\": 5, \"column\": \"MeasureCode\", \"value\": \"al_ami-1\"},\n    {\"row\": 7, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 7, \"column\": \"ZipCode\", \"value\": \"83489\"},\n    {\"row\": 7, \"column\": \"CountyName\", \"value\": \"pimquen\"},\n    {\"row\": 11, \"column\": \"Address1\", \"value\": \"8764 calosk road\"},\n    {\"row\": 11, \"column\": \"CountyName\", \"value\": \"jounydri\"},\n    {\"row\": 12, \"column\": \"ProviderNumber\", \"value\": \"97237\"},\n    {\"row\": 12, \"column\": \"Address1\", \"value\": \"1080 vasvel avenue\"},\n    {\"row\": 12, \"column\": \"City\", \"value\": \"calwextas\"},\n    {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"al_ami-1\"},\n    {\"row\": 18, \"column\": \"ZipCode\", \"value\": \"91803\"},\n    {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"al_cac-1\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 1,
+   "rows": [
+    1,
+    9,
+    312,
+    541,
+    566,
+    591,
+    616,
+    641,
+    666,
+    691,
+    716,
+    741,
+    775,
+    802,
+    827,
+    852,
+    877,
+    903,
+    930,
+    955
+   ],
+   "n_pred": 14,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 8,
+     "repaired": 3,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 2,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 4, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 5, \"column\": \"CountyName\", \"value\": \"hepgarvas\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"jouhepvas\"}, {\"row\": 9, \"column\": \"ZipCode\", \"value\": \"99319\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"heart attack\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"rhooskgar\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"torjouula medical center\"}, {\"row\": 16, \"column\": \"CountyName\", \"value\": \"tasula\"}, {\"row\": 17, \"column\": \"HospitalType\", \"value\": \"acute care hospital\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"90352\"}]}\n```"
+  },
+  {
+   "start": 20,
+   "rows": [
+    20,
+    45,
+    70,
+    95,
+    120,
+    145,
+    170,
+    195,
+    220,
+    245,
+    270,
+    313,
+    355,
+    467,
+    492,
+    517,
+    542,
+    567,
+    776,
+    904
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 9,
+     "repaired": 4,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"91799\"}, {\"row\": 3, \"column\": \"ZipCode\", \"value\": \"x1x90\"}, {\"row\": 5, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 6, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 7, \"column\": \"Sample\", \"value\": \"60 patients\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"10 patients\"}, {\"row\": 19, \"column\": \"Score\", \"value\": \"14%\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"193 patients\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"cac-3\"}]}"
+  },
+  {
+   "start": 2,
+   "rows": [
+    2,
+    10,
+    21,
+    46,
+    314,
+    592,
+    617,
+    642,
+    667,
+    692,
+    717,
+    742,
+    777,
+    803,
+    828,
+    853,
+    878,
+    905,
+    931,
+    956
+   ],
+   "n_pred": 28,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 11,
+     "repaired": 5,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 6,
+     "repaired": 1,
+     "detected": 4
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"driphervas medical center\"},\n    {\"row\": 3, \"column\": \"City\", \"value\": \"zarosk\"},\n    {\"row\": 3, \"column\": \"MeasureName\", \"value\": \"surgery patients who were given the right kind of antibiotic to help prevent infection\"},\n    {\"row\": 4, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"9385\"},\n    {\"row\": 5, \"column\": \"CountyName\", \"value\": \"pimtas\"},\n    {\"row\": 6, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 7, \"column\": \"City\", \"value\": \"brinrho\"},\n    {\"row\": 8, \"column\": \"City\", \"value\": \"jouhepvas\"},\n    {\"row\": 8, \"column\": \"ZipCode\", \"value\": \"56743\"},\n    {\"row\": 9, \"column\": \"City\", \"value\": \"fenfen\"},\n    {\"row\": 10, \"column\": \"CountyName\", \"value\": \"jouxor\"},\n    {\"row\": 11, \"column\": \"City\", \"value\": \"joucalfen\"},\n    {\"row\": 12, \"column\": \"City\", \"value\": \"rhooskgar\"},\n    {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"oskfxnhxp health center\"},\n    {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"},\n    {\"row\": 14, \"column\": \"City\", \"value\": \"brinhep\"},\n    {\"row\": 15, \"column\": \"City\", \"value\": \"dribrinlo\"},\n    {\"row\": 16, \"column\": \"City\", \"value\": \"pimkelpim\"},\n    {\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"9584\"},\n    {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"velpimwor regional hospital\"},\n    {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"},\n    {\"row\": 18, \"column\": \"ZipCode\", \"value\": \"15622\"},\n    {\"row\": 18, \"column\": \"Sample\", \"value\": \"126 patients\"},\n    {\"row\": 19, \"column\": \"City\", \"value\": \"garmortas\"},\n    {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"wexulazar regional hospital\"},\n    {\"row\": 20, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 20, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 71,
+   "rows": [
+    71,
+    96,
+    121,
+    146,
+    171,
+    196,
+    221,
+    246,
+    271,
+    315,
+    356,
+    468,
+    493,
+    518,
+    543,
+    568,
+    593,
+    618,
+    778,
+    906
+   ],
+   "n_pred": 26,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 2, \"column\": \"HospitalName\", \"value\": \"vastorwex regional hospital\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"suloskkel regional hospital\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"mornyjou memorial hospital\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"drixrintor medical center\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"fenfen\"}, {\"row\": 7, \"column\": \"ProviderNumber\", \"value\": \"91537\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"velpimkel health center\"}, {\"row\": 7, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 7, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"}, {\"row\": 11, \"column\": \"ProviderNumber\", \"value\": \"97297\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"velcalsul health center\"}, {\"row\": 13, \"column\": \"ProviderNumber\", \"value\": \"90416\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"zartasgar regional hospital\"}, {\"row\": 13, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 13, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"sulpimmor regional hospital\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"drizarbrin regional hospital\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"jouzarhep regional hospital\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"nykelrho memorial hospital\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"caltasba health center\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"oskfenhep health center\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"velpimmor regional hospital\"}]}\n```"
+  },
+  {
+   "start": 3,
+   "rows": [
+    3,
+    11,
+    22,
+    47,
+    72,
+    97,
+    316,
+    643,
+    668,
+    693,
+    718,
+    743,
+    779,
+    804,
+    829,
+    854,
+    879,
+    907,
+    932,
+    957
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"drifepvas medical center\"}, {\"row\": 3, \"column\": \"Address1\", \"value\": \"5694 taslo avenue\"}, {\"row\": 3, \"column\": \"CountyName\", \"value\": \"fentorvas\"}, {\"row\": 3, \"column\": \"MeasureName\", \"value\": \"heart attack patients given smoking cessation advice/counseling\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"244 patients\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"vasmor\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"zxrrho\"}, {\"row\": 7, \"column\": \"Sample\", \"value\": \"29 patients\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"ami-3\"}, {\"row\": 9, \"column\": \"Sample\", \"value\": \"87 patients\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"ami-3\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"oskfenhep health center\"}, {\"row\": 13, \"column\": \"ProviderNumber\", \"value\": \"99058\"}, {\"row\": 13, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 13, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}]}\n```"
+  },
+  {
+   "start": 122,
+   "rows": [
+    122,
+    147,
+    172,
+    197,
+    222,
+    247,
+    272,
+    317,
+    357,
+    469,
+    494,
+    519,
+    544,
+    569,
+    594,
+    619,
+    644,
+    669,
+    694,
+    719
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 6, \"column\": \"PhoneNumber\", \"value\": \"22xx5x23xx\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"governxent - federal\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"ami-5\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"torulator\"}, {\"row\": 13, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 13, \"column\": \"ZipCode\", \"value\": \"1074x\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"empty\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"ami-4\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"fenrho\"}, {\"row\": 19, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 19, \"column\": \"ZipCode\", \"value\": \"52067\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"heart attack patients given smoking cessation advice/counseling\"}]}"
+  },
+  {
+   "start": 4,
+   "rows": [
+    4,
+    12,
+    23,
+    48,
+    73,
+    98,
+    123,
+    148,
+    173,
+    198,
+    223,
+    744,
+    780,
+    805,
+    830,
+    855,
+    880,
+    908,
+    933,
+    958
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"drifepvas medical center\"},\n    {\"row\": 2, \"column\": \"City\", \"value\": \"fentor\"},\n    {\"row\": 5, \"column\": \"CountyName\", \"value\": \"ulababa\"},\n    {\"row\": 6, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 7, \"column\": \"ZipCode\", \"value\": \"83489\"},\n    {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"ami-4\"},\n    {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"heart attack\"},\n    {\"row\": 13, \"column\": \"Score\", \"value\": \"100%\"},\n    {\"row\": 14, \"column\": \"ProviderNumber\", \"value\": \"93818\"},\n    {\"row\": 15, \"column\": \"CountyName\", \"value\": \"hepbawex\"},\n    {\"row\": 16, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 16, \"column\": \"PhoneNumber\", \"value\": \"4629654819\"},\n    {\"row\": 17, \"column\": \"CountyName\", \"value\": \"heptor\"},\n    {\"row\": 18, \"column\": \"City\", \"value\": \"brinhep\"},\n    {\"row\": 19, \"column\": \"ProviderNumber\", \"value\": \"94141\"},\n    {\"row\": 19, \"column\": \"Address1\", \"value\": \"6407 pimvel avenue\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 248,
+   "rows": [
+    248,
+    273,
+    318,
+    358,
+    470,
+    495,
+    520,
+    545,
+    570,
+    595,
+    620,
+    645,
+    670,
+    695,
+    720,
+    745,
+    781,
+    806,
+    831,
+    856
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart attack patients given beta blocker at discharge\"}, {\"row\": 8, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 8, \"column\": \"Sample\", \"value\": \"173 patients\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"garwexba regional hospital\"}, {\"row\": 14, \"column\": \"HospitalType\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart attack patients given beta blocker at discharge\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"75%\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"4 patients\"}]}"
+  },
+  {
+   "start": 5,
+   "rows": [
+    5,
+    13,
+    24,
+    49,
+    74,
+    99,
+    124,
+    149,
+    174,
+    199,
+    224,
+    249,
+    274,
+    319,
+    359,
+    392,
+    881,
+    909,
+    934,
+    959
+   ],
+   "n_pred": 26,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 19,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 14,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"drifepvas medical center\"}, {\"row\": 2, \"column\": \"ZipCode\", \"value\": \"36833\"}, {\"row\": 3, \"column\": \"ProviderNumber\", \"value\": \"91033\"}, {\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 5, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 6, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"morbrinjou\"}, {\"row\": 8, \"column\": \"ZipCode\", \"value\": \"3610\"}, {\"row\": 9, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 10, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 11, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 12, \"column\": \"ProviderNumber\", \"value\": \"91537\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 13, \"column\": \"ProviderNumber\", \"value\": \"90464\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"ami-7a\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"1 patient\"}, {\"row\": 16, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 17, \"column\": \"PhoneNumber\", \"value\": \"5775421275\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"ami-5\"}, {\"row\": 18, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 19, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 20, \"column\": \"EmergencyService\", \"value\": \"no\"}]}\n```"
+  },
+  {
+   "start": 471,
+   "rows": [
+    471,
+    496,
+    521,
+    546,
+    571,
+    596,
+    621,
+    646,
+    671,
+    696,
+    721,
+    746,
+    782,
+    807,
+    832,
+    857,
+    882,
+    910,
+    935,
+    960
+   ],
+   "n_pred": 37,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 16,
+     "repaired": 1,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 16,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 2, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 3, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"x patients\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"2 patients\"}, {\"row\": 6, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 6, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 7, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 7, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 8, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 8, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 9, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 9, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 10, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 11, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 12, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 13, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"68%\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"25 patients\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 16, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 17, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 18, \"column\": \"Score\", \"value\": \"88%\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"8 patients\"}, {\"row\": 19, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 20, \"column\": \"Score\", \"value\": \"0%\"}, {\"row\": 20, \"column\": \"Sample\", \"value\": \"0 patients\"}]}\n```"
+  },
+  {
+   "start": 6,
+   "rows": [
+    6,
+    14,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    320,
+    360,
+    393,
+    472,
+    497,
+    522,
+    980
+   ],
+   "n_pred": 31,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 13,
+     "repaired": 1,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"drifepvas medical center\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"fenefen\"}, {\"row\": 2, \"column\": \"ZipCode\", \"value\": \"36833\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"zarosk\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"hepba\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"sulcal\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"tasbrin\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"morbrinjou\"}, {\"row\": 9, \"column\": \"Address1\", \"value\": \"5565 wxlo avxnux\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"lobrin\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"fenfen\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"velpimkel health center\"}, {\"row\": 11, \"column\": \"CountyName\", \"value\": \"jounydri\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"heart attack\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"quenloquen\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"torbrinsul regional hospital\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart failure\"}, {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"9797\"}, {\"row\": 15, \"column\": \"Address1\", \"value\": \"9512 osktas avenue\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"oskdrivel\"}, {\"row\": 16, \"column\": \"Address1\", \"value\": \"x4x3 quenrho drive\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"wexoskzar\"}, {\"row\": 17, \"column\": \"Address1\", \"value\": \"x775 velpim road\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"ulaquenula\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"zartasgar regional hospital\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"ami-8a\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"torulator\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"baoskvel regional hospital\"}, {\"row\": 20, \"column\": \"MeasureName\", \"value\": \"ami-1\"}]}\n```"
+  },
+  {
+   "start": 7,
+   "rows": [
+    7,
+    15,
+    547,
+    572,
+    597,
+    622,
+    647,
+    672,
+    697,
+    722,
+    747,
+    783,
+    808,
+    833,
+    858,
+    883,
+    911,
+    936,
+    961,
+    981
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"drivhepvas medical center\"}, {\"row\": 2, \"column\": \"ZipCode\", \"value\": \"06833\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 6, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"torrhowex\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart attack patients given pci within 90 minutes of arrival\"}, {\"row\": 10, \"column\": \"CountyName\", \"value\": \"toxxhogax\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"torjouula medical center\"}, {\"row\": 16, \"column\": \"ZipCode\", \"value\": \"27789\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"pimpimvas medical center\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"nygar\"}]}\n```"
+  },
+  {
+   "start": 26,
+   "rows": [
+    26,
+    51,
+    76,
+    101,
+    126,
+    151,
+    176,
+    201,
+    226,
+    251,
+    276,
+    321,
+    361,
+    394,
+    414,
+    432,
+    473,
+    498,
+    523,
+    548
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"pimulacal memorial hospital\"},\n    {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"911-904-449\"},\n    {\"row\": 5, \"column\": \"CountyName\", \"value\": \"pimquen\"},\n    {\"row\": 7, \"column\": \"City\", \"value\": \"lobrin\"},\n    {\"row\": 8, \"column\": \"ZipCode\", \"value\": \"67509\"},\n    {\"row\": 9, \"column\": \"CountyName\", \"value\": \"jounydri\"},\n    {\"row\": 10, \"column\": \"CountyName\", \"value\": \"calwextas\"},\n    {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"},\n    {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"hf-1\"},\n    {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"},\n    {\"row\": 19, \"column\": \"Sample\", \"value\": \"25\"},\n    {\"row\": 20, \"column\": \"PhoneNumber\", \"value\": \"804-798-4321\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 16,
+   "rows": [
+    16,
+    27,
+    52,
+    573,
+    598,
+    623,
+    648,
+    673,
+    698,
+    723,
+    748,
+    784,
+    809,
+    834,
+    859,
+    884,
+    912,
+    937,
+    962,
+    982
+   ],
+   "n_pred": 35,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"HospitalName\", \"value\": \"brinzoulo health center\"}, {\"row\": 2, \"column\": \"CountyName\", \"value\": \"fentorvas\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"pimulacal memorial hospital\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"jouzarhep regional hospital\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"hf-1\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"nykelrho memorial hospital\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"caltasba health center\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"torrhowex memorial hospital\"}, {\"row\": 7, \"column\": \"CountyName\", \"value\": \"sulbrin\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"zartaszar regional hospital\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"hf-1\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"}, {\"row\": 8, \"column\": \"Score\", \"value\": \"46%\"}, {\"row\": 8, \"column\": \"Sample\", \"value\": \"618 patients\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"garwexba regional hospital\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"}, {\"row\": 9, \"column\": \"Score\", \"value\": \"54%\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"batorquen regional hospital\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"vasdriny medical center\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"oskfenhep health center\"}, {\"row\": 12, \"column\": \"HospitalType\", \"value\": \"government - hospital district or authority\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"fenbrinhep health center\"}, {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"47%\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"torjouula medical center\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"jouhepwex memorial hospital\"}, {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"95663\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"vaspimquen medical center\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"velpimmor regional hospital\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"pimpimvas medical center\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"wexulazarxregionalxhospital\"}, {\"row\": 19, \"column\": \"ProviderNumber\", \"value\": \"90352\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"baoskvel regional hospital\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"ami-3\"}]}"
+  },
+  {
+   "start": 77,
+   "rows": [
+    77,
+    102,
+    127,
+    152,
+    177,
+    202,
+    227,
+    252,
+    277,
+    294,
+    322,
+    331,
+    362,
+    395,
+    415,
+    433,
+    474,
+    499,
+    524,
+    549
+   ],
+   "n_pred": 22,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 11,
+     "repaired": 0,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"levelcal health center\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"hepaca\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"sulskkel regional hospital\"}, {\"row\": 3, \"column\": \"CountyName\", \"value\": \"pimquen\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"morbrinjou\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"dribrintor medical center\"}, {\"row\": 5, \"column\": \"CountyName\", \"value\": \"lobrin\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"velpimkel health center\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"rhopim\"}, {\"row\": 8, \"column\": \"Score\", \"value\": \"89.0\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"al_hf-2\"}, {\"row\": 10, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"torbrinsul regional hospital\"}, {\"row\": 11, \"column\": \"CountyName\", \"value\": \"pimtas\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"al_ami-5\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"hepdriosk regional hospital\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"rhodrizar\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"ak\"}, {\"row\": 16, \"column\": \"MeasureCode\", \"value\": \"ak_hf-2\"}, {\"row\": 18, \"column\": \"ZipCode\", \"value\": \"89765\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"torulator\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"torulator\"}]}\n```"
+  },
+  {
+   "start": 17,
+   "rows": [
+    17,
+    28,
+    53,
+    574,
+    599,
+    624,
+    649,
+    674,
+    699,
+    724,
+    749,
+    785,
+    810,
+    835,
+    860,
+    885,
+    913,
+    938,
+    963,
+    983
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 7,
+     "repaired": 2,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 2,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 5, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 7, \"column\": \"HospitalType\", \"value\": \"government - local\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"93632\"}, {\"row\": 10, \"column\": \"ProviderNumber\", \"value\": \"92144\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"hf-2\"}, {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"hf-2\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"80%\"}, {\"row\": 18, \"column\": \"ProviderNumber\", \"value\": \"94747\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"pimpimvasx medical center\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"ami-4\"}]}\n```"
+  },
+  {
+   "start": 78,
+   "rows": [
+    78,
+    103,
+    128,
+    153,
+    178,
+    203,
+    228,
+    253,
+    278,
+    295,
+    323,
+    332,
+    363,
+    396,
+    416,
+    434,
+    475,
+    500,
+    525,
+    550
+   ],
+   "n_pred": 59,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 21,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 7,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 14,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"levelcal health center\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"hepaca\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"vistorwex regional hospital\"}, {\"row\": 2, \"column\": \"CountyName\", \"value\": \"zarlo\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"sulskkel regional hospital\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"mornyjou memorial hospital\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"zarpim\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"dribrintor medical center\"}, {\"row\": 5, \"column\": \"CountyName\", \"value\": \"lobrin\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"calvasba memorial hospital\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"fenfen\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"velpimkel health center\"}, {\"row\": 7, \"column\": \"State\", \"value\": \"ax\"}, {\"row\": 7, \"column\": \"CountyName\", \"value\": \"jounydri\"}, {\"row\": 8, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"calosk\"}, {\"row\": 8, \"column\": \"ZipCode\", \"value\": \"21600\"}, {\"row\": 9, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"baloosk regional hospital\"}, {\"row\": 9, \"column\": \"State\", \"value\": \"xl\"}, {\"row\": 10, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"drihepvas medical center\"}, {\"row\": 10, \"column\": \"Address1\", \"value\": \"3575xulanyx blvd\"}, {\"row\": 11, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"torbrinsul regional hospital\"}, {\"row\": 11, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 12, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"nyzarjou memorial hospital\"}, {\"row\": 12, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"proxrietary\"}, {\"row\": 12, \"column\": \"HospitalType\", \"value\": \"yex\"}, {\"row\": 13, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"velcalsul health center\"}, {\"row\": 13, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 14, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"wexsulba memorial hospital\"}, {\"row\": 14, \"column\": \"Address1\", \"value\": \"2423 quenrho drive\"}, {\"row\": 14, \"column\": \"City\", \"value\": \"wexoskzar\"}, {\"row\": 15, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"hepdriosk regional hospital\"}, {\"row\": 15, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 16, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"moroskzar regional hospital\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"ak\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"bahepwex\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"heart faxlure patxents gxven ace inhxbxtor or arb for left ventrxcular systolxc dysfunctxon (lvsd)\"}, {\"row\": 17, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"nybazar medical center\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"zartasgar regional hospital\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 19, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"sulpimmor regional hospital\"}, {\"row\": 19, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 20, \"column\": \"index\", \"value\": \"79\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"drizarbrin regional hospital\"}, {\"row\": 20, \"column\": \"State\", \"value\": \"al\"}]}\n```"
+  },
+  {
+   "start": 18,
+   "rows": [
+    18,
+    29,
+    54,
+    575,
+    600,
+    625,
+    650,
+    675,
+    700,
+    725,
+    750,
+    786,
+    811,
+    836,
+    861,
+    886,
+    914,
+    939,
+    964,
+    984
+   ],
+   "n_pred": 42,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 7,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"tasshor memorial hospital\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"fenton\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"brinzolo health center\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"zarosk\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"pimulac memorial hospital\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"vasmor\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"jouzarhep regional hospital\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"garmor\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"nykelrho memorial hospital\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"calba\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"caltasba health center\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"brinrho\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"torrhowex memorial hospital\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"jouhepvas\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"zartaszar regional hospital\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"fenfen\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"garwexba regional hospital\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"fenrho\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"batorquen regional hospital\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"joucalfen\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"vasdriny medical center\"}, {\"row\": 11, \"column\": \"City\", \"value\": \"rhooskgar\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"oskfenhep health center\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"hepfenvel\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"fenbrinhep health center\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"brinhep\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"torjouula medical center\"}, {\"row\": 14, \"column\": \"City\", \"value\": \"dribrinlo\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"jouhepwex memorial hospital\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"pimkelpim\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"vaspimquen medical center\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"velpimmor regional hospital\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"brinhep\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"pimpimvas medical center\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"garmortas\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"wexulazar regional hospital\"}, {\"row\": 19, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 19, \"column\": \"ProviderNumber\", \"value\": \"90352\"}, {\"row\": 20, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}]}\n```"
+  },
+  {
+   "start": 79,
+   "rows": [
+    79,
+    104,
+    129,
+    154,
+    179,
+    204,
+    229,
+    254,
+    279,
+    296,
+    324,
+    333,
+    364,
+    397,
+    417,
+    435,
+    476,
+    501,
+    526,
+    551
+   ],
+   "n_pred": 44,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 15,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 10,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"levelcal health center\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"hepburn\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"vastorex regional hospital\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"sulacal\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"sulskkel regional hospital\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"tuscaloosa\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"morrowjou memorial hospital\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"morbrinjou\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"dribrinton medical center\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"driquen\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"calvarsa memorial hospital\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"fenfen\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"velpimkel health center\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"rhopim\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"heart failure\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"jounydri\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"baloosk regional hospital\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"quenloquen\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"heart failure\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"ami-3\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"torbrinsul regional hospital\"}, {\"row\": 11, \"column\": \"City\", \"value\": \"rhogar\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"pneumonia\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"nyzarjou memorial hospital\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"zarosk\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"velcalsul health center\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"oskdrivel\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"wexsulba memorial hospital\"}, {\"row\": 14, \"column\": \"City\", \"value\": \"wexoskzar\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"hepdriosk regional hospital\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"rhodrizar\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"moroskzar regional hospital\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"bahepwex\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"nybazar medical center\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"ulaquenula\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"zartasgar regional hospital\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"quenzar\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"sulpimmor regional hospital\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"torulator\"}, {\"row\": 19, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"drizarbrin regional hospital\"}, {\"row\": 20, \"column\": \"City\", \"value\": \"torulator\"}]}"
+  },
+  {
+   "start": 30,
+   "rows": [
+    30,
+    55,
+    80,
+    576,
+    601,
+    626,
+    651,
+    676,
+    701,
+    726,
+    751,
+    787,
+    812,
+    837,
+    862,
+    887,
+    915,
+    940,
+    965,
+    985
+   ],
+   "n_pred": 4,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 7, \"column\": \"MeasureName\", \"value\": \"heart failure patients given smoking cessation advice/counseling\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"hf-4\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"hf-4\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"heart failure patients given smoking cessation advice/counseling\"}]}\n```"
+  },
+  {
+   "start": 105,
+   "rows": [
+    105,
+    130,
+    155,
+    180,
+    205,
+    230,
+    255,
+    280,
+    297,
+    325,
+    334,
+    365,
+    398,
+    418,
+    436,
+    452,
+    477,
+    502,
+    527,
+    552
+   ],
+   "n_pred": 33,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"City\", \"value\": \"sulcalcal\"}, {\"row\": 1, \"column\": \"CountyName\", \"value\": \"zarlo\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"tasbrin\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"morbrinjou\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"drixuen\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"fenfen\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"rhopim\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"kelbrin\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"quenloquen\"}, {\"row\": 8, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"heart attack patients given smoking cessation advice/counseling\"}, {\"row\": 10, \"column\": \"ZipCode\", \"value\": \"05555\"}, {\"row\": 11, \"column\": \"CountyName\", \"value\": \"zarosk\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"pn-2\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"oskdrivel\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"wexsulba memorial hospital\"}, {\"row\": 14, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart attack\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"ami-5\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"4 patients\"}, {\"row\": 15, \"column\": \"State\", \"value\": \"ak\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"nykel\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"fentor\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"xl\"}, {\"row\": 17, \"column\": \"CountyName\", \"value\": \"ulaquenula\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"quenzar\"}, {\"row\": 18, \"column\": \"ZipCode\", \"value\": \"89997\"}, {\"row\": 18, \"column\": \"Score\", \"value\": \"93%\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"44 patients\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"torulator\"}, {\"row\": 19, \"column\": \"ZipCode\", \"value\": \"91803\"}, {\"row\": 20, \"column\": \"City\", \"value\": \"torulator\"}]}\n```"
+  },
+  {
+   "start": 31,
+   "rows": [
+    31,
+    56,
+    81,
+    577,
+    602,
+    627,
+    652,
+    677,
+    702,
+    727,
+    752,
+    788,
+    813,
+    838,
+    863,
+    888,
+    916,
+    941,
+    966,
+    986
+   ],
+   "n_pred": 99,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 9,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 10,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 3
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"91033\"}, {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Brinjoulo Health Center\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"Zarosk\"}, {\"row\": 1, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 1, \"column\": \"CountyName\", \"value\": \"Fentorvas\"}, {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"94179\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"Pimulacal Memorial Hospital\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"Vxsmor\"}, {\"row\": 2, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 2, \"column\": \"CountyName\", \"value\": \"Lobrin\"}, {\"row\": 3, \"column\": \"ProviderNumber\", \"value\": \"91911\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"Ulavelcal Health Center\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"Hepba\"}, {\"row\": 3, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 3, \"column\": \"CountyName\", \"value\": \"Ulababa\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"pn-3b\"}, {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"93548\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"Nykelrho Memorial Hospital\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"Calba\"}, {\"row\": 5, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 5, \"column\": \"CountyName\", \"value\": \"Nygax\"}, {\"row\": 6, \"column\": \"ProviderNumber\", \"value\": \"96911\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"Caltasba Health Center\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"Brinrho\"}, {\"row\": 6, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 6, \"column\": \"CountyName\", \"value\": \"Vaskelpim\"}, {\"row\": 7, \"column\": \"ProviderNumber\", \"value\": \"90475\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"Torrhowex Memorial Hospital\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"Jouhepvas\"}, {\"row\": 7, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 7, \"column\": \"CountyName\", \"value\": \"Sulbrin\"}, {\"row\": 8, \"column\": \"ProviderNumber\", \"value\": \"98644\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"Zartaszar Regional Hospital\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"Fenfen\"}, {\"row\": 8, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"Tasjoupim\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"93632\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"Garwexba Regional Hospital\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"Fenrho\"}, {\"row\": 9, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 9, \"column\": \"CountyName\", \"value\": \"Joutor\"}, {\"row\": 10, \"column\": \"ProviderNumber\", \"value\": \"97174\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"Batorquen Regional Hospital\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"Joucalfen\"}, {\"row\": 10, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 10, \"column\": \"CountyName\", \"value\": \"Torrhogar\"}, {\"row\": 11, \"column\": \"ProviderNumber\", \"value\": \"98123\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"Vasdriny Medical Center\"}, {\"row\": 11, \"column\": \"City\", \"value\": \"Rhooskgar\"}, {\"row\": 11, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 11, \"column\": \"CountyName\", \"value\": \"Xarlo\"}, {\"row\": 12, \"column\": \"ProviderNumber\", \"value\": \"99058\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"Oskfenhep Health Center\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"Hepfenvel\"}, {\"row\": 12, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 12, \"column\": \"CountyName\", \"value\": \"Calvas\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"pn-2\"}, {\"row\": 13, \"column\": \"ProviderNumber\", \"value\": \"93818\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"Fenbrinhep Health Center\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"Brinhep\"}, {\"row\": 13, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 13, \"column\": \"CountyName\", \"value\": \"Hephep\"}, {\"row\": 14, \"column\": \"ProviderNumber\", \"value\": \"95663\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"Torjouula Medical Center\"}, {\"row\": 14, \"column\": \"City\", \"value\": \"Dribrinlo\"}, {\"row\": 14, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 14, \"column\": \"CountyName\", \"value\": \"Hepbahawex\"}, {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"93782\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"Jouhepwex Memorial Hospital\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"Pimkelpim\"}, {\"row\": 15, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"Tasula\"}, {\"row\": 16, \"column\": \"ProviderNumber\", \"value\": \"9384\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"Vaspimquen Medical Center\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"Drikelkel\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 16, \"column\": \"CountyName\", \"value\": \"Heptor\"}, {\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"97530\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"Velpimmor Regional Hospital\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"Heprho\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 17, \"column\": \"CountyName\", \"value\": \"Brinhep\"}, {\"row\": 18, \"column\": \"ProviderNumber\", \"value\": \"94747\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"Pimpimvas Medical Center\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"Garmortas\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 18, \"column\": \"CountyName\", \"value\": \"Drimorgar\"}, {\"row\": 19, \"column\": \"ProviderNumber\", \"value\": \"90352\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"Wexulazar Regional Hospital\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"Driquenzar\"}, {\"row\": 19, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"Xygar\"}, {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"96818\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"Baoskvel Regional Hospital\"}, {\"row\": 20, \"column\": \"City\", \"value\": \"Loulavas\"}, {\"row\": 20, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"Sulzar\"}, {\"row\": 20, \"column\": \"MeasureName\", \"value\": \"Heart attack patients given PCI within 90 minutes of arrival\"}, {\"row\": 20, \"column\": \"Score\", \"value\": \"95%\"}]}\n```"
+  },
+  {
+   "start": 106,
+   "rows": [
+    106,
+    131,
+    156,
+    181,
+    206,
+    231,
+    256,
+    281,
+    298,
+    326,
+    335,
+    366,
+    379,
+    399,
+    419,
+    437,
+    453,
+    478,
+    503,
+    528
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 7,
+     "repaired": 4,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 7,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"},\n    {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n    {\"row\": 7, \"column\": \"Condition\", \"value\": \"pneumonia\"},\n    {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},\n    {\"row\": 7, \"column\": \"Score\", \"value\": \"60\"},\n    {\"row\": 7, \"column\": \"Sample\", \"value\": \"24 patients\"},\n    {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"baloosk regional hospital\"},\n    {\"row\": 8, \"column\": \"Condition\", \"value\": \"pneumonia\"},\n    {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},\n    {\"row\": 8, \"column\": \"Score\", \"value\": \"100\"},\n    {\"row\": 8, \"column\": \"Sample\", \"value\": \"110 patients\"},\n    {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"velcalsul health center\"},\n    {\"row\": 12, \"column\": \"Condition\", \"value\": \"pneumonia\"},\n    {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},\n    {\"row\": 12, \"column\": \"Score\", \"value\": \"98\"},\n    {\"row\": 12, \"column\": \"Sample\", \"value\": \"59 patients\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 32,
+   "rows": [
+    32,
+    57,
+    553,
+    578,
+    603,
+    628,
+    653,
+    678,
+    703,
+    728,
+    753,
+    789,
+    814,
+    839,
+    864,
+    889,
+    917,
+    942,
+    967,
+    987
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 9,
+     "repaired": 3,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"Address1\", \"value\": \"7103 ulalox Blvd\"},\n    {\"row\": 6, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n    {\"row\": 7, \"column\": \"City\", \"value\": \"Torrhowex\"},\n    {\"row\": 8, \"column\": \"index\", \"value\": \"98644\"},\n    {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"al_pn-3b\"},\n    {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},\n    {\"row\": 8, \"column\": \"Stateavg\", \"value\": \"al_pn-3b\"},\n    {\"row\": 16, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 16, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n    {\"row\": 18, \"column\": \"index\", \"value\": \"94747\"},\n    {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"al_pn-3b\"},\n    {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 82,
+   "rows": [
+    82,
+    107,
+    132,
+    157,
+    182,
+    207,
+    232,
+    257,
+    282,
+    299,
+    327,
+    336,
+    367,
+    380,
+    400,
+    420,
+    438,
+    454,
+    479,
+    504
+   ],
+   "n_pred": 39,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 16,
+     "repaired": 1,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 14,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"levelcal health center\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"hepaca\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"vastorex regional hospital\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"sulaca\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"sulskkel regional hospital\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"tacabrin\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"mornyjou memorial hospital\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"dribrintor medical center\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"lobrina\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"calvarsbay memorial hospital\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"tacabrin\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"velpimcel health center\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"joundri\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"calves\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"baloosk regional hospital\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"quenloca\"}, {\"row\": 10, \"column\": \"MeasureName\", \"value\": \"heart attack patients given fibrinolytic medication within 30 minutes of arrival\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"torbrinsul regional hospital\"}, {\"row\": 11, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"nyzarjou memorial hospital\"}, {\"row\": 12, \"column\": \"Sample\", \"value\": \"77 patients\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"velcalsul health center\"}, {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given smoking cessation advice/counseling\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"brinwexcal regional hospital\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspixin at discharge\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"wexsulba memorial hospital\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"hepdriosk regional hospital\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"heart attack patients given pci within 90 minutes of arrival\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"moroskzar regional hospital\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"ak\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"tasvasrho memorial hospital\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"fentor\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"nybazar medical center\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"ulaquena\"}, {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"zartasgar regional hospital\"}, {\"row\": 20, \"column\": \"State\", \"value\": \"al\"}]}\n```"
+  },
+  {
+   "start": 33,
+   "rows": [
+    33,
+    529,
+    554,
+    579,
+    604,
+    629,
+    654,
+    679,
+    704,
+    729,
+    754,
+    790,
+    815,
+    840,
+    865,
+    890,
+    918,
+    943,
+    968,
+    988
+   ],
+   "n_pred": 24,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 8,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 3
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 3, \"column\": \"Address1\", \"value\": \"6907 Dritas Blvd\"}, {\"row\": 3, \"column\": \"CountyName\", \"value\": \"Looskba\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"Garmor\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"Hepgarvas\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"Txrrhxwex Memorial Hospital\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"Jxuhepvas\"}, {\"row\": 8, \"column\": \"Address1\", \"value\": \"659 Baba Road\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"Tasjoupim\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"96622\"}, {\"row\": 9, \"column\": \"Address1\", \"value\": \"9784 Rhony Road\"}, {\"row\": 9, \"column\": \"CountyName\", \"value\": \"Joutor\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"Batorquen Regional Hospital\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"Joucalfen\"}, {\"row\": 10, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"pn-4\"}, {\"row\": 13, \"column\": \"ZipCode\", \"value\": \"16559\"}, {\"row\": 13, \"column\": \"CountyName\", \"value\": \"Hephep\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-4\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given smoking cessation advice/counseling\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"90%\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"130 patients\"}, {\"row\": 18, \"column\": \"Address1\", \"value\": \"6407 Pimvel Avenue\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"Garmortas\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"Nygar\"}]}\n```"
+  },
+  {
+   "start": 58,
+   "rows": [
+    58,
+    83,
+    108,
+    133,
+    158,
+    183,
+    208,
+    233,
+    258,
+    283,
+    300,
+    328,
+    337,
+    368,
+    381,
+    401,
+    421,
+    439,
+    455,
+    480
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 9,
+     "repaired": 1,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 8,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 2, \"column\": \"City\", \"value\": \"hepba\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"sulcalcal\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"tasbrin\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"morbrinjou\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"dribrintor\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"tasjoupim\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"velpimkel\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"hepdridri\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"baloosk\"}, {\"row\": 11, \"column\": \"CountyName\", \"value\": \"tuscaloosa\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"pn-5c\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"nyzarjou memorial hospital\"}, {\"row\": 14, \"column\": \"ProviderNumber\", \"value\": \"97297\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"zarmor\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"wexsulba\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"rhodrizar\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"ak\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"fentor\"}, {\"row\": 20, \"column\": \"City\", \"value\": \"ulaquenula\"}]}\n```"
+  },
+  {
+   "start": 505,
+   "rows": [
+    505,
+    530,
+    555,
+    580,
+    605,
+    630,
+    655,
+    680,
+    705,
+    730,
+    755,
+    791,
+    816,
+    841,
+    866,
+    891,
+    919,
+    944,
+    969,
+    989
+   ],
+   "n_pred": 22,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"drizarbrin regional hospital\"},\n    {\"row\": 3, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given initial antibiotic(s) within 6 hours after arrival\"},\n    {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"jouzarhep regional hospital\"},\n    {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"pn-5c\"},\n    {\"row\": 4, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given initial antibiotic(s) within 6 hours after arrival\"},\n    {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"torrhowex memorial hospital\"},\n    {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"zartaszar regional hospital\"},\n    {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"93632\"},\n    {\"row\": 9, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given initial antibiotic(s) within 6 hours after arrival\"},\n    {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"baxorquen regional hospital\"},\n    {\"row\": 10, \"column\": \"Address1\", \"value\": \"5142 tormor drive\"},\n    {\"row\": 10, \"column\": \"City\", \"value\": \"joucalfen\"},\n    {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"vasdriny medical center\"},\n    {\"row\": 12, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"fenbrinhep health center\"},\n    {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given initial antibiotic(s) within 6 hours after arrival\"},\n    {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"jouhepwex memorial hospital\"},\n    {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"},\n    {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given initial antibiotic(s) within 6 hours after arrival\"},\n    {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"velpimmor regional hospital\"},\n    {\"row\": 17, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 34,
+   "rows": [
+    34,
+    59,
+    84,
+    109,
+    134,
+    159,
+    184,
+    209,
+    234,
+    259,
+    284,
+    301,
+    329,
+    338,
+    369,
+    382,
+    402,
+    422,
+    440,
+    456
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 9, \"column\": \"ZipCode\", \"value\": \"21600\"}, {\"row\": 9, \"column\": \"CountyName\", \"value\": \"jounydri\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given the most appropriate initial antibiotic(s)\"}, {\"row\": 9, \"column\": \"Score\", \"value\": \"88%\"}, {\"row\": 9, \"column\": \"Sample\", \"value\": \"82 patients\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"hf-1\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"velcalsul health center\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given the most appropriate initial antibiotic(s)\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-6\"}, {\"row\": 20, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 20, \"column\": \"PhoneNumber\", \"value\": \"8060799852\"}, {\"row\": 20, \"column\": \"ZipCode\", \"value\": \"06833\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"tasjoupxm\"}, {\"row\": 20, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 20, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}]}\n```"
+  },
+  {
+   "start": 481,
+   "rows": [
+    481,
+    506,
+    531,
+    556,
+    581,
+    606,
+    631,
+    656,
+    681,
+    706,
+    731,
+    756,
+    792,
+    817,
+    842,
+    867,
+    892,
+    920,
+    945,
+    970
+   ],
+   "n_pred": 26,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 6, \"column\": \"CountyName\", \"value\": \"calba\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"caltasba health center\"}, {\"row\": 7, \"column\": \"CountyName\", \"value\": \"vaskelpim\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"pn-6\"}, {\"row\": 10, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given the most appropriate initial antibiotic(s)\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"96%\"}, {\"row\": 10, \"column\": \"Sample\", \"value\": \"52 patients\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"batorquen regional hospital\"}, {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"vasdriny medical center\"}, {\"row\": 12, \"column\": \"Address1\", \"value\": \"5209 garny street\"}, {\"row\": 13, \"column\": \"MeasureCode\", \"value\": \"pn-6\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"pn-6\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"torjouula medical center\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"hephep\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-6\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"jouhepwex memorial hospital\"}, {\"row\": 16, \"column\": \"CountyName\", \"value\": \"tasula\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"vaspimquen medical center\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"velpimmor regional hospital\"}, {\"row\": 18, \"column\": \"CountyName\", \"value\": \"hephep\"}, {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"al_pn-6\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"pimpimvas medical center\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"garmortas\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"nygar\"}]}\n```"
+  },
+  {
+   "start": 35,
+   "rows": [
+    35,
+    60,
+    85,
+    110,
+    135,
+    160,
+    185,
+    210,
+    235,
+    260,
+    285,
+    302,
+    330,
+    339,
+    370,
+    383,
+    403,
+    423,
+    441,
+    990
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 8, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given influenza vaccination\"}, {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"heart failure patients given an evaluation of left ventricular systolic (lvs) function\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"al_pn-7\"}, {\"row\": 20, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"al_hf-4\"}]}\n```"
+  },
+  {
+   "start": 457,
+   "rows": [
+    457,
+    482,
+    507,
+    532,
+    557,
+    582,
+    607,
+    632,
+    657,
+    682,
+    707,
+    732,
+    757,
+    793,
+    818,
+    843,
+    868,
+    893,
+    921,
+    946
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"zartasgar regional hospital\"},\n    {\"row\": 3, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given influenza vaccination\"},\n    {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"sulpixxor regional hospital\"},\n    {\"row\": 4, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given influenza vaccination\"},\n    {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"torrhowex memorial hospital\"},\n    {\"row\": 14, \"column\": \"ProviderNumber\", \"value\": \"99050\"},\n    {\"row\": 17, \"column\": \"CountyName\", \"value\": \"tasula\"},\n    {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given influenza vaccination\"},\n    {\"row\": 19, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"},\n    {\"row\": 19, \"column\": \"Score\", \"value\": \"99%\"},\n    {\"row\": 20, \"column\": \"HospitalName\", \"value\": \"pimpimvas medical center\"}\n  ]\n}"
+  },
+  {
+   "start": 36,
+   "rows": [
+    36,
+    61,
+    86,
+    111,
+    136,
+    161,
+    186,
+    211,
+    236,
+    261,
+    286,
+    303,
+    340,
+    371,
+    384,
+    404,
+    424,
+    442,
+    971,
+    991
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 4, \"column\": \"HospitalName\", \"value\": \"vastorwex regional hospital\"}, {\"row\": 4, \"column\": \"Address1\", \"value\": \"8269 calba road\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"sulcalcal\"}, {\"row\": 4, \"column\": \"Score\", \"value\": \"91%\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"11 patients\"}, {\"row\": 10, \"column\": \"ProviderNumber\", \"value\": \"97993\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"kelbrin\"}, {\"row\": 10, \"column\": \"ZipCode\", \"value\": \"71332\"}, {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"94363\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"brinwexcax regionax hospitax\"}, {\"row\": 15, \"column\": \"Address1\", \"value\": \"651 wexmor road\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"zarmor\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"ami-7a\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"heart attack patients given fibrinolytic medication within 30 minutes of arrival\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"0 patients\"}]}\n```"
+  },
+  {
+   "start": 458,
+   "rows": [
+    458,
+    483,
+    508,
+    533,
+    558,
+    583,
+    608,
+    633,
+    658,
+    683,
+    708,
+    733,
+    758,
+    766,
+    794,
+    819,
+    844,
+    869,
+    894,
+    922
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"tassavrho memorial hospital\"},\n    {\"row\": 2, \"column\": \"City\", \"value\": \"ulaquenula\"},\n    {\"row\": 3, \"column\": \"City\", \"value\": \"quenzar\"},\n    {\"row\": 4, \"column\": \"City\", \"value\": \"torulator\"},\n    {\"row\": 5, \"column\": \"City\", \"value\": \"torulator\"},\n    {\"row\": 6, \"column\": \"City\", \"value\": \"garmor\"},\n    {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"nykelrho memorial hospital\"},\n    {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"surgical infection prevention\"},\n    {\"row\": 8, \"column\": \"City\", \"value\": \"brinrho\"},\n    {\"row\": 9, \"column\": \"City\", \"value\": \"jouhepvas\"},\n    {\"row\": 10, \"column\": \"City\", \"value\": \"fenfen\"},\n    {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"},\n    {\"row\": 13, \"column\": \"City\", \"value\": \"rhooskgar\"},\n    {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"children's asthma care\"},\n    {\"row\": 18, \"column\": \"EmergencyService\", \"value\": \"surgical infection prevention\"},\n    {\"row\": 19, \"column\": \"City\", \"value\": \"drikelkel\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 37,
+   "rows": [
+    37,
+    62,
+    87,
+    112,
+    137,
+    162,
+    187,
+    212,
+    237,
+    262,
+    287,
+    304,
+    341,
+    372,
+    385,
+    405,
+    425,
+    947,
+    972,
+    992
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 7, \"column\": \"Score\", \"value\": \"95\"}, {\"row\": 9, \"column\": \"Score\", \"value\": \"9x%\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"scip-card-2\"}, {\"row\": 16, \"column\": \"Sample\", \"value\": \"131 patients\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"27 patients\"}, {\"row\": 19, \"column\": \"Value\", \"value\": \"al_scip-card-2\"}]}"
+  },
+  {
+   "start": 443,
+   "rows": [
+    443,
+    459,
+    484,
+    509,
+    534,
+    559,
+    584,
+    609,
+    634,
+    659,
+    684,
+    709,
+    734,
+    759,
+    767,
+    795,
+    820,
+    845,
+    870,
+    895
+   ],
+   "n_pred": 32,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"City\", \"value\": \"bahepwex\"},\n    {\"row\": 1, \"column\": \"CountyName\", \"value\": \"nykel\"},\n    {\"row\": 2, \"column\": \"City\", \"value\": \"fentor\"},\n    {\"row\": 3, \"column\": \"City\", \"value\": \"ulaquenula\"},\n    {\"row\": 4, \"column\": \"City\", \"value\": \"quenzar\"},\n    {\"row\": 5, \"column\": \"City\", \"value\": \"torulator\"},\n    {\"row\": 6, \"column\": \"index\", \"value\": \"x0150\"},\n    {\"row\": 6, \"column\": \"City\", \"value\": \"torulator\"},\n    {\"row\": 6, \"column\": \"State\", \"value\": \"xl\"},\n    {\"row\": 7, \"column\": \"City\", \"value\": \"garmor\"},\n    {\"row\": 8, \"column\": \"City\", \"value\": \"calba\"},\n    {\"row\": 8, \"column\": \"Score\", \"value\": \"empty\"},\n    {\"row\": 8, \"column\": \"Sample\", \"value\": \"empty\"},\n    {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"caltasba health center\"},\n    {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"96915\"},\n    {\"row\": 9, \"column\": \"HospitalType\", \"value\": \"acute care hospixals\"},\n    {\"row\": 9, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"},\n    {\"row\": 10, \"column\": \"City\", \"value\": \"jouhepvas\"},\n    {\"row\": 11, \"column\": \"City\", \"value\": \"fenfen\"},\n    {\"row\": 12, \"column\": \"City\", \"value\": \"fenrho\"},\n    {\"row\": 13, \"column\": \"City\", \"value\": \"joucalfen\"},\n    {\"row\": 14, \"column\": \"City\", \"value\": \"rhooskgar\"},\n    {\"row\": 15, \"column\": \"City\", \"value\": \"rhogar\"},\n    {\"row\": 16, \"column\": \"City\", \"value\": \"hepfenvel\"},\n    {\"row\": 17, \"column\": \"City\", \"value\": \"brinhep\"},\n    {\"row\": 18, \"column\": \"City\", \"value\": \"dribrinlo\"},\n    {\"row\": 18, \"column\": \"CountyName\", \"value\": \"hepbawex\"},\n    {\"row\": 19, \"column\": \"City\", \"value\": \"pimkelpim\"},\n    {\"row\": 19, \"column\": \"CountyName\", \"value\": \"tasula\"},\n    {\"row\": 20, \"column\": \"index\", \"value\": \"vaspimquen medical center\"},\n    {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"93584\"},\n    {\"row\": 20, \"column\": \"City\", \"value\": \"drikxlkxl\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 38,
+   "rows": [
+    38,
+    63,
+    88,
+    113,
+    138,
+    163,
+    188,
+    213,
+    238,
+    263,
+    288,
+    305,
+    342,
+    373,
+    386,
+    406,
+    923,
+    948,
+    973,
+    993
+   ],
+   "n_pred": 27,
+   "counts": {
+    "all": {
+     "errors": 17,
+     "predicted": 9,
+     "repaired": 1,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 8,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 2, \"column\": \"ZipCode\", \"value\": \"34834\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 6, \"column\": \"Score\", \"value\": \"7%\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"calvasba memorial hospital\"}, {\"row\": 8, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"surgical patients who were given the right kind of antibiotic to help prevent infection\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"scip-inf-2\"}, {\"row\": 9, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"vasvel\"}, {\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given pneumococcal vaccination\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"pn-2\"}, {\"row\": 13, \"column\": \"ZipCode\", \"value\": \"68704\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"hf-1\"}, {\"row\": 16, \"column\": \"ZipCode\", \"value\": \"3060\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given the most appropriate initial antibiotic(s)\"}, {\"row\": 16, \"column\": \"MeasureCode\", \"value\": \"pn-6\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"heprho\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"scip-inf-1\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"402 patients\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"397 patients\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"surgery patients who were given an antibiotic at the right time (within one hour before surgery) to help prevent infection\"}, {\"row\": 20, \"column\": \"MeasureName\", \"value\": \"pneumonia patients given smoking cessation advice/counseling\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"pn-4\"}]}\n```"
+  },
+  {
+   "start": 426,
+   "rows": [
+    426,
+    444,
+    460,
+    485,
+    510,
+    535,
+    560,
+    585,
+    610,
+    635,
+    660,
+    685,
+    710,
+    735,
+    760,
+    768,
+    796,
+    821,
+    846,
+    871
+   ],
+   "n_pred": 21,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"HospitalName\", \"value\": \"hepdriosk regional hospital\"},\n    {\"row\": 2, \"column\": \"City\", \"value\": \"bahepwex\"},\n    {\"row\": 3, \"column\": \"City\", \"value\": \"fentor\"},\n    {\"row\": 4, \"column\": \"City\", \"value\": \"xlaqxenxla\"},\n    {\"row\": 5, \"column\": \"CountyName\", \"value\": \"tasheptor\"},\n    {\"row\": 6, \"column\": \"City\", \"value\": \"torulator\"},\n    {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"drizarbrin rxgional hospital\"},\n    {\"row\": 8, \"column\": \"City\", \"value\": \"garmor\"},\n    {\"row\": 9, \"column\": \"CountyName\", \"value\": \"nygar\"},\n    {\"row\": 10, \"column\": \"City\", \"value\": \"brinrho\"},\n    {\"row\": 11, \"column\": \"CountyName\", \"value\": \"sulbrin\"},\n    {\"row\": 12, \"column\": \"ZipCode\", \"value\": \"xx31x\"},\n    {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"gxrwexbx regional hospital\"},\n    {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"scip-inf-2\"},\n    {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"},\n    {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"scip-inf-2\"},\n    {\"row\": 16, \"column\": \"City\", \"value\": \"rhogar\"},\n    {\"row\": 17, \"column\": \"CountyName\", \"value\": \"calvas\"},\n    {\"row\": 18, \"column\": \"City\", \"value\": \"brxnhep\"},\n    {\"row\": 19, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"},\n    {\"row\": 20, \"column\": \"CountyName\", \"value\": \"tasula\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 39,
+   "rows": [
+    39,
+    64,
+    89,
+    114,
+    139,
+    164,
+    189,
+    214,
+    239,
+    264,
+    289,
+    306,
+    343,
+    348,
+    374,
+    896,
+    924,
+    949,
+    974,
+    994
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 0,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 8,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 4, \"column\": \"CountyName\", \"value\": \"zarlo\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"83989\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"public\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"velpimkel health center\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"91537\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"scip-inf-3\"}, {\"row\": 10, \"column\": \"CountyName\", \"value\": \"tasjoupim\"}, {\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"public\"}, {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"scip-inf-3\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"public\"}, {\"row\": 16, \"column\": \"ProviderNumber\", \"value\": \"93584\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"vaspimquen medical center\"}, {\"row\": 16, \"column\": \"CountyName\", \"value\": \"heptor\"}, {\"row\": 16, \"column\": \"MeasureCode\", \"value\": \"scip-inf-2\"}, {\"row\": 18, \"column\": \"HospitalOwner\", \"value\": \"public\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"scip-inf-2\"}]}\n```"
+  },
+  {
+   "start": 387,
+   "rows": [
+    387,
+    407,
+    427,
+    445,
+    461,
+    486,
+    511,
+    536,
+    561,
+    586,
+    611,
+    636,
+    661,
+    686,
+    711,
+    736,
+    761,
+    769,
+    797,
+    822
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 5,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"City\", \"value\": \"rhodrizar\"},\n    {\"row\": 4, \"column\": \"State\", \"value\": \"ak\"},\n    {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"36833\"},\n    {\"row\": 6, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"zartasgar regional hospital\"},\n    {\"row\": 7, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 8, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 9, \"column\": \"ZipCode\", \"value\": \"10748\"},\n    {\"row\": 10, \"column\": \"CountyName\", \"value\": \"jouzarhep\"},\n    {\"row\": 11, \"column\": \"ZipCode\", \"value\": \"31587\"},\n    {\"row\": 12, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 13, \"column\": \"CountyName\", \"value\": \"torrhowex\"},\n    {\"row\": 14, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 15, \"column\": \"Score\", \"value\": \"100%\"},\n    {\"row\": 16, \"column\": \"Address1\", \"value\": \"5142 xormor drive\"},\n    {\"row\": 17, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 18, \"column\": \"ZipCode\", \"value\": \"05335\"},\n    {\"row\": 19, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 20, \"column\": \"Address1\", \"value\": \"7692 jousul blvd\"}\n  ]\n}"
+  },
+  {
+   "start": 40,
+   "rows": [
+    40,
+    65,
+    90,
+    115,
+    140,
+    165,
+    190,
+    215,
+    240,
+    265,
+    290,
+    307,
+    344,
+    847,
+    872,
+    897,
+    925,
+    950,
+    975,
+    995
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 4, \"column\": \"Sample\", \"value\": \"0 patients\"},\n    {\"row\": 7, \"column\": \"MeasureCode\", \"value\": \"scip-inf-4\"},\n    {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery\"},\n    {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"pn-4\"},\n    {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"},\n    {\"row\": 15, \"column\": \"Sample\", \"value\": \"15 patients\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 349,
+   "rows": [
+    349,
+    375,
+    388,
+    408,
+    428,
+    446,
+    462,
+    487,
+    512,
+    537,
+    562,
+    587,
+    612,
+    637,
+    662,
+    687,
+    712,
+    737,
+    762,
+    770
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 3
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"ZipCode\", \"value\": \"8373\"},\n    {\"row\": 4, \"column\": \"ProviderNumber\", \"value\": \"9348\"},\n    {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"1973\"},\n    {\"row\": 7, \"column\": \"Sample\", \"value\": \"x patients\"},\n    {\"row\": 11, \"column\": \"ZipCode\", \"value\": \"10748\"},\n    {\"row\": 12, \"column\": \"HospitalName\", \"value\": \"jouzarhep regional hospital\"},\n    {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"nykelrho memorial hospital\"},\n    {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery\"},\n    {\"row\": 15, \"column\": \"CountyName\", \"value\": \"sulbrin\"},\n    {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"},\n    {\"row\": 18, \"column\": \"CountyName\", \"value\": \"torrhogar\"},\n    {\"row\": 19, \"column\": \"ProviderNumber\", \"value\": \"98123\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 41,
+   "rows": [
+    41,
+    66,
+    91,
+    116,
+    141,
+    166,
+    191,
+    216,
+    241,
+    266,
+    291,
+    798,
+    823,
+    848,
+    873,
+    898,
+    926,
+    951,
+    976,
+    996
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"Address1\", \"value\": \"1720 Joutor Drive\"},\n    {\"row\": 4, \"column\": \"City\", \"value\": \"Sulcalcal\"},\n    {\"row\": 6, \"column\": \"Address1\", \"value\": \"3300 Rhoula Avenue\"},\n    {\"row\": 8, \"column\": \"Address1\", \"value\": \"1589 Torosk Road\"},\n    {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"Hepdridri Health Center\"},\n    {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"scip-inf-6\"},\n    {\"row\": 14, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"scip-inf-6\"},\n    {\"row\": 15, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"scip-inf-6\"},\n    {\"row\": 16, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 16, \"column\": \"MeasureCode\", \"value\": \"scip-inf-6\"},\n    {\"row\": 17, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n    {\"row\": 18, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"},\n    {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"Wexulazar Regional Hospital\"},\n    {\"row\": 19, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 308,
+   "rows": [
+    308,
+    345,
+    350,
+    376,
+    389,
+    409,
+    429,
+    447,
+    463,
+    488,
+    513,
+    538,
+    563,
+    588,
+    613,
+    638,
+    663,
+    688,
+    713,
+    738
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 8,
+     "repaired": 3,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"drifepvas medical center\"}, {\"row\": 3, \"column\": \"CountyName\", \"value\": \"tasjoupim\"}, {\"row\": 5, \"column\": \"MeasureName\", \"value\": \"heart failure patients given smoking cessation advice/counseling\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 14, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 14, \"column\": \"Condition\", \"value\": \"surgical infection prevention\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"823338189\"}, {\"row\": 19, \"column\": \"Address1\", \"value\": \"9784 rhony road\"}, {\"row\": 19, \"column\": \"Address3\", \"value\": \"\"}]}\n```"
+  },
+  {
+   "start": 42,
+   "rows": [
+    42,
+    67,
+    92,
+    117,
+    142,
+    167,
+    192,
+    217,
+    242,
+    763,
+    771,
+    799,
+    824,
+    849,
+    874,
+    899,
+    927,
+    952,
+    977,
+    997
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n    {\"row\": 8, \"column\": \"PhoneNumber\", \"value\": \"671550301\"},\n    {\"row\": 10, \"column\": \"MeasureName\", \"value\": \"scip-inf-6\"},\n    {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"scip-inf-6\"},\n    {\"row\": 18, \"column\": \"Sample\", \"value\": \"empty\"},\n    {\"row\": 18, \"column\": \"Score\", value: \"empty\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 267,
+   "rows": [
+    267,
+    292,
+    309,
+    346,
+    351,
+    377,
+    390,
+    410,
+    412,
+    430,
+    448,
+    450,
+    464,
+    489,
+    514,
+    539,
+    564,
+    589,
+    614,
+    639
+   ],
+   "n_pred": 22,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 6,
+     "repaired": 1,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"hepdridri health center\"}, {\"row\": 1, \"column\": \"ZipCode\", \"value\": \"76332\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"nyzarjou memorial hospital\"}, {\"row\": 4, \"column\": \"MeasureName\", \"value\": \"surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries\"}, {\"row\": 4, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"497 patients\"}, {\"row\": 8, \"column\": \"index\", \"value\": \"411\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"wexsulba memorial hospital\"}, {\"row\": 8, \"column\": \"Address1\", \"value\": \"2423 quenrho drive\"}, {\"row\": 8, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"morbrin\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"scip-inf-2\"}, {\"row\": 8, \"column\": \"Score\", \"value\": \"90%\"}, {\"row\": 8, \"column\": \"Sample\", \"value\": \"10 patients\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"scip-vte-1\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"drizarbrin regional hospital\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"scip-vte-1\"}, {\"row\": 20, \"column\": \"index\", \"value\": \"640\"}, {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"96245\"}]}\n```"
+  },
+  {
+   "start": 43,
+   "rows": [
+    43,
+    68,
+    93,
+    118,
+    143,
+    664,
+    689,
+    714,
+    739,
+    764,
+    772,
+    800,
+    825,
+    850,
+    875,
+    900,
+    928,
+    953,
+    978,
+    998
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 7,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"City\", \"value\": \"hxpba\"},\n    {\"row\": 3, \"column\": \"ZipCode\", \"value\": \"36990\"},\n    {\"row\": 6, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 7, \"column\": \"City\", \"value\": \"fensul\"},\n    {\"row\": 10, \"column\": \"State\", \"value\": \"al\"},\n    {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"al_scip-vte-1\"},\n    {\"row\": 14, \"column\": \"City\", \"value\": \"hepfenvel\"},\n    {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"al_scip-vte-1\"},\n    {\"row\": 15, \"column\": \"City\", \"value\": \"pimkelpim\"},\n    {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"al_scip-vte-1\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 168,
+   "rows": [
+    168,
+    193,
+    218,
+    243,
+    268,
+    293,
+    310,
+    347,
+    352,
+    353,
+    378,
+    391,
+    411,
+    413,
+    431,
+    449,
+    451,
+    465,
+    490,
+    515
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 18,
+     "predicted": 10,
+     "repaired": 4,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"morningjou memorial hospital\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"vxlpmkxl health center\"}, {\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given pneumococcal vaccination\"}, {\"row\": 13, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"nygarba memorial hospital\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"125 patients\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"velkel\"}, {\"row\": 18, \"column\": \"CountyName\", \"value\": \"tasjoupim\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"nybazar medical center\"}, {\"row\": 19, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 19, \"column\": \"ZipCode\", \"value\": \"86475\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"tasjoupim\"}]}\n```"
+  },
+  {
+   "start": 540,
+   "rows": [
+    540,
+    565,
+    590,
+    615,
+    640,
+    665,
+    690,
+    715,
+    740,
+    765,
+    773,
+    801,
+    826,
+    851,
+    876,
+    901,
+    929,
+    954,
+    979,
+    999
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 1,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 4, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"torrhowex\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"surgical infection prevention\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"179 patients\"}]}"
+  }
+ ]
+}

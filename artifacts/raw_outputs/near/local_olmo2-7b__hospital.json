@@ -1,0 +1,674 @@
+[
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"95409\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"7651710610\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"270 patients\"}, {\"row\": 12, \"column\": \"State\", \"value\": \"al\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Sample\", \"value\": \"46 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4955797804\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"13 patients\"}, {\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3377271479\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"239\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"14\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"123\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"123\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 9, \"column\": \"Address1\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"empty\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"7880909914\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"159 patients\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Address1\", \"value\": \"4964 zarkel avenue\"}, {\"row\": 6, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address1\", \"value\": \"6799 hepmor drive\"}, {\"row\": 9, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"Address1\", \"value\": \"1377 vasquen blvd\"}, {\"row\": 12, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 14, \"column\": \"Address1\", \"value\": \"7859 taskel street\"}, {\"row\": 15, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 16, \"column\": \"Address3\", \"value\": \"empty\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"94%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6862907180\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6061657772\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"95409\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"7651710610\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"270 patients\"}, {\"row\": 12, \"column\": \"State\", \"value\": \"al\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Sample\", \"value\": \"46 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4955797804\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 9, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 11, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 13, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 14, \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3377271479\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"7880909914\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"159 patients\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address1\", \"value\": \"6799 Hepmor Drive\"}, {\"row\": 8, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"Address1\", \"value\": \"5472 Rhosul Road\"}, {\"row\": 12, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"Address3\", \"value\": \"8x9233894x\"}, {\"row\": 14, \"column\": \"Address1\", \"value\": \"1790 Tasosk Drive\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"0 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Stateavg\", \"value\": \"91%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6862907180\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6061657772\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"Address3\", \"value\": \"zarlohep\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"3804881417\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"226 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"al_ami-1\"}, {\"row\": 5, \"column\": \"Address2\", \"value\": \"empty\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"PhoneNumber\", \"value\": \"2248494427\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"205\"}, {\"row\": 5, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address1\", \"value\": \"8111 kelhep blvd\"}, {\"row\": 8, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address1\", \"value\": \"8111 kelhep blvd\"}, {\"row\": 11, \"column\": \"Stateavg\", \"value\": \"al_scip-inf-1\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"index\", \"value\": \"14\"}, {\"row\": 3, \"column\": \"ProviderNumber\", \"value\": \"91618\"}, {\"row\": 4, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"PhoneNumber\", \"value\": \"4350237211\"}, {\"row\": 7, \"column\": \"Stateavg\", \"value\": \"14 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-3\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3042984254\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 6, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"al_almor\"}, {\"row\": 7, \"column\": \"State\", \"value\": \"al_almor\"}, {\"row\": 8, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"franklin\"}, {\"row\": 9, \"column\": \"ZipCode\", \"value\": \"82570\"}, {\"row\": 9, \"column\": \"State\", \"value\": \"al_82570\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"2363163948\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"41\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"8\"}, {\"row\": 6, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 10, \"column\": \"Sample\", \"value\": \"86\"}, {\"row\": 11, \"column\": \"PhoneNumber\", \"value\": \"2363163948\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 13, \"column\": \"Sample\", \"value\": \"0\"}, {\"row\": 14, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 15, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 16, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"0\"}, {\"row\": 18, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 19, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 20, \"column\": \"Sample\", \"value\": \"48\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"5421014591\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3804881417\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"9477017594\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"205\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"10\"}, {\"row\": 6, \"column\": \"Condition\", \"value\": \"heart attack\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4365569969\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"5242092207\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3042984254\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"2363163948\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"5421014591\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"95409\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"7651710610\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"270 patients\"}, {\"row\": 12, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Sample\", \"value\": \"46 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4955797804\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"al_ami-3\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"97%\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_ami-5\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3377271479\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"239\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"14\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"123\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"123\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 9, \"column\": \"Address1\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"Stateavg\", \"value\": \"392\"}, {\"row\": 12, \"column\": \"Sample\", \"value\": \"81\"}, {\"row\": 13, \"column\": \"Stateavg\", \"value\": \"39\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"36\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Address1\", \"value\": \"4964 zarkel avenue\"}, {\"row\": 1, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 1, \"column\": \"Address3\", \"value\": \"brincaljou\"}, {\"row\": 2, \"column\": \"PhoneNumber\", \"value\": \"5242092207\"}, {\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"proprietary\"}, {\"row\": 4, \"column\": \"Condition\", \"value\": \"surgical infection prevention\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"125 patients\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_scip-vte-2\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"94%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6862907180\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6061657772\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"95409\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"7651710610\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"270 patients\"}, {\"row\": 12, \"column\": \"State\", \"value\": \"al\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Sample\", \"value\": \"46 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4955797804\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"13\"}, {\"row\": 6, \"column\": \"HospitalsOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 7, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 8, \"column\": \"HospitalsOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 9, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 10, \"column\": \"HospitalsOwner\", \"value\": \"proprietary\"}, {\"row\": 11, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"HospitalsOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 13, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 14, \"column\": \"HospitalsOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 15, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 16, \"column\": \"HospitalsOwner\", \"value\": \"Government - federal\"}, {\"row\": 17, \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3377271479\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"7880909914\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"159 patients\"}, {\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"87%\"}, {\"row\": 7, \"column\": \"Address1\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"EmergencyService\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Sample\", \"value\": \"0 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Stateavg\", \"value\": \"91%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6862907180\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6061657772\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"07278\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"226 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Address1\", \"value\": \"9208 garba drive\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Address3\", \"value\": \"zarlohep\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"07278\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"208 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"PhoneNumber\", \"value\": \"2248494427\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"205\"}, {\"row\": 5, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address1\", \"value\": \"8111 kelhep blvd\"}, {\"row\": 8, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address1\", \"value\": \"8111 kelhep blvd\"}, {\"row\": 11, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 12, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"PhoneNumber\", \"value\": \"404024446622\"}, {\"row\": 14, \"column\": \"Address1\", \"value\": \"1651 caltor avenue\"}, {\"row\": 15, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 16, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 17, \"column\": \"Address1\", \"value\": \"1958 garhep avenue\"}, {\"row\": 18, \"column\": \"Address2\", \"value\": \"367 zarny street\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"8281112012\"}, {\"row\": 20, \"column\": \"Sample\", \"value\": \"205\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"index\", \"value\": \"14\"}, {\"row\": 3, \"column\": \"ProviderNumber\", \"value\": \"91618\"}, {\"row\": 4, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"PhoneNumber\", \"value\": \"4350242711\"}, {\"row\": 7, \"column\": \"Stateavg\", \"value\": \"14 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Condition\", \"value\": \"surgical infection prevention\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"scip-inf-2\"}, {\"row\": 7, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 13, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"hf-4\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 16, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 17, \"column\": \"Address1\", \"value\": \"5472 rhosul road\"}, {\"row\": 18, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 19, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 20, \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3042984254\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"179 patients\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Address3\", \"value\": \"brinny\"}, {\"row\": 5, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address3\", \"value\": \"wexjouwex\"}, {\"row\": 11, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 12, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 14, \"column\": \"Address3\", \"value\": \"empty\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"2876131556\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"al_ami-3\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"al_ami-2\"}, {\"row\": 6, \"column\": \"EmergencyService\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Sample\", \"value\": \"al_ami-4\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"empty\"}, {\"row\": 9, \"column\": \"Sample\", \"value\": \"al_scip-vte-2\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"al_pn-7\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"Sample\", \"value\": \"al_hf-4\"}, {\"row\": 14, \"column\": \"EmergencyService\", \"value\": \"empty\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"al_hf-3\"}, {\"row\": 16, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"al_ami-2\"}, {\"row\": 18, \"column\": \"EmergencyService\", \"value\": \"empty\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"al_ami-2\"}, {\"row\": 20, \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"al_ami-2\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3804881417\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"9477017594\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"205 patients\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"90%\"}, {\"row\": 6, \"column\": \"Condition\", \"value\": \"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4365569969\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Stateavg\", \"value\": \"al_ami-3\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3042984254\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"2363163948\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"5421014591\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"95409\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"7651710610\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"270 patients\"}, {\"row\": 12, \"column\": \"State\", \"value\": \"al\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_hf-2\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4955797804\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"al_ami-3\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"al_ami-5\"}, {\"row\": 6, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"al_ami-2\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"91%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3377271479\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"239\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"14\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"123\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"123\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"no\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"97735\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"7880909914\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"125 patients\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Address1\", \"value\": \"4964 zarkel avenue\"}, {\"row\": 6, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address1\", \"value\": \"7859 taskel street\"}, {\"row\": 9, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"Address1\", \"value\": \"6593 jouwex street\"}, {\"row\": 12, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"Address3\", \"value\": \"94xx01x594\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"957 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"94%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6862907180\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6061657772\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"95409\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"7651710610\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"270 patients\"}, {\"row\": 12, \"column\": \"State\", \"value\": \"al\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Sample\", \"value\": \"46 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4955797804\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"HospitalsOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 4, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"13 patients\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3377271479\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"7880909914\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"159 patients\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Address1\", \"value\": \"4964 zarkel avenue\"}, {\"row\": 6, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address3\", \"value\": \"vasdri\"}, {\"row\": 8, \"column\": \"Address1\", \"value\": \"7859 taskel street\"}, {\"row\": 9, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"Address1\", \"value\": \"6593 jouwex street\"}, {\"row\": 12, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"Address3\", \"value\": \"taslo\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"MeasureCode\", \"value\": \"scip-card-2\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6862907180\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"6061657772\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"07278\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"226 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Address1\", \"value\": \"9208 garba drive\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 2, \"column\": \"Address3\", \"value\": \"zarlohep\"}, {\"row\": 2, \"column\": \"ZipCode\", \"value\": \"07278\"}, {\"row\": 3, \"column\": \"Address1\", \"value\": \"65 loba road\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"Address3\", \"value\": \"tallassee\"}, {\"row\": 3, \"column\": \"ZipCode\", \"value\": \"36078\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 4, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 4, \"column\": \"Score\", \"value\": \"97%\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"208 patients\"}, {\"row\": 5, \"column\": \"Address1\", \"value\": \"4753 sultor blvd\"}, {\"row\": 5, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Address3\", \"value\": \"selma\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"36701\"}, {\"row\": 5, \"column\": \"State\", \"value\": \"dallas\"}, {\"row\": 6, \"column\": \"Sample\", \"value\": \"497 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"PhoneNumber\", \"value\": \"2248494427\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"205\"}, {\"row\": 4, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Address1\", \"value\": \"2593 nybrin road\"}, {\"row\": 9, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"Stateavg\", \"value\": \"al_scip-inf-1\"}, {\"row\": 12, \"column\": \"Value\", \"value\": \"0\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"index\", \"value\": \"14\"}, {\"row\": 3, \"column\": \"ProviderNumber\", \"value\": \"91618\"}, {\"row\": 4, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"PhoneNumber\", \"value\": \"5454830042\"}, {\"row\": 7, \"column\": \"Stateavg\", \"value\": \"0 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-3\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3042984254\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"179 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"2876131556\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"ami-4\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"al_ami-2\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"_row\", \"value\": \"1\"}, {\"row\": 2, \"column\": \"PhoneNumber\", \"value\": \"3947540172\"}, {\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"290 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3804881417\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3804881417\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"9477017594\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"205\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"100\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_scip-inf-1\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"4365569969\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"5242092207\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3042984254\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"2876131556\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"5421014591\"}]}"
+ }
+]

@@ -1,0 +1,7 @@
+{
+  "python": "3.11.16",
+  "packages": {"matplotlib": "3.11.2", "numpy": "2.4.6", "pandas": "3.0.6"},
+  "purpose": "Observed local acceptance runtime, not a historical model-serving environment",
+  "network_needed_after_dependencies_installed": false,
+  "model_api_credentials_needed_for_replay": false
+}

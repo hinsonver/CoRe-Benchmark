@@ -1,0 +1,95 @@
+{
+  "decision": "retain archived checks and estimates; define the measured checks explicitly",
+  "metric": {
+    "name_zh": "分层加权核验不一致率",
+    "name_en": "weighted rate of failed reference checks",
+    "unit": "error cell",
+    "weighting_frame_cells": 948,
+    "sampled_cells": 279,
+    "matched_cells": 152,
+    "unique_matched_pmids": 121,
+    "formula": "sum_h (N_h/948) * (failed_reference_checks_h/matched_cells_h)",
+    "estimate": 0.9517332099197813,
+    "interval_95": [
+      0.9118447824419206,
+      0.9776417171161256
+    ],
+    "bootstrap_resamples": 5000,
+    "bootstrap_seed": 0,
+    "interpretation": "matched-sample field checks standardized to error-type composition",
+    "exact_complete_field_error_rate": false,
+    "strata": {
+      "日期": {
+        "criterion": "publication_year_consistency",
+        "population": 722,
+        "sampled": 80,
+        "matched": 44,
+        "reference_check_failures": 43
+      },
+      "编码乱码": {
+        "criterion": "reference_changed_word_agreement",
+        "population": 107,
+        "sampled": 80,
+        "matched": 38,
+        "reference_check_failures": 38
+      },
+      "缺失写成-1": {
+        "criterion": "volume_issue_presence",
+        "population": 75,
+        "sampled": 75,
+        "matched": 46,
+        "reference_check_failures": 28
+      },
+      "页码": {
+        "criterion": "exact_page_string",
+        "population": 32,
+        "sampled": 32,
+        "matched": 18,
+        "reference_check_failures": 18
+      },
+      "ISSN": {
+        "criterion": "print_or_electronic_issn_membership",
+        "population": 12,
+        "sampled": 12,
+        "matched": 6,
+        "reference_check_failures": 6
+      }
+    }
+  },
+  "case_annotations": [
+    {
+      "row_zero_based": 340,
+      "row_id": "734870",
+      "column": "article_jvolumn",
+      "pmid": "26452069",
+      "reference": "1",
+      "saved_pubmed_value": "31",
+      "archived_clean_ok": true,
+      "presence_check_passes": true,
+      "value_equals_saved_pubmed": false,
+      "disposition": "retain archived presence outcome; add separate value-mismatch annotation",
+      "source_evidence_sha256": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9"
+    },
+    {
+      "row_zero_based": 356,
+      "row_id": "232896",
+      "column": "article_jvolumn",
+      "pmid": "25819808",
+      "reference": "1",
+      "saved_pubmed_value": "21",
+      "archived_clean_ok": true,
+      "presence_check_passes": true,
+      "value_equals_saved_pubmed": false,
+      "disposition": "retain archived presence outcome; add separate value-mismatch annotation",
+      "source_evidence_sha256": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9"
+    }
+  ],
+  "encoding_dirty_display": {
+    "assessed": false,
+    "agreement": null,
+    "archived_false_flags_retained": true
+  },
+  "original_disposition_sha256": "e680a19f620da9533ae760c91581b16ef79b9aacebc54a6f514fb36a39e1cb6b",
+  "original_decision_record_sha256": "052e50e3655a6a9548507c2907b0ac7d4fab8369626a8e10bacd1d8297987ddc",
+  "status": "retained archived criteria; manuscript implementation completed separately"
+}

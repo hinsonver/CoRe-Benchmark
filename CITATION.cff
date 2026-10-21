@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite the CoRe paper when using these research artifacts."
+type: software
+title: "CoRe: Cleaning or Recalling? Disentangling Memorization and World Knowledge in LLM-based Data Cleaning"
+version: "submission-candidate"
+authors:
+  - family-names: Yang
+    given-names: Jingru
+    affiliation: Minzu University of China
+    email: okiyang@muc.edu.cn
+  - family-names: Chen
+    given-names: Zheng
+    affiliation: Minzu University of China
+    email: 202301050@muc.edu.cn
+  - family-names: Fan
+    given-names: Ju
+    affiliation: Renmin University of China
+    email: fanj@ruc.edu.cn
+license: MIT

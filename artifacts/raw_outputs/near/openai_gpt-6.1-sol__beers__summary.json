@@ -1,0 +1,717 @@
+{
+ "control|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.92,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.915,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "Bucryus",
+    "model": "Bucyrus",
+    "famous": "18th Street Brewery"
+   }
+  ]
+ },
+ "control|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.921,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "control|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.921,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "near|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.92,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "near|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.2986111111111111,
+  "to_fact_rate": 0.2916666666666667,
+  "entities_edited": 42,
+  "repair_f1_other_rows": 0.915,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.875,
+    "to_fact_rate": 0.875
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Black Markot Brewing Company",
+    "model": "Black Market Brewing Company",
+    "famous": "Black Market Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Ookshire Brewing",
+    "model": "Oakshire Brewing",
+    "famous": "Oakshire Brewing"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Franch Broad Brewery",
+    "model": "French Broad Brewery",
+    "famous": "French Broad Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Revolutiun Brewing Company",
+    "model": "Revolution Brewing Company",
+    "famous": "Revolution Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Agaanst The Grain Brewery",
+    "model": "Against The Grain Brewery",
+    "famous": "Against The Grain Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Mudsherk Brewing Company",
+    "model": "Mudshark Brewing Company",
+    "famous": "Mudshark Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Greut River Brewery",
+    "model": "Great River Brewery",
+    "famous": "Great River Brewery"
+   }
+  ]
+ },
+ "near|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.944,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "near|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.09722222222222222,
+  "to_fact_rate": 0.09722222222222222,
+  "entities_edited": 14,
+  "repair_f1_other_rows": 0.944,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.292,
+    "to_fact_rate": 0.292
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Revolutiun Brewing Company",
+    "model": "Revolution Brewing Company",
+    "famous": "Revolution Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Agaanst The Grain Brewery",
+    "model": "Against The Grain Brewery",
+    "famous": "Against The Grain Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Agaanst The Grain Brewery",
+    "model": "Against The Grain Brewery",
+    "famous": "Against The Grain Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Revolutiun Brewing Company",
+    "model": "Revolution Brewing Company",
+    "famous": "Revolution Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Revolutiun Brewing Company",
+    "model": "Revolution Brewing Company",
+    "famous": "Revolution Brewing Company"
+   }
+  ]
+ },
+ "real|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.92,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0625,
+  "to_fact_rate": 0.0,
+  "entities_edited": 9,
+  "repair_f1_other_rows": 0.915,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.188,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Latitude 42 Brewing Company",
+    "model": "Baxter Brewing Company",
+    "famous": "Latitude 42 Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Straub Brewery",
+    "model": "Bell's Brewery",
+    "famous": "Straub Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Modern Times Beer",
+    "model": "Maui Brewing Company",
+    "famous": "Modern Times Beer"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Fremont Brewing Company",
+    "model": "Perrin Brewing Company",
+    "famous": "Fremont Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Airways Brewing Company",
+    "model": "Palisade Brewing Company",
+    "famous": "Airways Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Renegade Brewing Company",
+    "model": "Good People Brewing Company",
+    "famous": "Renegade Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Harpoon Brewery",
+    "model": "Sly Fox Brewing Company",
+    "famous": "Harpoon Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Hops & Grain Brewery",
+    "model": "Crazy Mountain Brewing Company",
+    "famous": "Hops & Grain Brewery"
+   }
+  ]
+ },
+ "real|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.921,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.020833333333333332,
+  "to_fact_rate": 0.0,
+  "entities_edited": 3,
+  "repair_f1_other_rows": 0.955,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.062,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Rogue Ales",
+    "model": "Cisco Brewers",
+    "famous": "Rogue Ales"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Hilliard's Beer",
+    "model": "Cape Cod Beer",
+    "famous": "Hilliard's Beer"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Appalachian Mountain Brewery",
+    "model": "Frey's Brewing Company",
+    "famous": "Appalachian Mountain Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Rogue Ales",
+    "model": "Cisco Brewers",
+    "famous": "Rogue Ales"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Hilliard's Beer",
+    "model": "Cape Cod Beer",
+    "famous": "Hilliard's Beer"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Appalachian Mountain Brewery",
+    "model": "Frey's Brewing Company",
+    "famous": "Appalachian Mountain Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Appalachian Mountain Brewery",
+    "model": "Frey's Brewing Company",
+    "famous": "Appalachian Mountain Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Rogue Ales",
+    "model": "Cisco Brewers",
+    "famous": "Rogue Ales"
+   }
+  ]
+ },
+ "key_rates": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|1|standard": {
+   "rate": 0.875,
+   "ci": [
+    0.771,
+    0.958
+   ],
+   "entities": 48
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|3|standard": {
+   "rate": 0.292,
+   "ci": [
+    0.167,
+    0.417
+   ],
+   "entities": 48
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  }
+ },
+ "screened_known": {
+  "known": 46,
+  "targets": 48
+ },
+ "key_rates_known": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "near|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "near|1|standard": {
+   "rate": 0.87,
+   "ci": [
+    0.761,
+    0.957
+   ],
+   "entities": 46
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "near|3|standard": {
+   "rate": 0.304,
+   "ci": [
+    0.174,
+    0.435
+   ],
+   "entities": 46
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 46
+  }
+ }
+}

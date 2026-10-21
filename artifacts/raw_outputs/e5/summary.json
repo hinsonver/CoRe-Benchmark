@@ -1,0 +1,362 @@
+{
+ "beers_fresh|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.935,
+  "identity_repair_f1": 1.0,
+  "other_repair_f1": 0.914,
+  "all_sd": 0.051,
+  "identity_sd": 0.0,
+  "other_sd": 0.069,
+  "minutes": 0.0
+ },
+ "beers_fresh|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.819,
+  "identity_repair_f1": 0.985,
+  "other_repair_f1": 0.771,
+  "all_sd": 0.175,
+  "identity_sd": 0.021,
+  "other_sd": 0.228,
+  "minutes": 0.2
+ },
+ "beers_orig|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.657,
+  "identity_repair_f1": 0.937,
+  "other_repair_f1": 0.579,
+  "all_sd": 0.071,
+  "identity_sd": 0.04,
+  "other_sd": 0.089,
+  "minutes": 0.0
+ },
+ "beers_orig|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.735,
+  "identity_repair_f1": 0.948,
+  "other_repair_f1": 0.671,
+  "all_sd": 0.128,
+  "identity_sd": 0.025,
+  "other_sd": 0.161,
+  "minutes": 0.2
+ },
+ "beers_surrogate|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.663,
+  "identity_repair_f1": 0.96,
+  "other_repair_f1": 0.578,
+  "all_sd": 0.073,
+  "identity_sd": 0.031,
+  "other_sd": 0.089,
+  "minutes": 0.0
+ },
+ "beers_surrogate|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.688,
+  "identity_repair_f1": 0.987,
+  "other_repair_f1": 0.598,
+  "all_sd": 0.103,
+  "identity_sd": 0.019,
+  "other_sd": 0.137,
+  "minutes": 0.2
+ },
+ "beers_surrogatewords|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.654,
+  "identity_repair_f1": 0.945,
+  "other_repair_f1": 0.571,
+  "all_sd": 0.076,
+  "identity_sd": 0.061,
+  "other_sd": 0.083,
+  "minutes": 0.0
+ },
+ "beers_surrogatewords|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.739,
+  "identity_repair_f1": 0.744,
+  "other_repair_f1": 0.735,
+  "all_sd": 0.225,
+  "identity_sd": 0.348,
+  "other_sd": 0.19,
+  "minutes": 0.2
+ },
+ "hospital|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.891,
+  "identity_repair_f1": 0.909,
+  "other_repair_f1": 0.878,
+  "all_sd": 0.043,
+  "identity_sd": 0.079,
+  "other_sd": 0.035,
+  "minutes": 0.0
+ },
+ "hospital|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.541,
+  "identity_repair_f1": 0.476,
+  "other_repair_f1": 0.585,
+  "all_sd": 0.048,
+  "identity_sd": 0.089,
+  "other_sd": 0.036,
+  "minutes": 0.5
+ },
+ "hospital_fresh|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.875,
+  "identity_repair_f1": 0.928,
+  "other_repair_f1": 0.834,
+  "all_sd": 0.005,
+  "identity_sd": 0.008,
+  "other_sd": 0.008,
+  "minutes": 0.0
+ },
+ "hospital_fresh|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.661,
+  "identity_repair_f1": 0.679,
+  "other_repair_f1": 0.648,
+  "all_sd": 0.102,
+  "identity_sd": 0.054,
+  "other_sd": 0.139,
+  "minutes": 0.4
+ },
+ "hospital_fresh_s1|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.891,
+  "identity_repair_f1": 0.95,
+  "other_repair_f1": 0.846,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.0
+ },
+ "hospital_fresh_s2|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.885,
+  "identity_repair_f1": 0.986,
+  "other_repair_f1": 0.805,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.0
+ },
+ "hospital_surrogate|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.889,
+  "identity_repair_f1": 0.925,
+  "other_repair_f1": 0.862,
+  "all_sd": 0.024,
+  "identity_sd": 0.039,
+  "other_sd": 0.024,
+  "minutes": 0.0
+ },
+ "hospital_surrogate|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.615,
+  "identity_repair_f1": 0.554,
+  "other_repair_f1": 0.656,
+  "all_sd": 0.062,
+  "identity_sd": 0.086,
+  "other_sd": 0.055,
+  "minutes": 0.5
+ },
+ "hospital_surrogate_s1|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.911,
+  "identity_repair_f1": 0.954,
+  "other_repair_f1": 0.877,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.0
+ },
+ "hospital_surrogate_s2|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.871,
+  "identity_repair_f1": 0.977,
+  "other_repair_f1": 0.789,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.0
+ },
+ "hospital_surrogatewords|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.898,
+  "identity_repair_f1": 0.934,
+  "other_repair_f1": 0.869,
+  "all_sd": 0.023,
+  "identity_sd": 0.03,
+  "other_sd": 0.028,
+  "minutes": 0.0
+ },
+ "hospital_surrogatewords|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.636,
+  "identity_repair_f1": 0.592,
+  "other_repair_f1": 0.666,
+  "all_sd": 0.086,
+  "identity_sd": 0.058,
+  "other_sd": 0.111,
+  "minutes": 0.4
+ },
+ "hospital_surrogatewords_s1|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.899,
+  "identity_repair_f1": 0.982,
+  "other_repair_f1": 0.837,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.0
+ },
+ "hospital_surrogatewords_s2|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.897,
+  "identity_repair_f1": 0.982,
+  "other_repair_f1": 0.833,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.0
+ },
+ "movies|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.657,
+  "identity_repair_f1": 0.269,
+  "other_repair_f1": 0.723,
+  "all_sd": 0.035,
+  "identity_sd": 0.002,
+  "other_sd": 0.041,
+  "minutes": 0.2
+ },
+ "movies|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.64,
+  "identity_repair_f1": 0.22,
+  "other_repair_f1": 0.706,
+  "all_sd": 0.01,
+  "identity_sd": 0.014,
+  "other_sd": 0.014,
+  "minutes": 0.6
+ },
+ "movies_fresh|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.714,
+  "identity_repair_f1": 0.262,
+  "other_repair_f1": 0.778,
+  "all_sd": 0.009,
+  "identity_sd": 0.004,
+  "other_sd": 0.011,
+  "minutes": 0.2
+ },
+ "movies_fresh|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.698,
+  "identity_repair_f1": 0.179,
+  "other_repair_f1": 0.77,
+  "all_sd": 0.01,
+  "identity_sd": 0.006,
+  "other_sd": 0.015,
+  "minutes": 0.5
+ },
+ "movies_fresh_s1|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.725,
+  "identity_repair_f1": 0.25,
+  "other_repair_f1": 0.792,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.2
+ },
+ "movies_fresh_s2|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.726,
+  "identity_repair_f1": 0.259,
+  "other_repair_f1": 0.792,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.2
+ },
+ "movies_surrogate|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.656,
+  "identity_repair_f1": 0.246,
+  "other_repair_f1": 0.731,
+  "all_sd": 0.017,
+  "identity_sd": 0.018,
+  "other_sd": 0.028,
+  "minutes": 0.2
+ },
+ "movies_surrogate|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.635,
+  "identity_repair_f1": 0.224,
+  "other_repair_f1": 0.702,
+  "all_sd": 0.008,
+  "identity_sd": 0.014,
+  "other_sd": 0.011,
+  "minutes": 0.5
+ },
+ "movies_surrogate_s1|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.663,
+  "identity_repair_f1": 0.228,
+  "other_repair_f1": 0.746,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.2
+ },
+ "movies_surrogate_s2|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.669,
+  "identity_repair_f1": 0.241,
+  "other_repair_f1": 0.747,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.2
+ },
+ "movies_surrogatewords|perfect": {
+  "seeds": 3,
+  "all_repair_f1": 0.669,
+  "identity_repair_f1": 0.256,
+  "other_repair_f1": 0.742,
+  "all_sd": 0.01,
+  "identity_sd": 0.003,
+  "other_sd": 0.013,
+  "minutes": 0.2
+ },
+ "movies_surrogatewords|raha": {
+  "seeds": 3,
+  "all_repair_f1": 0.625,
+  "identity_repair_f1": 0.224,
+  "other_repair_f1": 0.69,
+  "all_sd": 0.016,
+  "identity_sd": 0.003,
+  "other_sd": 0.022,
+  "minutes": 0.6
+ },
+ "movies_surrogatewords_s1|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.675,
+  "identity_repair_f1": 0.257,
+  "other_repair_f1": 0.749,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.2
+ },
+ "movies_surrogatewords_s2|perfect": {
+  "seeds": 1,
+  "all_repair_f1": 0.672,
+  "identity_repair_f1": 0.25,
+  "other_repair_f1": 0.749,
+  "all_sd": 0.0,
+  "identity_sd": 0.0,
+  "other_sd": 0.0,
+  "minutes": 0.2
+ }
+}

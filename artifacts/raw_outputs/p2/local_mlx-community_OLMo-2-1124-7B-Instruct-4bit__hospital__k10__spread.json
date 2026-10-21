@@ -1,0 +1,411 @@
+{
+ "summary": {
+  "model": "local:mlx-community/OLMo-2-1124-7B-Instruct-4bit",
+  "dataset": "hospital",
+  "k": 10,
+  "spread": true,
+  "chunks": 10,
+  "all": {
+   "repair_p": 0.0,
+   "repair_r": 0.0,
+   "repair_f1": 0.0,
+   "detect_f1": 0.0235,
+   "errors": 54,
+   "predicted": 31,
+   "repaired": 0,
+   "detected": 1
+  },
+  "identity": {
+   "repair_p": 0.0,
+   "repair_r": 0.0,
+   "repair_f1": 0.0,
+   "detect_f1": 0.0,
+   "errors": 22,
+   "predicted": 4,
+   "repaired": 0,
+   "detected": 0
+  },
+  "other": {
+   "repair_p": 0.0,
+   "repair_r": 0.0,
+   "repair_f1": 0.0,
+   "detect_f1": 0.0339,
+   "errors": 32,
+   "predicted": 27,
+   "repaired": 0,
+   "detected": 1
+  }
+ },
+ "chunks": [
+  {
+   "start": 120,
+   "rows": [
+    120,
+    145,
+    170,
+    195,
+    220,
+    245,
+    270,
+    315,
+    355,
+    467
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 0,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"PhoneNumber\", \"value\": \"3343353374\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"hartselle\"}, {\"row\": 3, \"column\": \"Address3\", \"value\": \"guntersville\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"6 patients\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"35968\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"thomasville\"}, {\"row\": 7, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}]}\n```"
+  },
+  {
+   "start": 17,
+   "rows": [
+    17,
+    28,
+    53,
+    835,
+    860,
+    885,
+    913,
+    938,
+    963,
+    983
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"Sample\", \"value\": \"3x patients\"}],\n {\"corrections\": [{\"row\": 2, \"column\": \"Sample\", \"value\": \"165 patients\"}]},\n {\"corrections\": [{\"row\": 3, \"column\": \"Sample\", \"value\": \"69 patients\"}]},\n {\"corrections\": [{\"row\": 4, \"column\": \"Sample\", \"value\": \"28 patients\"}]},\n {\"corrections\": [{\"row\": 5, \"column\": \"Sample\", \"value\": \"46 patients\"}]},\n {\"corrections\": [{\"row\": 6, \"column\": \"Sample\", \"value\": \"85 patients\"}]},\n {\"corrections\": [{\"row\": 7, \"column\": \"Sample\", \"value\": \"350 patients\"}]},\n {\"corrections\": [{\"row\": 8, \"column\": \"Sample\", \"value\": \"59 patients\"}]},\n {\"corrections\": [{\"row\": 9, \"column\": \"Sample\", \"value\": \"82 patients\"}]},\n {\"corrections\": [{\"row\": 10, \"column\": \"Sample\", \"value\": \"0 patients\"}]}\n}\n```"
+  },
+  {
+   "start": 79,
+   "rows": [
+    79,
+    104,
+    129,
+    154,
+    179,
+    204,
+    229,
+    254,
+    279,
+    296
+   ],
+   "n_pred": 1,
+   "counts": {
+    "all": {
+     "errors": 3,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"Sample\", \"value\": \"Alabama\"}]}\n```"
+  },
+  {
+   "start": 32,
+   "rows": [
+    32,
+    57,
+    814,
+    839,
+    864,
+    889,
+    917,
+    942,
+    967,
+    987
+   ],
+   "n_pred": 4,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"10005\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"boaz\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 4, \"column\": \"Stateavg\", \"value\": \"al_pn-3b\"}]}\n```"
+  },
+  {
+   "start": 327,
+   "rows": [
+    327,
+    336,
+    367,
+    380,
+    400,
+    420,
+    438,
+    454,
+    479,
+    504
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"10037\"}, {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 2, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"government - state\"}, {\"row\": 5, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 6, \"column\": \"Sample\", \"value\": \"patients\"}, {\"row\": 7, \"column\": \"Stateavg\", \"value\": \"al_pn-5c\"}]}\n```"
+  },
+  {
+   "start": 33,
+   "rows": [
+    33,
+    790,
+    815,
+    840,
+    865,
+    890,
+    918,
+    943,
+    968,
+    988
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"southeast Alabama Medical Center\"}, {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"clanton\"}, {\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"fayette\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"gadsden\"}, {\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"xntxrprisx\"}]}\n```"
+  },
+  {
+   "start": 731,
+   "rows": [
+    731,
+    756,
+    792,
+    817,
+    842,
+    867,
+    892,
+    920,
+    945,
+    970
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 12,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 12,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"10035\"}, {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 2, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 3, \"column\": \"HospitalType\", \"value\": \"government - hospital district or authority\"}, {\"row\": 3, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 5, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 6, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 7, \"column\": \"HospitalType\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 7, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 8, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 9, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 9, \"column\": \"State\", \"value\": \"alabama\"}]}\n```"
+  },
+  {
+   "start": 35,
+   "rows": [
+    35,
+    60,
+    85,
+    110,
+    135,
+    160,
+    185,
+    210,
+    235,
+    990
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 2,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 1,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"10002\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"marshall medical center\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 5, \"column\": \"State\", \"value\": \"alabama\"}, {\"row\": 6, \"column\": \"Sample\", \"value\": \"al_pn-7\"}]}\n```"
+  },
+  {
+   "start": 707,
+   "rows": [
+    707,
+    732,
+    757,
+    793,
+    818,
+    843,
+    868,
+    893,
+    921,
+    946
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 7, \"column\": \"HospitalOwner\", \"value\": \"voluntary xox-profit - private\"}, {\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - other\"}, {\"row\": 10, \"column\": \"State\", \"value\": \"al_pn-7\"}]}\n```"
+  },
+  {
+   "start": 378,
+   "rows": [
+    378,
+    391,
+    411,
+    413,
+    431,
+    449,
+    451,
+    465,
+    490,
+    515
+   ],
+   "n_pred": 1,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"Stateavg\", \"value\": \"al_scip-vte-2\"}]}\n```"
+  }
+ ]
+}

@@ -1,0 +1,323 @@
+{
+ "summary": {
+  "model": "local:llama3.1-8b",
+  "dataset": "flights",
+  "source": "dirty",
+  "named": true,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [
+   "tuple_id"
+  ],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.8315,
+  "acc_noninferable": 0.0095,
+  "noninferable_cells": 211,
+  "acc_hard": 0.0079,
+  "hard_cells": 127,
+  "leak_rate": 0.0,
+  "leak_cells": 89,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 28,
+  "per_column": {
+   "src": {
+    "n": 3,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "flight": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.64,
+    "structural": 0.64
+   },
+   "sched_dep_time": {
+    "n": 37,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.243,
+    "structural": 0.243
+   },
+   "act_dep_time": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.4,
+    "structural": 0.4
+   },
+   "sched_arr_time": {
+    "n": 41,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.341,
+    "structural": 0.341
+   },
+   "act_arr_time": {
+    "n": 40,
+    "model": 0.05,
+    "freq": 0.0,
+    "trans": 0.325,
+    "structural": 0.325
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 1587,
+   "output": "1588,flytecomm,AA-3786-ORD-IAH,,8:04 a.m.,,9:03 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1732,
+   "output": "1733,ua,UA-3944-IAD-CLT,8:00 a.m.,8:00 a.m.,10:04 a.m.,9:59 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 175,
+   "output": "176,boston,UA-4344-IAD-PHL,,11:59 a.m.,,1:38 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 1070,
+   "output": "1071,travelocity,AA-444-ORD-CLE,7:30 a.m.,7:24 a.m.,9:50 a.m.,9:35 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 2104,
+   "output": "2105,businesstravellogue,UA-1234-ORD-DTW,6:00 a.m.,6:10 a.m.,8:05 a.m.,8:15 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 2000,
+   "output": "2001,allegiantair,AA-1434-DFW-MCO,7:15 a.m.,7:22 a.m.,10:35 a.m.,10:29 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1668,
+   "output": "1669,wunderground,AA-4441-DFW-ORD,8:00 a.m.,8:14 a.m.,10:20 a.m.,10:34 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1252,
+   "output": "1253,myrateplan,AA-1842-DFW-CLT,,8:00 a.m.,,11:04 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1962,
+   "output": "1963,allegiantair,AA-517-MIA-JFK,6:45 a.m.,,9:26 a.m.,",
+   "parsed": true
+  },
+  {
+   "row": 1476,
+   "output": "1477,ifly,AA-3434-DTW-MIA,8:30 a.m.,8:50 a.m.,10:15 a.m.,9:55 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 904,
+   "output": "905,flights,CO-123-IAH-ORD,8:00 a.m.,8:23 a.m.,9:30 a.m.,9:35 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 2077,
+   "output": "2078,businesstravellogue,AA-3468-CVG-MIA,7:00 a.m.,7:25 a.m.,9:55 a.m.,9:45 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 580,
+   "output": "581,flightstats,UA-4444-ORD-IAD,8:30 a.m.,8:30 a.m.,11:00 a.m.,10:55 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1164,
+   "output": "1165,foxbusiness,UA-1234-PHL-ORD,,12:00 p.m.,,2:30 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "583,flightstats,UA-2134-PHL-ORD,7:00 a.m.,7:04 a.m.,10:15 a.m.,10:14 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 398,
+   "output": "399,airtravelcenter,AA-1234-MIA-CLT,,8:15 a.m.,,11:19 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1036,
+   "output": "1037,travelocity,UA-1111-CLT-PHL,Not Available,Not Available,Not Available,Not Available",
+   "parsed": true
+  },
+  {
+   "row": 2191,
+   "output": "2192,gofox,AA-1234-ATL-DFW,,11:59 a.m.,,2:27 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 611,
+   "output": "612,flightstats,UA-2314-ATL-PHL,2:55 p.m.,2:46 p.m.,5:00 p.m.,4:47 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 1280,
+   "output": "1281,myrateplan,UA-1234-ORD-SFO,,8:15 a.m.,,10:32 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 414,
+   "output": "415,airtravelcenter,UA-5554-ORD-SFO,,10:23 a.m.,,11:15 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 312,
+   "output": "313,weather,AA-1234-DFW-IAH,9:00 a.m.,,10:59 a.m.,",
+   "parsed": true
+  },
+  {
+   "row": 1362,
+   "output": "1362,orbitz,CO-47-IAH-LAX,7:10 p.m.,8:25 p.m.,10:48 p.m.,10:48 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 1943,
+   "output": "1944,quicktrip,UA-62-IAH-EWR,2:30 p.m.,2:48 p.m.,7:03 p.m.,7:10 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 2302,
+   "output": "2303,flightaware,AA-3434-ORD-MIA,8:00 a.m.,8:20 a.m.,10:00 a.m.,10:20 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 422,
+   "output": "423,airtravelcenter,AA-3805-ORD-PHL,2:44 p.m.,,3:36 p.m.,",
+   "parsed": true
+  },
+  {
+   "row": 1459,
+   "output": "1460,ifly,UA-2364-PHL-ORD,8:00 a.m.,8:00 a.m.,11:00 a.m.,11:00 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1788,
+   "output": "1789,flylouisville,AA-1887-BOS-MIA,,10:55 a.m.,,1:40 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 1305,
+   "output": "1306,myrateplan,UA-2706-IAH-DCA,,9:59 a.m.,,11:04 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 847,
+   "output": "848,flights,AA-1114-CLT-ORD,,12:35 p.m.,,3:21 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 2273,
+   "output": "2274,flightaware,UA-4444-IAH-PHL,8:00 a.m.,8:15 a.m.,11:04 a.m.,11:23 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1963,
+   "output": "1964,allegiantair,AA-1731-ORD-PHX,12:00 a.m.,12:15 a.m.,3:00 p.m.,3:15 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 1823,
+   "output": "1824,flylouisville,UA-2344-ORD-IAH,8:00 a.m.,8:00 a.m.,11:00 a.m.,10:45 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 2145,
+   "output": "2146,businesstravellogue,UA-4444-IAD-ORD,9:00 a.m.,9:15 a.m.,11:30 a.m.,11:24 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1076,
+   "output": "1076,foxbusiness,AA-1733-ORD-PHX,7:45 p.m.,7:59 p.m.,10:30 p.m.,10:30 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 265,
+   "output": "266,weather,AA-1641-MIA-MIA,9:45 a.m.,,10:11 a.m.,",
+   "parsed": true
+  },
+  {
+   "row": 2257,
+   "output": "2258,flightaware,UA-3944-PHL-IAD,7:00 a.m.,7:00 a.m.,9:00 a.m.,9:00 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 67,
+   "output": "68,helloflight,UA-5444-ORD-MSP,,11:04 a.m.,,12:14 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 392,
+   "output": "393,airtravelcenter,AA-3843-ORD-MSP,,7:49 a.m.,,6:57 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 1643,
+   "output": "1644,ord,AA-3845-DFW-ORD,7:00 a.m.,,9:30 a.m.,",
+   "parsed": true
+  },
+  {
+   "row": 14,
+   "output": "15,aa,AA-3756-ORD-SLC,12:15 p.m.,12:41 p.m.,2:45 p.m.,2:50 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 2031,
+   "output": "2032,allegiantair,AA-1918-MCO-JFK,8:00 a.m.,8:05 a.m.,12:20 p.m.,12:10 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 1374,
+   "output": "1375,orbitz,AA-4330-CVG-ORD,3:35 p.m.,3:27 p.m.,4:00 p.m.,3:33 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 1009,
+   "output": "1009,travelocity,UA-3050-PHX-CLT,Not Available,Not Available,Not Available,Not Available",
+   "parsed": true
+  },
+  {
+   "row": 1342,
+   "output": "1343,orbitz,UA-2727-PHL-FLL,4:30 p.m.,4:28 p.m.,6:59 p.m.,6:47 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 267,
+   "output": "268,weather,AA-2044-DFW-ORD,8:00 a.m.,,9:45 a.m.,",
+   "parsed": true
+  },
+  {
+   "row": 792,
+   "output": "793,flightexplorer,AA-2344-DFW-IAH,,8:00 a.m.,,9:23 a.m.",
+   "parsed": true
+  },
+  {
+   "row": 2334,
+   "output": "2335,world-flight-tracker,AA-1864-DFW-MIA,12:30 p.m.,12:47 p.m.,3:55 p.m.,4:05 p.m.",
+   "parsed": true
+  },
+  {
+   "row": 918,
+   "output": "918,flightarrival,CO-52-IAH-LAX,7:56 a.m.,,9:09 a.m.,",
+   "parsed": true
+  },
+  {
+   "row": 987,
+   "output": "988,flightwise,AA-2311-DFW-ORD,8:25 p.m.,8:29 p.m.,11:31 p.m.,11:35 p.m.",
+   "parsed": true
+  }
+ ]
+}

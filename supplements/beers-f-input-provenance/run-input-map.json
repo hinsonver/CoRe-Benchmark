@@ -1,0 +1,59 @@
+{
+  "scope": "three archived Beers F runs only",
+  "runs": [
+    {
+      "model": "local:qwen2.5-7b",
+      "run": "runs/local_qwen2.5-7b__beers_fresh__k20__spread.json",
+      "run_sha256": "8b4173a2955fb017e5a65117b7af4c2d8fb1a88071318b12e949aac6cde6dedf",
+      "scored_input": "inputs/historical",
+      "max_tokens": 4096,
+      "input_sha256": {
+        "dirty": "5ab60cb16d653c2ed34ada15cd97ea45d24b4daf7d93748eb9ad3d93b92bb6df",
+        "clean": "169f8d2c80c380ccd53a467f79123d2186cd5846f2bbb928ee4744343619ae70"
+      },
+      "final_input_mismatches_0based": [
+        13,
+        15,
+        21,
+        34,
+        36
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "run": "runs/local_llama3.1-8b__beers_fresh__k20__spread.json",
+      "run_sha256": "e51c6533fe6165b7529312df1be203754c632a988f46022d90bee798fa89ba6e",
+      "scored_input": "inputs/historical",
+      "max_tokens": 4096,
+      "input_sha256": {
+        "dirty": "5ab60cb16d653c2ed34ada15cd97ea45d24b4daf7d93748eb9ad3d93b92bb6df",
+        "clean": "169f8d2c80c380ccd53a467f79123d2186cd5846f2bbb928ee4744343619ae70"
+      },
+      "final_input_mismatches_0based": [
+        3,
+        5,
+        14,
+        16,
+        22,
+        30,
+        37,
+        41
+      ]
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "run": "runs/local_qwen2.5-32b-awq__beers_fresh__k20__spread.json",
+      "run_sha256": "022f34eeec8cced4ba746f978e857b731f397569ec5b04609106f506dcfc5bd9",
+      "scored_input": "inputs/historical",
+      "max_tokens": 4096,
+      "input_sha256": {
+        "dirty": "5ab60cb16d653c2ed34ada15cd97ea45d24b4daf7d93748eb9ad3d93b92bb6df",
+        "clean": "169f8d2c80c380ccd53a467f79123d2186cd5846f2bbb928ee4744343619ae70"
+      },
+      "final_input_mismatches_0based": [
+        23,
+        40
+      ]
+    }
+  ]
+}

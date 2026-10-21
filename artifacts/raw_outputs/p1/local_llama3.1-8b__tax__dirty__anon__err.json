@@ -1,0 +1,363 @@
+{
+ "summary": {
+  "model": "local:llama3.1-8b",
+  "dataset": "tax",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": true,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.96,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.4969,
+  "acc_noninferable": 0.0,
+  "noninferable_cells": 400,
+  "acc_hard": 0.0,
+  "hard_cells": 385,
+  "leak_rate": 0.0,
+  "leak_cells": 57,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 36,
+  "per_column": {
+   "f_name": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "l_name": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "area_code": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.047,
+    "trans": 0.047,
+    "structural": 0.093
+   },
+   "phone": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "city": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.021,
+    "trans": 0.0,
+    "structural": 0.021
+   },
+   "state": {
+    "n": 37,
+    "model": 0.0,
+    "freq": 0.054,
+    "trans": 0.054,
+    "structural": 0.135
+   },
+   "zip": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "rate": {
+    "n": 18,
+    "model": 0.0,
+    "freq": 0.111,
+    "trans": 0.111,
+    "structural": 0.111
+   },
+   "married_exemp": {
+    "n": 11,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "child_exemp": {
+    "n": 12,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "salary": {
+    "n": 32,
+    "model": 0.0,
+    "freq": 0.062,
+    "trans": 0.031,
+    "structural": 0.094
+   },
+   "single_exemp": {
+    "n": 12,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 3066,
+   "output": "Sakae,Davisson,M,814,880-8774,SLIGO,PA,16255,M,Y,10000,3.07,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3339,
+   "output": "Its''hak,Sonnenberger,F,509,778-9567,DUVALL,WA,98019,M,N,45000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "Kaitlyn,McGeehan,F,202,111-1111,NEW YORK,NY,10001,M,Y,60000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2037,
+   "output": "Pei,Minet,M,585,585-4905,UTICA,NY,13505,S,Y,75000,4.3881097,0,0,1000",
+   "parsed": true
+  },
+  {
+   "row": 4089,
+   "output": "Hanxiong,Sooriamurthi,M,308,236-4974,WYNOT,NE,68792,M,N,20000,5.685643,0,206,0",
+   "parsed": true
+  },
+  {
+   "row": 3898,
+   "output": "Tsvi,Clonts,M,563,631-3217,MADRID,IA,50156,M,N,20000,3.2516527,0,80,0",
+   "parsed": true
+  },
+  {
+   "row": 3214,
+   "output": "Lakshmi,Brown,M,203,444-1111,NEW HAVEN,CT,06519,S,Y,60000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2369,
+   "output": "208,177-9333,BOISE,ID,83799,S,Y,10000,4.109693,3300,0,3300",
+   "parsed": false
+  },
+  {
+   "row": 3820,
+   "output": "Narayana,Kleppe,M,202,492-4194,NEW YORK,NY,10001,M,N,70000,4.8,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2829,
+   "output": "Woei,Hoffgen,M,563,258-1001,SPRINGBROOK,IA,52075,M,N,65000,8.98,0,80,0",
+   "parsed": true
+  },
+  {
+   "row": 4596,
+   "output": "Yasmin,Brown,M,419,111-1111,ALBANY,NY,01907,M,N,70000,4.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1739,
+   "output": "Nirad,Patkar,F,971,282-2157,CORVALLIS,OR,97330,S,N,65000,9.0,159,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4034,
+   "output": "Harvinder,Preteux,M,479,242-3940,CANEHILL,AR,72717,S,Y,30000,7.0,20,0,20",
+   "parsed": true
+  },
+  {
+   "row": 1115,
+   "output": "Jory,Thies,F,307,726-5400,MERIDEN,WY,82081,M,Y,85000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2211,
+   "output": "Tanguy,Welham,M,202,939-4966,WASHINGTON,DC,20219,M,N,75000,9.0,0,2740,0",
+   "parsed": true
+  },
+  {
+   "row": 1117,
+   "output": "Daniel,Flatebo,M,773,774-7657,NOKOMIS,IL,62075,S,Y,90000,3.0,2000,0,2000",
+   "parsed": true
+  },
+  {
+   "row": 762,
+   "output": "Shalesh,Hogan,M,317,270-6596,BOWLING GREEN,IN,47833,M,Y,40000,3.4,0,2000,1000",
+   "parsed": true
+  },
+  {
+   "row": 4739,
+   "output": "Hachidai,Ovrutcki,M,703,622-2584,CARRSVILLE,VA,01907,S,Y,60000,5.75,900,0,900",
+   "parsed": true
+  },
+  {
+   "row": 1970,
+   "output": "Isamu,Engbersen,F,253,936-4185,COULEE CITY,WA,99115,M,Y,75000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4257,
+   "output": "Michalis,Sewelson,F,505,847-7618,SANOSTEE,NM,87461,M,N,80000,5.3,0,6600,0",
+   "parsed": true
+  },
+  {
+   "row": 4672,
+   "output": "Yifei,Kahl,M,208,645-6031,DINGLE,ID,01907,M,Y,70000,7.8,0,6600,3300",
+   "parsed": true
+  },
+  {
+   "row": 1178,
+   "output": "Sarita,Tretmans,F,786,906-7601,ARCADIA,FL,34266,M,Y,95000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2429,
+   "output": "Kenn,Hassin,M,612,269-4738,WALTHAM,MN,55982,M,N,15000,5.35,0,6600,0",
+   "parsed": true
+  },
+  {
+   "row": 793,
+   "output": "Alselm,Raugh,F,860,534-7972,DANBURY,CT,06810,M,N,75000,5.0,0,24500,0",
+   "parsed": true
+  },
+  {
+   "row": 604,
+   "output": "Yoshide,Xiaoshan,M,801,763-5254,ESCALANTE,UT,84726,S,Y,65000,7.0,2475,0,2475",
+   "parsed": true
+  },
+  {
+   "row": 2613,
+   "output": "Leonid,Clair,F,406,279-7535,LOMA,MT,59460,S,Y,70000,6.9,1900,0,1900",
+   "parsed": true
+  },
+  {
+   "row": 3780,
+   "output": "Ioanna,Dao,M,402,720-5220,MCGREW,NE,69353,M,N,60000,6.84,0,206,0",
+   "parsed": true
+  },
+  {
+   "row": 4453,
+   "output": "Kazimierz,Buehler,F,801,822-1488,CEDAR CITY,UT,84720,M,N,70000,7.0,0,4950,0",
+   "parsed": true
+  },
+  {
+   "row": 811,
+   "output": "Amal,Stevens,M,202,213-4444,WINSTON-SALEM,NC,27101,S,N,55000,3.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2792,
+   "output": "939,591-4757,JAYUYA,PR,00664,S,Y,25000,0.0,0,0,0",
+   "parsed": false
+  },
+  {
+   "row": 3457,
+   "output": "Sethu,Forte,M,315,343-5599,WESTBURY,NY,11597,S,Y,75000,4.3881097,0,0,1000",
+   "parsed": true
+  },
+  {
+   "row": 2485,
+   "output": "Simaan,Raschid,F,225,850-9354,HAMMOND,LA,70401,S,N,95000,6.0,4500,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4709,
+   "output": "Yiwen,Brinkschulte,F,808,363-6905,HONOLULU,HI,01907,M,N,20000,4.644737,0,2080,0",
+   "parsed": true
+  },
+  {
+   "row": 4893,
+   "output": "IlYoung,Kildall,M,615,761-7584,DICKSON,TN,37055,S,N,85000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1621,
+   "output": "Georges,Whiteman,F,270,658-2805,SPARTA,KY,41086,S,N,100000,6.0,20,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4404,
+   "output": "Frankie,Kluners,M,580,550-6261,RED OAK,OK,74563,S,Y,30000,6.25,1000,0,1000",
+   "parsed": true
+  },
+  {
+   "row": 3822,
+   "output": "Sitaram,Neuhaus,F,413,231-8073,BOSTON,MA,02109,M,N,75000,5.3,0,7150,0",
+   "parsed": true
+  },
+  {
+   "row": 3538,
+   "output": "Chien,Sereno,M,814,228-7996,FREELAND,PA,18224,S,Y,20000,3.07,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4157,
+   "output": "Kiyokazu,Gerth,F,980,615-6551,RUTHERFORD COLLEGE,NC,28671,S,Y,55000,6.8863635,3300,0,3300",
+   "parsed": true
+  },
+  {
+   "row": 2051,
+   "output": "Riccardo,Stevens,M,202,964-4441,CHICAGO,IL,60611,S,Y,70000,4.0,2500,0,0",
+   "parsed": true
+  },
+  {
+   "row": 497,
+   "output": "Fethi,Robson,F,605,468-6344,BRADLEY,SD,57217,M,Y,10000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4371,
+   "output": "Gershon,Wool,F,865,662-4539,MILLIGAN COLLEGE,TN,37682,M,N,25000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 114,
+   "output": "Kern,Queinnec,F,304,161-7106,PAGETON,WV,24871,M,Y,10000,3.0,0,4000,2000",
+   "parsed": true
+  },
+  {
+   "row": 751,
+   "output": "Subhodev,Robertson,F,207,495-1496,MILBRIDGE,ME,04658,S,Y,75000,8.5,2850,0,2850",
+   "parsed": true
+  },
+  {
+   "row": 3171,
+   "output": "Piercarlo,Read,F,360,394-8581,ENDICOTT,WA,99125,M,N,65000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4787,
+   "output": "Shaz,Carlstrom,F,440,907-9585,NEAPOLIS,OH,43547,M,Y,5000,0.712,0,2600,1300",
+   "parsed": true
+  },
+  {
+   "row": 15,
+   "output": "Gherin,Gori,M,312,722-5794,ROCHELLE,IL,61068,S,N,85000,3.0,2000,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4713,
+   "output": "Miyuki,Shimizu,M,419,111-1111,SEBEWAING,MI,01907,S,N,50000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3948,
+   "output": "Toshihiko,Artiges,M,870,717-6452,CECIL,AR,72930,S,Y,10000,2.5778654,20,0,20",
+   "parsed": true
+  },
+  {
+   "row": 2631,
+   "output": "Thao,Marchal,M,302,735-1789,DOVER AFB,DE,19902,M,N,10000,2.540909,0,220,0",
+   "parsed": true
+  }
+ ]
+}

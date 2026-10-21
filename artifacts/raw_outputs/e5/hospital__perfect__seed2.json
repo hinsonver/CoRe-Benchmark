@@ -1,0 +1,58 @@
+{
+ "dataset": "hospital",
+ "mode": "perfect",
+ "seed": 2,
+ "seconds": 3,
+ "detected": 509,
+ "corrections": 484,
+ "counts": {
+  "all": {
+   "errors": 509,
+   "predicted": 477,
+   "repaired": 421,
+   "detected": 477
+  },
+  "identity": {
+   "errors": 219,
+   "predicted": 219,
+   "repaired": 177,
+   "detected": 219
+  },
+  "other": {
+   "errors": 290,
+   "predicted": 258,
+   "repaired": 244,
+   "detected": 258
+  }
+ },
+ "all": {
+  "repair_p": 0.8826,
+  "repair_r": 0.8271,
+  "repair_f1": 0.854,
+  "detect_f1": 0.9675,
+  "errors": 509,
+  "predicted": 477,
+  "repaired": 421,
+  "detected": 477
+ },
+ "identity": {
+  "repair_p": 0.8082,
+  "repair_r": 0.8082,
+  "repair_f1": 0.8082,
+  "detect_f1": 1.0,
+  "errors": 219,
+  "predicted": 219,
+  "repaired": 177,
+  "detected": 219
+ },
+ "other": {
+  "repair_p": 0.9457,
+  "repair_r": 0.8414,
+  "repair_f1": 0.8905,
+  "detect_f1": 0.9416,
+  "errors": 290,
+  "predicted": 258,
+  "repaired": 244,
+  "detected": 258
+ }
+}

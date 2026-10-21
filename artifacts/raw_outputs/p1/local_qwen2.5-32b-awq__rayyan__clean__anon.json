@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-32b-awq",
+  "dataset": "rayyan",
+  "source": "clean",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.94,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.4416,
+  "acc_noninferable": 0.0,
+  "noninferable_cells": 363,
+  "acc_hard": 0.0,
+  "hard_cells": 345,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 36,
+    "model": 0.0,
+    "freq": 0.056,
+    "trans": 0.0,
+    "structural": 0.056
+   },
+   "jounral_abbreviation": {
+    "n": 14,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 28,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 41,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.073
+   },
+   "article_pagination": {
+    "n": 42,
+    "model": 0.0,
+    "freq": 0.048,
+    "trans": 0.0,
+    "structural": 0.048
+   },
+   "author_list": {
+    "n": 45,
+    "model": 0.0,
+    "freq": 0.022,
+    "trans": 0.0,
+    "structural": 0.022
+   },
+   "article_jcreated_at": {
+    "n": 36,
+    "model": 0.0,
+    "freq": 0.083,
+    "trans": 0.0,
+    "structural": 0.083
+   },
+   "article_language": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 20,
+    "model": 0.0,
+    "freq": 0.1,
+    "trans": 0.05,
+    "structural": 0.35
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "121133,Preoperative radiotherapy for esophageal carcinoma,eng,,,,,,,,\"{\"\"M. Wang\"\",\"\"G. Stewart\"\",\"\"J. F. Tierney\"\",\"\"G. Spilopoulos\"\",\"\"W. Duncan\"\",\"\"H. S. Hansen\"\",\"\"Z. Rhugang\"\",\"\"M. K. Parmar\"\",\"\"A. Rousell\"\",\"\"B. Launois\"\",\"\"K. Nygaard\"\",\"\"S. J. Arnott\"\",\"\"M. Gignoux\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "318542,Pneumonia and encephalopathy in a patient with progressing Parkinson's disease and dementia,,Critical Care Nursing Quarterly,,,35,2,1/12/01,160-172,\"{\"\"S. Livesay\"\",\"\"S.D. Ruppert\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "887418,Impact of crizotinib on patient-reported symptoms and global quality of life (QoL) compared with chemotherapy in a phase III study of advanced alk-positive non-small cell lung cancer (NSCLC),,European Journal of Cancer,,,49,0,1/13/01,-,\"{\"\"V. Hirsh\"\",\"\"J.Y. Han\"\",\"\"F. Blackhall\"\",\"\"S. Iyer\"\",\"\"D.W. Kim\"\",\"\"A. Shaw\"\",\"\"A. Reisman\"\",\"\"K. Wilner\"\",\"\"H. Nokihara\"\",\"\"B. Besse\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "422951,Exposure to second-hand smoke and the risk of tuberculosis in children and adults: a systematic review and meta-analysis of 18 observational studies.,eng,PLoS medicine,,,12,6,1/15/06,e1001835; discussion e1001835-e1001835; discussion e1001835,\"{\"\"Mehak Bhatia\"\",\"\"Shaun K Morris\"\",\"\"Prabhat Jha\"\",\"\"Wilson Suraweera\"\",\"\"Jayadeep Patra\"\",\"\"Cyril Patra\"\",\"\"Prakash C Gupta\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "853882,Effective combination chemotherapy with paclitaxel and cisplatin with or without human granulocyte colony-stimulating factor and/or erythropoietin in patients with advanced gastric cancer.,eng,BR. J. CANCER,,0007-0920,86,12,6/17/02,1858-63,\"{\"\"M Raderer\"\",\"\"C Gedlicka\"\",\"\"A Lenauer\"\",\"\"D Depisch\"\",\"\"W Scheithauer\"\",\"\"B Schneeweiss\"\",\"\"W Fiebiger\"\",\"\"F Lang\"\",\"\"G V Kornek\"\",\"\"B Sch_ll\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "217725,Use of alendronate in peri-implant defect regeneration,English,,,,,,,,\"{\"\"P. C. Wollan\"\",\"\"S. J. Meraw\"\",\"\"C. M. Reeve\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "836847,Thoracic Aortic Aneurysm: Reading the Enemy's Playbook,,Curr. Probl. Cardiol.,,-10475,33,5,,203-277,\"{\"\"Elefteriades J.A.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "408198,\"The parvalbumin-positive interneurons in the mouse dentate gyrus express GABAA receptor subunits 1, _2, and  along their extrasynaptic cell membrane.\",eng,Neuroscience,Neuroscience,1873-7544,254,-1,12/19/13,80-96,\"{\"\"H H_ger\"\",\"\"W Sieghart\"\",\"\"T Klausberger\"\",\"\"I Milenkovic\"\",\"\"M Vasiljevic\"\",\"\"D Maurer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "168889,Trends in domestic violence service and leadership: implications for an integrated shelter model,,Administration and policy in mental health,Adm Policy Ment Health,0894-587X,27,5,1/1/00,339-52,\"{\"\"M. B. Philip\"\",\"\"R. A. Hayward\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450749,Interleukin-28B polymorphisms on the SVR in the treatment of naive chronic hepatitis C with pegylated interferon-alpha plus ribavirin: A meta-analysis.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "449419,Inhibition of dxpression of VEGF in tumor cells by RNAi. [Chinese],,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "495319,Clinical outcome following ICD removal. The Bilitch Registry Group,eng,,,,16,0,1/1/93,186-192,\"{\"\"S. Furman\"\",\"\"D. T. Kawanishi\"\",\"\"S. L. Song\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "272721,Economic evaluation of inhaled nitric oxide in preterm infants undergoing mechanical ventilation,,Pediatrics,,,124,5,1/9/01,1325-1332,\"{\"\"A. M. Hibbs\"\",\"\"D. M. Black\"\",\"\"J. A. F. Zupancic\"\",\"\"A. Cnaan\"\",\"\"P. L. Ballard\"\",\"\"S. R. Wadlinger\"\",\"\"L. Palermo\"\",\"\"W. E. Truog\"\",\"\"R. A. Ballard\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "385940,\"Normalisation of left ventricular systolic function after change from VVI pacing to biventricular pacing in a child with congenital complete atrioventricular block, long-QT syndrome, and congenital muscular dystrophy: a 10-year follow-up.\",eng,Cardiology in the young,Cardiol Young,1467-1107,24,3,1/14/06,520-3,\"{\"\"Jesper I Reimers\"\",\"\"Sabrina G Ellese\"\",\"\"Henrik  Andersen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "863342,Molecular detection of hepatitis B virus: Recent developments,,LaboratoriumsMedizin,,,29,1,1/5/01,33-43,\"{\"\"B. Weber\"\",\"\"A. Berger\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "761676,The Impact of Culture on Learning: Exploring Student Perceptions,,Multicultural Education & Technology Journal,,1750-497X,3,3,1/9/01,182-195,\"{\"\"Prem Ramburuth\"\",\"\"Massimiliano Tani\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "914007,Bound for success: a systematic review of constraint-induced movement therapy in children with cerebral palsy supports improved arm and hand use (Structured abstract),,Physical therapy,Phys Ther,0031-9023,89,11,1/9/01,1126-1141,\"{\"\"H. H. Huang\"\",\"\"J. Hale\"\",\"\"L. Fetters\"\",\"\"A. McBride\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 923,
+   "output": "424870,Budesonide/formoterol in a single inhaler sustains lung function improvements in COPD [Abstract],,European respiratory journal,,,22,0,1/3/01,P435,\"{\"\"Thompson NC\"\",\"\"Calverley PMA\"\",\"\"Olsson H\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "741988,Changes in lower esophageal sphincter pressure (LES) after Stamm gastrostomy,eng,J Surg Res,The Journal of surgical research,0022-4804,42,5,1/1/87,570-4,\"{\"\"J. L. Grosfeld\"\",\"\"S. Goto\"\",\"\"G. P. Gardner\"\",\"\"D. F. Canal\"\",\"\"D. W. Vane\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "800900,Chronic pelvic pain.,eng,Best practice & research. Clinical gastroenterology,Best Pract Res Clin Gastroenterol,1532-1916,23,4,1/9/01,593-610,\"{\"\"Andrew Paul Baranowski\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "129698,Combined and sequential treatment of oral and maxillofacial malignancies: an evolving concept and clinical protocol.,eng,Chinese medical journal,Chin. Med. J.,0366-6999,121,19,5/8/10,1945-52,\"{\"\"Zhi-yuan Zhang\"\",\"\"Wei-liu Qiu\"\",\"\"Jia-wei Zheng\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "663994,Hearing feelings: a quantitative meta-analysis on the neuroimaging literature of emotional prosody perception.,eng,Neuropsychologia,Neuropsychologia,1873-3514,50,12,1/12/10,2752-63,\"{\"\"Vincent J P Van Heuven\"\",\"\"Niels O Schiller\"\",\"\"Jurriaan Witteman\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "904889,Myofascial trigger points: Spontaneous electrical activity and its consequences for pain induction and propagation,,Chin. Med,,1749-8546,6,0,,,\"{\"\"Ge H.-Y.\"\",\"\"Fernndez-de-las-Peas C.\"\",\"\"Yue S.-W.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "520771,[Skeletal maturation in assessing underage asylum seekers].,dut,\"Euthanasie en andere medische beslissingen rond het levenseinde, 1990-1995\",,0028-2162,149,22,5/28/05,1241; author reply 1241,\"{\"\"R R van Rijn\"\",\"\"S G F Robben\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "934327,Use of a Brief Phone Call After ED Discharge,,,,,0,0,,,\"{\"\"NCT01893931 \"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "764224,High intensity interval exercise training in overweight young women,,,,,52,3,1/12/01,255-62,\"{\"\"Y. Fengying\"\",\"\"Y. Hainai\"\",\"\"W. Jianxiong\"\",\"\"T. Sijie\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "847600,Experiences of African-American Women with Smartphone-Based Ecological Momentary Assessment.,ENG,\"Public health nursing (Boston, Mass.)\",Public Health Nurs,1525-1446,-1,-1,4/15/11,,\"{\"\"Ashley McDonald\"\",\"\"Shannon N Zenk\"\",\"\"Colleen Corte\"\",\"\"Kelly K Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "1266,Clinical effect observation of fule cream to cure dermatitis eczemal,,International Medicine & Health Guidance News [Guo Ji Yi Yao Wei Sheng Dao Bao],,,14,14,1/8/01,65-68-,\"{\"\"X. H. LYWXWF Wu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "695010,Association of Ureaplasma urealyticum colonization with development of bronchopulmonary dysplasia: a systemic review and meta-analysis.,eng,Journal of Huazhong University of Science and Technology. Medical Sciences,J Huazhong Univ Sci Technolog Med Sci,1672-0733,34,2,1/14/04,265-9,\"{\"\"Jia-rui Pu\"\",\"\"Dan Li\"\",\"\"De-hua Yang\"\",\"\"Li-duan Zheng\"\",\"\"Xiao-dan Zheng\"\",\"\"Hong Mei\"\",\"\"Xuan Xiang\"\",\"\"Qiang-song Tong\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "305933,Clinical course of patients with aspirin-exacerbated respiratory disease: can we predict the prognosis?,English,Pharmacogenomics,,,,15,4,1/14/01,449-457,\"{\"\"Choi GS\"\",\"\"Kim JH\"\",\"\"Park HS\"\",\"\"Ye YM\"\",\"\"Kim SH\"\",\"\"Kim JE\"\",\"\"Jin HJ\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 555,
+   "output": "26475,Situating universal design architecture: designing with whom?,ENG,Disability and rehabilitation,Disabil Rehabil,1464-5165,-1,-1,7/28/14,6-Jan,\"{\"\"Paul Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "332032,Air pollution and risk of urinary bladder cancer in a case-control study in Spain,,Occupational and environmental medicine,Occup Environ Med,1470-7926,65,1,1/8/01,56-60,\"{\"\"Nuria Malats\"\",\"\"Alfredo Carrato\"\",\"\"Manolis Kogevinas\"\",\"\"Nathaniel Rothman\"\",\"\"Consol Serra\"\",\"\"Reina Garcia-Closas\"\",\"\"Debra Silverman\"\",\"\"Adonina Tardon\"\",\"\"Kenneth P. Cantor\"\",\"\"Mustafa Dosemeci\"\",\"\"Gemma Castano-Vinyals\"\",\"\"Roel Vermeulen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "438681,Should psychiatrists use atypical antipsychotics to treat nonpsychotic anxiety?.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "912377,Assessing quality of life in patients after partial laryngectomy,English,Hippokratia,Hippokratia,1790-8019,18,2,1/14/01,156-61,\"{\"\"K. Mantsopoulos\"\",\"\"C. Bohr\"\",\"\"F. Hebel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "453637,Corneal collagen cross-linking for nonectatic disorders: A systematic review.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "689284,Intrinsically de-sialylated CD103(+) CD8 T cells mediate beneficial anti-glioma immune responses.,eng,\"Cancer immunology, immunotherapy : CII\",Cancer Immunol. Immunother.,1432-0851,63,9,1/14/09,911-24,\"{\"\"HongQiang Wang\"\",\"\"Dwain K Irvin\"\",\"\"Ashley Gragg\"\",\"\"Xiao-xue Zhang\"\",\"\"Christopher J Wheeler\"\",\"\"Keith L Black\"\",\"\"Lucia Veiga\"\",\"\"Ryan Cordner\"\",\"\"Mandana Zandian\"\",\"\"Akanksha Panwar\"\",\"\"Emmanuel Jouanneau\"\",\"\"Yuying Zhai\"\",\"\"Shyam Goverdhana\"\",\"\"Armen Mardiros\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "463556,Structural brain changes associated with antipsychotic treatment in schizophrenia as revealed by voxel-based morphometric MRI: an activation likelihood estimation meta-analysis.,,,,0,0,,,{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 85,
+   "output": "889481,Chronic pain related to quality of sleep,eng     por,Einstein (Sao Paulo),\"Einstein (Sao Paulo, Brazil)\",1679-4508,12,2,1/14/01,159-63,\"{\"\"W. Hummig\"\",\"\"J. Stechman Neto\"\",\"\"L. F. Tonial\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "109595,[Blood insulin values after the oral glucose tolerance test (OGTT) and the body composition in 30 obese children].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "136032,Cost-utility analysis of osteopathy in primary care: results from a pragmatic randomized controlled trial,eng,,,,21,0,1/4/01,643-50 ST  - Cost-utility analysis of osteopathy in primary care: results from a pragmatic randomized controlled trial-,\"{\"\"D. Russell\"\",\"\"P. Linck\"\",\"\"R. Hibbs\"\",\"\"I. Russell\"\",\"\"R. Muntz\"\",\"\"N. H. Williams\"\",\"\"B. C1  - Frn RCT-s_kningen CN  - Pubmed DA  - Dec DO  - 10.1093/fampra/cmh612 DP  - NLM ET  - 2004/11/09 Hounsome\"\",\"\"R. T. Edwards\"\",\"\"C. Wilkinson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "265969,Osteoarthritis of the thumb carpometacarpal joint in women and occupational risk factors: a case-control study,eng,J Hand Surg Am,The Journal of hand surgery,0363-5023,32,4,1/7/01,459-65,\"{\"\"J. M. Claise\"\",\"\"S. Neel\"\",\"\"P. Catilina\"\",\"\"L. Fontana\"\",\"\"S. Ughetto\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "853676,\"Pulsed cyclophosphamide, thalidomide and dexamethasone: an oral regimen for previously treated patients with multiple myeloma.\",eng,The hematology journal : the official journal of the European Haematology Association / EHA,Hematol. J.,1466-4860,5,2,1/4/01,112-7,\"{\"\"Meletios A Dimopoulos\"\",\"\"Nikolaos Anagnostopoulos\"\",\"\"Markela P Zorzou\"\",\"\"Athanasios Anagnostopoulos\"\",\"\"Eleni Efstathiou\"\",\"\"Christos Poziopoulos\"\",\"\"George Hamilos\"\",\"\"Vassiliki Grigoraki\"\",\"\"Dimitra Gika\"\",\"\"Athanasios Zomas\"\",\"\"Irini Xilouri\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 493,
+   "output": "208435,Comparison of tunnel positions in single-bundle anterior cruciate ligament reconstructions using computer navigation.,eng,\"Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA\",Knee Surg Sports Traumatol Arthrosc,1433-7347,18,9,1/10/09,1282-9,\"{\"\"Travis G Maak\"\",\"\"Thomas L Wickiewicz\"\",\"\"Volker Musahl\"\",\"\"James E Voos\"\",\"\"Andrew D Pearle\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "368651,A randomized controlled trial of paracetamol versus morphine for the treatment of acute painful crisis of sickle cell disease,,,Sickle Cell Disease,SCD,0149-6387,20,5,1/13/01,S149,\"{\"\"R. Rehmani\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 113,
+   "output": "148787,Cardiac atrophy in women following bed rest,eng,,,,103,0,1/7/01,8-16 ST  - Cardiac atrophy in women following bed rest-,\"{\"\"J. L. Hastings\"\",\"\"G. Biolo\"\",\"\"B. D. Levine\"\",\"\"T. Tillery\"\",\"\"R. M. Peshock\"\",\"\"T. A. Dorfman\"\",\"\"B. R. Macias\"\",\"\"A. R. DA  - Jul DO  - 10.1152/japplphysiol.01162.2006 DP  - NLM ET  - 2007/03/24 Hargens\"\",\"\"S. M. Schneider\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "697286,Central corneal melting associated with reformulated generic diclofenac in a patient with inferior fornix foreshortening.,eng,Ophthalmology and eye diseases,Ophthalmol Eye Dis,1179-1721,3,0,1/11/01,21-24,\"{\"\"Cameron Campbell Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "182296,Body and Illness: Considering Visayan Filipino Children's Perspectives Within Local and Global Relationships of Inequality,,,,,25,0,1/6/01,331-373,\"{\"\"Aitken Alderson Anderson Aptekar Backett-Milburn Beazley Becker Bello Berman Billig Bluebond-Langner Borchgrevink Bucholtz Christensen Constantino Cornwall Dell Clark DiCarlo Diprose Douglas Downe Geissler Goodenough Hart James James Jocano Katz Koppitz L Aguilar\"\",\"\"Lisa M. Mitchell\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-32b-awq",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": true,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.96,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.2549,
+  "acc_noninferable": 0.0,
+  "noninferable_cells": 375,
+  "acc_hard": 0.0,
+  "hard_cells": 364,
+  "leak_rate": 0.0,
+  "leak_cells": 52,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 50,
+  "per_column": {
+   "id": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 35,
+    "model": 0.0,
+    "freq": 0.057,
+    "trans": 0.0,
+    "structural": 0.057
+   },
+   "journal_issn": {
+    "n": 31,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.047
+   },
+   "article_jissue": {
+    "n": 16,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.312
+   },
+   "article_jcreated_at": {
+    "n": 38,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.026,
+    "structural": 0.026
+   },
+   "article_pagination": {
+    "n": 45,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "author_list": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.021,
+    "trans": 0.0,
+    "structural": 0.021
+   },
+   "jounral_abbreviation": {
+    "n": 22,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_language": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 518,
+   "output": "144339,Comparative in vitro performance of three small-volume valved holding chambers with beclomethasone/formoterol pressurized metered dose inhaler.,eng,Journal of aerosol medicine and pulmonary drug delivery,J Aerosol Med Pulm Drug Deliv,1941-2703,26,4,8/1/13,223-7,\"{\"\"Kamel Alhanout\"\",\"\"Jean-Christophe Dubus\"\",\"\"Talita Mota Goncalves\"\",\"\"Veronique Andrieu\"\",\"\"Alain Nicolay\"\",\"\"Davi Pereira de Santana\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 565,
+   "output": "102180,\"Safety, tolerability and sustained weight loss over 2 years with the once-daily human GLP-1 analog, liraglutide.\",eng,International journal of obesity (2005),Int J Obes (Lond),1476-5497,36,6,6/1/12,843-54,\"{\"\"R Carraro\"\",\"\"M F Rasmussen\"\",\"\"L Niskanen\"\",\"\"A Harper\"\",\"\"N Finer\"\",\"\"S R̦ssner\"\",\"\"M Kunesova\"\",\"\"L Van Gaal\"\",\"\"M E J Lean\"\",\"\"A Astrup\"\",\"\"A Rissanen\"\",\"\"M J Savolainen\"\",\"\"[Collective Name] NN8022-1807 Investigators\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 62,
+   "output": "108424,Outcome of gastric bypass patients.,eng,Obesity surgery,Obes Surg,0960-8923,12,2,4/1/02,261-4,\"{\"\"Ryan Holzwarth\"\",\"\"Basir Tareen\"\",\"\"Alicia Majkrzak\"\",\"\"Darren Huber\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 352,
+   "output": "294439,\"Alcohol-related road traffic injuries in Eldoret, Kenya\",,East African Medical Journal,,0012-835X,75,12,1/1/98,708-711,\"{\"\"W Odero\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 674,
+   "output": "164085,Fungal flora in indoor and outdoor air of different residential houses in Tekirdag City (Turkey): seasonal distribution and relationship with climatic factors,,Environmental monitoring and assessment,Environ Monit Assess,1573-2959,151,1,1/1/09,209-19,\"{\"\"Ahmet Asan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 644,
+   "output": "638338,\"Letter by Raposeiras-Roubin et al regarding article, \"\"mortality associated with atrial fibrillation in patients with myocardial infarction: a systematic review and meta-analysis\"\".\",eng,Circulation,Circulation,1524-4539,124,18,11/1/11,e483; author's reply e484,\"{\"\"Sergio Raposeiras-Roubï¿½n\"\",\"\"Josï¿½ Maria Garcï¿½a-Acuï¿½a\"\",\"\"Josï¿½ Ramï¿½n Gonzï¿½lez-Juanatey\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 545,
+   "output": "866131,Long-term subcutaneous recombinant interleukin-2 as maintenance therapy: Biological effects and clinical implications,,Cancer Biotherapy,,1062-8401,10,3,1/1/95,195-203,\"{\"\"V. Lorusso\"\",\"\"M. De Lena\"\",\"\"M. Guida\"\",\"\"M. Correale\"\",\"\"I. Abbate\"\",\"\"A. Latorre\"\",\"\"A. Casamassima\"\",\"\"M. D. Musci\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 410,
+   "output": "970712,[Glycosylated hemoglobin and glycosylated proteins for metabolic control of diabetes mellitus],German,Wiener Medizinische Wochenschrift,,,147,15,1/1/97,359-61,\"{\"\"W. J. Schnedl\"\",\"\"R. W. Lipp\"\",\"\"G. Leitner\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 635,
+   "output": "113363,Mental health symptoms in a population based survey of minority farm operators,,,,,0,0,,62928,\"{\"\"A. L. Steege\"\",\"\"T. Alterman\"\",\"\"M. R. Petersen\"\",\"\"J. Li\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 476,
+   "output": "517503,The impact of 3D volume of interest definition on accuracy and precision of activity estimation in quantitative SPECT and planar processing methods.,eng,Physics in medicine and biology,Phys Med Biol,1361-6560,55,12,6/21/10,3535-44,\"{\"\"Bin He\"\",\"\"Eric C Frey\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 771,
+   "output": "461204,Fc receptor-like 3 (FCRL3) -169 C/T polymorphism and systemic lupus erythematosus: A meta-analysis.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "188890,Incidence of multi-resistance in gram-negative aerobes from intensive care units of 10 German hospitals.,eng,Scandinavian journal of infectious diseases. Supplementum,Scand J Infect Dis Suppl,0300-8878,78,,1/1/91,22-34,\"{\"\"R Asanger\"\",\"\"P M Shah\"\",\"\"F M Kahan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 666,
+   "output": "558824,Swabbing Surgical Sites Does Not Improve the Detection of Staphylococcus aureus Carriage in High-Risk Surgical Patients,Eng,,,,0,0,1/1/15,,\"{\"\"M. S. Ihara\"\",\"\"J. R. Tripet-Diel\"\",\"\"K. Shahlaie\"\",\"\"C. S. Li\"\",\"\"J. Brown\"\",\"\"S. H. Cohen\"\",\"\"M. Giordani\"\",\"\"E. O. Klineberg\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 192,
+   "output": "225002,Services for children and adolescents with autism spectrum disorders: payment issues.,eng,Pediatric annals,Pediatr Ann,0090-4481,38,1,1/1/09,57-61,\"{\"\"Lynn M Wegner\"\",\"\"Michelle M Macias\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 380,
+   "output": "716594,Groundbreaking study links physical activity with lower costs in seniors,,,,,7,5,1/1/04,51-54 4p,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 193,
+   "output": "225002,Services for children and adolescents with autism spectrum disorders: payment issues.,eng,Pediatric annals,Pediatr Ann,0090-4481,38,1,1/1/09,57-61,\"{\"\"Lynn M Wegner\"\",\"\"Michelle M Macias\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 130,
+   "output": "772616,Antivitamin K drugs in stroke prevention,,Curr. Vasc. Pharmacol.,,-7518,11,6,,817-823,\"{\"\"di Raimondo D.\"\",\"\"Pinto A.\"\",\"\"Lucifora B.\"\",\"\"Tuttolomondo A.\"\",\"\"Licata G.\"\",\"\"Butt�� C.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 822,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 339,
+   "output": "438808,Descemet's stripping endothelial keratoplasty: safety and outcomes: a report by the American Academy of Ophthalmology,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 700,
+   "output": "100234,Investigating the impact of climate change on global food security,eng,Environmental Research Letters,Environ. Res. Lett,1748-9326,15,8,1/1/21,084012-1-084012-12,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "305933,Clinical course of patients with aspirin-exacerbated respiratory disease: can we predict the prognosis?,English,Pharmacogenomics,,,,15,4,1/1/14,449-457,\"{\"\"Choi GS\"\",\"\"Kim JH\"\",\"\"Park HS\"\",\"\"Ye YM\"\",\"\"Kim SH\"\",\"\"Kim JE\"\",\"\"Jin HJ\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 797,
+   "output": "215650,Bruxismo em crianças Bruxism in children,pt,,,,3,2,,91-8,\"{\"\"Ronaldo Fazzi\"\",\"\"Ana Estela Haddad\"\",\"\"Maria Salete Nahãs Pires Corrêa\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 200,
+   "output": "348006,Ultrasonically enhanced vancomycin activity against Staphylococcus epidermidis biofilms in vivo.,eng,Journal of biomaterials applications,J Biomater Appl,0885-3282,18,4,4/1/04,237-45,\"{\"\"R A Robison\"\",\"\"J L Nelson\"\",\"\"B L Roeder\"\",\"\"B L Beckstead\"\",\"\"G B Schaalje\"\",\"\"J C Carmen\"\",\"\"W G Pitt\"\",\"\"C M Runyan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 421,
+   "output": "450528,Impact of hepatitis C on survival in dialysis patients: A link with cardiovascular mortality?.,,,,0,0,,,{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 137,
+   "output": "513829,CT false-profile view of the hip: a reproducible method of measuring anterior acetabular coverage using volume CT data.,eng,Skeletal Radiology,Skeletal Radiol,1432-2161,43,11,11/1/14,1605-11,\"{\"\"Dominic S Carreira\"\",\"\"Ross M Borzykowski\"\",\"\"John Kozy\"\",\"\"Steven D Needell\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 104,
+   "output": "417578,Partial fill strategies for oral oncolytics to reduce waste and drive persistency,eng,Am J Manag Care,The American journal of managed care,1088-0224,19,1,1/1/13,SP26-7,\"{\"\"A. A. Kaddis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 906,
+   "output": "980682,Readmissions after hospital discharge with acute exacerbation of COPD: are we missing something?,,Hospital practice (1995),,,42,2,1/1/14,58-69,\"{\"\"W. Sexauer\"\",\"\"M. S. Kavuru\"\",\"\"U. Vaid\"\",\"\"K. Gaurav\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 447,
+   "output": "56014,Differences of inter-tract correlations between neonates and children around puberty: a study based on microstructural measurements with DTI.,eng,Frontiers in human neuroscience,Front Hum Neurosci,1662-5161,7,,1/1/13,721,\"{\"\"Gaolang Gong\"\",\"\"Hua Cheng\"\",\"\"Yong He\"\",\"\"Qi Dong\"\",\"\"Hao Huang\"\",\"\"Virendra Mishra\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 628,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 736,
+   "output": "355078,Use of episiotomy in the United States,eng,Birth,,1523-536X,29,1,1/1/02,74-6,\"{\"\"M. C. Klein\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 139,
+   "output": "316632,When is carotid angioplasty and stenting the cost-effective alternative for revascularization of symptomatic carotid stenosis? A Canadian health system perspective,,,,,35,2,1/1/14,327-32,\"{\"\"M. Goyal\"\",\"\"S. Wiebe\"\",\"\"M. D. Hill\"\",\"\"F. M. Clement\"\",\"\"J. H. Wong\"\",\"\"M. A. Almekhlafi\"\",\"\"D. Yavin\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 471,
+   "output": "299635,The Social Workers Guide to Child and Adolescent Mental Health.,,Child & Family Social Work,,1356-7500,16,2,5/1/11,241-242,\"{\"\"Jo Finch\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "494428,Out-of-hospital cardiac arrests occurring in southern Ontario health care clinics: bystander cardiopulmonary resuscitation and automated external defibrillator use.,eng,Canadian family physician Medecin de famille canadien,Can Fam Physician,1715-5258,56,6,6/1/10,e213-8,\"{\"\"Karen K Lam\"\",\"\"Steven C Brooks\"\",\"\"Laurie J Morrison\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 431,
+   "output": "119186,Smoking and oral cancer.,eng,Journal of dental research,J. Dent. Res.,0022-0345,42,,1/1/63,328-39,\"{\"\"J J SALLEY\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "495319,Clinical outcome following ICD removal. The Bilitch Registry Group,eng,,,,16,0,1/1/93,186-192,\"{\"\"S. Furman\"\",\"\"D. T. Kawanishi\"\",\"\"S. L. Song\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 851,
+   "output": "627882,Is there evidence that barrier membranes prevent bone resorption in autologous bone grafts during the healing period? A systematic review.,eng,International Journal of Oral & Maxillofacial Implants,,0882-2786,22,3,5/1/07,390-8,\"{\"\"Ruud R M Bos\"\",\"\"Gerry M Raghoebar\"\",\"\"Pepijn F M Gielkens\"\",\"\"Boudewijn Stegenga\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 282,
+   "output": "737786,Cranial reconstruction of major traumatic defects in children with osteoinductive and resorbable materials,,International Journal of Oral and Maxillofacial Surgery,,0901-5027,40,0,1/1/11,1024-1025,\"{\"\"R. R. M. Bos\"\",\"\"E. W. Hoving\"\",\"\"M. Wagemakers\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 723,
+   "output": "741279,\"Bradykinin is a mediator, but unlikely a trigger, of antiarrhythmic effects of ischemic preconditioning\",,Journal of Cardiovascular Electrophysiology,,,18,1,1/1/07,93-99 7p,\"{\"\"S. V. Driamov\"\",\"\"S. Butz\"\",\"\"P. T. Buser\"\",\"\"C. E. Zaugg\"\",\"\"M. Bellahcene\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 989,
+   "output": "260738,Combined use of caudal bupivacaine and rectal diclofenac is not superior to the use of each analgesic regimen alone,,,,,21,0,1/1/05,63-66,\"{\"\"A. H. Samarkandi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 594,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 684,
+   "output": "757660,Association of interleukin-10 cytokine expression status with HLA non-DRB1*02 and Mycobacterium bovis BCG scar-negative status in south Indian pulmonary tuberculosis patients.,eng,Infection and immunity,Infect. Immun.,0019-9567,69,9,9/1/01,5635-42,\"{\"\"A D Nageswari\"\",\"\"S Vani\"\",\"\"P Muthuveeralakshmi\"\",\"\"S Shanmugalakshmi\"\",\"\"V Dheenadhayalan\"\",\"\"G Arivarignan\"\",\"\"R M Pitchappan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 353,
+   "output": "375430,A study of the clinicians approach to patients' driving status in the memory clinic setting,English,,,,30,0,1/1/15,1444,\"{\"\"M. Thomas\"\",\"\"E. Fairholme\"\",\"\"N. Nichols\"\",\"\"M. George\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 87,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 719,
+   "output": "820059,Effects of multifunctional fabrics on cardiac autonomic tone and psychological state,English,International Journal of Neuroscience,Int.J.Neurosci.,0020-7454,114,8,1/1/04,923-931,\"{\"\"K.-W. Park\"\",\"\"J. Song\"\",\"\"H.-J. Kim\"\",\"\"S.-R. Moon\"\",\"\"M.S. Lee\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 28,
+   "output": "971878,Diminished A-cell secretion in the early phase of type I diabetes mellitus,English,Metabolism: Clinical and Experimental,,,35,11,1/1/86,1074-1077,\"{\"\"S. Srikanta\"\",\"\"O. P. Ganda\"\",\"\"R. E. Gleason\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 127,
+   "output": "259367,A comparison of recovery characteristics of sevoflurane and propofol-remifentanil anesthesia in geriatric patients,,,,,14,0,1/1/11,208-213,\"{\"\"A. Erol\"\",\"\"J. B. Celik\"\",\"\"I. Kara\"\",\"\"A. Topal\"\",\"\"S. Guven\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 534,
+   "output": "408198,\"The parvalbumin-positive interneurons in the mouse dentate gyrus express GABAA receptor subunits �1, �_2, and � along their extrasynaptic cell membrane.\",eng,Neuroscience,Neuroscience,1873-7544,254,,12/19/13,80-96,\"{\"\"H H̦ger\"\",\"\"W Sieghart\"\",\"\"T Klausberger\"\",\"\"I Milenkovic\"\",\"\"M Vasiljevic\"\",\"\"D Maurer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 886,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 830,
+   "output": "382853,CT features of pulmonary arterial hypertension and its major subtypes: a systematic CT evaluation of 292 patients from the ASPIRE Registry.,eng,Thorax,Thorax,1468-3296,70,4,4/1/15,382-7,\"{\"\"R Condliffe\"\",\"\"J Hurdman\"\",\"\"J M Wild\"\",\"\"D G Kiely\"\",\"\"S Rajaram\"\",\"\"A J Swift\"\",\"\"C A Elliot\"\",\"\"C Davies\"\",\"\"C Hill\"\",\"\"I Sabroe\"\",\"\"C Johns\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 11,
+   "output": "498345,Ebola Virus GP Gene Polyadenylation Versus RNA Editing.,ENG,The Journal of infectious diseases,J. Infect. Dis.,1537-6613,,,4/2/15,,\"{\"\"Valentina A Volchkova\"\",\"\"Jaroslav Vorac\"\",\"\"Philip Lawrence\"\",\"\"Laurie Repiquet-Paire\"\",\"\"Viktor E Volchkov\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

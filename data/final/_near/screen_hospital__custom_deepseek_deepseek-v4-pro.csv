@@ -1,0 +1,48 @@
+name,city,state,answer,known
+university of alabama hospital,birmingham,al,"Birmingham, AL",True
+huntsville hospital,huntsville,al,"Huntsville, AL",True
+scripps mercy hospital,san diego,ca,"San Diego, CA",True
+ronald reagan ucla medical center,los angeles,ca,"Los Angeles, CA",True
+stanford health care,stanford,ca,"Palo Alto, CA",False
+ucsf medical center,san francisco,ca,"San Francisco, CA",True
+cedars-sinai medical center,los angeles,ca,"Los Angeles, CA",True
+keck hospital of usc,los angeles,ca,"Los Angeles, CA",True
+yale-new haven hospital,new haven,ct,"New Haven, CT",True
+george washington univ hospital,washington,dc,"Washington, DC",True
+medstar georgetown university hospital,washington,dc,"Washington, DC",True
+jackson health system,miami,fl,"Miami, FL",True
+tampa general hospital,tampa,fl,"Tampa, FL",True
+emory university hospital,atlanta,ga,"Atlanta, GA",True
+the university of chicago medical center,chicago,il,"Chicago, IL",True
+rush university medical center,chicago,il,"Chicago, IL",True
+northwestern memorial hospital,chicago,il,"Chicago, IL",True
+university of iowa hospital & clinics,iowa city,ia,"Iowa City, IA",True
+university of kansas hospital,kansas city,ks,"Kansas City, KS",True
+mainehealth maine medical center,portland,me,"Portland, ME",True
+"johns hopkins hospital, the",baltimore,md,"Baltimore, MD",True
+massachusetts general hospital,boston,ma,"Boston, MA",True
+beth israel deaconess medical center,boston,ma,"Boston, MA",True
+brigham and women's hospital,boston,ma,"Boston, MA",True
+tufts medical center,boston,ma,"Boston, MA",True
+boston children's hospital,boston,ma,"Boston, MA",True
+university of michigan health system,ann arbor,mi,"Ann Arbor, MI",True
+mayo clinic hospital rochester,rochester,mn,"Rochester, MN",True
+barnes jewish hospital,saint louis,mo,"St. Louis, MO",True
+hackensack university medical center,hackensack,nj,"Hackensack, NJ",True
+mount sinai hospital,new york,ny,"New York, NY",True
+lenox hill hospital,new york,ny,"New York, NY",True
+bellevue hospital center,new york,ny,"New York, NY",True
+nyu langone hospitals,new york,ny,"New York, NY",True
+hospital for special surgery,new york,ny,"New York, NY",True
+duke university hospital,durham,nc,"Durham, NC",True
+geisinger medical center,danville,pa,"Danville, PA",True
+upmc presbyterian shadyside,pittsburgh,pa,"Pittsburgh, PA",True
+children's hospital of philadelphia,philadelphia,pa,"Philadelphia, PA",True
+vanderbilt university medical center,nashville,tn,"Nashville, TN",True
+st jude childrens research hospital,memphis,tn,"Memphis, TN",True
+baylor university medical center,dallas,tx,"Dallas, TX",True
+houston methodist hospital,houston,tx,"Houston, TX",True
+texas childrens hospital,houston,tx,"Houston, TX",True
+intermountain medical center,murray,ut,"Murray, UT",True
+university of washington medical ctr,seattle,wa,"Seattle, WA",True
+harborview medical center,seattle,wa,"Seattle, WA",True

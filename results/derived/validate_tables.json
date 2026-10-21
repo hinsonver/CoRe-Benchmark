@@ -1,0 +1,3143 @@
+[
+ {
+  "table": "hospital_fresh",
+  "check": "same shape and columns as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "same clean table as the main fresh table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "the original's number of errors in every column",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "identity errors of the original's strength (within 0.2 characters)",
+  "ok": true,
+  "detail": "1.7 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "0 vs original 1"
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.58, 0.256, 0.164] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "other columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.61, 0.179, 0.21] vs original [0.64, 0.194, 0.166]"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "13 columns"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "ProviderNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "HospitalName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "Address1: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "City: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "ZipCode: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "CountyName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "PhoneNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "ProviderNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "ProviderNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "HospitalName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "HospitalName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "Address1: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "Address1: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "City: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "39 values"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "City: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "ZipCode: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "44 values"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "ZipCode: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "CountyName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "33 values"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "CountyName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "PhoneNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "PhoneNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "identity errors are x-substitutions of the original's strength (within 0.35 characters)",
+  "ok": true,
+  "detail": "1.48 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "1 vs original 1"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": false,
+  "detail": "[0.621, 0.315, 0.064] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "13 columns"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "ProviderNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "HospitalName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "Address1: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "City: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "ZipCode: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "CountyName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "PhoneNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "ProviderNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "ProviderNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "HospitalName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "HospitalName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "Address1: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "Address1: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "City: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "39 values"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "City: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "ZipCode: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "44 values"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "ZipCode: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "CountyName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "33 values"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "CountyName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "PhoneNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "PhoneNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "identity errors are x-substitutions of the original's strength (within 0.35 characters)",
+  "ok": true,
+  "detail": "1.52 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "1 vs original 1"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.58, 0.329, 0.091] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "same shape and columns as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "same clean table as the main fresh table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "the original's number of errors in every column",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "identity errors of the original's strength (within 0.2 characters)",
+  "ok": true,
+  "detail": "1.6 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "0 vs original 1"
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.58, 0.292, 0.128] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "other columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.597, 0.207, 0.197] vs original [0.64, 0.194, 0.166]"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "13 columns"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "ProviderNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "HospitalName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "Address1: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "City: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "ZipCode: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "CountyName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "PhoneNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "ProviderNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "ProviderNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "HospitalName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "HospitalName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "Address1: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "Address1: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "City: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "39 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "City: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "ZipCode: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "44 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "ZipCode: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "CountyName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "33 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "CountyName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "PhoneNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "PhoneNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "identity errors are x-substitutions of the original's strength (within 0.35 characters)",
+  "ok": true,
+  "detail": "1.63 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "1 vs original 1"
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.562, 0.301, 0.137] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "13 columns"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "ProviderNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "HospitalName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "Address1: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "City: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "ZipCode: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "CountyName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "PhoneNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "ProviderNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "ProviderNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "HospitalName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "HospitalName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "Address1: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "Address1: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "City: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "39 values"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "City: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "ZipCode: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "44 values"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "ZipCode: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "CountyName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "33 values"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "CountyName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "PhoneNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "PhoneNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "identity errors are x-substitutions of the original's strength (within 0.35 characters)",
+  "ok": true,
+  "detail": "1.58 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "1 vs original 1"
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.598, 0.274, 0.128] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "same shape and columns as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "same clean table as the main fresh table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "the original's number of errors in every column",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "identity errors of the original's strength (within 0.2 characters)",
+  "ok": true,
+  "detail": "1.7 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "0 vs original 1"
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.539, 0.288, 0.174] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "other columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.583, 0.21, 0.207] vs original [0.64, 0.194, 0.166]"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "13 columns"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "ProviderNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "HospitalName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "Address1: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "City: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "ZipCode: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "CountyName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "PhoneNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "ProviderNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "ProviderNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "HospitalName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "HospitalName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "Address1: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "Address1: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "City: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "39 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "City: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "ZipCode: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "44 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "ZipCode: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "CountyName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "33 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "CountyName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "PhoneNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "PhoneNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "identity errors are x-substitutions of the original's strength (within 0.35 characters)",
+  "ok": true,
+  "detail": "1.63 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "1 vs original 1"
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.539, 0.338, 0.123] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "509 error cells"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "13 columns"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "ProviderNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "HospitalName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "Address1: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "City: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "ZipCode: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "CountyName: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "PhoneNumber: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "ProviderNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "ProviderNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "HospitalName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "HospitalName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "Address1: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "Address1: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "City: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "39 values"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "City: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "ZipCode: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "44 values"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "ZipCode: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "CountyName: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "33 values"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "CountyName: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "PhoneNumber: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "45 values"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "PhoneNumber: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "identity errors are x-substitutions of the original's strength (within 0.35 characters)",
+  "ok": true,
+  "detail": "1.49 characters changed per error, original 1.7"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "every error is an x-substitution (no more exceptions than the original)",
+  "ok": true,
+  "detail": "1 vs original 1"
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "identity columns: characters replaced per error cell (1 / 2 / 3+) within 8 points of the original",
+  "ok": true,
+  "detail": "[0.616, 0.292, 0.091] vs original [0.539, 0.292, 0.169]"
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "seed 0 and seed 1 are different draws",
+  "ok": true,
+  "detail": "100% of error cells differ; 0% of clean identity cells differ"
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "seed 1 and seed 2 are different draws",
+  "ok": true,
+  "detail": "100% of error cells differ; 0% of clean identity cells differ"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "seed 0 and seed 1 are different draws",
+  "ok": true,
+  "detail": "43% of error cells differ; 99% of clean identity cells differ"
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "seed 1 and seed 2 are different draws",
+  "ok": true,
+  "detail": "43% of error cells differ; 100% of clean identity cells differ"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "seed 0 and seed 1 are different draws",
+  "ok": true,
+  "detail": "43% of error cells differ; 100% of clean identity cells differ"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "seed 1 and seed 2 are different draws",
+  "ok": true,
+  "detail": "43% of error cells differ; 100% of clean identity cells differ"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "same shape and columns as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh",
+  "check": "same clean table as the main fresh table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh",
+  "check": "people errors only in Rotten Tomatoes rows",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Id and Year wrong in every Rotten Tomatoes row, nowhere else",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh",
+  "check": "no film of the benchmark",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (0, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "RatingCount: thousands separators on every count >= 1000 and no other, as in the original",
+  "ok": true,
+  "detail": "0 cells off the rule; 1000 counts >= 1000 (original 768)"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Director: the original's error kinds (no kind more frequent than in the original by more than 2; at least 80% of its errors)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'names differ': 3, 'order or spelling': 3} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Creator: the original's error kinds (no kind more frequent than in the original by more than 2; at least 80% of its errors)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 32, 'order or spelling': 16} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 2, 'case': 5, 'and/&': 2, 'tokens added': 3, 'tokens dropped': 4, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 4, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 42, 'tokens added': 50, 'tokens dropped': 24, 'emptied': 5, 'other': 3, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 79, 'tokens changed (some kept)': 107, 'tokens added': 1}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 86, 'tokens added': 44, '.0': 90, 'other': 32, 'emptied': 28}"
+ },
+ {
+  "table": "movies_fresh",
+  "metric": "Genre: other 1 vs original 4, exempt",
+  "value": "no word shared by the IMDb and RT lists ('Thriller' -> 'Mystery & Suspense'): depends on which genres a film has; the RT slots are copied row by row"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 98, 'tokens dropped': 39, 'tokens added': 28, 'punct/space': 1, 'other': 1}"
+ },
+ {
+  "table": "movies_fresh",
+  "metric": "error cells per column",
+  "value": {
+   "Id": 190,
+   "Name": 17,
+   "Year": 190,
+   "Director": 39,
+   "Creator": 125,
+   "Duration": 187,
+   "RatingValue": 280,
+   "RatingCount": 1000,
+   "Genre": 167
+  }
+ },
+ {
+  "table": "movies_fresh",
+  "metric": "original's error cells per column",
+  "value": {
+   "Id": 190,
+   "Name": 17,
+   "Year": 190,
+   "Director": 43,
+   "Creator": 129,
+   "Duration": 187,
+   "RatingValue": 261,
+   "RatingCount": 768,
+   "Genre": 180
+  }
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (68, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "1965 error cells"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "5 columns"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Director: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Creator: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Actors: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Id: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Id: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Name: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Director: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "872 values"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Director: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Creator: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1397 values"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Creator: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Actors: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "2196 values"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Actors: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Director: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 4, 'order or spelling': 5} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Creator: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 37, 'order or spelling': 15} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'accent': 1, 'and/&': 2, 'punct/space': 2, 'tokens added': 3, 'tokens dropped': 4}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 8, 'tokens dropped': 1}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 46, 'tokens dropped': 23, 'tokens added': 52, 'emptied': 5, 'other': 3}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 80, 'tokens changed (some kept)': 105, 'other': 2}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 61, 'tokens changed (some kept)': 73, 'tokens added': 31, '.0': 74, 'emptied': 22}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "RatingCount: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 768}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 89, 'tokens added': 47, 'tokens dropped': 40, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "no real title word in fictitious titles, title errors or slugs",
+  "ok": true,
+  "detail": "0 shared, e.g. []"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "fictitious title words all from the surrogate's pool",
+  "ok": true,
+  "detail": "0 others, e.g. []"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "titles do not keep their real title's shape (no more than random pairing + 3 points)",
+  "ok": true,
+  "detail": "same shape 9.8%, by chance 9.3%"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "fictitious titles like the original's: length, repeated words, The/lowercase/colon/number/! rates",
+  "ok": true,
+  "detail": "{'words': 2.984, '5+ words': 0.129, 'repeated word': 0.016, '4+ words, no function word or colon': 0.168, 'The ...': 0.201, 'lowercase word': 0.235, 'colon': 0.059, 'final number': 0.035, '!': 0.016}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (68, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "1965 error cells"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "5 columns"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Director: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Creator: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Actors: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Id: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Id: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Name: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Director: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "872 values"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Director: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Creator: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1397 values"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Creator: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Actors: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "2196 values"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Actors: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Director: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 4, 'order or spelling': 5} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Creator: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 37, 'order or spelling': 15} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'accent': 1, 'and/&': 2, 'punct/space': 2, 'tokens added': 3, 'tokens dropped': 4}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 8, 'tokens dropped': 1}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 45, 'tokens dropped': 23, 'tokens added': 52, 'emptied': 5, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 80, 'tokens changed (some kept)': 105, 'other': 2}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 61, 'tokens changed (some kept)': 73, 'tokens added': 31, '.0': 74, 'emptied': 22}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "RatingCount: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 768}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 89, 'tokens added': 47, 'tokens dropped': 40, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "no real title word in fictitious titles, title errors or slugs",
+  "ok": true,
+  "detail": "0 shared, e.g. []"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "fictitious title words all from the surrogate's pool",
+  "ok": true,
+  "detail": "0 others, e.g. []"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "titles do not keep their real title's shape (no more than random pairing + 3 points)",
+  "ok": true,
+  "detail": "same shape 8.7%, by chance 8.7%"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "fictitious titles like the original's: length, repeated words, The/lowercase/colon/number/! rates",
+  "ok": true,
+  "detail": "{'words': 2.865, '5+ words': 0.147, 'repeated word': 0.009, '4+ words, no function word or colon': 0.203, 'The ...': 0.175, 'lowercase word': 0.237, 'colon': 0.057, 'final number': 0.029, '!': 0.02}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "same shape and columns as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "same clean table as the main fresh table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "people errors only in Rotten Tomatoes rows",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Id and Year wrong in every Rotten Tomatoes row, nowhere else",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "no film of the benchmark",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (0, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "RatingCount: thousands separators on every count >= 1000 and no other, as in the original",
+  "ok": true,
+  "detail": "0 cells off the rule; 1000 counts >= 1000 (original 768)"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Director: the original's error kinds (no kind more frequent than in the original by more than 2; at least 80% of its errors)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'names differ': 3, 'order or spelling': 3} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Creator: the original's error kinds (no kind more frequent than in the original by more than 2; at least 80% of its errors)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 32, 'order or spelling': 16} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'punct/space': 2, 'and/&': 2, 'tokens added': 3, 'tokens dropped': 4, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'accent': 1, 'tokens changed (some kept)': 4}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 41, 'tokens added': 49, 'tokens dropped': 26, 'emptied': 5, 'other': 3, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 101, 'emptied': 87}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 87, 'other': 34, '.0': 90, 'tokens added': 40, 'emptied': 25}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "metric": "Genre: other 1 vs original 4, exempt",
+  "value": "no word shared by the IMDb and RT lists ('Thriller' -> 'Mystery & Suspense'): depends on which genres a film has; the RT slots are copied row by row"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 98, 'tokens dropped': 39, 'tokens added': 28, 'punct/space': 1, 'other': 1}"
+ },
+ {
+  "table": "movies_fresh_s1",
+  "metric": "error cells per column",
+  "value": {
+   "Id": 190,
+   "Name": 17,
+   "Year": 190,
+   "Director": 39,
+   "Creator": 125,
+   "Duration": 188,
+   "RatingValue": 276,
+   "RatingCount": 1000,
+   "Genre": 167
+  }
+ },
+ {
+  "table": "movies_fresh_s1",
+  "metric": "original's error cells per column",
+  "value": {
+   "Id": 190,
+   "Name": 17,
+   "Year": 190,
+   "Director": 43,
+   "Creator": 129,
+   "Duration": 187,
+   "RatingValue": 261,
+   "RatingCount": 768,
+   "Genre": 180
+  }
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (68, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "1965 error cells"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "5 columns"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Director: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Creator: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Actors: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Id: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Id: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Name: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Director: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "872 values"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Director: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Creator: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1397 values"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Creator: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Actors: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "2196 values"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Actors: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Director: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 4, 'order or spelling': 5} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Creator: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 37, 'order or spelling': 15} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'accent': 1, 'and/&': 2, 'punct/space': 2, 'tokens added': 3, 'tokens dropped': 4}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 8, 'tokens dropped': 1}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 45, 'tokens dropped': 23, 'tokens added': 52, 'emptied': 5, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 80, 'tokens changed (some kept)': 105, 'other': 2}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 61, 'tokens changed (some kept)': 73, 'tokens added': 31, '.0': 74, 'emptied': 22}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "RatingCount: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 768}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 89, 'tokens added': 47, 'tokens dropped': 40, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "no real title word in fictitious titles, title errors or slugs",
+  "ok": true,
+  "detail": "0 shared, e.g. []"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "fictitious title words all from the surrogate's pool",
+  "ok": true,
+  "detail": "0 others, e.g. []"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "titles do not keep their real title's shape (no more than random pairing + 3 points)",
+  "ok": true,
+  "detail": "same shape 9.4%, by chance 9.6%"
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "fictitious titles like the original's: length, repeated words, The/lowercase/colon/number/! rates",
+  "ok": true,
+  "detail": "{'words': 3.011, '5+ words': 0.142, 'repeated word': 0.011, '4+ words, no function word or colon': 0.181, 'The ...': 0.18, 'lowercase word': 0.226, 'colon': 0.066, 'final number': 0.032, '!': 0.013}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (68, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "1965 error cells"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "5 columns"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Director: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Creator: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Actors: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Id: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Id: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Name: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Director: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "872 values"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Director: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Creator: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1397 values"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Creator: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Actors: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "2196 values"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Actors: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Director: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 4, 'order or spelling': 5} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Creator: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 37, 'order or spelling': 15} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'accent': 1, 'and/&': 2, 'punct/space': 2, 'tokens added': 3, 'tokens dropped': 4}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 8, 'tokens dropped': 1}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 45, 'tokens dropped': 23, 'tokens added': 52, 'emptied': 5, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 80, 'tokens changed (some kept)': 105, 'other': 2}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 61, 'tokens changed (some kept)': 73, 'tokens added': 31, '.0': 74, 'emptied': 22}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "RatingCount: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 768}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 89, 'tokens added': 47, 'tokens dropped': 40, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "no real title word in fictitious titles, title errors or slugs",
+  "ok": true,
+  "detail": "0 shared, e.g. []"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "fictitious title words all from the surrogate's pool",
+  "ok": true,
+  "detail": "0 others, e.g. []"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "titles do not keep their real title's shape (no more than random pairing + 3 points)",
+  "ok": true,
+  "detail": "same shape 8.3%, by chance 8.4%"
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "fictitious titles like the original's: length, repeated words, The/lowercase/colon/number/! rates",
+  "ok": true,
+  "detail": "{'words': 2.883, '5+ words': 0.147, 'repeated word': 0.008, '4+ words, no function word or colon': 0.199, 'The ...': 0.182, 'lowercase word': 0.22, 'colon': 0.078, 'final number': 0.047, '!': 0.017}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "same shape and columns as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "same clean table as the main fresh table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "people errors only in Rotten Tomatoes rows",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Id and Year wrong in every Rotten Tomatoes row, nowhere else",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "no film of the benchmark",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (0, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "RatingCount: thousands separators on every count >= 1000 and no other, as in the original",
+  "ok": true,
+  "detail": "0 cells off the rule; 1000 counts >= 1000 (original 768)"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Director: the original's error kinds (no kind more frequent than in the original by more than 2; at least 80% of its errors)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'names differ': 3, 'order or spelling': 3} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Creator: the original's error kinds (no kind more frequent than in the original by more than 2; at least 80% of its errors)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 32, 'order or spelling': 16} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'punct/space': 2, 'and/&': 2, 'tokens added': 3, 'tokens dropped': 4, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 4, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 43, 'tokens added': 49, 'tokens dropped': 25, 'emptied': 5, 'other': 2, 'accent': 1}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 114, 'emptied': 72}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 94, '.0': 90, 'tokens added': 39, 'other': 31, 'emptied': 24}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "metric": "Genre: other 1 vs original 4, exempt",
+  "value": "no word shared by the IMDb and RT lists ('Thriller' -> 'Mystery & Suspense'): depends on which genres a film has; the RT slots are copied row by row"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 98, 'tokens dropped': 39, 'tokens added': 28, 'punct/space': 1, 'other': 1}"
+ },
+ {
+  "table": "movies_fresh_s2",
+  "metric": "error cells per column",
+  "value": {
+   "Id": 190,
+   "Name": 17,
+   "Year": 190,
+   "Director": 39,
+   "Creator": 125,
+   "Duration": 186,
+   "RatingValue": 278,
+   "RatingCount": 1000,
+   "Genre": 167
+  }
+ },
+ {
+  "table": "movies_fresh_s2",
+  "metric": "original's error cells per column",
+  "value": {
+   "Id": 190,
+   "Name": 17,
+   "Year": 190,
+   "Director": 43,
+   "Creator": 129,
+   "Duration": 187,
+   "RatingValue": 261,
+   "RatingCount": 768,
+   "Genre": 180
+  }
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (68, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "1965 error cells"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "5 columns"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Director: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Creator: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Actors: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Id: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Id: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Name: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Director: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "872 values"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Director: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Creator: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1397 values"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Creator: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Actors: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "2196 values"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Actors: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Director: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 4, 'order or spelling': 5} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Creator: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 37, 'order or spelling': 15} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'accent': 1, 'and/&': 2, 'punct/space': 2, 'tokens added': 3, 'tokens dropped': 4}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 8, 'tokens dropped': 1}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 46, 'tokens dropped': 23, 'tokens added': 52, 'emptied': 5, 'other': 3}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 80, 'tokens changed (some kept)': 105, 'other': 2}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 61, 'tokens changed (some kept)': 73, 'tokens added': 31, '.0': 74, 'emptied': 22}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "RatingCount: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 768}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 89, 'tokens added': 47, 'tokens dropped': 40, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "no real title word in fictitious titles, title errors or slugs",
+  "ok": true,
+  "detail": "0 shared, e.g. []"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "fictitious title words all from the surrogate's pool",
+  "ok": true,
+  "detail": "0 others, e.g. []"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "titles do not keep their real title's shape (no more than random pairing + 3 points)",
+  "ok": true,
+  "detail": "same shape 11.2%, by chance 9.9%"
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "fictitious titles like the original's: length, repeated words, The/lowercase/colon/number/! rates",
+  "ok": true,
+  "detail": "{'words': 2.932, '5+ words': 0.117, 'repeated word': 0.01, '4+ words, no function word or colon': 0.178, 'The ...': 0.181, 'lowercase word': 0.223, 'colon': 0.062, 'final number': 0.028, '!': 0.018}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "clean people cells repeat a person no more often than the original's",
+  "ok": true,
+  "detail": "{'Director': (0, 0), 'Creator': (68, 68), 'Actors': (0, 0)} (table, original)"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": "1965 error cells"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "5 columns"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Director: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Creator: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Actors: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Id: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Id: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1000 values"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Name: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Director: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "872 values"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Director: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Creator: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "1397 values"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Creator: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Actors: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "2196 values"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Actors: no fictitious value is a real one",
+  "ok": true,
+  "detail": "0 collisions"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Director: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 4, 'order or spelling': 5} vs original {'(I) duplicate': 4, 'extra names': 29, 'missing names': 1, 'names differ': 3, 'order or spelling': 6}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Creator: error kinds as in the original (at most 4 cells apart)",
+  "ok": true,
+  "detail": "{'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 37, 'order or spelling': 15} vs original {'(I) duplicate': 1, 'emptied': 5, 'extra names': 48, 'missing names': 23, 'names differ': 36, 'order or spelling': 16}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Id: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 190}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Name: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'case': 5, 'accent': 1, 'and/&': 2, 'punct/space': 2, 'tokens added': 2, 'tokens dropped': 4, 'tokens changed (some kept)': 1}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Year: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 190}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Director: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 34, 'tokens changed (some kept)': 8, 'tokens dropped': 1}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Creator: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 45, 'tokens dropped': 23, 'tokens added': 52, 'emptied': 5, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Duration: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 80, 'tokens changed (some kept)': 105, 'other': 2}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "RatingValue: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'other': 61, 'tokens changed (some kept)': 73, 'tokens added': 31, '.0': 74, 'emptied': 22}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "RatingCount: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 768}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "Genre: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens changed (some kept)': 89, 'tokens added': 47, 'tokens dropped': 40, 'other': 4}"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "no real title word in fictitious titles, title errors or slugs",
+  "ok": true,
+  "detail": "0 shared, e.g. []"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "fictitious title words all from the surrogate's pool",
+  "ok": true,
+  "detail": "0 others, e.g. []"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "titles do not keep their real title's shape (no more than random pairing + 3 points)",
+  "ok": true,
+  "detail": "same shape 9.1%, by chance 8.9%"
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "fictitious titles like the original's: length, repeated words, The/lowercase/colon/number/! rates",
+  "ok": true,
+  "detail": "{'words': 2.83, '5+ words': 0.14, 'repeated word': 0.007, '4+ words, no function word or colon': 0.188, 'The ...': 0.177, 'lowercase word': 0.219, 'colon': 0.066, 'final number': 0.027, '!': 0.017}"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "seed 0 and seed 1 are different draws",
+  "ok": true,
+  "detail": "41% of error cells differ; 0% of clean identity cells differ"
+ },
+ {
+  "table": "movies_fresh",
+  "check": "seed 1 and seed 2 are different draws",
+  "ok": true,
+  "detail": "41% of error cells differ; 0% of clean identity cells differ"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "seed 0 and seed 1 are different draws",
+  "ok": true,
+  "detail": "31% of error cells differ; 99% of clean identity cells differ"
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "seed 1 and seed 2 are different draws",
+  "ok": true,
+  "detail": "31% of error cells differ; 99% of clean identity cells differ"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "seed 0 and seed 1 are different draws",
+  "ok": true,
+  "detail": "31% of error cells differ; 99% of clean identity cells differ"
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "seed 1 and seed 2 are different draws",
+  "ok": true,
+  "detail": "31% of error cells differ; 99% of clean identity cells differ"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "beer-name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "brewery-name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "city: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "['id', 'style', 'abv', 'brewery_id'] and state"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "city errors are the original's form: fictitious city + state, state cell empty",
+  "ok": true,
+  "detail": "127 city errors"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "beer-name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "985 values"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "beer-name: no fictitious value is another entity's real value",
+  "ok": true,
+  "detail": "0 collisions; 0 values kept as they are (generic names such as \"IPA\")"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "brewery-name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "418 values"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "brewery-name: no fictitious value is another entity's real value",
+  "ok": true,
+  "detail": "0 collisions; 0 values kept as they are (generic names such as \"IPA\")"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "city: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "309 values"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "city: no fictitious value is another entity's real value",
+  "ok": true,
+  "detail": "0 collisions; 0 values kept as they are (generic names such as \"IPA\")"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "same shape as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "error cells where the original has them",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "beer-name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "brewery-name: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "city: values read as names (apostrophes, doubled words, pool)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "non-identity cells identical to the original's (clean and dirty)",
+  "ok": true,
+  "detail": "['id', 'style', 'abv', 'brewery_id'] and state"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "city errors are the original's form: fictitious city + state, state cell empty",
+  "ok": true,
+  "detail": "127 city errors"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "beer-name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "985 values"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "beer-name: no fictitious value is another entity's real value",
+  "ok": true,
+  "detail": "0 collisions; 0 values kept as they are (generic names such as \"IPA\")"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "brewery-name: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "418 values"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "brewery-name: no fictitious value is another entity's real value",
+  "ok": true,
+  "detail": "0 collisions; 0 values kept as they are (generic names such as \"IPA\")"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "city: one fictitious value per real value, and back",
+  "ok": true,
+  "detail": "309 values"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "city: no fictitious value is another entity's real value",
+  "ok": true,
+  "detail": "0 collisions; 0 values kept as they are (generic names such as \"IPA\")"
+ },
+ {
+  "table": "beers_fresh",
+  "check": "same shape and columns as the original",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_fresh",
+  "check": "the original's number of errors in every column",
+  "ok": true,
+  "detail": "{'abv': 311, 'city': 127, 'state': 127} vs original {'abv': 311, 'city': 127, 'state': 127}"
+ },
+ {
+  "table": "beers_fresh",
+  "check": "city errors in the original's form",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_fresh",
+  "check": "abv errors in the original's form",
+  "ok": true,
+  "detail": "311 abv errors"
+ },
+ {
+  "table": "beers_fresh",
+  "check": "one city and state per brewery",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_fresh",
+  "check": "Wikidata locations checked by hand are the corrected ones (LOCATION_FIXES)",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "table": "beers_fresh",
+  "check": "abv: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 275, 'percent': 36}"
+ },
+ {
+  "table": "beers_fresh",
+  "check": "city: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 127}"
+ },
+ {
+  "table": "beers_fresh",
+  "check": "state: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 127}"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "abv: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 262, 'percent': 49}"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "city: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 127}"
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "state: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 127}"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "abv: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'punct/space': 262, 'percent': 49}"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "city: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'tokens added': 127}"
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "state: error kinds and count as in the original",
+  "ok": true,
+  "detail": "{'emptied': 127}"
+ },
+ {
+  "table": "beers_fresh",
+  "check": "no beer of the benchmark",
+  "ok": true,
+  "detail": "0 shared names"
+ },
+ {
+  "table": "hospital_surrogate",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s1",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogate_s2",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s1",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_surrogatewords_s2",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s1",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogate_s2",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s1",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_surrogatewords_s2",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh_s1",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh_s2",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s1",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh_s2",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "hospital_fresh",
+  "check": "errors rebuild from the clean table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "movies_fresh",
+  "check": "errors rebuild from the clean table",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogatewords",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "table": "beers_surrogate",
+  "check": "rebuilds byte for byte",
+  "ok": true,
+  "detail": ""
+ }
+]

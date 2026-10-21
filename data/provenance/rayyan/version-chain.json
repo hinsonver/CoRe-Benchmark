@@ -1,0 +1,179 @@
+{
+  "audit_frame": {
+    "rows": 1000,
+    "columns": 11,
+    "error_cells": 948,
+    "anchor": "frozen table manifest; no inferred upstream commit"
+  },
+  "tabclean_frame": {
+    "rows": 1000,
+    "columns": 11,
+    "error_cells": 960,
+    "upstream": {
+      "repository": "https://github.com/Wangyibo321/TabClean.git",
+      "commit": "ae292b6ff8118c8786cd7c97364e9a8a07f00b62",
+      "files": {
+        "dirty.csv": {
+          "git_blob": "f3d0fe9c6bea63111b9df5cefe457123c2e11b7f",
+          "sha256": "61aa71010693eb551122521e56b3997c0d366e3aa81848585631dfbef80d7309",
+          "path": "datasets/rayyan/dirty.csv"
+        },
+        "clean.csv": {
+          "git_blob": "57f5aa2c1d4fac0df395dece7e79561de935f916",
+          "sha256": "f4ab0c3bdfa6a13eeea51d16482ec8cd395acbf59b595e3ea6ef0b34bc448744",
+          "path": "datasets/rayyan/clean.csv"
+        }
+      }
+    }
+  },
+  "comparison": {
+    "base_errors": 948,
+    "tabclean_errors": 960,
+    "only_base_errors": 0,
+    "only_tabclean_errors": 12,
+    "base_header": [
+      "id",
+      "article_title",
+      "article_language",
+      "journal_title",
+      "jounral_abbreviation",
+      "journal_issn",
+      "article_jvolumn",
+      "article_jissue",
+      "article_jcreated_at",
+      "article_pagination",
+      "author_list"
+    ],
+    "tabclean_header": [
+      "id",
+      "article_title",
+      "article_language",
+      "journal_title",
+      "journal_abbreviation",
+      "journal_issn",
+      "article_jvolumn",
+      "article_jissue",
+      "article_jcreated_at",
+      "article_pagination",
+      "author_list"
+    ],
+    "differences": {
+      "dirty": {
+        "author_list": 819,
+        "article_jvolumn": 22,
+        "article_jissue": 53,
+        "article_pagination": 122,
+        "article_title": 128,
+        "journal_title": 254,
+        "jounral_abbreviation": 540,
+        "journal_issn": 327,
+        "article_language": 360,
+        "article_jcreated_at": 87
+      },
+      "clean": {
+        "author_list": 818,
+        "article_pagination": 120,
+        "article_title": 127,
+        "journal_title": 254,
+        "jounral_abbreviation": 540,
+        "journal_issn": 323,
+        "article_language": 360,
+        "article_jcreated_at": 87
+      }
+    }
+  },
+  "clean_serialization_relation": "remove commas; replace empty strings with literal empty",
+  "dirty_additional_differences": [
+    {
+      "row_0based": 21,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"V. E. CN  - medline DA  - Sep-Oct DB  - MEDLINE DO  - http://dx.doi.org/10.1111/j.1552-6909.2011.01275.x DP  - Ovid Technologies von Gruenigen\"\"A. M. Burkett\"\"J. Doyle\"\"T. H. Kenny\"}",
+      "tabclean_dirty": "{\"V. E. CN  - medline DA  - Sep-Oct DB  - MEDLINE DO  - http://dx.doi.org/10.1111/j.1552-6909.20111275.x DP  - Ovid Technologies von Gruenigen\"\"A. M. Burkett\"\"J. Doyle\"\"T. H. Kenny\"}"
+    },
+    {
+      "row_0based": 112,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"J. L. Hastings\"\"G. Biolo\"\"B. D. Levine\"\"T. Tillery\"\"R. M. Peshock\"\"T. A. Dorfman\"\"B. R. Macias\"\"A. R. DA  - Jul DO  - 10.1152/japplphysiol.01162.2006 DP  - NLM ET  - 2007/03/24 Hargens\"\"S. M. Schneider\"}",
+      "tabclean_dirty": "{\"J. L. Hastings\"\"G. Biolo\"\"B. D. Levine\"\"T. Tillery\"\"R. M. Peshock\"\"T. A. Dorfman\"\"B. R. Macias\"\"A. R. DA  - Jul DO  - 10.1152/japplphysiol1162.2006 DP  - NLM ET  - 2007/03/24 Hargens\"\"S. M. Schneider\"}"
+    },
+    {
+      "row_0based": 141,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"C. C2  - Pmc2827243 C6  - Nihms132141 DA  - Oct DO  - 10.1053/j.gastro.2009.06.060 DP  - NLM ET  - 2009/07/15 Di Lorenzo\"\"M. Saps\"\"S. Nurko\"\"P. Hyman\"\"N. Youssef\"\"A. Miranda\"\"J. Cocjin\"}",
+      "tabclean_dirty": "{\"C. C2  - Pmc2827243 C6  - Nihms132141 DA  - Oct DO  - 10.1053/j.gastro.2009660 DP  - NLM ET  - 2009/07/15 Di Lorenzo\"\"M. Saps\"\"S. Nurko\"\"P. Hyman\"\"N. Youssef\"\"A. Miranda\"\"J. Cocjin\"}"
+    },
+    {
+      "row_0based": 189,
+      "column": "journal_issn",
+      "converted_audit_dirty": "0033-8389 DO  - http://dx.doi.org/10.1016/j.rcl.2010.07.015",
+      "tabclean_dirty": "0033-8389 DO  - http://dx.doi.org/10.1016/j.rcl.2010715"
+    },
+    {
+      "row_0based": 435,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"J. Naesdal\"\"M. Danilewitz\"\"J. Adler\"\"D. G. DA  - Oct DO  - 10.1111/j.1572-0241.2008.02115.x DP  - NLM ET  - 2008/09/09 Silberg\"\"C. Hwang\"\"D. A. Drossman\"}",
+      "tabclean_dirty": "{\"J. Naesdal\"\"M. Danilewitz\"\"J. Adler\"\"D. G. DA  - Oct DO  - 10.1111/j.1572-0241.20082115.x DP  - NLM ET  - 2008/09/09 Silberg\"\"C. Hwang\"\"D. A. Drossman\"}"
+    },
+    {
+      "row_0based": 587,
+      "column": "journal_issn",
+      "converted_audit_dirty": "0268-0033 DO  - http://dx.doi.org/10.1016/j.clinbiomech.2015.03.009",
+      "tabclean_dirty": "0268-0033 DO  - http://dx.doi.org/10.1016/j.clinbiomech.2015309"
+    },
+    {
+      "row_0based": 607,
+      "column": "journal_issn",
+      "converted_audit_dirty": "0167-2789 DO  - http://dx.doi.org/10.1016/j.physd.2013.07.012",
+      "tabclean_dirty": "0167-2789 DO  - http://dx.doi.org/10.1016/j.physd.2013712"
+    },
+    {
+      "row_0based": 639,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"Robert L. Kriel\"\"Jennifer R. Riss\"\"Vijay D. Ivaturi\"\"James C. C2  - 19231138 DB  - MEDLINE DO  - http://dx.doi.org/10.1016/j.eplepsyres.2009.01.001 Cloyd\"\"Ronald A. Siegel\"}",
+      "tabclean_dirty": "{\"Robert L. Kriel\"\"Jennifer R. Riss\"\"Vijay D. Ivaturi\"\"James C. C2  - 19231138 DB  - MEDLINE DO  - http://dx.doi.org/10.1016/j.eplepsyres.2009101 Cloyd\"\"Ronald A. Siegel\"}"
+    },
+    {
+      "row_0based": 698,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"S. K. Chaturvedi\"\"D. CN  - PubMed_140821 DA  - Jan DO  - 10.1097/YCO.0b013e328010ca65 DP  - NLM ET  - 2006/12/05 Bhugra\"}",
+      "tabclean_dirty": "{\"S. K. Chaturvedi\"\"D. CN  - PubMed_140821 DA  - Jan DO  - 10.1097/YCOb013e328010ca65 DP  - NLM ET  - 2006/12/05 Bhugra\"}"
+    },
+    {
+      "row_0based": 720,
+      "column": "article_pagination",
+      "converted_audit_dirty": "13-21 DO  - 10.1016/j.brat.2011.10.009",
+      "tabclean_dirty": "13-21 DO  - 10.1016/j.brat.2011.1009"
+    },
+    {
+      "row_0based": 856,
+      "column": "article_title",
+      "converted_audit_dirty": "The Antiseptic Efficacy and Tolerability of Lavasept� 0.04% on Acute Traumatic Wounds",
+      "tabclean_dirty": "The Antiseptic Efficacy and Tolerability of Lavasept� 04% on Acute Traumatic Wounds"
+    },
+    {
+      "row_0based": 894,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"S. G. DB  - c8h DO  - 10.1097/01.NURSE.0000343454.35505.5a DP  - EBSCOhost Camden\"}",
+      "tabclean_dirty": "{\"S. G. DB  - c8h DO  - 10.1097/01.NURSE000343454.35505.5a DP  - EBSCOhost Camden\"}"
+    },
+    {
+      "row_0based": 935,
+      "column": "article_pagination",
+      "converted_audit_dirty": "2.05427E+015",
+      "tabclean_dirty": "25427E+015"
+    },
+    {
+      "row_0based": 949,
+      "column": "author_list",
+      "converted_audit_dirty": "{\"Stuart Calver\"\"Julia Nichols\"\"Rachel C1  - Fr̴n systematiska ̦versikter -șkningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester\"}",
+      "tabclean_dirty": "{\"Stuart Calver\"\"Julia Nichols\"\"Rachel C1  - Fr̴n systematiska ̦versikter -șkningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y000000021 DP  - EBSCOhost Chester\"}"
+    },
+    {
+      "row_0based": 962,
+      "column": "journal_issn",
+      "converted_audit_dirty": "0966-6362 DO  - http://dx.doi.org/10.1016/j.gaitpost.2010.04.002",
+      "tabclean_dirty": "0966-6362 DO  - http://dx.doi.org/10.1016/j.gaitpost.2010402"
+    }
+  ],
+  "unsupported_equivalence": "No byte-identity or fixed-revision attribution to ni2024repair is established; shared conversions do not imply identical input tables."
+}

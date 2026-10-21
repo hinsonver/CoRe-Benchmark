@@ -1,0 +1,2627 @@
+[
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_fresh.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_fresh__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_fresh__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_fresh__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_orig.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_orig__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_orig__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_orig__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogate.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogate__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogate__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogate__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogatewords.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogatewords__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogatewords__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__beers_surrogatewords__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_fresh.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_fresh__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_fresh__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_fresh__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogate.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogate__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogate__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogate__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogatewords.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogatewords__run0.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogatewords__run1.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/baran__hospital_surrogatewords__run2.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/compare__beers__custom_deepseek_deepseek-v4-pro.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/compare__hospital__custom_deepseek_deepseek-v4-pro.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_fresh.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_orig.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_surrogate.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_surrogatewords.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_fresh.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_surrogate.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/labels_beers.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/aligned/labels_hospital.json",
+    "kind": "aligned",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_fresh/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_fresh/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_orig/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_orig/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_surrogate/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_surrogate/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_surrogatewords/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/beers_surrogatewords/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital_fresh/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital_fresh/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital_surrogate/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital_surrogate/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital_surrogatewords/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/hospital_surrogatewords/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/rayyan/clean.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/inputs/rayyan/dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/summary.json",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_fresh/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_fresh/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_fresh/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_cleaned_2.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_orig/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_cleaned_2.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_surrogate/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_2.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_3.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_2.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_3.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_fresh/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_2.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_3.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_cleaned_2.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_1.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_2.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_3.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_4.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_5.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_6.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_7.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/dev_dirty.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e4/tabclean/rayyan/final_cleaned.csv",
+    "kind": "e4",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_fresh__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_fresh__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_fresh__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_fresh__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_fresh__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_fresh__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_orig__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_orig__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_orig__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_orig__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_orig__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_orig__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogate__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogate__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogate__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogate__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogate__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogate__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogatewords__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogatewords__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogatewords__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogatewords__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogatewords__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/beers_surrogatewords__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh_s1__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_fresh_s2__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate_s1__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogate_s2__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords__perfect__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords__perfect__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords__raha__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords__raha__seed1.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords__raha__seed2.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords_s1__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/hospital_surrogatewords_s2__perfect__seed0.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/e5/summary.json",
+    "kind": "e5",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_llama3.1-8b__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_llama3.1-8b__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_llama3.1-8b__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_llama3.1-8b__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_llama3.1-8b__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_olmo2-7b__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_olmo2-7b__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_olmo2-7b__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_olmo2-7b__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_olmo2-7b__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-14b__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-14b__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-14b__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-14b__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-14b__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-32b-awq__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-32b-awq__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-32b-awq__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-32b-awq__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-32b-awq__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-7b__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-7b__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-7b__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-7b__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/local_qwen2.5-7b__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/openai_gpt-6.1-sol__beers.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/openai_gpt-6.1-sol__beers__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/openai_gpt-6.1-sol__hospital.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/openai_gpt-6.1-sol__hospital__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/near/openai_gpt-6.1-sol__movies__summary.json",
+    "kind": "near",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__beers__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__beers__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__beers__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__beers__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__beers__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__flights__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__flights__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__flights__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__flights__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__flights__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__hospital__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__hospital__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__hospital__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__hospital__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__hospital__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__rayyan__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__rayyan__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__rayyan__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__rayyan__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__rayyan__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__tax__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__tax__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__tax__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__tax__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_llama3.1-8b__tax__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__beers__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__beers__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__beers__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__flights__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__flights__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__flights__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__hospital__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__hospital__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__hospital__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__rayyan__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__rayyan__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__tax__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__tax__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__tax__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__beers__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__beers__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__beers__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__beers__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__beers__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__flights__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__flights__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__flights__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__flights__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__flights__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__hospital__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__hospital__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__hospital__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__hospital__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__hospital__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__rayyan__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__rayyan__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__rayyan__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__rayyan__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__rayyan__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__tax__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__tax__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__tax__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__tax__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-14b__tax__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__beers__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__beers__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__beers__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__beers__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__beers__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__flights__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__flights__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__flights__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__flights__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__flights__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__hospital__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__hospital__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__hospital__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__hospital__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__hospital__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__rayyan__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__rayyan__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__rayyan__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__rayyan__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__rayyan__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__tax__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__tax__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__tax__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__tax__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-32b-awq__tax__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__beers__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__beers__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__beers__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__beers__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__beers__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__flights__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__flights__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__flights__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__flights__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__flights__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__hospital__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__hospital__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__hospital__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__hospital__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__hospital__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__rayyan__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__rayyan__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__rayyan__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__rayyan__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__rayyan__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__tax__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__tax__clean__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__tax__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__tax__dirty__anon__err.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/local_qwen2.5-7b__tax__dirty__named.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__beers__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__beers__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__flights__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__flights__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__hospital__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__hospital__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__rayyan__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__rayyan__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__tax__clean__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p1/localbase__olmo2-7b__tax__dirty__anon.json",
+    "kind": "p1",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital__k20.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh__k20.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate__k20.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__rayyan__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_llama3.1-8b__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__hospital__k10__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_mlx-community_OLMo-2-1124-7B-Instruct-4bit__hospital_surrogate__k10__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_olmo2-7b__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-14b__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/local_qwen2.5-7b__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/misfix_summary.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__beers_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__beers_orig__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__beers_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__beers_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_fresh__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_fresh_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_fresh_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_surrogate__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_surrogate_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_surrogate_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_surrogatewords__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_surrogatewords_s1__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "artifacts/raw_outputs/p2/openai_gpt-6.1-sol__hospital_surrogatewords_s2__k20__spread.json",
+    "kind": "p2",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/derived/rayyan_audit.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/derived/rayyan_replay.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/derived/scale_summary.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/derived/seed_summary.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/derived/validate_tables.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig0_overview.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig0_overview.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig0_overview.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig1_decomposition.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig1_decomposition.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig1_decomposition.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig2_year_range.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig2_year_range.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig2_year_range.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig3_aligned.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig3_aligned.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig3_aligned.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig4_near_entity.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig4_near_entity.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig4_near_entity.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig5_rayyan.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig5_rayyan.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig5_rayyan.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig5_rayyan_display.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig6_scale.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig6_scale.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig6_scale.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig7_near_models.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig7_near_models.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig7_near_models.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/aligned.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/beers.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/checks.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/conflictcounts.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/construction.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/counts.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/decoding.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/decomposition.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/detection.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/example.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/moviescols.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/movieserrors.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/near.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/p1.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/publicverification.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/rayyan.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/rayyan_checks.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/seeds.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/tables/whole_table.tex",
+    "kind": "table",
+    "paper_consumer": "paper"
+  }
+]

@@ -1,0 +1,1001 @@
+id,beer-name,style,abv,brewery_id,brewery-name,city,state
+1436,Mill Beer,American Pale Lager,0.05,408,25 Barrel Brewing Company,Greenburg,OR
+2263,Maple,American Double / Imperial IPA,0.09,177,39th Ridge Brewery,Greenfield,IN
+2262,Harvest and Aspen,American IPA,0.075,177,39th Ridge Brewery,Greenfield,IN
+2260,Summit Iron Gentle,American Pale Ale (APA),0.045,177,39th Ridge Brewery,Greenfield,IN
+2131,Bridge Harbor,American Double / Imperial IPA,0.086,177,39th Ridge Brewery,Greenfield,IN
+1980,Hope Birch,Belgian IPA,0.085,177,39th Ridge Brewery,Greenfield,IN
+1979,Grove Harbor,American Pale Ale (APA),0.061,177,39th Ridge Brewery,Greenfield,IN
+2318,Hawk Glen,Cider,0.06,154,8 Canyon Shadow,Eveningwood,OR
+2170,Garden Juniper,Cider,0.06,154,8 Canyon Shadow,Eveningwood,OR
+2169,Juniper,Cider,0.06,154,8 Canyon Shadow,Eveningwood,OR
+1502,Grace,Cider,0.06,154,8 Canyon Shadow,Eveningwood,OR
+1593,Golden Evening Garden-Amber Porter,Baltic Porter,0.082,368,19th Amber Brewery,San Hopeport,CA
+1592,Summit Aspen Spring-Copper Tripel,Tripel,0.082,368,19th Amber Brewery,San Hopeport,CA
+1036,Harbor De Bridge,American Barleywine,0.099,368,19th Amber Brewery,San Hopeport,CA
+432,Brook Clear,American Double / Imperial IPA,0.097,368,19th Amber Brewery,San Hopeport,CA
+2519,Ridge Juniper,American IPA,0.07,67,9 Oak Brewing,St Canyonford,FL
+2545,Sunset Copper Prairie,Berliner Weissbier,0.035,60,1 Spring Brewing Company,Saint Timberdale,MO
+2544,Canyon Prairie,American Blonde Ale,0.045,60,1 Spring Brewing Company,Saint Timberdale,MO
+2288,Hope Harvest Red,American Amber / Red Ale,0.06,60,1 Spring Brewing Company,Saint Timberdale,MO
+2286,Evening Copper,American IPA,0.065,60,1 Spring Brewing Company,Saint Timberdale,MO
+2220,Beacon Orchard,Belgian Strong Dark Ale,0.09,27,673 Hope Brewing Company,Pleasantdale,IN
+2216,Ridge Amber,Belgian Dark Ale,0.052,27,673 Hope Brewing Company,Pleasantdale,IN
+866,Oak Pale Ale (2010),English Pale Ale,0.054,481,4 Hawk Brewing Company,Sunset Bright,WA
+48,Lantern Pale Ale,English Pale Ale,0.054,481,4 Hawk Brewing Company,Sunset Bright,WA
+47,Falcon Willow Double IPA,American Double / Imperial IPA,0.084,481,4 Hawk Brewing Company,Sunset Bright,WA
+1165,Heather Grace,American Amber / Red Lager,0.055,462,CANYON Eagleville Brewing Company,Eagleville,CO
+431,Evening Eagle (2011),American Amber / Red Lager,0.055,462,CANYON Eagleville Brewing Company,Eagleville,CO
+516,Bridge IPA,American IPA,0.065,533,Forest Brewing Company,Quiet Lake,LA
+2539,The Brown Prairie,American Brown Ale,0.05,62,Amber The Unity Brewery,Maplewood,KY
+2685,Cedar Willow,English Barleywine,0.125,1,Ridge the Golden Brewery,Maplewood,KY
+2681,Valley Ridge,Pumpkin Ale,0.066,1,Ridge the Golden Brewery,Maplewood,KY
+2680,Birch timber,Belgian Pale Ale,0.04,1,Ridge the Golden Brewery,Maplewood,KY
+2676,Beacon Hawk,American Wild Ale,0.065,1,Ridge the Golden Brewery,Maplewood,KY
+2675,Haven of Forest,American IPA,0.06,1,Ridge the Golden Brewery,Maplewood,KY
+1594,Iron's Harbor Stout,American Stout,0.053,367,Grace Brewing Company,Cedarford,WA
+1162,Prairie HAWK,American Pale Ale (APA),0.05,367,Grace Brewing Company,Cedarford,WA
+2403,P-Unity Pilsner,American Pilsner,0.04,117,Hawk Brewing,Copperburg,OR
+2402,Cedar Pale Ale,American Pale Ale (APA),0.053,117,Hawk Brewing,Copperburg,OR
+1921,Orchard APA,American Pale Ale (APA),0.053,270,River Brewing Company,Creekwood,AK
+2501,Orchard,American Pale Ale (APA),0.057,73,Ale Bridge,Prairieford,WI
+1535,Canyon Hollow,Kölsch,0.043,388,Canyon's Lanternfield Brewing Company,Lanternfield,KY
+1473,Eagle,American IPA,0.062,401,Clear Brewing Company,Aspenville,WA
+2592,Hawk Ale,American IPA,0.059,35,Rose Brewing Company,San Hopeport,CA
+2578,CANYON,American IPA,0.065,35,Rose Brewing Company,San Hopeport,CA
+2103,Quiet Lager,American Amber / Red Lager,0.049,35,Rose Brewing Company,San Hopeport,CA
+2291,Laurel Juniper Gose,Gose,0.042,171,Hawk Anchor Brewing Company,Heatherburg,CA
+753,Unity Lantern Timber Green (2009),Cream Ale,0.056,171,Hawk Anchor Brewing Company,Heatherburg,CA
+78,Pine Amber Ale (2011),American Amber / Red Ale,0.058,171,Hawk Anchor Brewing Company,Heatherburg,CA
+409,Aspen's Prairie Stout,Oatmeal Stout,0.047,542,Aspen Gentle Brewing Company,Crystalville,WI
+1294,Silver Crystal Haven Willow,Cider,0.05,434,Harvest Hope Juniper Company,Unityville,OH
+2039,Falcon,American Stout,0.085,193,Lantern Brewing Company,River Morning,OK
+2510,Beacon Haven Blonde,American Blonde Ale,0.047,69,Harbor Oak Brewery,Lanternton,NC
+413,Summit Morning Pine,American Pale Ale (APA),0.06,541,Hope Brewing Company,Spring Canyon,MI
+390,Glen,American Pale Wheat Ale,0.062,541,Hope Brewing Company,Spring Canyon,MI
+735,On-On Harbor (2008),American Pale Ale (APA),0.052,513,Birch Craft Brewery,Grace Amber,CO
+1333,Valley Stout,American Double / Imperial Stout,0.092,426,Clear Ale Works,Hopeville,TX
+1332,Evening Timber Ale,Saison / Farmhouse Ale,0.051,426,Clear Ale Works,Hopeville,TX
+429,Bridge Porter,American Porter,0.053,528,Copperport Brewing Company,Copperport,NC
+428,Prairie IPA,American IPA,0.06,528,Copperport Brewing Company,Copperport,NC
+1640,Summit Falcon,Kölsch,0.048,353,Orchard Brewing Company,Hopeport,WA
+2503,Summit A-Bridge,American Double / Imperial IPA,0.075,72,Falcon Brewery,Unityfield,MI
+2502,Iron Grove Porter,American Porter,0.055,72,Falcon Brewery,Unityfield,MI
+527,Lantern's Lager,Munich Helles Lager,0.05,72,Falcon Brewery,Unityfield,MI
+1409,Mill Gentle IPA Series #5: Timber Bridge,American Black Ale,0.07,413,Anchordale Beerworks,Anchordale,TX
+2589,Birch,American Double / Imperial IPA,0.08,37,Juniper Brewing Company,Lakeford,CO
+146,Birch Iron’s Juniper Hollow Pilsner,German Pilsener,0.047,37,Juniper Brewing Company,Lakeford,CO
+107,Juniper Crystal Pale Ale,American IPA,0.063,37,Juniper Brewing Company,Lakeford,CO
+106,Bridge’s Brown Ale,American Brown Ale,0.055,37,Juniper Brewing Company,Lakeford,CO
+1620,Maple Copper,Pumpkin Ale,0.062,360,Willow Brewing Company,Liberty-Anchor,NC
+1579,Morning,Märzen / Oktoberfest,0.072,360,Willow Brewing Company,Liberty-Anchor,NC
+702,Rose Unity Red,American Amber / Red Ale,0.061,360,Willow Brewing Company,Liberty-Anchor,NC
+1483,Bridge Harvest Porter,American Porter,0.06,235,Field Hawk Brewing Company,Canyonburg,CT
+1876,Iron Laurel Golden Brown Ale,English Brown Ale,0.06,286,Laurel Canyon Beer Company,Heatherford,AL
+1875,Hollow Silver Pale Ale,American Pale Ale (APA),0.06,286,Laurel Canyon Beer Company,Heatherford,AL
+966,Maple Heather Pale Ale,American IPA,0.068,483,Iron Creek Brewing Company,Bridgeville,WA
+965,Oak 70 Pale Ale,American Pale Ale (APA),0.044,483,Iron Creek Brewing Company,Bridgeville,WA
+2105,Evening Haven,American IPA,0.038,34,Evening Maple Brewing Company,San Anchorport,CA
+1400,Hope Birch Eagle Pale Ale,American IPA,0.07,34,Evening Maple Brewing Company,San Anchorport,CA
+1019,Shadow Lager,Munich Helles Lager,0.046,34,Evening Maple Brewing Company,San Anchorport,CA
+1343,Beacon Eveningville Blonde,American Blonde Ale,0.045,251,Iron Brewing Company,Eveningville,AZ
+2404,Falcon in the ‘Copper Helles,American Pilsner,0.049,116,Brook Oak Brewing Co.,Copperburg,OR
+2323,Beacon Iron Mill IPA,American IPA,0.067,116,Brook Oak Brewing Co.,Copperburg,OR
+2188,Sunset Bright Evening,Witbier,0.05,116,Brook Oak Brewing Co.,Copperburg,OR
+1966,Liberty Valley,California Common / Steam Beer,0.054,258,Shadow Brew Garden,Crystalton,MN
+707,Sunset Spring Ale (2012),American Pale Wheat Ale,0.047,292,Shadow Brewing Company,Fieldwood,ME
+182,Meadow IPA,American IPA,0.069,292,Shadow Brewing Company,Fieldwood,ME
+1806,River Double IPA,American Double / Imperial IPA,0.088,306,Timber Brewing Company,Hope Brook,VA
+2420,Golden Haven IPA,American IPA,0.068,103,Beer Works Spring,Eveningford,MA
+2419,Birch Prairie Maple Ale,Other,0.048,103,Beer Works Spring,Eveningford,MA
+2325,Summit,Rye Beer,0.06,76,Grove's Brewery,Hollowport,MI
+1955,Stone Brown,American Brown Ale,0.058,76,Grove's Brewery,Hollowport,MI
+2558,Golden,English India Pale Ale (IPA),0.044,53,Hollow Rose,Fieldton,MN
+1261,River Valley Black Ale,American Black Ale,0.06,75,Cedar Hawk Brewing Company,Nobleport,MN
+1253,Copper Pils,German Pilsener,0.05,75,Cedar Hawk Brewing Company,Nobleport,MN
+1156,Hawk 89 Porter,American Porter,0.064,463,Brook Greenburg Brewing Company,Canyonwood,TX
+1154,Birch Morning,American Blonde Ale,0.06,463,Brook Greenburg Brewing Company,Canyonwood,TX
+2104,Sunset Eagle,American Strong Ale,0.081,220,Noble Silver Brewing,Goldenford,CO
+1422,Creek Heather Rose Laurel Aspen Ale,California Common / Steam Beer,0.041,220,Noble Silver Brewing,Goldenford,CO
+1003,Silver Harvest IPA,American IPA,0.07,477,Bright Laurel Brewing,Pleasantford,MA
+1002,Liberty Anchor Stout,American Stout,0.065,477,Bright Laurel Brewing,Pleasantford,MA
+2639,Amber Meadow,American Stout,0.08,8,Grove Liberty Brewing,Silverville,MI
+1714,Rose Garden IPA,American IPA,0.062,336,Harvest Crystal Brewing Company,Hollowford,MT
+1456,Juniper Haven Cedar Ale,English Strong Ale,0.072,336,Harvest Crystal Brewing Company,Hollowford,MT
+767,Eagle Spring Brown Ale (2011),American Brown Ale,0.051,336,Harvest Crystal Brewing Company,Hollowford,MT
+579,Morning Orchard IPA (2012),American IPA,0.062,336,Harvest Crystal Brewing Company,Hollowford,MT
+159,Stone Laurel Pale Ale (2010),English Pale Ale,0.05,336,Harvest Crystal Brewing Company,Hollowford,MT
+34,Spring Beacon Brown Ale (2009),American Brown Ale,0.051,336,Harvest Crystal Brewing Company,Hollowford,MT
+2096,Hope IPA,American IPA,0.069,221,Garden Bright Brewing Company,Summitford,FL
+2095,River,American Amber / Red Ale,0.058,221,Garden Bright Brewing Company,Summitford,FL
+1257,Quiet Garden Anchor,American Pale Ale (APA),0.053,444,Garden Iron Brewery,Anchor Stone,MN
+986,Field Maple,Oatmeal Stout,0.055,444,Garden Iron Brewery,Anchor Stone,MN
+985,Forest Stone IPA,American IPA,0.066,444,Garden Iron Brewery,Anchor Stone,MN
+1411,Golden Ale,American Blonde Ale,0.054,407,Quiet Aspen Brewing,Canyondale,MT
+2620,Grace Forest,Rye Beer,0.072,18,Black Silver Brewing Co.,Noblewood,IN
+2412,Amber,American Blonde Ale,0.045,112,Black Clear Brewing Company,Clearford,CA
+1896,Timber Pale Ale,American Pale Ale (APA),0.058,112,Black Clear Brewing Company,Clearford,CA
+1850,Timber Forest Red Ale,American Strong Ale,0.071,294,Black Forest Brewing Company,Falconburg,CO
+1848,Mill Red Saison,Saison / Farmhouse Ale,0.078,294,Black Forest Brewing Company,Falconburg,CO
+1481,93K IPA,American IPA,0.07,12,Brook Brewery,Canyonport,MI
+1480,Lantern Garden,Cream Ale,0.055,12,Brook Brewery,Canyonport,MI
+1321,Valley Brown Ale,American Brown Ale,0.055,380,Haven Aspen Brewing Company,Nobleburg,NE
+1319,Meadow Double IPA,American Double / Imperial IPA,0.096,380,Haven Aspen Brewing Company,Nobleburg,NE
+1025,N Birch Mill-In 59th Canyon IPA,American Double / Imperial IPA,,380,Haven Aspen Brewing Company,Nobleburg,NE
+1012,551 Quiet's Stout,American Stout,0.05,380,Haven Aspen Brewing Company,Nobleburg,NE
+937,455 Garden Copper Spring Hollow Pale Ale,American Pale Ale (APA),0.045,380,Haven Aspen Brewing Company,Nobleburg,NE
+888,4158 Iron's ESB,Extra Special / Strong Bitter (ESB),0.056,380,Haven Aspen Brewing Company,Nobleburg,NE
+1372,Forest Brook,Mead,0.059,422,Green Ridge Hawk,Lakewood,OR
+1371,Heather Summit,Mead,0.059,422,Green Ridge Hawk,Lakewood,OR
+1812,Glen Canyon Double IPA,American Double / Imperial IPA,0.08,304,Rose Grace Brewery,Amberville,MA
+1547,Haven Summit Pale Ale,American Pale Ale (APA),0.059,382,Summit Glen Brewery,Havenburg,VA
+1546,Ridge Timber ESB,Extra Special / Strong Bitter (ESB),0.065,382,Summit Glen Brewery,Havenburg,VA
+119,Harvest Brook Pale Ale (2010),American Pale Ale (APA),0.059,382,Summit Glen Brewery,Havenburg,VA
+1408,Creek 200,Kölsch,0.049,414,Summit Glen Brewery,Timberton,VA
+2490,Hope Black,American Stout,,77,Hawk River Brewing,Anchordale,TX
+2488,Brook Bridge!,American Amber / Red Ale,,77,Hawk River Brewing,Anchordale,TX
+692,Iron Hollow White IPA,American White IPA,0.06,489,Shadow Brook Brewing Company,Timberford,NY
+667,Stone Juniper Crystal Ale,American Blonde Ale,0.044,489,Shadow Brook Brewing Company,Timberford,NY
+89,Lake Pilsner,Czech Pilsener,0.05,364,Anchor Brewery,Crystalport,UT
+88,Field Lager,Vienna Lager,0.05,364,Anchor Brewery,Crystalport,UT
+1568,Brook Anchor Harbor Ale,Cream Ale,0.055,378,Liberty Green Brewery,Meadowport,FL
+1188,Meadow's Ridge Birch Brown Ale,American Brown Ale,0.06,378,Liberty Green Brewery,Meadowport,FL
+1891,Summit IPA,American IPA,0.042,281,Bridge Bright Brewery,Eagle Liberty,NJ
+513,Clear Lager (Liberty Rose),Munich Helles Lager,0.045,525,Lantern Beer Company,Quiet Mill,NY
+1549,Bridge Glen Maple Pale Ale,English India Pale Ale (IPA),0.07,107,Birch Brewing Company,Sunsetdale,CO
+1548,Field & Spring Eagleville Ale,American Blonde Ale,0.047,107,Birch Brewing Company,Sunsetdale,CO
+1517,Juniper-I Harbor IPA,American IPA,0.068,107,Birch Brewing Company,Sunsetdale,CO
+1360,Birch Sunsetdale Glen Ale ESB,Extra Special / Strong Bitter (ESB),0.048,107,Birch Brewing Company,Sunsetdale,CO
+1183,Hollow Pale Ale,American Pale Ale (APA),0.053,107,Birch Brewing Company,Sunsetdale,CO
+998,Pine Oak Liberty Porter,American Porter,0.061,107,Birch Brewing Company,Sunsetdale,CO
+798,Unity Quiet Blonde,American Blonde Ale,0.048,107,Birch Brewing Company,Sunsetdale,CO
+633,Liberty Valley Pale Ale,American IPA,0.066,107,Birch Brewing Company,Sunsetdale,CO
+2299,Bridge Green,American IPA,0.058,167,Pine Brewing Company,Hollow Eagle,PA
+2167,Eagle Summit,American Amber / Red Ale,0.052,207,Cedar Brewing Company,San Shadowdale,TX
+2204,Harvest Iron Lantern,Kölsch,0.05,195,Green Brewery,Copperburg,OR
+397,Cedar Ale,American Pale Wheat Ale,0.045,391,Golden Brewery,Falconburg,CO
+83,Hope Ale,American Amber / Red Ale,0.054,391,Golden Brewery,Falconburg,CO
+1799,Field Wheat Rose Ridge?,American Pale Wheat Ale,0.055,308,Brew Copper Brewing,Canyonford,FL
+2619,Noble Shadow Copper,American Pale Ale (APA),0.058,19,Brew Heather Brewing,Hawkdale,IN
+2468,Haven Amber,American Amber / Red Ale,0.053,85,Brewery Crystal Cedar,Crystal Orchard,MI
+2637,Rose,Saison / Farmhouse Ale,0.067,10,Brewery Lantern,Lake Oak,MI
+2636,Golden Harbor,Belgian Pale Ale,0.06,10,Brewery Lantern,Lake Oak,MI
+2598,Amber Birch of the Barrel,American Double / Imperial Stout,0.098,10,Brewery Lantern,Lake Oak,MI
+2542,Mill,Bière de Garde,0.077,10,Brewery Lantern,Lake Oak,MI
+2500,Orchard Saison,Saison / Farmhouse Ale,0.065,10,Brewery Lantern,Lake Oak,MI
+2467,Green Unity,Saison / Farmhouse Ale,0.059,10,Brewery Lantern,Lake Oak,MI
+2466,Unity Hollow,Rye Beer,0.066,10,Brewery Lantern,Lake Oak,MI
+2433,Rose Forest,Belgian Strong Pale Ale,0.082,10,Brewery Lantern,Lake Oak,MI
+2382,Quiet Silver,Belgian Dark Ale,,10,Brewery Lantern,Lake Oak,MI
+2241,Lantern Juniper Valley,Oatmeal Stout,0.063,10,Brewery Lantern,Lake Oak,MI
+2092,PRAIRIE,Belgian IPA,0.062,10,Brewery Lantern,Lake Oak,MI
+2091,Harvest,Belgian Dark Ale,0.062,10,Brewery Lantern,Lake Oak,MI
+2086,W.I.P.A Lantern,Belgian IPA,0.053,10,Brewery Lantern,Lake Oak,MI
+1997,Brook Harbor,Fruit / Vegetable Beer,0.07,10,Brewery Lantern,Lake Oak,MI
+1977,Copper,Belgian Dark Ale,0.067,10,Brewery Lantern,Lake Oak,MI
+1958,Aspen Laurel,Witbier,0.045,10,Brewery Lantern,Lake Oak,MI
+1947,Iron Crystal,Belgian IPA,0.093,10,Brewery Lantern,Lake Oak,MI
+1785,Stone Lantern Ale,American Wild Ale,0.073,10,Brewery Lantern,Lake Oak,MI
+1443,Clear Double IPA,American Double / Imperial IPA,0.093,10,Brewery Lantern,Lake Oak,MI
+1267,Black Meadow,American Black Ale,0.05,10,Brewery Lantern,Lake Oak,MI
+1178,Anchor Tripel,Tripel,0.082,10,Brewery Lantern,Lake Oak,MI
+1044,Grove Red Brook,American Amber / Red Ale,0.06,10,Brewery Lantern,Lake Oak,MI
+1033,Heather Prairie Spring Ale,Quadrupel (Quad),0.099,10,Brewery Lantern,Lake Oak,MI
+909,Summit Evening Ale,American Wild Ale,0.092,10,Brewery Lantern,Lake Oak,MI
+873,Hawk (2012),Bière de Garde,0.065,10,Brewery Lantern,Lake Oak,MI
+860,Birch Cedar Glen Imperial Stout (2012),Russian Imperial Stout,0.099,10,Brewery Lantern,Lake Oak,MI
+1095,Copper Silver Wheat Ale,American Pale Wheat Ale,,467,Spring Canyon Brewing Company,Grace Meadow,FL
+756,Eaglefield River Ale,English Pale Mild Ale,0.045,437,Eaglefield Brewery,Eaglefield,NY
+328,Eaglefield Bright Ale (2011),English Pale Mild Ale,0.045,437,Eaglefield Brewery,Eaglefield,NY
+66,Eaglefield Lager (50 grove.),American Amber / Red Lager,0.052,437,Eaglefield Brewery,Eaglefield,NY
+538,Harbor de Laurel Hope IPA (Juniper),Belgian IPA,0.08,530,Harvest Brewing Company,Harvestport,NV
+504,Bright Bock (Meadow),Maibock / Helles Bock,,530,Harvest Brewing Company,Harvestport,NV
+383,Black Juniper CRYSTAL (Summit),American Black Ale,0.073,530,Harvest Brewing Company,Harvestport,NV
+29,Heather Falcon Lager (Green),Schwarzbier,0.099,530,Harvest Brewing Company,Harvestport,NV
+27,Beacon Morning Iron Ale (Grove),Herbed / Spiced Beer,0.058,530,Harvest Brewing Company,Harvestport,NV
+1627,Clearville Beer Willow 2013,Munich Helles Lager,0.053,357,Green Brewing,Clearville,OH
+2125,4617,American Blonde Ale,0.06,214,Harbor Oak Brewing Company,Eagledale,TX
+2608,Morning of Hawk,American Brown Ale,0.065,24,Valley Brewing,Morning Willow,IN
+2471,Haven Laurel,American Double / Imperial IPA,0.099,24,Valley Brewing,Morning Willow,IN
+51,Quiet IPA,American IPA,0.068,556,Rose Beer and Ale,Cedardale,NY
+49,Orchard Pale Ale,American Pale Ale (APA),0.043,556,Rose Beer and Ale,Cedardale,NY
+2655,Grove Meadow,American Pale Ale (APA),0.06,5,CANYON Brewing Company,Harborford,SC
+2654,95°/59° Bridge,Kölsch,0.048,5,CANYON Brewing Company,Harborford,SC
+2652,River Ridge,American Double / Imperial IPA,0.097,5,CANYON Brewing Company,Harborford,SC
+2252,Heather Lake,American Porter,0.052,182,HARBOR Ale Works,River Morning,OK
+2214,Canyon Mill Laurel,American Blonde Ale,0.053,182,HARBOR Ale Works,River Morning,OK
+2213,Harbor Amber,American Amber / Red Ale,0.063,182,HARBOR Ale Works,River Morning,OK
+2315,Beacon Meadow IPA,American IPA,0.068,155,Sunset Brewing Company,Birchford,OR
+878,Stone Lager,American Adjunct Lager,0.039,155,Sunset Brewing Company,Birchford,OR
+794,Birchford Amber Ale (2009),American Amber / Red Ale,0.054,155,Sunset Brewing Company,Birchford,OR
+792,Summit IPA (2007),American IPA,0.061,155,Sunset Brewing Company,Birchford,OR
+791,Pleasant Pale Ale (2010),American Pale Ale (APA),0.056,155,Sunset Brewing Company,Birchford,OR
+2257,Canyon in Juniper,American Pilsner,0.05,178,Timberburg Brewing Company,Timberburg,MA
+2256,Pleasant Birch (2014),American IPA,0.065,178,Timberburg Brewing Company,Timberburg,MA
+2064,Lake's Brew,American Amber / Red Ale,0.055,230,Prairie Noble Brewing Company,Pineford,MA
+1927,Ridge Blonde,American Blonde Ale,0.049,267,Grove Evening Beer,Greenport,MA
+2227,Canyon Golden Black IPA (2013),American Black Ale,0.065,192,Ridge Brewery,Springton,WI
+2226,Stone Amber,Vienna Lager,0.052,192,Ridge Brewery,Springton,WI
+1954,Bright Evening White IPA,American IPA,0.056,192,Ridge Brewery,Springton,WI
+62,U.S. Shadow Ale,American Pale Ale (APA),0.05,192,Ridge Brewery,Springton,WI
+784,Spring Lake (2007),American Blonde Ale,0.04,504,Copper Beer & Iron,Nobleville,NC
+783,Crystal Blonde (2006),American Blonde Ale,0.05,504,Copper Beer & Iron,Nobleville,NC
+530,Pleasant IPA,English India Pale Ale (IPA),0.057,179,Canyon Brewery,Gardenburg,NC
+2094,Brook,American Black Ale,0.099,222,Aspen Brewing Company,Gentle Falcon,NJ
+1940,641SUNSET,American Double / Imperial IPA,0.078,222,Aspen Brewing Company,Gentle Falcon,NJ
+1439,Lantern Beer,American IPA,0.042,222,Aspen Brewing Company,Gentle Falcon,NJ
+1465,Gentle Anchor Lantern Bright Liberty,Cider,0.069,404,Maple Heather Creek,Copperburg,OR
+1744,Evening Glen's Silver Ale,Cream Ale,0.056,331,Evening Brewing Company,Millburg,NC
+1719,Meadow Hope Cedar Ale,Winter Warmer,0.07,331,Evening Brewing Company,Millburg,NC
+507,Copper Anchor Pale Ale,American IPA,0.052,331,Evening Brewing Company,Millburg,NC
+480,Falcon Shadow's Orchard Valley Ale,Cream Ale,0.056,331,Evening Brewing Company,Millburg,NC
+1881,Grove Field Ale,Scottish Ale,0.078,285,Falcon Oak Brewing,Valley Morning,OH
+1584,Lantern's Silver Liberty,Smoked Beer,0.051,29,Falcon Gentle Brewery,Field Brook,TX
+1218,Liberty Beacon Red Ale,American Amber / Red Ale,0.05,452,Oak Beer Company,Hawkport,CO
+1648,Silver Willow IPA,American IPA,0.072,350,Bridge Heather Brewing Company,San Silver Laurel,CA
+1646,Heather 60,American Black Ale,0.075,350,Bridge Heather Brewing Company,San Silver Laurel,CA
+2057,Lake In My Orchard,Rye Beer,0.07,236,Stone Brewing Company,Graceville,VA
+2055,Ridge Kolsch,Kölsch,0.05,236,Stone Brewing Company,Graceville,VA
+1933,Field IPA,American IPA,0.07,236,Stone Brewing Company,Graceville,VA
+2016,Clear,English Brown Ale,0.045,250,Iron's Brewing,Quietford,IN
+2379,Pleasant Brook Liberty,Fruit / Vegetable Beer,0.057,121,Amberport Brewing Company,Amberport,MI
+1341,Liberty Field,Cider,0.05,425,Harvest,Birch Canyon,WI
+2013,Amber Spring,American Black Ale,0.082,141,Pleasant Noble Brewing Company,Canyonford,FL
+2011,Evening,Märzen / Oktoberfest,0.055,141,Pleasant Noble Brewing Company,Canyonford,FL
+2010,Rose's Green Porter,American Porter,0.06,141,Pleasant Noble Brewing Company,Canyonford,FL
+1692,Pine on the Noble Harvest (Haven),American IPA,0.07,141,Pleasant Noble Brewing Company,Canyonford,FL
+1142,Anchor Series Falcon Pale Ale,American IPA,0.075,141,Pleasant Noble Brewing Company,Canyonford,FL
+1138,Green Brown Ale,English Brown Ale,0.055,141,Pleasant Noble Brewing Company,Canyonford,FL
+571,Green Brown Ale,American Brown Ale,0.055,141,Pleasant Noble Brewing Company,Canyonford,FL
+2338,Golden River Unity lager,Light Lager,0.048,145,Heather Brewers,Anchorville,MA
+1365,Orchard Aspen,Pumpkin Ale,0.06,145,Heather Brewers,Anchorville,MA
+656,Silver Pale Ale,American IPA,0.065,145,Heather Brewers,Anchorville,MA
+1772,Liberty Harbor IPA,American IPA,0.067,320,Forestton Craft Ales,Forestton,CA
+1393,Haven Lantern Ale,American Black Ale,0.06,418,Laurel Brewing Company,Copperburg,OR
+893,Wheat the Clear,American Pale Wheat Ale,0.044,418,Laurel Brewing Company,Copperburg,OR
+1407,Harbor Summit Blonde,American Blonde Ale,0.047,415,Silver Cedar Beer Company,Shadowfield,GA
+1406,Shadowfield Brown Ale,American Brown Ale,0.062,415,Silver Cedar Beer Company,Shadowfield,GA
+751,Creek Amber Ale (2004),American Amber / Red Ale,0.052,101,Liberty Unity Brewing Company,Quietburg,RI
+969,Meadow Heather Eagleville Lager,German Pilsener,0.048,482,Meadow Brewing Company,Bridge Birch,IA
+968,Creek Juniper's Ridge-Lantern Ale,American Blonde Ale,0.056,482,Meadow Brewing Company,Bridge Birch,IA
+2351,Field,American Pilsner,0.05,139,Willow Brewing & Falcon Company,Orchardfield,AR
+1650,Evening Red,American Amber / Red Ale,0.052,139,Willow Brewing & Falcon Company,Orchardfield,AR
+1337,Gentle Brook Stout,Oatmeal Stout,0.057,139,Willow Brewing & Falcon Company,Orchardfield,AR
+1336,Beacon ESB,Extra Special / Strong Bitter (ESB),0.061,139,Willow Brewing & Falcon Company,Orchardfield,AR
+129,Amber Grace Pine,Kölsch,0.05,553,Anchorford Brewhouse,Anchorford,LA
+716,Harbor Blonde Ale,American Blonde Ale,0.048,515,Creek Brewing Company,Creekfield,CO
+556,Bright Black IPA,American Black Ale,0.077,515,Creek Brewing Company,Creekfield,CO
+2538,Summit Noble,American Pale Ale (APA),0.06,63,Beacon Gentle Brewing Company,Hawkport,CO
+2355,Garden Silver,Belgian Strong Pale Ale,0.075,63,Beacon Gentle Brewing Company,Hawkport,CO
+613,Copper Pleasant Pale Ale,American Pale Ale (APA),0.06,63,Beacon Gentle Brewing Company,Hawkport,CO
+2028,Green,Berliner Weissbier,0.045,247,Shadow Bright,Lanternford,GA
+1105,9 Iron Porter,American Porter,0.055,169,Meadow Stone Brewing Company,Golden Pine,ID
+1786,Grove Cedar IPA,American IPA,0.063,315,Green Brewing Company,Haventon,IN
+1763,River's Pale Ale,English Pale Ale,0.045,323,D.L. Lake Brewing Company,Copperburg,ME
+1311,Hollow's Garden Ale,Kölsch,0.06,323,D.L. Lake Brewing Company,Copperburg,ME
+1809,The Prairie,American Blonde Ale,0.05,227,HEATHER Iron Brewing Company,Crystalfield,DC
+851,On the Hollow of Unity,American Double / Imperial IPA,0.092,227,HEATHER Iron Brewing Company,Crystalfield,DC
+1224,Aspen IPA,American IPA,0.065,451,River & Orchard's Oak,Ridgeport,CO
+964,Timber IPA (2012),American IPA,0.065,451,River & Orchard's Oak,Ridgeport,CO
+1735,Lantern Blonde Ale (2006),American Blonde Ale,0.05,333,Glen's Ale Works,Stone Canyon,CA
+1734,Mill Pale Ale (2006),American Pale Ale (APA),0.05,333,Glen's Ale Works,Stone Canyon,CA
+2251,Harbor Timber Noble Ale,American Brown Ale,0.075,127,Willow Hollow Brewing Company,Goldenton,TX
+2166,Sunset Gentle Double IPA,American Double / Imperial IPA,0.085,127,Willow Hollow Brewing Company,Goldenton,TX
+946,Goldenton Blonde,American Blonde Ale,0.052,127,Willow Hollow Brewing Company,Goldenton,TX
+1885,Grove Pleasant Clear Quiet Ale,English Pale Mild Ale,0.05,283,Copper Brewing Company,Ridgeton,KS
+1944,Liberty Hope IPA,American IPA,0.07,263,Falconburg Beer Company,Falconburg,CO
+1943,Prairie Pine Porter,American Porter,0.05,263,Falconburg Beer Company,Falconburg,CO
+2505,Unity's Quiet (2015- ),Abbey Single Ale,0.049,57,Clear Brewery,Fieldville,IL
+2025,Valley IPA,American IPA,0.063,57,Clear Brewery,Fieldville,IL
+2021,Shadow Gose Evening,Gose,0.05,57,Clear Brewery,Fieldville,IL
+2015,Valley Blonde,Fruit / Vegetable Beer,0.05,57,Clear Brewery,Fieldville,IL
+1887,Haven's Forest Ale (Canyon),Abbey Single Ale,0.049,57,Clear Brewery,Fieldville,IL
+1201,Valley Mill Pale Ale,American Pale Ale (APA),0.052,237,Noble's Orchard Brewing Company,Lanternfield,VA
+731,Green Harbor 2012,American Black Ale,,491,Crystal's Spring Brewery,Oakfield,CA
+1773,21 Eagle Pale Ale,American Pale Ale (APA),0.045,319,Timber's Brewing Company,Mapledale,WA
+1795,Mill Willow IPA,American IPA,0.065,311,Laurel Haven Brewing Company,Summitton,WA
+944,Bright Hawk Amber Beer (1992),American Amber / Red Ale,,488,Creek Harvest Brewery,Ridgewood,PA
+524,Riverburg Maple Hefeweizen,Hefeweizen,,531,Riverburg Crystal Brewery,Riverburg,CO
+448,Riverburg Harbor Pale Ale,American Pale Ale (APA),,531,Riverburg Crystal Brewery,Riverburg,CO
+447,Riverburg Forest Falcon Stout,Irish Dry Stout,,531,Riverburg Crystal Brewery,Riverburg,CO
+446,Riverburg Forest Noble,English Dark Mild Ale,,531,Riverburg Crystal Brewery,Riverburg,CO
+872,Green Evening Hefeweizen,Hefeweizen,0.043,496,Iron Laurel Brewing Company,Ridgeport,CO
+1685,Glen 9 IPA,American IPA,0.061,340,Pleasant Bright Brewing Company,Oak Spring,FL
+1590,Valley Beacon Ale,Pumpkin Ale,0.05,369,Mill Brewery & Bridge,Willow Crystal,CO
+1110,Timber Hope Pale Ale,American Pale Ale (APA),0.06,369,Mill Brewery & Bridge,Willow Crystal,CO
+1014,Valley Rose Ale (2012),Pumpkin Ale,0.05,369,Mill Brewery & Bridge,Willow Crystal,CO
+680,Harbor Beer,German Pilsener,0.045,369,Mill Brewery & Bridge,Willow Crystal,CO
+1107,Gentle Anchor Imperial Brown Ale,American Brown Ale,0.07,465,Hope 88 Brewing,Timber Falcon,FL
+2003,Grove to Stone,American IPA,0.062,81,Garden Brewing,Falconburg,CO
+2292,Prairie Maple Cedar Aspen Session Ale,American IPA,0.043,170,Valley's Brewing,Hollow Pine,WA
+2604,Blonde Canyon,American Blonde Ale,0.049,26,Grace Anchor Brewery,Riverport,IN
+2431,Pine,American Pale Wheat Ale,0.051,26,Grace Anchor Brewery,Riverport,IN
+2430,Beacon Forest,American Pale Ale (APA),0.052,26,Grace Anchor Brewery,Riverport,IN
+2283,Meadow Hope,Berliner Weissbier,0.04,173,Forest Clear Brewing,Eaglefield,NY
+640,Anchor Ale (Crystal Brewing),American Pale Ale (APA),0.055,173,Forest Clear Brewing,Eaglefield,NY
+1722,Copper Noble Pale Ale,American Pale Ale (APA),0.05,335,Harborville Brewing Company,Harborville,ND
+2089,Copper Timber,American Pale Ale (APA),0.063,224,Brook Prairie's Brewery,Mill Forest,OH
+2088,Morning Lantern Unity Silver IPA,American IPA,0.07,224,Brook Prairie's Brewery,Mill Forest,OH
+1455,Willow Glen Stout,American Stout,0.07,405,Glen Brewing Company,Lakeford,CO
+1454,Harvest Oak Clear Pale Ale,Belgian Pale Ale,0.05,405,Glen Brewing Company,Lakeford,CO
+1452,Beacon River Evening Ale,Kölsch,0.05,405,Glen Brewing Company,Lakeford,CO
+1022,Clear Silver Rose Session Ale,American IPA,0.051,201,Crystal Brewing Company,Morningport,OR
+112,Morning Liberty Ale,Scottish Ale,0.05,201,Crystal Brewing Company,Morningport,OR
+2027,Oak Hollow,American Double / Imperial IPA,0.082,172,Spring Brewing Company,Hollowville,VT
+1929,Juniper Creek,American Double / Imperial IPA,0.082,172,Spring Brewing Company,Hollowville,VT
+1858,Shadow Porter,American Porter,0.055,172,Spring Brewing Company,Hollowville,VT
+2591,Maple Glen Evening,Kristalweizen,0.045,36,Laurel Prairie Brewing Company,Cedarville,CA
+2590,Liberty Glen Pine,Czech Pilsener,0.055,36,Laurel Prairie Brewing Company,Cedarville,CA
+1968,RIVER 259,Kölsch,0.048,36,Laurel Prairie Brewing Company,Cedarville,CA
+1981,River Orchard,American Double / Imperial IPA,0.09,256,Haven's Beer Company,Glendale,IL
+1664,Crystal & Orchard,American Black Ale,0.08,256,Haven's Beer Company,Glendale,IL
+941,Grove Prairie Stout,American Stout,0.053,256,Haven's Beer Company,Glendale,IL
+935,Prairie Eagle Ale,American Amber / Red Ale,0.08,256,Haven's Beer Company,Glendale,IL
+809,Green Copper Pale Ale,American Pale Ale (APA),0.055,256,Haven's Beer Company,Glendale,IL
+351,Evening Bridge Pale Ale (2011),American Pale Ale (APA),0.055,256,Haven's Beer Company,Glendale,IL
+2463,Anchor Birch,American IPA,0.075,48,Spring Falcon Brewing Company,Noble Stone,CA
+1733,746,American Blonde Ale,0.047,48,Spring Falcon Brewing Company,Noble Stone,CA
+2624,Liberty,Doppelbock,0.065,16,Morning 21 Summit,Noblewood,IN
+2284,Anchor Oak Harbor,American Blonde Ale,0.05,16,Morning 21 Summit,Noblewood,IN
+1610,Bright Glen IPA,American IPA,0.06,16,Morning 21 Summit,Noblewood,IN
+2554,Crystal Haven,American Pale Ale (APA),0.055,54,Maple Brewing Company,Milldale,IL
+608,Beacon Harbor IPA,American IPA,0.071,521,Noble Hawk Brewery,Beaconport,MD
+607,Gentle Unity Lager,American Pale Lager,0.047,521,Noble Hawk Brewery,Beaconport,MD
+1899,La Willow Oak Timber Ale,Saison / Farmhouse Ale,0.078,279,Heather Brewing Company,Laurelville,RI
+983,Ridge IPA,American IPA,0.06,279,Heather Brewing Company,Laurelville,RI
+981,Crystal Field Eagleville Ale,American Blonde Ale,0.045,279,Heather Brewing Company,Laurelville,RI
+2172,Shadow ROSE,Belgian Pale Ale,0.052,206,Glen Silver Brewery,Libertywood,OR
+2171,The Beacon,American IPA,0.062,206,Glen Silver Brewery,Libertywood,OR
+1911,Pine Hawk IPA,American IPA,0.045,206,Glen Silver Brewery,Libertywood,OR
+1803,Silver the Clear,American IPA,0.065,206,Glen Silver Brewery,Libertywood,OR
+1214,Iron Canyon Sunset TIMBER,American Pale Ale (APA),0.058,206,Glen Silver Brewery,Libertywood,OR
+562,Silver River Pale Ale,American Pale Ale (APA),0.055,206,Glen Silver Brewery,Libertywood,OR
+319,8068 Lager,American Amber / Red Lager,0.051,206,Glen Silver Brewery,Libertywood,OR
+2322,Hollow River Ale,American Amber / Red Ale,,151,Willow Canyon Brewing Company,Copperfield,PA
+2661,Valley,American Pale Wheat Ale,0.047,4,Falcon Glen Beer Company,San Hopeport,CA
+1565,Beacon IPA,American IPA,0.072,15,Silver Brewing Company,Lake Oak,MI
+1872,Beacon Haven,American Blonde Ale,0.052,287,Crystal Juniper Brewing Company,Goldenton,TX
+2613,Falcon Harbor Stone Orchard,Oatmeal Stout,0.055,22,Orchard Beacon Brewing,Mapleford,IN
+2611,The 84th,American IPA,0.06,22,Orchard Beacon Brewing,Mapleford,IN
+2309,Sunset Laurel,Kölsch,0.052,160,Spring Bright Brewing Company,Eagleburg,AZ
+1616,Meadow Porter,American Porter,0.051,160,Spring Bright Brewing Company,Eagleburg,AZ
+358,Hollow Pine IPA,American IPA,0.067,160,Spring Bright Brewing Company,Eagleburg,AZ
+179,Hawk Timber Grove-Summit Ale (2009),Scottish Ale,0.06,160,Spring Bright Brewing Company,Eagleburg,AZ
+1556,Orchard 13 IPA,American IPA,0.069,253,Springford Brewery,Springford,MI
+2526,Meadow,American Brown Ale,0.065,66,Field Brewing Company,San Shadowdale,TX
+2521,Aspen Bright,American IPA,0.059,66,Field Brewing Company,San Shadowdale,TX
+2520,Quiet Orchard Silver Creek,Berliner Weissbier,0.044,66,Field Brewing Company,San Shadowdale,TX
+1174,10 Quiet Grove Bridge Session IPA,American IPA,0.04,460,Unity Brewing Company,Aspenport,WA
+1116,Mill Cedar Pale Ale,American Pale Ale (APA),0.045,460,Unity Brewing Company,Aspenport,WA
+901,Juniper Ale,Saison / Farmhouse Ale,0.065,460,Unity Brewing Company,Aspenport,WA
+875,Mill Forest Ale,American Pale Ale (APA),0.065,460,Unity Brewing Company,Aspenport,WA
+858,Golden Pale Ale,American Pale Ale (APA),0.056,460,Unity Brewing Company,Aspenport,WA
+2254,Haven Beacon,American IPA,0.07,180,Hollow Golden Brewing Company,Mapleburg,NC
+2077,No Quiet IPA,American IPA,0.072,228,Sunset Maple Brewing Company,Eagle Rose,WI
+2426,Golden Field IPA,American IPA,0.067,106,Haven Brewing Company,Goldendale,ME
+2045,Morning Willow Falcon IPL,American Pale Lager,0.072,240,Eagleville Liberty Brewing,Los Falconwood,CA
+1641,Mill Birch IPA,American IPA,0.094,240,Eagleville Liberty Brewing,Los Falconwood,CA
+1490,Copper the Amber IPA,American IPA,0.059,240,Eagleville Liberty Brewing,Los Falconwood,CA
+1489,Eagleville Laurel Hefeweizen,Hefeweizen,0.046,240,Eagleville Liberty Brewing,Los Falconwood,CA
+1399,Hollow the Mill IPA,American IPA,0.068,240,Eagleville Liberty Brewing,Los Falconwood,CA
+1034,Bright Golden,Kölsch,0.05,240,Eagleville Liberty Brewing,Los Falconwood,CA
+991,Lake Ridge Beacon Silver Brown,American Brown Ale,0.055,240,Eagleville Liberty Brewing,Los Falconwood,CA
+750,Canyon Willow Liberty IPA,American IPA,0.08,240,Eagleville Liberty Brewing,Los Falconwood,CA
+2587,Crystal Porter,American Porter,0.07,39,Prairie's Juniper Brewing,Hollowport,MI
+1109,Spring IPA,American IPA,0.07,464,Eagle Crystal Brewing Company,Greenburg,OR
+1000,Copper Ridge Pale Ale,American Pale Ale (APA),0.056,478,Anchor Cedar Brewing Company,Falconford,AL
+312,Juniper Grace Double IPA,American Double / Imperial IPA,0.093,478,Anchor Cedar Brewing Company,Falconford,AL
+311,Quiet Lake Stout,Oatmeal Stout,0.06,478,Anchor Cedar Brewing Company,Falconford,AL
+308,Mill Spring Sunset Brown Ale,American Brown Ale,0.058,478,Anchor Cedar Brewing Company,Falconford,AL
+2198,Willow Maple Hollow Pale Ale,American IPA,0.059,196,Crystal Hollow Brewery Company,Glendale,IL
+1829,490 Oak Wheat Ale,American Pale Wheat Ale,0.042,88,Rose Crystal Brewing Company,Glendale,IL
+581,490 Falcon Wheat Ale (2012),American Pale Wheat Ale,0.042,88,Rose Crystal Brewing Company,Glendale,IL
+1383,Sunset River,American Pale Lager,0.052,420,Summit Shadow Brewery,Hawkport,CO
+477,White Rose Wheat,American Pale Wheat Ale,0.05,536,Silver Shadow Brewing Company,Willowfield,AZ
+2303,Beer Valley Brook-Aspen,American Blonde Ale,0.053,165,Grove River Brewery,Ridgeport,IN
+1990,Valley Ale,Fruit / Vegetable Beer,0.057,165,Grove River Brewery,Ridgeport,IN
+1702,Clear Barrel Aged Crystal Porter,American Porter,0.056,165,Grove River Brewery,Ridgeport,IN
+1701,Orchard Crystal IPA,American IPA,0.062,165,Grove River Brewery,Ridgeport,IN
+626,Ridgeport Lager (2011),Dortmunder / Export Lager,0.057,165,Grove River Brewery,Ridgeport,IN
+478,Creek Gentle Shadow Field Haven,Witbier,0.051,165,Grove River Brewery,Ridgeport,IN
+442,Forest Hawk Stout,English Stout,0.08,165,Grove River Brewery,Ridgeport,IN
+440,Noble Beacon Sunset Lager,Euro Dark Lager,0.057,165,Grove River Brewery,Ridgeport,IN
+2647,Shadow,American IPA,0.071,6,Meadow Pine Brewing Company,Falconburg,CO
+2646,Cedar,Tripel,0.083,6,Meadow Pine Brewing Company,Falconburg,CO
+2645,Harbor,American IPA,0.05,6,Meadow Pine Brewing Company,Falconburg,CO
+404,Black Bright Double Golden Eagleville Lager (81 bridge.),American Pale Lager,0.045,543,Spring Iron Brewing Company,Ridgeville,MT
+1923,Evening APA,American Pale Ale (APA),0.052,269,Spring Heather Brewing Company,Morningdale,LA
+1574,Barrel Aged Heather,American Brown Ale,0.07,365,Hawk Orchard Brewery,Gracefield,IA
+1446,Timber Harvest Eagleville Ale,American Blonde Ale,0.048,365,Hawk Orchard Brewery,Gracefield,IA
+1028,Spring Bock Lager,Vienna Lager,0.06,365,Hawk Orchard Brewery,Gracefield,IA
+865,Anchor Heather,Witbier,0.055,365,Hawk Orchard Brewery,Gracefield,IA
+540,Anchor Creek IPA,American IPA,0.07,365,Hawk Orchard Brewery,Gracefield,IA
+371,Heather Stout,American Stout,0.06,365,Hawk Orchard Brewery,Gracefield,IA
+190,425 Pale Ale (2010),American Pale Ale (APA),0.053,365,Hawk Orchard Brewery,Gracefield,IA
+189,Birch Eagle Red Ale (2010),Irish Red Ale,0.054,365,Hawk Orchard Brewery,Gracefield,IA
+2313,Garden Black IPA,American Black Ale,0.067,156,Shadow Hawk Brewing Company,Eveningdale,WV
+1185,Eagle Crystal the Evening Blonde Ale,American Blonde Ale,0.055,379,Harvest Beacon Brewing of Valley Oak,Harvestfield,RI
+984,Unity Pleasant Bridge Porter,American Porter,0.06,379,Harvest Beacon Brewing of Valley Oak,Harvestfield,RI
+2143,9 Birch,Winter Warmer,0.065,124,Noble Spring Brewing Company,Falconford,MI
+2140,El Silver,American Amber / Red Ale,0.065,124,Noble Spring Brewing Company,Falconford,MI
+2139,Aspen's Amber Golden IPA,American IPA,0.075,124,Noble Spring Brewing Company,Falconford,MI
+1753,Bright IPA,American IPA,0.07,327,Green Creek Beer Company,Glendale,IL
+1134,Cedar Pilsner,German Pilsener,0.057,327,Green Creek Beer Company,Glendale,IL
+1361,Forest Grace Pleasant Ale,American Blonde Ale,0.052,248,Cedar Field Brewery,Silverport,CT
+1016,Willow Wheat,Fruit / Vegetable Beer,0.046,476,Mill 81 Craft Brewery,Pineport,CA
+1015,Clear 81 Helles Lager,Munich Helles Lager,0.043,476,Mill 81 Craft Brewery,Pineport,CA
+2059,CANYON Pleasant,Herbed / Spiced Beer,0.052,234,Liberty Brewery,Millwood,MA
+1653,The Bridge Grove White IPA,American White IPA,0.062,234,Liberty Brewery,Millwood,MA
+770,Crystal IPA (2012),American IPA,0.059,234,Liberty Brewery,Millwood,MA
+769,Cedar Rose Beer (2012),Kölsch,0.05,234,Liberty Brewery,Millwood,MA
+192,Eagle Forest Beer (2010),Kölsch,0.05,234,Liberty Brewery,Millwood,MA
+126,Crystal IPA (2010),American IPA,0.059,234,Liberty Brewery,Millwood,MA
+506,Bridge Oak Ridge Pale Ale,American Blonde Ale,,535,Lantern Grace Brewing Company,Goldenville,MT
+181,Grace White,Witbier,0.048,535,Lantern Grace Brewing Company,Goldenville,MT
+2182,Silver Amber,American Pale Ale (APA),0.054,204,Amber Laurel Brewing Co.,Goldenwood,HI
+2180,Hawk Brown Ale,American Brown Ale,0.064,204,Amber Laurel Brewing Co.,Goldenwood,HI
+1895,Mill G,Belgian IPA,0.076,280,Harbor Brewing Company,Ridge Hollow,CA
+1893,Maple 15 Double IPA,American Double / Imperial IPA,0.088,280,Harbor Brewing Company,Ridge Hollow,CA
+990,Pine Cedar,American IPA,0.072,479,Beacon River Beer,Juniperton,MD
+988,Beacon Bridge Lager,Cream Ale,0.06,479,Beacon River Beer,Juniperton,MD
+2295,The Eagleville Green,American Pilsner,0.063,168,Unity Rose Brewery,Nobleton,CO
+96,Stone's Amber Ale,American Amber / Red Ale,0.055,500,Crystal Cedar Haven And Brewery,Gardenford,KS
+1615,The 21st Falcon™,American Pale Ale (APA),0.045,362,Glen's Beer,Aspenport,WA
+496,Morning's Saison,Saison / Farmhouse Ale,0.066,362,Glen's Beer,Aspenport,WA
+1834,Valley Noble Brown,American Brown Ale,0.047,297,Juniper Summit Brewing Company,Amberfield,PA
+1833,Orchard Juniper IPA,American IPA,0.058,297,Juniper Summit Brewing Company,Amberfield,PA
+1543,Falcon IPA,American IPA,0.063,198,Harvest Harbor Brewing Company,Orchardburg,OR
+1354,678 Hope Lager,American Pale Lager,0.048,198,Harvest Harbor Brewing Company,Orchardburg,OR
+499,Lantern IPA (2011),American IPA,0.065,198,Harvest Harbor Brewing Company,Orchardburg,OR
+1004,The Aspen Creek Valley Eagle,American Pale Lager,0.051,395,Birch & Juniper Brewery,Anchordale,TX
+502,Haven,Altbier,0.051,395,Birch & Juniper Brewery,Anchordale,TX
+501,Pale Grace,American Pale Ale (APA),0.06,395,Birch & Juniper Brewery,Anchordale,TX
+2357,Porter Copper,American Porter,0.065,136,Eagle & Bright Brewing Company,Anchordale,TX
+2483,Heather Field,Cider,0.068,80,Maple Oak Brewery,Copperburg,OR
+2400,Clear Haven Amber,American Pale Wheat Ale,0.039,80,Maple Oak Brewery,Copperburg,OR
+2398,Clear Haven Amber,American Pale Wheat Ale,0.039,80,Maple Oak Brewery,Copperburg,OR
+2395,Clear Haven Amber,American Pale Wheat Ale,0.039,80,Maple Oak Brewery,Copperburg,OR
+2394,Clear Haven Amber,American Pale Wheat Ale,0.039,80,Maple Oak Brewery,Copperburg,OR
+2393,Clear Haven Amber,American Pale Wheat Ale,0.039,80,Maple Oak Brewery,Copperburg,OR
+2200,Spring Stout,American Stout,0.058,80,Maple Oak Brewery,Copperburg,OR
+2199,Orchard IPA,American IPA,0.066,80,Maple Oak Brewery,Copperburg,OR
+916,Garden Cedar Ale (2012),American Strong Ale,0.073,80,Maple Oak Brewery,Copperburg,OR
+2385,Lantern Wheat,American Pale Wheat Ale,0.056,120,Cedar Beacon Brew Heather,Anchorton,WI
+1774,Gentle,Cream Ale,0.055,242,Lake Brewing Company,Anchordale,TX
+553,Rose's Pale Ale,American Pale Ale (APA),0.053,527,Cedar Ale Works,Meadowport,FL
+2376,Grace Ale,American Blonde Ale,0.049,123,Eveningfield Ale Brewery,Eveningfield,MA
+1784,Pleasant Ale,American IPA,,316,Quiet Orchard Brewery & River,Quietfield,DE
+2672,Lake Haven,American Pale Lager,0.048,2,Bright's Harvest Craft Amber,Rosedale,MA
+2671,Timber IPL,American India Pale Lager,0.072,2,Bright's Harvest Craft Amber,Rosedale,MA
+2670,Sunset Harbor,American India Pale Lager,0.067,2,Bright's Harvest Craft Amber,Rosedale,MA
+2669,Forest,American India Pale Lager,0.049,2,Bright's Harvest Craft Amber,Rosedale,MA
+1405,Gentle's Noble,Cider,0.05,416,Pine's Glen Oak (Brook Harbor...,Canyonville,PA
+2363,Orchard Laurel,American IPA,0.065,92,Mill O's Garden & Brewery,Lanternford,OH
+689,Shadow Prairie IPA,American IPA,0.07,92,Mill O's Garden & Brewery,Lanternford,OH
+2408,Cedar to Grove,American IPA,0.069,114,Amber Brewing Company,Brightwood,MD
+2595,Noble,American Strong Ale,,32,Hope Glen Brewing Company,Birch Canyon,WI
+2480,Canyon,Hefeweizen,0.045,32,Hope Glen Brewing Company,Birch Canyon,WI
+1254,OAK's Liberty Orchard Copper Red IPA,American IPA,0.06,32,Hope Glen Brewing Company,Birch Canyon,WI
+468,Maple Crystal Imperial IPA,American Double / Imperial IPA,0.093,233,Hope Juniper Brewing Company,Timberwood,NV
+2163,Grace Falcon IPA,American IPA,0.071,208,Summitville Brewing Company,Summitville,IA
+1235,Noble Meadow Quiet Harvest (2014),Kölsch,0.047,125,Falcon Brewing Company,Eagledale,TX
+666,Stone Bright Double IPA,American Double / Imperial IPA,0.095,125,Falcon Brewing Company,Eagledale,TX
+1678,Gentle Unity Brown Lager,Euro Dark Lager,0.057,342,Field Beer Company,Eaglefield,NY
+1348,Forest Pilsner,Czech Pilsener,0.055,342,Field Beer Company,Eaglefield,NY
+1187,Meadow Brewers Field (CLEAR),American Blonde Ale,0.05,458,Heather Pine Brewing Company,Canyonfield,AK
+760,Quiet Field Aspen Ale (2007),Scotch Ale / Wee Heavy,0.065,510,Orchard Cedar Brewing Company,Hollowford,MT
+60,Meadow Maple Black Ale,American Brown Ale,,84,Bright Brewing Company,Harborwood,MI
+59,Haven Orchard Brown Ale,American Brown Ale,,84,Bright Brewing Company,Harborwood,MI
+57,Red River Amber Ale,American Amber / Red Ale,,84,Bright Brewing Company,Harborwood,MI
+1667,Anchor Orchard IPA,American IPA,0.06,102,Bridge Noble Brewing Company,Clearwood,AK
+2460,Grace Pale Ale,American IPA,0.063,87,Sunsetport Mill Brewing Company,Sunsetport,MO
+1070,Heather Eagle Lager,American Amber / Red Lager,0.046,439,Groveford Brewing Company,Groveford,HI
+590,Heather Eagle Lager,American Amber / Red Lager,0.046,439,Groveford Brewing Company,Groveford,HI
+1741,A Falcon of Lantern,Hefeweizen,0.054,332,La Shadow Brewing Company,Pleasantport,NM
+664,Shadow IPA,American IPA,0.072,332,La Shadow Brewing Company,Pleasantport,NM
+392,Stone Eagleville Bock,Maibock / Helles Bock,0.066,545,Meadowdale Brewing Company,Meadowdale,PA
+2492,Lantern Quiet,American Amber / Red Ale,0.05,59,Quiet 47 Brewing Company,Goldenfield,MI
+1445,Gentle Grove Birch Pilsner,Czech Pilsener,0.05,406,Stone Rose Brewing,Lake Shadow,WI
+473,Mill & Shadow Amber Ale,American Amber / Red Ale,0.05,537,Grace and Silver Brewing Company,Anchorwood,MT
+471,River Unity Timber Ale,Scottish Ale,0.057,537,Grace and Silver Brewing Company,Anchorwood,MT
+1832,Beacon's Stout,American Stout,0.058,298,Cedar Shadow Brewery,Birchton,PA
+1687,Haven Ale,Fruit / Vegetable Beer,0.052,298,Cedar Shadow Brewery,Birchton,PA
+1686,Iron IPA,American IPA,0.065,298,Cedar Shadow Brewery,Birchton,PA
+2332,Maple Aspen,American Porter,0.06,149,Gentle Brewing Company,Falconwood,NC
+2326,Haven Quiet,American Brown Ale,0.061,149,Gentle Brewing Company,Falconwood,NC
+1924,Harvest Prairie Ale,American Amber / Red Ale,0.046,268,Harvest Grove Brewing Company,Copper Timber,VT
+573,Lantern Hope Ale (5),Altbier,0.046,268,Harvest Grove Brewing Company,Copper Timber,VT
+2582,Spring Field Mill IPA,American IPA,0.055,41,Oak Liberty Brewing,Creek Harbor,VT
+1308,Green Harvest Pilsner,Czech Pilsener,0.056,430,Hollow Copper Brewing Company,Amberwood,VA
+1204,Ridge Cedar Spring,Hefeweizen,0.062,456,Hollow Brewing Company,Meadowfield,WI
+2032,Eagle Blonde,Belgian Pale Ale,0.051,245,Bright Golden Brewing Company,Birchport,MS
+125,Falcon Red Ale,American Amber / Red Ale,0.058,158,Valley Brewing Company,Morningford,AZ
+962,River's Aspen Pale Ale (2000),American Pale Ale (APA),0.05,485,Brook Brewing Company,Copperburg,OR
+1008,Summitdale Falcon Ale,American Brown Ale,0.055,400,Summitdale Beer Company,Summitdale,GA
+2454,Mill Valley,American Double / Imperial IPA,0.099,91,Prairie Brewing Company,Unityville,OH
+1994,The Prairie Sunset,Fruit / Vegetable Beer,0.079,91,Prairie Brewing Company,Unityville,OH
+360,#7,Fruit / Vegetable Beer,0.051,303,Hawk Canyon Brewing Company,Grove Valley,VT
+75,Amber IPA,American IPA,0.065,534,Beacon Brewing Company,Rose Iron,CA
+74,Eagleville Harvest Pilsner,German Pilsener,0.042,534,Beacon Brewing Company,Rose Iron,CA
+73,Hawk Rose Amber Ale (Harbor),American Amber / Red Ale,0.045,534,Beacon Brewing Company,Rose Iron,CA
+1628,Pine (5),Winter Warmer,0.072,356,Pleasant Brewing Company,Ridgewood,PA
+1624,Rose IPA,American IPA,0.055,356,Pleasant Brewing Company,Ridgewood,PA
+1600,Oak Falcon,Pumpkin Ale,0.055,356,Pleasant Brewing Company,Ridgewood,PA
+1356,Prairie from the Laurel,Tripel,0.09,356,Pleasant Brewing Company,Ridgewood,PA
+1334,Oak Double IPA,American Double / Imperial IPA,0.085,356,Pleasant Brewing Company,Ridgewood,PA
+1783,Eagle IPA,American IPA,0.072,317,Bridge Rose Brewing Company,Millton,ME
+725,Laurel Prairie Imperial Pale Ale,American Double / Imperial IPA,0.097,317,Bridge Rose Brewing Company,Millton,ME
+1234,The Imperial Rose,American Double / Imperial IPA,0.08,161,Lake Falcon Brewing Company,Shadow Golden,TX
+1233,Iron Gentle 1-Falcon Cedar Beer,Rye Beer,0.05,161,Lake Falcon Brewing Company,Shadow Golden,TX
+1231,Grove Crystal Garden Stout,American Stout,0.065,161,Lake Falcon Brewing Company,Shadow Golden,TX
+1831,Our Grove IPA,American IPA,0.065,299,Grove Brewing Company,Hopeton,NY
+1359,Evening Orchard,Shandy,0.042,299,Grove Brewing Company,Hopeton,NY
+958,HEATHER Harbor (1998),Light Lager,0.045,299,Grove Brewing Company,Hopeton,NY
+957,Shadow Grace Lager (2000),American Pale Lager,0.048,299,Grove Brewing Company,Hopeton,NY
+453,Iron Harvest Ale (2011),American Pale Wheat Ale,0.047,299,Grove Brewing Company,Hopeton,NY
+133,Falcon Pale Ale (50 hollow.),English Pale Ale,0.055,299,Grove Brewing Company,Hopeton,NY
+1578,Aspendale Golden Brown,American Brown Ale,0.051,375,Liberty Brewing Company,Aspendale,HI
+1429,Garden Harbor Pilsner,Czech Pilsener,0.055,375,Liberty Brewing Company,Aspendale,HI
+1271,Unity Saison,Saison / Farmhouse Ale,0.05,375,Liberty Brewing Company,Aspendale,HI
+547,La Forest White,Witbier,0.05,375,Liberty Brewing Company,Aspendale,HI
+313,Pleasant Wheat,American Pale Wheat Ale,0.055,375,Liberty Brewing Company,Aspendale,HI
+32,Eagle Porter,American Porter,0.057,375,Liberty Brewing Company,Aspendale,HI
+1237,Copper Prairie Spring Porter,American Porter,0.037,448,Ridge Beer Company,Summit Grove Hawk,CA
+1986,Anchor Forest,Cider,0.069,254,Glen's Heather,Mill Lake,MI
+1985,Ridge-R-Eagle,Cider,0.069,254,Glen's Heather,Mill Lake,MI
+1984,Amber Laurel,Cider,0.069,254,Glen's Heather,Mill Lake,MI
+2184,Hope Blonde Ale,American Blonde Ale,0.042,203,Pine Brewing Co.,Goldenwood,HI
+1506,Prairieburg Pleasant IPA,American IPA,0.071,393,Prairieburg Brewing Company,Prairieburg,FL
+586,Brook Brown Ale,American Brown Ale,0.05,223,Glen Valley Brewing Company,Clearwood,AK
+2667,Silver,American IPA,0.075,3,Evening Haven Brewing Company,San Anchorport,CA
+2663,Pleasant,Cream Ale,0.063,3,Evening Haven Brewing Company,San Anchorport,CA
+2534,Eagle Clear,American IPA,0.08,65,Glen Brewing,Glendale,IL
+2533,Brook Morning Orchard,American IPA,0.075,65,Glen Brewing,Glendale,IL
+2531,Mill Green River,Saison / Farmhouse Ale,0.065,65,Glen Brewing,Glendale,IL
+2530,Lake Spring,Berliner Weissbier,0.043,65,Glen Brewing,Glendale,IL
+2528,River Oak,American Pale Ale (APA),0.053,65,Glen Brewing,Glendale,IL
+273,TIMBER Pale Ale,American Pale Ale (APA),,440,Maple It Eagle,Juniper Green,MI
+1884,Noble Oak,American Double / Imperial IPA,0.087,284,Anchorton Brewing Company,Anchorton,WI
+776,O-Pine,Witbier,0.092,284,Anchorton Brewing Company,Anchorton,WI
+171,Green’s Shadow Orchard-Ale (2010),American Amber / Red Ale,0.051,284,Anchorton Brewing Company,Anchorton,WI
+2358,Eagle Oak (2012),Light Lager,0.04,134,Glen Craft Brewery,Fielddale,WI
+2282,Spring,American Pale Lager,0.05,134,Glen Craft Brewery,Fielddale,WI
+2281,Juniper Silver Grace,American Pale Lager,0.062,134,Glen Craft Brewery,Fielddale,WI
+2279,Aspen Mill,American Pale Lager,0.055,134,Glen Craft Brewery,Fielddale,WI
+2277,Grace Falcon (2013),American Pale Lager,0.055,134,Glen Craft Brewery,Fielddale,WI
+2275,Falcon Stone,Light Lager,0.042,134,Glen Craft Brewery,Fielddale,WI
+2273,Bright,American Adjunct Lager,0.05,134,Glen Craft Brewery,Fielddale,WI
+2442,Stone Prairie,Belgian Pale Ale,0.05,98,Orchard Brewery,San Anchorport,CA
+1460,El Golden Hollow Pale Ale,American Pale Ale (APA),0.048,98,Orchard Brewery,San Anchorport,CA
+1459,Laurel Double IPA,American Double / Imperial IPA,0.092,98,Orchard Brewery,San Anchorport,CA
+1476,Sunset Timber Clear Brown Ale,American Brown Ale,0.04,399,Pleasantfield Brewery,Pleasantfield,UT
+645,Gentle Spring Eagle Lager,California Common / Steam Beer,0.04,399,Pleasantfield Brewery,Pleasantfield,UT
+644,Silver's Juniper IPA,American IPA,0.04,399,Pleasantfield Brewery,Pleasantfield,UT
+336,Hollow Laurel Pale Ale,American Pale Ale (APA),0.056,547,Shadow Forest Falcon Morning & Brew...,Lantern Field,NH
+2236,Hope,American Pale Ale (APA),0.042,189,Clear Hawk Brewery,Nobleburg,NE
+2159,Brook of the Noble,American IPA,0.075,209,Timber Grove Beer,San Anchorport,CA
+1492,Orchard Pleasant,American Amber / Red Ale,0.065,209,Timber Grove Beer,San Anchorport,CA
+327,Unity Amber Ale,American Amber / Red Ale,0.05,549,Golden Brewing Company,Morningford,AZ
+1052,Creek Wheat,American Pale Wheat Ale,0.047,326,Ridge Spring Brewery,Saint Timberdale,MO
+1051,Black Haven Birch Lager,Schwarzbier,0.046,326,Ridge Spring Brewery,Saint Timberdale,MO
+419,Bridge Morning Pale Ale,American Pale Ale (APA),0.05,540,Morning Pine Brewing Company,Crystalford,NC
+2208,Canyon Garden,American IPA,0.07,188,Anchor's Brewing,Orchardburg,MO
+625,Garden Orchard IPA,American IPA,0.072,507,Bridge Brewing Company,Unity Noble Harbor,AZ
+1598,Stonedale Gentle-Canyon,American Amber / Red Lager,0.05,366,Stonedale Brewing Company,Stonedale,OK
+862,Stonedale 90,American Pale Lager,0.04,366,Stonedale Brewing Company,Stonedale,OK
+421,Stonedale Quiet Ale,American Blonde Ale,0.053,366,Stonedale Brewing Company,Stonedale,OK
+1775,Valley Field Liberty Stout,Milk / Sweet Stout,0.053,143,Morning Brewing Company,Hollowfield,RI
+580,Green Hollow Ale,Cream Ale,0.05,143,Morning Brewing Company,Hollowfield,RI
+1537,Lantern Blonde Ale,American Blonde Ale,0.053,387,Oak Brewery,Copperburg,OR
+1265,Beacon Rose Imperial Evening Pale Ale,American Double / Imperial IPA,0.085,387,Oak Brewery,Copperburg,OR
+1705,Gentle For Noble,Pumpkin Ale,0.061,337,Canyon Brewing Company,Hollowburg,NE
+1147,LAKE Hefeweizen,Hefeweizen,0.048,337,Canyon Brewing Company,Hollowburg,NE
+1146,Oak Glen Brown Ale,English Brown Ale,0.048,337,Canyon Brewing Company,Hollowburg,NE
+2475,Creek Stone,American IPA,0.045,82,Bridge Pine Brewing Company,Morning Valley,CO
+1978,3890 Black Lager,Euro Dark Lager,0.056,82,Bridge Pine Brewing Company,Morning Valley,CO
+1975,Hope Summit,Czech Pilsener,0.048,82,Bridge Pine Brewing Company,Morning Valley,CO
+1707,Hollow,American Pale Wheat Ale,0.052,82,Bridge Pine Brewing Company,Morning Valley,CO
+1586,Unity Noble Amber Ale,American Amber / Red Ale,0.052,82,Bridge Pine Brewing Company,Morning Valley,CO
+748,Summit Spring Amber Ale (2011),American Amber / Red Ale,0.052,82,Bridge Pine Brewing Company,Morning Valley,CO
+1417,Hope Crystal Gentle,Berliner Weissbier,0.034,410,Hope Hawk Brewing Company,Heatherwood,CT
+884,Pleasant Morning Pilsner,American Pilsner,0.05,410,Hope Hawk Brewing Company,Heatherwood,CT
+757,Anchor Amber Ale (2004),American Amber / Red Ale,0.05,410,Hope Hawk Brewing Company,Heatherwood,CT
+320,Bright-Sunset Double IPA (21 orchard.),American Double / Imperial IPA,0.088,410,Hope Hawk Brewing Company,Heatherwood,CT
+43,230 Hawk of the Stone (50 pleasant.) (2010),Belgian Pale Ale,0.09,410,Hope Hawk Brewing Company,Heatherwood,CT
+41,Evening Crystal Lager (2007),American Pilsner,0.05,410,Hope Hawk Brewing Company,Heatherwood,CT
+2272,Gentle Pale Ale,American Pale Ale (APA),0.05,174,Field Pine Lager & Ale Brewing ...,Field Pine,LA
+484,EAGLE Blonde Ale,American Blonde Ale,0.049,174,Field Pine Lager & Ale Brewing ...,Field Pine,LA
+2041,Grace Canyon!,American Amber / Red Ale,0.052,241,Meadow Summit Brewing Company,Anchor Rose,TX
+646,Liberty Brown Ale,English Brown Ale,0.054,518,Shadow Lake Brewing Company,Garden Birch,SC
+2050,Eagle Ale,Cream Ale,0.042,238,Hopefield Brewing Company,Hopefield,NY
+914,Clear Golden Morning White,Witbier,0.054,495,Graceport Brewing Company,Graceport,MA
+1622,Meadow Session,American Pale Ale (APA),0.051,359,Quiet Brewing Company,Forestford,NC
+1305,Orchard 90 Valley Red,Irish Red Ale,0.055,431,River Summit Brewing Company,Hope Ridge,PA
+1190,Summit Session Pils,Czech Pilsener,0.04,271,Hawk Brewing Company,Eveningfield,MA
+1264,O'Eveningdale Haven Beer,Pumpkin Ale,0.055,442,O'Eveningdale Brewery,O'Eveningdale,MO
+1258,6 Harvest IPA,American IPA,0.061,442,O'Eveningdale Brewery,O'Eveningdale,MO
+128,O'Eveningdale Rose,Fruit / Vegetable Beer,0.051,442,O'Eveningdale Brewery,O'Eveningdale,MO
+2331,Unity IPA,American IPA,0.067,150,Ridge Brewing,Lakewood,OR
+1669,Field Amber Ale,American Amber / Red Ale,0.054,150,Ridge Brewing,Lakewood,OR
+1668,Glen Amber Stout,American Stout,0.058,150,Ridge Brewing,Lakewood,OR
+999,Canyon IPA (2013),American IPA,0.067,150,Ridge Brewing,Lakewood,OR
+2247,Grove Field,Baltic Porter,0.082,184,Golden Pine Brewing Company,Anchordale,TX
+2192,Grace Hefeweizen,American Pale Wheat Ale,0.047,200,Oak Brewing Company,Copperburg,OR
+1081,Maple Eagle,Kölsch,0.045,200,Oak Brewing Company,Copperburg,OR
+2335,Copper Laurel,Belgian Strong Dark Ale,0.092,148,Eagle Aspen,Lanternville,CO
+2333,Evening Rose Aspen Porter,American Porter,0.054,148,Eagle Aspen,Lanternville,CO
+1721,Forest Hefeweizen,Hefeweizen,0.047,148,Eagle Aspen,Lanternville,CO
+600,Meadow Shadow Eagleville Birch Ale,Rye Beer,0.05,471,Eagle Brewing Company,Brook River,IA
+1486,Meadow Hope Stout,American Stout,0.068,301,Clear Bridge Brewing Company,Shadowdale,PA
+1485,Cedar Porter,American Porter,0.055,301,Clear Bridge Brewing Company,Shadowdale,PA
+1394,Unity Sunset Harbor Ale,Pumpkin Ale,0.046,301,Clear Bridge Brewing Company,Shadowdale,PA
+891,Creek IPA,American IPA,0.075,301,Clear Bridge Brewing Company,Shadowdale,PA
+508,Silver Harbor Ale (2011),American Pale Wheat Ale,0.048,301,Clear Bridge Brewing Company,Shadowdale,PA
+1529,Hawk's Red,American Amber / Red Lager,0.055,390,Bridge Morning Brewing Company,Harbor Stone,WA
+1528,Aspen Bright Pale Lager,American Pale Lager,0.067,390,Bridge Morning Brewing Company,Harbor Stone,WA
+1796,The MILL™,,,166,Amber Unity Brewery,Sunsetford,CO
+1751,Valley Noble Brown,English Brown Ale,0.05,166,Amber Unity Brewery,Sunsetford,CO
+1750,Haven IPA,American IPA,,166,Amber Unity Brewery,Sunsetford,CO
+1444,Garden's Pale Ale,American Pale Ale (APA),0.065,166,Amber Unity Brewery,Sunsetford,CO
+955,Garden's Pale Ale,American Pale Ale (APA),0.065,166,Amber Unity Brewery,Sunsetford,CO
+755,Liberty's Pale Ale (2011),American Pale Ale (APA),0.065,166,Amber Unity Brewery,Sunsetford,CO
+754,Grove's Pale Ale (2010),American Pale Ale (APA),0.065,166,Amber Unity Brewery,Sunsetford,CO
+661,Unity,Belgian Strong Pale Ale,0.08,166,Amber Unity Brewery,Sunsetford,CO
+391,Iron Pine Mill,American Double / Imperial IPA,0.09,166,Amber Unity Brewery,Sunsetford,CO
+6,OAK Imperial IPA,American Double / Imperial IPA,0.099,166,Amber Unity Brewery,Sunsetford,CO
+5,Beacon Iron,Scottish Ale,0.08,166,Amber Unity Brewery,Sunsetford,CO
+4,Forest Ale (2009),American Double / Imperial IPA,0.087,166,Amber Unity Brewery,Sunsetford,CO
+804,Meadow Golden Imperial Stout (2008),Russian Imperial Stout,0.095,503,Amber Unity Brewery,Stoneburg,CO
+787,Haven Heather (2008),Scottish Ale,0.08,503,Amber Unity Brewery,Stoneburg,CO
+744,Summit's Pale Ale (2006),American Pale Ale (APA),0.065,503,Amber Unity Brewery,Stoneburg,CO
+741,Eagle's Pale Ale (2002),American Pale Ale (APA),0.065,503,Amber Unity Brewery,Stoneburg,CO
+733,Laurel Beer (2006),American Double / Imperial IPA,0.087,503,Amber Unity Brewery,Stoneburg,CO
+1533,G BRIGHT,American Double / Imperial IPA,0.087,389,Orchard Shadow Brewery (River Harbor...,Oakford,NC
+1328,Harvest Laurel's IPA,American Double / Imperial IPA,0.08,389,Orchard Shadow Brewery (River Harbor...,Oakford,NC
+1908,Cedar Bridge White IPA,American White IPA,0.055,275,Orchard Liberty Brewing,Gentledale,VT
+927,Morning Birch Harbor Wheat,American Dark Wheat Ale,0.053,341,Groveport Brewing Company,Groveport,CO
+697,River Pale Ale,American Pale Ale (APA),0.053,441,Field Aspen Brewing Company,Morning Valley,CO
+695,Creek 19,English Bitter,0.044,441,Field Aspen Brewing Company,Morning Valley,CO
+1048,Forest IPA,American IPA,0.062,307,Ridge Brewing Company,Golden Pine,ID
+1043,Valley Grace Lager,American Pale Lager,0.044,307,Ridge Brewing Company,Golden Pine,ID
+1930,Falcon Session Ale,American Pale Wheat Ale,0.05,266,Unity Pine Brewing Company,Copperburg,ME
+2238,Hollow Unity,Light Lager,0.04,187,Brook Sunset Brewing Company,Brightville,TX
+2144,Sunset Brook Pine Garden Pils,American Pilsner,0.05,187,Brook Sunset Brewing Company,Brightville,TX
+1794,Willow's Pilsner,German Pilsener,0.045,205,Canyon's Brewing Company,Maplefield,IN
+2630,32 Falcon (River A Shadow Hawk Hollow),American IPA,0.065,13,Noble Brewing Company,Harvest Glen,MI
+2629,Garden’s Pale Ale (VALLEY),American Pale Ale (APA),0.05,13,Noble Brewing Company,Harvest Glen,MI
+1062,Pine's RIVER Lager (1998),American Pale Lager,0.051,470,Forest's Brewing Company,San Shadowdale,TX
+1060,Clear's Field Harvest Pilsner (1997),Czech Pilsener,0.049,470,Forest's Brewing Company,San Shadowdale,TX
+1404,Bridge 49 Amber Ale,American Amber / Red Ale,0.059,11,Stoneville Brewing,Stoneville,MI
+1797,Black Canyon Creek Stout,Milk / Sweet Stout,0.05,310,Laurel Lantern Brewery,San Hopeport,CA
+1491,Summit Bridge Ale,Fruit / Vegetable Beer,0.06,314,Clear Copper Brewing Company,Orchardport,MO
+2559,Gentle of the Forest,American Amber / Red Ale,0.065,52,Anchor Creek Brewing Company,Glendale,IL
+1760,Lake™ IPA,American IPA,0.069,324,Morning Laurel Brewing Company,Juniper Maple,NC
+2336,Hawk Clearville Morning,American Pilsner,0.05,147,Anchor Beer Company,Clearville,OH
+1909,Lake Orchard Hollow,American Barleywine,0.099,274,Eagle Brewery,Clearville,OH
+1463,Juniper Helles,Munich Helles Lager,0.069,135,Grove Hawk's Brewery,Goldenburg,CO
+1461,Aspen Pilsner,Czech Pilsener,0.058,135,Grove Hawk's Brewery,Goldenburg,CO
+711,Noble the Spring Pale Ale,American Pale Ale (APA),0.057,135,Grove Hawk's Brewery,Goldenburg,CO
+188,Field Pilsner (2009),Czech Pilsener,0.058,135,Grove Hawk's Brewery,Goldenburg,CO
+130,Lantern Creek Wheat (Pleasant),American Pale Wheat Ale,0.059,135,Grove Hawk's Brewery,Goldenburg,CO
+399,Clear Hefeweizen (2011),Hefeweizen,0.052,544,Spring Breweries,Aspenport,WA
+2030,Willow Silver,American Porter,0.055,246,Garden Brewing Company,Laurelburg,SC
+2269,Green's Blonde,Munich Helles Lager,0.046,176,Beacon & Grace Brewing Company,Shadow Golden,TX
+1861,LANTERN,American Black Ale,0.099,128,Eagle Ale Brewing Company,Gentleville,TX
+1718,River #1 Blonde Ale (2013),American Blonde Ale,0.051,128,Eagle Ale Brewing Company,Gentleville,TX
+1290,The Haven Grove Harbor Ale,English Pale Ale,0.059,128,Eagle Ale Brewing Company,Gentleville,TX
+1091,Timber Pils (2015),German Pilsener,0.053,128,Eagle Ale Brewing Company,Gentleville,TX
+1086,Stone River (2015),American Blonde Ale,0.06,128,Eagle Ale Brewing Company,Gentleville,TX
+938,Liberty IPA,American IPA,0.062,475,Red Green Brewing Company,Greendale,GA
+715,Brook Pleasant Lager,Czech Pilsener,0.049,475,Red Green Brewing Company,Greendale,GA
+2514,Clear Blonde IPA,Belgian IPA,0.07,68,Red Cedar Lantern Brewery and Quiet...,Mt. Unityport,MD
+1467,Amber Anchor,Cider,0.055,403,Red Noble Hollow Company,Greenburg,OR
+339,Evening Glen (2011),American Amber / Red Ale,0.058,487,Harbor Brewery,Summitton,WA
+1375,Morning of the Forest,Mead,0.08,421,Crystal Silver,Lakeford,CO
+1373,Black Golden Cedar,Mead,0.08,421,Crystal Silver,Lakeford,CO
+2414,Iron,American Pale Ale (APA),0.05,110,Pleasant Cedar Brewing Company,Falconburg,CO
+1176,Quiet Stone IPA,American IPA,0.07,110,Pleasant Cedar Brewing Company,Falconburg,CO
+1006,Birch Triple Stone Pale Ale,American Double / Imperial IPA,0.099,110,Pleasant Cedar Brewing Company,Falconburg,CO
+636,Valley Forest IPA (2012),American IPA,0.07,110,Pleasant Cedar Brewing Company,Falconburg,CO
+710,Green Porter,American Porter,,386,Maple Brewing,Greenwood,CO
+219,Beacon's Oak,American Blonde Ale,,386,Maple Brewing,Greenwood,CO
+2576,Anchor Unity,American Pale Ale (APA),0.055,44,Lantern Hope Brewing Company,Glendale,IL
+418,Maple Ale,Herbed / Spiced Beer,0.061,44,Lantern Hope Brewing Company,Glendale,IL
+417,Oktoberfest Field,Märzen / Oktoberfest,0.057,44,Lantern Hope Brewing Company,Glendale,IL
+416,Lakewood Porter,American Porter,0.068,44,Lantern Hope Brewing Company,Glendale,IL
+1993,Grove,American Porter,0.058,93,Timber Brewery,Unityville,OH
+1935,Creek,American Pale Ale (APA),0.043,93,Timber Brewery,Unityville,OH
+1852,Beacon,American IPA,0.072,93,Timber Brewery,Unityville,OH
+1851,Willow,American Blonde Ale,0.048,93,Timber Brewery,Unityville,OH
+2580,Sunset,Gose,0.035,42,Liberty Grove Brewing Company,Copperburg,ME
+1807,Heather Prairie Anchor Ale,American Pale Ale (APA),0.043,42,Liberty Grove Brewing Company,Copperburg,ME
+1179,Lake Canyon Ale,American Amber / Red Ale,0.05,459,Unity Field Brewery,Falconburg,CO
+1654,Creek Lake Spring Pale Ale,American Pale Ale (APA),0.055,321,Mill Brewing Company,Bridgewood,OH
+2579,Creek Liberty,American IPA,0.05,43,Iron River Brewing Company,Shadowville,PA
+1880,Morning Grove! Beacon Stout,Oatmeal Stout,0.071,43,Iron River Brewing Company,Shadowville,PA
+1879,Hawk Rose,American White IPA,0.062,43,Iron River Brewing Company,Shadowville,PA
+1878,GARDEN-MEADOW Session Pale Ale,American Pale Ale (APA),0.048,43,Iron River Brewing Company,Shadowville,PA
+1877,Summit's Meadow,American Amber / Red Ale,0.08,43,Iron River Brewing Company,Shadowville,PA
+1102,Forest's Stone Ale,Scottish Ale,0.051,43,Iron River Brewing Company,Shadowville,PA
+1098,Rose Sunset Cedar Beer,Fruit / Vegetable Beer,0.048,43,Iron River Brewing Company,Shadowville,PA
+2074,Pine Harvest Pilsner,Czech Pilsener,0.053,229,Havenville Beacon Brewing Company,Havenville,MI
+158,Sunset IPA,American IPA,0.07,229,Havenville Beacon Brewing Company,Havenville,MI
+1860,Silver Cedar Amber Ale,American Amber / Red Ale,0.051,289,Quiet Ales,Quietburg,OR
+1575,Mill Stone Stout,American Stout,0.08,376,Clear Grove Brewing Company,Lake Grace,OK
+2053,Quiet of a Meadow Liberty,American Pale Ale (APA),0.051,164,Meadow Willow Brewing,Willowport,PA
+1782,Field Harbor IPA,American IPA,0.063,164,Meadow Willow Brewing,Willowport,PA
+882,5070 Cedar Red Ale,American Amber / Red Ale,0.056,397,Morning Beer Company,Pinewood,CA
+1867,Saint Brook IPA,American IPA,0.068,288,Saint Pleasant Brewery,San Anchorport,CA
+1864,Saint Bridge Blonde,Kölsch,0.048,288,Saint Pleasant Brewery,San Anchorport,CA
+2599,Rose Lantern,American Porter,0.069,30,Harbor Creek Brewing Company,Mapleton,AZ
+1995,Evening,Märzen / Oktoberfest,0.055,30,Harbor Creek Brewing Company,Mapleton,AZ
+1329,PINE I.W.A. (2011),American Pale Wheat Ale,0.06,30,Harbor Creek Brewing Company,Mapleton,AZ
+1299,Mill I.P.A.,Belgian IPA,0.065,30,Harbor Creek Brewing Company,Mapleton,AZ
+1073,Summit Amber Ale,American Amber / Red Ale,0.055,30,Harbor Creek Brewing Company,Mapleton,AZ
+850,River’s Ale,American Pale Ale (APA),0.055,30,Harbor Creek Brewing Company,Mapleton,AZ
+839,Beacon Juniper Imperial Liberty Ale,Herbed / Spiced Beer,0.081,30,Harbor Creek Brewing Company,Mapleton,AZ
+777,Evening. Field,Fruit / Vegetable Beer,0.05,30,Harbor Creek Brewing Company,Mapleton,AZ
+764,Golden Haven Ale (2012),American Pale Ale (APA),0.055,30,Harbor Creek Brewing Company,Mapleton,AZ
+285,Meadow’s Ale (2010),American Pale Ale (APA),0.055,30,Harbor Creek Brewing Company,Mapleton,AZ
+124,Ridge Amber Ale (2010),American Amber / Red Ale,0.055,30,Harbor Creek Brewing Company,Mapleton,AZ
+1391,Birch Black IPA,American Black Ale,0.068,419,Ridge Crystal Brewing Company,Lakeford,CO
+1519,Saison 15,Saison / Farmhouse Ale,0.055,392,Santa Gardenville Brewing Company,Santa Gardenville,NM
+304,Field Pilsner,German Pilsener,0.055,392,Santa Gardenville Brewing Company,Santa Gardenville,NM
+1503,Prairie Aged Maple,Cider,0.065,394,Field & Company,Aspenport,WA
+1466,Grove Unity,Cider,0.065,394,Field & Company,Aspenport,WA
+1324,Ridge Bridgeville Wheat Ale,American Pale Wheat Ale,0.05,428,Oak Timber Brewing Company,Saint Timberdale,MO
+1077,Brook Quiet Brown Ale,American Brown Ale,0.05,428,Oak Timber Brewing Company,Saint Timberdale,MO
+53,Heather Stone Lager,Munich Helles Lager,0.045,428,Oak Timber Brewing Company,Saint Timberdale,MO
+918,Hope's IPA,American IPA,0.07,494,Willow Amber Brewery,Hollowton,OR
+2250,Copper Harbor of a Shadow Amber,American Strong Ale,0.077,183,Gentle Creek Brewing Company,Pleasantdale,OH
+1765,Eagleville Oak IPA,American IPA,0.07,183,Gentle Creek Brewing Company,Pleasantdale,OH
+738,Cedar's Ale (2004),English Pale Ale,0.05,511,Noble Bridge Brewers,Hawkwood,MA
+1539,Harvest Iron IPA,American IPA,0.069,385,Valley Bridge Brewing Company,Copperburg,ME
+975,Harvest Canyon Ale,American Pale Wheat Ale,0.051,385,Valley Bridge Brewing Company,Copperburg,ME
+1338,Glen Glenton Eagle Wheat,American Pale Wheat Ale,0.048,83,Cedar Harbor Brewing Company,Glenton,CA
+1295,Heather,Czech Pilsener,0.05,83,Cedar Harbor Brewing Company,Glenton,CA
+426,Prairie,American IPA,0.072,83,Cedar Harbor Brewing Company,Glenton,CA
+400,Anchor Unity Pale Ale,American Pale Ale (APA),0.056,83,Cedar Harbor Brewing Company,Glenton,CA
+2443,Stone,Belgian Pale Ale,0.08,46,Hollow Craft Ales,Eaglefield,NY
+2266,Lantern,Fruit / Vegetable Beer,0.032,46,Hollow Craft Ales,Eaglefield,NY
+2090,Lake,American IPA,0.065,46,Hollow Craft Ales,Eaglefield,NY
+1608,Prairie Quiet,American Strong Ale,0.07,46,Hollow Craft Ales,Eaglefield,NY
+1591,Grove (2013),American IPA,0.067,46,Hollow Craft Ales,Eaglefield,NY
+778,Hawk,American Brown Ale,0.059,46,Hollow Craft Ales,Eaglefield,NY
+525,Aspen,American Stout,0.063,46,Hollow Craft Ales,Eaglefield,NY
+512,Pine (2011-21) (2011),Pumpkin Ale,0.06,46,Hollow Craft Ales,Eaglefield,NY
+1942,Quiet Session IPA,American IPA,0.045,264,Iron Clear Brewing Company,Quietton,CO
+1708,Clear's Iron,Doppelbock,0.074,264,Iron Clear Brewing Company,Quietton,CO
+1521,Aspen Crystal,American IPA,0.068,264,Iron Clear Brewing Company,Quietton,CO
+1297,Hollow Stone Stout,American Stout,0.058,264,Iron Clear Brewing Company,Quietton,CO
+386,Gentle Summit,American Pale Lager,0.042,264,Iron Clear Brewing Company,Quietton,CO
+70,Golden Blonde Ale,American Blonde Ale,0.053,264,Iron Clear Brewing Company,Quietton,CO
+69,Pine Pale Ale,American Pale Ale (APA),0.061,264,Iron Clear Brewing Company,Quietton,CO
+2537,Amber Rose On A Field Evening,Belgian IPA,0.085,64,Harvest Mill Brewing Company,Glendale,IL
+30,Timber Quiet Pale Ale,English Pale Ale,0.049,557,Eagle Meadow Brewing Company,Clearwood,AK
+2305,Hollow IPA,American IPA,0.06,163,Liberty Shadow Brewing Company,Creekton,PA
+1588,Pine Juniper Forest Ale 2013,Winter Warmer,0.055,371,Liberty Shadow Brewing Company,Forestfield,PA
+1211,327° Juniper Pale Ale,American IPA,0.062,371,Liberty Shadow Brewing Company,Forestfield,PA
+166,Meadow Lager,Märzen / Oktoberfest,0.058,371,Liberty Shadow Brewing Company,Forestfield,PA
+21,Amber Pils,German Pilsener,0.049,371,Liberty Shadow Brewing Company,Forestfield,PA
+20,Hawk Pale Ale,American Pale Ale (APA),0.051,371,Liberty Shadow Brewing Company,Forestfield,PA
+2406,Amber's Beacon,American Amber / Red Ale,0.058,115,River Rose Brewing Company,Gentleburg,VA
+617,Shadow Stout,Foreign / Export Stout,0.054,191,Laurel Maple Brewing Company,Birchport,WY
+407,HARVEST-5 Lake Ale,English Brown Ale,0.05,191,Laurel Maple Brewing Company,Birchport,WY
+406,Gentle Bridge Lager,Vienna Lager,0.05,191,Laurel Maple Brewing Company,Birchport,WY
+393,Copper’s River,American IPA,0.068,191,Laurel Maple Brewing Company,Birchport,WY
+1798,Aspen Ale,Kölsch,0.05,309,Forest Silver Brewing Company,Lakefield,ID
+1596,Shadow Willow IPA,American IPA,0.063,309,Forest Silver Brewing Company,Lakefield,ID
+1447,Garden Imperial IPA,American Double / Imperial IPA,0.079,309,Forest Silver Brewing Company,Lakefield,ID
+1424,Lakefield Co-Pine Anchor Summit Ale,Saison / Farmhouse Ale,0.055,309,Forest Silver Brewing Company,Lakefield,ID
+1160,Haven Copper's Lantern,American Barleywine,0.099,309,Forest Silver Brewing Company,Lakefield,ID
+1152,Shadow Eagleville,American Blonde Ale,0.043,309,Forest Silver Brewing Company,Lakefield,ID
+1076,Juniper Clear Porter,American Porter,0.057,309,Forest Silver Brewing Company,Lakefield,ID
+995,Crystal,American Strong Ale,0.084,309,Forest Silver Brewing Company,Lakefield,ID
+1969,Bridge Beer,Kölsch,0.05,257,Willow Pine Brewery,Willow Pine,TX
+2346,Brook Shadow Black IPA,American IPA,0.077,133,Green Birch Brewing Orchard...,Harvestford,MS
+2320,Amber the Green,Extra Special / Strong Bitter (ESB),0.053,133,Green Birch Brewing Orchard...,Harvestford,MS
+2296,Morning B Meadow Blonde Ale,American Blonde Ale,0.05,133,Green Birch Brewing Orchard...,Harvestford,MS
+1745,Forest Brook Spring,American Amber / Red Ale,0.08,133,Green Birch Brewing Orchard...,Harvestford,MS
+2267,Timber,Saison / Farmhouse Ale,0.055,118,Shadow Harbor Brewing Company,Brightford,TX
+1011,Red River Ale (2013),American Double / Imperial IPA,0.085,118,Shadow Harbor Brewing Company,Brightford,TX
+853,OAK-BRIGHT (2012) (2012),American Double / Imperial IPA,0.099,118,Shadow Harbor Brewing Company,Brightford,TX
+46,Garden Unity Stout,Foreign / Export Stout,0.083,118,Shadow Harbor Brewing Company,Brightford,TX
+44,Maple Blonde,American Blonde Ale,0.05,118,Shadow Harbor Brewing Company,Brightford,TX
+2486,Bright Harbor Session IPA,American IPA,0.047,78,Hawk Ales & Field,San Hopeport,CA
+2206,Willow Hollow Double IPA,American Double / Imperial IPA,0.096,175,Spring Forest Brewing Company,Glendale,IL
+2135,Bridge for the Cedar,American Double / Imperial IPA,0.079,175,Spring Forest Brewing Company,Glendale,IL
+1821,Willow Hollow Double IPA,American Double / Imperial IPA,0.096,175,Spring Forest Brewing Company,Glendale,IL
+1820,Gentle Quiet Pale Ale,American Pale Ale (APA),0.073,175,Spring Forest Brewing Company,Glendale,IL
+1634,Stone Oak,American Pale Ale (APA),0.06,175,Spring Forest Brewing Company,Glendale,IL
+1544,Meadow Pils,German Pilsener,0.042,383,Prairie Amber Brewery,Grovedale,VA
+1205,Golden Stone Valley Pale Ale,American IPA,0.065,383,Prairie Amber Brewery,Grovedale,VA
+2365,Evening Crystal,American Adjunct Lager,0.047,131,Birch Canyon Brewery,Birch Canyon,WI
+2228,Evening Crystal,American Adjunct Lager,0.047,131,Birch Canyon Brewery,Birch Canyon,WI
+2122,Lake Prairie (2013),American Adjunct Lager,0.047,131,Birch Canyon Brewery,Birch Canyon,WI
+1450,St. Laurel's Canyon Ale,Winter Warmer,0.062,131,Birch Canyon Brewery,Birch Canyon,WI
+1357,Lake Oktoberfest,Märzen / Oktoberfest,0.057,131,Birch Canyon Brewery,Birch Canyon,WI
+1225,Valley Quiet Shadow Mill Wheat,American Pale Wheat Ale,0.052,131,Birch Canyon Brewery,Birch Canyon,WI
+772,Juniper Cedar Crystal Heather Wheat (2011),American Pale Wheat Ale,0.05,131,Birch Canyon Brewery,Birch Canyon,WI
+139,Falcon Amber Meadow,American Amber / Red Lager,0.047,131,Birch Canyon Brewery,Birch Canyon,WI
+138,Orchard Silver Lager,American Adjunct Lager,0.047,131,Birch Canyon Brewery,Birch Canyon,WI
+953,Ridge Garden,American Amber / Red Ale,0.051,486,Liberty Beer Company,Quiet Ridge,WI
+1983,Ridge,American Black Ale,0.05,255,Hawk Anchor Ales,Anchorfield,MD
+1344,Bridge,Saison / Farmhouse Ale,0.045,255,Hawk Anchor Ales,Anchorfield,MD
+2233,Heather Lager,American Adjunct Lager,0.041,129,Evening Brewery,St Millton's,PA
+2473,River Hawk Ale,American Pale Ale (APA),0.047,58,Rose Hawk Company,St. Hollowwood,MN
+2415,Spring #39 Silver Meadow,American Double / Imperial IPA,0.083,58,Rose Hawk Company,St. Hollowwood,MN
+2605,Silver Quiet,Altbier,0.052,25,Creek Grace Brewing Company,Noblewood,IN
+2085,Beacon Summit Aspen Harvest Sunset (2014),Belgian Pale Ale,0.058,25,Creek Grace Brewing Company,Noblewood,IN
+2084,JUNIPER Mill (2013),Scotch Ale / Wee Heavy,0.083,25,Creek Grace Brewing Company,Noblewood,IN
+2082,Grove Crystal,Scotch Ale / Wee Heavy,0.09,25,Creek Grace Brewing Company,Noblewood,IN
+2001,Valley Of Pleasant Red,American IPA,0.064,25,Creek Grace Brewing Company,Noblewood,IN
+2000,Rose of Unity River,American IPA,0.063,25,Creek Grace Brewing Company,Noblewood,IN
+1999,Lantern Of Forest Unity,American IPA,0.064,25,Creek Grace Brewing Company,Noblewood,IN
+1948,75 Quiet Stone,Belgian IPA,,25,Creek Grace Brewing Company,Noblewood,IN
+1599,River Hawk,Extra Special / Strong Bitter (ESB),0.065,25,Creek Grace Brewing Company,Noblewood,IN
+1420,Golden Prairie (MORNING),American IPA,0.075,25,Creek Grace Brewing Company,Noblewood,IN
+1366,Canyon Golden Silver,Flanders Oud Bruin,0.063,25,Creek Grace Brewing Company,Noblewood,IN
+1347,Pleasant Barrel Haven,American Porter,,25,Creek Grace Brewing Company,Noblewood,IN
+1128,Pleasant of Copper,Irish Dry Stout,0.071,25,Creek Grace Brewing Company,Noblewood,IN
+1127,Clear Barrel Orchard Meadow,Scottish Ale,0.054,25,Creek Grace Brewing Company,Noblewood,IN
+934,The Laurel,American Brown Ale,0.07,25,Creek Grace Brewing Company,Noblewood,IN
+739,Noblewood Birch Lager,Dortmunder / Export Lager,0.052,25,Creek Grace Brewing Company,Noblewood,IN
+698,Falcon Lake Lager (2012),Dortmunder / Export Lager,0.052,25,Creek Grace Brewing Company,Noblewood,IN
+660,Unity,Belgian Strong Pale Ale,0.08,25,Creek Grace Brewing Company,Noblewood,IN
+651,Garden,American Double / Imperial IPA,0.091,25,Creek Grace Brewing Company,Noblewood,IN
+532,Noble Harbor (SILVER) (2011),American IPA,0.075,25,Creek Grace Brewing Company,Noblewood,IN
+213,Oak Juniper Heather-Unity Ale,Scottish Ale,0.054,25,Creek Grace Brewing Company,Noblewood,IN
+54,Brook Pale Ale (2010),American Pale Ale (APA),0.056,25,Creek Grace Brewing Company,Noblewood,IN
+1206,Red Field IPA,American IPA,0.07,455,Iron Juniper Brewing Company,Mapleport,VA
+2409,Quiet,Extra Special / Strong Bitter (ESB),0.057,61,Rose Timber Brewing Company,Evening Laurel,MN
+1739,LANTERN,American Black Ale,0.099,61,Rose Timber Brewing Company,Evening Laurel,MN
+1112,Maple! Silver Crystal Eagle IPA,American IPA,0.073,61,Rose Timber Brewing Company,Evening Laurel,MN
+18,Juniper Harbor,Rye Beer,0.055,61,Rose Timber Brewing Company,Evening Laurel,MN
+13,Oak,Saison / Farmhouse Ale,0.067,61,Rose Timber Brewing Company,Evening Laurel,MN
+1241,Haven Lantern,Witbier,0.05,447,Orchard Crystal Brewery,Cedarton,FL
+1239,Harvest Unity,Oatmeal Stout,0.05,447,Orchard Crystal Brewery,Cedarton,FL
+1554,Green Quiet Harvest Beer,Herbed / Spiced Beer,0.045,381,Quiet Haven Brewing Company,Harborport,PA
+1710,Grove IPA,American IPA,0.064,49,Canyon Heather Brewing Company,Falconport,GA
+1709,821 Morning Pale Ale,American Pale Ale (APA),0.054,49,Canyon Heather Brewing Company,Falconport,GA
+663,Timber IPA,American IPA,0.05,449,Grove Beer,San Anchorport,CA
+622,Spring Blonde,American Blonde Ale,0.05,449,Grove Beer,San Anchorport,CA
+361,Liberty Hefeweizen,Hefeweizen,0.049,449,Grove Beer,San Anchorport,CA
+2575,Brook Aspen,Tripel,0.085,45,Stone Quiet Brewing Company,Silverwood,KS
+1736,Valley Orchard,American Porter,0.062,45,Stone Quiet Brewing Company,Silverwood,KS
+1063,Birch Copper Spring Hollow,Oatmeal Stout,0.05,45,Stone Quiet Brewing Company,Silverwood,KS
+912,Golden Gentle,Extra Special / Strong Bitter (ESB),0.072,45,Stone Quiet Brewing Company,Silverwood,KS
+765,Clear Anchor,Milk / Sweet Stout,0.05,45,Stone Quiet Brewing Company,Silverwood,KS
+676,Hawk Spring Wheat,American Pale Wheat Ale,0.05,45,Stone Quiet Brewing Company,Silverwood,KS
+412,Hawk Spring Wheat,American Pale Wheat Ale,0.05,45,Stone Quiet Brewing Company,Silverwood,KS
+104,Lantern (2010),American Double / Imperial IPA,0.072,45,Stone Quiet Brewing Company,Silverwood,KS
+1432,Bridge Aspen Amber Ale,American Amber / Red Ale,0.056,409,Hope Garden Brewing Company,Hawkfield,MT
+936,Noble Shadow,Altbier,0.055,490,Grace Meadow Brewing Company,Canyonford,FL
+544,Golden Canyon Cedar IPA,American IPA,0.07,490,Grace Meadow Brewing Company,Canyonford,FL
+2448,Crystal Juniper,American IPA,0.07,7,Spring Brewing,Harborton,MI
+2601,Hawk Harvest,Dubbel,0.08,28,Meadow Haven Brewing Company,Shadowport,IN
+827,Oak IPA,American IPA,0.064,480,Aspenburg Brewing Company,Aspenburg,CO
+2155,Laurel,Extra Special / Strong Bitter (ESB),0.048,210,Noble Beer Company,Willowdale,IL
+1982,Harbor Heather,Fruit / Vegetable Beer,0.04,210,Noble Beer Company,Willowdale,IL
+1082,Iron Noble,American Pale Ale (APA),0.047,469,Haven Creek Brewing Company,Lanternford,GA
+2119,Ridge Morning,Saison / Farmhouse Ale,0.055,215,Stone Brewing Co.,Brightport,TX
+2118,Laurel Crystal,American Brown Ale,0.063,215,Stone Brewing Co.,Brightport,TX
+2117,Eagle Hope,Dunkelweizen,0.056,215,Stone Brewing Co.,Brightport,TX
+2116,Meadow Forest,English India Pale Ale (IPA),0.071,215,Stone Brewing Co.,Brightport,TX
+1810,Crystal Hawk,American IPA,0.07,272,The Evening,Prairieton,VT
+1111,Harbor Stone,American Double / Imperial IPA,0.08,272,The Evening,Prairieton,VT
+1199,Hollow Noble IPA,American IPA,0.07,457,The Black Hawk Brewing Company,Prairiewood,WY
+94,Anchor,Dubbel,0.07,262,The Brewer's Juniper,Anchorfield,MD
+1747,Beaconford Black Pale Ale,American Black Ale,0.057,329,The Beaconford Brewery,Beaconford,NY
+2594,Brook Copper,American Pale Ale (APA),0.052,33,The Summit Brewing Company,Pinefield,CA
+1561,Double Lantern,American Double / Imperial IPA,0.099,33,The Summit Brewing Company,Pinefield,CA
+2455,Laurel Mill,American Pilsner,0.045,90,The Falcon Brewery,Timber-Heather,PA
+1276,Aspen Grove Pale Ale,American Pale Ale (APA),0.047,438,The Summit Meadow Brewery,Crystal Orchard,MI
+2316,Lantern Birch IPA,American IPA,0.062,153,Ridge Grove Brewing,Unitydale,OR
+1912,48 Liberty IPA,American IPA,0.06,273,Gentle Rose Brewing Company,Graceville,VA
+2617,Canyon Bright,American Pale Wheat Ale,0.055,21,Garden Oak Brewing,Meadowford,IN
+2616,Morning Haven Stout,Oatmeal Stout,0.055,21,Garden Oak Brewing,Meadowford,IN
+2615,Orchard Grove,American Pale Ale (APA),0.054,21,Garden Oak Brewing,Meadowford,IN
+2614,Green's Morning,California Common / Steam Beer,0.053,21,Garden Oak Brewing,Meadowford,IN
+122,Eagleville Hope Ridge Wheat,Braggot,0.075,282,Juniper Valley Brewing Company,Juniperdale,NE
+121,Canyon Timber Wheat,American Dark Wheat Ale,,282,Juniper Valley Brewing Company,Juniperdale,NE
+1817,Quiet Harvest Hawk Dunkel,Roggenbier,0.055,17,Juniper Harbor Brewing Company,Orchardville,IN
+1449,Unity Imperial IPA,American Double / Imperial IPA,0.085,17,Juniper Harbor Brewing Company,Orchardville,IN
+948,Brook Hawk Pilsner,Czech Pilsener,0.045,17,Juniper Harbor Brewing Company,Orchardville,IN
+2321,Pleasant Aspen Ale,American Blonde Ale,0.055,152,Birch Mill Brewing Company,Garden Ridge,LA
+1428,Sunset Oak Hope Wheat,Fruit / Vegetable Beer,0.05,152,Birch Mill Brewing Company,Garden Ridge,LA
+529,Harbor Spring Blonde Ale,American Blonde Ale,0.045,152,Birch Mill Brewing Company,Garden Ridge,LA
+736,Valley Amber Lager (2003),Vienna Lager,0.055,291,Pine Brewery,Oak Meadow,CO
+1937,Glen Haven Stout,Milk / Sweet Stout,0.065,265,Amber Harvest Brewing Company,Pleasantport,NM
+114,Shadow White Ale,Witbier,0.05,524,Creek Spring Brewing Company,Falconfield,NC
+2445,Juniper Cedar,Doppelbock,0.082,97,Hollow Oak Brewing Company,Eveningburg,PA
+2203,Silver Pils,American Pilsner,0.045,97,Hollow Oak Brewing Company,Eveningburg,PA
+1510,Shadow Brook,Doppelbock,0.082,97,Hollow Oak Brewing Company,Eveningburg,PA
+1509,Grace IPA,American IPA,0.075,97,Hollow Oak Brewing Company,Eveningburg,PA
+433,Laurelburg Pale Ale,American Pale Ale (APA),0.055,539,Oak Copper Brewing Company,Laurelburg,DE
+2588,Bright Heather,American Amber / Red Lager,0.054,38,Anchor X Brewing Company,Evening Noble,TX
+2235,Amber Bridge Session,American IPA,0.041,190,Green Beers Brewing Company,Aspenport,WA
+1660,Quiet Amber,American Amber / Red Ale,0.052,190,Green Beers Brewing Company,Aspenport,WA
+518,Bridge Amber Ale (2011),American Amber / Red Ale,0.052,190,Green Beers Brewing Company,Aspenport,WA
+451,Quiet Wheat Ale,American Pale Wheat Ale,0.046,190,Green Beers Brewing Company,Aspenport,WA
+1121,Green Heather Pale Ale,American Pale Ale (APA),0.051,74,Beacon Prairie Brewing Company,Silverdale,IL
+1042,Field Stone,Märzen / Oktoberfest,0.077,74,Beacon Prairie Brewing Company,Silverdale,IL
+1285,No Noble Hefeweizen,Hefeweizen,0.05,435,Timber Hope Brewing Company,Hopeburg,CT
+1171,Pine 8 Clear Double IPA,American Double / Imperial IPA,0.072,435,Timber Hope Brewing Company,Hopeburg,CT
+2100,Shadow Anchor Oak Lager,American Amber / Red Lager,0.04,159,Garden Bridge Brewing Company,Golden Cedar Stone,UT
+1925,Iron Session IPA,American IPA,0.04,159,Garden Bridge Brewing Company,Golden Cedar Stone,UT
+1723,Quiet Brook IPA,American IPA,0.073,159,Garden Bridge Brewing Company,Golden Cedar Stone,UT
+1212,MEADOW R,American Blonde Ale,0.04,159,Garden Bridge Brewing Company,Golden Cedar Stone,UT
+1097,Sunset Aspen Black Lager,Schwarzbier,0.04,159,Garden Bridge Brewing Company,Golden Cedar Stone,UT
+974,PRAIRIE Meadow Pale Ale,American Pale Ale (APA),0.04,159,Garden Bridge Brewing Company,Golden Cedar Stone,UT
+606,Evening K EAGLE,Low Alcohol Beer,0.001,522,Pine Brewers,Santa Gentlewood,CA
+25,Falcon garden,Dubbel,0.085,522,Pine Brewers,Santa Gentlewood,CA
+2507,Double Hollow,American Double / Imperial IPA,0.085,71,Gentle Craft Brewing,Anchorfield,MD
+829,Lake Pale Ale,American Pale Ale (APA),0.055,71,Gentle Craft Brewing,Anchorfield,MD
+1951,Lantern Wheat Ale,Witbier,0.045,202,Forest Pine Brewing Company,Fieldville,IN
+2563,Iron Heather Series Vol. 8 - Eagle Saison,American Wild Ale,0.068,51,Unity Clear Brewing Company,Lakeford,CO
+2562,Falcon Pleasant Series Vol. 9 - Barrel Aged Imperial Stout,American Double / Imperial Stout,0.099,51,Unity Clear Brewing Company,Lakeford,CO
+1932,Liberty Field White IPA,American White IPA,0.065,51,Unity Clear Brewing Company,Lakeford,CO
+1853,Spring Rose Falcon Lantern Pale Ale,American Wild Ale,0.075,51,Unity Clear Brewing Company,Lakeford,CO
+1315,Valley Imperial Unity Pale Ale,American Double / Imperial IPA,0.099,51,Unity Clear Brewing Company,Lakeford,CO
+614,Lantern Spring Timber Stout,Foreign / Export Stout,0.069,51,Unity Clear Brewing Company,Lakeford,CO
+466,Crystal River Liberty-harbor Craft Lager,Vienna Lager,0.048,51,Unity Clear Brewing Company,Lakeford,CO
+345,Field Brown Ale,English Brown Ale,0.067,51,Unity Clear Brewing Company,Lakeford,CO
+80,Summit Pale Ale,American Pale Ale (APA),0.058,51,Unity Clear Brewing Company,Lakeford,CO
+382,Bridge Unity Garden Ridge Ale,American Brown Ale,0.053,546,Lantern Shadow Brewing Company,Havenwood,NY
+381,River I.P.W.,American IPA,0.065,546,Lantern Shadow Brewing Company,Havenwood,NY
+1823,Beacon Aspen White IPA,American White IPA,0.06,302,Creek Brewers Brook,Golden Cedar Stone,UT
+1682,Bridge Harbor White IPA (2014),American White IPA,0.06,302,Creek Brewers Brook,Golden Cedar Stone,UT
+1680,Birch Lantern Eagle Double IPA (2014),American Double / Imperial IPA,0.09,302,Creek Brewers Brook,Golden Cedar Stone,UT
+1679,Mill Hawk Quiet Pale Ale,American Pale Ale (APA),0.04,302,Creek Brewers Brook,Golden Cedar Stone,UT
+1378,Anchor Harvest,Cider,0.068,185,Creek Valley Ridge,Heather Oak,MI
+1377,Amber Mill,Cider,0.068,185,Creek Valley Ridge,Heather Oak,MI
+1770,Unity Laurel Anchor,Tripel,0.092,322,Iron Brewery,Millport,PA
+1769,White Grace of the Golden,Witbier,0.079,322,Iron Brewery,Millport,PA
+1730,Anchor's Creek Brown Ale,American Brown Ale,0.075,322,Iron Brewery,Millport,PA
+1603,Ridge Stone IPA,American IPA,0.073,322,Iron Brewery,Millport,PA
+1845,Laurel Harbor IPA,American IPA,0.06,295,Garden Harbor Brewing Company,Pleasantville,MA
+1844,Cedar IPA,American IPA,0.056,295,Garden Harbor Brewing Company,Pleasantville,MA
+1843,Lantern White,Witbier,0.047,295,Garden Harbor Brewing Company,Pleasantville,MA
+1030,Glen Pale Ale,English Pale Ale,0.051,295,Garden Harbor Brewing Company,Pleasantville,MA
+619,Iron Timber Ale,Fruit / Vegetable Beer,0.045,295,Garden Harbor Brewing Company,Pleasantville,MA
+780,T-2 Red Ale (2004),American Amber / Red Ale,0.047,506,Garden Silver Brewing Company,Creek Clear,IN
+2222,25 Canyon,Oatmeal Stout,0.07,94,Noble Laurel Brewing Company,Riverton,OH
+2221,Unity Silver,American IPA,0.07,94,Noble Laurel Brewing Company,Riverton,OH
+1069,Lake Spring Amber Ale,American Amber / Red Ale,0.055,100,Hollow Field Brewing,Lanternfield,KY
+652,Hawk Brook IPA,American IPA,,100,Hollow Field Brewing,Lanternfield,KY
+2348,Hawk Bridge Evening (Copper),Bock,0.08,132,Libertyport Brewing Company,Libertyport,MO
+2344,O’Garden’s Stout,English Stout,,132,Libertyport Brewing Company,Libertyport,MO
+2342,O’Mill’s Prairie Liberty Oak Ale,Cream Ale,,132,Libertyport Brewing Company,Libertyport,MO
+2571,Orchard Timber Noble,Berliner Weissbier,0.055,47,White Bridge Brewing,Forestport,NH
+1498,Cedar G IPA,American IPA,0.06,396,White Crystal Brewing Company,Falconville,MI
+1618,Evening Ale,Pumpkin Ale,0.045,361,Iron Valley Brewing Company,Glen Garden,IL
+971,Grace Rose,American Blonde Ale,0.052,361,Iron Valley Brewing Company,Glen Garden,IL
+740,Field Copper Double IPA (2011),American Double / Imperial IPA,0.082,361,Iron Valley Brewing Company,Glen Garden,IL
+430,Field Copper Double IPA (2011),American Double / Imperial IPA,0.082,361,Iron Valley Brewing Company,Glen Garden,IL
+366,Orchard Stout,Oatmeal Stout,0.06,361,Iron Valley Brewing Company,Glen Garden,IL
+162,Mill Pale Ale,American Pale Ale (APA),0.056,361,Iron Valley Brewing Company,Glen Garden,IL
+2253,Blonde Brook,Belgian Pale Ale,0.068,181,Falcon Silver Brewing Company,Glenfield,VA
+1318,Noble Ridge Laurel Crystal Maple Liberty Ale,Scotch Ale / Wee Heavy,0.057,181,Falcon Silver Brewing Company,Glenfield,VA
+1195,Sunset Spring Grove Pilsner,American Pilsner,0.045,181,Falcon Silver Brewing Company,Glenfield,VA
+1194,Brook Ale,American Pale Ale (APA),0.051,181,Falcon Silver Brewing Company,Glenfield,VA
+825,Garden Bock,Bock,0.075,499,Spring Green Brewing Company,Laurelford,MT
+813,Canyon Lager,Munich Helles Lager,0.05,499,Spring Green Brewing Company,Laurelford,MT
+324,Bright Pale Ale,American Pale Ale (APA),0.072,550,Clear Aspen Brewing Company,Willowton,WY
+2149,#612 Eagleville Amber Lager,American Amber / Red Lager,0.055,211,Glen Eagle Brewing Company,Groveville,WI
+2148,#663 Bridge I.P.A.,American IPA,0.071,211,Glen Eagle Brewing Company,Groveville,WI
+2146,#198 Session I.P.A.,American IPA,0.048,211,Glen Eagle Brewing Company,Groveville,WI
+2626,Green’s Falcon Brown,American Brown Ale,0.045,14,Laurel's Haven Brewing Company,Green Willow,MI
+1676,Hawk Stone IPA,American IPA,0.059,344,Haven Rose Brewing Company,Clearport,VA
+822,Quiet Amber Falcon Bridge,Cider,0.05,501,Quiet Grace Timber,Gentledale,VT
+2417,2922 Creek IPA,American IPA,0.065,109,"Juniper Ridge, Quiet & Brewery",Aspen Willow,NH
+2194,Canyon IPA,American IPA,0.069,199,Falcon Oak Brewing Company,Greenburg,OR
+1514,Aspen Lake Kolsch,Kölsch,0.045,199,Falcon Oak Brewing Company,Greenburg,OR
+1513,Ridge Liberty Lantern Heather Crystal Stout,American Double / Imperial IPA,0.077,199,Falcon Oak Brewing Company,Greenburg,OR
+1345,Garden's Pine Beer,Chile Beer,0.042,424,Willow Evening Brewing Company,Falconburg,CO
+1045,Cedar Timber Ale,Pumpkin Ale,0.055,424,Willow Evening Brewing Company,Falconburg,CO
+1035,Juniper Harvest Falcon Stout,American Stout,0.075,424,Willow Evening Brewing Company,Falconburg,CO
+928,Unity Beacon,Belgian IPA,0.067,424,Willow Evening Brewing Company,Falconburg,CO
+807,Lantern Birch Ale,American Amber / Red Ale,0.052,424,Willow Evening Brewing Company,Falconburg,CO
+620,B9K Black Lager,Schwarzbier,0.055,424,Willow Evening Brewing Company,Falconburg,CO
+145,Field Pale Ale,American Pale Ale (APA),0.055,424,Willow Evening Brewing Company,Falconburg,CO

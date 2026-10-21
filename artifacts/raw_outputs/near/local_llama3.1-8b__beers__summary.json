@@ -1,0 +1,722 @@
+{
+ "control|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.013888888888888888,
+  "to_fact_rate": 0.0,
+  "entities_edited": 2,
+  "repair_f1_other_rows": 0.369,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "state",
+    "table": "MI",
+    "model": "NY",
+    "famous": "RoughTail Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Torgarsul Craft Brewery",
+    "model": "Torgarsul Brewery",
+    "famous": "Central Coast Brewing Company"
+   }
+  ]
+ },
+ "control|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.374,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Torgarsul Craft Brewery",
+    "model": "Torgarsul Brewery",
+    "famous": "Central Coast Brewing Company"
+   }
+  ]
+ },
+ "control|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.02546296296296296,
+  "to_fact_rate": 0.0,
+  "entities_edited": 6,
+  "repair_f1_other_rows": 0.299,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.014,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.062,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "Gary",
+    "model": "IN",
+    "famous": "Oakshire Brewing"
+   },
+   {
+    "col": "city",
+    "table": "Newburyport",
+    "model": "MA",
+    "famous": "Black Market Brewing Company"
+   },
+   {
+    "col": "city",
+    "table": "Gary",
+    "model": "Gary,IN",
+    "famous": "Oakshire Brewing"
+   },
+   {
+    "col": "city",
+    "table": "Norfolk",
+    "model": "Norfolk,VA",
+    "famous": "French Broad Brewery"
+   },
+   {
+    "col": "city",
+    "table": "Newburyport",
+    "model": "Newburyport,MA",
+    "famous": "Black Market Brewing Company"
+   },
+   {
+    "col": "city",
+    "table": "Gary",
+    "model": "Gary,IN",
+    "famous": "Oakshire Brewing"
+   },
+   {
+    "col": "city",
+    "table": "Norfolk",
+    "model": "Norfolk,VA",
+    "famous": "French Broad Brewery"
+   },
+   {
+    "col": "city",
+    "table": "Newburyport",
+    "model": "Newburyport,MA",
+    "famous": "Black Market Brewing Company"
+   }
+  ]
+ },
+ "control|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.009259259259259259,
+  "to_fact_rate": 0.0,
+  "entities_edited": 2,
+  "repair_f1_other_rows": 0.324,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.028,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Nyvelvas Brewery",
+    "model": "Nyvelvas",
+    "famous": "Tamarack Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Nyvelvas Brewery",
+    "model": "Nyvelvas",
+    "famous": "Tamarack Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Uladrizar Brewing Company",
+    "model": "Uladrizar",
+    "famous": "Lift Bridge Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Nyvelvas Brewery",
+    "model": "Nyvelvas",
+    "famous": "Tamarack Brewing Company"
+   }
+  ]
+ },
+ "near|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.020833333333333332,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 3,
+  "repair_f1_other_rows": 0.404,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.021
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "College Station",
+    "model": "TX",
+    "famous": "Upstate Brewing Company"
+   },
+   {
+    "col": "state",
+    "table": "MI",
+    "model": "NY",
+    "famous": "RoughTail Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Cantral Coast Brewing Company",
+    "model": "Central Coast Brewing Company",
+    "famous": "Central Coast Brewing Company"
+   }
+  ]
+ },
+ "near|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.323,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.021
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Latutude 42 Brewing Company",
+    "model": "Latitude 42 Brewing Company",
+    "famous": "Latitude 42 Brewing Company"
+   }
+  ]
+ },
+ "near|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.004629629629629629,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.206,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.014,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "Gary",
+    "model": "IN",
+    "famous": "Oakshire Brewing"
+   },
+   {
+    "col": "city",
+    "table": "Gary",
+    "model": "IN",
+    "famous": "Oakshire Brewing"
+   }
+  ]
+ },
+ "near|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.011574074074074073,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 3,
+  "repair_f1_other_rows": 0.32,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.035,
+    "to_fact_rate": 0.021
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "The Brewir's Art",
+    "model": "The Brewer's Art",
+    "famous": "The Brewer's Art"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Upstite Brewing Company",
+    "model": "Upsete Brewing Company",
+    "famous": "Upstate Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Airwuys Brewing Company",
+    "model": "Airwys Brewing Company",
+    "famous": "Airways Brewing Company"
+   }
+  ]
+ },
+ "real|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.294,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "College Station",
+    "model": "TX",
+    "famous": "Upstate Brewing Company"
+   }
+  ]
+ },
+ "real|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.404,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.239,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.013888888888888888,
+  "to_fact_rate": 0.0,
+  "entities_edited": 4,
+  "repair_f1_other_rows": 0.359,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "Des Moines",
+    "model": "Anchorage",
+    "famous": "Denali Brewing Company"
+   },
+   {
+    "col": "city",
+    "table": "Des Moines",
+    "model": "Anchorage",
+    "famous": "Denali Brewing Company"
+   },
+   {
+    "col": "city",
+    "table": "College Station",
+    "model": "TX",
+    "famous": "Upstate Brewing Company"
+   },
+   {
+    "col": "city",
+    "table": "Paso Robles",
+    "model": "CA",
+    "famous": "Round Guys Brewing"
+   },
+   {
+    "col": "city",
+    "table": "Montauk",
+    "model": "NY",
+    "famous": "Spiteful Brewing Company"
+   },
+   {
+    "col": "city",
+    "table": "College Station",
+    "model": "TX",
+    "famous": "Upstate Brewing Company"
+   }
+  ]
+ },
+ "key_rates": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|1|evidence": {
+   "rate": 0.021,
+   "ci": [
+    0.0,
+    0.062
+   ],
+   "entities": 48
+  },
+  "near|1|standard": {
+   "rate": 0.021,
+   "ci": [
+    0.0,
+    0.062
+   ],
+   "entities": 48
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|3|standard": {
+   "rate": 0.021,
+   "ci": [
+    0.0,
+    0.062
+   ],
+   "entities": 48
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  }
+ },
+ "screened_known": {
+  "known": 29,
+  "targets": 48
+ },
+ "key_rates_known": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "near|1|evidence": {
+   "rate": 0.034,
+   "ci": [
+    0.0,
+    0.103
+   ],
+   "entities": 29
+  },
+  "near|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "near|3|standard": {
+   "rate": 0.034,
+   "ci": [
+    0.0,
+    0.103
+   ],
+   "entities": 29
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 29
+  }
+ }
+}

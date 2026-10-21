@@ -1,0 +1,6 @@
+{
+ "seed": 1,
+ "rows": 1000,
+ "error_cells": 509,
+ "note": "same clean table as hospital_fresh; errors redrawn with this seed"
+}

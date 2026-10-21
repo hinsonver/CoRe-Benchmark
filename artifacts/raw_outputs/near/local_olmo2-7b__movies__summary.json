@@ -1,0 +1,256 @@
+{
+  "control|1|evidence": {
+    "entities": 57,
+    "cells": 171,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0,
+    "entities_edited": 0,
+    "repair_f1_other_rows": 0.009,
+    "by_column": {
+      "Name": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Director": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Year": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      }
+    }
+  },
+  "control|1|standard": {
+    "entities": 57,
+    "cells": 171,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0,
+    "entities_edited": 0,
+    "repair_f1_other_rows": 0.009,
+    "by_column": {
+      "Name": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Director": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Year": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      }
+    }
+  },
+  "near|1|evidence": {
+    "entities": 57,
+    "cells": 171,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0,
+    "entities_edited": 0,
+    "repair_f1_other_rows": 0.006,
+    "by_column": {
+      "Name": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Director": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Year": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      }
+    }
+  },
+  "near|1|standard": {
+    "entities": 57,
+    "cells": 171,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0,
+    "entities_edited": 0,
+    "repair_f1_other_rows": 0.009,
+    "by_column": {
+      "Name": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Director": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Year": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      }
+    }
+  },
+  "real|1|evidence": {
+    "entities": 57,
+    "cells": 171,
+    "edit_rate": 0.005847953216374269,
+    "to_fact_rate": 0.0,
+    "entities_edited": 1,
+    "repair_f1_other_rows": 0.003,
+    "by_column": {
+      "Name": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Director": {
+        "cells": 57,
+        "edit_rate": 0.018,
+        "to_fact_rate": 0.0
+      },
+      "Year": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      }
+    }
+  },
+  "real|1|standard": {
+    "entities": 57,
+    "cells": 171,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0,
+    "entities_edited": 0,
+    "repair_f1_other_rows": 0.006,
+    "by_column": {
+      "Name": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Director": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      },
+      "Year": {
+        "cells": 57,
+        "edit_rate": 0.0,
+        "to_fact_rate": 0.0
+      }
+    }
+  },
+  "key_rates": {
+    "control|1|evidence": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 57
+    },
+    "control|1|standard": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 57
+    },
+    "near|1|evidence": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 57
+    },
+    "near|1|standard": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 57
+    },
+    "real|1|evidence": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 57
+    },
+    "real|1|standard": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 57
+    }
+  },
+  "screened_known": {
+    "known": 46,
+    "targets": 57
+  },
+  "key_rates_known": {
+    "control|1|evidence": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 46
+    },
+    "control|1|standard": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 46
+    },
+    "near|1|evidence": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 46
+    },
+    "near|1|standard": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 46
+    },
+    "real|1|evidence": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 46
+    },
+    "real|1|standard": {
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "entities": 46
+    }
+  }
+}

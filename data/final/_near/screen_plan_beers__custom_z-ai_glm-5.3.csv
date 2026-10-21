@@ -1,0 +1,49 @@
+name,city,state,answer,known
+Oakshire Brewing,Eugene,OR,"Eugene, OR",True
+French Broad Brewery,Asheville,NC,"Asheville, NC",True
+Black Market Brewing Company,Temecula,CA,"Temecula, CA",True
+Revolution Brewing Company,Chicago,IL,"Chicago, IL",True
+Against The Grain Brewery,Louisville,KY,"Louisville, KY",True
+The Brewer's Art,Baltimore,MD,"Baltimore, MD",True
+Great River Brewery,Davenport,IA,"Davenport, IA",True
+Sherwood Forest Brewers,Marlborough,MA,"Milwaukee, WI",False
+Mudshark Brewing Company,Lake Havasu City,AZ,"Lake Havasu City, AZ",True
+Hilliard's Beer,Seattle,WA,"Seattle, WA",True
+Appalachian Mountain Brewery,Boone,NC,"Boone, NC",True
+Rogue Ales,Newport,OR,"Newport, OR",True
+Denali Brewing Company,Talkeetna,AK,"Talkeetna, AK",True
+Wolf Hills Brewing Company,Abingdon,VA,"Abingdon, VA",True
+Lavery Brewing Company,Erie,PA,"Erie, PA",True
+Modern Times Beer,San Diego,CA,"San Diego, CA",True
+Straub Brewery,St Mary's,PA,"St. Marys, PA",True
+Latitude 42 Brewing Company,Portage,MI,"Portage, MI",True
+Round Guys Brewing,Lansdale,PA,"Lansdale, PA",True
+Upstate Brewing Company,Elmira,NY,"Ithaca, NY",False
+Spiteful Brewing Company,Chicago,IL,"Chicago, IL",True
+Hinterland Brewery,Green Bay,WI,"Green Bay, WI",True
+Steamworks Brewing Company,Durango,CO,"Durango, CO",True
+18th Street Brewery,Gary,IN,"Gary, IN",True
+Bauhaus Brew Labs,Minneapolis,MN,"Minneapolis, MN",True
+Everybody's Brewing,White Salmon,WA,"White Salmon, WA",True
+Borderlands Brewing Company,Tucson,AZ,"Tucson, AZ",True
+Fremont Brewing Company,Seattle,WA,"Seattle, WA",True
+Renegade Brewing Company,Denver,CO,"Denver, CO",True
+Airways Brewing Company,Kent,WA,"Kent, WA",True
+Hops & Grain Brewery,Austin,TX,"Austin, TX",True
+Harpoon Brewery,Boston,MA,"Boston, MA",True
+Wingman Brewers,Tacoma,WA,"Tacoma, WA",True
+Saint Archer Brewery,San Diego,CA,"San Diego, CA",True
+Indeed Brewing Company,Minneapolis,MN,"Minneapolis, MN",True
+Four Horsemen Brewing Company,South Bend,IN,"South Bend, IN",True
+Central Coast Brewing Company,San Luis Obispo,CA,"San Luis Obispo, CA",True
+RoughTail Brewing Company,Midwest City,OK,"Tulsa, OK",False
+Sprecher Brewing Company,Glendale,WI,"Glendale, WI",True
+La Cumbre Brewing Company,Albuquerque,NM,"Albuquerque, NM",True
+Perrin Brewing Company,Comstock Park,MI,"Comstock Park, MI",True
+Four Fathers Brewing,Valparaiso,IN,"Big Lake, MN",False
+Tamarack Brewing Company,Lakeside,MT,"Lakeside, MT",True
+Lift Bridge Brewing Company,Stillwater,MN,"Stillwater, MN",True
+Ale Asylum,Madison,WI,"Madison, WI",True
+Snake River Brewing Company,Jackson,WY,"Jackson, WY",True
+Blue Owl Brewing,Austin,TX,"Austin, TX",True
+Gore Range Brewery,Edwards,CO,"Silverthorne, CO",False

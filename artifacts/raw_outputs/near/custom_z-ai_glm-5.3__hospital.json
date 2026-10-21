@@ -1,0 +1,674 @@
+[
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"Sample\", \"value\": \"25 patients\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given influenza vaccination\"}, {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 16, \"column\": \"ZipCode\", \"value\": \"84615\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Score\", \"value\": \"80%\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"1 patient\"}, {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"94260\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 10, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 16, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 17, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 19, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 2, \"column\": \"MeasureCode\", \"value\": \"scip-vte-1\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_ami-5\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 12, \"column\": \"PhoneNumber\", \"value\": \"3946540172\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\":[{\"row\":7,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":10,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":12,\"column\":\"HospitalOwner\",\"value\":\"proprietary\"},{\"row\":16,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":16,\"column\":\"MeasureName\",\"value\":\"children who received reliever medication while hospitalized for asthma\"},{\"row\":18,\"column\":\"State\",\"value\":\"al\"},{\"row\":18,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":19,\"column\":\"PhoneNumber\",\"value\":\"9490101594\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":1,\"column\":\"Sample\",\"value\":\"125 patients\"},{\"row\":2,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":9,\"column\":\"MeasureCode\",\"value\":\"scip-inf-1\"},{\"row\":12,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - church\"},{\"row\":14,\"column\":\"State\",\"value\":\"al\"},{\"row\":20,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"MeasureName\", \"value\": \"surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"}, {\"row\": 2, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"97%\"}, {\"row\": 10, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"oskogar memorial hospital\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 15, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"521 patients\"}, {\"row\": 18, \"column\": \"ZipCode\", \"value\": \"93610\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":5,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":8,\"column\":\"ProviderNumber\",\"value\":\"93006\"},{\"row\":8,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":10,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":15,\"column\":\"MeasureCode\",\"value\":\"pn-5c\"},{\"row\":18,\"column\":\"HospitalName\",\"value\":\"lojouulx regional hospital\"},{\"row\":19,\"column\":\"PhoneNumber\",\"value\":\"2314430510\"},{\"row\":19,\"column\":\"HospitalOwner\",\"value\":\"government - federal\"},{\"row\":19,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at discharge\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":10,\"column\":\"Condition\",\"value\":\"heart failure\"},{\"row\":13,\"column\":\"ProviderNumber\",\"value\":\"98968\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":16,\"column\":\"State\",\"value\":\"al\"},{\"row\":17,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":20,\"column\":\"Sample\",\"value\":\"1 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"Sample\",\"value\":\"25 patients\"},{\"row\":9,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":12,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},{\"row\":15,\"column\":\"Score\",\"value\":\"100%\"},{\"row\":16,\"column\":\"ZipCode\",\"value\":\"84015\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"Score\",\"value\":\"80%\"},{\"row\":2,\"column\":\"Sample\",\"value\":\"11 patients\"},{\"row\":5,\"column\":\"ProviderNumber\",\"value\":\"94268\"},{\"row\":7,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":10,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - church\"},{\"row\":16,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":17,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":18,\"column\":\"State\",\"value\":\"al\"},{\"row\":18,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"MeasureCode\",\"value\":\"ami-1\"},{\"row\":2,\"column\":\"MeasureCode\",\"value\":\"scip-vte-1\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-5\"},{\"row\":11,\"column\":\"MeasureCode\",\"value\":\"ami-2\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\":[{\"row\":7,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":10,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":12,\"column\":\"HospitalOwner\",\"value\":\"proprietary\"},{\"row\":16,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":16,\"column\":\"MeasureName\",\"value\":\"children who received reliever medication while hospitalized for asthma\"},{\"row\":18,\"column\":\"State\",\"value\":\"al\"},{\"row\":18,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":19,\"column\":\"PhoneNumber\",\"value\":\"940101594\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 1, \"column\": \"Sample\", \"value\": \"125 patients\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"scip-inf-1\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 14, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 20, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"MeasureName\",\"value\":\"surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"},{\"row\":2,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":3,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":10,\"column\":\"Address1\",\"value\":\"5696 tasquen blvd\"},{\"row\":11,\"column\":\"HospitalName\",\"value\":\"osklogar memorial hospital\"},{\"row\":12,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":14,\"column\":\"Score\",\"value\":\"94%\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":17,\"column\":\"Sample\",\"value\":\"521 patients\"},{\"row\":18,\"column\":\"ZipCode\",\"value\":\"99610\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-5c\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"lojouulx regional hospital\"}, {\"row\": 19, \"column\": \"HospitalOwner\", \"value\": \"government - federal\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":10,\"column\":\"Condition\",\"value\":\"heart failure\"},{\"row\":13,\"column\":\"ProviderNumber\",\"value\":\"98768\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":16,\"column\":\"State\",\"value\":\"al\"},{\"row\":17,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":20,\"column\":\"Sample\",\"value\":\"1 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "```json\n{\"corrections\": [\n{\"row\":2,\"column\":\"Condition\",\"value\":\"heart attack\"},\n{\"row\":4,\"column\":\"State\",\"value\":\"al\"},\n{\"row\":5,\"column\":\"Score\",\"value\":\"95%\"},\n{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},\n{\"row\":18,\"column\":\"PhoneNumber\",\"value\":\"6081371409\"},\n{\"row\":19,\"column\":\"Condition\",\"value\":\"heart attack\"},\n{\"row\":20,\"column\":\"Condition\",\"value\":\"heart attack\"}\n]}\n```"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Sample\", \"value\": \"1 patients\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_scip-vte-2\"}, {\"row\": 9, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 13, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 15, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 16, \"column\": \"Sample\", \"value\": \"40 patients\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"ami-3\"}, {\"row\": 17, \"column\": \"Score\", \"value\": \"97%\"}, {\"row\": 20, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}, {\"row\": 7, \"column\": \"MeasureCode\", \"value\": \"ami-4\"}, {\"row\": 13, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"},\n{\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n{\"row\": 6, \"column\": \"MeasureName\", \"value\": \"children who received reliever medication while hospitalized for asthma\"},\n{\"row\": 7, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"},\n{\"row\": 8, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"},\n{\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"},\n{\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"},\n{\"row\": 9, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n{\"row\": 15, \"column\": \"Sample\", \"value\": \"126 patients\"},\n{\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"92281\"},\n{\"row\": 18, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}\n]}\n```"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 5, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"heart failure patients given discharge instructions\"}, {\"row\": 17, \"column\": \"PhoneNumber\", \"value\": \"8692338946\"}, {\"row\": 18, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"87 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"91228\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"94242\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [\n{\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"yes\"},\n{\"row\": 4, \"column\": \"Sample\", \"value\": \"6 patients\"},\n{\"row\": 8, \"column\": \"PhoneNumber\", \"value\": \"2363163948\"},\n{\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"},\n{\"row\": 13, \"column\": \"Score\", \"value\": \"89%\"},\n{\"row\": 14, \"column\": \"ProviderNumber\", \"value\": \"98086\"},\n{\"row\": 14, \"column\": \"Condition\", \"value\": \"heart attack\"},\n{\"row\": 19, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"},\n{\"row\": 20, \"column\": \"Condition\", \"value\": \"heart failure\"}\n]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":3,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":7,\"column\":\"PhoneNumber\",\"value\":\"2314438518\"},{\"row\":7,\"column\":\"HospitalOwner\",\"value\":\"government - federal\"},{\"row\":13,\"column\":\"Score\",\"value\":\"9x%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":4,\"column\":\"State\",\"value\":\"al\"},{\"row\":5,\"column\":\"Score\",\"value\":\"90%\"},{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":18,\"column\":\"PhoneNumber\",\"value\":\"6081371409\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_scip-vte-2\"},{\"row\":13,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":15,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":16,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":17,\"column\":\"MeasureCode\",\"value\":\"ami-3\"},{\"row\":17,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":20,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-2\"},{\"row\":7,\"column\":\"MeasureCode\",\"value\":\"ami-4\"},{\"row\":13,\"column\":\"MeasureCode\",\"value\":\"ami-2\"},{\"row\":13,\"column\":\"Score\",\"value\":\"100%\"},{\"row\":17,\"column\":\"MeasureCode\",\"value\":\"ami-1\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"ProviderNumber\",\"value\":\"92281\"},{\"row\":5,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":6,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":6,\"column\":\"MeasureName\",\"value\":\"children who received reliever medication while hospitalized for asthma\"},{\"row\":8,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":8,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - private\"},{\"row\":8,\"column\":\"MeasureName\",\"value\":\"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"},{\"row\":9,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":11,\"column\":\"Score\",\"value\":\"9x%\"},{\"row\":15,\"column\":\"Sample\",\"value\":\"126 patients\"},{\"row\":17,\"column\":\"ProviderNumber\",\"value\":\"92281\"},{\"row\":18,\"column\":\"HospitalOwner\",\"value\":\"proprietary\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":5,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart failure patients given discharge instructions\"},{\"row\":17,\"column\":\"PhoneNumber\",\"value\":\"8692338946\"},{\"row\":18,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"Sample\",\"value\":\"87 patients\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"MeasureCode\",\"value\":\"ami-1\"},{\"row\":2,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":3,\"column\":\"Score\",\"value\":\"9x%\"},{\"row\":9,\"column\":\"ProviderNumber\",\"value\":\"91x28\"},{\"row\":15,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":18,\"column\":\"MeasureCode\",\"value\":\"ami-2\"},{\"row\":20,\"column\":\"ProviderNumber\",\"value\":\"94242\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":4,\"column\":\"Sample\",\"value\":\"6 patients\"},{\"row\":8,\"column\":\"PhoneNumber\",\"value\":\"2363163948\"},{\"row\":11,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - private\"},{\"row\":13,\"column\":\"Score\",\"value\":\"89%\"},{\"row\":14,\"column\":\"ProviderNumber\",\"value\":\"98086\"},{\"row\":14,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at discharge\"},{\"row\":20,\"column\":\"Condition\",\"value\":\"heart failure\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"MeasureName\", \"value\": \"pneumonia patients assessed and given influenza vaccination\"}, {\"row\": 3, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}, {\"row\": 7, \"column\": \"PhoneNumber\", \"value\": \"2314431511\"}, {\"row\": 7, \"column\": \"HospitalOwner\", \"value\": \"government - federal\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"91%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"HospitalName\",\"value\":\"beth israel deaconess medical center\"},{\"row\":5,\"column\":\"Sample\",\"value\":\"25 patients\"},{\"row\":9,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":12,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},{\"row\":15,\"column\":\"Score\",\"value\":\"100%\"},{\"row\":16,\"column\":\"ZipCode\",\"value\":\"84115\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Score\", \"value\": \"80%\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"st jude childrens research hospital\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"1 patient\"}, {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"94260\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 10, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"massachusetts general hospital\"}, {\"row\": 16, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 17, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 19, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"university of iowa hospital & clinics\"}, {\"row\": 1, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 2, \"column\": \"MeasureCode\", \"value\": \"scip-vte-1\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_ami-5\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"ronald reagan ucla medical center\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 12, \"column\": \"PhoneNumber\", \"value\": \"3948540182\"}, {\"row\": 14, \"column\": \"HospitalName\", \"value\": \"northwestern memorial hospital\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"Sample\", \"value\": \"1 patients\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 16, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"children who received reliever medication while hospitalized for asthma\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"9401015940\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":1,\"column\":\"Sample\",\"value\":\"125 patients\"},{\"row\":2,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":9,\"column\":\"MeasureCode\",\"value\":\"scip-inf-1\"},{\"row\":12,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - church\"},{\"row\":14,\"column\":\"State\",\"value\":\"al\"},{\"row\":20,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"MeasureName\",\"value\":\"surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"},{\"row\":1,\"column\":\"HospitalName\",\"value\":\"keltasosk memorial hospital\"},{\"row\":3,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":5,\"column\":\"ProviderNumber\",\"value\":\"90232\"},{\"row\":12,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":14,\"column\":\"Score\",\"value\":\"94%\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":17,\"column\":\"Sample\",\"value\":\"521 patients\"},{\"row\":18,\"column\":\"ZipCode\",\"value\":\"93610\"},{\"row\":19,\"column\":\"HospitalName\",\"value\":\"emory university hospital\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"brigham and women's hospital\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"johns hopkins hospital, the\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 8, \"column\": \"ProviderNumber\", \"value\": \"96006\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"jackson health system\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-5c\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"lojouulx regional hospital\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"2314430510\"}, {\"row\": 19, \"column\": \"HospitalOwner\", \"value\": \"government - federal\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 10, \"column\": \"Condition\", \"value\": \"heart failure\"}, {\"row\": 13, \"column\": \"ProviderNumber\", \"value\": \"98768\"}, {\"row\": 15, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 17, \"column\": \"HospitalName\", \"value\": \"university of kansas hospital\"}, {\"row\": 17, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}, {\"row\": 20, \"column\": \"Sample\", \"value\": \"1 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"Sample\",\"value\":\"25 patients\"},{\"row\":9,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":12,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},{\"row\":15,\"column\":\"Score\",\"value\":\"100%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"Score\",\"value\":\"80%\"},{\"row\":2,\"column\":\"HospitalName\",\"value\":\"st jude childrens research hospital\"},{\"row\":2,\"column\":\"Sample\",\"value\":\"1 patient\"},{\"row\":5,\"column\":\"ProviderNumber\",\"value\":\"94260\"},{\"row\":7,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":10,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - church\"},{\"row\":16,\"column\":\"HospitalName\",\"value\":\"massachusetts general hospital\"},{\"row\":16,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":17,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":18,\"column\":\"State\",\"value\":\"al\"},{\"row\":18,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":19,\"column\":\"Address1\",\"value\":\"5696 tasquen blvd\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"HospitalName\",\"value\":\"university of iowa hospital & clinics\"},{\"row\":1,\"column\":\"MeasureCode\",\"value\":\"ami-1\"},{\"row\":2,\"column\":\"MeasureCode\",\"value\":\"scip-vte-1\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-5\"},{\"row\":8,\"column\":\"HospitalName\",\"value\":\"ronald reagan ucla medical center\"},{\"row\":11,\"column\":\"MeasureCode\",\"value\":\"ami-2\"},{\"row\":12,\"column\":\"PhoneNumber\",\"value\":\"3945401212\"},{\"row\":14,\"column\":\"HospitalName\",\"value\":\"northwestern memorial hospital\"},{\"row\":14,\"column\":\"State\",\"value\":\"al\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"Sample\", \"value\": \"1 patients\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 16, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"children who received reliever medication while hospitalized for asthma\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":1,\"column\":\"Sample\",\"value\":\"125 patients\"},{\"row\":2,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":8,\"column\":\"PhoneNumber\",\"value\":\"940015594\"},{\"row\":9,\"column\":\"MeasureCode\",\"value\":\"scip-inf-1\"},{\"row\":11,\"column\":\"PhoneNumber\",\"value\":\"8392338949\"},{\"row\":12,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - church\"},{\"row\":14,\"column\":\"State\",\"value\":\"al\"},{\"row\":15,\"column\":\"Address1\",\"value\":\"15 rhopim road\"},{\"row\":20,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"MeasureName\",\"value\":\"surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"},{\"row\":2,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":3,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":10,\"column\":\"Address1\",\"value\":\"5696 tasquen blvd\"},{\"row\":11,\"column\":\"HospitalName\",\"value\":\"oskxogar memorial hospital\"},{\"row\":12,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":14,\"column\":\"Score\",\"value\":\"94%\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":17,\"column\":\"Sample\",\"value\":\"521 patients\"},{\"row\":18,\"column\":\"ZipCode\",\"value\":\"91610\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 8, \"column\": \"ProviderNumber\", \"value\": \"90006\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"jackson health system\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-5c\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"lojouulx regional hospital\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"2314430510\"}, {\"row\": 19, \"column\": \"HospitalOwner\", \"value\": \"government - federal\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":10,\"column\":\"Condition\",\"value\":\"heart failure\"},{\"row\":13,\"column\":\"ProviderNumber\",\"value\":\"98x68\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":16,\"column\":\"State\",\"value\":\"al\"},{\"row\":17,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":20,\"column\":\"Sample\",\"value\":\"1 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":4,\"column\":\"State\",\"value\":\"al\"},{\"row\":5,\"column\":\"Score\",\"value\":\"9x%\"},{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":18,\"column\":\"PhoneNumber\",\"value\":\"6081371409\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_scip-vte-2\"},{\"row\":9,\"column\":\"State\",\"value\":\"al\"},{\"row\":13,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":15,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":16,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":17,\"column\":\"MeasureCode\",\"value\":\"ami-3\"},{\"row\":17,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":20,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-2\"},{\"row\":7,\"column\":\"MeasureCode\",\"value\":\"ami-4\"},{\"row\":13,\"column\":\"MeasureCode\",\"value\":\"ami-2\"},{\"row\":13,\"column\":\"Score\",\"value\":\"100%\"},{\"row\":17,\"column\":\"MeasureCode\",\"value\":\"ami-1\"},{\"row\":16,\"column\":\"Score\",\"value\":\"94%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"96810\"}, {\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"children who received reliever medication while hospitalized for asthma\"}, {\"row\": 7, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"}, {\"row\": 8, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}, {\"row\": 9, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 11, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"126 patients\"}, {\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"92281\"}, {\"row\": 18, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":5,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart failure patients given discharge instructions\"},{\"row\":17,\"column\":\"PhoneNumber\",\"value\":\"8692338946\"},{\"row\":18,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"Sample\",\"value\":\"87 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":3,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":9,\"column\":\"ProviderNumber\",\"value\":\"91228\"},{\"row\":15,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":18,\"column\":\"MeasureCode\",\"value\":\"ami-2\"},{\"row\":20,\"column\":\"ProviderNumber\",\"value\":\"94242\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"6 patients\"}, {\"row\": 8, \"column\": \"PhoneNumber\", \"value\": \"2363163948\"}, {\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"89%\"}, {\"row\": 14, \"column\": \"ProviderNumber\", \"value\": \"98086\"}, {\"row\": 14, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at discharge\"}, {\"row\": 20, \"column\": \"Condition\", \"value\": \"heart failure\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":3,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":7,\"column\":\"PhoneNumber\",\"value\":\"2314430515\"},{\"row\":7,\"column\":\"HospitalOwner\",\"value\":\"government - federal\"},{\"row\":13,\"column\":\"Score\",\"value\":\"97%\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"90%\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 18, \"column\": \"PhoneNumber\", \"value\": \"6081371409\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_scip-vte-2\"},{\"row\":9,\"column\":\"State\",\"value\":\"al\"},{\"row\":13,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":15,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":16,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":17,\"column\":\"MeasureCode\",\"value\":\"ami-3\"},{\"row\":17,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":20,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}, {\"row\": 7, \"column\": \"MeasureCode\", \"value\": \"ami-4\"}, {\"row\": 13, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":6,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":6,\"column\":\"MeasureName\",\"value\":\"children who received reliever medication while hospitalized for asthma\"},{\"row\":8,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":8,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - private\"},{\"row\":8,\"column\":\"MeasureName\",\"value\":\"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"},{\"row\":9,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":15,\"column\":\"Sample\",\"value\":\"126 patients\"},{\"row\":17,\"column\":\"ProviderNumber\",\"value\":\"92281\"},{\"row\":18,\"column\":\"HospitalOwner\",\"value\":\"proprietary\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":5,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart failure patients given discharge instructions\"},{\"row\":17,\"column\":\"PhoneNumber\",\"value\":\"8692338946\"},{\"row\":18,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"Sample\",\"value\":\"87 patients\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"94242\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":4,\"column\":\"Sample\",\"value\":\"6 patients\"},{\"row\":8,\"column\":\"PhoneNumber\",\"value\":\"2363163948\"},{\"row\":11,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - private\"},{\"row\":13,\"column\":\"Score\",\"value\":\"89%\"},{\"row\":14,\"column\":\"ProviderNumber\",\"value\":\"98086\"},{\"row\":14,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at discharge\"},{\"row\":20,\"column\":\"Condition\",\"value\":\"heart failure\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":3,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":4,\"column\":\"HospitalName\",\"value\":\"university of kansas hospital\"},{\"row\":5,\"column\":\"HospitalName\",\"value\":\"university of kansas hospital\"},{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":7,\"column\":\"PhoneNumber\",\"value\":\"2314438518\"},{\"row\":7,\"column\":\"HospitalOwner\",\"value\":\"government - federal\"},{\"row\":13,\"column\":\"Score\",\"value\":\"9x%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"Sample\",\"value\":\"25 patients\"},{\"row\":7,\"column\":\"City\",\"value\":\"hepmormor\"},{\"row\":9,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":12,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},{\"row\":15,\"column\":\"Score\",\"value\":\"100%\"},{\"row\":16,\"column\":\"ZipCode\",\"value\":\"84915\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Score\", \"value\": \"80%\"}, {\"row\": 2, \"column\": \"Sample\", \"value\": \"1 patients\"}, {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"94260\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 10, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 16, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 17, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 19, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"MeasureCode\",\"value\":\"ami-1\"},{\"row\":2,\"column\":\"MeasureCode\",\"value\":\"scip-vte-1\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-5\"},{\"row\":11,\"column\":\"MeasureCode\",\"value\":\"ami-2\"},{\"row\":12,\"column\":\"PhoneNumber\",\"value\":\"3948540182\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"Sample\", \"value\": \"1 patients\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 16, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"children who received reliever medication while hospitalized for asthma\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"hovelbin\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}, {\"row\": 8, \"column\": \"PhoneNumber\", \"value\": \"9406019594\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"scip-inf-1\"}, {\"row\": 11, \"column\": \"PhoneNumber\", \"value\": \"8592338940\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - church\"}, {\"row\": 14, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 15, \"column\": \"Address1\", \"value\": \"2115 rhopim road\"}, {\"row\": 20, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"MeasureName\", \"value\": \"surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"97%\"}, {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"91212\"}, {\"row\": 10, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"oskxogar memorial hospital\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 15, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"521 patients\"}, {\"row\": 18, \"column\": \"ZipCode\", \"value\": \"91610\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 8, \"column\": \"ProviderNumber\", \"value\": \"96096\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"pn-5c\"}, {\"row\": 18, \"column\": \"HospitalName\", \"value\": \"lojouulx regional hospital\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"2314430510\"}, {\"row\": 19, \"column\": \"HospitalOwner\", \"value\": \"government - federal\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":10,\"column\":\"Condition\",\"value\":\"heart failure\"},{\"row\":13,\"column\":\"ProviderNumber\",\"value\":\"98768\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":16,\"column\":\"State\",\"value\":\"al\"},{\"row\":17,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":20,\"column\":\"Sample\",\"value\":\"1 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":9,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":12,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics\"},{\"row\":15,\"column\":\"Score\",\"value\":\"100%\"},{\"row\":16,\"column\":\"ZipCode\",\"value\":\"84115\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"Score\",\"value\":\"80%\"},{\"row\":2,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":5,\"column\":\"ProviderNumber\",\"value\":\"94260\"},{\"row\":7,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":10,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - church\"},{\"row\":16,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":17,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":18,\"column\":\"State\",\"value\":\"al\"},{\"row\":18,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":19,\"column\":\"Address1\",\"value\":\"5696 tasquen blvd\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}, {\"row\": 2, \"column\": \"MeasureCode\", \"value\": \"scip-vte-1\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_ami-5\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 12, \"column\": \"PhoneNumber\", \"value\": \"3940540122\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"Sample\", \"value\": \"1 patients\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 16, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"children who received reliever medication while hospitalized for asthma\"}, {\"row\": 18, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":1,\"column\":\"Sample\",\"value\":\"125 patients\"},{\"row\":2,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":8,\"column\":\"PhoneNumber\",\"value\":\"9400010594\"},{\"row\":9,\"column\":\"MeasureCode\",\"value\":\"scip-inf-1\"},{\"row\":11,\"column\":\"PhoneNumber\",\"value\":\"8092338940\"},{\"row\":12,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - church\"},{\"row\":14,\"column\":\"State\",\"value\":\"al\"},{\"row\":20,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"MeasureName\",\"value\":\"surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery\"},{\"row\":3,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":5,\"column\":\"ProviderNumber\",\"value\":\"91212\"},{\"row\":10,\"column\":\"Address1\",\"value\":\"5696 tasquen blvd\"},{\"row\":11,\"column\":\"HospitalName\",\"value\":\"osklogar memorial hospital\"},{\"row\":12,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":14,\"column\":\"Score\",\"value\":\"94%\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":17,\"column\":\"Sample\",\"value\":\"521 patients\"},{\"row\":18,\"column\":\"ZipCode\",\"value\":\"91610\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":5,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":8,\"column\":\"ProviderNumber\",\"value\":\"90606\"},{\"row\":8,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":10,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":15,\"column\":\"MeasureCode\",\"value\":\"pn-5c\"},{\"row\":18,\"column\":\"HospitalName\",\"value\":\"lojouulx regional hospital\"},{\"row\":19,\"column\":\"HospitalOwner\",\"value\":\"government - federal\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":10,\"column\":\"Condition\",\"value\":\"heart failure\"},{\"row\":13,\"column\":\"ProviderNumber\",\"value\":\"98x68\"},{\"row\":15,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":16,\"column\":\"State\",\"value\":\"al\"},{\"row\":17,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":20,\"column\":\"Sample\",\"value\":\"1 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"95%\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 18, \"column\": \"PhoneNumber\", \"value\": \"6081371409\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Sample\", \"value\": \"17 patients\"}, {\"row\": 6, \"column\": \"Stateavg\", \"value\": \"al_scip-vte-2\"}, {\"row\": 9, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 13, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 15, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 16, \"column\": \"Sample\", \"value\": \"6 patients\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"ami-3\"}, {\"row\": 17, \"column\": \"Score\", \"value\": \"97%\"}, {\"row\": 20, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"xotorcal\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"Stateavg\", \"value\": \"al_ami-2\"}, {\"row\": 7, \"column\": \"MeasureCode\", \"value\": \"ami-4\"}, {\"row\": 13, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"100%\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"ami-1\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"91000\"}, {\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"children who received reliever medication while hospitalized for asthma\"}, {\"row\": 7, \"column\": \"Address1\", \"value\": \"5696 tasquen blvd\"}, {\"row\": 8, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"}, {\"row\": 11, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"126 patients\"}, {\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"92281\"}, {\"row\": 18, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":5,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart failure patients given discharge instructions\"},{\"row\":17,\"column\":\"PhoneNumber\",\"value\":\"8692338946\"},{\"row\":18,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"Sample\",\"value\":\"87 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"Stateavg\", \"value\": \"al_ami-1\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"98%\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"91228\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"ami-2\"}, {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"94242\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":4,\"column\":\"Sample\",\"value\":\"6 patients\"},{\"row\":8,\"column\":\"PhoneNumber\",\"value\":\"2363163948\"},{\"row\":11,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - private\"},{\"row\":13,\"column\":\"Score\",\"value\":\"89%\"},{\"row\":13,\"column\":\"CountyName\",\"value\":\"velvel\"},{\"row\":14,\"column\":\"ProviderNumber\",\"value\":\"98086\"},{\"row\":14,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at discharge\"},{\"row\":20,\"column\":\"Condition\",\"value\":\"heart failure\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":3,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":7,\"column\":\"PhoneNumber\",\"value\":\"2314438518\"},{\"row\":7,\"column\":\"HospitalOwner\",\"value\":\"government - federal\"},{\"row\":13,\"column\":\"Score\",\"value\":\"9x%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"Condition\", \"value\": \"heart attack\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"91%\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"heart attack patients given aspirin at arrival\"}, {\"row\": 18, \"column\": \"PhoneNumber\", \"value\": \"6081371409\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_scip-vte-2\"},{\"row\":13,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":14,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at arrival\"},{\"row\":15,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":16,\"column\":\"Sample\",\"value\":\"1 patients\"},{\"row\":17,\"column\":\"MeasureCode\",\"value\":\"ami-3\"},{\"row\":17,\"column\":\"Score\",\"value\":\"97%\"},{\"row\":20,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-2\"},{\"row\":7,\"column\":\"MeasureCode\",\"value\":\"ami-4\"},{\"row\":13,\"column\":\"MeasureCode\",\"value\":\"ami-2\"},{\"row\":13,\"column\":\"Score\",\"value\":\"100%\"},{\"row\":16,\"column\":\"Score\",\"value\":\"94%\"},{\"row\":17,\"column\":\"MeasureCode\",\"value\":\"ami-1\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":6,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":6,\"column\":\"MeasureName\",\"value\":\"children who received reliever medication while hospitalized for asthma\"},{\"row\":7,\"column\":\"Address1\",\"value\":\"5696 tasquen blvd\"},{\"row\":8,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":8,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - private\"},{\"row\":8,\"column\":\"MeasureName\",\"value\":\"heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)\"},{\"row\":9,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":15,\"column\":\"Sample\",\"value\":\"126 patients\"},{\"row\":17,\"column\":\"ProviderNumber\",\"value\":\"92281\"},{\"row\":18,\"column\":\"HospitalOwner\",\"value\":\"proprietary\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"HospitalOwner\",\"value\":\"government - hospital district or authority\"},{\"row\":5,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":6,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":11,\"column\":\"MeasureName\",\"value\":\"heart failure patients given discharge instructions\"},{\"row\":17,\"column\":\"PhoneNumber\",\"value\":\"8692338946\"},{\"row\":18,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"Sample\",\"value\":\"87 patients\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "```"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"EmergencyService\",\"value\":\"yes\"},{\"row\":4,\"column\":\"Sample\",\"value\":\"6 patients\"},{\"row\":8,\"column\":\"PhoneNumber\",\"value\":\"2363163948\"},{\"row\":11,\"column\":\"HospitalOwner\",\"value\":\"voluntary non-profit - private\"},{\"row\":13,\"column\":\"Score\",\"value\":\"89%\"},{\"row\":14,\"column\":\"ProviderNumber\",\"value\":\"98086\"},{\"row\":14,\"column\":\"Condition\",\"value\":\"heart attack\"},{\"row\":19,\"column\":\"MeasureName\",\"value\":\"heart attack patients given aspirin at discharge\"},{\"row\":20,\"column\":\"Condition\",\"value\":\"heart failure\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"MeasureName\",\"value\":\"pneumonia patients assessed and given influenza vaccination\"},{\"row\":3,\"column\":\"HospitalType\",\"value\":\"acute care hospitals\"},{\"row\":5,\"column\":\"Stateavg\",\"value\":\"al_ami-1\"},{\"row\":7,\"column\":\"HospitalOwner\",\"value\":\"government - federal\"},{\"row\":13,\"column\":\"Score\",\"value\":\"91%\"}]}"
+ }
+]

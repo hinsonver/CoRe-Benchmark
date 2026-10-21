@@ -1,0 +1,2391 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-14b",
+  "dataset": "hospital_fresh",
+  "k": 20,
+  "spread": true,
+  "chunks": 50,
+  "all": {
+   "repair_p": 0.6262,
+   "repair_r": 0.5069,
+   "repair_f1": 0.5603,
+   "detect_f1": 0.7427,
+   "errors": 509,
+   "predicted": 412,
+   "repaired": 258,
+   "detected": 342
+  },
+  "identity": {
+   "repair_p": 0.4969,
+   "repair_r": 0.3653,
+   "repair_f1": 0.4211,
+   "detect_f1": 0.7579,
+   "errors": 219,
+   "predicted": 161,
+   "repaired": 80,
+   "detected": 144
+  },
+  "other": {
+   "repair_p": 0.7092,
+   "repair_r": 0.6138,
+   "repair_f1": 0.658,
+   "detect_f1": 0.732,
+   "errors": 290,
+   "predicted": 251,
+   "repaired": 178,
+   "detected": 198
+  }
+ },
+ "chunks": [
+  {
+   "start": 0,
+   "rows": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180,
+    210,
+    240,
+    270,
+    300,
+    330,
+    360,
+    390,
+    420,
+    450,
+    480,
+    510,
+    540,
+    570
+   ],
+   "n_pred": 9,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 8, \"column\": \"City\", \"value\": \"sheffield\"}, {\"row\": 11, \"column\": \"CountyName\", \"value\": \"montgomery\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 12, \"column\": \"PhoneNumber\", \"value\": \"3342938000\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"high\"}, {\"row\": 12, \"column\": \"Stateavg\", \"value\": \"al_edv\"}, {\"row\": 12, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 14, \"column\": \"Stateavg\", \"value\": \"al_edv\"}, {\"row\": 17, \"column\": \"CountyName\", \"value\": \"coveynton\"}]}"
+  },
+  {
+   "start": 1,
+   "rows": [
+    1,
+    31,
+    61,
+    91,
+    121,
+    151,
+    181,
+    211,
+    600,
+    630,
+    660,
+    690,
+    720,
+    750,
+    780,
+    810,
+    840,
+    870,
+    900,
+    930
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 14,
+     "repaired": 10,
+     "detected": 12
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 7,
+     "repaired": 4,
+     "detected": 6
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 7,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"CountyName\", \"value\": \"cottonvalley\"}, {\"row\": 3, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"birmingham\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"35203\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"sheffield\"}, {\"row\": 8, \"column\": \"ZipCode\", \"value\": \"35660\"}, {\"row\": 9, \"column\": \"ZipCode\", \"value\": \"35555\"}, {\"row\": 11, \"column\": \"City\", \"value\": \"enterprise\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"edv\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"low\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"mobile\"}, {\"row\": 16, \"column\": \"ZipCode\", \"value\": \"36607\"}, {\"row\": 16, \"column\": \"CountyName\", \"value\": \"mobile\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"medium\"}, {\"row\": 17, \"column\": \"Condition\", \"value\": \"emergency department\"}, {\"row\": 17, \"column\": \"Score\", \"value\": \"medium\"}]}"
+  },
+  {
+   "start": 241,
+   "rows": [
+    241,
+    271,
+    301,
+    331,
+    361,
+    391,
+    421,
+    451,
+    481,
+    511,
+    541,
+    571,
+    601,
+    631,
+    661,
+    691,
+    721,
+    751,
+    781,
+    811
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 6,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 5, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 5, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score\"}, {\"row\": 8, \"column\": \"PhoneNumber\", \"value\": \"256732000\"}, {\"row\": 10, \"column\": \"Address1\", \"value\": \"101 sylvan rd\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"hamilton\"}, {\"row\": 12, \"column\": \"PhoneNumber\", \"value\": \"205216200\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"fayette medical center\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"fayette\"}, {\"row\": 13, \"column\": \"CountyName\", \"value\": \"fayette\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"gmcs\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score\"}]}"
+  },
+  {
+   "start": 2,
+   "rows": [
+    2,
+    32,
+    62,
+    92,
+    122,
+    152,
+    182,
+    212,
+    242,
+    272,
+    302,
+    332,
+    362,
+    392,
+    422,
+    841,
+    871,
+    901,
+    931,
+    960
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 8,
+     "repaired": 5,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 4, \"column\": \"ZipCode\", \"value\": \"36441\"}, {\"row\": 8, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"colbert\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score: malnutrition diagnosis documented\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 13, \"column\": \"MeasureCode\", \"value\": \"gmcs_malnutrition_diagnosis_documented\"}, {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score: malnutrition diagnosis documented\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score: malnutrition diagnosis documented\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"Russellville\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 17, \"column\": \"ZipCode\", \"value\": \"72801\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"Anchorage\"}]}"
+  },
+  {
+   "start": 3,
+   "rows": [
+    3,
+    33,
+    452,
+    482,
+    512,
+    542,
+    572,
+    602,
+    632,
+    662,
+    692,
+    722,
+    752,
+    782,
+    812,
+    842,
+    872,
+    902,
+    932,
+    961
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 4, \"column\": \"Address1\", \"value\": \"849 south thurston notch street\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"Covington\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"334222866\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"Acute Care Hospitals\"}, {\"row\": 4, \"column\": \"MeasureName\", \"value\": \"Global Malnutrition Composite Score: Malnutrition Diagnosis Documented\"}, {\"row\": 4, \"column\": \"Stateavg\", \"value\": \"al_gmcs_malnutrition_diagnosis_documented\"}]}"
+  },
+  {
+   "start": 63,
+   "rows": [
+    63,
+    93,
+    123,
+    153,
+    183,
+    213,
+    243,
+    273,
+    303,
+    333,
+    363,
+    393,
+    423,
+    453,
+    483,
+    513,
+    543,
+    573,
+    603,
+    633
+   ],
+   "n_pred": 3,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 6, \"column\": \"MeasureCode\", \"value\": \"gmcs_malnutrition_screening\"}, {\"row\": 11, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 12, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score: malnutrition risk screening\"}]}"
+  },
+  {
+   "start": 4,
+   "rows": [
+    4,
+    34,
+    64,
+    94,
+    124,
+    154,
+    184,
+    214,
+    244,
+    663,
+    693,
+    723,
+    753,
+    783,
+    813,
+    843,
+    873,
+    903,
+    933,
+    962
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 9,
+     "repaired": 9,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"CountyName\", \"value\": \"Lauderdale\"}, {\"row\": 9, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"gmcs_malnutrition_screening\"}, {\"row\": 10, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 10, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 11, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 13, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 15, \"column\": \"ZipCode\", \"value\": \"36617\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"government - state\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"AL\"}]}"
+  },
+  {
+   "start": 274,
+   "rows": [
+    274,
+    304,
+    334,
+    364,
+    394,
+    424,
+    454,
+    484,
+    514,
+    544,
+    574,
+    604,
+    634,
+    664,
+    694,
+    724,
+    754,
+    784,
+    814,
+    844
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 6,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 6
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"HospitalName\", \"value\": \"Jackson Hospital & Clinic Inc\"}, {\"row\": 3, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 4, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"10033\"}, {\"row\": 7, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 9, \"column\": \"CountyName\", \"value\": \"Madison\"}, {\"row\": 11, \"column\": \"Address1\", \"value\": \"1256 military street south\"}, {\"row\": 14, \"column\": \"Address1\", \"value\": \"400 N Edward St\"}, {\"row\": 15, \"column\": \"ZipCode\", \"value\": \"36002\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"2514777700\"}]}"
+  },
+  {
+   "start": 5,
+   "rows": [
+    5,
+    35,
+    65,
+    95,
+    125,
+    155,
+    185,
+    215,
+    245,
+    275,
+    305,
+    335,
+    365,
+    395,
+    425,
+    455,
+    874,
+    904,
+    934,
+    963
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 11,
+     "repaired": 5,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 4
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"City\", \"value\": \"florence\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"coveyngton\"}, {\"row\": 9, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 9, \"column\": \"Stateavg\", \"value\": \"al_gmcs_nutritional_care_plan\"}, {\"row\": 12, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 13, \"column\": \"ProviderNumber\", \"value\": \"10028\"}, {\"row\": 13, \"column\": \"HospitalName\", \"value\": \"east alabama healthcare authority\"}, {\"row\": 13, \"column\": \"Address1\", \"value\": \"200 pepperell parkway\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"gmcs_nutritional_care_plan\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"elmore\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score: nutrition assessment\"}, {\"row\": 19, \"column\": \"Stateavg\", \"value\": \"ak_gmcs_nutrition_assessment\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"gmcs_malnutrition_screening\"}, {\"row\": 20, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score: malnutrition screening\"}, {\"row\": 20, \"column\": \"Stateavg\", \"value\": \"ak_gmcs_malnutrition_screening\"}]}"
+  },
+  {
+   "start": 6,
+   "rows": [
+    6,
+    36,
+    66,
+    485,
+    515,
+    545,
+    575,
+    605,
+    635,
+    665,
+    695,
+    725,
+    755,
+    785,
+    815,
+    845,
+    875,
+    905,
+    935,
+    964
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 9,
+     "repaired": 1,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"southeast health medical center\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 6, \"column\": \"MeasureCode\", \"value\": \"gmcs_nutritional_care_plan\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"global malnutrition composite score: nutritional care plan\"}, {\"row\": 7, \"column\": \"CountyName\", \"value\": \"marion\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"fayette\"}, {\"row\": 9, \"column\": \"CountyName\", \"value\": \"etowah\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"prattville\"}, {\"row\": 15, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 15, \"column\": \"ZipCode\", \"value\": \"36074\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"autauga\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"prattville baptist hospital\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 15, \"column\": \"PhoneNumber\", \"value\": \"3343614267\"}, {\"row\": 18, \"column\": \"CountyName\", \"value\": \"calhoun\"}]}"
+  },
+  {
+   "start": 96,
+   "rows": [
+    96,
+    126,
+    156,
+    186,
+    216,
+    246,
+    276,
+    306,
+    336,
+    366,
+    396,
+    426,
+    456,
+    486,
+    516,
+    546,
+    576,
+    606,
+    636,
+    666
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 10, \"column\": \"ProviderNumber\", \"value\": \"10029\"}, {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"10039\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 19, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 20, \"column\": \"City\", \"value\": \"Enterprise\"}]}"
+  },
+  {
+   "start": 7,
+   "rows": [
+    7,
+    37,
+    67,
+    97,
+    127,
+    157,
+    187,
+    217,
+    247,
+    277,
+    696,
+    726,
+    756,
+    786,
+    816,
+    846,
+    876,
+    906,
+    936,
+    965
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 10,
+     "repaired": 7,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 4, \"column\": \"ProviderNumber\", \"value\": \"10007\"}, {\"row\": 6, \"column\": \"Address1\", \"value\": \"200 medical center drive\"}, {\"row\": 6, \"column\": \"PhoneNumber\", \"value\": \"2568453150\"}, {\"row\": 9, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"hospital harm - severe hypoglycemia\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"hh_hyper\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"hospital harm - severe hyperglycemia\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"mobile\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 16, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 18, \"column\": \"Stateavg\", \"value\": \"ak_hh_hyper\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"hh_hypo\"}]}"
+  },
+  {
+   "start": 307,
+   "rows": [
+    307,
+    337,
+    367,
+    397,
+    427,
+    457,
+    487,
+    517,
+    547,
+    577,
+    607,
+    637,
+    667,
+    697,
+    727,
+    757,
+    787,
+    817,
+    847,
+    877
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 9,
+     "repaired": 7,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 4
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"City\", \"value\": \"Opelika\"}, {\"row\": 4, \"column\": \"Address1\", \"value\": \"619 South 19th Street\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"Birmingham\"}, {\"row\": 4, \"column\": \"ZipCode\", \"value\": \"35233\"}, {\"row\": 5, \"column\": \"ZipCode\", \"value\": \"36078\"}, {\"row\": 7, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 8, \"column\": \"Address1\", \"value\": \"101 Sivley Road\"}, {\"row\": 14, \"column\": \"Address1\", \"value\": \"470 West Main Street\"}, {\"row\": 14, \"column\": \"City\", \"value\": \"Dxthan\"}, {\"row\": 16, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"hospital harm - severe hypoglycemia\"}]}"
+  },
+  {
+   "start": 8,
+   "rows": [
+    8,
+    38,
+    68,
+    98,
+    128,
+    158,
+    188,
+    218,
+    248,
+    278,
+    308,
+    338,
+    368,
+    398,
+    428,
+    458,
+    488,
+    907,
+    937,
+    966
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 6,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 3, \"column\": \"MeasureCode\", \"value\": \"hh_orae\"}, {\"row\": 4, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"hh_orae\"}, {\"row\": 4, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 4, \"column\": \"Stateavg\", \"value\": \"al_hh_orae\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"dax medical center\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"hh_orae\"}, {\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"10036\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"hospital harm - opioid related adverse events\"}]}"
+  },
+  {
+   "start": 9,
+   "rows": [
+    9,
+    39,
+    69,
+    99,
+    518,
+    548,
+    578,
+    608,
+    638,
+    668,
+    698,
+    728,
+    758,
+    788,
+    818,
+    848,
+    878,
+    908,
+    938,
+    967
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 6, \"column\": \"ZipCode\", \"value\": \"35901\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 6, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 18, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 19, \"column\": \"State\", \"value\": \"ak\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"hh_orae\"}, {\"row\": 19, \"column\": \"Stateavg\", \"value\": \"ak_hh_orae\"}]}"
+  },
+  {
+   "start": 129,
+   "rows": [
+    129,
+    159,
+    189,
+    219,
+    249,
+    279,
+    309,
+    339,
+    369,
+    399,
+    429,
+    459,
+    489,
+    519,
+    549,
+    579,
+    609,
+    639,
+    669,
+    699
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"MeasureName\", \"value\": \"healthcare workers given influenza vaccination\"}, {\"row\": 9, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"healthcare workers given influenza vaccination\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"community hospital inc\"}, {\"row\": 14, \"column\": \"CountyName\", \"value\": \"madison\"}, {\"row\": 16, \"column\": \"MeasureCode\", \"value\": \"imm_3\"}]}"
+  },
+  {
+   "start": 10,
+   "rows": [
+    10,
+    40,
+    70,
+    100,
+    130,
+    160,
+    190,
+    220,
+    250,
+    280,
+    310,
+    729,
+    759,
+    789,
+    819,
+    849,
+    879,
+    909,
+    939,
+    968
+   ],
+   "n_pred": 22,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 17,
+     "repaired": 8,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 4
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 12,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Stateavg\", \"value\": \"al_op_18a\"}, {\"row\": 8, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"calhoun\"}, {\"row\": 11, \"column\": \"index\", \"value\": \"341\"}, {\"row\": 11, \"column\": \"ProviderNumber\", \"value\": \"10023\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"Baptist Medical Center South\"}, {\"row\": 11, \"column\": \"City\", \"value\": \"Montgomery\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"Birmingham\"}, {\"row\": 13, \"column\": \"index\", \"value\": \"740\"}, {\"row\": 13, \"column\": \"Address1\", \"value\": \"1207 7th Street SE\"}, {\"row\": 13, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 13, \"column\": \"CountyName\", \"value\": \"morgan\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"imm_3\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"437 patients\"}, {\"row\": 18, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 18, \"column\": \"CountyName\", \"value\": \"talladega\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"bethel\"}, {\"row\": 20, \"column\": \"HospitalType\", \"value\": \"acute care hospital\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"hh_orc1\"}, {\"row\": 20, \"column\": \"MeasureName\", \"value\": \"hospital harm - opioid related complications and adverse events\"}, {\"row\": 20, \"column\": \"Score\", \"value\": \"0.00\"}, {\"row\": 20, \"column\": \"Stateavg\", \"value\": \"ak_hh_orc1\"}]}"
+  },
+  {
+   "start": 340,
+   "rows": [
+    340,
+    370,
+    400,
+    430,
+    460,
+    490,
+    520,
+    550,
+    580,
+    610,
+    640,
+    670,
+    700,
+    730,
+    760,
+    790,
+    820,
+    850,
+    880,
+    910
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"MeasureName\", \"value\": \"average (median) time all patients spent in the emergency department before leaving from the visit, including psychiatric/mental health patients and patients who were transferred to another facility. a lower number of minutes is better\"}, {\"row\": 2, \"column\": \"MeasureCode\", \"value\": \"op_18a\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"the east alabama medical center\"}, {\"row\": 4, \"column\": \"ProviderNumber\", \"value\": \"10034\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"talladega\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"144\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"111\"}]}"
+  },
+  {
+   "start": 11,
+   "rows": [
+    11,
+    41,
+    71,
+    101,
+    131,
+    161,
+    191,
+    221,
+    251,
+    281,
+    311,
+    341,
+    371,
+    401,
+    431,
+    461,
+    491,
+    521,
+    940,
+    969
+   ],
+   "n_pred": 14,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 14,
+     "repaired": 6,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 2,
+     "detected": 6
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 7,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"ProviderNumber\", \"value\": \"10002\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"Albertville\"}, {\"row\": 8, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"Marshall\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"Lloyd Cherokee Medical Center\"}, {\"row\": 10, \"column\": \"MeasureName\", \"value\": \"average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. a lower number of minutes is better\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"138\"}, {\"row\": 12, \"column\": \"Sample\", \"value\": \"485 patients\"}, {\"row\": 15, \"column\": \"PhoneNumber\", \"value\": \"3342837541\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"Cullman Regional Medical Center\"}, {\"row\": 17, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"op_18b\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"average (median) time patients spent in the emergency department before leaving from the visit, including psychiatric/mental health patients and patients who were transferred to another facility. a lower number of minutes is better\"}, {\"row\": 20, \"column\": \"City\", \"value\": \"Bethel\"}]}"
+  },
+  {
+   "start": 12,
+   "rows": [
+    12,
+    42,
+    72,
+    102,
+    132,
+    551,
+    581,
+    611,
+    641,
+    671,
+    701,
+    731,
+    761,
+    791,
+    821,
+    851,
+    881,
+    911,
+    941,
+    970
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Address1\", \"value\": \"1108 Ross Clark Circle\"}, {\"row\": 1, \"column\": \"City\", \"value\": \"Dothan\"}, {\"row\": 2, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. a lower number of minutes is better\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"Hamilton\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"Enterprise\"}, {\"row\": 12, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 16, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 18, \"column\": \"ProviderNumber\", \"value\": \"10064\"}, {\"row\": 20, \"column\": \"State\", \"value\": \"AK\"}, {\"row\": 20, \"column\": \"CountyName\", \"value\": \"Bethel\"}]}"
+  },
+  {
+   "start": 162,
+   "rows": [
+    162,
+    192,
+    222,
+    252,
+    282,
+    312,
+    342,
+    372,
+    402,
+    432,
+    462,
+    492,
+    522,
+    552,
+    582,
+    612,
+    642,
+    672,
+    702,
+    732
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 17,
+     "predicted": 16,
+     "repaired": 12,
+     "detected": 14
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 5
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 10,
+     "repaired": 9,
+     "detected": 9
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"CountyName\", \"value\": \"DeKalb\"}, {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"Voluntary Non-Profit - Private\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"279\"}, {\"row\": 5, \"column\": \"Stateavg\", \"value\": \"al_op_18c\"}, {\"row\": 6, \"column\": \"CountyName\", \"value\": \"Montgomery\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"Government - Hospital District or Authority\"}, {\"row\": 6, \"column\": \"Condition\", \"value\": \"Emergency Department\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"Average (Median) Time Psychiatric/Mental Health Patients Spent in the Emergency Department Before Leaving From the Visit. A Lower Number of Minutes Is Better\"}, {\"row\": 12, \"column\": \"Stateavg\", \"value\": \"al_op_18c\"}, {\"row\": 14, \"column\": \"Condition\", \"value\": \"Emergency Department\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"Average (Median) Time Psychiatric/Mental Health Patients Spent in the Emergency Department Before Leaving From the Visit. A Lower Number of Minutes Is Better\"}, {\"row\": 15, \"column\": \"Address1\", \"value\": \"256 Military Street South\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"Marion\"}, {\"row\": 16, \"column\": \"ZipCode\", \"value\": \"35632\"}, {\"row\": 17, \"column\": \"CountyName\", \"value\": \"Etowah\"}, {\"row\": 17, \"column\": \"Condition\", \"value\": \"Emergency Department\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"Average (Median) Time Psychiatric/Mental Health Patients Spent in the Emergency Department Before Leaving From the Visit. A Lower Number of Minutes Is Better\"}, {\"row\": 19, \"column\": \"HospitalType\", \"value\": \"Acute Care Hospitals\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"op_18c\"}]}"
+  },
+  {
+   "start": 13,
+   "rows": [
+    13,
+    43,
+    73,
+    103,
+    133,
+    163,
+    193,
+    223,
+    253,
+    283,
+    313,
+    343,
+    762,
+    792,
+    822,
+    852,
+    882,
+    912,
+    942,
+    971
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 10,
+     "repaired": 3,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 8,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 5
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 2,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Address1\", \"value\": \"1108 Cox Clark Circle\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"Boaz\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"28\"}, {\"row\": 6, \"column\": \"Score\", \"value\": \"99\"}, {\"row\": 8, \"column\": \"ProviderNumber\", \"value\": \"10018\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"Centre\"}, {\"row\": 10, \"column\": \"PhoneNumber\", \"value\": \"2563275531\"}, {\"row\": 13, \"column\": \"Condition\", \"value\": \"psychiatric/mental health\"}, {\"row\": 14, \"column\": \"CountyName\", \"value\": \"Franklin\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 19, \"column\": \"Stateavg\", \"value\": \"ak_op_18c\"}]}"
+  },
+  {
+   "start": 373,
+   "rows": [
+    373,
+    403,
+    433,
+    463,
+    493,
+    523,
+    553,
+    583,
+    613,
+    643,
+    673,
+    703,
+    733,
+    763,
+    793,
+    823,
+    853,
+    883,
+    913,
+    943
+   ],
+   "n_pred": 12,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 9,
+     "repaired": 8,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 6, \"column\": \"ProviderNumber\", \"value\": \"10039\"}, {\"row\": 10, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 11, \"column\": \"HospitalName\", \"value\": \"Medical Center Enterprise\"}, {\"row\": 11, \"column\": \"Address1\", \"value\": \"400 N Edward Street\"}, {\"row\": 11, \"column\": \"Condition\", \"value\": \"emergency department\"}, {\"row\": 12, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 14, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"301\"}, {\"row\": 14, \"column\": \"Sample\", \"value\": \"11 patients\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"average (median) time patients spent in the emergency department before being transferred to another facility. a lower number of minutes is better\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"Talladega\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"average (median) time patients spent in the emergency department before being transferred to another facility. a lower number of minutes is better\"}]}"
+  },
+  {
+   "start": 14,
+   "rows": [
+    14,
+    44,
+    74,
+    104,
+    134,
+    164,
+    194,
+    224,
+    254,
+    284,
+    314,
+    344,
+    374,
+    404,
+    434,
+    464,
+    494,
+    524,
+    554,
+    972
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 14, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 14, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 16, \"column\": \"PhoneNumber\", \"value\": \"2565444000\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. a lower number of minutes is better\"}]}"
+  },
+  {
+   "start": 15,
+   "rows": [
+    15,
+    45,
+    75,
+    105,
+    135,
+    165,
+    584,
+    614,
+    644,
+    674,
+    704,
+    734,
+    764,
+    794,
+    824,
+    854,
+    884,
+    914,
+    944,
+    973
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 16,
+     "repaired": 8,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 4,
+     "detected": 4
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 12,
+     "repaired": 4,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 4, \"column\": \"Score\", \"value\": \"71\"}, {\"row\": 6, \"column\": \"Score\", \"value\": \"71\"}, {\"row\": 7, \"column\": \"MeasureCode\", \"value\": \"op_23\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"head ct results\"}, {\"row\": 8, \"column\": \"ZipCode\", \"value\": \"35555\"}, {\"row\": 13, \"column\": \"ZipCode\", \"value\": \"35601\"}, {\"row\": 14, \"column\": \"Condition\", \"value\": \"emergency department\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"op_23\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"head ct results\"}, {\"row\": 15, \"column\": \"ZipCode\", \"value\": \"36617\"}, {\"row\": 16, \"column\": \"MeasureCode\", \"value\": \"op_23\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"head ct results\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 18, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 20, \"column\": \"PhoneNumber\", \"value\": \"9075436000\"}]}"
+  },
+  {
+   "start": 195,
+   "rows": [
+    195,
+    225,
+    255,
+    285,
+    315,
+    345,
+    375,
+    405,
+    435,
+    465,
+    495,
+    525,
+    555,
+    585,
+    615,
+    645,
+    675,
+    705,
+    735,
+    765
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 6,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 4
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"MeasureName\", \"value\": \"head ct results\"}, {\"row\": 4, \"column\": \"City\", \"value\": \"Centre\"}, {\"row\": 7, \"column\": \"City\", \"value\": \"Opelika\"}, {\"row\": 7, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 13, \"column\": \"CountyName\", \"value\": \"Marion\"}, {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"head ct results\"}, {\"row\": 14, \"column\": \"CountyName\", \"value\": \"Marion\"}, {\"row\": 14, \"column\": \"MeasureName\", \"value\": \"head ct results\"}, {\"row\": 16, \"column\": \"HospitalName\", \"value\": \"Riverside Regional Medical Center\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"Gadsden\"}, {\"row\": 16, \"column\": \"EmergencyService\", \"value\": \"emergency department\"}, {\"row\": 17, \"column\": \"EmergencyService\", \"value\": \"emergency department\"}]}"
+  },
+  {
+   "start": 16,
+   "rows": [
+    16,
+    46,
+    76,
+    106,
+    136,
+    166,
+    196,
+    226,
+    256,
+    286,
+    316,
+    346,
+    376,
+    795,
+    825,
+    855,
+    885,
+    915,
+    945,
+    974
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Address1\", \"value\": \"1108 Ross Clark Circle\"}, {\"row\": 2, \"column\": \"Address1\", \"value\": \"2505 Highway 431 North\"}, {\"row\": 7, \"column\": \"ZipCode\", \"value\": \"35076\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 9, \"column\": \"Address1\", \"value\": \"16 Hospital Ave\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"op_29\"}, {\"row\": 10, \"column\": \"CountyName\", \"value\": \"Cherokee\"}, {\"row\": 16, \"column\": \"Stateavg\", \"value\": \"al_op_23\"}]}"
+  },
+  {
+   "start": 406,
+   "rows": [
+    406,
+    436,
+    466,
+    496,
+    526,
+    556,
+    586,
+    616,
+    646,
+    676,
+    706,
+    736,
+    766,
+    796,
+    826,
+    856,
+    886,
+    916,
+    946,
+    975
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 6, \"column\": \"Score\", \"value\": \"97\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"endoscopy/polyp surveillance: appropriate follow-up interval for normal colonoscopy in average risk patients\"}, {\"row\": 10, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"97\"}, {\"row\": 19, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 19, \"column\": \"MeasureCode\", \"value\": \"op_29\"}]}"
+  },
+  {
+   "start": 17,
+   "rows": [
+    17,
+    47,
+    77,
+    107,
+    137,
+    167,
+    197,
+    227,
+    257,
+    287,
+    317,
+    347,
+    377,
+    407,
+    437,
+    467,
+    497,
+    527,
+    557,
+    587
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 10,
+     "repaired": 7,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Condition\", \"value\": \"cataract surgery outcome\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"Covington\"}, {\"row\": 9, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"Birmingham\"}, {\"row\": 13, \"column\": \"HospitalOwner\", \"value\": \"government - state\"}, {\"row\": 16, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 16, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"10039\"}, {\"row\": 20, \"column\": \"ZipCode\", \"value\": \"35570\"}, {\"row\": 20, \"column\": \"Condition\", \"value\": \"cataract surgery outcome\"}, {\"row\": 20, \"column\": \"MeasureName\", \"value\": \"improvement in patient's visual function within 90 days following cataract surgery\"}]}"
+  },
+  {
+   "start": 18,
+   "rows": [
+    18,
+    48,
+    78,
+    108,
+    138,
+    168,
+    198,
+    617,
+    647,
+    677,
+    707,
+    737,
+    767,
+    797,
+    827,
+    857,
+    887,
+    917,
+    947,
+    976
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 10,
+     "repaired": 8,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"ZipCode\", \"value\": \"35630\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"st. vincent's east\"}, {\"row\": 5, \"column\": \"Address1\", \"value\": \"50 medical park east drive\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 8, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"op_40\"}, {\"row\": 12, \"column\": \"MeasureCode\", \"value\": \"op_31\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"decatur\"}, {\"row\": 16, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 17, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"op_31\"}, {\"row\": 19, \"column\": \"MeasureName\", \"value\": \"improvement in patient's visual function within 90 days following cataract surgery\"}, {\"row\": 19, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 19, \"column\": \"Stateavg\", \"value\": \"ak_op_31\"}]}"
+  },
+  {
+   "start": 228,
+   "rows": [
+    228,
+    258,
+    288,
+    318,
+    348,
+    378,
+    408,
+    438,
+    468,
+    498,
+    528,
+    558,
+    588,
+    618,
+    648,
+    678,
+    708,
+    738,
+    768,
+    798
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 9,
+     "repaired": 6,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 1, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 2, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"ProviderNumber\", \"value\": \"10022\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"MeasureCode\", \"value\": \"op_40\"}, {\"row\": 4, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"PhoneNumber\", \"value\": \"3342930000\"}, {\"row\": 5, \"column\": \"MeasureCode\", \"value\": \"op_40\"}, {\"row\": 7, \"column\": \"PhoneNumber\", \"value\": \"2059344011\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"endixus health\"}, {\"row\": 11, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"op_40\"}, {\"row\": 11, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 14, \"column\": \"CountyName\", \"value\": \"fayette\"}, {\"row\": 14, \"column\": \"Stateavg\", \"value\": \"al_op_40\"}]}"
+  },
+  {
+   "start": 19,
+   "rows": [
+    19,
+    49,
+    79,
+    109,
+    139,
+    169,
+    199,
+    229,
+    259,
+    289,
+    319,
+    349,
+    379,
+    409,
+    828,
+    858,
+    888,
+    918,
+    948,
+    977
+   ],
+   "n_pred": 4,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"MeasureName\", \"value\": \"safe use of opioids - concurrent prescribing\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"safe use of opioids - concurrent prescribing\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"anchorage\"}]}"
+  },
+  {
+   "start": 439,
+   "rows": [
+    439,
+    469,
+    499,
+    529,
+    559,
+    589,
+    619,
+    649,
+    679,
+    709,
+    739,
+    769,
+    799,
+    829,
+    859,
+    889,
+    919,
+    949,
+    978,
+    989
+   ],
+   "n_pred": 2,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 0,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 14, \"column\": \"HospitalOwner\", \"value\": \"government - state\"}, {\"row\": 19, \"column\": \"Sample\", \"value\": \"99 patients\"}]}"
+  },
+  {
+   "start": 20,
+   "rows": [
+    20,
+    50,
+    80,
+    110,
+    140,
+    170,
+    200,
+    230,
+    260,
+    290,
+    320,
+    350,
+    380,
+    410,
+    440,
+    470,
+    500,
+    530,
+    560,
+    590
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"Address1\", \"value\": \"1701 veterans drive\"}, {\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"MeasureCode\", \"value\": \"al_sep_1\"}, {\"row\": 13, \"column\": \"PhoneNumber\", \"value\": \"3343245281\"}, {\"row\": 13, \"column\": \"Stateavg\", \"value\": \"al_sep_1\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"huntsville\"}, {\"row\": 18, \"column\": \"CountyName\", \"value\": \"madison\"}, {\"row\": 18, \"column\": \"EmergencyService\", \"value\": \"yes\"}]}"
+  },
+  {
+   "start": 21,
+   "rows": [
+    21,
+    51,
+    81,
+    111,
+    141,
+    171,
+    620,
+    650,
+    680,
+    710,
+    740,
+    770,
+    800,
+    830,
+    860,
+    890,
+    920,
+    950,
+    979,
+    990
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 2
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"3344733541\"}, {\"row\": 7, \"column\": \"PhoneNumber\", \"value\": \"205932966\"}, {\"row\": 8, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"decatur\"}, {\"row\": 12, \"column\": \"ZipCode\", \"value\": \"35601\"}, {\"row\": 12, \"column\": \"CountyName\", \"value\": \"morgan\"}, {\"row\": 16, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}]}"
+  },
+  {
+   "start": 201,
+   "rows": [
+    201,
+    231,
+    261,
+    291,
+    321,
+    351,
+    381,
+    411,
+    441,
+    471,
+    501,
+    531,
+    561,
+    591,
+    621,
+    651,
+    681,
+    711,
+    741,
+    771
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 0,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 5,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 8, \"column\": \"Sample\", \"value\": \"99 patients\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"Tallassee\"}, {\"row\": 9, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"septic shock 3-hour bundle\"}, {\"row\": 16, \"column\": \"MeasureName\", \"value\": \"septic shock 3-hour bundle\"}, {\"row\": 18, \"column\": \"Sample\", \"value\": \"57 patients\"}]}"
+  },
+  {
+   "start": 22,
+   "rows": [
+    22,
+    52,
+    82,
+    112,
+    142,
+    172,
+    202,
+    232,
+    262,
+    292,
+    322,
+    352,
+    801,
+    831,
+    861,
+    891,
+    921,
+    951,
+    980,
+    991
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 10,
+     "repaired": 6,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 5, \"column\": \"ProviderNumber\", \"value\": \"10008\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"Ozark\"}, {\"row\": 11, \"column\": \"City\", \"value\": \"Montgomery\"}, {\"row\": 12, \"column\": \"Condition\", \"value\": \"sepsis care\"}, {\"row\": 14, \"column\": \"MeasureCode\", \"value\": \"sep_sh_6hr\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"65\"}, {\"row\": 17, \"column\": \"Address1\", \"value\": \"315 W Hickory St\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"septic shock 3-hour bundle\"}, {\"row\": 18, \"column\": \"MeasureCode\", \"value\": \"sep_sh_3hr\"}, {\"row\": 20, \"column\": \"ProviderNumber\", \"value\": \"10011\"}]}"
+  },
+  {
+   "start": 382,
+   "rows": [
+    382,
+    412,
+    442,
+    472,
+    502,
+    532,
+    562,
+    592,
+    622,
+    652,
+    682,
+    712,
+    742,
+    772,
+    802,
+    832,
+    862,
+    892,
+    922,
+    952
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 10,
+     "repaired": 7,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 6
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"MeasureName\", \"value\": \"sepsis care\"}, {\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 5, \"column\": \"City\", \"value\": \"andalusia\"}, {\"row\": 5, \"column\": \"Condition\", \"value\": \"sepsis care\"}, {\"row\": 9, \"column\": \"City\", \"value\": \"fayette\"}, {\"row\": 9, \"column\": \"ZipCode\", \"value\": \"36535\"}, {\"row\": 11, \"column\": \"CountyName\", \"value\": \"coxey\"}, {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"10086\"}, {\"row\": 15, \"column\": \"CountyName\", \"value\": \"fayette\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"russellville\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"sylacauga\"}, {\"row\": 19, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 19, \"column\": \"ZipCode\", \"value\": \"35150\"}, {\"row\": 19, \"column\": \"CountyName\", \"value\": \"talladega\"}]}"
+  },
+  {
+   "start": 23,
+   "rows": [
+    23,
+    53,
+    83,
+    113,
+    143,
+    173,
+    203,
+    233,
+    263,
+    293,
+    323,
+    353,
+    383,
+    413,
+    443,
+    473,
+    503,
+    533,
+    981,
+    992
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 3, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 8, \"column\": \"MeasureName\", \"value\": \"severe sepsis 3-hour bundle\"}, {\"row\": 10, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"80\"}]}"
+  },
+  {
+   "start": 24,
+   "rows": [
+    24,
+    54,
+    84,
+    114,
+    563,
+    593,
+    623,
+    653,
+    683,
+    713,
+    743,
+    773,
+    803,
+    833,
+    863,
+    893,
+    923,
+    953,
+    982,
+    993
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 9,
+     "repaired": 5,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 5,
+     "repaired": 3,
+     "detected": 5
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"HospitalName\", \"value\": \"north alabama medical center\"}, {\"row\": 4, \"column\": \"PhoneNumber\", \"value\": \"3344945411\"}, {\"row\": 5, \"column\": \"MeasureCode\", \"value\": \"sev_sep_6hr\"}, {\"row\": 6, \"column\": \"index\", \"value\": \"595\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"marion regional medical center\"}, {\"row\": 11, \"column\": \"Condition\", \"value\": \"sepsis care\"}, {\"row\": 11, \"column\": \"MeasureName\", \"value\": \"severe sepsis 3-hour bundle\"}, {\"row\": 12, \"column\": \"ProviderNumber\", \"value\": \"10085\"}, {\"row\": 17, \"column\": \"CountyName\", \"value\": \"talladega\"}, {\"row\": 17, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 19, \"column\": \"PhoneNumber\", \"value\": \"9075432000\"}]}"
+  },
+  {
+   "start": 144,
+   "rows": [
+    144,
+    174,
+    204,
+    234,
+    264,
+    294,
+    324,
+    354,
+    384,
+    414,
+    444,
+    474,
+    504,
+    534,
+    564,
+    594,
+    624,
+    654,
+    684,
+    714
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 4,
+     "predicted": 4,
+     "repaired": 3,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"voluntary nonprofit - private\"}, {\"row\": 14, \"column\": \"CountyName\", \"value\": \"madison\"}, {\"row\": 14, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"94\"}, {\"row\": 19, \"column\": \"Condition\", \"value\": \"sepsis care\"}]}"
+  },
+  {
+   "start": 25,
+   "rows": [
+    25,
+    55,
+    85,
+    115,
+    145,
+    175,
+    205,
+    235,
+    265,
+    295,
+    744,
+    774,
+    804,
+    834,
+    864,
+    894,
+    924,
+    954,
+    983,
+    994
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 10,
+     "repaired": 4,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 1, \"column\": \"MeasureName\", \"value\": \"discharged on antithrombotic therapy\"}, {\"row\": 4, \"column\": \"MeasureName\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 6, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 6, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"discharged on antithrombotic therapy\"}, {\"row\": 7, \"column\": \"MeasureName\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"calhoun\"}, {\"row\": 9, \"column\": \"index\", \"value\": \"2621\"}, {\"row\": 9, \"column\": \"ProviderNumber\", \"value\": \"10021\"}, {\"row\": 11, \"column\": \"MeasureCode\", \"value\": \"sev_sep_6hr\"}, {\"row\": 15, \"column\": \"ProviderNumber\", \"value\": \"10106\"}, {\"row\": 17, \"column\": \"City\", \"value\": \"sylacauga\"}, {\"row\": 17, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 17, \"column\": \"ZipCode\", \"value\": \"35150\"}, {\"row\": 20, \"column\": \"MeasureCode\", \"value\": \"electronic clinical quality measure\"}]}"
+  },
+  {
+   "start": 325,
+   "rows": [
+    325,
+    355,
+    385,
+    415,
+    445,
+    475,
+    505,
+    535,
+    565,
+    595,
+    625,
+    655,
+    685,
+    715,
+    745,
+    775,
+    805,
+    835,
+    865,
+    895
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 3,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 2, \"column\": \"City\", \"value\": \"montgomery\"}, {\"row\": 6, \"column\": \"MeasureName\", \"value\": \"discharged on antithrombotic therapy\"}, {\"row\": 13, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 10, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"stk_02\"}, {\"row\": 11, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 12, \"column\": \"Sample\", \"value\": \"0 patients\"}, {\"row\": 19, \"column\": \"City\", \"value\": \"prattville\"}, {\"row\": 19, \"column\": \"ZipCode\", \"value\": \"36067\"}, {\"row\": 20, \"column\": \"Address1\", \"value\": \"1515 highxay 43\"}]}"
+  },
+  {
+   "start": 26,
+   "rows": [
+    26,
+    56,
+    86,
+    116,
+    146,
+    176,
+    206,
+    236,
+    266,
+    296,
+    326,
+    356,
+    386,
+    416,
+    446,
+    476,
+    925,
+    955,
+    984,
+    995
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 12,
+     "repaired": 6,
+     "detected": 7
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 10,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 3, \"column\": \"CountyName\", \"value\": \"Lauderdale\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"Covington\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"Voluntary non-profit - private\"}, {\"row\": 7, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 7, \"column\": \"HospitalOwner\", \"value\": \"Voluntary non-profit - private\"}, {\"row\": 9, \"column\": \"MeasureCode\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 10, \"column\": \"CountyName\", \"value\": \"Cherokee\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"stk_03\"}, {\"row\": 11, \"column\": \"HospitalType\", \"value\": \"Government - hospital district or authority\"}, {\"row\": 15, \"column\": \"Stateavg\", \"value\": \"al_stk_03\"}, {\"row\": 17, \"column\": \"MeasureCode\", \"value\": \"stk_03\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"anticoagulation therapy for atrial fibrillation/flutter\"}, {\"row\": 17, \"column\": \"Stateavg\", \"value\": \"al_stk_03\"}]}"
+  },
+  {
+   "start": 27,
+   "rows": [
+    27,
+    57,
+    506,
+    536,
+    566,
+    596,
+    626,
+    656,
+    686,
+    716,
+    746,
+    776,
+    806,
+    836,
+    866,
+    896,
+    926,
+    956,
+    985,
+    996
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 13,
+     "repaired": 10,
+     "detected": 13
+    },
+    "identity": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 4,
+     "detected": 7
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 6,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"City\", \"value\": \"dothan\"}, {\"row\": 3, \"column\": \"City\", \"value\": \"andalusia\"}, {\"row\": 4, \"column\": \"CountyName\", \"value\": \"madison\"}, {\"row\": 5, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 6, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"decatur regional medical center\"}, {\"row\": 8, \"column\": \"City\", \"value\": \"gadsden\"}, {\"row\": 8, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 10, \"column\": \"MeasureName\", \"value\": \"anticoagulation therapy for atrial fibrillation/flutter\"}, {\"row\": 11, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 12, \"column\": \"ProviderNumber\", \"value\": \"10055\"}, {\"row\": 12, \"column\": \"City\", \"value\": \"decatur\"}, {\"row\": 12, \"column\": \"ZipCode\", \"value\": \"35601\"}, {\"row\": 15, \"column\": \"HospitalName\", \"value\": \"prattville baptist hospital\"}, {\"row\": 15, \"column\": \"City\", \"value\": \"prattville\"}, {\"row\": 15, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 16, \"column\": \"CountyName\", \"value\": \"fayette\"}]}"
+  },
+  {
+   "start": 87,
+   "rows": [
+    87,
+    117,
+    147,
+    177,
+    207,
+    237,
+    267,
+    297,
+    327,
+    357,
+    387,
+    417,
+    447,
+    477,
+    507,
+    537,
+    567,
+    597,
+    627,
+    657
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 6,
+     "detected": 9
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 6,
+     "repaired": 5,
+     "detected": 6
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 2, \"column\": \"City\", \"value\": \"oxford\"}, {\"row\": 2, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 15, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 15, \"column\": \"Score\", \"value\": \"90\"}, {\"row\": 15, \"column\": \"Sample\", \"value\": \"19 patients\"}, {\"row\": 16, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 17, \"column\": \"Sample\", \"value\": \"155 patients\"}, {\"row\": 18, \"column\": \"ProviderNumber\", \"value\": \"10041\"}, {\"row\": 19, \"column\": \"HospitalName\", \"value\": \"fayette medical center\"}]}"
+  },
+  {
+   "start": 28,
+   "rows": [
+    28,
+    58,
+    88,
+    118,
+    148,
+    178,
+    208,
+    238,
+    687,
+    717,
+    747,
+    777,
+    807,
+    837,
+    867,
+    897,
+    927,
+    957,
+    986,
+    997
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 10,
+     "repaired": 5,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 4
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 4
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 2, \"column\": \"Score\", \"value\": \"99\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"Mizell Memorial Hospital\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"vte_1\"}, {\"row\": 6, \"column\": \"PhoneNumber\", \"value\": \"2568431000\"}, {\"row\": 9, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"Fowlers Hospital\"}, {\"row\": 11, \"column\": \"Score\", \"value\": \"92\"}, {\"row\": 13, \"column\": \"Score\", \"value\": \"97\"}, {\"row\": 17, \"column\": \"ZipCode\", \"value\": \"35150\"}]}"
+  },
+  {
+   "start": 268,
+   "rows": [
+    268,
+    298,
+    328,
+    358,
+    388,
+    418,
+    448,
+    478,
+    508,
+    538,
+    568,
+    598,
+    628,
+    658,
+    688,
+    718,
+    748,
+    778,
+    808,
+    838
+   ],
+   "n_pred": 23,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 8,
+     "repaired": 7,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 7,
+     "repaired": 7,
+     "detected": 7
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"Score\", \"value\": \"63\"}, {\"row\": 2, \"column\": \"Score\", \"value\": \"80\"}, {\"row\": 3, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 6, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 7, \"column\": \"Score\", \"value\": \"59\"}, {\"row\": 8, \"column\": \"Score\", \"value\": \"78\"}, {\"row\": 9, \"column\": \"CountyName\", \"value\": \"covington\"}, {\"row\": 9, \"column\": \"MeasureName\", \"value\": \"venous thromboembolism prophylaxis\"}, {\"row\": 10, \"column\": \"City\", \"value\": \"huntsville\"}, {\"row\": 10, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 11, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 12, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 13, \"column\": \"CountyName\", \"value\": \"fayette\"}, {\"row\": 13, \"column\": \"MeasureName\", \"value\": \"venous thromboembolism prophylaxis\"}, {\"row\": 14, \"column\": \"Score\", \"value\": \"empty\"}, {\"row\": 15, \"column\": \"HospitalOwner\", \"value\": \"proprietary\"}, {\"row\": 16, \"column\": \"City\", \"value\": \"dixon\"}, {\"row\": 16, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 17, \"column\": \"MeasureName\", \"value\": \"venous thromboembolism prophylaxis\"}, {\"row\": 18, \"column\": \"MeasureName\", \"value\": \"venous thromboembolism prophylaxis\"}, {\"row\": 19, \"column\": \"Score\", \"value\": \"95\"}]}"
+  },
+  {
+   "start": 29,
+   "rows": [
+    29,
+    59,
+    89,
+    119,
+    149,
+    179,
+    209,
+    239,
+    269,
+    299,
+    329,
+    359,
+    389,
+    419,
+    868,
+    898,
+    928,
+    958,
+    987,
+    998
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"southeast health medical center\"}, {\"row\": 2, \"column\": \"MeasureName\", \"value\": \"intensive care unit venous thromboembolism prophylaxis\"}, {\"row\": 6, \"column\": \"Address1\", \"value\": \"200 middleton drive\"}, {\"row\": 8, \"column\": \"CountyName\", \"value\": \"colbert\"}, {\"row\": 8, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 15, \"column\": \"MeasureCode\", \"value\": \"vte_2\"}, {\"row\": 15, \"column\": \"MeasureName\", \"value\": \"intensive care unit venous thromboembolism prophylaxis\"}, {\"row\": 17, \"column\": \"Score\", \"value\": \"92\"}, {\"row\": 18, \"column\": \"City\", \"value\": \"anchorage\"}, {\"row\": 18, \"column\": \"CountyName\", \"value\": \"anchorage\"}]}"
+  },
+  {
+   "start": 449,
+   "rows": [
+    449,
+    479,
+    509,
+    539,
+    569,
+    599,
+    629,
+    659,
+    689,
+    719,
+    749,
+    779,
+    809,
+    839,
+    869,
+    899,
+    929,
+    959,
+    988,
+    999
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 9,
+     "repaired": 5,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 7,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 3
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 5,
+     "repaired": 4,
+     "detected": 5
+    }
+   },
+   "output": "{\"corrections\": [{\"row\": 1, \"column\": \"City\", \"value\": \"Tallassee\"}, {\"row\": 3, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"government - hospital district or authority\"}, {\"row\": 4, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 4, \"column\": \"MeasureCode\", \"value\": \"vte_2\"}, {\"row\": 4, \"column\": \"Stateavg\", \"value\": \"al_vte_2\"}, {\"row\": 5, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 6, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 10, \"column\": \"MeasureCode\", \"value\": \"vte_2\"}, {\"row\": 11, \"column\": \"Condition\", \"value\": \"electronic clinical quality measure\"}, {\"row\": 13, \"column\": \"City\", \"value\": \"Prattville\"}, {\"row\": 13, \"column\": \"State\", \"value\": \"AL\"}, {\"row\": 17, \"column\": \"ProviderNumber\", \"value\": \"10114\"}, {\"row\": 18, \"column\": \"PhoneNumber\", \"value\": \"9072765632\"}, {\"row\": 19, \"column\": \"ProviderNumber\", \"value\": \"20018\"}]}"
+  }
+ ]
+}

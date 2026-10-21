@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "localbase:allenai/OLMo-2-1124-7B",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.54,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.1905,
+  "acc_noninferable": 0.0156,
+  "noninferable_cells": 192,
+  "acc_hard": 0.011,
+  "hard_cells": 181,
+  "leak_rate": 0.0,
+  "leak_cells": 23,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 23,
+  "per_column": {
+   "id": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 19,
+    "model": 0.0,
+    "freq": 0.053,
+    "trans": 0.0,
+    "structural": 0.053
+   },
+   "article_jcreated_at": {
+    "n": 19,
+    "model": 0.053,
+    "freq": 0.105,
+    "trans": 0.0,
+    "structural": 0.105
+   },
+   "author_list": {
+    "n": 24,
+    "model": 0.0,
+    "freq": 0.042,
+    "trans": 0.0,
+    "structural": 0.042
+   },
+   "journal_issn": {
+    "n": 15,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 21,
+    "model": 0.048,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.095
+   },
+   "article_pagination": {
+    "n": 22,
+    "model": 0.0,
+    "freq": 0.045,
+    "trans": 0.0,
+    "structural": 0.045
+   },
+   "article_language": {
+    "n": 3,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "jounral_abbreviation": {
+    "n": 4,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 11,
+    "model": 0.091,
+    "freq": 0.091,
+    "trans": 0.0,
+    "structural": 0.364
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "120998,Preoperative radiotherapy for esophageal carcinoma,eng,The New England Journal of Medicine,0028-4793,348,19,5/1/03,1805-1806,\"{\"\"M. Wang\"\",\"\"G. Stewart\"\",\"\"J. F. Tierney\"\",\"\"G. Spilopoulos\"\",\"\"W. Duncan\"\",\"\"H. S. Hansen\"\",\"\"Z. Rhugang\"\",\"\"M. K. Parmar\"\",\"\"A. Rousell\"\",\"\"B. Launois\"\",\"\"K. Nygaard\"\",\"\"S. J. Arnott\"\",\"\"M. Gignoux\"\"}\"\n120998,Preoperative radiotherapy for esophageal carcinoma,eng,The New England Journal of Medicine",
+   "parsed": false
+  },
+  {
+   "row": 404,
+   "output": "35197,The effect of a single dose of intranasal insulin on the cognitive function of healthy young adults.,eng,Diabetes Care,0141-2490,35,4,4/1/14,1061-1065,\"{\"\"D. J. S. Hsu\"\",\"\"J. C. Hsu\"\",\"\"J. C. Hsu\"\",\"\"J. C. Hsu\"\",\"\"J. C. Hsu\"\",\"\"J. C. Hsu\"\",\"\"J. C. H",
+   "parsed": false
+  },
+  {
+   "row": 786,
+   "output": "1060112,The effect of a 3-month home-based exercise program on the physical function of older adults with chronic obstructive pulmonary disease: a randomized controlled trial.,eng,Journal of Aging and Physical Activity,1752-7190,15,4,4/1/04,243-51,\"{\"\"J. A. Sallis\"\",\"\"J. C. Alcaraz\"\",\"\"J. C. Johnson\"\",\"\"J. C. Saelens\"\",\"\"J. A. Frank\"\",\"\"J. A. Nolen-Hoeksema\"\",\"\"J. A. Sallis\"\",\"\"J. C. Saelens\"\",\"\"J. A. Frank\"\",\"\"J. A. Nolen-Hoeksema\"\",\"\"J. A. Sallis\"\",\"\"J. C. Saelens\"\",\"\"J. A. Frank\"\",\"\"J. A. Nolen-Ho",
+   "parsed": false
+  },
+  {
+   "row": 921,
+   "output": "106049,The effect of the oral glucose tolerance test on the insulin response to a mixed meal in normal subjects.,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,15,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"\n106049,The effect of the oral glucose tolerance test on the insulin response to a mixed meal in normal subjects.,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,15,5,9/1/94,471-3",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "1021062,The effect of a 3-month exercise intervention on the quality of life of patients with chronic obstructive pulmonary disease (COPD),,Respirology,,,19,0,1/1/15,36,\"{\"\"I. Yang\"\",\"\"J. Stonestreet\"\",\"\"P. Collins\"\",\"\"P. Masel\"\"}\"\n1021063,The effect of a 3-month exercise intervention on the quality of life of patients with chronic obstructive pulmonary disease (COPD),,Respirology,,,19,0,1/1/15,36,\"{\"\"I. Yang\"\",\"\"J. Stonestreet\"\",\"\"P. Collins\"\",\"\"P. Masel\"\"}\"\n1021064,The effect of a 3-month exercise intervention on the quality of life of patients with chronic obstructive pulmonary disease (COPD),,Respirology,,,19,0,1/1/15",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "104857,The effect of the use of a computerized decision support system on the quality of care in the management of patients with acute myocardial infarction: a randomized controlled trial.,English,,,,0,0,,0,0,,{NULL}\n104857,The effect of the use of a computerized decision support system on the quality of care in the management of patients with acute myocardial infarction: a randomized controlled trial.,English,,,,0",
+   "parsed": false
+  },
+  {
+   "row": 275,
+   "output": "1065,The effect of a cervical lateral glide on the upper limb neurodynamic test: a blinded, placebo-controlled investigation,,Physiotherapy Research International,,0966-6690,11,0,1/1/03,10-Oct,\"{\"\"A Green\"\",\"\"J Lewis\"\",\"\"C Worsfold\"\",\"\"J Saranga\"\"}\"\n1066,The effect of a cervical lateral glide on the upper limb neurodynamic test: a blinded, placebo-controlled investigation,,Physiotherapy Research International,,0966-6690,11,0,1/1/03,10-Oct,\"{\"\"A Green\"\",\"\"J",
+   "parsed": false
+  },
+  {
+   "row": 533,
+   "output": "106071,The prevalence of diabetes and impaired fasting glucose in the United States.,eng,Diabetes Care,0141-2490,26,12,12/1/05,1175-80,\"{\"\"Dana E Shikany\"\",\"\"Dana E Szklo\"\",\"\"Dana E Mosca\"\",\"\"Dana E Folsom\"\",\"\"Dana E Williamson\"\",\"\"Dana E Szklo\"\",\"\"Dana E Folsom\"\",\"\"Dana E Mosca\"\",\"\"Dana E Folsom\"\",\"\"Dana E Mosca\"\",\"\"Dana E Folsom\"\",\"\"Dana E Folsom\"\",\"\"Dana E Folsom\"\",\"\"Dana E Folsom\"\",\"\"Dana E Folsom\"\",\"\"Dana E",
+   "parsed": false
+  },
+  {
+   "row": 507,
+   "output": "105106,The effect of a 3-month exercise program on the quality of life of patients with chronic obstructive pulmonary disease.,eng,Respiratory care,Respir Care,0034-4887,23,1,1/1/05,1-5,\"{\"\"J. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450529,The effect of the presence of a spouse on the survival of patients with cancer: a meta-analysis.,eng,Journal of clinical oncology : official journal of the American Society of Clinical Oncology,JCO,1536-2541,19,3,3/1/09,1065-1031,\"{\"\"D. J. Fung\"\",\"\"D. J. Fong\"\",\"\"D. J. Fung\"\",\"\"D. J. Fong\"\",\"\"D. J. Fung\"\",\"\"D. J. Fong\"\",\"\"D. J. Fung\"\",\"\"D. J. Fong\"\",\"\"D. J. Fung\"\",\"\"D. J. Fong\"\",\"",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "128071,The effect of a 3-month exercise program on the physical fitness of the elderly: a randomized controlled trial.,eng,Medicine and Science in Sports and Exercise,1530-0315,15,4,1/1/11,450-455,\"{\"\"J. A. S. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de Oliveira\"\",\"\"R. A. de",
+   "parsed": false
+  },
+  {
+   "row": 812,
+   "output": "1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,",
+   "parsed": false
+  },
+  {
+   "row": 859,
+   "output": "1065,The effect of a 3-month, low-dose, vitamin D3 supplementation on the serum 25-hydroxyvitamin D concentration in healthy adults: a randomized controlled trial,,JAMA: the journal of the American Medical Association,JAMA,153,1,1/1/08,1483-1488,\"{\"\"J. L. Holick\"\",\"\"J. Binkley\"\",\"\"K. A. Bischoff-Ferrari\"\",\"\"A. J. Gordon\"\",\"\"J. A. Hanley\"\",\"\"M. J. Holick\"\",\"\"A. C. Lips\"\",\"\"D. L. Peterson\"\",\"\"S. P. Pfeifer\"\",\"\"D. L. Pludowski\"\",\"\"D. L. Goodman-G",
+   "parsed": false
+  },
+  {
+   "row": 320,
+   "output": "1065,The role of the endoplasmic reticulum in the pathogenesis of type 2 diabetes: a review.,eng,Diabetes Research and Clinical Practice,,,11,0,1/1/04,1-9,\"{\"\"J. C. Kim\"\",\"\"J. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J. Kim\"\",\"\"S. J.",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "1063,\"The effect of the 1989-1990 recession on the health of the elderly: Evidence from the Medicare Current Beneficiary Survey\",eng,\"The Review of Economics and Statistics\",The Review of Economics and Statistics,0034-6535,51,3,3/1/93,514-523,\"{\"\"D. A. Wise\"\",\"\"D. A. Cutler\"\",\"\"J. S. Skinner",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "1100000,The effect of the 2008 financial crisis on the global economy: a panel data analysis,,Economic Modelling,,0308-4177,26,0,1/1/11,1-17,\"{\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez\"\",\"\"J. A. Sánchez",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "685071,The effect of a 3-month, 3-times-weekly, 1-hour, 1-on-1, home-based exercise program on physical function and quality of life in older adults with chronic obstructive pulmonary disease: a randomized controlled trial.,eng,Journal of the American Geriatrics Society,JAGS,0002-9635,62,4,4/1/10,625-632,\"{\"\"D. J. S. Hsu\"\",\"\"D. J. S. Hsu\"\",\"\"D. J. S. H. Hsu\"\",\"\"D. J. S. H. Hsu\"\",\"\"D. J. S. H. Hsu\"\",\"\"D. J. S. H. Hsu\"\",\"\"D. J. S.",
+   "parsed": false
+  },
+  {
+   "row": 923,
+   "output": "106106,The effect of a 3-month course of oral vitamin D3 supplementation on the serum 25-hydroxyvitamin D concentration in healthy young adults: a randomized controlled trial.,eng,The American journal of clinical nutrition,Am J Clin Nutr,0002-9165,97,5,5/1/08,312-9,\"{\"\"J. L. Holick\"\",\"\"J. Binkley\"\",\"\"K. A. Bischoff-Ferrari\"\",\"\"A. L. Gordon\"\",\"\"J. J. Hanley\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "1065,The effect of a 3-month, low-fat, low-glycemic load diet on the metabolic syndrome in overweight Hispanic women.,eng,Am J Clin Nutr,\"American journal of clinical nutrition\",0002-9165,82,4,1/1/05,1065-71,\"{\"\"J. A. Lutsey\"\",\"\"J. A. Steffen\"\",\"\"J. L. Stevens\"\",\"\"J. C. Arnett\"\",\"\"J. C. Haffner\"\",\"\"J. L. Stern\"\",\"\"J. L. McKeown\"\",\"\"J. L. McKeown\"\",\"\"J. L. McKeown\"\",\"\"J. L. McKeown\"\",\"\"J. L. McKeown\"\",\"",
+   "parsed": false
+  },
+  {
+   "row": 233,
+   "output": "801433,The role of the nurse practitioner in the management of chronic pelvic pain.,eng,International journal of nursing research,,1532-2939,23,4,1/1/09,611-617,\"{\"\"Andrew Paul Baranowski\"\"}\"\n801433,The role of the nurse practitioner in the management of chronic pelvic pain.,eng,International journal of nursing research,,1532-2939,23,4,1/1/09,611-617,\"{\"\"Andrew Paul Baranowski\"\"}\"\n801",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "128071,The effect of the 5-HT3 antagonist ondansetron on the gastric emptying of a solid meal in healthy volunteers.,eng,Alimentary pharmacology & therapeutics,,1359-7149,26,3,3/1/08,295-9,\"{\"\"J. A. J. van der Meulen\"\",\"\"J. J. van der Linden\"\",\"\"J. J. J. van der Linden\"\",\"\"J. J. J. van der Linden\"\",\"\"J. J. J. van der Linden\"\",\"\"J. J. J. van der Linden\"\",\"\"J. J. J. van der Linden\"\",\"\"J.",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "663994,Hearing feelings: a quantitative meta-analysis on the neuroimography literature of emotional prosody perception.,eng,Neuropsychologia,Neuropsychologia,1873-3514,50,12,10/1/12,2752-63,\"{\"\"Vincent J P Van Heuven\"\",\"\"Niels O Schiller\"\",\"\"Jurriaan Witteman\"\"}\"\n663994,Hearing feelings: a quantitative meta-analysis on the neuroimaging literature of emotional prosody perception.,eng,Neuropsychologia,Neuropsychologia,1873-3514,50,12,10/1/12,2752-63,\"{\"\"Vincent J P Van Heuven\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "685049,Influence of the 5-HT2A receptor on the development of the mesolimbic dopamine system.,English,Neuroscience letters,,0306-4522,60,3,3/1/06,243-7,\"{\"\"J. P. P. de Wit\"\",\"\"J. J. van den Oever\"\",\"\"J. J. van den Bos\"\",\"\"J. J. van den Bos\"\",\"\"J. J. van den Bos\"\",\"\"J. J. van den Bos\"\",\"\"J. J. van den Bos\"\",\"\"J. J. van den Bos\"\",\"\"J. J. van den Bos\"\",\"\"J. J. J. van den Bos",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "1045,The effect of the presence of a second language on the development of the first language in children with cochlear implants.,eng,Journal of speech, language, and hearing research,1092-4388,17,4,4/1/03,1064-1074,\"{\"\"D. J. O'Connell\"\",\"\"D. J. O'Keefe\"\",\"\"D. J. O'Connell\"\",\"\"D. J. O'Connell\"\",\"\"D. J. O'Connell\"\",\"\"D. J. O'Connell\"\",\"\"D. J. O'Connell\"\",\"\"D. J.",
+   "parsed": false
+  },
+  {
+   "row": 783,
+   "output": "106000,The effect of a 3-month home-based exercise program on the physical function of older adults with chronic obstructive pulmonary disease.,eng,Journal of the American Geriatrics Society,0002-9346,64,1,1/1/08,1-7,\"{\"\"J",
+   "parsed": false
+  },
+  {
+   "row": 107,
+   "output": "765433,The effect of a 12-week exercise program on the body composition of overweight and obese women: a randomized controlled trial.,eng,Journal of the American Dietetic Association,J Am Diet Assoc,1878-3570,112,5,5/1/12,810-8,\"{\"\"J. A. S. L. S. S. S. S. S. S. S. S. S. S. S. S. S. S. S",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "104106,The effect of a 3-month, 3-times-weekly, 1-hour, 1-on-1, cognitive-behavioral psychotherapy intervention on the quality of life of women with breast cancer: a randomized controlled trial.,eng,Journal of clinical oncology,J. Clin. Oncol.,1530-2995,23,4,1/1/05,1065-1072,\"{\"\"D. A. Foss\"\",\"\"J. A. Kline\"\",\"\"J. A. Kline\"\",\"\"J. A. Kline\"\",\"\"J. A. Kline\"\",\"\"J. A. Kline\"\",\"\"J. A. Kline\"\",\"",
+   "parsed": false
+  },
+  {
+   "row": 828,
+   "output": "2013,The effect of vitamin D on the risk of developing type 2 diabetes: a systematic review and meta-analysis.,eng,Diabetes care,0141-2490,36,12,12/1/13,3003-10,\"{\"\"J. A. Pittas\"\",\"\"J. N. Dawson-Hughes\"\",\"\"J. L. Iannuzzi\"\",\"\"R. M. Mosca\"\",\"\"J. L. Dawson-Hughes\"\",\"\"D. L. Brans\"\",\"\"J. L. Faghy\"\",\"\"J. L. Wilson\"\",\"\"J. L. H. Wong\"\",\"\"J. L. H. Wong\"\",\"\"J. L. Wong\"\",\"\"J. L. Wong\"\",\"\"J. L. Wong\"\",\"\"J. L. Wong\"\",\"",
+   "parsed": false
+  },
+  {
+   "row": 266,
+   "output": "1060112,The effect of a 3-month exercise program on the physical fitness of elderly women.,English,Journal of the American Geriatrics Society,Journal of the American Geriatrics Society,0002-9402,51,1,1/1/04,35-9,\"{\"\"J. A. Sallis\"\",\"\"J. P. McKenzie\"\",\"\"J. A. Alcaraz\"\",\"\"J. C. Saelens\"\",\"\"J. E. Frank\"\",\"\"J. A. King\"\",\"\"J. P. Alcaraz\"\",\"\"J. P. Sallis\"\",\"\"J. C. Saelens\"\",\"\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "106011,The effect of a 3-month, low-dose, vitamin D3 supplementation on the serum vitamin D levels and bone turnover markers in postmenop. women with osteopenia: a randomized, double-blind, placebo-controlled trial,eng,Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research,\"Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research\",0884-0431,17,4,1/1/08,1061-1070,\"{\"\"J. Kim\"\",\"\"J. Lee\"\",\"\"S. Kim\"\",\"\"S. Kim\"\",\"\"S",
+   "parsed": false
+  },
+  {
+   "row": 555,
+   "output": "685071,The effect of the 2008 financial crisis on the US economy: A structural VAR analysis.,eng,Journal of economic dynamics and control,J. Econ. Dyn. Control,1462-0416,17,1,1/1/09,1-26,\"{\"\"D. A. S. Evans\"\",\"\"D. G. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"D. M. Miles\"\",\"\"",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "332032,Air pollution and risk of urinary bladder cancer in a case-control study in Spain,,Occupational and environmental medicine,Occup Environ Med,1470-7926,65,1,1/1/08,56-60,\"{\"\"Nuria Malats\"\",\"\"Alfredo Carrato\"\",\"\"Manolis Kogevinas\"\",\"\"Nathaniel Rothman\"\",\"\"Consol Serra\"\",\"\"Reina Garcia-Closas\"\",\"\"Debra Silverman\"\",\"\"Adonina Tardon\"\",\"\"Kenneth P. Cantor\"\",\"\"Mustafa Dosemeci\"\",\"\"Gemma Castano-Vinyals\"\",\"\"Roel Vermeulen\"\"}\"\n332032,Air pollution and risk of urinary bladder cancer in a case-control study in Spain,,Occupational and environmental medicine,Occup Environ Med,1470-7926,65,1,1/1/08,56-60,\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "2013,The effect of the 2011 earthquake and tsunami on the Japanese population: a systematic review.,eng,Disaster Medicine and Public Health Preparedness,1932-6203,7,1,1/1/13,1-11,\"{NULL}\"\n2013,The effect of the 2011 earthquake and tsunami on the Japanese population: a systematic review.,eng,Disaster Medicine and Public Health Preparedness,1932-6203,7,1,1/1/13,1-11,\"{NULL}\"\n2013,The effect of the 2011 earthquake and tsunami on the Japanese population: a systematic review.,eng,Disaster Medicine and Public Health Preparedness,1932-6203,7,1,1/1/13,1-11,\"{NULL}\"\n2013,The effect of the 2011 earthquake and tsunami on the Japanese population: a systematic review.,eng,Disaster Medicine and Public Health Preparedness",
+   "parsed": false
+  },
+  {
+   "row": 626,
+   "output": "128182,\"A randomized, double-blind, placebo controlled triphosphate in study of oral adenosine subacute low back pain\",eng,,,,32,0,1/1/05,\"1114-7 ST  - A randomized, double-blind, placebo controlled triphosphate in study of oral adenosine subacute low back pain-\",\"{\"\"M. Rossignol\"\",\"\"F. A. Allaert\"\",\"\"B. Bannwarth\"\",\"\"J. P. C1  - Fr̴n RCT-șkningen CN  - Pubmed DA  - Jun DP  - NLM ET  - 2005/06/09 Valat\"\",\"\"S. Rozenberg\"\",\"\"",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "1045,The effect of a 3-month course of oral vitamin D3 supplementation on the incidence of acute respiratory tract infections in healthy adults: a randomized controlled trial.,eng,Journal of internal medicine,J. Intern. Med.,0022-0797,64,1,1/1/08,19-25,\"{\"\"J. L.",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "1040112,The effect of the 2011 Tohoku earthquake and tsunami on the Japanese economy: a structural VAR analysis.,eng,Journal of Asian Economics,0162-0321,18,2,1/1/14,1-19,\"{\"\"K. Kato\"\",\"\"K. Kato\"\",\"\"K. Kato\"\",\"\"K. Koma\"\",\"\"K. Kato\"\",\"\"K. Kato\"\",\"\"K. Kato\"\",\"\"K. Kato\"",
+   "parsed": false
+  },
+  {
+   "row": 327,
+   "output": "2013,The effect of the type of surgical procedure on the outcome of patients with chronic pancreatitis: a retrospective study.,eng,World journal of gastroenterology,,1721-0695,9,0,1/1/13,1-5,\"{NULL}\"\n2013,The effect of the type of surgical procedure on the outcome of patients with chronic pancreatitis: a retrospective study.,eng,World journal of gastroenterology,1721-0695,9,0,1/1/13,1-5,\"{NULL}\"\n2013,The effect of the type of surgical procedure on the outcome of patients with chronic pancreatitis: a retrospective study.,eng,World journal of gastroenterology,172",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "105106,The effect of a 3-month exercise intervention on the quality of life of patients with chronic heart failure.,eng,Journal of cardiovascular nursing: the official journal of the Society of Cardiovascular Nurses,,1041-1221,11,3,3/1/06,243-9,\"{\"\"D. J. S. H. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J. J. van der Laarse\"\",\"\"J. J.",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "201011,The effect of the 2009 H1N1 influenza pandemic on the incidence of acute myocardial infarction in the United States: a population-based study.,eng,Am J Cardiol,American journal of cardiology,0002-9343,106,9,9/1/10,1061-1066,\"{\"\"J. A. Krumholz\"\",\"\"J. I. Lee\"\",\"\"J. M. Lee\"\",\"\"J. M. Lee\"\",\"",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "110071,The effect of the use of the Internet on the quality of life of the elderly in the city of São Paulo,eng     por,Einstein (Sao Paulo),\"Einstein (Sao Paulo, Brazil)\",1679-4508,12,2,1/1/14,159-63,\"{\"\"W. Hummig\"\",\"\"J. Stechman Neto\"\",\"\"L. F. Tonial\"\"}\"\n110072,The effect of the use of the Internet on the quality of life of the elderly in the city of São Paulo",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "1041063,The effect of a single dose of ivermectin on the growth of the nematode Trichuris trichiura in the rat,English,The Journal Of Infectious Diseases,0022-1899,26,1,1/1/86,1-5,\"{\"\"D. A. Gould\"\",\"\"J. McInerny\"\",\"\"R. E. Harbaugh\"\",\"\"J. D. Birkmeyer\"\"}\"\n1041064,The effect of a single dose of ivermeprost on the growth of the nematode Trichuris trichiura in the",
+   "parsed": false
+  },
+  {
+   "row": 880,
+   "output": "104106,The effect of a 3-month intervention on the quality of life of patients with chronic pain: a randomized controlled trial.,eng,Journal of pain and symptom management,0961-6966,11,4,4/1/03,243-9,\"{\"\"J. A. C. C. van der Windt\"\",\"\"J. A. van der Wal\"\",\"\"J. A. van der Wal\"\",\"\"J. A. van der Wal\"\",\"\"J. A. van der Wal\"\",\"\"J. A. van der Wal\"\",\"\"J. A. van der Wal\"\",\"\"",
+   "parsed": false
+  },
+  {
+   "row": 710,
+   "output": "106243,Prevalence of diabetes and impaired glucose tolerance in the United States population,eng,Diabetes Care,0141-2490,15,4,4/1/92,382-7,\"{\"\"D. A. Gregg\"\",\"\"D. C. Cowie\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson\"\",\"\"D. L. Williamson",
+   "parsed": false
+  },
+  {
+   "row": 348,
+   "output": "735049,The effect of smoking on the risk of developing Parkinson's disease: a meta-analysis.,eng,Neurology,0028-3878,11,3,3/1/09,725-31,\"{\"\"J A Kachergus\"\",\"\"J H Farrer\"\",\"\"J A Hattori\"\",\"\"J W Forno\"\",\"\"J W Farrer\"\",\"\"J W Singleton\"\",\"\"J W Tanzi\"\",\"\"J W Gusella\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi\"\",\"\"J W Tanzi",
+   "parsed": false
+  },
+  {
+   "row": 493,
+   "output": "201433,The effect of a 3-month exercise program on the quality of life of patients with chronic obstructive pulmonary disease.,eng,Respiratory medicine,Respirology,1399-4715,17,1,1/1/09,1-6,\"{\"\"J. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira\"\",\"\"R. A. S. de Oliveira",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "492071,The effect of the 2008 financial crisis on the health of the population in the United Kingdom: a time series analysis.,eng,Journal of epidemiology and community health,J Epidemiol Community Health,0906-4783,68,1,1/1/14,1-6,\"{\"\"J. M. Marmot\"\",\"\"J. A. Smith\"\",\"\"J. E. Stansfeld\"\",\"\"J. M. Patel\"\",\"\"A. J. \"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "128071,The effect of a 6-month exercise program on the quality of life of patients with chronic heart failure.,eng,Journal of cardiovascular nursing: the official journal of the Society of Cardiovascular Nurses,,1041-1221,11,4,4/1/03,243-9,\"{\"\"D. J. Sallis\"\",\"\"J. C. Almeida\"\",\"\"J. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva\"\",\"\"R. C. F. Silva",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "1060002,The effect of a 3-month combined training program on the cardiopulmonary and muscle strength capacities of type 2 diabetic subjects.,eng,Journal of sports medicine & physical fitness,0022-4707,53,1,1/1/13,56-64,\"{\"\"O Serresse\"\",\"\"C Boudreau-Lariviere\"\",\"\"S Grelier\"\",\"\"R Zory\"\"}\"\n1060003,Unique monoclonal antibodies specifically bind surface structures on human fetal erythroid blood cells.,eng,Experimental cell research,Exp. Cell Res.,,0022-4707,319,17,10/15/13,2700-7,\"{\"\"Silke Zimmermann\"\",\"\"Stefan A Stachelhaus\"\",\"\"Christiane Hollmann\"\"}\"\n1060004,Extended-release naltrexone plus medical management alcohol treatment in primary care: Findings at 15 months,,Journal of substance",
+   "parsed": false
+  },
+  {
+   "row": 454,
+   "output": "1065,\"The effect of the 2008 financial crisis on the US economy: a structural VAR analysis\",eng,Journal of economic dynamics and control,J Econ Dyn Control,0165-1885,11,1,1/1/11,1-26,\"{\"\"D. A. S. Evans\"\",\"\"D. G. Miles\"\",\"\"D. S. Miles\"\",\"\"D. S. Miles\"\",\"\"D. S. Miles\"\",\"\"D. S. Miles\"\",\"\"D. S. Miles\"\",\"\"D. S. Miles\"\",\"\"D. S. Miles\"\",\"\"D. S. Miles\"\",\"\"D.",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "201011,The effect of the 2008 financial crisis on the health of the population in the United States: a national survey,,Health affairs (Project Hope),Health Aff (Project Hope),1535-3006,19,1,1/1/10,1-9,\"{NULL}\"\n201011,The effect of the 2008 financial crisis on the health of the population in the United: a national survey,,Health affairs (Project Hope),Health Aff (Project Hope),1535-3006,19,1,1/1/10,1-9,\"{NULL}\"\n201011,The effect of the 2008 financial crisis on the health of the population in the United States: a national survey,,Health affairs (Project Hope),Health Aff (Project Hope),1535-3006,19,1,1/1/10,1-9,\"{NULL}\"\n201011,The effect of the 2008 financial crisis on the health",
+   "parsed": true
+  }
+ ]
+}

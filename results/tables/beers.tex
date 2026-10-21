@@ -1,0 +1,23 @@
+\begin{table}[t]
+  \caption{Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total
+  O$-$S, repaired cities (of 127), and W-versus-S chunk sign tests, Holm-corrected over models.
+  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.
+  $^\dagger$: significant as in Table~\ref{tab:main}, corrected over eight differences.}
+  \label{tab:beers}
+  \small
+  \setlength{\tabcolsep}{2pt}
+  \begin{tabular}{@{}lcccccrr@{}}
+    \toprule
+    Model & O & F$^{*}$ & W & S & O$-$S & Cities repaired & $p$ \\
+    \midrule
+    DeepSeek-V4-Pro & 0.27 & 0.24 & 0.11 & 0.28 & $-$0.01 & 20 / 18 / 8 / 22 & 0.644 \\
+    Qwen3.8-Max & 0.94 & 0.61 & 0.82 & 0.69 & +0.24$^\dagger$ & 122 / 67 / 108 / 82 & 0.152 \\
+    GLM-5.3 & 0.94 & 0.88 & 0.89 & 0.94 & +0.00 & 120 / 110 / 116 / 117 & 1.000 \\
+    GPT-6.1-Sol & 0.96 & 0.89 & 0.98 & 1.00 & $-$0.03$^\dagger$ & 127 / 115 / 127 / 127 & 1.000 \\
+    Qwen2.5-7B & 0.00 & 0.10 & 0.04 & 0.05 & $-$0.05 & 0 / 7 / 4 / 5 & 1.000 \\
+    Llama-3.1-8B & 0.18 & 0.27 & 0.11 & 0.14 & +0.04 & 23 / 28 / 14 / 17 & 1.000 \\
+    Qwen2.5-14B & 0.16 & 0.05 & 0.11 & 0.19 & $-$0.03 & 13 / 4 / 15 / 20 & 1.000 \\
+    Qwen2.5-32B & 0.03 & 0.00 & 0.04 & 0.11 & $-$0.08 & 2 / 0 / 3 / 10 & 1.000 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

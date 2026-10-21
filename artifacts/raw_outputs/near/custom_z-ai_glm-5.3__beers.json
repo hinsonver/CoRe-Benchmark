@@ -1,0 +1,1346 @@
+[
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Loveldri\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"GA\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Rhodrizar\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Calzarkel\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"IN\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Gardrigar\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":2,\"column\":\"beer-name\",\"value\":\"Garbrin Wheat Ulakel Vasrho\"},{\"row\":5,\"column\":\"city\",\"value\":\"Santa Torhepvas\"},{\"row\":5,\"column\":\"state\",\"value\":\"CA\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.125\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":15,\"column\":\"city\",\"value\":\"Velmorrho\"},{\"row\":15,\"column\":\"state\",\"value\":\"VT\"},{\"row\":18,\"column\":\"city\",\"value\":\"Rhobrinosk\"},{\"row\":18,\"column\":\"state\",\"value\":\"ME\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Lake Havasu City\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"AZ\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Pimquenula\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Davenport\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"IA\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 3, \"column\": \"city\", \"value\": \"Seattle\"}, {\"row\": 3, \"column\": \"state\", \"value\": \"WA\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Boone\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"NC\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Newport\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Joumortas Mormortas\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Wexcalpim\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.054\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Rhobrinosk\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.035\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":20,\"column\":\"city\",\"value\":\"Bucyrus\"},{\"row\":20,\"column\":\"state\",\"value\":\"KS\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":15,\"column\":\"state\",\"value\":\"ME\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 18, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"city\", \"value\": \"Fentasmor Kelcal\"}, {\"row\": 2, \"column\": \"state\", \"value\": \"FL\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.063\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 10, \"column\": \"brewery-name\", \"value\": \"Sly Fox Brewing Company\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.046\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 17, \"column\": \"brewery-name\", \"value\": \"Hops & Grain Brewing\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Austin\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 18, \"column\": \"brewery-name\", \"value\": \"Original Gravity Brewing Company\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Lozartasba\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"MT\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.063\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 8, \"column\": \"brewery-name\", \"value\": \"Hepjouzar Vaskelosk Brewing\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"TX\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 5, \"column\": \"abv\", \"value\": \"0.058\"},\n{\"row\": 8, \"column\": \"abv\", \"value\": \"0.065\"},\n{\"row\": 9, \"column\": \"city\", \"value\": \"Drizarvel\"},\n{\"row\": 9, \"column\": \"state\", \"value\": \"PA\"},\n{\"row\": 10, \"column\": \"abv\", \"value\": \"0.055\"},\n{\"row\": 11, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"},\n{\"row\": 13, \"column\": \"abv\", \"value\": \"0.09\"},\n{\"row\": 14, \"column\": \"brewery-name\", \"value\": \"The Sulbrinzar's Brewing Company\"},\n{\"row\": 15, \"column\": \"abv\", \"value\": \"0.042\"},\n{\"row\": 16, \"column\": \"abv\", \"value\": \"0.055\"},\n{\"row\": 17, \"column\": \"beer-name\", \"value\": \"Velzargar's Quenvel\"},\n{\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}\n]}\n```"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Oskbrinpim\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"IL\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Kelvelny Nyjou\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Gardrigar\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Vastorrho\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Garlo Pimdribrin\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.099\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 2, \"column\": \"abv\", \"value\": \"0.045\"},\n{\"row\": 5, \"column\": \"abv\", \"value\": \"0.069\"},\n{\"row\": 6, \"column\": \"abv\", \"value\": \"0.065\"},\n{\"row\": 8, \"column\": \"city\", \"value\": \"Nytasbrin\"},\n{\"row\": 8, \"column\": \"state\", \"value\": \"OR\"},\n{\"row\": 9, \"column\": \"abv\", \"value\": \"0.062\"},\n{\"row\": 9, \"column\": \"city\", \"value\": \"Loveldri\"},\n{\"row\": 9, \"column\": \"state\", \"value\": \"GA\"},\n{\"row\": 11, \"column\": \"abv\", \"value\": \"0.055\"},\n{\"row\": 11, \"column\": \"city\", \"value\": \"Rhodrizar\"},\n{\"row\": 11, \"column\": \"state\", \"value\": \"MA\"},\n{\"row\": 12, \"column\": \"abv\", \"value\": \"0.051\"},\n{\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"},\n{\"row\": 14, \"column\": \"city\", \"value\": \"Calzarkel\"},\n{\"row\": 14, \"column\": \"state\", \"value\": \"IN\"},\n{\"row\": 18, \"column\": \"abv\", \"value\": \"0.08\"},\n{\"row\": 18, \"column\": \"city\", \"value\": \"Gardrigar\"},\n{\"row\": 18, \"column\": \"state\", \"value\": \"MA\"},\n{\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"}\n]}\n```"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"city\", \"value\": \"Santa Torhepvas\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"Velmorrho\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"VT\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Rhobrinosk\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"ME\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 4, \"column\": \"abv\", \"value\": \"0.056\"},\n{\"row\": 6, \"column\": \"state\", \"value\": \"PA\"},\n{\"row\": 8, \"column\": \"abv\", \"value\": \"0.054\"}\n]}\n```"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":4,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":4,\"column\":\"state\",\"value\":\"TX\"},{\"row\":6,\"column\":\"city\",\"value\":\"Joumortas Mormortas\"},{\"row\":6,\"column\":\"state\",\"value\":\"CA\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":8,\"column\":\"city\",\"value\":\"Wexcalpim\"},{\"row\":8,\"column\":\"state\",\"value\":\"OR\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.092\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.082\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 13, \"column\": \"brewery-name\", \"value\": \"Hepjouzar 'Vaskelosk' Brewing\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.054\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":5,\"column\":\"city\",\"value\":\"Rhobrinosk\"},{\"row\":5,\"column\":\"state\",\"value\":\"ME\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.035\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":5,\"column\":\"city\",\"value\":\"Wexulahep\"},{\"row\":5,\"column\":\"state\",\"value\":\"CA\"},{\"row\":7,\"column\":\"city\",\"value\":\"Torfenrho\"},{\"row\":7,\"column\":\"state\",\"value\":\"TX\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":16,\"column\":\"city\",\"value\":\"Brinfenwex\"},{\"row\":16,\"column\":\"state\",\"value\":\"MI\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.056\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":15,\"column\":\"state\",\"value\":\"ME\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"city\", \"value\": \"Fentasmor Kelcal\"}, {\"row\": 2, \"column\": \"state\", \"value\": \"FL\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Saint Baulaba\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MO\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"city\",\"value\":\"Lozartasba\"},{\"row\":4,\"column\":\"state\",\"value\":\"MT\"},{\"row\":11,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":11,\"column\":\"state\",\"value\":\"TX\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\":[{\"row\":14,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":19,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":19,\"column\":\"state\",\"value\":\"ME\"},{\"row\":20,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":20,\"column\":\"state\",\"value\":\"TX\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Oskbrinpim\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"IL\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Kelvelny Nyjou\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Gardrigar\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Vastorrho\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":4,\"column\":\"city\",\"value\":\"Garlo Pimdribrin\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.053\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 6, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Veldriba\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"St. Lojouula\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Chicago\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"IL\"}, {\"row\": 3, \"column\": \"city\", \"value\": \"Louisville\"}, {\"row\": 3, \"column\": \"state\", \"value\": \"KY\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Baltimore\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"MD\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Louisville\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"KY\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Baltimore\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"MD\"}, {\"row\": 10, \"column\": \"city\", \"value\": \"Baltimore\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"MD\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 16, \"column\": \"city\", \"value\": \"Louisville\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"KY\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 6, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"city\", \"value\": \"Newport\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Newport\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Newport\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Seattle\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"WA\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Seattle\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"WA\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Seattle\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"WA\"}, {\"row\": 12, \"column\": \"city\", \"value\": \"Boone\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"NC\"}, {\"row\": 16, \"column\": \"city\", \"value\": \"Boone\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"NC\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Boone\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"NC\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":1,\"column\":\"city\",\"value\":\"Quenkeltor Vaszar\"},{\"row\":1,\"column\":\"state\",\"value\":\"SC\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":6,\"column\":\"city\",\"value\":\"Erie\"},{\"row\":6,\"column\":\"state\",\"value\":\"PA\"},{\"row\":7,\"column\":\"city\",\"value\":\"Talkeetna\"},{\"row\":7,\"column\":\"state\",\"value\":\"AK\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":9,\"column\":\"city\",\"value\":\"Talkeetna\"},{\"row\":9,\"column\":\"state\",\"value\":\"AK\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":11,\"column\":\"city\",\"value\":\"Torbavas\"},{\"row\":11,\"column\":\"state\",\"value\":\"WI\"},{\"row\":12,\"column\":\"city\",\"value\":\"Talkeetna\"},{\"row\":12,\"column\":\"state\",\"value\":\"AK\"},{\"row\":13,\"column\":\"city\",\"value\":\"Abingdon\"},{\"row\":13,\"column\":\"state\",\"value\":\"VA\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.092\"},{\"row\":14,\"column\":\"city\",\"value\":\"Abingdon\"},{\"row\":14,\"column\":\"state\",\"value\":\"VA\"},{\"row\":15,\"column\":\"city\",\"value\":\"Abingdon\"},{\"row\":15,\"column\":\"state\",\"value\":\"VA\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Vaslony\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"brewery-name\", \"value\": \"Morlozar Velgar Brewing Company\"}, {\"row\": 14, \"column\": \"brewery-name\", \"value\": \"Bajou 24 Craft Brewery\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"city\",\"value\":\"Wexulahep\"},{\"row\":9,\"column\":\"state\",\"value\":\"CA\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"city\", \"value\": \"Bucyrus\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Bucyrus\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Bucyrus\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.056%\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072%\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"WI\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Pimdriulasul\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"NM\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.087\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"city\", \"value\": \"Mornyvel\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Brinvasbrin\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"AK\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.057\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.067\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":17,\"column\":\"city\",\"value\":\"Joumortas Mormortas\"},{\"row\":19,\"column\":\"city\",\"value\":\"Pimtorvelrho\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Double / Imperial Stout\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.099%\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.059%\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.07%\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.056%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.061%\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.069%\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.068%\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Saint Baulaba\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MO\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.068\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Jouveltor\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"IN\"}, {\"row\": 10, \"column\": \"city\", \"value\": \"Brinvasbrin\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"AK\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"TX\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.099\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.073\"}, {\"row\": 12, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.085\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Brinnyvel\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"NY\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.072\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":6,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":6,\"column\":\"city\",\"value\":\"Veldriba\"},{\"row\":6,\"column\":\"state\",\"value\":\"CO\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":15,\"column\":\"city\",\"value\":\"St. Lojouula\"},{\"row\":15,\"column\":\"state\",\"value\":\"MN\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MI\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 6, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.095\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Quenkeltor Vaszar\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"SC\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"WI\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":9,\"column\":\"city\",\"value\":\"Vaslony\"},{\"row\":9,\"column\":\"state\",\"value\":\"CO\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":14,\"column\":\"brewery-name\",\"value\":\"Bajou 24 Craft Brewery\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 2, \"column\": \"abv\", \"value\": \"0.062\"},\n{\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"},\n{\"row\": 9, \"column\": \"city\", \"value\": \"Wexulahep\"},\n{\"row\": 9, \"column\": \"state\", \"value\": \"CA\"},\n{\"row\": 10, \"column\": \"abv\", \"value\": \"0.058\"},\n{\"row\": 13, \"column\": \"abv\", \"value\": \"0.049\"},\n{\"row\": 15, \"column\": \"abv\", \"value\": \"0.06\"}\n]}\n```"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 16, \"column\": \"state\", \"value\": \"WI\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":14,\"column\":\"city\",\"value\":\"Pimdriulasul\"},{\"row\":14,\"column\":\"state\",\"value\":\"NM\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.087\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\":[{\"row\":8,\"column\":\"city\",\"value\":\"Mornyvel\"},{\"row\":8,\"column\":\"state\",\"value\":\"CO\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":17,\"column\":\"city\",\"value\":\"Brinvasbrin\"},{\"row\":17,\"column\":\"state\",\"value\":\"AK\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.057\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.067\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":17,\"column\":\"city\",\"value\":\"Joumortas\"},{\"row\":17,\"column\":\"state\",\"value\":\"CA\"},{\"row\":19,\"column\":\"city\",\"value\":\"Pimtorvelrho\"},{\"row\":19,\"column\":\"state\",\"value\":\"NC\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Double / Imperial Stout\"}, {\"row\": 15, \"column\": \"style\", \"value\": \"American White IPA\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Saint Baulaba\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MO\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.068\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":6,\"column\":\"city\",\"value\":\"Jouveltor\"},{\"row\":6,\"column\":\"state\",\"value\":\"IN\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"city\",\"value\":\"Brinvasbrin\"},{\"row\":10,\"column\":\"state\",\"value\":\"AK\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":13,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":13,\"column\":\"state\",\"value\":\"TX\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.05\"}]}"
+ },
+ {
+  "type": "real",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.099\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.073\"}, {\"row\": 12, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.085\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Brinnyvel\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"NY\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.072\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 2, \"column\": \"abv\", \"value\": \"0.045\"},\n{\"row\": 5, \"column\": \"abv\", \"value\": \"0.069\"},\n{\"row\": 6, \"column\": \"abv\", \"value\": \"0.065\"},\n{\"row\": 8, \"column\": \"city\", \"value\": \"Nytasbrin\"},\n{\"row\": 8, \"column\": \"state\", \"value\": \"OR\"},\n{\"row\": 9, \"column\": \"abv\", \"value\": \"0.062\"},\n{\"row\": 9, \"column\": \"city\", \"value\": \"Loveldri\"},\n{\"row\": 9, \"column\": \"state\", \"value\": \"GA\"},\n{\"row\": 11, \"column\": \"abv\", \"value\": \"0.055\"},\n{\"row\": 11, \"column\": \"city\", \"value\": \"Rhodrizar\"},\n{\"row\": 11, \"column\": \"state\", \"value\": \"MA\"},\n{\"row\": 12, \"column\": \"abv\", \"value\": \"0.051\"},\n{\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"},\n{\"row\": 14, \"column\": \"city\", \"value\": \"Calzarkel\"},\n{\"row\": 14, \"column\": \"state\", \"value\": \"IN\"},\n{\"row\": 18, \"column\": \"abv\", \"value\": \"0.08\"},\n{\"row\": 18, \"column\": \"city\", \"value\": \"Gardrigar\"},\n{\"row\": 18, \"column\": \"state\", \"value\": \"MA\"},\n{\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"},\n{\"row\": 20, \"column\": \"brewery-name\", \"value\": \"French Broad Brewery\"}\n]}\n```"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 2, \"column\": \"beer-name\", \"value\": \"Garbrin Wheat Ulakel Vasrho\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Santa Torhepvas\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Zarrhoula\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"WA\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.125\"}, {\"row\": 7, \"column\": \"brewery-name\", \"value\": \"Revolution Brewing Company\"}, {\"row\": 13, \"column\": \"brewery-name\", \"value\": \"Against The Grain Brewery\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"Velmorrho\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"VT\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Rhobrinosk\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 20, \"column\": \"brewery-name\", \"value\": \"The Brewer's Art\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 11, \"column\": \"brewery-name\", \"value\": \"Great River Brewery\"}, {\"row\": 15, \"column\": \"brewery-name\", \"value\": \"Sherwood Forest Brewers\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Saint Louis\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Boone\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"NC\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Portland\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Joumortas Mormortas\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Wexcalpim\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"St Quenjouwex\"}, {\"row\": 13, \"column\": \"brewery-name\", \"value\": \"Hepjouzar Vaskelosk Brewing\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.054\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Rhobrinosk\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.035\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":5,\"column\":\"city\",\"value\":\"Wexulahep\"},{\"row\":5,\"column\":\"state\",\"value\":\"CA\"},{\"row\":7,\"column\":\"city\",\"value\":\"Torfenrho\"},{\"row\":7,\"column\":\"state\",\"value\":\"TX\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":8,\"column\":\"brewery-name\",\"value\":\"Steamworks Brewing Company\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":16,\"column\":\"city\",\"value\":\"Brinfenwex\"},{\"row\":16,\"column\":\"state\",\"value\":\"MI\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":20,\"column\":\"brewery-name\",\"value\":\"18th Street Brewery\"},{\"row\":20,\"column\":\"city\",\"value\":\"Bucyrus\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 7, \"column\": \"brewery-name\", \"value\": \"Everybody's Brewing\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"brewery-name\", \"value\": \"Bakelmor Garvelba Lager & Ale Brewing Company\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 2, \"column\": \"state\", \"value\": \"FL\"},\n{\"row\": 3, \"column\": \"abv\", \"value\": \"0.056%\"},\n{\"row\": 5, \"column\": \"state\", \"value\": \"OR\"},\n{\"row\": 8, \"column\": \"state\", \"value\": \"MI\"},\n{\"row\": 10, \"column\": \"brewery-name\", \"value\": \"Harpoon Brewery\"},\n{\"row\": 17, \"column\": \"brewery-name\", \"value\": \"Hops & Grain Brewery\"},\n{\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}\n]}\n```"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Lozartasba\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"MT\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.063\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 14, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"TX\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.09\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 19, \"column\": \"brewery-name\", \"value\": \"Kelrhocal Bringar\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Tassulkel It Tasjoulovel\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\":[{\"row\":6,\"column\":\"brewery-name\",\"value\":\"Ale Asylum\"},{\"row\":18,\"column\":\"brewery-name\",\"value\":\"Lift Bridge Brewing Company\"},{\"row\":5,\"column\":\"city\",\"value\":\"Oskbrinpim\"},{\"row\":5,\"column\":\"state\",\"value\":\"IL\"},{\"row\":8,\"column\":\"city\",\"value\":\"Kelvelny Nyjou\"},{\"row\":8,\"column\":\"state\",\"value\":\"WI\"},{\"row\":13,\"column\":\"city\",\"value\":\"Gardrigar\"},{\"row\":13,\"column\":\"state\",\"value\":\"MA\"},{\"row\":14,\"column\":\"city\",\"value\":\"Vastorrho\"},{\"row\":14,\"column\":\"state\",\"value\":\"MN\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Garlo Pimdribrin\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.099\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.069\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":8,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":8,\"column\":\"state\",\"value\":\"OR\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":9,\"column\":\"city\",\"value\":\"Loveldri\"},{\"row\":9,\"column\":\"state\",\"value\":\"GA\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":11,\"column\":\"city\",\"value\":\"Rhodrizar\"},{\"row\":11,\"column\":\"state\",\"value\":\"MA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":14,\"column\":\"city\",\"value\":\"Calzarkel\"},{\"row\":14,\"column\":\"state\",\"value\":\"IN\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":18,\"column\":\"city\",\"value\":\"Gardrigar\"},{\"row\":18,\"column\":\"state\",\"value\":\"MA\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"city\", \"value\": \"Santa Torhepvas\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 7, \"column\": \"brewery-name\", \"value\": \"Revolution Brewing Company\"}, {\"row\": 13, \"column\": \"brewery-name\", \"value\": \"Against The Grain Brewery\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"Velmorrho\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"VT\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Rhobrinosk\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 20, \"column\": \"brewery-name\", \"value\": \"The Brewer's Art\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.056%\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Pimquenula\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.054%\"}, {\"row\": 15, \"column\": \"brewery-name\", \"value\": \"Sherwood Forest Brewers\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Appalachian Mountain Brewery\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Joumortas Mormortas\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Wexcalpim\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.051\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.054\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":5,\"column\":\"city\",\"value\":\"Rhobrinosk\"},{\"row\":5,\"column\":\"state\",\"value\":\"ME\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.035\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":5,\"column\":\"city\",\"value\":\"Wexulahep\"},{\"row\":5,\"column\":\"state\",\"value\":\"CA\"},{\"row\":7,\"column\":\"city\",\"value\":\"Torfenrho\"},{\"row\":7,\"column\":\"state\",\"value\":\"TX\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":8,\"column\":\"brewery-name\",\"value\":\"Steamworks Brewing Company\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":16,\"column\":\"city\",\"value\":\"Brinfenwex\"},{\"row\":16,\"column\":\"state\",\"value\":\"MI\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":20,\"column\":\"brewery-name\",\"value\":\"18th Street Brewery\"},{\"row\":20,\"column\":\"city\",\"value\":\"Bucyrus\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":15,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":15,\"column\":\"state\",\"value\":\"ME\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"brewery-name\", \"value\": \"Bakelmor Garvelba Lager & Ale Brewing Company\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"city\",\"value\":\"Fentasmor Kelcal\"},{\"row\":2,\"column\":\"state\",\"value\":\"FL\"},{\"row\":5,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":5,\"column\":\"state\",\"value\":\"OR\"},{\"row\":8,\"column\":\"city\",\"value\":\"Brinzarwex\"},{\"row\":8,\"column\":\"state\",\"value\":\"MI\"},{\"row\":20,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":20,\"column\":\"state\",\"value\":\"OR\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"city\",\"value\":\"Lozartasba\"},{\"row\":4,\"column\":\"state\",\"value\":\"MT\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.058%\"},{\"row\":11,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":11,\"column\":\"state\",\"value\":\"TX\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"brewery-name\", \"value\": \"Central Coast Brewing Company\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.059%\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"TX\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.09\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":5,\"column\":\"city\",\"value\":\"Oskbrinpim\"},{\"row\":5,\"column\":\"state\",\"value\":\"IL\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":8,\"column\":\"state\",\"value\":\"WI\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.082\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":13,\"column\":\"city\",\"value\":\"Gardrigar\"},{\"row\":13,\"column\":\"state\",\"value\":\"MA\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":14,\"column\":\"city\",\"value\":\"Vastorrho\"},{\"row\":14,\"column\":\"state\",\"value\":\"MN\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.045\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Garlo Pimdribrin\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.099\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 6, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Veldriba\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"St. Lojouula\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.125\"}, {\"row\": 1, \"column\": \"brewery-name\", \"value\": \"Revolution Brewing Company\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 3, \"column\": \"brewery-name\", \"value\": \"Against The Grain Brewery\"}, {\"row\": 5, \"column\": \"brewery-name\", \"value\": \"The Brewer's Art\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.046\"}, {\"row\": 11, \"column\": \"brewery-name\", \"value\": \"Revolution Brewing Company\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 15, \"column\": \"brewery-name\", \"value\": \"Revolution Brewing Company\"}, {\"row\": 16, \"column\": \"brewery-name\", \"value\": \"Against The Grain Brewery\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.065\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 6, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 8, \"column\": \"brewery-name\", \"value\": \"Sherwood Forest Brewers\"}, {\"row\": 11, \"column\": \"brewery-name\", \"value\": \"Sherwood Forest Brewers\"}, {\"row\": 12, \"column\": \"brewery-name\", \"value\": \"Sherwood Forest Brewers\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.095\"}, {\"row\": 12, \"column\": \"brewery-name\", \"value\": \"Appalachian Mountain Brewery\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 16, \"column\": \"brewery-name\", \"value\": \"Appalachian Mountain Brewery\"}, {\"row\": 17, \"column\": \"brewery-name\", \"value\": \"Appalachian Mountain Brewery\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 1, \"column\": \"city\", \"value\": \"Quenkeltor Vaszar\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"SC\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.06\"}]}\n```"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":9,\"column\":\"city\",\"value\":\"Vaslony\"},{\"row\":9,\"column\":\"state\",\"value\":\"CO\"},{\"row\":11,\"column\":\"brewery-name\",\"value\":\"Morlozar Velgar Brewing Company\"},{\"row\":14,\"column\":\"brewery-name\",\"value\":\"Bajou 24 Craft Brewery\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "```json\n{\"corrections\": [\n{\"row\": 2, \"column\": \"abv\", \"value\": \"0.062\"},\n{\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"},\n{\"row\": 9, \"column\": \"city\", \"value\": \"Wexulahep\"},\n{\"row\": 9, \"column\": \"state\", \"value\": \"CA\"},\n{\"row\": 10, \"column\": \"abv\", \"value\": \"0.058\"},\n{\"row\": 13, \"column\": \"abv\", \"value\": \"0.049\"},\n{\"row\": 15, \"column\": \"abv\", \"value\": \"0.06\"},\n{\"row\": 20, \"column\": \"brewery-name\", \"value\": \"The Sulbrinzar's Brewing Company\"}\n]}\n```"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"brewery-name\", \"value\": \"18th Street Brewery\"}, {\"row\": 2, \"column\": \"city\", \"value\": \"Bucyrus\"}, {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"18th Street Brewery\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Bucyrus\"}, {\"row\": 8, \"column\": \"brewery-name\", \"value\": \"18th Street Brewery\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Bucyrus\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.056%\"}, {\"row\": 9, \"column\": \"brewery-name\", \"value\": \"Steamworks Brewing Company\"}, {\"row\": 10, \"column\": \"brewery-name\", \"value\": \"Steamworks Brewing Company\"}, {\"row\": 11, \"column\": \"brewery-name\", \"value\": \"Steamworks Brewing Company\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072%\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"WI\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.055999999999999994\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Pimdriulasul\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"NM\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.087\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"brewery-name\", \"value\": \"Renegade Brewing Company\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Mornyvel\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Brinvasbrin\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"AK\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.057\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"0.067\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.073\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Joumortas Mormortas\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Pimtorvelrho\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"NC\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"city\",\"value\":\"Drizarvel\"},{\"row\":1,\"column\":\"state\",\"value\":\"PA\"},{\"row\":2,\"column\":\"style\",\"value\":\"American Double / Imperial Stout\"},{\"row\":15,\"column\":\"style\",\"value\":\"American White IPA\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Saint Baulaba\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MO\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.068\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 7, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Jouveltor\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"IN\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 10, \"column\": \"city\", \"value\": \"Brinvasbrin\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"AK\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.085\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":12,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":12,\"column\":\"state\",\"value\":\"TX\"},{\"row\":14,\"column\":\"city\",\"value\":\"Brinnyvel\"},{\"row\":14,\"column\":\"state\",\"value\":\"NY\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":6,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":6,\"column\":\"city\",\"value\":\"Veldriba\"},{\"row\":6,\"column\":\"state\",\"value\":\"CO\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":8,\"column\":\"abv\",\"value\":\"\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":15,\"column\":\"city\",\"value\":\"St. Lojouula\"},{\"row\":15,\"column\":\"state\",\"value\":\"MN\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":7,\"column\":\"abv\",\"value\":\"0.052%\"},{\"row\":14,\"column\":\"city\",\"value\":\"Brinzarwex\"},{\"row\":14,\"column\":\"state\",\"value\":\"MI\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":6,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":20,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":20,\"column\":\"state\",\"value\":\"OR\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.095\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":9,\"column\":\"city\",\"value\":\"Vaslony\"},{\"row\":9,\"column\":\"state\",\"value\":\"CO\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":14,\"column\":\"brewery-name\",\"value\":\"Bajou 24 Craft Brewery\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"city\",\"value\":\"Wexulahep\"},{\"row\":9,\"column\":\"state\",\"value\":\"CA\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"brewery-name\",\"value\":\"18th Street Brewery\"},{\"row\":2,\"column\":\"city\",\"value\":\"Bucyrus\"},{\"row\":6,\"column\":\"brewery-name\",\"value\":\"18th Street Brewery\"},{\"row\":6,\"column\":\"city\",\"value\":\"Bucyrus\"},{\"row\":8,\"column\":\"brewery-name\",\"value\":\"18th Street Brewery\"},{\"row\":8,\"column\":\"city\",\"value\":\"Bucyrus\"},{\"row\":9,\"column\":\"brewery-name\",\"value\":\"Steamworks Brewing Company\"},{\"row\":10,\"column\":\"brewery-name\",\"value\":\"Steamworks Brewing Company\"},{\"row\":11,\"column\":\"brewery-name\",\"value\":\"Steamworks Brewing Company\"},{\"row\":16,\"column\":\"city\",\"value\":\"Pimdribrin Garlo\"},{\"row\":16,\"column\":\"state\",\"value\":\"WI\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Pimdriulasul\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"NM\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.087\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\":[{\"row\":8,\"column\":\"city\",\"value\":\"Mornyvel\"},{\"row\":8,\"column\":\"state\",\"value\":\"CO\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":17,\"column\":\"city\",\"value\":\"Brinvasbrin\"},{\"row\":17,\"column\":\"state\",\"value\":\"AK\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.057\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.067\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":17,\"column\":\"city\",\"value\":\"Joumortas Mormortas\"},{\"row\":17,\"column\":\"state\",\"value\":\"CA\"},{\"row\":19,\"column\":\"city\",\"value\":\"Pimtorvelrho\"},{\"row\":19,\"column\":\"state\",\"value\":\"NC\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"PA\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Saint Baulaba\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MO\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\":[{\"row\":7,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":7,\"column\":\"state\",\"value\":\"TX\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.045\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":6,\"column\":\"city\",\"value\":\"Jouveltor\"},{\"row\":6,\"column\":\"state\",\"value\":\"IN\"},{\"row\":10,\"column\":\"city\",\"value\":\"Brinvasbrin\"},{\"row\":10,\"column\":\"state\",\"value\":\"AK\"},{\"row\":13,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":13,\"column\":\"state\",\"value\":\"TX\"}]}"
+ },
+ {
+  "type": "near",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":12,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":12,\"column\":\"state\",\"value\":\"TX\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.085\"},{\"row\":14,\"column\":\"city\",\"value\":\"Brinnyvel\"},{\"row\":14,\"column\":\"state\",\"value\":\"NY\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.072\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 3, \"column\": \"beer-name\", \"value\": \"Garbrin Wheat Ulakel Vasrho\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Loveldri\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"GA\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Rhodrizar\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Calzarkel\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"IN\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Gardrigar\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 2, \"column\": \"beer-name\", \"value\": \"Garbrin Wheat Ulakel Vasrho\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Santa Torhepvas\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.125\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"Velmorrho\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"VT\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Rhobrinosk\"}, {\"row\": 18, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Pimquenula\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.054\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.069\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.04\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":4,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":4,\"column\":\"state\",\"value\":\"TX\"},{\"row\":6,\"column\":\"city\",\"value\":\"Joumortas Mormortas\"},{\"row\":6,\"column\":\"state\",\"value\":\"CA\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":8,\"column\":\"city\",\"value\":\"Wexcalpim\"},{\"row\":8,\"column\":\"state\",\"value\":\"OR\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.092\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.082\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.051\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 1, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.066\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Rhobrinosk\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.035\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Wexulahep\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Torfenrho\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.068\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 16, \"column\": \"city\", \"value\": \"Brinfenwex\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.075\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.056\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.07\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"brewery-name\", \"value\": \"Bakelmor Garvelba Brewing Company\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.05\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"city\", \"value\": \"Fentasmor Kelcal\"}, {\"row\": 2, \"column\": \"state\", \"value\": \"FL\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 3, \"column\": \"brewery-name\", \"value\": \"Calrho Brewing Company\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"MT\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.063\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 14, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Fenfen Joubrintas\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"TX\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 11, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.09\"}, {\"row\": 14, \"column\": \"brewery-name\", \"value\": \"The Sulbrinzar's Brewing Company\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.042\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 17, \"column\": \"beer-name\", \"value\": \"Velzargar's Quenvel\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":5,\"column\":\"city\",\"value\":\"Oskbrinpim\"},{\"row\":5,\"column\":\"state\",\"value\":\"IL\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":8,\"column\":\"city\",\"value\":\"Kelvelny Nyjou\"},{\"row\":8,\"column\":\"state\",\"value\":\"WI\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.082\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":13,\"column\":\"city\",\"value\":\"Gardrigar\"},{\"row\":13,\"column\":\"state\",\"value\":\"MA\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":14,\"column\":\"city\",\"value\":\"Vastorrho\"},{\"row\":14,\"column\":\"state\",\"value\":\"MN\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.045\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.07200000000000001\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Garlo Pimdribrin\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.099\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.07200000000000001\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.069\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":8,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":8,\"column\":\"state\",\"value\":\"OR\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":9,\"column\":\"city\",\"value\":\"Loveldri\"},{\"row\":9,\"column\":\"state\",\"value\":\"GA\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":11,\"column\":\"city\",\"value\":\"Rhodrizar\"},{\"row\":11,\"column\":\"state\",\"value\":\"MA\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":14,\"column\":\"city\",\"value\":\"Calzarkel\"},{\"row\":14,\"column\":\"state\",\"value\":\"IN\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":18,\"column\":\"city\",\"value\":\"Gardrigar\"},{\"row\":18,\"column\":\"state\",\"value\":\"MA\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":2,\"column\":\"beer-name\",\"value\":\"Garbrin Wheat Ulakel Vasrho\"},{\"row\":5,\"column\":\"city\",\"value\":\"Santa Torhepvas\"},{\"row\":5,\"column\":\"state\",\"value\":\"CA\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.125\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":15,\"column\":\"city\",\"value\":\"Velmorrho\"},{\"row\":15,\"column\":\"state\",\"value\":\"VT\"},{\"row\":18,\"column\":\"city\",\"value\":\"Rhobrinosk\"},{\"row\":18,\"column\":\"state\",\"value\":\"ME\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"0.061\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.051\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Pimquenula\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.077\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.046\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.069\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.04\"},{\"row\":7,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":7,\"column\":\"state\",\"value\":\"OR\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.061\"},{\"row\":17,\"column\":\"city\",\"value\":\"Drizarvel\"},{\"row\":17,\"column\":\"state\",\"value\":\"PA\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":4,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":4,\"column\":\"state\",\"value\":\"TX\"},{\"row\":6,\"column\":\"city\",\"value\":\"Joumortas Mormortas\"},{\"row\":6,\"column\":\"state\",\"value\":\"CA\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":8,\"column\":\"city\",\"value\":\"Wexcalpim\"},{\"row\":8,\"column\":\"state\",\"value\":\"OR\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.092\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.082\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":1,\"column\":\"city\",\"value\":\"Torbavas\"},{\"row\":1,\"column\":\"state\",\"value\":\"WI\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.066\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":5,\"column\":\"city\",\"value\":\"Rhobrinosk\"},{\"row\":5,\"column\":\"state\",\"value\":\"ME\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.035\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":5,\"column\":\"city\",\"value\":\"Wexulahep\"},{\"row\":5,\"column\":\"state\",\"value\":\"CA\"},{\"row\":7,\"column\":\"city\",\"value\":\"Torfenrho\"},{\"row\":7,\"column\":\"state\",\"value\":\"TX\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.068\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":16,\"column\":\"city\",\"value\":\"Brinfenwex\"},{\"row\":16,\"column\":\"state\",\"value\":\"MI\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.075\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.056\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":15,\"column\":\"state\",\"value\":\"ME\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.07\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 3, \"column\": \"abv\", \"value\": \"0.065%\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.059%\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.071%\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.048%\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.062%\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.055%\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.053%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.077%\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.051%\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.05%\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.055%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"city\", \"value\": \"Fentasmor Kelcal\"}, {\"row\": 2, \"column\": \"state\", \"value\": \"FL\"}, {\"row\": 5, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Saint Baulaba\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MO\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\":[{\"row\":3,\"column\":\"brewery-name\",\"value\":\"Calrho Brewing Company\"},{\"row\":4,\"column\":\"city\",\"value\":\"Lozartasba\"},{\"row\":4,\"column\":\"state\",\"value\":\"MT\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":11,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":11,\"column\":\"state\",\"value\":\"TX\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\":[{\"row\":14,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":19,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":19,\"column\":\"state\",\"value\":\"ME\"},{\"row\":20,\"column\":\"city\",\"value\":\"Fenfen Joubrintas\"},{\"row\":20,\"column\":\"state\",\"value\":\"TX\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":9,\"column\":\"city\",\"value\":\"Drizarvel\"},{\"row\":9,\"column\":\"state\",\"value\":\"PA\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":11,\"column\":\"style\",\"value\":\"American Pale Ale (APA)\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.09\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.055\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"city\", \"value\": \"Oskbrinpim\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"IL\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Kelvelny Nyjou\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.082\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Gardrigar\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Vastorrho\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.052\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "1",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":4,\"column\":\"city\",\"value\":\"Garlo Pimdribrin\"},{\"row\":4,\"column\":\"state\",\"value\":\"WI\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":9,\"column\":\"state\",\"value\":\"TX\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":12,\"column\":\"abv\",\"value\":\"0.072\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.053\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 0,
+  "output": "{\"corrections\": [{\"row\": 6, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Veldriba\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"St. Lojouula\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 1,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.125\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.046\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Brinzarwex\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"MI\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"0.065\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 2,
+  "output": "{\"corrections\": [{\"row\": 6, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.045\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.059\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.07\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Nytasbrin\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"OR\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 3,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"0.08\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.095\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.069\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 1, \"column\": \"city\", \"value\": \"Quenkeltor Vaszar\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"SC\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.06\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.047\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"0.092\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 5,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Vaslony\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 14, \"column\": \"brewery-name\", \"value\": \"Bajou 24 Craft Brewery\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 6,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"abv\", \"value\": \"0.062\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Wexulahep\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"0.058\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.06\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 2, \"column\": \"city\", \"value\": \"Bucyrus\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.056%\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072%\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"WI\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 8,
+  "output": "{\"corrections\": [{\"row\": 5, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Pimdriulasul\"}, {\"row\": 14, \"column\": \"state\", \"value\": \"NM\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.057\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.087\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 9,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"city\", \"value\": \"Mornyvel\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Brinvasbrin\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"AK\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"0.057\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 10,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.067\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":17,\"column\":\"city\",\"value\":\"Joumortas\"},{\"row\":17,\"column\":\"state\",\"value\":\"CA\"},{\"row\":19,\"column\":\"city\",\"value\":\"Pimtorvelrho\"},{\"row\":19,\"column\":\"state\",\"value\":\"NC\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 11,
+  "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"city\", \"value\": \"Drizarvel\"}, {\"row\": 1, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 2, \"column\": \"style\", \"value\": \"American Double / Imperial Stout\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"0.099%\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.059%\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"0.07%\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"0.056%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"0.061%\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.069%\"}]}\n```"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 12,
+  "output": "{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Saint Baulaba\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MO\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"0.068\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 13,
+  "output": "```json\n{\"corrections\": [{\"row\": 7, \"column\": \"city\", \"value\": \"Torfenosk\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.057999999999999996\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"0.045\"}]}\n```"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 14,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":6,\"column\":\"city\",\"value\":\"Jouveltor\"},{\"row\":6,\"column\":\"state\",\"value\":\"IN\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"city\",\"value\":\"Brinvasbrin\"},{\"row\":10,\"column\":\"state\",\"value\":\"AK\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":13,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":13,\"column\":\"state\",\"value\":\"TX\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.05\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "standard",
+  "chunk": 15,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":12,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":12,\"column\":\"state\",\"value\":\"TX\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.085\"},{\"row\":14,\"column\":\"city\",\"value\":\"Brinnyvel\"},{\"row\":14,\"column\":\"state\",\"value\":\"NY\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.072\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 0,
+  "output": "{\"corrections\":[{\"row\":6,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":6,\"column\":\"state\",\"value\":\"CO\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":14,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.047\"},{\"row\":15,\"column\":\"state\",\"value\":\"MN\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":20,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 1,
+  "output": "{\"corrections\":[{\"row\":7,\"column\":\"abv\",\"value\":\"0.052\"},{\"row\":14,\"column\":\"city\",\"value\":\"Brinzarwex\"},{\"row\":14,\"column\":\"state\",\"value\":\"MI\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 2,
+  "output": "{\"corrections\":[{\"row\":6,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":8,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.059\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.07\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":20,\"column\":\"city\",\"value\":\"Nytasbrin\"},{\"row\":20,\"column\":\"state\",\"value\":\"OR\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 3,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":2,\"column\":\"abv\",\"value\":\"0.08\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.095\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.054\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.069\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 4,
+  "output": "{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"0.054\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Torbavas\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"WI\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 5,
+  "output": "```json\n{\"corrections\": [{\"row\": 4, \"column\": \"abv\", \"value\": \"0.065\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.055\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Vaslony\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"0.05\"}, {\"row\": 14, \"column\": \"beer-name\", \"value\": \"Bajou 15 Helles Lager\"}]}\n```"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 6,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.062\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":9,\"column\":\"city\",\"value\":\"Wexulahep\"},{\"row\":9,\"column\":\"state\",\"value\":\"CA\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":15,\"column\":\"city\",\"value\":\"Paso Robles\"},{\"row\":15,\"column\":\"state\",\"value\":\"CA\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 7,
+  "output": "{\"corrections\": [{\"row\": 8, \"column\": \"abv\", \"value\": \"0.056\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"0.072\"}, {\"row\": 16, \"column\": \"city\", \"value\": \"Garlo Pimdribrin\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"WI\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 8,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":7,\"column\":\"abv\",\"value\":\"0.065\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":14,\"column\":\"city\",\"value\":\"Pimdriulasul\"},{\"row\":14,\"column\":\"state\",\"value\":\"NM\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.049\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.087\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 9,
+  "output": "{\"corrections\":[{\"row\":8,\"column\":\"city\",\"value\":\"Mornyvel\"},{\"row\":8,\"column\":\"state\",\"value\":\"CO\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.056\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":17,\"column\":\"city\",\"value\":\"Brinvasbrin\"},{\"row\":17,\"column\":\"state\",\"value\":\"AK\"},{\"row\":19,\"column\":\"abv\",\"value\":\"0.057\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 10,
+  "output": "{\"corrections\":[{\"row\":2,\"column\":\"abv\",\"value\":\"0.057\"},{\"row\":3,\"column\":\"abv\",\"value\":\"0.067\"},{\"row\":4,\"column\":\"abv\",\"value\":\"0.042\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":17,\"column\":\"city\",\"value\":\"Joumortas Mormortas\"},{\"row\":17,\"column\":\"state\",\"value\":\"CA\"},{\"row\":19,\"column\":\"city\",\"value\":\"Pimtorvelrho\"},{\"row\":19,\"column\":\"state\",\"value\":\"NC\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 11,
+  "output": "{\"corrections\":[{\"row\":1,\"column\":\"city\",\"value\":\"Drizarvel\"},{\"row\":1,\"column\":\"state\",\"value\":\"PA\"},{\"row\":6,\"column\":\"abv\",\"value\":\"0.099%\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.059%\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.07%\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.056%\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.061%\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.069%\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 12,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":5,\"column\":\"abv\",\"value\":\"0.05\"},{\"row\":11,\"column\":\"city\",\"value\":\"Saint Baulaba\"},{\"row\":11,\"column\":\"state\",\"value\":\"MO\"},{\"row\":17,\"column\":\"abv\",\"value\":\"0.068\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 13,
+  "output": "{\"corrections\":[{\"row\":7,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":7,\"column\":\"state\",\"value\":\"TX\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.058\"},{\"row\":18,\"column\":\"abv\",\"value\":\"0.045\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 14,
+  "output": "{\"corrections\":[{\"row\":5,\"column\":\"abv\",\"value\":\"0.045\"},{\"row\":6,\"column\":\"city\",\"value\":\"Jouveltor\"},{\"row\":6,\"column\":\"state\",\"value\":\"IN\"},{\"row\":9,\"column\":\"abv\",\"value\":\"0.055\"},{\"row\":10,\"column\":\"city\",\"value\":\"Brinvasbrin\"},{\"row\":10,\"column\":\"state\",\"value\":\"AK\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.06\"},{\"row\":13,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":13,\"column\":\"state\",\"value\":\"TX\"},{\"row\":15,\"column\":\"abv\",\"value\":\"0.05\"}]}"
+ },
+ {
+  "type": "control",
+  "support": "3",
+  "prompt": "evidence",
+  "chunk": 15,
+  "output": "{\"corrections\":[{\"row\":4,\"column\":\"abv\",\"value\":\"0.099\"},{\"row\":5,\"column\":\"beer-name\",\"value\":\"Wexsul' Pimwex'\"},{\"row\":10,\"column\":\"abv\",\"value\":\"0.051\"},{\"row\":11,\"column\":\"abv\",\"value\":\"0.073\"},{\"row\":12,\"column\":\"city\",\"value\":\"Torfenosk\"},{\"row\":12,\"column\":\"state\",\"value\":\"TX\"},{\"row\":13,\"column\":\"abv\",\"value\":\"0.085\"},{\"row\":14,\"column\":\"city\",\"value\":\"Brinnyvel\"},{\"row\":14,\"column\":\"state\",\"value\":\"NY\"},{\"row\":16,\"column\":\"abv\",\"value\":\"0.072\"}]}"
+ }
+]

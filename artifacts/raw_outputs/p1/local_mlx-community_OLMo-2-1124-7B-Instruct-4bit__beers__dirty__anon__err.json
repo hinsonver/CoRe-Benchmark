@@ -1,0 +1,351 @@
+{
+ "summary": {
+  "model": "local:mlx-community/OLMo-2-1124-7B-Instruct-4bit",
+  "dataset": "beers",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": true,
+  "skipped_counter_cols": [
+   "index"
+  ],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.219,
+  "acc_noninferable": 0.0088,
+  "noninferable_cells": 226,
+  "acc_hard": 0.0,
+  "hard_cells": 200,
+  "leak_rate": 0.0,
+  "leak_cells": 84,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 23,
+  "per_column": {
+   "id": {
+    "n": 50,
+    "model": 0.04,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.36
+   },
+   "beer-name": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "abv": {
+    "n": 35,
+    "model": 0.0,
+    "freq": 0.057,
+    "trans": 0.029,
+    "structural": 0.086
+   },
+   "city": {
+    "n": 10,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "ounces": {
+    "n": 13,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.154,
+    "structural": 0.154
+   },
+   "ibu": {
+    "n": 22,
+    "model": 0.0,
+    "freq": 0.045,
+    "trans": 0.0,
+    "structural": 0.045
+   },
+   "style": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.037,
+    "trans": 0.037,
+    "structural": 0.074
+   },
+   "brewery_id": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery-name": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "state": {
+    "n": 8,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 1587,
+   "output": "1588,802,Mittenfall Amber Ale,American Amber/Red Ale,12.0 oz.,0.057%,35,503,Oskar Blues Brewery,Lyons,CO",
+   "parsed": true
+  },
+  {
+   "row": 1732,
+   "output": "1733,1994,Serpentine,American IPA,12.0 oz,0.065,45,93,Rhinegeist Brewery,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 175,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1070,
+   "output": "1071,1003,Hop Valley Hefeweizen,German Wheat Ale,12.0 oz,0.05,20,198,Hop Valley Brewing Company,Springfield,OR",
+   "parsed": true
+  },
+  {
+   "row": 2104,
+   "output": "2105,2576,Wooden Rooster,Tripel,16.9 OZ.,0.085,34,45,Tallgrass Brewing Company,Manhattan,KS",
+   "parsed": true
+  },
+  {
+   "row": 2000,
+   "output": "2001,2152,Point Pinnacle Pale Ale,American Pale Ale (APA),12.0 oz,0.055,10,131,Stevens Point Brewery,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 1668,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1252,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1962,
+   "output": "1963,1013,Siren's Whisper,American IPA,12.0 oz,0.070,70,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1476,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2399,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 904,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2077,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 580,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1164,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 398,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1036,
+   "output": "1037,2179,Hawai'i Koko Ale,American Amber Ale,12.0 oz,0.055%,N/A,204,Hawai'i Nui Brewing Co.,Hilo,HI",
+   "parsed": true
+  },
+  {
+   "row": 2191,
+   "output": "2192,2620,Sour Cherry Tart,American Sour Ale,16.0 oz,0.06,N/A,282,Tin Man Brewing Company,Evansville,IN",
+   "parsed": true
+  },
+  {
+   "row": 611,
+   "output": "602,2012,Sugar Plum,American Brown Ale,12.0 oz,0.055,N/A,141,Cigar City Brewing Company,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 1280,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 414,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 312,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1362,
+   "output": "1363,1545,Brewmaster's Choice Stout,Stout,20.0 oz.,0.055,60,284,Milwaukee Brewing Company,Milwaukee,WI",
+   "parsed": true
+  },
+  {
+   "row": 1943,
+   "output": "1944,2025,Saison du Printemps,Saison / Farmhouse Ale,16.0 oz.,0.08,N/A,249,Southampton Publick House,Southampton,NY",
+   "parsed": true
+  },
+  {
+   "row": 2302,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 422,
+   "output": "423,1975,Grim Reaper,Belgian Strong Dark Ale,16.0 oz,0.075,N/A,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1459,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1788,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1305,
+   "output": "1306,1132,Haleakalā IPA,American IPA,12.0 oz. Alumi-Tek,0.06%,N/A,375,Maui Brewing Company,Lahaina,HI",
+   "parsed": true
+  },
+  {
+   "row": 847,
+   "output": "846,1873,Block Party Robust Porter,American Porter,12.0 ounce,0.057,40,287,Four Corners Brewing Company,Dallas,TX",
+   "parsed": true
+  },
+  {
+   "row": 2273,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1963,
+   "output": "1964,1234,Siren's Whisper,American IPA,12.0 oz,0.070,70,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1823,
+   "output": "1824,1325,Schlafly Pumpkin Ale,American Pumpkin Ale,12.0 oz.,0.055,N/A,428,Schlafly Brewing Company,Saint Louis,MO",
+   "parsed": true
+  },
+  {
+   "row": 2145,
+   "output": "2146,1913,Panic Attack,American Pale Ale (APA),12.0 oz,0.05,35,215,Texian Brewing Co.,Richmond,TX",
+   "parsed": true
+  },
+  {
+   "row": 1076,
+   "output": "1077,2485,Kiss the Sky,American IPA,12.0 oz.,0.07,N/A,395,Hops & Grain Brewery,Austin,TX",
+   "parsed": true
+  },
+  {
+   "row": 265,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2257,
+   "output": "2258,1172,Hop Knot IPA,American IPA,12.0 oz,0.05,N/A,435,Two Roads Brewing Company,Stratford,CT",
+   "parsed": true
+  },
+  {
+   "row": 67,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 392,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1643,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 14,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2031,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1374,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1009,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1342,
+   "output": "1343,2534,Sundown Session Ale,American Pale Ale,12.0 oz.,0.045,20,65,Mikerphone Brewing,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 267,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 792,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2334,
+   "output": "2335,2220,Winged Victory,American Pale Ale,12.0 oz,0.048%,20,94,Warped Wing Brewing Company,Dayton,OH",
+   "parsed": true
+  },
+  {
+   "row": 918,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  }
+ ]
+}

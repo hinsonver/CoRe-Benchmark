@@ -1,0 +1,170 @@
+{
+ "beers_orig|all": {
+  "baran": 0.197,
+  "baran_runs": [
+   0.222,
+   0.181,
+   0.188
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.803,
+   0.713,
+   0.85
+  ]
+ },
+ "beers_orig|identity": {
+  "baran": 0.192,
+  "baran_runs": [
+   0.208,
+   0.133,
+   0.234
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.808,
+   0.639,
+   0.936
+  ]
+ },
+ "beers_orig|other": {
+  "baran": 0.198,
+  "baran_runs": [
+   0.226,
+   0.194,
+   0.174
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.802,
+   0.698,
+   0.858
+  ]
+ },
+ "beers_fresh|all": {
+  "baran": 0.603,
+  "baran_runs": [
+   0.607,
+   0.614,
+   0.59
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.397,
+   0.332,
+   0.463
+  ]
+ },
+ "beers_fresh|identity": {
+  "baran": 0.77,
+  "baran_runs": [
+   0.77,
+   0.75,
+   0.789
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.23,
+   0.128,
+   0.356
+  ]
+ },
+ "beers_fresh|other": {
+  "baran": 0.549,
+  "baran_runs": [
+   0.554,
+   0.57,
+   0.522
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.451,
+   0.372,
+   0.531
+  ]
+ },
+ "beers_surrogatewords|all": {
+  "baran": 0.199,
+  "baran_runs": [
+   0.225,
+   0.181,
+   0.191
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.801,
+   0.708,
+   0.846
+  ]
+ },
+ "beers_surrogatewords|identity": {
+  "baran": 0.201,
+  "baran_runs": [
+   0.222,
+   0.133,
+   0.248
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.799,
+   0.625,
+   0.926
+  ]
+ },
+ "beers_surrogatewords|other": {
+  "baran": 0.198,
+  "baran_runs": [
+   0.226,
+   0.194,
+   0.174
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.802,
+   0.698,
+   0.858
+  ]
+ },
+ "beers_surrogate|all": {
+  "baran": 0.202,
+  "baran_runs": [
+   0.225,
+   0.188,
+   0.194
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.798,
+   0.709,
+   0.847
+  ]
+ },
+ "beers_surrogate|identity": {
+  "baran": 0.216,
+  "baran_runs": [
+   0.222,
+   0.164,
+   0.262
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.784,
+   0.624,
+   0.93
+  ]
+ },
+ "beers_surrogate|other": {
+  "baran": 0.198,
+  "baran_runs": [
+   0.226,
+   0.194,
+   0.174
+  ],
+  "llm": 1.0,
+  "llm_minus_baran": [
+   0.802,
+   0.698,
+   0.858
+  ]
+ }
+}

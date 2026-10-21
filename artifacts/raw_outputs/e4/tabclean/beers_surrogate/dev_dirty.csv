@@ -1,0 +1,151 @@
+id,beer-name,style,abv,brewery_id,brewery-name,city,state
+1600,Loba Jouzar,Pumpkin Ale,0.055,356,Fenwexcal Brewing Company,Rholoulaula,PA
+285,Vello’s Ale (2010),American Pale Ale (APA),0.055%,30,Sulzar Brewing Company,Jourhobrin,AZ
+1519,Saison 24,Saison / Farmhouse Ale,0.055,392,Santa Hepvas Brewing Company,Santa Hepvas,NM
+2238,Bapim Nyba,Light Lager,0.04,187,Wexvaskel Brewing Company,Velkelvelhep,TX
+371,Sulfen Stout,American Stout,0.06%,365,Lotas Vastas Brewery,Loulagar,IA
+130,Keltas Garsul Wheat (Oskfen),American Pale Wheat Ale,0.059,135,Wexhep Fensul's Brewery,Suldri,CO
+600,Fenhep Pimosk Mordri Zarhep Ale,Rye Beer,0.05%,471,Wexny Brewing Company,Loula Nygar,IA
+2454,Garwex Kelfen,American Double / Imperial IPA,0.099,91,Calpim Brewing Company,Morrhodri,OH
+663,Suloskvas IPA,American IPA,0.05,449,Lorhohep Beer,San Quenfen,CA
+667,Torlo Joubrin Garhep Ale,American Blonde Ale,0.044,489,Vaswex Velosk Brewing Company,Morcalfen,NY
+2365,Rhojou Zarjou,American Adjunct Lager,0.047,131,Osktas Oskrho Brewery,Osktas Oskrho,WI
+2105,Jouosk Quenjou,American IPA,0.038%,34,Vaslo Morvas Brewing Company,San Quenfen CA,
+1750,Suljou IPA,American IPA,,166,Fenlo Bakel Brewery,Morcalhep CO,
+430,Wexvel Caldri Double IPA (2011),American Double / Imperial IPA,0.082,361,Tasdri Nycal Brewing Company,Hepjou Wexpimny,IL
+1315,Quensul Imperial Sulquen Pale Ale,American Double / Imperial IPA,0.099,51,Brinsul Brewing Company,Wexmor CO,
+121,Pimulasuldri Brinula Wheat,American Dark Wheat Ale,,282,Zarvelvelwex Brewing Company,Bafen NE,
+2251,Bafen Tasfen Velny Ale,American Brown Ale,0.075%,127,Fenhep Rhodri Brewing Company,Drigar,TX
+1810,Quensul Batas,American IPA,0.07,272,The Drimorsul,Taswexba VT,
+1591,Ulaosktortor (2013),American IPA,0.067,46,Wextasbrin Craft Ales,Rhobrinfen NY,
+1452,Nybrin Nyhep Drilo Ale,Kölsch,0.05,405,Quenhep Brewing Company,Wexmor CO,
+2663,Tascal,Cream Ale,0.063,3,Oskwex Velrho Brewing Company,San Quenfen,CA
+1958,Quenfen Morfen,Witbier,0.045%,10,Brewery Lotas,Zargar Velpim,MI
+2254,Hepcaljou Torzar,American IPA,0.07%,180,Ulasul Wextor Brewing Company,Rhotorvasbrin,NC
+1233,Driosk Jougar 8-Rhosul Lojouosk Beer,Rye Beer,0.05,161,Wexquen Driwex Brewing Company,Kelbrin Lomor,TX
+791,Hepzar Pale Ale (2010),American Pale Ale (APA),0.055999999999999994%,155,Sultas Brewing Company,Joupim,OR
+2057,Lojou In My Sulkel,Rye Beer,0.07,236,Brinmorsul Brewing Company,Keltorfenhep,VA
+1714,Bagar Morzar IPA,American IPA,0.062,336,Wexzar Suldri Brewing Company,Veldriosk,MT
+2626,Morbrin’s Rhoquen Brown,American Brown Ale,0.045%,14,Vasba's Baba Brewing Company,Garvel Ulaula,MI
+948,Loosk Nyfenula Pilsner,Czech Pilsener,0.045,17,Tasbrin Ulabrin Brewing Company,Kelulapim IN,
+1680,Nybrinpim Basul Baosk Double IPA (2014),American Double / Imperial IPA,0.09,302,Bringar Brewers Garzarwexgar,Joumor Lopim Brincal,UT
+2171,The Lopimtas,American IPA,0.062%,206,Rhoba Driny Brewery,Zartor,OR
+1568,Morbrin Sulsul Mortor Ale,Cream Ale,0.055,378,Driba Garvel Brewery,Rhovasdrikel,FL
+2192,Nybamor Hefeweizen,American Pale Wheat Ale,0.047,200,Drioskkel Brewing Company,Velgartor,OR
+1832,Rhosul's Stout,American Stout,0.058,298,Hephep Tasmor Brewery,Vasjou,PA
+858,Baquenfen Pale Ale,American Pale Ale (APA),0.055999999999999994%,460,Morvas Brewing Company,Hepkel,WA
+51,Keltasgarmor IPA,American IPA,0.068,556,Zartorlo Beer and Ale,Brinquenbrinlo,NY
+938,Nyvel IPA,American IPA,0.062%,475,Red Brintas Brewing Company,Balotas GA,
+421,Pimhep Vasgar Ale,American Blonde Ale,0.053,366,Pimhep Brewing Company,Pimhep,OK
+1449,Kelnydri Imperial IPA,American Double / Imperial IPA,0.085,17,Tasbrin Ulabrin Brewing Company,Kelulapim,IN
+1640,Ulawex Oskpim,Kölsch,0.048,353,Zarvel Brewing Company,Hepgarlo,WA
+1981,Fenfengar Wexgar,American Double / Imperial IPA,0.09%,256,Hepsul's Beer Company,Oskosk,IL
+2104,Vasvas Nyrho,American Strong Ale,0.081,220,Hepjou Tascal Brewing,Gartorbrin,CO
+2283,Wexvas Hepzar,Berliner Weissbier,0.04%,173,Wexquen Hepba Brewing,Rhobrinfen,NY
+366,Morjou Stout,Oatmeal Stout,0.06,361,Tasdri Nycal Brewing Company,Hepjou Wexpimny,IL
+446,Joulo Fengar Hepkel,English Dark Mild Ale,,531,Joulo Fenula Brewery,Joulo,CO
+964,Tasfen IPA (2012),American IPA,0.065%,451,Kelny & Jouula's Torlozar,Ulafen,CO
+1925,Rhogar Session IPA,American IPA,0.04,159,Garjou Brewing Company,Joumor Lopim Brincal,UT
+320,Fensul-Garlo Double IPA (60 garhep.),American Double / Imperial IPA,0.088,410,Hepwex Brindri Brewing Company,Morbrinpim,CT
+2295,The Mordri Velrho,American Pilsner,0.063,168,Joumor Vasrho Brewery,Wexny,CO
+1347,Quenbrin Barrel Taszar,American Porter,,25,Keljou Fenquen Brewing Company,Losulzarlo,IN
+645,Osktor Keljou Sultasfen Lager,California Common / Steam Beer,0.04,399,Vasvel Brewery,Vasvel,UT
+2119,Garvas Kelmor,Saison / Farmhouse Ale,0.055,215,Quenwex Brewing Co.,Veltastas,TX
+1337,Vaspim Calquen Stout,Oatmeal Stout,0.057,139,Jouwex Brewing & Wexquenjou Company,Calnydri,AR
+1051,Black Joufen Vasfen Lager,Schwarzbier,0.046%,326,Quenba Quenvel Brewery,Saint Nyhep,MO
+48,Loosk Pale Ale,English Pale Ale,0.054,481,2 Wexba Brewing Company,Torny Bafen,WA
+2681,Dritor Logar,Pumpkin Ale,0.066,1,Osktas the Velula Brewery,Zarcalcal,KY
+1669,Rhobrinfen Amber Ale,American Amber / Red Ale,0.054,150,Hepquentas Brewing,Rhosul,OR
+1502,Brinmorpimquen,Cider,0.06,154,1 Morzar Sululaula,Calsulwex,OR
+530,Vastorwex IPA,English India Pale Ale (IPA),0.057%,179,Pimcaldri Brewery,Lobadri,NC
+953,Oskzar Brinvas,American Amber / Red Ale,0.051%,486,Tasmorbrin Beer Company,Morjou Logar,WI
+524,Joulo Hepvas Hefeweizen,Hefeweizen,,531,Joulo Fenula Brewery,Joulo,CO
+735,On-On Heptas (2008),American Pale Ale (APA),0.052,513,Taswex Craft Brewery,Brincalny Quendri,CO
+1986,Fenjoupimsul Garfen,Cider,0.069%,254,Hepvel's Calsul,Oskheptor Morjou,MI
+792,Pimbrin IPA (2007),American IPA,0.061%,155,Sultas Brewing Company,Joupim,OR
+2272,Drivas Pale Ale,American Pale Ale (APA),0.05%,174,Morba Calkel Lager & Ale Brewing ...,Morba Calkel,LA
+1375,Pimdri of the Velosk,Mead,0.08,421,Zarbarho Oskula,Wexmor,CO
+1794,Vaswex's Pilsner,German Pilsener,0.045,205,Barho's Brewing Company,Brinhepba,IN
+765,Bacal Pimula,Milk / Sweet Stout,0.05,45,Brinquenbrin Brewing Company,Quenosklo,KS
+702,Brinhep Vasrho Red,American Amber / Red Ale,0.061,360,Batas Brewing Company,Oskdri-Vaskel,NC
+1985,Calmor-R-Vasquen,Cider,0.069,254,Hepvel's Calsul,Oskheptor Morjou,MI
+2096,Calula IPA,American IPA,0.069,221,Dridri Lodri Brewing Company,Quenquen,FL
+664,Vaspimvas IPA,American IPA,0.07200000000000001%,332,La Rhozar Brewing Company,Dribrinpimfen,NM
+1147,KELLO Hefeweizen,Hefeweizen,0.048,337,Rhovasba Brewing Company,Sulloquen,NE
+304,Brinvelosk Pilsner,German Pilsener,0.055,392,Santa Hepvas Brewing Company,Santa Hepvas,NM
+731,Torpimtaspim Torjougardri 2012,American Black Ale,,491,Garvas's Bavas Brewery,Nymor CA,
+2015,Vasvashep Blonde,Fruit / Vegetable Beer,0.05%,57,Quenpim Brewery,Taspimwexba,IL
+1328,Rhotas Pimdri's IPA,American Double / Imperial IPA,0.08%,389,Drikel Baula Brewery (Bajou Joutor...,Torwex,NC
+2501,Ulaulazarquen,American Pale Ale (APA),0.057,73,Ale Vasgar,Torjou WI,
+1705,Wexpim For Loula,Pumpkin Ale,0.061,337,Rhovasba Brewing Company,Sulloquen,NE
+2003,Quenzar to Kelulakel,American IPA,0.062,81,Kelcal Brewing,Velmor,CO
+399,Oskpim Hefeweizen (2011),Hefeweizen,0.052000000000000005%,544,Brinula Breweries,Hepkel,WA
+107,Nydri Pimcal Pale Ale,American IPA,0.063,37,Dritas Brewing Company,Wexmor,CO
+851,On the Garfen of Jouzarba,American Double / Imperial IPA,0.092,227,BAOSK Gartor Brewing Company,Wexwexba,DC
+106,Brinquen’s Brown Ale,American Brown Ale,0.055,37,Dritas Brewing Company,Wexmor,CO
+1454,Fenrho Rhohep Velny Pale Ale,Belgian Pale Ale,0.05%,405,Quenhep Brewing Company,Wexmor,CO
+2667,Quenwex,American IPA,0.075,3,Oskwex Velrho Brewing Company,San Quenfen,CA
+620,B9K Black Lager,Schwarzbier,0.055%,424,Osktor Brewing Company,Velmor,CO
+1879,Nyvel Nyula,American White IPA,0.062,43,Bacalny Brewing Company,Sullo,PA
+1338,Pimosk Rhocal Brinsul Wheat,American Pale Wheat Ale,0.048%,83,Lopim Wexjou Brewing Company,Rhocal,CA
+1968,QUENGAR 970,Kölsch,0.048,36,Osknyfen Vaswexwex Brewing Company,Fenpimhep CA,
+2587,Morlo Porter,American Porter,0.07,39,Zarcal's Hepbapim Brewing,Zarmortor,MI
+2357,Porter Wextas,American Porter,0.065,136,Wexhep & Brinzar Brewing Company,Oskula,TX
+1356,Gartas from the Jouvel,Tripel,0.09,356,Fenwexcal Brewing Company,Rholoulaula,PA
+62,U.S. Taszar Ale,American Pale Ale (APA),0.05,192,Pimsul Brewery,Sululaula,WI
+1447,Calvasvas Imperial IPA,American Double / Imperial IPA,0.079,309,Fenhep Brewing Company,Zarwex ID,
+1893,Rhohep 24 Double IPA,American Double / Imperial IPA,0.088,280,Wexoskkel Brewing Company,Bapim Batas CA,
+512,Jourholozar (2011-60) (2011),Pumpkin Ale,0.06,46,Wextasbrin Craft Ales,Rhobrinfen,NY
+2419,Caltas Lovel Ulatasny Ale,Other,0.048,103,Beer Works Pimcal,Basul,MA
+1409,Zartor Kelhephep IPA Series #4: Vaslo Fensul,American Black Ale,0.07,413,Oskula Beerworks,Oskula,TX
+2605,Zartas Pimhep,Altbier,0.052,25,Keljou Fenquen Brewing Company,Losulzarlo,IN
+1877,Hepjou's Jouula,American Amber / Red Ale,0.08,43,Bacalny Brewing Company,Sullo,PA
+319,2989 Lager,American Amber / Red Lager,0.051,206,Rhoba Driny Brewery,Zartor,OR
+1932,Kelkel Brinwex White IPA,American White IPA,0.065%,51,Brinsul Brewing Company,Wexmor,CO
+751,Drivelkel Amber Ale (2004),American Amber / Red Ale,0.052,101,Nyzar Brincal Brewing Company,Zarvas,RI
+1751,Osktor Torgar Brown,English Brown Ale,0.05,166,Fenlo Bakel Brewery,Morcalhep,CO
+5,Vastas Garpim,Scottish Ale,0.08,166,Fenlo Bakel Brewery,Morcalhep,CO
+2528,Hephep Calba,American Pale Ale (APA),0.053,65,Wexgartor Brewing,Oskosk,IL
+619,Velsuljou Caljougar Ale,Fruit / Vegetable Beer,0.045%,295,Pimrhofen Brewing Company,Kelquenfenquen,MA
+2241,Vaspim Driny Calhep,Oatmeal Stout,0.063,10,Brewery Lotas,Zargar Velpim MI,
+518,Joubabrin Amber Ale (2011),American Amber / Red Ale,0.052,190,Fenbrin Beers Brewing Company,Hepkel,WA
+1231,Ulaosk Nywex Tasny Stout,American Stout,0.065%,161,Wexquen Driwex Brewing Company,Kelbrin Lomor TX,
+2233,Vastastas Lager,American Adjunct Lager,0.041,129,Joupim Brewery,St Nyosk's,PA
+2146,#929 Session I.P.A.,American IPA,0.048,211,Fenzarosk Brewing Company,Morcal,WI
+1225,Joutas Brinny Loula Rholo Wheat,American Pale Wheat Ale,0.052000000000000005%,131,Osktas Oskrho Brewery,Osktas Oskrho,WI
+1806,Nyzardri Double IPA,American Double / Imperial IPA,0.088,306,Pimrho Brewing Company,Jouquenvel Vasgar,VA
+181,Fentas White,Witbier,0.048%,535,Baosk Jouula Brewing Company,Tashep,MT
+860,Baba Velba Tortas Imperial Stout (2012),Russian Imperial Stout,0.099,10,Brewery Lotas,Zargar Velpim,MI
+1195,Vasquen Zarba Joucaltas Pilsner,American Pilsner,0.045,181,Torsul Kelula Brewing Company,Garnydri,VA
+133,Zarcal Pale Ale (13 sulhep.),English Pale Ale,0.055,299,Nysul Brewing Company,Nypim,NY
+1795,Keldri Nywex IPA,American IPA,0.065%,311,Nyvel Calcal Brewing Company,Torlooskvel,WA
+2316,Oskvel Pimkel IPA,American IPA,0.062,153,Mortor Driquen Brewing,Oskpim,OR
+2059,OSKULA Garfenjou,Herbed / Spiced Beer,0.052,234,Pimgar Brewery,Velbrin,MA
+1880,Morgar Fenny! Fenrhorholo Stout,Oatmeal Stout,0.071,43,Bacalny Brewing Company,Sullo PA,
+1650,Baulamor Red,American Amber / Red Ale,0.052,139,Jouwex Brewing & Wexquenjou Company,Calnydri,AR
+1933,Morlo IPA,American IPA,0.07%,236,Brinmorsul Brewing Company,Keltorfenhep VA,
+2358,Morvel Lolo (2012),Light Lager,0.04,134,Dridri Craft Brewery,Rhojou,WI
+862,Pimhep 15,American Pale Lager,0.04,366,Pimhep Brewing Company,Pimhep,OK
+1543,Lotas IPA,American IPA,0.063,198,Zarrho Mordri Brewing Company,Jounyrhoosk,OR
+676,Vaspim Rhovelgar Wheat,American Pale Wheat Ale,0.05%,45,Brinquenbrin Brewing Company,Quenosklo KS,
+853,QUENLO-NYVAS (2012) (2012),American Double / Imperial IPA,0.099,118,Lodrikel Ulazar Brewing Company,Quenbrin,TX
+884,Wextas Wextor Pilsner,American Pilsner,0.05,410,Hepwex Brindri Brewing Company,Morbrinpim,CT
+2409,Morulamor,Extra Special / Strong Bitter (ESB),0.057,61,Kelvas Brewing Company,Brinvelba Driula MN,
+556,Brinzar Black IPA,American Black Ale,0.077,515,Sulsulrho Brewing Company,Jouhep,CO
+1035,Ulacal Heptasosk Osktor Stout,American Stout,0.075,424,Osktor Brewing Company,Velmor,CO
+1831,Our Quenbrin IPA,American IPA,0.065%,299,Nysul Brewing Company,Nypim NY,
+1333,Calfencal Stout,American Double / Imperial Stout,0.092,426,Vaszarkel Ale Works,Vastas TX,
+1321,Caltorba Brown Ale,American Brown Ale,0.055%,380,Bavas Sulsul Brewing Company,Oskrho,NE
+2227,Kelpim Lohep Black IPA (2013),American Black Ale,0.065,192,Pimsul Brewery,Sululaula,WI
+1165,Ulaoskdri Kelula,American Amber / Red Lager,0.055,462,TASPIM Mordri Brewing Company,Mordri,CO
+1876,Driula Wexhep Fenquen Brown Ale,English Brown Ale,0.06%,286,Zarula Brintas Beer Company,Fenula,AL
+2103,Calvasdri Lager,American Amber / Red Lager,0.049,35,Caltor Brewing Company,San Velquendri,CA
+571,Kelsul Brown Ale,American Brown Ale,0.055%,141,Vasdri Quenpim Brewing Company,Brinvel,FL
+1860,Garcal Sulgarwex Amber Ale,American Amber / Red Ale,0.051,289,Kelmor Ales,Zarvas,OR
+2166,Garmor Driwex Double IPA,American Double / Imperial IPA,0.085,127,Fenhep Rhodri Brewing Company,Drigar,TX
+1912,99 Zarzar IPA,American IPA,0.06,273,Driny Rhogar Brewing Company,Keltorfenhep,VA
+2588,Sulpim Vasjou,American Amber / Red Lager,0.054000000000000006%,38,Joupim X Brewing Company,Jouzarquen Torjou,TX
+1205,Calwexhep Quenvel Sulmor Pale Ale,American IPA,0.065,383,Zarosk Brinmor Brewery,Velzar,VA
+1692,Wexmor on the Brinquen Oskhep (Velquen),American IPA,0.07,141,Vasdri Quenpim Brewing Company,Brinvel,FL
+1344,Wexhepwex,Saison / Farmhouse Ale,0.045,255,Rhowexba Nyhepvas Ales,Quenrhosul MD,
+112,Calwexbrin Moroskpim Ale,Scottish Ale,0.05,201,Heplofen Brewing Company,Ularhowex,OR

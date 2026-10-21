@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "task": "C3-A02",
+  "status": "completed_existing_material_disposition",
+  "search_root": "original experiment project root",
+  "scan": {
+    "schema_version": 1,
+    "started_utc": "2026-10-20T09:44:27.484063+00:00",
+    "max_member_bytes": 67108864,
+    "pruned_directory_names": [
+      ".git",
+      ".venv",
+      "__pycache__",
+      "hf_cache",
+      "models",
+      "node_modules",
+      "pip_cache",
+      "torchinductor_yjr",
+      "venv",
+      "vllm",
+      "vllm_1002"
+    ],
+    "named_records": [
+      {
+        "path": "core/src/rayyan_audit.py",
+        "size": 6634,
+        "sha256": "3271086b8688e05d7a03d6742e24465fb0da7d175a38663a6793f1a4354a5f8d"
+      },
+      {
+        "path": "core/results/rayyan_audit.json",
+        "size": 48546,
+        "sha256": "8f9818607a11e96aa4ea10dadd2dbaf384bdcd370c952c26c7a2cf090fb60868"
+      },
+      {
+        "path": "core/results/logs/rayyan_audit.log",
+        "size": 3279,
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a"
+      },
+      {
+        "path": "core/results/logs/server/rayyan_audit.log",
+        "size": 3279,
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a"
+      },
+      {
+        "path": "core/results/logs/server/server/rayyan_audit.log",
+        "size": 3279,
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a"
+      },
+      {
+        "path": "core/results/logs/server/server/server/rayyan_audit.log",
+        "size": 3279,
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a"
+      },
+      {
+        "path": "core/results/logs/server/server/server/server/rayyan_audit.log",
+        "size": 3279,
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a"
+      },
+      {
+        "path": "core/results/logs/server/server/server/server/server/rayyan_audit.log",
+        "size": 3279,
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a"
+      }
+    ],
+    "content_hits": [
+      {
+        "path": "core/src/rayyan_audit.py",
+        "size": 6634,
+        "sha256": "3271086b8688e05d7a03d6742e24465fb0da7d175a38663a6793f1a4354a5f8d",
+        "markers": [
+          "pubmed_url"
+        ]
+      }
+    ],
+    "skipped_special_files": 502,
+    "excluded_secret_files": 1,
+    "excluded_directories": [
+      "pip_cache",
+      "venv",
+      "hf_cache",
+      "models",
+      "core/src/__pycache__",
+      "cache/vllm",
+      "cache/vllm_1002",
+      "mini180_challenge60/tests/__pycache__",
+      "mini180_challenge60/scripts/__pycache__",
+      "lookfix/scripts/__pycache__",
+      "tmp/torchinductor_yjr"
+    ],
+    "oversized": [],
+    "errors": [],
+    "regular_files": 13562,
+    "scanned_files": 1435,
+    "scanned_bytes": 757728926,
+    "archive_members": 0,
+    "unscanned_extensions": {
+      ".png": 12,
+      ".pdf": 12,
+      ".jpg": 12103
+    },
+    "finished_utc": "2026-10-20T09:45:11.206809+00:00"
+  },
+  "response_payload_hits": 0,
+  "remote_early_sample": {
+    "cells": 132,
+    "matched_cells": 66,
+    "log_progress_lines_match": true,
+    "same_bytes_as": "data/provenance/rayyan/audit-n30-historical.json",
+    "sha256": "8f9818607a11e96aa4ea10dadd2dbaf384bdcd370c952c26c7a2cf090fb60868",
+    "not_the_frozen_279_cell_sample": true
+  },
+  "remote_source_same_bytes_as": "code/src/rayyan_audit.py",
+  "log_copies": 6,
+  "preservation_analysis": {
+    "http_responses": "parsed in memory by urllib; no file-backed HTTP cache in the audit source",
+    "selected_records": "kept in a process-local title cache; not serialized as full metadata",
+    "saved_rows": "input title, selected PMID, simplified truth/words, field flags",
+    "stdout": "stratum, PMID, clean_ok and stratum summaries; no returned title or similarity"
+  },
+  "scope_note": "Regular text and extensionless files were inspected, including four large JSONL files in a second streaming pass. Archives were supported but none were encountered. Model weights, runtime/package/compiled caches, credentials, symlinks/sockets and image/PDF files were excluded as recorded. No claim is made about excluded content, deleted files or process memory.",
+  "current_pubmed_requests": 0,
+  "remote_writes": 0,
+  "historical_candidate_selection_replayable": false,
+  "disposition": "No additional historical response was located in the searched scope. Retain saved judgments and their frozen estimate; publish the missing-response boundary rather than replace it with current PubMed metadata."
+}

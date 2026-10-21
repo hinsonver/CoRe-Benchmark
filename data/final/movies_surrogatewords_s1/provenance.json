@@ -1,0 +1,17 @@
+{
+ "style": "words",
+ "seed": 1,
+ "rows": 1000,
+ "replaced_columns": [
+  "Id",
+  "Name",
+  "Director",
+  "Creator",
+  "Actors"
+ ],
+ "error_cells": 1965,
+ "original_error_cells": 1965,
+ "same_error_cells_as_original": true,
+ "people_errors": "v2 (09-30): Director/Creator errors copied from the original name by name",
+ "titles": "v3 (10-02): fictitious titles in generic shapes at the original's rates; the original's title errors by recipe"
+}

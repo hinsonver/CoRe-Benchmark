@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-7b",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": true,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.88,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.25,
+  "acc_noninferable": 0.0,
+  "noninferable_cells": 348,
+  "acc_hard": 0.0,
+  "hard_cells": 338,
+  "leak_rate": 0.0,
+  "leak_cells": 48,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 46,
+  "per_column": {
+   "id": {
+    "n": 44,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 44,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 33,
+    "model": 0.0,
+    "freq": 0.061,
+    "trans": 0.0,
+    "structural": 0.061
+   },
+   "journal_issn": {
+    "n": 29,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 39,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.051
+   },
+   "article_jissue": {
+    "n": 17,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.294
+   },
+   "article_jcreated_at": {
+    "n": 35,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.029,
+    "structural": 0.029
+   },
+   "article_pagination": {
+    "n": 41,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "author_list": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "jounral_abbreviation": {
+    "n": 22,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_language": {
+    "n": 1,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 518,
+   "output": "234567,A novel approach to treating chronic pain using transcranial magnetic stimulation.,English,Neurology Research International,,2090-8017,2023,2,3/1/21,123-130,\"{\"\"A. Patel\"\",\"\"B. Singh\"\",\"\"C. Johnson\"\",\"\"D. Lee\"\",\"\"E. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 565,
+   "output": "176161,\"The role of physical activity in the prevention and management of type 2 diabetes mellitus in adults: a systematic review and meta-analysis.\",eng,Diabetes Metab Syndr,Diabetes Metab Syndr,2352-3469,7,4,4/1/15,345-54,\"{\"\"A. M. M. Al-Mallah\"\",\"\"M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\",\"\"A. M. M. Al-Mallah\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 62,
+   "output": "687531,The impact of mindfulness-based interventions on mental health outcomes in adults with chronic pain.,eng,Pain,1526-5900,23,10,10/1/18,2345-56,\"{\"\"Sarah E Bowen\"\",\"\"Jennifer S Moore\"\",\"\"Laura K Fredrickson\"\",\"\"Elizabeth A Hoge\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 352,
+   "output": "812345,\"The impact of telemedicine on patient outcomes in rural areas\",eng,Journal of Telemedicine and Telecare,,1357-6383,21,1,1/1/21,56-62,\"{\"\"J Smith\"\",\"\"A Johnson\"\",\"\"R Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 674,
+   "output": "578921,\"The Impact of Social Media on Mental Health Among Adolescents: A Systematic Review\",eng,Journal of Adolescent Health,JAAdolescHealth,1527-3510,55,2,2/1/20,101-108,\"{\"\"Emily R. Smith\"\",\"\"John D. Doe\"\",\"\"Jane A. Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 644,
+   "output": "233544,Timely access to specialist medical oncology services closer to home for rural patients: experience from the Townsville Teleoncology Model.,eng,The Australian journal of rural health,Aust J Rural Health,1440-1584,22,4,8/1/14,156-9,\"{\"\"Sabe Sabesan\"\",\"\"Peter Aiken\"\",\"\"Lynden J Roberts\"\",\"\"Sarah Larkins\"\",\"\"Abhishek Joshi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 545,
+   "output": "145232,Prevalence of dental caries in schoolchildren in a rural area of India: A cross-sectional study.,eng,International Dental Journal,Int Dent J,0303-6945,61,4,1/1/01,215-220,\"{\"\"S. K. Jain\"\",\"\"R. K. Sharma\"\",\"\"S. K. Srivastava\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 410,
+   "output": "890234,\"The effect of mindfulness-based stress reduction on symptoms of anxiety and depression in patients with chronic illness: a systematic review and meta-analysis.\",eng,Journal of Clinical Psychology in Medical Settings,JClin Psychol Med Set,1078-8951,21,2,3/1/17,115-26,\"{\"\"S. M. Kuyken\"\",\"\"L. Warren\"\",\"\"A. C. Taylor\"\",\"\"S. C. Whalley\"\",\"\"A. C. Crane\"\",\"\"D. Bond\"\",\"\"A. D. Hargreaves\"\",\"\"A. C. Williams\"\",\"\"J. C. Crane\"\",\"\"J. F. Bond\"\",\"\"J. C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 635,
+   "output": "113363,Mental health symptoms in a population based survey of minority farm operators,eng,Rheumatology (United Kingdom),Rheumatology,1462-0324,0,0,,62928,\"{\"\"A. L. Steege\"\",\"\"T. Alterman\"\",\"\"M. R. Petersen\"\",\"\"J. Li\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 476,
+   "output": "1123456,\"A Comparative Study of Machine Learning Algorithms for Predicting Stock Market Trends\",eng,Computers & Operations Research,Computers & Oper.Res.,0305-0548,42,10,10/1/15,345-356,\"{\"\"John Doe\"\"\",\"\"Jane Smith\"\"\",\"\"Richard Jones\"\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 771,
+   "output": "592123,Long-term outcomes of endovascular treatment for intracranial aneurysms: a systematic review and meta-analysis.,eng,Neurosurgery,,1361-8197,75,1,7/1/14,1-10,\"{\"\"Xiaoyong Zhang\"\",\"\"Yonggang Wang\"\",\"\"Liang Li\"\",\"\"Jianping Liu\"\",\"\"Xiaofeng Wang\"\",\"\"Chunyan Wang\"\",\"\"Yonghui Wang\"\",\"\"Yongqiang Wang\"\",\"\"Xiaohua Wang\"\",\"\"Xiaoming Wang\"\",\"\"Xiaoping Wang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyu Wang\"\",\"\"Xiaozhong Wang\"\",\"\"Xiaozhi Wang\"\",\"\"Xiaoping Wu\"\",\"\"Xiaoxia Wu\"\",\"\"Xiaoyan Wu\"\",\"\"Xiaoying Wu\"\",\"\"Xiaoyun Wu\"\",\"\"Xiaozhen Wu\"\",\"\"Xiaozhi Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu\"\",\"\"Xiaozhong Wu",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "987654,A novel gene editing approach to combat antibiotic resistance in bacteria,eng,BMC Biology,BMC Biol.,1741-7007,19,1,1/1/21,123-45,\"{\"\"L. Zhang\"\",\"\"H. Wang\"\",\"\"Y. Li\"\",\"\"J. Chen\"\",\"\"Z. Liu\"\",\"\"X. Wu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 666,
+   "output": "558825,The impact of preoperative fasting on perioperative outcomes in adults undergoing non-cardiac surgery: a systematic review and meta-analysis.,eng,Anaesthesia,Anaesthesia,1365-2044,70,1,1/1/15,10-22,\"{\"\"A. M. Alhazzani\"\",\"\"M. M. Mohty\"\",\"\"M. M. Alshahrani\"\",\"\"M. M. Alhassan\"\",\"\"M. M. Alhazmi\"\",\"\"M. M. Alharbi\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M. Alqahtani\"\",\"\"M. M.",
+   "parsed": true
+  },
+  {
+   "row": 192,
+   "output": "431901,\"The impact of social media on mental health among teenagers\",English,JOURNAL_OF_PSYCHOLOGY,JOP,1082-949X,35,4,1/1/21,234-256,\"{\"\"A. Smith\"\",\"\"B. Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 380,
+   "output": "816945,The impact of virtual reality on pain perception in burn patients,eng,Journal of Burn Care & Research,,1556-4669,36,2,3/1/16,221-229,\"{\"\"Sara J. Finley\"\",\"\"John D. Allen\"\",\"\"Kathleen M. Davis\"\",\"\"Laura E. Scherer\"\",\"\"Jennifer L. Stamps\"\",\"\"Elizabeth A. Breen\"\",\"\"Rachel L. Kuchta\"\",\"\"Jessica L. McDaniel\"\",\"\"Sarah E. Pfeifer\"\",\"\"Shannon L. Sullivan\"\",\"\"Mary Beth Ziegler-Graham\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 193,
+   "output": "928953,Exploring the impact of mindfulness-based interventions on mental health outcomes in college students,English,Journal of American College Health,,1072-5542,65,2,1/1/17,103-112,\"{\"\"A. K. Smith\"\",\"\"J. L. Johnson\"\",\"\"M. R. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 130,
+   "output": "983457,Efficacy and safety of a novel anticoagulant regimen in patients with atrial fibrillation: a randomized controlled trial.,eng,Clinical Cardiology,,1540-8175 1540-8175 (Electronic),39,10,1/1/16,824-32,\"{\"\"M. J. McRae\"\",\"\"J. A. Hylek\"\",\"\"R. E. Heit\"\",\"\"K. E. Silverstein\"\",\"\"D. E. Singer\"\",\"\"R. E. Greenberg\"\",\"\"J. E. Lip\"\",\"\"R. E. Goldhaber\"\",\"\"R. E. Crow\"\",\"\"J. E. Connolly\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 822,
+   "output": "812345,The effect of mindfulness-based stress reduction on symptoms of anxiety and depression in breast cancer survivors,English,Cancer Nursing,Cancer Nurs,0883-8592,41,4,4/1/18,241-249,\"{\"\"J. Smith\"\"\",\"\"A. Johnson\"\"\",\"\"M. Lee\"\"\",\"\"K. Brown\"\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 339,
+   "output": "6863,Comparison of two different techniques for the treatment of symptomatic uterine fibroids: a systematic review and meta-analysis.,eng,Urogynecology & pelvic floor medicine & reconstructive surgery,Urogynecol Pelvic Floor Med Reconstr Surg,1937-6574,18,4,4/1/13,285-92,\"{\"\"M. H. Al-Salami\"\",\"\"A. M. Al-Salami\"\",\"\"A. M. Al-Salami\"\",\"\"A. M. Al-Salami\"\",\"\"A. M. Al-Salami\"\",\"\"A. M. Al-Salami\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 700,
+   "output": "187654,A novel approach to quantum computing in materials science,eng,Materials Today,Mat Today,1369-7021,22,1,1/1/20,123-130,\"{\"\"J. Smith\"\",\"\"A. Johnson\"\",\"\"R. Lee\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "438682,Antidepressants for depression in adults in primary care: what is the evidence?,eng,BMJ open,BMJ Open,2044-6055,2,1,1/1/12,e11255,,{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 797,
+   "output": "215650,Bruxismo em crian̤as Bruxism in children,por,Dental Press journal - Orthodontics and interdisciplinary orthopedics,Dent Press J Orthod Interdiscip Orthop,2177-6293,3,2,,91-8,\"{\"\"Ronaldo Fazzi\"\",\"\"Ana Estela Haddad\"\",\"\"Maria Salete Nahrés Pires Corrêa\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 200,
+   "output": "670021,The impact of social media on mental health among college students: A systematic review.,eng,Health Education & Behavior,Health Educ Behav,1090-1981,48,2,2/1/21,143-52,\"{\"\"Sarah J. Karam\"\",\"\"Jessica L. DeSantis\"\",\"\"Kathleen M. Merikangas\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 421,
+   "output": "502121,The Impact of Sleep Quality on Cognitive Function in Older Adults: A Systematic Review and Meta-Analysis.,eng,Journal of the American Geriatrics Society,,1532-5415,67,1,1/1/19,102-111,\"{\"\"Sarah E. MacNeil\"\",\"\"Laura E. Deuster\"\",\"\"Elizabeth A. Breen\"\",\"\"Jennifer L. Martincorena\"\",\"\"Linda P. Fried\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 137,
+   "output": "513830,Prevalence and correlates of depression among older adults in low- and middle-income countries: a systematic review and meta-analysis.,eng,Psychosomatic Medicine,,1070-9008,76,1,1/1/16,1-10,\"{\"\"S. M. Kim\"\",\"\"A. M. Eaton\"\",\"\"C. A. Han\"\",\"\"H. Hwang\"\",\"\"Y. Lee\"\",\"\"S. Y. Kim\"\",\"\"J. C. Cho\"\",\"\"S. Y. Kim\"\",\"\"S. Y. Kim\"\",\"\"S. Y. Kim\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 104,
+   "output": "654321,\"The effect of mindfulness-based interventions on anxiety and depression in patients with chronic illness\",eng,Complementary Therapies in Clinical Practice,Complement Ther Clin Pract,1744-3875,27,,1/1/21,100537,\"{\"\"J. Smith\"\",\"\"A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 906,
+   "output": "234567,Impact of telemedicine on patient outcomes in chronic diseases,eng,Journal of Telemedicine and Telecare,Telemed J E Health,1357-6383,22,4,4/1/18,214-221,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Richard Jones\"\",\"\"Emily Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 447,
+   "output": "102345,Differences in Gene Expression Between Cancer and Normal Cells,,Cancer Research,,,0008-5472,72,18,10/15/18,4567-4578,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Robert Johnson\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 628,
+   "output": "445567,\"Impact of Telehealth Interventions on Mental Health Outcomes Among Older Adults: A Systematic Review and Meta-Analysis\",English,Journal of Gerontological Nursing,,1532-131X,45,2,2/1/23,45-56,\"{\"\"A. Patel\"\",\"\"B. Singh\"\",\"\"C. Johnson\"\",\"\"D. Lee\"\",\"\"E. Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 736,
+   "output": "512345,Impact of a school-based physical activity intervention on children's fitness and body composition.,eng,Preventive Medicine,,0895-4356,45,2,2/1/13,214-221,\"{\"\"J. P. Welk III\"\",\"\"S. M. Beighle\"\",\"\"A. L. Beets\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 139,
+   "output": "889021,Impact of a pharmacist-led intervention on medication adherence in patients with chronic kidney disease: a randomized controlled trial.,eng,Pharmacoepidemiol Drug Saf.,,1099-1557,25,1,1/1/16,1-9,\"{\"\"S. M. Elamin\"\",\"\"M. A. Almekhlafi\"\",\"\"M. Goyal\"\",\"\"F. M. Clement\"\",\"\"J. H. Wong\"\",\"\"D. Yavin\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 471,
+   "output": "987654,\"The Effectiveness of Mindfulness-Based Interventions on Reducing Symptoms of Anxiety and Depression in College Students: A Systematic Review and Meta-Analysis.\",eng,Applied Psychology: An International Review,,0003-682X,45,2,1/1/20,123-145,\"{\"\"L. Zhang\"\",\"\"J. Wang\"\",\"\"Y. Li\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "558090,Diffusion tensor imaging of deep gray matter in children treated for brain malignancies.,eng,Child's nervous system : ChNS : official journal of the International Society for Pediatric Neurosurgery,Childs Nerv Syst,1433-0350,30,4,4/1/14,631-8,\"{\"\"Anna Nidecker\"\",\"\"Siamak Ardekani\"\",\"\"E Mark Mahone\"\",\"\"Firouzeh Tannazi\"\",\"\"Jarunee Intrapiromkul\"\",\"\"Moody Wharam\"\",\"\"Larry J Brant\"\",\"\"Alena Horsk��\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 431,
+   "output": "217524,Reproduction of excursive tooth contact in an articulator with computerized axiography data,English,,,,78,4,1/1/97,373-378,\"{\"\"K. Tamaki\"\",\"\"A. G. C��lar\"\",\"\"S. Beyrer\"\",\"\"H. Aoki\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "876543,\"A Systematic Review and Meta-analysis of the Effectiveness of Cognitive Behavioral Therapy for Insomnia on Sleep Quality and Daytime Functioning\",eng,Sleep Medicine Reviews,Sleep Med Rev,1878-4320,25,,1/1/18,145-156,\"{\"J. Smith\",\"M. Johnson\",\"L. Williams\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 851,
+   "output": "627883,The effects of mindfulness-based interventions on psychological well-being: A systematic review and meta-analysis.,eng,Journal of Clinical Psychology,\"J. Clin. Psychol.\",1097-4679,68,1,1/1/17,12-32,\"{\"\"Lindsey E. Hopkins\"\",\"\"Sarah E. Bowen\"\",\"\"Katherine A. C. Orsillo\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 282,
+   "output": "812345,Impact of Telemedicine on Mental Health Outcomes During the Pandemic,,General Hospital Psychiatry,,0163-8343,44,0,1/1/21,101-108,\"{\"\"L. Wang\"\",\"\"J. Li\"\",\"\"Z. Zhang\"\",\"\"Y. Chen\"\",\"\"H. Liu\"\",\"\"F. Zhang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 723,
+   "output": "881234,\"Impact of Telemedicine on Patient Outcomes in Chronic Disease Management\",eng,Health Informatics Journal,Health Informatics Journal,1361-3944,22,4,1/1/20,456-467,\"{\"\"J. Smith\"\",\"\"A. Johnson\"\",\"\"R. Brown\"\",\"\"L. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 989,
+   "output": "260738,Combined use of caudal bupivacaine and rectal diclofenac is not superior to the use of each analgesic regimen alone,eng,Pain,PAIN,0304-3959,21,0,1/1/05,63-66,\"{\"\"A. H. Samarkandi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 594,
+   "output": "447652,The impact of telehealth on patient satisfaction and health outcomes in chronic disease management: A systematic review and meta-analysis.,eng,Health Informatics Journal,Health Informatics J,1361-3447,23,1,1/1/21,1-23,\"{\"\"Sara Alqahtani\"\",\"\"Nada Alharbi\"\",\"\"Reem Alotaibi\"\",\"\"Wafa Alshammari\"\",\"\"Noura Alshammari\"\",\"\"Amal Alshammari\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 684,
+   "output": "811630,The impact of social media on mental health: A systematic review.,eng,Journal of Affective Disorders,Jon. Affect. Disord.,1573-2512,174,0,1/1/19,123-132,\"{\"\"Sarah E. Coyne\"\",\"\"Laura M. Hitt\"\",\"\"Jessica L. Rudder\"\",\"\"Rachel E. Kowert\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 353,
+   "output": "1023456,\"The impact of telemedicine on patient satisfaction and health outcomes: A systematic review\",eng,Health Informatics Journal,HIJ,1361-3981,25,4,1/4/20,311-328,\"{\"\"J Smith\"\",\"\"A Johnson\"\",\"\"R Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 87,
+   "output": "894599,\"A Comparative Study of Machine Learning Algorithms for Predicting Stock Market Trends\",eng,Computers & Operations Research,Comput Oper Res,0305-0548,42,10,1/1/15,285-295,\"{\"\"John Doe\"\",\"\"Jane Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 719,
+   "output": "478923,The impact of telemedicine on patient outcomes in rural areas: A systematic review and meta-analysis.,eng,Health Informatics Journal,Health Informatics J.,1361-3944,27,2,1/1/19,145-156,\"{\"\"A. Smith\"\",\"\"B. Jones\"\",\"\"C. Williams\"\",\"\"D. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 28,
+   "output": "163527,A performance improvement process to reduce catheter ablation procedure time: a multicenter study,eng,Circulation: Cardiovascular Interventions,Circ Cardiovasc Interv,1936-8705,10,1,1/1/17,1300-1308,\"{\"\"V. E. CN  - medline DA  - Jan-Feb DB  - MEDLINE DO  - http://dx.doi.org/10.1161/CIRCULATIONAHA.116.024222 DP  - Ovid Technologies von Gruenigen\"\",\"\"A. M. Burkett\"\",\"\"J. Doyle\"\",\"\"T. H. Kenny\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 127,
+   "output": "987654,\"Efficacy and safety of a new drug in treating hypertension: A randomized controlled trial\",eng,Journal of Hypertension,J.Hypertens.,1879-1974,22,6,6/1/20,1234-1240,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Michael Johnson\"\",\"\"Emily Davis\"\",\"\"Robert Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 534,
+   "output": "321756,The role of microRNAs in the pathogenesis of Alzheimer's disease.,eng,International journal of molecular sciences,Int. J. Mol. Sci.,1661-6596,15,20,10/1/14,4612-34,\"{\"\"Yanping Li\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaofang Liu\"\",\"\"Xiaoxia Wang\"\",\"\"Xiaoliang Chen\"\",\"\"Xiaoyun Wang\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaofeng Wang\"\",\"\"Xiaoming Wang\"\",\"\"Xiaojun Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Li\"\",\"\"Xiaoyan Zhang\"\",\"\"X",
+   "parsed": true
+  },
+  {
+   "row": 886,
+   "output": "448385,Are birth kits a good idea? A systematic review of the evidence.,eng,Plos One,PLOS ONE,1932-6203,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 830,
+   "output": "193293,CSM2004 best practice,,,,,4,0,1/1/04,10-10 ST  - CSM2004 best practice-,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 11,
+   "output": "109876,\"A Novel CRISPR-Cas13a-Based Assay for Rapid Detection of SARS-CoV-2\",eng,Journal of Clinical Microbiology,J. Clin. Microbiol,0095-1137,59,10,10/1/21,2021-2028,\"{\"\"Zhang, L.\"\",\"\"Li, Y.\"\",\"\"Wang, X.\"\",\"\"Chen, H.\"\",\"\"Zhang, Y.\"\",\"\"Sun, Y.\"\",\"\"Wang, Q.\"\",\"\"Zhang, X.\"\",\"\"Zhang, J.\"\",\"\"Xu, Y.\"\",\"\"Zhou, P.\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

@@ -1,0 +1,2391 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-7b",
+  "dataset": "beers_surrogate",
+  "k": 20,
+  "spread": true,
+  "chunks": 50,
+  "all": {
+   "repair_p": 0.1515,
+   "repair_r": 0.1327,
+   "repair_f1": 0.1415,
+   "detect_f1": 0.3604,
+   "errors": 565,
+   "predicted": 495,
+   "repaired": 75,
+   "detected": 191
+  },
+  "identity": {
+   "repair_p": 0.0794,
+   "repair_r": 0.0394,
+   "repair_f1": 0.0526,
+   "detect_f1": 0.0737,
+   "errors": 127,
+   "predicted": 63,
+   "repaired": 5,
+   "detected": 7
+  },
+  "other": {
+   "repair_p": 0.162,
+   "repair_r": 0.1598,
+   "repair_f1": 0.1609,
+   "detect_f1": 0.423,
+   "errors": 438,
+   "predicted": 432,
+   "repaired": 70,
+   "detected": 184
+  }
+ },
+ "chunks": [
+  {
+   "start": 143,
+   "rows": [
+    143,
+    159,
+    241,
+    345,
+    374,
+    393,
+    406,
+    452,
+    559,
+    634,
+    712,
+    728,
+    757,
+    765,
+    785,
+    811,
+    826,
+    862,
+    934,
+    993
+   ],
+   "n_pred": 18,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 8,
+     "repaired": 2,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 8,
+     "repaired": 2,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"7\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"5.2%\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 6, \"column\": \"id\", \"value\": 2303}, {\"row\": 7, \"column\": \"abv\", \"value\": \"7%\"}, {\"row\": 8, \"column\": \"id\", \"value\": 2483}, {\"row\": 9, \"column\": \"id\", \"value\": 2358}, {\"row\": 10, \"column\": \"abv\", \"value\": \"\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"6.9%\"}, {\"row\": 13, \"column\": \"id\", \"value\": 2443}, {\"row\": 14, \"column\": \"abv\", \"value\": \"4.5%\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"5\"}, {\"row\": 16, \"column\": \"id\", \"value\": 2365}, {\"row\": 17, \"column\": \"id\", \"value\": 2605}, {\"row\": 18, \"column\": \"id\", \"value\": 2575}, {\"row\": 19, \"column\": \"id\", \"value\": 2563}, {\"row\": 20, \"column\": \"id\", \"value\": 1345}]}\n```"
+  },
+  {
+   "start": 1,
+   "rows": [
+    1,
+    101,
+    120,
+    144,
+    160,
+    242,
+    328,
+    346,
+    375,
+    394,
+    407,
+    453,
+    635,
+    729,
+    758,
+    786,
+    812,
+    827,
+    863,
+    935
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 15,
+     "repaired": 2,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 15,
+     "repaired": 2,
+     "detected": 6
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"9.0%\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"NE\"},\n    {\"row\": 5, \"column\": \"id\", \"value\": 10},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Brinvel\"},\n    {\"row\": 7, \"column\": \"abv\", \"value\": \"9.0%\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"6.2%\"},\n    {\"row\": 9, \"column\": \"abv\", \"value\": \"9.4%\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"IN\"},\n    {\"row\": 11, \"column\": \"abv\", \"value\": \"4.8%\"},\n    {\"row\": 12, \"column\": \"state\", \"value\": \"OR\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": 80},\n    {\"row\": 13, \"column\": \"style\", \"value\": \"English Brown Ale\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": 30},\n    {\"row\": 15, \"column\": \"abv\", \"value\": \"3.2%\"},\n    {\"row\": 15, \"column\": \"state\", \"value\": \"NY\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": 309},\n    {\"row\": 17, \"column\": \"style\", \"value\": \"American Adjunct Lager\"},\n    {\"row\": 18, \"column\": \"abv\", \"value\": \"5.8%\"},\n    {\"row\": 19, \"column\": \"abv\", \"value\": \"6.2%\"},\n    {\"row\": 20, \"column\": \"abv\", \"value\": \"9.9%\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 145,
+   "rows": [
+    145,
+    161,
+    376,
+    395,
+    408,
+    425,
+    454,
+    529,
+    535,
+    560,
+    592,
+    598,
+    636,
+    713,
+    730,
+    759,
+    766,
+    813,
+    828,
+    936
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 8,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 8,
+     "repaired": 1,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"6.8%\"},\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"5.9%\"},\n    {\"row\": 5, \"column\": \"style\", \"value\": \"Bock Lager\"},\n    {\"row\": 6, \"column\": \"style\", \"value\": \"Herbed / Spiced Beer\"},\n    {\"row\": 7, \"column\": \"state\", \"value\": \"OR\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"6.5%\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"1831\"},\n    {\"row\": 10, \"column\": \"style\", \"value\": \"American Pale Lager\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 12, \"column\": \"beer-name\", \"value\": \"Ulahep Zarrho Nyba\"},\n    {\"row\": 12, \"column\": \"style\", \"value\": \"Berliner Weissbier\"},\n    {\"row\": 13, \"column\": \"abv\", \"value\": \"6.0%\"},\n    {\"row\": 13, \"column\": \"style\", \"value\": \"American IPA\"},\n    {\"row\": 14, \"column\": \"style\", \"value\": \"Fenrhorholo Stout\"},\n    {\"row\": 15, \"column\": \"beer-name\", \"value\": \"RHOVAS I.W.A. (2011)\"},\n    {\"row\": 16, \"column\": \"beer-name\", \"value\": \"Pimbrin\"},\n    {\"row\": 17, \"column\": \"style\", \"value\": \"Doppelbock\"},\n    {\"row\": 18, \"column\": \"abv\", \"value\": \"4.7%\"},\n    {\"row\": 19, \"column\": \"beer-name\", \"value\": \"FENMOR Hepba (2013)\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 2,
+   "rows": [
+    2,
+    29,
+    102,
+    121,
+    146,
+    162,
+    189,
+    206,
+    243,
+    455,
+    637,
+    731,
+    787,
+    814,
+    829,
+    864,
+    923,
+    937,
+    970,
+    994
+   ],
+   "n_pred": 28,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 13,
+     "repaired": 2,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 12,
+     "repaired": 2,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"abv\", \"value\": \"12.5%\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Wexzar Suldri\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"MT\"},\n    {\"row\": 4, \"column\": \"city\", \"value\": \"Oskrho\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"NE\"},\n    {\"row\": 5, \"column\": \"city\", \"value\": \"Baula\"},\n    {\"row\": 5, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Zargar Velpim\"},\n    {\"row\": 7, \"column\": \"state\", \"value\": \"NV\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"6.8%\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"1410\"},\n    {\"row\": 9, \"column\": \"city\", \"value\": \"Brinvel\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"FL\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"800\"},\n    {\"row\": 10, \"column\": \"city\", \"value\": \"Velgartor\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"300\"},\n    {\"row\": 12, \"column\": \"city\", \"value\": \"Jourhobrin\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"309\"},\n    {\"row\": 13, \"column\": \"state\", \"value\": \"ID\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"1310\"},\n    {\"row\": 14, \"column\": \"city\", \"value\": \"Osktas Oskrho\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"250\"},\n    {\"row\": 15, \"column\": \"city\", \"value\": \"Losulzarlo\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"450\"},\n    {\"row\": 17, \"column\": \"city\", \"value\": \"Joumor Lopim Brincal\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"510\"},\n    {\"row\": 18, \"column\": \"state\", \"value\": \"CO\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 163,
+   "rows": [
+    163,
+    286,
+    329,
+    347,
+    366,
+    377,
+    396,
+    409,
+    426,
+    456,
+    519,
+    530,
+    536,
+    550,
+    561,
+    593,
+    599,
+    638,
+    732,
+    830
+   ],
+   "n_pred": 24,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 20,
+     "repaired": 1,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 19,
+     "repaired": 1,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"6.5%\"},\n    {\"row\": 2, \"column\": \"id\", \"value\": \"2504\"},\n    {\"row\": 2, \"column\": \"brewery-name\", \"value\": \"Quenpim Brewery\"},\n    {\"row\": 3, \"column\": \"id\", \"value\": \"1665\"},\n    {\"row\": 4, \"column\": \"id\", \"value\": \"1912\"},\n    {\"row\": 5, \"column\": \"id\", \"value\": \"1175\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Los Angeles\"},\n    {\"row\": 7, \"column\": \"id\", \"value\": \"1702\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"IA\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"1654\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"2395\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"OR\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"1629\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"1358\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"1428\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"2533\"},\n    {\"row\": 14, \"column\": \"state\", \"value\": \"IL\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"2282\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"5.6%\"},\n    {\"row\": 16, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"885\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"956\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"1074\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"2002\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 164,
+   "rows": [
+    164,
+    627,
+    639,
+    646,
+    674,
+    682,
+    714,
+    733,
+    760,
+    767,
+    775,
+    788,
+    798,
+    804,
+    815,
+    831,
+    849,
+    865,
+    924,
+    938
+   ],
+   "n_pred": 29,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 19,
+     "repaired": 6,
+     "detected": 10
+    },
+    "identity": {
+     "errors": 6,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 19,
+     "repaired": 6,
+     "detected": 10
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"5.9%\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 5, \"column\": \"abv\", \"value\": \"6.9%\"},\n    {\"row\": 5, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"9.9%\"},\n    {\"row\": 7, \"column\": \"state\", \"value\": \"PA\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"AZ\"},\n    {\"row\": 9, \"column\": \"abv\", \"value\": \"7.0%\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"NY\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"6.8%\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"PA\"},\n    {\"row\": 12, \"column\": \"abv\", \"value\": \"5.5%\"},\n    {\"row\": 12, \"column\": \"state\", \"value\": \"ID\"},\n    {\"row\": 13, \"column\": \"abv\", \"value\": \"5.5%\"},\n    {\"row\": 13, \"column\": \"state\", \"value\": \"TX\"},\n    {\"row\": 14, \"column\": \"abv\", \"value\": \"9.6%\"},\n    {\"row\": 14, \"column\": \"state\", \"value\": \"IL\"},\n    {\"row\": 15, \"column\": \"state\", \"value\": \"WI\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"6.3%\"},\n    {\"row\": 16, \"column\": \"state\", \"value\": \"IN\"},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"5.7%\"},\n    {\"row\": 17, \"column\": \"state\", \"value\": \"MN\"},\n    {\"row\": 18, \"column\": \"abv\", \"value\": \"7.2%\"},\n    {\"row\": 18, \"column\": \"state\", \"value\": \"KS\"},\n    {\"row\": 19, \"column\": \"abv\", \"value\": \"4.0%\"},\n    {\"row\": 19, \"column\": \"state\", \"value\": \"UT\"},\n    {\"row\": 20, \"column\": \"abv\", \"value\": \"9.9%\"},\n    {\"row\": 20, \"column\": \"state\", \"value\": \"CO\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 3,
+   "rows": [
+    3,
+    7,
+    11,
+    16,
+    30,
+    64,
+    103,
+    122,
+    147,
+    165,
+    190,
+    207,
+    215,
+    226,
+    640,
+    734,
+    832,
+    955,
+    971,
+    995
+   ],
+   "n_pred": 21,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 13,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 10,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 2, \"column\": \"city\", \"value\": \"Morzar Sululaula\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 4, \"column\": \"abv\", \"value\": \"3.5%\"},\n    {\"row\": 5, \"column\": \"brewery_id\", \"value\": \"1\"},\n    {\"row\": 6, \"column\": \"beer-name\", \"value\": \"Garquen American Double / Imperial IPA\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Veldriosk\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"380\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"6.5%\"},\n    {\"row\": 9, \"column\": \"abv\", \"value\": \"5.3%\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"MI\"},\n    {\"row\": 11, \"column\": \"beer-name\", \"value\": \"Bock (Brinny)\"},\n    {\"row\": 11, \"column\": \"style\", \"value\": \"Maibock / Helles Bock\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"155\"},\n    {\"row\": 13, \"column\": \"beer-name\", \"value\": \"Kelpim Lohep Black IPA (2013)\"},\n    {\"row\": 14, \"column\": \"beer-name\", \"value\": \"Loosk Fenwex's Vasjou Ale\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"166\"},\n    {\"row\": 16, \"column\": \"beer-name\", \"value\": \"Quenosk Sulmor Imperial Ulatas Ale\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"25\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"295\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"361\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 166,
+   "rows": [
+    166,
+    244,
+    259,
+    287,
+    296,
+    302,
+    330,
+    348,
+    358,
+    367,
+    378,
+    384,
+    397,
+    410,
+    427,
+    457,
+    466,
+    520,
+    641,
+    833
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 11,
+     "repaired": 3,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 1
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 6,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"beer-name\", \"value\": \"Brinok Oskgar\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"IL\"},\n    {\"row\": 5, \"column\": \"abv\", \"value\": \"0.05\"},\n    {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Brinvel Pimlo Brewery & Lofentas\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Oskar Veltor\"},\n    {\"row\": 8, \"column\": \"brewery-name\", \"value\": \"Rhoba Drinny Brewery\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"160\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"Hepkel\"},\n    {\"row\": 12, \"column\": \"abv\", \"value\": \"0.056\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"356\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 167,
+   "rows": [
+    167,
+    531,
+    537,
+    551,
+    562,
+    594,
+    600,
+    616,
+    628,
+    642,
+    647,
+    675,
+    683,
+    694,
+    700,
+    704,
+    715,
+    735,
+    753,
+    834
+   ],
+   "n_pred": 18,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"8\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Hilo\"},\n    {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"65\"},\n    {\"row\": 5, \"column\": \"brewery_name\", \"value\": \"Nysul Quenba Brewing Company\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Tashetorpim\"},\n    {\"row\": 7, \"column\": \"state\", \"value\": \"CT\"},\n    {\"row\": 8, \"column\": \"brewery_name\", \"value\": \"Hepquentas Brewing Company\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"PA\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"Nywex\"},\n    {\"row\": 12, \"column\": \"brewery_name\", \"value\": \"Wexhep Fensul Brewing Company\"},\n    {\"row\": 13, \"column\": \"brewery_name\", \"value\": \"Drilowexosk Ale Brewing Company\"},\n    {\"row\": 14, \"column\": \"brewery_name\", \"value\": \"Zarkelkel Brewing Company\"},\n    {\"row\": 15, \"column\": \"brewery_name\", \"value\": \"Brinpimvel Brewing Company\"},\n    {\"row\": 16, \"column\": \"brewery_name\", \"value\": \"Brinsulvas Brewery\"},\n    {\"row\": 17, \"column\": \"brewery_name\", \"value\": \"Bacalny Brewing Company\"},\n    {\"row\": 18, \"column\": \"brewery_name\", \"value\": \"Sulzar Brewing Company\"},\n    {\"row\": 19, \"column\": \"brewery_name\", \"value\": \"Lopim Wexjou Brewing Company\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 168,
+   "rows": [
+    168,
+    761,
+    768,
+    776,
+    781,
+    789,
+    794,
+    799,
+    805,
+    816,
+    835,
+    850,
+    866,
+    879,
+    894,
+    909,
+    915,
+    925,
+    939,
+    945
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 15,
+     "repaired": 1,
+     "detected": 11
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 15,
+     "repaired": 1,
+     "detected": 11
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"6.3%\"}, {\"row\": 2, \"column\": \"state\", \"value\": \"NY\"}, {\"row\": 3, \"column\": \"city\", \"value\": \"Garkel\"}, {\"row\": 4, \"column\": \"abv\", \"value\": \"6.2%\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"5.4%\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"9.9%\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"MS\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"8.5%\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"7.9%\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"5.2%\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"7.5%\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"9.9%\"}, {\"row\": 13, \"column\": \"style\", \"value\": \"Milk / Sweet Stout\"}, {\"row\": 14, \"column\": \"style\", \"value\": \"Saison / Farmhouse Ale\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"5.5%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"8.2%\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"4.1%\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"7.3%\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"6.9%\"}]}\n```"
+  },
+  {
+   "start": 4,
+   "rows": [
+    4,
+    8,
+    12,
+    17,
+    22,
+    31,
+    42,
+    45,
+    60,
+    65,
+    68,
+    76,
+    80,
+    169,
+    836,
+    951,
+    956,
+    972,
+    976,
+    996
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 12,
+     "repaired": 2,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 11,
+     "repaired": 2,
+     "detected": 6
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"8.6\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 4, \"column\": \"abv\", \"value\": \"4.5\"},\n    {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Osktas the Velula Brewery\"},\n    {\"row\": 7, \"column\": \"abv\", \"value\": \"5.9\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"4.2\"},\n    {\"row\": 12, \"column\": \"abv\", \"value\": \"3.8\"},\n    {\"row\": 13, \"column\": \"style\", \"value\": \"American Helles\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"2404\"},\n    {\"row\": 14, \"column\": \"beer-name\", \"value\": \"Hephep in the 'Wexcal' Helles\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"1366\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"9.2\"},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"5.6\"},\n    {\"row\": 18, \"column\": \"state\", \"value\": \"IL\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"2253\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 104,
+   "rows": [
+    104,
+    109,
+    123,
+    129,
+    148,
+    170,
+    186,
+    191,
+    200,
+    203,
+    208,
+    216,
+    222,
+    227,
+    235,
+    245,
+    248,
+    260,
+    266,
+    837
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 4,
+     "predicted": 10,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 10,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"6.2\"},\n    {\"row\": 3, \"column\": \"id\", \"value\": \"1011\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"VA\"},\n    {\"row\": 5, \"column\": \"id\", \"value\": \"108\"},\n    {\"row\": 6, \"column\": \"id\", \"value\": \"1009\"},\n    {\"row\": 7, \"column\": \"state\", \"value\": \"NY\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"533\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"265\"},\n    {\"row\": 10, \"column\": \"city\", \"value\": \"Kelwexula Joukel\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"OR\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"2226\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"2094\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"331\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"2057\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"1650\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"2338\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"1650\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"2538\"},\n    {\"row\": 20, \"column\": \"abv\", \"value\": \"\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 171,
+   "rows": [
+    171,
+    280,
+    288,
+    297,
+    303,
+    309,
+    317,
+    322,
+    325,
+    331,
+    336,
+    342,
+    349,
+    359,
+    363,
+    368,
+    379,
+    385,
+    398,
+    838
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 4,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"abv\", \"value\": \"0.075\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Taspimwexba\"},\n    {\"row\": 4, \"column\": \"abv\", \"value\": \"0.06\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"0.049\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Wexmor\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"0.082\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 11, \"column\": \"style\", \"value\": \"Doppelbock\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"1214\"},\n    {\"row\": 12, \"column\": \"beer-name\", \"value\": \"La Mormor Jouwex Vastasvas Ale\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"1214\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"1616\"},\n    {\"row\": 15, \"column\": \"abv\", \"value\": \"0.065\"},\n    {\"row\": 17, \"column\": \"brewery-name\", \"value\": \"Mordri Wexsul Brewing\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"312\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"478\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"1128\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 172,
+   "rows": [
+    172,
+    401,
+    411,
+    417,
+    428,
+    445,
+    448,
+    458,
+    467,
+    474,
+    485,
+    499,
+    516,
+    521,
+    526,
+    532,
+    538,
+    542,
+    552,
+    839
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"id\", \"value\": \"1979\"}, {\"row\": 3, \"column\": \"id\", \"value\": \"3710\"}, {\"row\": 4, \"column\": \"id\", \"value\": \"2143\"}, {\"row\": 5, \"column\": \"id\", \"value\": \"7690\"}, {\"row\": 6, \"column\": \"id\", \"value\": \"1543\"}, {\"row\": 7, \"column\": \"id\", \"value\": \"1004\"}, {\"row\": 8, \"column\": \"id\", \"value\": \"2200\"}, {\"row\": 9, \"column\": \"id\", \"value\": \"2671\"}, {\"row\": 10, \"column\": \"id\", \"value\": \"2595\"}, {\"row\": 11, \"column\": \"id\", \"value\": \"60\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"1832\"}, {\"row\": 13, \"column\": \"id\", \"value\": \"75\"}, {\"row\": 14, \"column\": \"id\", \"value\": \"1600\"}, {\"row\": 15, \"column\": \"id\", \"value\": \"1234\"}, {\"row\": 16, \"column\": \"id\", \"value\": \"957\"}, {\"row\": 17, \"column\": \"id\", \"value\": \"547\"}, {\"row\": 18, \"column\": \"id\", \"value\": \"1986\"}, {\"row\": 19, \"column\": \"id\", \"value\": \"2531\"}, {\"row\": 20, \"column\": \"id\", \"value\": \"1127\"}]}\n```"
+  },
+  {
+   "start": 173,
+   "rows": [
+    173,
+    556,
+    563,
+    566,
+    569,
+    582,
+    589,
+    595,
+    601,
+    613,
+    617,
+    623,
+    629,
+    643,
+    648,
+    676,
+    684,
+    695,
+    701,
+    840
+   ],
+   "n_pred": 46,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 5,
+     "repaired": 2,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"6.7%\"},\n    {\"row\": 2, \"column\": \"id\", \"value\": \"1885\"},\n    {\"row\": 2, \"column\": \"city\", \"value\": \"Vastaswex\"},\n    {\"row\": 3, \"column\": \"id\", \"value\": \"2277\"},\n    {\"row\": 3, \"column\": \"brewery_id\", \"value\": \"134\"},\n    {\"row\": 3, \"column\": \"brewery_name\", \"value\": \"Dridri Craft Brewery\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 5, \"column\": \"id\", \"value\": \"1476\"},\n    {\"row\": 5, \"column\": \"style\", \"value\": \"American Brown Ale\"},\n    {\"row\": 6, \"column\": \"id\", \"value\": \"1598\"},\n    {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"366\"},\n    {\"row\": 6, \"column\": \"brewery_name\", \"value\": \"Pimhep Brewing Company\"},\n    {\"row\": 7, \"column\": \"id\", \"value\": \"1705\"},\n    {\"row\": 7, \"column\": \"brewery_id\", \"value\": \"337\"},\n    {\"row\": 7, \"column\": \"brewery_name\", \"value\": \"Rhovasba Brewing Company\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"1707\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Tashep\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"320\"},\n    {\"row\": 9, \"column\": \"abv\", \"value\": \"8.8%\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"CT\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"1264\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"1669\"},\n    {\"row\": 11, \"column\": \"brewery_name\", \"value\": \"Hepquentas Brewing\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"Rhosul\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"2335\"},\n    {\"row\": 12, \"column\": \"brewery_id\", \"value\": \"148\"},\n    {\"row\": 12, \"column\": \"brewery_name\", \"value\": \"Brinwex Batasquen\"},\n    {\"row\": 12, \"column\": \"city\", \"value\": \"Velquen\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"1394\"},\n    {\"row\": 13, \"column\": \"brewery_id\", \"value\": \"301\"},\n    {\"row\": 13, \"column\": \"brewery_name\", \"value\": \"Sulfen Calsul Brewing Company\"},\n    {\"row\": 13, \"column\": \"city\", \"value\": \"Vastorvas\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"6\"},\n    {\"row\": 14, \"column\": \"brewery_name\", \"value\": \"VASHEP Brewery\"},\n    {\"row\": 14, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"744\"},\n    {\"row\": 15, \"column\": \"style\", \"value\": \"American Pale Ale (APA)\"},\n    {\"row\": 15, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"711\"},\n    {\"row\": 16, \"column\": \"brewery_id\", \"value\": \"135\"},\n    {\"row\": 16, \"column\": \"brewery_name\", \"value\": \"Wexhep Fensul's Brewery\"},\n    {\"row\": 16, \"column\": \"city\", \"value\": \"Suldri\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"1290\"},\n    {\"row\": 17, \"column\": \"brewery_id\", \"value\": \"128\"},\n    {\"row\": 17, \"column\": \"brewery_name\", \"value\": \"Drilo Ale Brewing Company\"},\n    {\"row\": 17, \"column\": \"city\", \"value\": \"Kelosk\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 174,
+   "rows": [
+    174,
+    705,
+    716,
+    736,
+    744,
+    754,
+    762,
+    769,
+    777,
+    782,
+    790,
+    795,
+    800,
+    806,
+    817,
+    841,
+    851,
+    859,
+    867,
+    880
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 18,
+     "predicted": 13,
+     "repaired": 1,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 14,
+     "predicted": 11,
+     "repaired": 1,
+     "detected": 6
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"AZ\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"5%\"},\n    {\"row\": 9, \"column\": \"abv\", \"value\": \"5.8%\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": 191},\n    {\"row\": 11, \"column\": \"abv\", \"value\": \"4.3%\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": 133},\n    {\"row\": 13, \"column\": \"id\", \"value\": 118},\n    {\"row\": 13, \"column\": \"beer-name\", \"value\": \"Quenlon Nyvas (2012)\"},\n    {\"row\": 15, \"column\": \"beer-name\", \"value\": \"Nyquen Velwex Basul Zarvel Wheat\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": 25},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"7.3%\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": 449}\n  ]\n}\n```"
+  },
+  {
+   "start": 5,
+   "rows": [
+    5,
+    9,
+    175,
+    842,
+    895,
+    900,
+    903,
+    910,
+    916,
+    926,
+    940,
+    946,
+    952,
+    957,
+    965,
+    973,
+    977,
+    983,
+    990,
+    997
+   ],
+   "n_pred": 21,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"beer-name\", \"value\": \"Uchapel Kelcalkel\"},\n    {\"row\": 2, \"column\": \"brewery-name\", \"value\": \"Morzar Sululaula\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Zargar Velpim\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"IN,\"},\n    {\"row\": 5, \"column\": \"brewery-name\", \"value\": \"Joudri Lolo Brewing\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Kelulapim\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Fensul Nyrho, LA\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Velkel, PA\"},\n    {\"row\": 9, \"column\": \"value\", \"value\": \"0.052\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"Garlo R\"},\n    {\"row\": 10, \"column\": \"brewery-name\", \"value\": \"Garjou Brewing Company\"},\n    {\"row\": 11, \"column\": \"beer-name\", \"value\": \"Bawex Nyjou Zarwex-Oskkel Craft Lager\"},\n    {\"row\": 12, \"column\": \"beer-name\", \"value\": \"Ulagar Drifenlo White IPA (2014)\"},\n    {\"row\": 13, \"column\": \"beer-name\", \"value\": \"White Pimbrin of the Jouosk\"},\n    {\"row\": 14, \"column\": \"brewery-name\", \"value\": \"Pimrhofen Brewing Company\"},\n    {\"row\": 15, \"column\": \"beer-name\", \"value\": \"Rhosul Zartas Kelgar (Kelny)\"},\n    {\"row\": 16, \"column\": \"state\", \"value\": \"IL\"},\n    {\"row\": 17, \"column\": \"beer-name\", \"value\": \"Brinmor Oskvas Nyfen Brinba Nypimtas Osklo Ale\"},\n    {\"row\": 18, \"column\": \"value\", \"value\": \"0.055%\"},\n    {\"row\": 19, \"column\": \"beer-name\", \"value\": \"Morbrin IPA\"},\n    {\"row\": 20, \"column\": \"state\", \"value\": \"CO\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 13,
+   "rows": [
+    13,
+    18,
+    20,
+    23,
+    25,
+    32,
+    34,
+    36,
+    43,
+    46,
+    52,
+    55,
+    57,
+    61,
+    66,
+    69,
+    72,
+    74,
+    176,
+    843
+   ],
+   "n_pred": 14,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 2,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 5,
+     "repaired": 2,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Oskbrin de Garjou\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"6.5%\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Wexjas\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 9, \"column\": \"value\", \"value\": \"0.065\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"NC\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"5.5%\"}, {\"row\": 15, \"column\": \"brewery-name\", \"value\": \"Dritas Brewing Company\"}, {\"row\": 16, \"column\": \"style\", \"value\": \"Märzen / Oktoberfest\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"6.0%\"}, {\"row\": 18, \"column\": \"brewery-name\", \"value\": \"Jouwex Zarhep Brewing Company\"}, {\"row\": 19, \"column\": \"brewery-name\", \"value\": \"Brewery Lotas\"}, {\"row\": 20, \"column\": \"style\", \"value\": \"Belgian Strong Pale Ale\"}]}\n```"
+  },
+  {
+   "start": 77,
+   "rows": [
+    77,
+    81,
+    84,
+    87,
+    89,
+    92,
+    94,
+    96,
+    98,
+    105,
+    107,
+    110,
+    114,
+    116,
+    118,
+    124,
+    126,
+    130,
+    177,
+    844
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 10,
+     "repaired": 1,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 7,
+     "predicted": 10,
+     "repaired": 1,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"7.0%\"},\n    {\"row\": 4, \"column\": \"abv\", \"value\": \"6.8%\"},\n    {\"row\": 5, \"column\": \"abv\", \"value\": \"6.0%\"},\n    {\"row\": 6, \"column\": \"state\", \"value\": \"MN\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": 159},\n    {\"row\": 13, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 14, \"column\": \"abv\", \"value\": \"7.1%\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": 34},\n    {\"row\": 16, \"column\": \"id\", \"value\": 942},\n    {\"row\": 18, \"column\": \"abv\", \"value\": \"6.5%\"},\n    {\"row\": 20, \"column\": \"abv\", \"value\": \"9.1%\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 133,
+   "rows": [
+    133,
+    135,
+    137,
+    139,
+    149,
+    154,
+    178,
+    187,
+    192,
+    196,
+    198,
+    201,
+    204,
+    209,
+    211,
+    217,
+    219,
+    223,
+    228,
+    845
+   ],
+   "n_pred": 22,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 19,
+     "repaired": 2,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 19,
+     "repaired": 2,
+     "detected": 8
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"7.7%\"},\n    {\"row\": 2, \"column\": \"abv\", \"value\": \"6.0%\"},\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"5.0%\"},\n    {\"row\": 4, \"column\": \"abv\", \"value\": \"5.5%\"},\n    {\"row\": 5, \"column\": \"abv\", \"value\": \"4.8%\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 7, \"column\": \"abv\", \"value\": \"5.0%\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Rhobrinfen\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"NY\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"6.5%\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"556\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"5\"},\n    {\"row\": 12, \"column\": \"state\", \"value\": \"SC\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"182\"},\n    {\"row\": 14, \"column\": \"abv\", \"value\": \"6.1%\"},\n    {\"row\": 15, \"column\": \"state\", \"value\": \"MA\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"5.6%\"},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"4.0%\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"222\"},\n    {\"row\": 18, \"column\": \"state\", \"value\": \"NJ\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"331\"},\n    {\"row\": 20, \"column\": \"state\", \"value\": \"IN\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 179,
+   "rows": [
+    179,
+    233,
+    236,
+    246,
+    249,
+    252,
+    254,
+    257,
+    261,
+    264,
+    267,
+    272,
+    274,
+    276,
+    278,
+    281,
+    284,
+    289,
+    298,
+    304
+   ],
+   "n_pred": 24,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 15,
+     "repaired": 2,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 9,
+     "repaired": 2,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"city\", \"value\": \"Zagar Velim\"},\n    {\"row\": 2, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Köln\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"FL\"},\n    {\"row\": 5, \"column\": \"brewery-name\", \"value\": \"Bapim Tasvas Brewing Company\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"6.0%\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Oskarblissa\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"IA\"},\n    {\"row\": 9, \"column\": \"city\", \"value\": \"Calnydri\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"4.8%\"},\n    {\"row\": 11, \"column\": \"style\", \"value\": \"Belgian Strong Pale Ale\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 12, \"column\": \"style\", \"value\": \"English Pale Ale\"},\n    {\"row\": 12, \"column\": \"state\", \"value\": \"ME\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"BAOSK Gartor Brewing Company\"},\n    {\"row\": 13, \"column\": \"name\", \"value\": \"BAOSK Gartor Brewing Company\"},\n    {\"row\": 14, \"column\": \"name\", \"value\": \"Kelny & Jouula's Torlozar Brewing Company\"},\n    {\"row\": 15, \"column\": \"city\", \"value\": \"Ulagar\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"8.5%\"},\n    {\"row\": 17, \"column\": \"brewery-name\", \"value\": \"Basulosk Garlo Brewing Company\"},\n    {\"row\": 18, \"column\": \"style\", \"value\": \"American Blonde Ale\"},\n    {\"row\": 18, \"column\": \"abv\", \"value\": \"5.0%\"},\n    {\"row\": 19, \"column\": \"abv\", \"value\": \"N/A\"},\n    {\"row\": 20, \"column\": \"city\", \"value\": \"Tasgar Ulagar\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 180,
+   "rows": [
+    180,
+    310,
+    312,
+    315,
+    318,
+    320,
+    323,
+    326,
+    332,
+    334,
+    337,
+    340,
+    343,
+    350,
+    356,
+    360,
+    364,
+    369,
+    380,
+    386
+   ],
+   "n_pred": 25,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 6,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"6.0%\"}, {\"row\": 2, \"column\": \"id\", \"value\": \"2134\"}, {\"row\": 2, \"column\": \"city\", \"value\": \"Keljoutor\"}, {\"row\": 3, \"column\": \"state\", \"value\": \"NY\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Pimtasrho Hephep\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Ularhowex\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"VT\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"IL\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 11, \"column\": \"id\", \"value\": \"1284\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Losulzarlo\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"608\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"MD\"}, {\"row\": 13, \"column\": \"id\", \"value\": \"983\"}, {\"row\": 13, \"column\": \"state\", \"value\": \"RI\"}, {\"row\": 14, \"column\": \"id\", \"value\": \"562\"}, {\"row\": 15, \"column\": \"id\", \"value\": \"1523\"}, {\"row\": 15, \"column\": \"brewery_id\", \"value\": \"22\"}, {\"row\": 16, \"column\": \"id\", \"value\": \"562\"}, {\"row\": 17, \"column\": \"id\", \"value\": \"2521\"}, {\"row\": 18, \"column\": \"id\", \"value\": \"875\"}, {\"row\": 19, \"column\": \"id\", \"value\": \"991\"}, {\"row\": 20, \"column\": \"id\", \"value\": \"311\"}]}\n```"
+  },
+  {
+   "start": 181,
+   "rows": [
+    181,
+    389,
+    399,
+    402,
+    412,
+    415,
+    418,
+    420,
+    423,
+    429,
+    431,
+    433,
+    435,
+    437,
+    441,
+    443,
+    446,
+    449,
+    459,
+    468
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 15,
+     "predicted": 7,
+     "repaired": 1,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 4,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"beer-name\", \"value\": \"Garibini Brinvasvas Hephepdrisul Ale\"},\n    {\"row\": 2, \"column\": \"city\", \"value\": \"Oskosk IL\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"IN\"},\n    {\"row\": 4, \"column\": \"brewery-name\", \"value\": \"Baba Ulafen Brewing Company\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"0.055%\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"MA\"},\n    {\"row\": 11, \"column\": \"abv\", \"value\": \"0.053%\"},\n    {\"row\": 12, \"column\": \"abv\", \"value\": \"0.054%\"},\n    {\"row\": 13, \"column\": \"beer-name\", \"value\": \"Lowek G\"},\n    {\"row\": 14, \"column\": \"brewery-name\", \"value\": \"Tasrho Lomor Beer Co.\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 182,
+   "rows": [
+    182,
+    471,
+    475,
+    479,
+    481,
+    486,
+    490,
+    492,
+    497,
+    500,
+    502,
+    504,
+    513,
+    517,
+    522,
+    524,
+    527,
+    533,
+    539,
+    543
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 14,
+     "repaired": 2,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 14,
+     "repaired": 2,
+     "detected": 6
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"9.2%\"}, {\"row\": 2, \"column\": \"abv\", \"value\": \"6.5%\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"5.7%\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"6.5%\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Wexsul\"}, {\"row\": 8, \"column\": \"id\", \"value\": \"1741\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"NM\"}, {\"row\": 9, \"column\": \"abv\", \"value\": \"5%\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"5.2%\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"6%\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"1924\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"9.9%\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"4.2%\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"9%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"7.2%\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Kelbrin Lomor\"}, {\"row\": 18, \"column\": \"id\", \"value\": \"453\"}, {\"row\": 19, \"column\": \"id\", \"value\": \"313\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"6.9%\"}]}\n```"
+  },
+  {
+   "start": 183,
+   "rows": [
+    183,
+    548,
+    553,
+    557,
+    564,
+    567,
+    570,
+    574,
+    577,
+    583,
+    585,
+    587,
+    590,
+    596,
+    602,
+    604,
+    614,
+    618,
+    621,
+    624
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 10,
+     "repaired": 2,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 2,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"id\", \"value\": \"872\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Oskarshamn\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"WI\"},\n    {\"row\": 6, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Vasletasfen\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"San Quenfen\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"MO\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"OK\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"Heploula\"},\n    {\"row\": 12, \"column\": \"state\", \"value\": \"OR\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"337\"},\n    {\"row\": 14, \"column\": \"abv\", \"value\": \"5.2%\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"691\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"2272\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"691\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"180\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 630,
+   "rows": [
+    630,
+    632,
+    644,
+    649,
+    651,
+    655,
+    657,
+    660,
+    663,
+    665,
+    677,
+    685,
+    687,
+    692,
+    696,
+    698,
+    702,
+    706,
+    708,
+    717
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 14,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 12,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"7.5%\"},\n    {\"row\": 2, \"column\": \"city\", \"value\": \"Hepvas Vasjou\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Morcalhep\"},\n    {\"row\": 4, \"column\": \"city\", \"value\": \"Nywex\"},\n    {\"row\": 5, \"column\": \"city\", \"value\": \"Torwex\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Tashep Torpim\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Oskzar Caltas\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Velkelvelhep\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"2631\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"TX\"},\n    {\"row\": 11, \"column\": \"abv\", \"value\": \"5.7999999999999996%\"},\n    {\"row\": 11, \"column\": \"brewery_name\", \"value\": \"Wexhep Fensul's Brewery\"},\n    {\"row\": 12, \"column\": \"city\", \"value\": \"Kelosk\"},\n    {\"row\": 13, \"column\": \"city\", \"value\": \"Balotas GA\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"1375\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"1062\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"5.3%\"},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"5.7%\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"1852\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 719,
+   "rows": [
+    719,
+    723,
+    726,
+    737,
+    740,
+    742,
+    745,
+    748,
+    751,
+    755,
+    763,
+    770,
+    778,
+    783,
+    791,
+    796,
+    801,
+    807,
+    809,
+    818
+   ],
+   "n_pred": 16,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 14,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 7,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 7,
+     "repaired": 1,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 3, \"column\": \"abv\", \"value\": \"6.8\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Jourhobrin AZ\"}, {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Garzarwex & Co.\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Saint Nyhep MO\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"OH\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Rhobrinfen NY\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"70\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"4.9\"}, {\"row\": 14, \"column\": \"style\", \"value\": \"Lager\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"5.7\"}, {\"row\": 16, \"column\": \"brewery-name\", \"value\": \"Babrindri Fentasdripim Brew Quenhep...\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"8.3\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Oskosk IL\"}, {\"row\": 19, \"column\": \"abv\", \"value\": \"4.2\"}, {\"row\": 20, \"column\": \"city\", \"value\": \"Osktas Oskrho WI\"}]}\n```"
+  },
+  {
+   "start": 821,
+   "rows": [
+    821,
+    824,
+    846,
+    852,
+    854,
+    857,
+    860,
+    868,
+    871,
+    876,
+    881,
+    883,
+    888,
+    896,
+    898,
+    901,
+    904,
+    911,
+    917,
+    919
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 2, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"MN\"}, {\"row\": 6, \"column\": \"value\", \"value\": \"0.064\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"San Quenfen\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"KS\"}, {\"row\": 10, \"column\": \"value\", \"value\": \"0.048\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"VT\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Dritorsul\"}, {\"row\": 15, \"column\": \"value\", \"value\": \"0.075\"}, {\"row\": 16, \"column\": \"value\", \"value\": \"0.085\"}, {\"row\": 17, \"column\": \"value\", \"value\": \"0.05\"}, {\"row\": 18, \"column\": \"value\", \"value\": \"0.082\"}, {\"row\": 19, \"column\": \"value\", \"value\": \"0.052\"}, {\"row\": 20, \"column\": \"value\", \"value\": \"0.051\"}]}\n```"
+  },
+  {
+   "start": 0,
+   "rows": [
+    0,
+    921,
+    927,
+    929,
+    931,
+    941,
+    943,
+    947,
+    949,
+    953,
+    958,
+    961,
+    963,
+    966,
+    974,
+    978,
+    980,
+    984,
+    991,
+    998
+   ],
+   "n_pred": 25,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 1
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"beer-name\", \"value\": \"Moror Loula Black Lager\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"UT\"},\n    {\"row\": 4, \"column\": \"beer-name\", \"value\": \"Wexdri K Wexbrin\"},\n    {\"row\": 4, \"column\": \"abv\", \"value\": \"5.0%\"},\n    {\"row\": 5, \"column\": \"beer-name\", \"value\": \"Double Driwex\"},\n    {\"row\": 5, \"column\": \"style\", \"value\": \"American Double / Imperial IPA\"},\n    {\"row\": 6, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Joumor Lopim Brincal\"},\n    {\"row\": 9, \"column\": \"brewery-name\", \"value\": \"Kelquen Torvel Wexny\"},\n    {\"row\": 10, \"column\": \"city\", \"value\": \"Zarvelpim\"},\n    {\"row\": 11, \"column\": \"brewery-name\", \"value\": \"Pimrhofen Brewing Company\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"2222\"},\n    {\"row\": 12, \"column\": \"beer-name\", \"value\": \"61 Pimny\"},\n    {\"row\": 12, \"column\": \"style\", \"value\": \"Oatmeal Stout\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"1069\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"2344\"},\n    {\"row\": 14, \"column\": \"style\", \"value\": \"English Stout\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"366\"},\n    {\"row\": 15, \"column\": \"style\", \"value\": \"Oatmeal Stout\"},\n    {\"row\": 15, \"column\": \"state\", \"value\": \"IL\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"1195\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"825\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"2148\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"1514\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"620\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 6,
+   "rows": [
+    6,
+    10,
+    14,
+    15,
+    19,
+    21,
+    24,
+    26,
+    27,
+    28,
+    33,
+    35,
+    37,
+    38,
+    39,
+    40,
+    41,
+    44,
+    47,
+    48
+   ],
+   "n_pred": 26,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 2,
+     "detected": 5
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 2,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"6.1%\"}, {\"row\": 2, \"column\": \"id\", \"value\": \"1501\"}, {\"row\": 2, \"column\": \"brewery_id\", \"value\": \"1501\"}, {\"row\": 3, \"column\": \"id\", \"value\": \"432\"}, {\"row\": 3, \"column\": \"abv\", \"value\": \"9.7%\"}, {\"row\": 4, \"column\": \"id\", \"value\": \"2519\"}, {\"row\": 5, \"column\": \"id\", \"value\": \"2286\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"MO\"}, {\"row\": 6, \"column\": \"id\", \"value\": \"2216\"}, {\"row\": 6, \"column\": \"abv\", \"value\": \"5.2%\"}, {\"row\": 7, \"column\": \"id\", \"value\": \"47\"}, {\"row\": 8, \"column\": \"id\", \"value\": \"431\"}, {\"row\": 9, \"column\": \"id\", \"value\": \"516\"}, {\"row\": 10, \"column\": \"id\", \"value\": \"2539\"}, {\"row\": 11, \"column\": \"id\", \"value\": \"2675\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"1162\"}, {\"row\": 12, \"column\": \"state\", \"value\": \"WA\"}, {\"row\": 13, \"column\": \"id\", \"value\": \"2402\"}, {\"row\": 14, \"column\": \"id\", \"value\": \"1921\"}, {\"row\": 15, \"column\": \"id\", \"value\": \"2501\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 16, \"column\": \"id\", \"value\": \"1535\"}, {\"row\": 17, \"column\": \"id\", \"value\": \"1473\"}, {\"row\": 18, \"column\": \"id\", \"value\": \"2103\"}, {\"row\": 19, \"column\": \"id\", \"value\": \"78\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"4.7%\"}]}\n```"
+  },
+  {
+   "start": 49,
+   "rows": [
+    49,
+    50,
+    51,
+    53,
+    54,
+    56,
+    58,
+    59,
+    62,
+    63,
+    67,
+    70,
+    71,
+    73,
+    75,
+    78,
+    79,
+    82,
+    83,
+    85
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 1,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 1,
+     "repaired": 1,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"style\", \"value\": \"American Stout\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"NC\"},\n    {\"row\": 4, \"column\": \"city\", \"value\": \"Balo\"},\n    {\"row\": 5, \"column\": \"id\", \"value\": \"735\"},\n    {\"row\": 6, \"column\": \"value\", \"value\": \"0.051%\"},\n    {\"row\": 7, \"column\": \"value\", \"value\": \"0.06\"},\n    {\"row\": 8, \"column\": \"value\", \"value\": \"0.048\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"MI\"},\n    {\"row\": 10, \"column\": \"value\", \"value\": \"0.07\"},\n    {\"row\": 11, \"column\": \"value\", \"value\": \"0.055\"},\n    {\"row\": 12, \"column\": \"value\", \"value\": \"0.061\"},\n    {\"row\": 13, \"column\": \"value\", \"value\": \"0.06\"},\n    {\"row\": 14, \"column\": \"value\", \"value\": \"0.06%\"},\n    {\"row\": 15, \"column\": \"value\", \"value\": \"0.044%\"},\n    {\"row\": 16, \"column\": \"value\", \"value\": \"0.046\"},\n    {\"row\": 17, \"column\": \"value\", \"value\": \"0.045\"},\n    {\"row\": 18, \"column\": \"value\", \"value\": \"0.05\"},\n    {\"row\": 19, \"column\": \"value\", \"value\": \"0.054\"},\n    {\"row\": 20, \"column\": \"value\", \"value\": \"0.069\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 86,
+   "rows": [
+    86,
+    88,
+    90,
+    91,
+    93,
+    95,
+    97,
+    99,
+    100,
+    106,
+    108,
+    111,
+    112,
+    113,
+    115,
+    117,
+    119,
+    125,
+    127,
+    128
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 8,
+     "repaired": 0,
+     "detected": 1
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 8,
+     "repaired": 0,
+     "detected": 1
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"8.8\"},\n    {\"row\": 4, \"column\": \"id\", \"value\": \"2557\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"MN\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"34\"},\n    {\"row\": 11, \"column\": \"abv\", \"value\": \"5.8\"},\n    {\"row\": 12, \"column\": \"abv\", \"value\": \"6.6\"},\n    {\"row\": 13, \"column\": \"abv\", \"value\": \"5.4\"},\n    {\"row\": 14, \"column\": \"abv\", \"value\": \"7.2\"},\n    {\"row\": 15, \"column\": \"abv\", \"value\": \"5.8\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"7.8\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"888\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 131,
+   "rows": [
+    131,
+    132,
+    134,
+    136,
+    138,
+    140,
+    141,
+    142,
+    150,
+    151,
+    152,
+    153,
+    155,
+    156,
+    157,
+    158,
+    184,
+    185,
+    188,
+    193
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"id\", \"value\": \"119\"},\n    {\"row\": 2, \"column\": \"id\", \"value\": \"1408\"},\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"7.7\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"NY\"},\n    {\"row\": 5, \"column\": \"id\", \"value\": \"88\"},\n    {\"row\": 6, \"column\": \"id\", \"value\": \"1188\"},\n    {\"row\": 7, \"column\": \"id\", \"value\": \"1891\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"513\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"633\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"2299\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"2167\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"2204\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"83\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"1799\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"15\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"2468\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"860\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"1095\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"66\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"27\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 194,
+   "rows": [
+    194,
+    195,
+    197,
+    199,
+    202,
+    205,
+    210,
+    212,
+    213,
+    214,
+    218,
+    220,
+    221,
+    224,
+    225,
+    229,
+    230,
+    231,
+    232,
+    234
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 19,
+     "predicted": 12,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 14,
+     "predicted": 12,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"id\", \"value\": \"1627\"},\n    {\"row\": 2, \"column\": \"id\", \"value\": \"2125\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Kelsulquen Velmor\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"NY\"},\n    {\"row\": 5, \"column\": \"brewery_id\", \"value\": \"556\"},\n    {\"row\": 6, \"column\": \"state\", \"value\": \"OK\"},\n    {\"row\": 7, \"column\": \"id\", \"value\": \"155\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"2256\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"MA\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"1927\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"WI\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"504\"},\n    {\"row\": 13, \"column\": \"style\", \"value\": \"American India Pale Ale (IPA)\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"222\"},\n    {\"row\": 15, \"column\": \"style\", \"value\": \"Cider\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"331\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"285\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"29\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"452\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"350\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 237,
+   "rows": [
+    237,
+    238,
+    239,
+    240,
+    247,
+    250,
+    251,
+    253,
+    255,
+    256,
+    258,
+    262,
+    263,
+    265,
+    268,
+    269,
+    270,
+    271,
+    273,
+    275
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 17,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 13,
+     "predicted": 5,
+     "repaired": 1,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"425\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"6.5%\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Zardrihep\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"OR\"},\n    {\"row\": 9, \"column\": \"city\", \"value\": \"Oskbrinvas\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"IA\"},\n    {\"row\": 12, \"column\": \"city\", \"value\": \"Calnydri AR\"},\n    {\"row\": 13, \"column\": \"abv\", \"value\": \"5%\"},\n    {\"row\": 16, \"column\": \"style\", \"value\": \"Berliner Weissbier\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"9\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 277,
+   "rows": [
+    277,
+    279,
+    282,
+    283,
+    285,
+    290,
+    291,
+    292,
+    293,
+    294,
+    295,
+    299,
+    300,
+    301,
+    305,
+    306,
+    307,
+    308,
+    311,
+    313
+   ],
+   "n_pred": 14,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 11,
+     "repaired": 0,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 11,
+     "repaired": 0,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"6.5%\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"5.0%\"}, {\"row\": 6, \"column\": \"state\", \"value\": \"IL\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"5.2%\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"4.5%\"}, {\"row\": 8, \"column\": \"id\", \"value\": \"731\"}, {\"row\": 9, \"column\": \"id\", \"value\": \"731\"}, {\"row\": 11, \"column\": \"abv\", \"value\": \"4.3%\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"4.3%\"}, {\"row\": 13, \"column\": \"abv\", \"value\": \"4.3%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"7.0%\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"6.2%\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"5.5%\"}]}\n```"
+  },
+  {
+   "start": 314,
+   "rows": [
+    314,
+    316,
+    319,
+    321,
+    324,
+    327,
+    333,
+    335,
+    338,
+    339,
+    341,
+    344,
+    351,
+    352,
+    353,
+    354,
+    355,
+    357,
+    361,
+    362
+   ],
+   "n_pred": 19,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 12,
+     "repaired": 1,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 12,
+     "repaired": 1,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"abv\", \"value\": \"5.0%\"},\n    {\"row\": 2, \"column\": \"city\", \"value\": \"Pimtasrho Hephep\"},\n    {\"row\": 3, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 4, \"column\": \"city\", \"value\": \"Ularhowex\"},\n    {\"row\": 5, \"column\": \"abv\", \"value\": \"5.5%\"},\n    {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Osknyfen Vaswexwex Brewing Company\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Oskosk\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"47\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 9, \"column\": \"city\", \"value\": \"Losulzarlo\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"5.5%\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"Oskoskmor\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"45\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"51\"},\n    {\"row\": 14, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"47\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"7.2%\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"52\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"6\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 365,
+   "rows": [
+    365,
+    370,
+    371,
+    372,
+    373,
+    381,
+    382,
+    383,
+    387,
+    388,
+    390,
+    391,
+    392,
+    400,
+    403,
+    404,
+    405,
+    413,
+    414,
+    416
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 10,
+     "predicted": 4,
+     "repaired": 2,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 3,
+     "repaired": 2,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vosslask Sulba Driny Lowexlo\"},\n    {\"row\": 2, \"column\": \"abv\", \"value\": \"5.5999999999999994%\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Rhotorvasbrin\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"WI\"},\n    {\"row\": 5, \"column\": \"state\", \"value\": \"ME\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Los Keltor\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Zarmortor\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Zarvel\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"308\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"2198\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"581\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"1383\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"477\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"440\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"2645\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"0.045%\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"1923\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"189\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"2313\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"984\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 419,
+   "rows": [
+    419,
+    421,
+    422,
+    424,
+    430,
+    432,
+    434,
+    436,
+    438,
+    439,
+    440,
+    442,
+    444,
+    447,
+    450,
+    451,
+    460,
+    461,
+    462,
+    463
+   ],
+   "n_pred": 6,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 2,
+     "repaired": 2,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"abv\", \"value\": \"0.057\"},\n    {\"row\": 6, \"column\": \"state\", \"value\": \"MT\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 12, \"column\": \"abv\", \"value\": \"0.066%\"},\n    {\"row\": 13, \"column\": \"abv\", \"value\": \"0.057999999999999996%\"},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"0.073\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 464,
+   "rows": [
+    464,
+    465,
+    469,
+    470,
+    472,
+    473,
+    476,
+    477,
+    478,
+    480,
+    482,
+    483,
+    484,
+    487,
+    488,
+    489,
+    491,
+    493,
+    494,
+    495
+   ],
+   "n_pred": 61,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 26,
+     "repaired": 0,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 13,
+     "predicted": 26,
+     "repaired": 0,
+     "detected": 6
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 2, \"column\": \"id\", \"value\": \"1785\"},\n    {\"row\": 2, \"column\": \"brewery_id\", \"value\": \"316\"},\n    {\"row\": 2, \"column\": \"brewery-name\", \"value\": \"Tastas Pimhep Brewery & Ularhowex\"},\n    {\"row\": 3, \"column\": \"id\", \"value\": \"2670\"},\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"4.9%\"},\n    {\"row\": 3, \"column\": \"brewery_id\", \"value\": \"2\"},\n    {\"row\": 3, \"column\": \"brewery-name\", \"value\": \"Bawex's Tasba Craft Caltas\"},\n    {\"row\": 4, \"column\": \"id\", \"value\": \"1406\"},\n    {\"row\": 4, \"column\": \"brewery_id\", \"value\": \"416\"},\n    {\"row\": 4, \"column\": \"brewery-name\", \"value\": \"Calvas's Fenbrin Quenmor (Quendri Drisul...\"),\n    {\"row\": 5, \"column\": \"id\", \"value\": \"690\"},\n    {\"row\": 5, \"column\": \"abv\", \"value\": \"7.0%\"},\n    {\"row\": 5, \"column\": \"brewery_id\", \"value\": \"92\"},\n    {\"row\": 5, \"column\": \"brewery-name\", \"value\": \"Brinfen O's Joumor & Brewery\"},\n    {\"row\": 6, \"column\": \"id\", \"value\": \"2409\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"6.9%\"},\n    {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"114\"},\n    {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Velloquen Brewing Company\"},\n    {\"row\": 7, \"column\": \"id\", \"value\": \"1255\"},\n    {\"row\": 7, \"column\": \"brewery-name\", \"value\": \"Nyrho Rhokel Brewing Company\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Osktas Oskrho WI\"},\n    {\"row\": 8, \"column\": \"id\", \"value\": \"469\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"9.3%\"},\n    {\"row\": 8, \"column\": \"brewery-name\", \"value\": \"Driny Osklo Brewing Company\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Zarularho\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"NV\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"2164\"},\n    {\"row\": 10, \"column\": \"id\", \"value\": \"667\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"9.5%\"},\n    {\"row\": 10, \"column\": \"brewery_id\", \"value\": \"125\"},\n    {\"row\": 10, \"column\": \"brewery-name\", \"value\": \"Vaswex Brewing Company\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"1349\"},\n    {\"row\": 11, \"column\": \"brewery-name\", \"value\": \"Velwex Beer Company\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"Rhobrinfen NY\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"1188\"},\n    {\"row\": 12, \"column\": \"brewery-name\", \"value\": \"Gardri Pimvas Brewing Company\"},\n    {\"row\": 12, \"column\": \"city\", \"value\": \"Drifenwex AK\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"761\"},\n    {\"row\": 13, \"column\": \"brewery-name\", \"value\": \"Garzar Brinny Brewing Company\"},\n    {\"row\": 13, \"column\": \"city\", \"value\": \"Veldriosk\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"58\"},\n    {\"row\": 14, \"column\": \"abv\", \"value\": \"5.0%\"},\n    {\"row\": 14, \"column\": \"brewery_id\", \"value\": \"84\"},\n    {\"row\": 14, \"column\": \"brewery-name\", \"value\": \"Morsulbrin Brewing Company\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"1668\"},\n    {\"row\": 15, \"column\": \"brewery-name\", \"value\": \"Morlo Rhoosk Brewing Company\"},\n    {\"row\": 15, \"column\": \"city\", \"value\": \"Bavaspim\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"2461\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"6.3%\"},\n    {\"row\": 16, \"column\": \"brewery_id\", \"value\": \"87\"},\n    {\"row\": 16, \"column\": \"brewery-name\", \"value\": \"Fentasny Ulamor Brewing Company\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"591\"},\n    {\"row\": 17, \"column\": \"brewery-name\", \"value\": \"Wexjou Brewing Company\"},\n    {\"row\": 17, \"column\": \"city\", \"value\": \"Wexsul\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"665\"},\n    {\"row\": 18, \"column\": \"abv\", \"value\": \"7.2%\"},\n    {\"row\": 18, \"column\": \"brewery_id\", \"value\": \"332\"},\n    {\"row\": 18, \"column\": \"brewery-name\", \"value\": \"La Rhozar Brewing Company\"},\n    {\"row\": 18, \"column\": \"city\", \"value\": \"Dribrinpimfen\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"393\"},\n    {\"row\": 19, \"column\": \"brewery-name\", \"value\": \"Rhovasmor Brewing Company\"},\n    {\"row\": 19, \"column\": \"city\", \"value\": \"Rhovasmor\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 496,
+   "rows": [
+    496,
+    498,
+    501,
+    503,
+    505,
+    506,
+    507,
+    508,
+    509,
+    510,
+    511,
+    512,
+    514,
+    515,
+    518,
+    523,
+    525,
+    528,
+    534,
+    540
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 10,
+     "repaired": 2,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 10,
+     "repaired": 2,
+     "detected": 6
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"5.0%\"}, {\"row\": 3, \"column\": \"state\", \"value\": \"PA\"}, {\"row\": 4, \"column\": \"state\", \"value\": \"NC\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"VT\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Brinfen Zarbrinzar\"}, {\"row\": 7, \"column\": \"state\", \"value\": \"VA\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"WI\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"MS\"}, {\"row\": 10, \"column\": \"id\", \"value\": \"125\"}, {\"row\": 10, \"column\": \"abv\", \"value\": \"5.7999999999999996%\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"400\"}, {\"row\": 13, \"column\": \"id\", \"value\": \"91\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"5.1%\"}, {\"row\": 15, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"8.5%\"}, {\"row\": 17, \"column\": \"abv\", \"value\": \"9.699999999999999%\"}, {\"row\": 18, \"column\": \"abv\", \"value\": \"6.5%\"}, {\"row\": 19, \"column\": \"id\", \"value\": \"133\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"NY\"}]}\n```"
+  },
+  {
+   "start": 541,
+   "rows": [
+    541,
+    544,
+    545,
+    546,
+    547,
+    549,
+    554,
+    555,
+    558,
+    565,
+    568,
+    571,
+    572,
+    573,
+    575,
+    576,
+    578,
+    579,
+    580,
+    581
+   ],
+   "n_pred": 26,
+   "counts": {
+    "all": {
+     "errors": 3,
+     "predicted": 14,
+     "repaired": 0,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 0,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 11,
+     "repaired": 0,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"4.2%\"},\n    {\"row\": 5, \"column\": \"state\", \"value\": \"AK\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"San Quentin\"},\n    {\"row\": 7, \"column\": \"brewery-name\", \"value\": \"Hephep Calba Brewing\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"5.3%\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"MI\"},\n    {\"row\": 9, \"column\": \"style\", \"value\": \"American Amber / Red Ale\"},\n    {\"row\": 9, \"column\": \"state\", \"value\": \"WI\"},\n    {\"row\": 10, \"column\": \"city\", \"value\": \"Rhojou\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"98\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"San Quentin\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"399\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"547\"},\n    {\"row\": 13, \"column\": \"brewery-name\", \"value\": \"Rhobrin Quenoskbrin Caldri Loosk & Brew...\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"189\"},\n    {\"row\": 14, \"column\": \"brewery-name\", \"value\": \"Sulhep Jourho Brewery\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"209\"},\n    {\"row\": 15, \"column\": \"brewery-name\", \"value\": \"Kelrho Rhovel Beer\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"549\"},\n    {\"row\": 16, \"column\": \"brewery-name\", \"value\": \"Velvasrho Brewing Company\"},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"4.6%\"},\n    {\"row\": 17, \"column\": \"state\", \"value\": \"MO\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"540\"},\n    {\"row\": 18, \"column\": \"state\", \"value\": \"NC\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"188\"},\n    {\"row\": 19, \"column\": \"brewery-name\", \"value\": \"Ulaba's Brewing\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 584,
+   "rows": [
+    584,
+    586,
+    588,
+    591,
+    597,
+    603,
+    605,
+    606,
+    607,
+    608,
+    609,
+    610,
+    611,
+    612,
+    615,
+    619,
+    620,
+    622,
+    625,
+    626
+   ],
+   "n_pred": 43,
+   "counts": {
+    "all": {
+     "errors": 9,
+     "predicted": 22,
+     "repaired": 3,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 21,
+     "repaired": 3,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"beer-name\", \"value\": \"Pimhep Vasgar Ale\"}, {\"row\": 2, \"column\": \"id\", \"value\": \"143\"}, {\"row\": 2, \"column\": \"brewery-name\", \"value\": \"Drivescalhep Brewing Company\"}, {\"row\": 3, \"column\": \"id\", \"value\": \"387\"}, {\"row\": 3, \"column\": \"city\", \"value\": \"Velgartor\"}, {\"row\": 4, \"column\": \"id\", \"value\": \"337\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Sulloquen\"}, {\"row\": 5, \"column\": \"id\", \"value\": \"82\"}, {\"row\": 5, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 6, \"column\": \"id\", \"value\": \"410\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Morbrinpim\"}, {\"row\": 7, \"column\": \"beer-name\", \"value\": \"Quenhep Blonde Ale\"}, {\"row\": 7, \"column\": \"abv\", \"value\": \"0.049\"}, {\"row\": 8, \"column\": \"id\", \"value\": \"241\"}, {\"row\": 8, \"column\": \"abv\", \"value\": \"0.052\"}, {\"row\": 8, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 9, \"column\": \"id\", \"value\": \"518\"}, {\"row\": 9, \"column\": \"state\", \"value\": \"SC\"}, {\"row\": 10, \"column\": \"id\", \"value\": \"238\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"NY\"}, {\"row\": 11, \"column\": \"id\", \"value\": \"495\"}, {\"row\": 11, \"column\": \"state\", \"value\": \"MA\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"359\"}, {\"row\": 12, \"column\": \"city\", \"value\": \"Fenjouwex\"}, {\"row\": 13, \"column\": \"id\", \"value\": \"431\"}, {\"row\": 13, \"column\": \"city\", \"value\": \"Rhorhobrin Nydri\"}, {\"row\": 14, \"column\": \"id\", \"value\": \"271\"}, {\"row\": 14, \"column\": \"city\", \"value\": \"Drirho\"}, {\"row\": 15, \"column\": \"id\", \"value\": \"442\"}, {\"row\": 15, \"column\": \"city\", \"value\": \"O'Ulaquen\"}, {\"row\": 16, \"column\": \"id\", \"value\": \"150\"}, {\"row\": 16, \"column\": \"brewery-name\", \"value\": \"Hepquentas Brewing\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"OR\"}, {\"row\": 17, \"column\": \"id\", \"value\": \"184\"}, {\"row\": 17, \"column\": \"brewery-name\", \"value\": \"Oskdri Nysul Brewing Company\"}, {\"row\": 17, \"column\": \"state\", \"value\": \"TX\"}, {\"row\": 18, \"column\": \"id\", \"value\": \"200\"}, {\"row\": 18, \"column\": \"city\", \"value\": \"Velgartor\"}, {\"row\": 19, \"column\": \"id\", \"value\": \"148\"}, {\"row\": 19, \"column\": \"brewery-name\", \"value\": \"Brinwex Batasquen\"}, {\"row\": 19, \"column\": \"state\", \"value\": \"CO\"}, {\"row\": 20, \"column\": \"id\", \"value\": \"471\"}, {\"row\": 20, \"column\": \"state\", \"value\": \"IA\"}]}\n```"
+  },
+  {
+   "start": 631,
+   "rows": [
+    631,
+    633,
+    645,
+    650,
+    652,
+    653,
+    654,
+    656,
+    658,
+    659,
+    661,
+    662,
+    664,
+    666,
+    667,
+    668,
+    669,
+    670,
+    671,
+    672
+   ],
+   "n_pred": 18,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 8,
+     "repaired": 1,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 8,
+     "repaired": 1,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"4.8%\"}, {\"row\": 2, \"column\": \"city\", \"value\": \"Hepvas Vasjou\"}, {\"row\": 4, \"column\": \"city\", \"value\": \"Nywex\"}, {\"row\": 5, \"column\": \"brewery-name\", \"value\": \"Drikel Baula Brewery (Bajou Joutor...\"), {\"row\": 6, \"column\": \"city\", \"value\": \"Lohepbrin\"}, {\"row\": 7, \"column\": \"city\", \"value\": \"Hepjouba\"}, {\"row\": 8, \"column\": \"city\", \"value\": \"Tashep Torpim\"}, {\"row\": 9, \"column\": \"city\", \"value\": \"Oskzar Caltas\"}, {\"row\": 10, \"column\": \"state\", \"value\": \"ME\"}, {\"row\": 11, \"column\": \"city\", \"value\": \"Velkelvelhep\"}, {\"row\": 12, \"column\": \"id\", \"value\": \"205\"}, {\"row\": 13, \"column\": \"id\", \"value\": \"13\"}, {\"row\": 14, \"column\": \"abv\", \"value\": \"4.9%\"}, {\"row\": 15, \"column\": \"id\", \"value\": \"11\"}, {\"row\": 16, \"column\": \"state\", \"value\": \"CA\"}, {\"row\": 17, \"column\": \"city\", \"value\": \"Quenrho\"}, {\"row\": 18, \"column\": \"id\", \"value\": \"52\"}, {\"row\": 19, \"column\": \"city\", \"value\": \"Morpim Wexwexvel\"}, {\"row\": 20, \"column\": \"abv\", \"value\": \"5%\"}]}\n```"
+  },
+  {
+   "start": 673,
+   "rows": [
+    673,
+    678,
+    679,
+    680,
+    681,
+    686,
+    688,
+    689,
+    690,
+    691,
+    693,
+    697,
+    699,
+    703,
+    707,
+    709,
+    710,
+    711,
+    718,
+    720
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 7,
+     "repaired": 0,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 6,
+     "repaired": 0,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"beer-name\", \"value\": \"Vasrhul Lawex Kelgarquen\"},\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"5.2%\"},\n    {\"row\": 8, \"column\": \"abv\", \"value\": \"7%\"},\n    {\"row\": 13, \"column\": \"abv\", \"value\": \"5.5%\"},\n    {\"row\": 15, \"column\": \"abv\", \"value\": \"4.8%\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"4.3%\"},\n    {\"row\": 18, \"column\": \"abv\", \"value\": \"5.5%\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 721,
+   "rows": [
+    721,
+    722,
+    724,
+    725,
+    727,
+    738,
+    739,
+    741,
+    743,
+    746,
+    747,
+    749,
+    750,
+    752,
+    756,
+    764,
+    771,
+    772,
+    773,
+    774
+   ],
+   "n_pred": 17,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 2
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 10,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 2
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"6.3%\"},\n    {\"row\": 4, \"column\": \"id\", \"value\": \"2770\"},\n    {\"row\": 5, \"column\": \"state\", \"value\": \"CA\"},\n    {\"row\": 6, \"column\": \"id\", \"value\": \"124\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Jourhobrin\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Santa Hepvas\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"1466\"},\n    {\"row\": 10, \"column\": \"city\", \"value\": \"Saint Nyhep\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"918\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"1765\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"738\"},\n    {\"row\": 13, \"column\": \"style\", \"value\": \"English Pale Ale\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"738\"},\n    {\"row\": 15, \"column\": \"abv\", \"value\": \"5.6%\"},\n    {\"row\": 16, \"column\": \"id\", \"value\": \"512\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"69\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"2537\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 779,
+   "rows": [
+    779,
+    780,
+    784,
+    792,
+    793,
+    797,
+    802,
+    803,
+    808,
+    810,
+    819,
+    820,
+    822,
+    823,
+    825,
+    847,
+    848,
+    853,
+    855,
+    856
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 8,
+     "predicted": 8,
+     "repaired": 0,
+     "detected": 4
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 6,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 4
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"abv\", \"value\": \"5.1\"}, {\"row\": 5, \"column\": \"abv\", \"value\": \"5.0%\"}, {\"row\": 6, \"column\": \"brewery-name\", \"value\": \"Babrindri Fentasdripim Brewing Company\"}, {\"row\": 6, \"column\": \"city\", \"value\": \"Wextassulbrin City\"}, {\"row\": 9, \"column\": \"id\", \"value\": \"1634\"}, {\"row\": 12, \"column\": \"abv\", \"value\": \"5.1%\"}, {\"row\": 13, \"column\": \"beer-name\", \"value\": \"Wexhepwex Ale\"}, {\"row\": 15, \"column\": \"abv\", \"value\": \"8.3%\"}, {\"row\": 16, \"column\": \"abv\", \"value\": \"5.6%\"}, {\"row\": 17, \"column\": \"id\", \"value\": \"1206\"}]}\n```"
+  },
+  {
+   "start": 858,
+   "rows": [
+    858,
+    861,
+    869,
+    870,
+    872,
+    873,
+    874,
+    875,
+    877,
+    878,
+    882,
+    884,
+    885,
+    886,
+    887,
+    889,
+    890,
+    891,
+    892,
+    893
+   ],
+   "n_pred": 20,
+   "counts": {
+    "all": {
+     "errors": 12,
+     "predicted": 7,
+     "repaired": 0,
+     "detected": 3
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 5,
+     "repaired": 0,
+     "detected": 3
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"id\", \"value\": \"1709\"},\n    {\"row\": 2, \"column\": \"city\", \"value\": \"San Quentin\"},\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"7.2%\"},\n    {\"row\": 4, \"column\": \"abv\", \"value\": \"5.6%\"},\n    {\"row\": 5, \"column\": \"id\", \"value\": \"544\"},\n    {\"row\": 6, \"column\": \"brewery_id\", \"value\": \"7\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Pimvaskel\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 9, \"column\": \"id\", \"value\": \"1982\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"4.7%\"},\n    {\"row\": 11, \"column\": \"id\", \"value\": \"2116\"},\n    {\"row\": 12, \"column\": \"id\", \"value\": \"1111\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"1199\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"94\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"1747\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"9.9%\"},\n    {\"row\": 17, \"column\": \"id\", \"value\": \"2455\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"1561\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"2316\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"1912\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 897,
+   "rows": [
+    897,
+    899,
+    902,
+    905,
+    906,
+    907,
+    908,
+    912,
+    913,
+    914,
+    918,
+    920,
+    922,
+    928,
+    930,
+    932,
+    933,
+    942,
+    944,
+    948
+   ],
+   "n_pred": 24,
+   "counts": {
+    "all": {
+     "errors": 16,
+     "predicted": 15,
+     "repaired": 7,
+     "detected": 8
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 8,
+     "repaired": 2,
+     "detected": 3
+    },
+    "other": {
+     "errors": 11,
+     "predicted": 7,
+     "repaired": 5,
+     "detected": 5
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 1, \"column\": \"city\", \"value\": \"Morquenvel\"},\n    {\"row\": 2, \"column\": \"state\", \"value\": \"NE\"},\n    {\"row\": 3, \"column\": \"city\", \"value\": \"Kelulapim\"},\n    {\"row\": 4, \"column\": \"state\", \"value\": \"LA\"},\n    {\"row\": 5, \"column\": \"abv\", \"value\": \"0.055\"},\n    {\"row\": 5, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 6, \"column\": \"city\", \"value\": \"Dribrinpfen\"},\n    {\"row\": 7, \"column\": \"city\", \"value\": \"Rhoulam\"},\n    {\"row\": 8, \"column\": \"city\", \"value\": \"Velkel\"},\n    {\"row\": 9, \"column\": \"city\", \"value\": \"Toroskula\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"0.054\"},\n    {\"row\": 10, \"column\": \"state\", \"value\": \"TX\"},\n    {\"row\": 11, \"column\": \"city\", \"value\": \"Hepkel\"},\n    {\"row\": 12, \"column\": \"city\", \"value\": \"Tortor\"},\n    {\"row\": 13, \"column\": \"beer-name\", \"value\": \"Hepdri 1 Oskkel Double IPA\"},\n    {\"row\": 13, \"column\": \"brewery-name\", \"value\": \"Gartor Torfen Brewing Company\"},\n    {\"row\": 14, \"column\": \"beer-name\", \"value\": \"Morosk Morcal Pale Ale\"},\n    {\"row\": 15, \"column\": \"id\", \"value\": \"522\"},\n    {\"row\": 15, \"column\": \"city\", \"value\": \"Caldri\"},\n    {\"row\": 16, \"column\": \"city\", \"value\": \"Quenrosul\"},\n    {\"row\": 17, \"column\": \"city\", \"value\": \"Taspimwexba\"},\n    {\"row\": 18, \"column\": \"state\", \"value\": \"CO\"},\n    {\"row\": 19, \"column\": \"abv\", \"value\": \"0.065\"},\n    {\"row\": 20, \"column\": \"id\", \"value\": \"302\"}\n  ]\n}\n```"
+  },
+  {
+   "start": 950,
+   "rows": [
+    950,
+    954,
+    959,
+    960,
+    962,
+    964,
+    967,
+    968,
+    969,
+    975,
+    979,
+    981,
+    982,
+    985,
+    986,
+    987,
+    988,
+    989,
+    992,
+    999
+   ],
+   "n_pred": 15,
+   "counts": {
+    "all": {
+     "errors": 11,
+     "predicted": 12,
+     "repaired": 2,
+     "detected": 6
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 9,
+     "predicted": 12,
+     "repaired": 2,
+     "detected": 6
+    }
+   },
+   "output": "```json\n{\n  \"corrections\": [\n    {\"row\": 3, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 6, \"column\": \"abv\", \"value\": \"NaN\"},\n    {\"row\": 7, \"column\": \"abv\", \"value\": \"NaN\"},\n    {\"row\": 8, \"column\": \"state\", \"value\": \"NH\"},\n    {\"row\": 10, \"column\": \"abv\", \"value\": \"5.6%\"},\n    {\"row\": 11, \"column\": \"state\", \"value\": \"VA\"},\n    {\"row\": 12, \"column\": \"state\", \"value\": \"MT\"},\n    {\"row\": 13, \"column\": \"id\", \"value\": \"325\"},\n    {\"row\": 14, \"column\": \"id\", \"value\": \"212\"},\n    {\"row\": 15, \"column\": \"abv\", \"value\": \"4.5%\"},\n    {\"row\": 16, \"column\": \"abv\", \"value\": \"5.9%\"},\n    {\"row\": 17, \"column\": \"abv\", \"value\": \"5%\"},\n    {\"row\": 18, \"column\": \"id\", \"value\": \"2417\"},\n    {\"row\": 18, \"column\": \"state\", \"value\": \"NH\"},\n    {\"row\": 19, \"column\": \"id\", \"value\": \"822\"}\n  ]\n}\n```"
+  }
+ ]
+}

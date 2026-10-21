@@ -1,0 +1,10 @@
+# name	hf_repo	tensor_parallel	max_model_len	max_tokens	local_extra_body
+# 4x RTX 4090 (24 GB) shared with other users: ~19 GB free per card on 09-29, so 7-8B models get
+# 2 cards when their KV cache is large (OLMo-2 has no GQA; Llama 8B weights alone are 16 GB).
+olmo2-7b	allenai/OLMo-2-1124-7B-Instruct	2	4096	1500	-
+qwen2.5-7b	Qwen/Qwen2.5-7B-Instruct	1	8192	4096	-
+llama3.1-8b	unsloth/Llama-3.1-8B-Instruct	2	8192	4096	-
+qwen2.5-14b	Qwen/Qwen2.5-14B-Instruct	2	8192	4096	-
+qwen2.5-32b-awq	Qwen/Qwen2.5-32B-Instruct-AWQ	2	8192	4096	-
+gpt-oss-20b	openai/gpt-oss-20b	1	8192	6000	{"reasoning_effort":"low"}
+qwen2.5-72b-awq	Qwen/Qwen2.5-72B-Instruct-AWQ	4	8192	4096	-

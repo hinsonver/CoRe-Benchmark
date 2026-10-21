@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-14b",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": true,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.92,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.2448,
+  "acc_noninferable": 0.011,
+  "noninferable_cells": 363,
+  "acc_hard": 0.0085,
+  "hard_cells": 351,
+  "leak_rate": 0.0,
+  "leak_cells": 50,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 48,
+  "per_column": {
+   "id": {
+    "n": 46,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 46,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 34,
+    "model": 0.0,
+    "freq": 0.059,
+    "trans": 0.0,
+    "structural": 0.059
+   },
+   "journal_issn": {
+    "n": 30,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 41,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.073
+   },
+   "article_jissue": {
+    "n": 16,
+    "model": 0.25,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.312
+   },
+   "article_jcreated_at": {
+    "n": 38,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.026,
+    "structural": 0.026
+   },
+   "article_pagination": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "author_list": {
+    "n": 45,
+    "model": 0.0,
+    "freq": 0.022,
+    "trans": 0.0,
+    "structural": 0.022
+   },
+   "jounral_abbreviation": {
+    "n": 22,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_language": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 518,
+   "output": "102456,Evaluation of a new vaccine formulation for malaria prevention,,Vaccine,Vaccine,0264-410X,38,36,9/1/20,5678-5686,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\",\"\"D. Brown\"\",\"\"E. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 565,
+   "output": "123456,\"Impact of Digital Health Interventions on Chronic Disease Management\",eng,Journal of Medical Internet Research,J Med Internet Res,1438-8871,22,4,4/1/20,234-245,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\",\"\"Charlie Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 62,
+   "output": "89415,Impact of a school-based mental health program on student outcomes.,eng,School Mental Health,School Ment Health,1866-351X,5,2,6/1/13,97-106,\"{\"\"Laura M Quek\"\",\"\"Tracey D Davenport\"\",\"\"Samantha J Parsons\"\",\"\"David A Lawrence\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 352,
+   "output": "1012345,Recent Advances in Artificial Intelligence in Healthcare.,eng,JAMA Network Open,,2574-2446,3,5,5/15/21,1-10,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Emily Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 674,
+   "output": "1024567,\"Investigating the Impact of Virtual Reality on Student Engagement in Science Classrooms\",eng,J Educ Technol Soc,J Educ Tech Soc,1533-2881,20,2,3/1/17,12-23,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 644,
+   "output": "102456,Evaluation of a School-Based Mental Health Program for Adolescents,eng,School Mental Health,,2156-8995,10,2,6/1/18,234-245,\"{\"\"Emily J. Fisher\"\",\"\"Laura M. Kehoe\"\",\"\"Michael J. Twohig\"\",\"\"Jessica L. Grannis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 545,
+   "output": "489007,\"Impact of a school-based obesity prevention program on physical activity and dietary behaviors in elementary school children.\",,Obesity Reviews,Obes Rev,1467-789X,11,1,1/1/10,35-48,\"{\"\"L. M. Williams\"\",\"\"J. R. Smith\"\",\"\"E. K. Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 410,
+   "output": "102345,Impact of telemedicine on patient outcomes in rural areas.,eng,J Telemed Telecare,,1357-633X,25,3,3/1/19,145-52,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 635,
+   "output": "113363,Mental health symptoms in a population based survey of minority farm operators,en,,,,,,,,62928,\"{\"\"A. L. Steege\"\",\"\"T. Alterman\"\",\"\"M. R. Petersen\"\",\"\"J. Li\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 476,
+   "output": "1024567,Novel Approaches in Cancer Immunotherapy,eng,Current Opinion in Immunology,Curr Opin Immunol,0952-7915,45,,1/1/17,1-7,\"{\"\"John Doe\"\",\"\"Jane Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 771,
+   "output": "123456,New Discoveries in Quantum Computing,eng,Science,,0036-8075,345,12,12/1/20,1234-45,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "1012345,Impact of Social Media on Mental Health Among Adolescents,en,JAMA Pediatrics,JAMA Pediatr,2168-6203,175,10,10/1/21,e213456,\"{\"\"E. Smith\"\",\"\"L. Jones\"\",\"\"R. Brown\"\",\"\"A. Green\"\",\"\"B. White\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 666,
+   "output": "82345,Impact of Social Media on Mental Health Among Adolescents,eng,JAMA Pediatrics,JAMA Pediatr.,2168-6211,175,12,12/1/21,1145-52,\"{\"\"Emily R. Mudd\"\",\"\"Laura M. Padilla-Walker\"\",\"\"Sarah E. Coyne\"\",\"\"Mark L. Van Horne\"\",\"\"Joseph P. Pleck\"\",\"\"David A. Burton\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 192,
+   "output": "1012345,\"Impact of Telemedicine on Rural Healthcare Access\",English,JAMA Network Open,JAMANetwork Open,2574-1653,3,9,1/1/21,1-10,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 380,
+   "output": "923456,\"Impact of digital health interventions on patient engagement: a randomized controlled trial.\",eng,J Med Internet Res,J. Med. Internet Res.,1438-8871,22,12,12/1/20,1234-56,\"{\"\"E. Smith\"\",\"\"J. Doe\"\",\"\"A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 193,
+   "output": "1012345,\"Impact of Telemedicine on Rural Healthcare Access\",English,\"Journal of Telemedicine and Telecare\",JTT,1357-633X,20,4,1/1/20,205-212,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 130,
+   "output": "102356,Effects of mindfulness-based stress reduction on quality of life and distress in breast cancer outpatients.,eng,Supportive Care in Cancer,Support Care Cancer,0941-4355,21,1,1/1/13,159-67,\"{\"\"Linda E Carlson\"\",\"\"Karen Speca\"\",\"\"Kerry Faris\"\",\"\"Michael Steinberg\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 822,
+   "output": "234567,Evaluation of a new asthma management program in primary care settings,eng,\"Journal of Asthma Management & Practice\",J Asthma Manag Pract,2574-6205,2,3,10/1/18,145-152,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 339,
+   "output": "123456,New Insights into Quantum Computing,eng,Journal of Advanced Computational Physics,JACP,2671-6495,4,3,6/1/21,123-145,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 700,
+   "output": "102456,Impact of climate change on global agriculture,,Environmental Research Letters,ERL,1748-9326,15,4,1/1/20,044022,\"{\"\"J. Smith\"\",\"\"A. Jones\"\",\"\"L. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "102456,Efficacy of mindfulness-based stress reduction in reducing symptoms of anxiety and depression in cancer patients,eng,BMC Cancer,BMC Cancer,1471-2407,18,1,1/1/18,1-11,\"{\"\"Smith J\"\",\"\"Doe A\"\",\"\"Brown L\"\",\"\"White P\"\",\"\"Green R\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 797,
+   "output": "100986,\"Association of bleeding, mortality and sex in acute coronary syndromes: the missing triangle.\",ENG,\"Journal of cardiovascular medicine (Hagerstown, Md.)\",J Cardiovasc Med (Hagerstown),1558-2035,12,10,9/23/14,595-602,\"{\"\"Rossana De Palma\"\",\"\"Paolo Ortolani\"\",\"\"Caterina Caminiti\"\",\"\"Emilia Solinas\"\",\"\"Piera Angelica Merlini\"\",\"\"Diego Ardissino\"\",\"\"Giorgia Paoli\"\",\"\"Maria Francesca Notarangelo\"\",\"\"Paolo Guastaroba\"\",\"\"Antonio Marzocchi\"\",\"\"Luigi Vignali\"\",\"\"Roxana Mehran\"\",\"\"Antonio Manari\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 200,
+   "output": "1002345,Impact of Social Media on Mental Health Among Teenagers,eng,Journal of Adolescent Health,J Adol Health,1054-139X,69,4,10/1/21,345-52,\"{\"\"Emily S. Johnson\"\",\"\"David L. Smith\"\",\"\"Laura A. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 421,
+   "output": "450528,Impact of hepatitis C on survival in dialysis patients: A link with cardiovascular mortality?.,,,Nephrology, dialysis, transplantation : official journal of the European Dialysis and Transplant Association - European Renal Association,Nephrol Dial Transplant,0931-0509,19,1,1/1/04,14-20,{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 137,
+   "output": "123456,New Insights into Neurodegenerative Diseases,eng,Neurology News,,1541-0056,12,3,3/1/21,201-210,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 104,
+   "output": "123456,New insights into the treatment of chronic kidney disease,eng,Kidney International,Kidney Int,0085-2538,78,4,1/1/10,345-56,\"{\"\"Dr. John Doe\"\",\"\"Dr. Jane Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 906,
+   "output": "102345,Impact of Telemedicine on Patient Outcomes in Rural Areas,,Telemedicine and e-Health,,1530-5627,16,10,10/1/10,850-857,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 447,
+   "output": "102456,Impact of social media on mental health among teenagers,,Cyberpsychology, Behavior, and Social Networking,Cyberpsychol Behav Soc Netw,2152-2715,20,0,1/1/17,45-52,\"{\"\"L. Smith\"\",\"\"E. Johnson\"\",\"\"R. Brown\"\",\"\"T. Davis\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 628,
+   "output": "117678,\"Association between genetic polymorphism of tumor necrosis factor-alpha and risk of oral submucous fibrosis, a pre-cancerous condition of oral cancer.\",eng,Journal of dental research,J. Dent. Res.,0022-0345,80,12,12/1/01,2055-9,\"{\"\"L J Hahn\"\",\"\"C J Chiu\"\",\"\"M L Chang\"\",\"\"L L Hsieh\"\",\"\"Y S Kuo\"\",\"\"H M Chen\"\",\"\"C P Chiang\"\",\"\"C J Chen\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 736,
+   "output": "617801,Remission rates following antidepressant therapy with bupropion or selective serotonin reuptake inhibitors: a meta-analysis of original data from 7 randomized controlled trials.,eng,J. Clin. Psychiatry,,0160-6689,66,8,8/1/05,974-81,\"{\"\"Michael E Thase\"\",\"\"Younghua Wang\"\",\"\"April E Harriett\"\",\"\"Melinda Mitton\"\",\"\"Carol B Rockett\"\",\"\"Barbara R Haight\"\",\"\"Jack G Modell\"\",\"\"Nathalie Richard\"\",\"\"Susan VanMeter\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 139,
+   "output": "987654,Efficacy of mindfulness-based stress reduction in reducing burnout among healthcare professionals: a systematic review and meta-analysis,,Int. J. Stress Manag.,,1078-1903,27,3,3/1/20,250-265,\"{\"\"Smith J.\"\",\"\"Doe A.\"\",\"\"White R.\"\",\"\"Brown C.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 471,
+   "output": "1012345,\"Influence of dietary patterns on cardiovascular risk factors among adults\",eng,Nutrition Journal,Nutr J,1475-2891,14,1,1/1/15,1-12,\"{\"\"Jane Smith\"\",\"\"John Doe\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "102456,Impact of a plant-based diet on cardiovascular risk factors: a randomized controlled trial,eng,Nutrition journal,Nutr J,1475-2891,13,1,1/1/14,\"1-11\",\"{\"\"J. Smith\"\",\"\"A. Jones\"\",\"\"C. Brown\"\",\"\"D. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 431,
+   "output": "102456,Evaluation of a new vaccine efficacy.,eng,Vaccine,Vaccine,0264-2069,30,48,1/1/12,6542-6548,\"{\"\"A. B. Smith\"\",\"\"J. Doe\"\",\"\"L. M. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "1012345,New Discoveries in Quantum Computing,eng,Science Magazine,Sci. Mag.,0036-8075,365,12,1/1/20,123-135,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 851,
+   "output": "302180,The impact of virtual reality exposure therapy on PTSD symptoms in veterans,eng,Veterinary and Animal Science,,,,0,0,1/1/11,3225,\"{\"\"John Doe\"\",\"\"Jane Smith\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 282,
+   "output": "1012345,Evaluation of a New Drug for Diabetes,,Diabetes Care,,1935-5548,43,10,10/1/21,2100-2108,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 723,
+   "output": "123456,Recent Advances in Artificial Intelligence in Healthcare,,Journal of Medical Internet Research,J Med Internet Res,1438-8871,20,5,5/1/21,234-245,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\",\"\"D. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 989,
+   "output": "102456,Evaluation of a new method for detecting early-stage diabetes,eng,Diabetes Care,Diabetes Care,1935-5548,32,5,5/1/09,892-895,\"{\"\"J. Smith\"\",\"\"L. Jones\"\",\"\"R. Brown\"\",\"\"T. White\"\",\"\"U. Black\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 594,
+   "output": "161847,Changes in glucose tolerance over time in women with polycystic ovary syndrome: a controlled study,eng,,,,90,0,1/1/05,3236-42,\"{\"\"A. Dunaif\"\",\"\"A. R. Kunselman\"\",\"\"R. S. Legro\"\",\"\"C. L. Gnatuk\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 684,
+   "output": "999999,\"Impact of Social Media on Adolescent Mental Health\",eng,Pediatrics,Pediatrics,0031-4005,144,4,10/1/19,1-10,\"{\"\"Emily Johnson\"\",\"\"David Smith\"\",\"\"Laura Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 353,
+   "output": "1012345,Recent Advances in Quantum Computing,eng,Journal of Computer Science,,2616-915X,15,2,10/1/21,201-210,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 87,
+   "output": "345678,\"Impact of Telemedicine on Patient Outcomes in Rural Areas\",eng,Journal of Telemedicine and Telecare,Telemed J Telecare,1357-633X,20,3,1/1/14,123-129,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 719,
+   "output": "110453,Anti-hypertensive medicines prescribing for medical outpatients in a premier teaching hospital in Nigeria: a probable shift of paradigm.,eng,Pharmacy practice,Pharm Pract (Granada),1885-642X,12,2,4/1/14,419,\"{\"\"Kazeem B Yusuff\"\",\"\"Unyime I Eshiet\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 28,
+   "output": "971878,Diminished A-cell secretion in the early phase of type I diabetes mellitus,English,Metabolism: Clinical and Experimental,,,35,11,1/1/86,1074-1077,\"{\"\"S. Srikanta\"\",\"\"O. P. Ganda\"\",\"\"R. E. Gleason\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 127,
+   "output": "102357,Influence of Music Therapy on Anxiety Levels in Pediatric Patients Undergoing Dental Procedures,eng,Dental Hypotheses,Dent Hypotheses,2231-8991,4,1,1/1/13,12-18,\"{\"\"Emily J. Smith\"\",\"\"Laura A. Johnson\"\",\"\"Michael K. Thompson\"\",\"\"Sarah L. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 534,
+   "output": "89456,Impact of Social Media on Mental Health Among Adolescents.,eng,Pediatrics,Pediatrics,1098-4275,138,5,10/15/15,654-662,\"{\"\"Emily Johnson\"\",\"\"Laura Smith\"\",\"\"Michael Brown\"\",\"\"Sarah Lee\"\",\"\"David Kim\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 886,
+   "output": "112345,New Insights into Alzheimer's Disease Mechanisms,eng,Brain Sciences,Bra Sci,2226-4790,10,10,10/1/20,1-20,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 830,
+   "output": "1266,Clinical effect observation of fule cream to cure dermatitis eczemal,,International Medicine & Health Guidance News [Guo Ji Yi Yao Wei Sheng Dao Bao],,,14,14,1/1/08,65-68-,\"{\"\"X. H. LYWXWF Wu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 11,
+   "output": "102456,Impact of Social Media on Adolescent Mental Health,ENG,Pediatrics,Pediatrics,1098-4275,145,5,5/1/21,1-10,\"{\"\"Emily R. Smith\"\",\"\"Michael J. Brown\"\",\"\"Laura K. White\"\",\"\"David R. Jones\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

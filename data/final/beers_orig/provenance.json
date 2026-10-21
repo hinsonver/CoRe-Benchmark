@@ -1,0 +1,20 @@
+{
+ "source": "Raha/Baran beers (CraftCans.com)",
+ "rows": 1000,
+ "columns": [
+  "id",
+  "beer-name",
+  "style",
+  "abv",
+  "brewery_id",
+  "brewery-name",
+  "city",
+  "state"
+ ],
+ "breweries": 421,
+ "error_cells": {
+  "abv": 311,
+  "city": 127,
+  "state": 127
+ }
+}

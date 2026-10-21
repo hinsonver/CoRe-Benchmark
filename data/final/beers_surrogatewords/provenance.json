@@ -1,0 +1,21 @@
+{
+ "style": "words",
+ "rows": 1000,
+ "replaced_columns": [
+  "beer-name",
+  "brewery-name",
+  "city"
+ ],
+ "names": "v3 (10-02): value by value, small pool, generic words kept (ValueNamer)",
+ "values_left_unchanged": {
+  "beer-name": 0,
+  "brewery-name": 0,
+  "city": 0
+ },
+ "error_cells": {
+  "abv": 311,
+  "city": 127,
+  "state": 127
+ },
+ "same_error_cells_as_original": true
+}

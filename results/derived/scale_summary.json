@@ -1,0 +1,2990 @@
+{
+ "OLMo-2-7B": {
+  "params_b": 7,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.0,
+     "fresh": 0.0,
+     "words": 0.0,
+     "syllable": 0.0
+    },
+    "predicted": {
+     "original": 20,
+     "fresh": 10,
+     "words": 40,
+     "syllable": 49
+    },
+    "memory": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "entity": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "spelling": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.005,
+     "fresh": 0.005,
+     "words": 0.0,
+     "syllable": 0.0
+    },
+    "predicted": {
+     "original": 13,
+     "fresh": 10,
+     "words": 19,
+     "syllable": 14
+    },
+    "memory": {
+     "diff": -0.0,
+     "ci": [
+      -0.015,
+      0.015
+     ]
+    },
+    "entity": {
+     "diff": 0.005,
+     "ci": [
+      0.0,
+      0.017
+     ]
+    },
+    "spelling": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.005,
+     "ci": [
+      0.0,
+      0.017
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.0,
+     "fresh": 0.0,
+     "words": 0.0,
+     "syllable": 0.0
+    },
+    "predicted": {
+     "original": 6,
+     "fresh": 12,
+     "words": 18,
+     "syllable": 8
+    },
+    "memory": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "entity": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "spelling": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 0,
+    "chunks_with_repair": 0,
+    "correct_cities_edited": 0
+   },
+   "fresh": {
+    "repaired": 0,
+    "chunks_with_repair": 0,
+    "correct_cities_edited": 1
+   },
+   "words": {
+    "repaired": 0,
+    "chunks_with_repair": 0,
+    "correct_cities_edited": 5
+   },
+   "syllable": {
+    "repaired": 0,
+    "chunks_with_repair": 0,
+    "correct_cities_edited": 0
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 0,
+    "chunks_words_more": 0,
+    "sign_test_p": 1.0
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 19,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "near|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "near|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    }
+   },
+   "beers": {
+    "known": 10,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    },
+    "near|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    },
+    "near|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 10
+    }
+   },
+   "movies": {
+    "known": 46,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "near|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    }
+   }
+  }
+ },
+ "Qwen2.5-7B": {
+  "params_b": 7,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.222,
+     "fresh": 0.232,
+     "words": 0.073,
+     "syllable": 0.023
+    },
+    "predicted": {
+     "original": 105,
+     "fresh": 126,
+     "words": 83,
+     "syllable": 125
+    },
+    "memory": {
+     "diff": -0.01,
+     "ci": [
+      -0.099,
+      0.077
+     ]
+    },
+    "entity": {
+     "diff": 0.159,
+     "ci": [
+      0.082,
+      0.233
+     ]
+    },
+    "spelling": {
+     "diff": 0.05,
+     "ci": [
+      -0.002,
+      0.107
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.149,
+     "ci": [
+      0.069,
+      0.231
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.005,
+     "fresh": 0.021,
+     "words": 0.0,
+     "syllable": 0.0
+    },
+    "predicted": {
+     "original": 24,
+     "fresh": 17,
+     "words": 123,
+     "syllable": 48
+    },
+    "memory": {
+     "diff": -0.016,
+     "ci": [
+      -0.039,
+      0.006
+     ]
+    },
+    "entity": {
+     "diff": 0.021,
+     "ci": [
+      0.005,
+      0.043
+     ]
+    },
+    "spelling": {
+     "diff": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.005,
+     "ci": [
+      0.0,
+      0.017
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.0,
+     "fresh": 0.098,
+     "words": 0.042,
+     "syllable": 0.053
+    },
+    "predicted": {
+     "original": 12,
+     "fresh": 16,
+     "words": 63,
+     "syllable": 63
+    },
+    "memory": {
+     "diff": -0.098,
+     "ci": [
+      -0.162,
+      -0.035
+     ]
+    },
+    "entity": {
+     "diff": 0.056,
+     "ci": [
+      -0.03,
+      0.134
+     ]
+    },
+    "spelling": {
+     "diff": -0.011,
+     "ci": [
+      -0.083,
+      0.06
+     ]
+    },
+    "entity_paired": {
+     "diff": -0.042,
+     "ci": [
+      -0.096,
+      0.0
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 0,
+    "chunks_with_repair": 0,
+    "correct_cities_edited": 1
+   },
+   "fresh": {
+    "repaired": 7,
+    "chunks_with_repair": 7,
+    "correct_cities_edited": 2
+   },
+   "words": {
+    "repaired": 4,
+    "chunks_with_repair": 3,
+    "correct_cities_edited": 20
+   },
+   "syllable": {
+    "repaired": 5,
+    "chunks_with_repair": 4,
+    "correct_cities_edited": 32
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 4,
+    "chunks_words_more": 3,
+    "sign_test_p": 1.0
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 22,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.045,
+     "ci": [
+      0.0,
+      0.136
+     ],
+     "entities": 22
+    },
+    "near|1|standard": {
+     "rate": 0.045,
+     "ci": [
+      0.0,
+      0.136
+     ],
+     "entities": 22
+    },
+    "near|3|evidence": {
+     "rate": 0.015,
+     "ci": [
+      0.0,
+      0.045
+     ],
+     "entities": 22
+    },
+    "near|3|standard": {
+     "rate": 0.03,
+     "ci": [
+      0.0,
+      0.076
+     ],
+     "entities": 22
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 22
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 22
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 22
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 22
+    }
+   },
+   "beers": {
+    "known": 7,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    },
+    "near|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    },
+    "near|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 7
+    }
+   },
+   "movies": {
+    "known": 52,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.212,
+     "ci": [
+      0.115,
+      0.327
+     ],
+     "entities": 52
+    },
+    "near|1|standard": {
+     "rate": 0.173,
+     "ci": [
+      0.077,
+      0.269
+     ],
+     "entities": 52
+    },
+    "real|1|evidence": {
+     "rate": 0.096,
+     "ci": [
+      0.019,
+      0.192
+     ],
+     "entities": 52
+    },
+    "real|1|standard": {
+     "rate": 0.135,
+     "ci": [
+      0.058,
+      0.231
+     ],
+     "entities": 52
+    }
+   }
+  }
+ },
+ "Llama-3.1-8B": {
+  "params_b": 8,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.306,
+     "fresh": 0.213,
+     "words": 0.022,
+     "syllable": 0.004
+    },
+    "predicted": {
+     "original": 160,
+     "fresh": 306,
+     "words": 226,
+     "syllable": 250
+    },
+    "memory": {
+     "diff": 0.093,
+     "ci": [
+      0.001,
+      0.173
+     ]
+    },
+    "entity": {
+     "diff": 0.191,
+     "ci": [
+      0.124,
+      0.267
+     ]
+    },
+    "spelling": {
+     "diff": 0.018,
+     "ci": [
+      0.004,
+      0.042
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.284,
+     "ci": [
+      0.231,
+      0.338
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.04,
+     "fresh": 0.042,
+     "words": 0.006,
+     "syllable": 0.007
+    },
+    "predicted": {
+     "original": 219,
+     "fresh": 157,
+     "words": 609,
+     "syllable": 489
+    },
+    "memory": {
+     "diff": -0.002,
+     "ci": [
+      -0.035,
+      0.028
+     ]
+    },
+    "entity": {
+     "diff": 0.036,
+     "ci": [
+      0.01,
+      0.062
+     ]
+    },
+    "spelling": {
+     "diff": -0.001,
+     "ci": [
+      -0.015,
+      0.013
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.034,
+     "ci": [
+      0.013,
+      0.052
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.182,
+     "fresh": 0.273,
+     "words": 0.109,
+     "syllable": 0.142
+    },
+    "predicted": {
+     "original": 126,
+     "fresh": 78,
+     "words": 129,
+     "syllable": 112
+    },
+    "memory": {
+     "diff": -0.091,
+     "ci": [
+      -0.25,
+      0.073
+     ]
+    },
+    "entity": {
+     "diff": 0.164,
+     "ci": [
+      0.009,
+      0.301
+     ]
+    },
+    "spelling": {
+     "diff": -0.033,
+     "ci": [
+      -0.177,
+      0.117
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.072,
+     "ci": [
+      -0.084,
+      0.238
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 23,
+    "chunks_with_repair": 10,
+    "correct_cities_edited": 12
+   },
+   "fresh": {
+    "repaired": 28,
+    "chunks_with_repair": 19,
+    "correct_cities_edited": 4
+   },
+   "words": {
+    "repaired": 14,
+    "chunks_with_repair": 6,
+    "correct_cities_edited": 23
+   },
+   "syllable": {
+    "repaired": 17,
+    "chunks_with_repair": 10,
+    "correct_cities_edited": 5
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 8,
+    "chunks_words_more": 4,
+    "sign_test_p": 0.388
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 23,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.043,
+     "ci": [
+      0.0,
+      0.13
+     ],
+     "entities": 23
+    },
+    "near|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 23
+    },
+    "near|3|evidence": {
+     "rate": 0.029,
+     "ci": [
+      0.0,
+      0.087
+     ],
+     "entities": 23
+    },
+    "near|3|standard": {
+     "rate": 0.014,
+     "ci": [
+      0.0,
+      0.043
+     ],
+     "entities": 23
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 23
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 23
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 23
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 23
+    }
+   },
+   "beers": {
+    "known": 29,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.034,
+     "ci": [
+      0.0,
+      0.103
+     ],
+     "entities": 29
+    },
+    "near|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 29
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 29
+    },
+    "near|3|standard": {
+     "rate": 0.034,
+     "ci": [
+      0.0,
+      0.103
+     ],
+     "entities": 29
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 29
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 29
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 29
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 29
+    }
+   },
+   "movies": {
+    "known": 56,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.161,
+     "ci": [
+      0.071,
+      0.268
+     ],
+     "entities": 56
+    },
+    "near|1|standard": {
+     "rate": 0.214,
+     "ci": [
+      0.107,
+      0.339
+     ],
+     "entities": 56
+    },
+    "real|1|evidence": {
+     "rate": 0.268,
+     "ci": [
+      0.161,
+      0.393
+     ],
+     "entities": 56
+    },
+    "real|1|standard": {
+     "rate": 0.321,
+     "ci": [
+      0.196,
+      0.446
+     ],
+     "entities": 56
+    }
+   }
+  }
+ },
+ "Qwen2.5-14B": {
+  "params_b": 14,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.437,
+     "fresh": 0.421,
+     "words": 0.187,
+     "syllable": 0.038
+    },
+    "predicted": {
+     "original": 170,
+     "fresh": 161,
+     "words": 155,
+     "syllable": 147
+    },
+    "memory": {
+     "diff": 0.016,
+     "ci": [
+      -0.082,
+      0.115
+     ]
+    },
+    "entity": {
+     "diff": 0.234,
+     "ci": [
+      0.147,
+      0.32
+     ]
+    },
+    "spelling": {
+     "diff": 0.149,
+     "ci": [
+      0.084,
+      0.209
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.25,
+     "ci": [
+      0.166,
+      0.333
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.061,
+     "fresh": 0.044,
+     "words": 0.011,
+     "syllable": 0.008
+    },
+    "predicted": {
+     "original": 80,
+     "fresh": 83,
+     "words": 150,
+     "syllable": 135
+    },
+    "memory": {
+     "diff": 0.017,
+     "ci": [
+      -0.024,
+      0.06
+     ]
+    },
+    "entity": {
+     "diff": 0.033,
+     "ci": [
+      0.003,
+      0.064
+     ]
+    },
+    "spelling": {
+     "diff": 0.003,
+     "ci": [
+      -0.014,
+      0.025
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.05,
+     "ci": [
+      0.024,
+      0.08
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.159,
+     "fresh": 0.053,
+     "words": 0.11,
+     "syllable": 0.193
+    },
+    "predicted": {
+     "original": 37,
+     "fresh": 24,
+     "words": 147,
+     "syllable": 80
+    },
+    "memory": {
+     "diff": 0.106,
+     "ci": [
+      -0.027,
+      0.249
+     ]
+    },
+    "entity": {
+     "diff": -0.057,
+     "ci": [
+      -0.164,
+      0.037
+     ]
+    },
+    "spelling": {
+     "diff": -0.084,
+     "ci": [
+      -0.227,
+      0.064
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.049,
+     "ci": [
+      -0.034,
+      0.128
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 13,
+    "chunks_with_repair": 6,
+    "correct_cities_edited": 3
+   },
+   "fresh": {
+    "repaired": 4,
+    "chunks_with_repair": 4,
+    "correct_cities_edited": 2
+   },
+   "words": {
+    "repaired": 15,
+    "chunks_with_repair": 7,
+    "correct_cities_edited": 20
+   },
+   "syllable": {
+    "repaired": 20,
+    "chunks_with_repair": 14,
+    "correct_cities_edited": 5
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 14,
+    "chunks_words_more": 7,
+    "sign_test_p": 0.189
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 24,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.208,
+     "ci": [
+      0.083,
+      0.375
+     ],
+     "entities": 24
+    },
+    "near|1|standard": {
+     "rate": 0.292,
+     "ci": [
+      0.125,
+      0.458
+     ],
+     "entities": 24
+    },
+    "near|3|evidence": {
+     "rate": 0.042,
+     "ci": [
+      0.0,
+      0.083
+     ],
+     "entities": 24
+    },
+    "near|3|standard": {
+     "rate": 0.042,
+     "ci": [
+      0.0,
+      0.083
+     ],
+     "entities": 24
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|1|standard": {
+     "rate": 0.042,
+     "ci": [
+      0.0,
+      0.125
+     ],
+     "entities": 24
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    }
+   },
+   "beers": {
+    "known": 19,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.105,
+     "ci": [
+      0.0,
+      0.263
+     ],
+     "entities": 19
+    },
+    "near|1|standard": {
+     "rate": 0.158,
+     "ci": [
+      0.0,
+      0.316
+     ],
+     "entities": 19
+    },
+    "near|3|evidence": {
+     "rate": 0.018,
+     "ci": [
+      0.0,
+      0.053
+     ],
+     "entities": 19
+    },
+    "near|3|standard": {
+     "rate": 0.07,
+     "ci": [
+      0.0,
+      0.175
+     ],
+     "entities": 19
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 19
+    }
+   },
+   "movies": {
+    "known": 55,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.655,
+     "ci": [
+      0.527,
+      0.782
+     ],
+     "entities": 55
+    },
+    "near|1|standard": {
+     "rate": 0.691,
+     "ci": [
+      0.564,
+      0.818
+     ],
+     "entities": 55
+    },
+    "real|1|evidence": {
+     "rate": 0.636,
+     "ci": [
+      0.509,
+      0.764
+     ],
+     "entities": 55
+    },
+    "real|1|standard": {
+     "rate": 0.691,
+     "ci": [
+      0.564,
+      0.8
+     ],
+     "entities": 55
+    }
+   }
+  }
+ },
+ "Qwen2.5-32B": {
+  "params_b": 32,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.55,
+     "fresh": 0.484,
+     "words": 0.313,
+     "syllable": 0.03
+    },
+    "predicted": {
+     "original": 192,
+     "fresh": 178,
+     "words": 183,
+     "syllable": 240
+    },
+    "memory": {
+     "diff": 0.066,
+     "ci": [
+      -0.023,
+      0.156
+     ]
+    },
+    "entity": {
+     "diff": 0.17,
+     "ci": [
+      0.084,
+      0.251
+     ]
+    },
+    "spelling": {
+     "diff": 0.283,
+     "ci": [
+      0.222,
+      0.345
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.237,
+     "ci": [
+      0.156,
+      0.317
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.029,
+     "fresh": 0.029,
+     "words": 0.004,
+     "syllable": 0.0
+    },
+    "predicted": {
+     "original": 103,
+     "fresh": 104,
+     "words": 124,
+     "syllable": 103
+    },
+    "memory": {
+     "diff": -0.0,
+     "ci": [
+      -0.028,
+      0.029
+     ]
+    },
+    "entity": {
+     "diff": 0.025,
+     "ci": [
+      0.005,
+      0.048
+     ]
+    },
+    "spelling": {
+     "diff": 0.004,
+     "ci": [
+      0.0,
+      0.013
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.025,
+     "ci": [
+      0.009,
+      0.046
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.03,
+     "fresh": 0.0,
+     "words": 0.04,
+     "syllable": 0.111
+    },
+    "predicted": {
+     "original": 7,
+     "fresh": 6,
+     "words": 24,
+     "syllable": 54
+    },
+    "memory": {
+     "diff": 0.03,
+     "ci": [
+      0.0,
+      0.095
+     ]
+    },
+    "entity": {
+     "diff": -0.04,
+     "ci": [
+      -0.101,
+      0.0
+     ]
+    },
+    "spelling": {
+     "diff": -0.071,
+     "ci": [
+      -0.159,
+      0.012
+     ]
+    },
+    "entity_paired": {
+     "diff": -0.01,
+     "ci": [
+      -0.084,
+      0.079
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 2,
+    "chunks_with_repair": 1,
+    "correct_cities_edited": 1
+   },
+   "fresh": {
+    "repaired": 0,
+    "chunks_with_repair": 0,
+    "correct_cities_edited": 0
+   },
+   "words": {
+    "repaired": 3,
+    "chunks_with_repair": 2,
+    "correct_cities_edited": 9
+   },
+   "syllable": {
+    "repaired": 10,
+    "chunks_with_repair": 4,
+    "correct_cities_edited": 11
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 4,
+    "chunks_words_more": 1,
+    "sign_test_p": 0.375
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 24,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.125,
+     "ci": [
+      0.0,
+      0.25
+     ],
+     "entities": 24
+    },
+    "near|1|standard": {
+     "rate": 0.167,
+     "ci": [
+      0.042,
+      0.333
+     ],
+     "entities": 24
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "near|3|standard": {
+     "rate": 0.042,
+     "ci": [
+      0.0,
+      0.083
+     ],
+     "entities": 24
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    }
+   },
+   "beers": {
+    "known": 11,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 11
+    },
+    "near|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 11
+    },
+    "near|3|evidence": {
+     "rate": 0.03,
+     "ci": [
+      0.0,
+      0.091
+     ],
+     "entities": 11
+    },
+    "near|3|standard": {
+     "rate": 0.061,
+     "ci": [
+      0.0,
+      0.152
+     ],
+     "entities": 11
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 11
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 11
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 11
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 11
+    }
+   },
+   "movies": {
+    "known": 53,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.491,
+     "ci": [
+      0.358,
+      0.623
+     ],
+     "entities": 53
+    },
+    "near|1|standard": {
+     "rate": 0.679,
+     "ci": [
+      0.547,
+      0.792
+     ],
+     "entities": 53
+    },
+    "real|1|evidence": {
+     "rate": 0.604,
+     "ci": [
+      0.472,
+      0.736
+     ],
+     "entities": 53
+    },
+    "real|1|standard": {
+     "rate": 0.698,
+     "ci": [
+      0.566,
+      0.811
+     ],
+     "entities": 53
+    }
+   }
+  }
+ },
+ "DeepSeek-V4-Pro": {
+  "params_b": null,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.879,
+     "fresh": 0.95,
+     "words": 0.499,
+     "syllable": 0.16
+    },
+    "predicted": {
+     "original": 218,
+     "fresh": 219,
+     "words": 198,
+     "syllable": 132
+    },
+    "memory": {
+     "diff": -0.071,
+     "ci": [
+      -0.126,
+      -0.018
+     ]
+    },
+    "entity": {
+     "diff": 0.451,
+     "ci": [
+      0.374,
+      0.526
+     ]
+    },
+    "spelling": {
+     "diff": 0.339,
+     "ci": [
+      0.263,
+      0.418
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.38,
+     "ci": [
+      0.294,
+      0.462
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.363,
+     "fresh": 0.452,
+     "words": 0.043,
+     "syllable": 0.011
+    },
+    "predicted": {
+     "original": 155,
+     "fresh": 217,
+     "words": 135,
+     "syllable": 154
+    },
+    "memory": {
+     "diff": -0.089,
+     "ci": [
+      -0.203,
+      0.027
+     ]
+    },
+    "entity": {
+     "diff": 0.41,
+     "ci": [
+      0.325,
+      0.49
+     ]
+    },
+    "spelling": {
+     "diff": 0.032,
+     "ci": [
+      0.004,
+      0.062
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.321,
+     "ci": [
+      0.234,
+      0.403
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.269,
+     "fresh": 0.237,
+     "words": 0.113,
+     "syllable": 0.279
+    },
+    "predicted": {
+     "original": 22,
+     "fresh": 25,
+     "words": 15,
+     "syllable": 31
+    },
+    "memory": {
+     "diff": 0.032,
+     "ci": [
+      -0.193,
+      0.252
+     ]
+    },
+    "entity": {
+     "diff": 0.124,
+     "ci": [
+      -0.067,
+      0.308
+     ]
+    },
+    "spelling": {
+     "diff": -0.166,
+     "ci": [
+      -0.349,
+      0.023
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.156,
+     "ci": [
+      -0.037,
+      0.343
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 20,
+    "chunks_with_repair": 8,
+    "correct_cities_edited": 1
+   },
+   "fresh": {
+    "repaired": 18,
+    "chunks_with_repair": 8,
+    "correct_cities_edited": 0
+   },
+   "words": {
+    "repaired": 8,
+    "chunks_with_repair": 4,
+    "correct_cities_edited": 0
+   },
+   "syllable": {
+    "repaired": 22,
+    "chunks_with_repair": 11,
+    "correct_cities_edited": 0
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 10,
+    "chunks_words_more": 3,
+    "sign_test_p": 0.092
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 24,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.375,
+     "ci": [
+      0.167,
+      0.583
+     ],
+     "entities": 24
+    },
+    "near|1|standard": {
+     "rate": 0.542,
+     "ci": [
+      0.333,
+      0.75
+     ],
+     "entities": 24
+    },
+    "near|3|evidence": {
+     "rate": 0.028,
+     "ci": [
+      0.0,
+      0.069
+     ],
+     "entities": 24
+    },
+    "near|3|standard": {
+     "rate": 0.111,
+     "ci": [
+      0.014,
+      0.236
+     ],
+     "entities": 24
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    }
+   },
+   "beers": {
+    "known": 48,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.062,
+     "ci": [
+      0.0,
+      0.146
+     ],
+     "entities": 48
+    },
+    "near|1|standard": {
+     "rate": 0.146,
+     "ci": [
+      0.062,
+      0.25
+     ],
+     "entities": 48
+    },
+    "near|3|evidence": {
+     "rate": 0.035,
+     "ci": [
+      0.0,
+      0.09
+     ],
+     "entities": 48
+    },
+    "near|3|standard": {
+     "rate": 0.104,
+     "ci": [
+      0.021,
+      0.188
+     ],
+     "entities": 48
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 48
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 48
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 48
+    },
+    "real|3|standard": {
+     "rate": 0.062,
+     "ci": [
+      0.0,
+      0.146
+     ],
+     "entities": 48
+    }
+   },
+   "movies": {
+    "known": 57,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.719,
+     "ci": [
+      0.596,
+      0.842
+     ],
+     "entities": 57
+    },
+    "near|1|standard": {
+     "rate": 0.912,
+     "ci": [
+      0.825,
+      0.982
+     ],
+     "entities": 57
+    },
+    "real|1|evidence": {
+     "rate": 0.211,
+     "ci": [
+      0.105,
+      0.316
+     ],
+     "entities": 57
+    },
+    "real|1|standard": {
+     "rate": 0.684,
+     "ci": [
+      0.561,
+      0.789
+     ],
+     "entities": 57
+    }
+   }
+  }
+ },
+ "Qwen3.8-Max": {
+  "params_b": null,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.897,
+     "fresh": 0.927,
+     "words": 0.546,
+     "syllable": 0.214
+    },
+    "predicted": {
+     "original": 229,
+     "fresh": 219,
+     "words": 206,
+     "syllable": 127
+    },
+    "memory": {
+     "diff": -0.03,
+     "ci": [
+      -0.076,
+      0.018
+     ]
+    },
+    "entity": {
+     "diff": 0.381,
+     "ci": [
+      0.309,
+      0.452
+     ]
+    },
+    "spelling": {
+     "diff": 0.332,
+     "ci": [
+      0.25,
+      0.417
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.351,
+     "ci": [
+      0.28,
+      0.422
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.295,
+     "fresh": 0.443,
+     "words": 0.024,
+     "syllable": 0.004
+    },
+    "predicted": {
+     "original": 258,
+     "fresh": 320,
+     "words": 203,
+     "syllable": 199
+    },
+    "memory": {
+     "diff": -0.148,
+     "ci": [
+      -0.231,
+      -0.061
+     ]
+    },
+    "entity": {
+     "diff": 0.419,
+     "ci": [
+      0.355,
+      0.479
+     ]
+    },
+    "spelling": {
+     "diff": 0.021,
+     "ci": [
+      0.003,
+      0.042
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.271,
+     "ci": [
+      0.204,
+      0.332
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.939,
+     "fresh": 0.612,
+     "words": 0.815,
+     "syllable": 0.695
+    },
+    "predicted": {
+     "original": 133,
+     "fresh": 92,
+     "words": 138,
+     "syllable": 109
+    },
+    "memory": {
+     "diff": 0.327,
+     "ci": [
+      0.208,
+      0.457
+     ]
+    },
+    "entity": {
+     "diff": -0.203,
+     "ci": [
+      -0.344,
+      -0.07
+     ]
+    },
+    "spelling": {
+     "diff": 0.12,
+     "ci": [
+      -0.05,
+      0.277
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.123,
+     "ci": [
+      0.061,
+      0.199
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 122,
+    "chunks_with_repair": 47,
+    "correct_cities_edited": 2
+   },
+   "fresh": {
+    "repaired": 67,
+    "chunks_with_repair": 31,
+    "correct_cities_edited": 0
+   },
+   "words": {
+    "repaired": 108,
+    "chunks_with_repair": 43,
+    "correct_cities_edited": 6
+   },
+   "syllable": {
+    "repaired": 82,
+    "chunks_with_repair": 31,
+    "correct_cities_edited": 6
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 4,
+    "chunks_words_more": 15,
+    "sign_test_p": 0.019
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 24,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.167,
+     "ci": [
+      0.042,
+      0.333
+     ],
+     "entities": 24
+    },
+    "near|1|standard": {
+     "rate": 0.333,
+     "ci": [
+      0.167,
+      0.542
+     ],
+     "entities": 24
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "near|3|standard": {
+     "rate": 0.042,
+     "ci": [
+      0.0,
+      0.125
+     ],
+     "entities": 24
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    }
+   },
+   "beers": {
+    "known": 45,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.156,
+     "ci": [
+      0.067,
+      0.267
+     ],
+     "entities": 45
+    },
+    "near|1|standard": {
+     "rate": 0.244,
+     "ci": [
+      0.133,
+      0.378
+     ],
+     "entities": 45
+    },
+    "near|3|evidence": {
+     "rate": 0.089,
+     "ci": [
+      0.022,
+      0.17
+     ],
+     "entities": 45
+    },
+    "near|3|standard": {
+     "rate": 0.17,
+     "ci": [
+      0.074,
+      0.274
+     ],
+     "entities": 45
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 45
+    },
+    "real|1|standard": {
+     "rate": 0.022,
+     "ci": [
+      0.0,
+      0.067
+     ],
+     "entities": 45
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 45
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 45
+    }
+   },
+   "movies": {
+    "known": 57,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.877,
+     "ci": [
+      0.789,
+      0.965
+     ],
+     "entities": 57
+    },
+    "near|1|standard": {
+     "rate": 0.912,
+     "ci": [
+      0.825,
+      0.982
+     ],
+     "entities": 57
+    },
+    "real|1|evidence": {
+     "rate": 0.404,
+     "ci": [
+      0.281,
+      0.526
+     ],
+     "entities": 57
+    },
+    "real|1|standard": {
+     "rate": 0.982,
+     "ci": [
+      0.947,
+      1.0
+     ],
+     "entities": 57
+    }
+   }
+  }
+ },
+ "GLM-5.3": {
+  "params_b": null,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.781,
+     "fresh": 0.832,
+     "words": 0.552,
+     "syllable": 0.187
+    },
+    "predicted": {
+     "original": 229,
+     "fresh": 216,
+     "words": 205,
+     "syllable": 124
+    },
+    "memory": {
+     "diff": -0.051,
+     "ci": [
+      -0.114,
+      0.014
+     ]
+    },
+    "entity": {
+     "diff": 0.28,
+     "ci": [
+      0.199,
+      0.362
+     ]
+    },
+    "spelling": {
+     "diff": 0.365,
+     "ci": [
+      0.285,
+      0.446
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.229,
+     "ci": [
+      0.159,
+      0.301
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.108,
+     "fresh": 0.204,
+     "words": 0.038,
+     "syllable": 0.01
+    },
+    "predicted": {
+     "original": 84,
+     "fresh": 109,
+     "words": 40,
+     "syllable": 28
+    },
+    "memory": {
+     "diff": -0.096,
+     "ci": [
+      -0.17,
+      -0.027
+     ]
+    },
+    "entity": {
+     "diff": 0.166,
+     "ci": [
+      0.105,
+      0.227
+     ]
+    },
+    "spelling": {
+     "diff": 0.028,
+     "ci": [
+      0.01,
+      0.05
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.07,
+     "ci": [
+      0.028,
+      0.111
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.945,
+     "fresh": 0.88,
+     "words": 0.885,
+     "syllable": 0.944
+    },
+    "predicted": {
+     "original": 127,
+     "fresh": 123,
+     "words": 135,
+     "syllable": 121
+    },
+    "memory": {
+     "diff": 0.065,
+     "ci": [
+      -0.025,
+      0.162
+     ]
+    },
+    "entity": {
+     "diff": -0.005,
+     "ci": [
+      -0.108,
+      0.088
+     ]
+    },
+    "spelling": {
+     "diff": -0.058,
+     "ci": [
+      -0.121,
+      0.004
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.059,
+     "ci": [
+      -0.014,
+      0.14
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 120,
+    "chunks_with_repair": 48,
+    "correct_cities_edited": 3
+   },
+   "fresh": {
+    "repaired": 110,
+    "chunks_with_repair": 42,
+    "correct_cities_edited": 1
+   },
+   "words": {
+    "repaired": 116,
+    "chunks_with_repair": 47,
+    "correct_cities_edited": 3
+   },
+   "syllable": {
+    "repaired": 117,
+    "chunks_with_repair": 46,
+    "correct_cities_edited": 0
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 6,
+    "chunks_words_more": 5,
+    "sign_test_p": 1.0
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 24,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.25,
+     "ci": [
+      0.083,
+      0.417
+     ],
+     "entities": 24
+    },
+    "near|1|standard": {
+     "rate": 0.458,
+     "ci": [
+      0.25,
+      0.667
+     ],
+     "entities": 24
+    },
+    "near|3|evidence": {
+     "rate": 0.028,
+     "ci": [
+      0.0,
+      0.083
+     ],
+     "entities": 24
+    },
+    "near|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    }
+   },
+   "beers": {
+    "known": 43,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.163,
+     "ci": [
+      0.07,
+      0.279
+     ],
+     "entities": 43
+    },
+    "near|1|standard": {
+     "rate": 0.279,
+     "ci": [
+      0.14,
+      0.419
+     ],
+     "entities": 43
+    },
+    "near|3|evidence": {
+     "rate": 0.047,
+     "ci": [
+      0.0,
+      0.116
+     ],
+     "entities": 43
+    },
+    "near|3|standard": {
+     "rate": 0.124,
+     "ci": [
+      0.039,
+      0.225
+     ],
+     "entities": 43
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 43
+    },
+    "real|1|standard": {
+     "rate": 0.14,
+     "ci": [
+      0.047,
+      0.256
+     ],
+     "entities": 43
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 43
+    },
+    "real|3|standard": {
+     "rate": 0.178,
+     "ci": [
+      0.078,
+      0.295
+     ],
+     "entities": 43
+    }
+   },
+   "movies": {
+    "known": 57,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.912,
+     "ci": [
+      0.842,
+      0.982
+     ],
+     "entities": 57
+    },
+    "near|1|standard": {
+     "rate": 0.86,
+     "ci": [
+      0.772,
+      0.947
+     ],
+     "entities": 57
+    },
+    "real|1|evidence": {
+     "rate": 0.175,
+     "ci": [
+      0.088,
+      0.281
+     ],
+     "entities": 57
+    },
+    "real|1|standard": {
+     "rate": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "entities": 57
+    }
+   }
+  }
+ },
+ "GPT-6.1-Sol": {
+  "params_b": null,
+  "p2": {
+   "hospital": {
+    "f1": {
+     "original": 0.937,
+     "fresh": 0.982,
+     "words": 0.706,
+     "syllable": 0.617
+    },
+    "predicted": {
+     "original": 240,
+     "fresh": 219,
+     "words": 121,
+     "syllable": 105
+    },
+    "memory": {
+     "diff": -0.045,
+     "ci": [
+      -0.073,
+      -0.017
+     ]
+    },
+    "entity": {
+     "diff": 0.276,
+     "ci": [
+      0.22,
+      0.337
+     ]
+    },
+    "spelling": {
+     "diff": 0.089,
+     "ci": [
+      0.024,
+      0.154
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.231,
+     "ci": [
+      0.176,
+      0.291
+     ]
+    }
+   },
+   "movies": {
+    "f1": {
+     "original": 0.115,
+     "fresh": 0.367,
+     "words": 0.05,
+     "syllable": 0.035
+    },
+    "predicted": {
+     "original": 37,
+     "fresh": 120,
+     "words": 24,
+     "syllable": 20
+    },
+    "memory": {
+     "diff": -0.251,
+     "ci": [
+      -0.372,
+      -0.138
+     ]
+    },
+    "entity": {
+     "diff": 0.317,
+     "ci": [
+      0.204,
+      0.428
+     ]
+    },
+    "spelling": {
+     "diff": 0.014,
+     "ci": [
+      -0.006,
+      0.042
+     ]
+    },
+    "entity_paired": {
+     "diff": 0.066,
+     "ci": [
+      0.005,
+      0.134
+     ]
+    }
+   },
+   "beers": {
+    "f1": {
+     "original": 0.962,
+     "fresh": 0.895,
+     "words": 0.977,
+     "syllable": 0.996
+    },
+    "predicted": {
+     "original": 137,
+     "fresh": 130,
+     "words": 133,
+     "syllable": 128
+    },
+    "memory": {
+     "diff": 0.067,
+     "ci": [
+      -0.001,
+      0.144
+     ]
+    },
+    "entity": {
+     "diff": -0.082,
+     "ci": [
+      -0.155,
+      -0.015
+     ]
+    },
+    "spelling": {
+     "diff": -0.019,
+     "ci": [
+      -0.036,
+      -0.004
+     ]
+    },
+    "entity_paired": {
+     "diff": -0.015,
+     "ci": [
+      -0.037,
+      0.007
+     ]
+    }
+   }
+  },
+  "beers_city": {
+   "original": {
+    "repaired": 127,
+    "chunks_with_repair": 49,
+    "correct_cities_edited": 2
+   },
+   "fresh": {
+    "repaired": 115,
+    "chunks_with_repair": 44,
+    "correct_cities_edited": 0
+   },
+   "words": {
+    "repaired": 127,
+    "chunks_with_repair": 49,
+    "correct_cities_edited": 0
+   },
+   "syllable": {
+    "repaired": 127,
+    "chunks_with_repair": 49,
+    "correct_cities_edited": 0
+   },
+   "words_vs_syllable": {
+    "chunks_syllable_more": 0,
+    "chunks_words_more": 0,
+    "sign_test_p": 1.0
+   }
+  },
+  "near": {
+   "hospital": {
+    "known": 24,
+    "targets": 24,
+    "near|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "near|1|standard": {
+     "rate": 0.833,
+     "ci": [
+      0.667,
+      0.958
+     ],
+     "entities": 24
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "near|3|standard": {
+     "rate": 0.25,
+     "ci": [
+      0.083,
+      0.417
+     ],
+     "entities": 24
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 24
+    }
+   },
+   "beers": {
+    "known": 46,
+    "targets": 48,
+    "near|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "near|1|standard": {
+     "rate": 0.87,
+     "ci": [
+      0.761,
+      0.957
+     ],
+     "entities": 46
+    },
+    "near|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "near|3|standard": {
+     "rate": 0.304,
+     "ci": [
+      0.174,
+      0.435
+     ],
+     "entities": 46
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "real|1|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "real|3|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    },
+    "real|3|standard": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 46
+    }
+   },
+   "movies": {
+    "known": 57,
+    "targets": 57,
+    "near|1|evidence": {
+     "rate": 0.456,
+     "ci": [
+      0.333,
+      0.579
+     ],
+     "entities": 57
+    },
+    "near|1|standard": {
+     "rate": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ],
+     "entities": 57
+    },
+    "real|1|evidence": {
+     "rate": 0.0,
+     "ci": [
+      0.0,
+      0.0
+     ],
+     "entities": 57
+    },
+    "real|1|standard": {
+     "rate": 0.93,
+     "ci": [
+      0.86,
+      0.982
+     ],
+     "entities": 57
+    }
+   }
+  }
+ }
+}

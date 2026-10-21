@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "sources": {
+    "aligned.tex": {
+      "caption": "Identity-column repair F1 under aligned and whole-table information. Aligned uses the same chunks,\n  20 labeled tuples and error positions; Baran is the mean of three runs. Whole-table Baran\n  uses perfect detection. TabClean uses DeepSeek-V4-Pro with development rows excluded.",
+      "body_sha256": "265e6385a5f5da62cfb8028d8b89de01a727afc6906ebef2e1d38f1f2c9ec394"
+    },
+    "beers.tex": {
+      "caption": "Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total\n  O$-$S, repaired cities (of 127), and W-versus-S chunk sign tests, Holm-corrected over models.\n  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.\n  $^\\dagger$: significant as in Table~\\ref{tab:main}, corrected over eight differences.",
+      "body_sha256": "f50b94faef23003602c37943cf14b562c3f78b6a756131e976b7e64291b60545"
+    },
+    "checks.tex": {
+      "caption": "Acceptance checks, run on every controlled table before any model sees it: 506 checks over 21 tables.",
+      "body_sha256": "0a511fce4750a86ad45a9c0cedaf7b7571ea4946babb42c32e12c0c9be7006db"
+    },
+    "conflictcounts.tex": {
+      "caption": "Director rewrite counts among known films ($n/N$). Exact-name targets count edits\n  matching a real-world director credit. Surrogate controls count any Director change;\n  none matches the paired film's real credit.",
+      "body_sha256": "fa083428d21eb4f7b80d127a22cc95e3444ee724ccd76567b6c7c484e85520e0"
+    },
+    "construction.tex": {
+      "caption": "Controlled-table sources and scale. Error counts in parentheses are identity cells;\n  values renamed are distinct one-to-one replacements. Seeds cover F, W and S.",
+      "body_sha256": "9f3167bb938f6f3c87470ce8e94fd9b6bd715597bd813fd11df0b1f6844afbdd"
+    },
+    "counts.tex": {
+      "caption": "Near-zero scores as repaired-cell counts. Hospital W/S have 219 identity errors;\n  Movies O/W have 379. Chunk counts give more : fewer repairs in the first condition;\n  sign-test $p$ values are Holm-corrected over models.",
+      "body_sha256": "755331f0f04396c879d3a80233e42adabdd09465f8f36234b2a40974905c344e"
+    },
+    "decoding.tex": {
+      "caption": "Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory;\n  Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering\n  217 of 219 errors, with two address-spacing errors excluded from these counts.",
+      "body_sha256": "c2bd642bc2d2fa013114367cc85eb5ead0effb1e47cf2391fd8cd9ccbe8318ad"
+    },
+    "decomposition.tex": {
+      "caption": "Identity-column repair F1 and condition contrasts at seed 0. Definitions and\n  comparison assumptions are in Section~\\ref{sec:conditions}. $^\\dagger$: significant at 0.05\n  after Holm correction over this table's 40 differences (two-sided chunk bootstrap,\n  2,000 resamples).",
+      "body_sha256": "cc5e4aa776bfec3da37514aea7d8d84dadbed3f192683ef4ac9bada54ace8168"
+    },
+    "detection.tex": {
+      "caption": "Detection and repair diverge on surrogate identity columns. Entries give detection F1 /\n  repair F1; detection counts corrupted cells found regardless of the value proposed for that cell.",
+      "body_sha256": "06075949740251928ec0db7dd535ebf99b3e0d4ce48de3f38243e46deca732f7"
+    },
+    "example.tex": {
+      "caption": "Hospital identity fields across conditions, with the corrupted city in bold.\n  O/W/S share a row and error position. $^*$F draws a newer registry row with updated quality\n  measures, rather than a row-paired replacement of O.",
+      "body_sha256": "dddef08a8371b5e1a557afe3203dacfbd3496785a675d53863e0b5a76c429484"
+    },
+    "moviescols.tex": {
+      "caption": "Where knowledge acts on Movies: DeepSeek-V4-Pro repairs by column (repaired / errors).\n  Identity columns are listed first; each condition uses its own error counts.",
+      "body_sha256": "ebbcc7fd080199fb6c40ea6f9a63dd8f1690533dde66d0bcb6c3a50379904b7e"
+    },
+    "movieserrors.tex": {
+      "caption": "Movies' 1,965 errors and their transfer mechanisms. Source-style errors occupy\n  190 rows, with formatting rules also applied table-wide. Copied errors transfer cell recipes;\n  drawn errors follow measured rates. Slugs are the film identifiers used in Rotten Tomatoes URLs.",
+      "body_sha256": "88c507a5a4541335b3a2a629958d8da627fe4037965f12f0a41e8d982c16ab9c"
+    },
+    "near.tex": {
+      "caption": "Director rewrites toward real-world credits are frequent, while city rewrites are rare.\n  Rates use each model's known subset of the common target pool, with one row per target.\n  Movies: a Director edit matching at least one real credit, with standard and table-evidence\n  prompts (95\\% entity-bootstrap intervals). Hospital and Beers: city edits matching the real\n  city, standard prompt. Rates and interval endpoints retain the source precision.",
+      "body_sha256": "d351f9927244b2f5e589b1f39860ade8c045be1d1584342fd8133cbf03735c78"
+    },
+    "p1.tex": {
+      "caption": "Highest hard-cell continuation accuracy over datasets for each context.\n  Columns distinguish clean/dirty context, dataset naming and error-row selection.\n  Leakage counts clean reference values written from dirty context.",
+      "body_sha256": "4395b7c61a0161b27dfeada8506257526c0206bbedd468dcdb69acff35a5b663"
+    },
+    "publicverification.tex": {
+      "caption": "Public verification entries for the three analyses. Movies uses numerical witnesses\n  for cleaning and conflict results, and saved summaries for the continuation probe. The README\n  maps each entry to its input files and generated results.",
+      "body_sha256": "9617381a9265ff96b8482d427f54d365be45a2a1e0d13573c6cd6ca26bc097fb"
+    },
+    "rayyan.tex": {
+      "caption": "Rayyan's stratified field checks. $N_h$: error population; $n_h$: sampled;\n  $m_h$: title-matched; $b_h$: failed reference checks; $d_h$: passed dirty checks.\n  A dash denotes an unassessed dirty-side check.",
+      "body_sha256": "26506f5003eaf5bd296f9e9caaa4dc9fea751a612e8bafa05b2a1933ab51fd22"
+    },
+    "seeds.tex": {
+      "caption": "Identity-column contrast ranges over three construction seeds; seed 0 is in\n  Table~\\ref{tab:main}. Fresh clean records are fixed while errors are redrawn.",
+      "body_sha256": "6718c4f5e32540ccd14922a3112bafbd939a720e8a3b80c52fbbd2350bfea128"
+    }
+  }
+}
