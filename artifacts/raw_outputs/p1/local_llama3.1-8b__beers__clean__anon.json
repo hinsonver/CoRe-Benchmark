@@ -1,0 +1,351 @@
+{
+ "summary": {
+  "model": "local:llama3.1-8b",
+  "dataset": "beers",
+  "source": "clean",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [
+   "index"
+  ],
+  "parse_rate": 0.98,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.7543,
+  "acc_noninferable": 0.0457,
+  "noninferable_cells": 197,
+  "acc_hard": 0.0,
+  "hard_cells": 175,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 49,
+    "model": 0.184,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.367
+   },
+   "beer-name": {
+    "n": 46,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "abv": {
+    "n": 29,
+    "model": 0.0,
+    "freq": 0.069,
+    "trans": 0.0,
+    "structural": 0.069
+   },
+   "ibu": {
+    "n": 21,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "style": {
+    "n": 26,
+    "model": 0.0,
+    "freq": 0.038,
+    "trans": 0.038,
+    "structural": 0.077
+   },
+   "ounces": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery_id": {
+    "n": 6,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery-name": {
+    "n": 6,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "city": {
+    "n": 6,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "state": {
+    "n": 6,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 1587,
+   "output": "1588,802,Ten Fidy Imperial Stout (2006),Russian Imperial Stout,12,0.099,98,503,Oskar Blues Brewery,Lyons,CO",
+   "parsed": true
+  },
+  {
+   "row": 1732,
+   "output": "1733,2131,Liberty American Pale Ale,American Pale Ale (APA),12,0.058,40,93,Rhinegeist Brewery,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 175,
+   "output": "176,2059,Back East Stout,American Stout,12,0.058,,235,Back East Brewing Company,Bloomfield,CT",
+   "parsed": true
+  },
+  {
+   "row": 1070,
+   "output": "1071,1502,The One They Call Zoe (2013),American Pale Lager,12,0.051,,395,Hops & Grain Brewery,Austin,TX",
+   "parsed": true
+  },
+  {
+   "row": 2104,
+   "output": "2105,2576,Wooden Rooster,Tripel,16.9,0.085,34,45,Tallgrass Brewing Company,Manhattan,KS",
+   "parsed": true
+  },
+  {
+   "row": 2000,
+   "output": "2001,2149,Point Man IPA,American IPA,12,0.063,64,131,Stevens Point Brewery,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 1668,
+   "output": "1669,2345,Double Dry Hopped Double IPA,American Double / Imperial IPA,16,0.085,80,548,Prescott Brewing Company,Prescott,AZ",
+   "parsed": true
+  },
+  {
+   "row": 1252,
+   "output": "1253,1123,Happy Amber Ale,American Amber / Red Ale,12,0.06,30,91,Madtree Brewing Company,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 1962,
+   "output": "1963,1012,Old Scrooge,Old Ale,12,0.072,40,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1476,
+   "output": "1477,484,La Llorona,Herb and Spice Beer,12,0.05,,174,New Orleans Lager & Ale Brewing ...,New Orleans,LA",
+   "parsed": true
+  },
+  {
+   "row": 2399,
+   "output": "2400,2627,The Great Pumpkin Imperial Pumpkin Ale,American Imperial Pumpkin Ale,12,0.065,,14,Witch's Hat Brewing Company,South Lyon,MI",
+   "parsed": true
+  },
+  {
+   "row": 904,
+   "output": "904,549,Point the Way IPA (2012),American IPA,16,0.059,60,240,Golden Road Brewing,Los Angeles,CA",
+   "parsed": true
+  },
+  {
+   "row": 2077,
+   "output": "2078,1111,Darkness,American Black Ale,16,0.095,80,61,Surly Brewing Company,Brooklyn Center,MN",
+   "parsed": true
+  },
+  {
+   "row": 580,
+   "output": "580,1647,Terrace Hill Double IPA,American Double / Imperial IPA,16,0.095,99,350,Central Coast Brewing Company,San Luis Obispo,CA",
+   "parsed": true
+  },
+  {
+   "row": 1164,
+   "output": "1165,757,Double Haul IPA (2005),American IPA,16,0.065,65,510,Kettle House Brewing Company,Missoula,MT",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "583,2056,Champion IPA,American IPA,24,0.065,65,236,Champion Brewing Company,Charlottesville,VA",
+   "parsed": true
+  },
+  {
+   "row": 398,
+   "output": "399,2498,Barrel Aged Black & Blue,Black & Blue,16,0.065,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1036,
+   "output": "1037,2179,Hapa Brown Ale,American Brown Ale,12,0.064,,204,Hawai'i Nui Brewing Co.,Hilo,HI",
+   "parsed": true
+  },
+  {
+   "row": 2191,
+   "output": "2192,2620,Blackberry Bourbon Barrel Stout,Other,16,0.065,60,17,Tin Man Brewing Company,Evansville,IN",
+   "parsed": true
+  },
+  {
+   "row": 611,
+   "output": "612,1691,Hopped on the High Seas (Simcoe),American IPA,12,0.07,60,141,Cigar City Brewing Company,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 1280,
+   "output": "1281,1782,Double Sunshine Imperial IPA,American Double / Imperial IPA,16,0.105,,317,Marshall Wharf Brewing Company,Belfast,ME",
+   "parsed": true
+  },
+  {
+   "row": 414,
+   "output": "415,2069,The Devil's Handshake,Imperial Stout,16,0.083,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 312,
+   "output": "313,1545,Steel Wheels ESB,Extra Special / Strong Bitter (ESB),12,0.065,30,382,Blue Mountain Brewery,Afton,VA",
+   "parsed": true
+  },
+  {
+   "row": 1362,
+   "output": "1363,2362,Old Monarch Malt Liquor,American Malt Liquor,24,0.099,,134,Minhas Craft Brewery,Monroe,WI",
+   "parsed": true
+  },
+  {
+   "row": 1943,
+   "output": "1944,2023,Long Island Iced Tea,Other,12,0.05,10,249,Southampton Publick House,Southampton,NY",
+   "parsed": true
+  },
+  {
+   "row": 2302,
+   "output": "2303,1822,Wasatch Polygamy Porter,Brown Porter,12,0.05,25,302,Utah Brewers Cooperative,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 422,
+   "output": "423,1966,Undertaker (2013),Belgian Dark Ale,16,0.067,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1459,
+   "output": "1460,69,Ranger IPA,American IPA,16,0.065,70,82,New Belgium Brewing Company,Fort Collins,CO",
+   "parsed": true
+  },
+  {
+   "row": 1788,
+   "output": "1789,2598,4-Pump Handle Pale Ale,American Pale Ale (APA),16,0.065,35,30,SanTan Brewing Company,Chandler,AZ",
+   "parsed": true
+  },
+  {
+   "row": 1305,
+   "output": "1306,1593,Coconut Hiwa Porter,Brown Porter,12,0.06,30,375,Maui Brewing Company,Lahaina,HI",
+   "parsed": true
+  },
+  {
+   "row": 847,
+   "output": "848,1871,El Jefe Mexican Lager,12,0.048,15,287,Four Corners Brewing Company,Dallas,TX",
+   "parsed": false
+  },
+  {
+   "row": 2273,
+   "output": "2274,2505,The Golden Mean,English Pale Ale,12,0.065,30,71,Union Craft Brewing,Baltimore,MD",
+   "parsed": true
+  },
+  {
+   "row": 1963,
+   "output": "1964,1012,Old Blaggard,English Brown Ale,12,0.058,30,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1823,
+   "output": "1824,1322,Schlafly Pale Ale,American Pale Ale,12,0.05,,428,Schlafly Brewing Company,Saint Louis,MO",
+   "parsed": true
+  },
+  {
+   "row": 2145,
+   "output": "2146,1811,The Pernicious Pale Ale,American Pale Ale (APA),16,0.065,40,272,The Alchemist,Waterbury,VT",
+   "parsed": true
+  },
+  {
+   "row": 1076,
+   "output": "1077,2401,Nonstop Hef Hop (2011),American Pale Wheat Ale,16,0.039,20,80,Hopworks Urban Brewery,Portland,OR",
+   "parsed": true
+  },
+  {
+   "row": 265,
+   "output": "266,2097,Stormchaser Double IPA,American Double/Imperial IPA,12,0.085,120,221,Big Storm Brewing Company,Odessa,FL",
+   "parsed": true
+  },
+  {
+   "row": 2257,
+   "output": "2258,1088,Organic Pilsner,German Pilsener,12,0.05,20,159,Uinta Brewing Company,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 67,
+   "output": "68,1166,Colorado Native (2012),American Amber / Red Lager,12,0.055,26,462,AC Golden Brewing Company,Golden,CO",
+   "parsed": true
+  },
+  {
+   "row": 392,
+   "output": "393,2596,The Devil's Right Hand,English Brown Ale,16,0.058,,10,Brewery Vivant,Grand Rapids,MI",
+   "parsed": true
+  },
+  {
+   "row": 1643,
+   "output": "1644,1402,Dirty Blonde,Blond Ale,16,0.058,15,11,Petoskey Brewing,Petoskey,MI",
+   "parsed": true
+  },
+  {
+   "row": 14,
+   "output": "15,1979,The Devil's in the Details,Belgian IPA,12,0.083,,177,18th Street Brewery,Gary,IN",
+   "parsed": true
+  },
+  {
+   "row": 2031,
+   "output": "2032,2351,Summit EPA,American Pale Ale (APA),12,0.047,40,58,Summit Brewing Company,St. Paul,MN",
+   "parsed": true
+  },
+  {
+   "row": 1374,
+   "output": "1375,2272,Boxer,American Adjunct Lager,16,0.05,,134,Minhas Craft Brewery,Monroe,WI",
+   "parsed": true
+  },
+  {
+   "row": 1009,
+   "output": "1010,1754,Day Off American Pale Ale,American Pale Ale (APA),16,0.065,,327,Half Acre Beer Company,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 1342,
+   "output": "1343,2534,The Devil's Reign,American Double / Imperial IPA,24,0.08,90,65,Mikerphone Brewing,Chicago,IL",
+   "parsed": true
+  },
+  {
+   "row": 267,
+   "output": "268,1256,Woodcutter's Witbier,Witbier,16,0.047,15,444,Big Wood Brewery,Vadnais Heights,MN",
+   "parsed": true
+  },
+  {
+   "row": 792,
+   "output": "793,2345,Summer Squeeze,Summer Ale,16,0.058,,36,Figueroa Mountain Brewing Company,Buellton,CA",
+   "parsed": true
+  },
+  {
+   "row": 2334,
+   "output": "2335,2220,Warped Wing IPA,American IPA,16,0.065,,94,Warped Wing Brewing Company,Dayton,OH",
+   "parsed": true
+  },
+  {
+   "row": 918,
+   "output": "919,2203,312 Urban Pale Ale,American Pale Ale (APA),12,0.054,30,88,Goose Island Brewing Company,Chicago,IL",
+   "parsed": true
+  }
+ ]
+}

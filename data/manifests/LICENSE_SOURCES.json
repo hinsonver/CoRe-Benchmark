@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "sources": {
+    "LICENSES/Apache-2.0.txt": {
+      "url": "https://raw.githubusercontent.com/BigDaMa/raha/7be1334b8c7bbdac3f47ef514fb3e1e8c5fc181c/LICENSE.md",
+      "upstream_sha256": "cc50ffdf979a5b33c26bb6700d650542c0a231083abb92d68ff21da1dc3d850e",
+      "packaged_sha256": "cc50ffdf979a5b33c26bb6700d650542c0a231083abb92d68ff21da1dc3d850e"
+    },
+    "LICENSES/ODbL-1.0.txt": {
+      "url": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "upstream_sha256": "85bc21fb2c00b2effb9202b2aa785934ce5a05df954e17cbd2a1f7c10c04c633",
+      "packaged_sha256": "19dfaa850651d1118426af7c294487c1aaf64f0beaae67def5d1cb5442565a01"
+    },
+    "LICENSES/DbCL-1.0.txt": {
+      "url": "https://opendatacommons.org/licenses/dbcl/1-0/",
+      "upstream_sha256": "e0a14a0d15b42bb83b57cdffaba2454b8663fc551e2fbcf17589ccfa32bd19a5",
+      "packaged_sha256": "c771b07325b90bedec0b7e3e08f29920283ddc4c90396ed4247fd1c5e842bd2a"
+    },
+    "LICENSES/CC0-1.0.txt": {
+      "url": "https://raw.githubusercontent.com/creativecommons/cc-legal-tools-data/a0dac18d1a773b4cdb7d8dd5d9bf4efab7901030/legacy/legalcode/zero_1.0.html",
+      "upstream_sha256": "2b159013f05f4bf48c1b97c4afc6b6a9f2941d2557b08e0a72ceab49ae059bf5",
+      "packaged_sha256": "626d1553e1c34c2b7fbcf6944c5ac58bcaae61a52427c68e7f66699dc2f36c7e"
+    },
+    "LICENSES/LPPL-1.3c.txt": {
+      "url": "https://www.latex-project.org/lppl/lppl-1-3c.txt",
+      "upstream_sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66",
+      "packaged_sha256": "3d262cdf34dafa6955f703c634a8c238ec44109bc8dd6ef34fb7aa54809f7e66"
+    },
+    "paper/latex/acmart.dtx": {
+      "url": "https://raw.githubusercontent.com/borisveytsman/acmart/a21aee21b17655d02dc6d3b42bb7f8f01dac0b10/acmart.dtx",
+      "upstream_sha256": "d2103cdde1b134ce6066524991918fb488fcc3affc7211869029450256ed8825",
+      "packaged_sha256": "d2103cdde1b134ce6066524991918fb488fcc3affc7211869029450256ed8825"
+    }
+  }
+}

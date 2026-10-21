@@ -1,0 +1,1360 @@
+{
+ "dataset": "hospital_fresh",
+ "mode": "raha",
+ "seed": 0,
+ "seconds": 25,
+ "detected": 309,
+ "corrections": 260,
+ "counts": {
+  "all": {
+   "errors": 509,
+   "predicted": 255,
+   "repaired": 201,
+   "detected": 252
+  },
+  "identity": {
+   "errors": 219,
+   "predicted": 100,
+   "repaired": 99,
+   "detected": 100
+  },
+  "other": {
+   "errors": 290,
+   "predicted": 155,
+   "repaired": 102,
+   "detected": 152
+  }
+ },
+ "fixes": [
+  [
+   690,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   15,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   66,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   140,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   175,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   226,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   245,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   288,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   293,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   314,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   335,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   375,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   382,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   491,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   516,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   566,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   596,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   599,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   643,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   650,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   676,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   757,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   829,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   851,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   923,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   690,
+   "MeasureCode",
+   "edv"
+  ],
+  [
+   118,
+   "MeasureCode",
+   "sep_sh_3hr"
+  ],
+  [
+   212,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   213,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   248,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   256,
+   "MeasureCode",
+   "stk_02"
+  ],
+  [
+   296,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   337,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   348,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   395,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   528,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   545,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   579,
+   "MeasureCode",
+   "imm_3"
+  ],
+  [
+   595,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   600,
+   "MeasureCode",
+   "edv"
+  ],
+  [
+   697,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   702,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   719,
+   "MeasureCode",
+   "vte_2"
+  ],
+  [
+   737,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   780,
+   "MeasureCode",
+   "edv"
+  ],
+  [
+   794,
+   "MeasureCode",
+   "hh_hypo"
+  ],
+  [
+   824,
+   "MeasureCode",
+   "op_22"
+  ],
+  [
+   854,
+   "MeasureCode",
+   "safe_use_of_opioids"
+  ],
+  [
+   946,
+   "MeasureCode",
+   "sep_sh_3hr"
+  ],
+  [
+   951,
+   "MeasureCode",
+   "vte_2"
+  ],
+  [
+   965,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   991,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   995,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   330,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   29,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   82,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   192,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   206,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   261,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   308,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   354,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   377,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   548,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   688,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   746,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   813,
+   "HospitalOwner",
+   "government - state"
+  ],
+  [
+   239,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   530,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   330,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   13,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   28,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   52,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   82,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   98,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   268,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   341,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   367,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   411,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   467,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   487,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   507,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   528,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   548,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   567,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   663,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   669,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   711,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   763,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   802,
+   "Sample",
+   "0 patientx"
+  ],
+  [
+   809,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   846,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   856,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   878,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   879,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   882,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   892,
+   "Sample",
+   "0 paxienxs"
+  ],
+  [
+   918,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   947,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   978,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   810,
+   "ZipCode",
+   "36617"
+  ],
+  [
+   78,
+   "ZipCode",
+   "35630"
+  ],
+  [
+   92,
+   "ZipCode",
+   "36467"
+  ],
+  [
+   211,
+   "ZipCode",
+   "35660"
+  ],
+  [
+   239,
+   "ZipCode",
+   "35660"
+  ],
+  [
+   296,
+   "ZipCode",
+   "35960"
+  ],
+  [
+   397,
+   "ZipCode",
+   "35233"
+  ],
+  [
+   427,
+   "ZipCode",
+   "36078"
+  ],
+  [
+   436,
+   "ZipCode",
+   "36078"
+  ],
+  [
+   493,
+   "ZipCode",
+   "36420"
+  ],
+  [
+   530,
+   "ZipCode",
+   "35801"
+  ],
+  [
+   548,
+   "ZipCode",
+   "36617"
+  ],
+  [
+   587,
+   "ZipCode",
+   "35570"
+  ],
+  [
+   600,
+   "ZipCode",
+   "35555"
+  ],
+  [
+   612,
+   "ZipCode",
+   "35555"
+  ],
+  [
+   614,
+   "ZipCode",
+   "35555"
+  ],
+  [
+   622,
+   "ZipCode",
+   "35555"
+  ],
+  [
+   694,
+   "ZipCode",
+   "36302"
+  ],
+  [
+   764,
+   "ZipCode",
+   "35601"
+  ],
+  [
+   772,
+   "ZipCode",
+   "35601"
+  ],
+  [
+   776,
+   "ZipCode",
+   "35601"
+  ],
+  [
+   813,
+   "ZipCode",
+   "36617"
+  ],
+  [
+   824,
+   "ZipCode",
+   "36617"
+  ],
+  [
+   845,
+   "ZipCode",
+   "36067"
+  ],
+  [
+   865,
+   "ZipCode",
+   "36067"
+  ],
+  [
+   871,
+   "ZipCode",
+   "35653"
+  ],
+  [
+   885,
+   "ZipCode",
+   "35653"
+  ],
+  [
+   927,
+   "ZipCode",
+   "35150"
+  ],
+  [
+   995,
+   "ZipCode",
+   "35462"
+  ],
+  [
+   810,
+   "CountyName",
+   "mobile"
+  ],
+  [
+   194,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   810,
+   "Score",
+   "medium"
+  ],
+  [
+   922,
+   "ZipCode",
+   "35150"
+  ],
+  [
+   968,
+   "CountyName",
+   "bethel"
+  ],
+  [
+   31,
+   "CountyName",
+   "marshall"
+  ],
+  [
+   64,
+   "CountyName",
+   "lauderdale"
+  ],
+  [
+   86,
+   "CountyName",
+   "lauderdale"
+  ],
+  [
+   95,
+   "CountyName",
+   "covington"
+  ],
+  [
+   101,
+   "CountyName",
+   "covington"
+  ],
+  [
+   107,
+   "CountyName",
+   "covington"
+  ],
+  [
+   116,
+   "CountyName",
+   "covington"
+  ],
+  [
+   149,
+   "CountyName",
+   "jefferson"
+  ],
+  [
+   159,
+   "CountyName",
+   "de kalb"
+  ],
+  [
+   221,
+   "CountyName",
+   "colbert"
+  ],
+  [
+   235,
+   "CountyName",
+   "colbert"
+  ],
+  [
+   312,
+   "CountyName",
+   "montgomery"
+  ],
+  [
+   519,
+   "CountyName",
+   "madison"
+  ],
+  [
+   579,
+   "CountyName",
+   "marion"
+  ],
+  [
+   582,
+   "CountyName",
+   "marion"
+  ],
+  [
+   585,
+   "CountyName",
+   "marion"
+  ],
+  [
+   642,
+   "CountyName",
+   "etowah"
+  ],
+  [
+   682,
+   "CountyName",
+   "coffee"
+  ],
+  [
+   715,
+   "CountyName",
+   "houston"
+  ],
+  [
+   751,
+   "CountyName",
+   "morgan"
+  ],
+  [
+   794,
+   "CountyName",
+   "fayette"
+  ],
+  [
+   839,
+   "CountyName",
+   "mobile"
+  ],
+  [
+   896,
+   "CountyName",
+   "franklin"
+  ],
+  [
+   905,
+   "CountyName",
+   "talladega"
+  ],
+  [
+   910,
+   "CountyName",
+   "talladega"
+  ],
+  [
+   913,
+   "CountyName",
+   "talladega"
+  ],
+  [
+   945,
+   "CountyName",
+   "anchorage"
+  ],
+  [
+   958,
+   "CountyName",
+   "anchorage"
+  ],
+  [
+   977,
+   "CountyName",
+   "bethel"
+  ],
+  [
+   968,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   17,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   25,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   46,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   59,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   62,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   68,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   154,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   166,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   247,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   266,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   312,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   334,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   352,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   361,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   364,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   642,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   645,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   669,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   687,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   743,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   749,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   840,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   660,
+   "City",
+   "enterprise"
+  ],
+  [
+   117,
+   "City",
+   "opp"
+  ],
+  [
+   158,
+   "City",
+   "fort payne"
+  ],
+  [
+   210,
+   "City",
+   "sheffield"
+  ],
+  [
+   265,
+   "City",
+   "ozark"
+  ],
+  [
+   285,
+   "City",
+   "centre"
+  ],
+  [
+   375,
+   "City",
+   "opelika"
+  ],
+  [
+   506,
+   "City",
+   "andalusia"
+  ],
+  [
+   581,
+   "City",
+   "hamilton"
+  ],
+  [
+   622,
+   "City",
+   "fayette"
+  ],
+  [
+   659,
+   "City",
+   "gadsden"
+  ],
+  [
+   729,
+   "City",
+   "birmingham"
+  ],
+  [
+   767,
+   "City",
+   "decatur"
+  ],
+  [
+   836,
+   "City",
+   "mobile"
+  ],
+  [
+   866,
+   "City",
+   "prattville"
+  ],
+  [
+   869,
+   "City",
+   "prattville"
+  ],
+  [
+   871,
+   "City",
+   "russellville"
+  ],
+  [
+   892,
+   "City",
+   "russellville"
+  ],
+  [
+   924,
+   "City",
+   "sylacauga"
+  ],
+  [
+   931,
+   "City",
+   "anchorage"
+  ],
+  [
+   960,
+   "City",
+   "bethel"
+  ],
+  [
+   969,
+   "City",
+   "bethel"
+  ],
+  [
+   984,
+   "City",
+   "bethel"
+  ],
+  [
+   587,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   660,
+   "Stateavg",
+   "al_edv"
+  ],
+  [
+   245,
+   "Address1",
+   "126 hospital ave"
+  ],
+  [
+   571,
+   "City",
+   "hamilton"
+  ],
+  [
+   332,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   245,
+   "Stateavg",
+   "al_gmcs_nutritional_care_plan"
+  ],
+  [
+   22,
+   "Stateavg",
+   "al_sep_sh_6hr"
+  ],
+  [
+   70,
+   "Stateavg",
+   "al_op_18a"
+  ],
+  [
+   98,
+   "Stateavg",
+   "al_hh_orae"
+  ],
+  [
+   230,
+   "Stateavg",
+   "al_sep_1"
+  ],
+  [
+   251,
+   "Stateavg",
+   "al_op_18b"
+  ],
+  [
+   258,
+   "Stateavg",
+   "al_op_40"
+  ],
+  [
+   380,
+   "Stateavg",
+   "al_sep_1"
+  ],
+  [
+   404,
+   "Stateavg",
+   "al_op_22"
+  ],
+  [
+   406,
+   "Stateavg",
+   "al_op_29"
+  ],
+  [
+   441,
+   "Stateavg",
+   "al_sep_sh_3hr"
+  ],
+  [
+   446,
+   "Stateavg",
+   "al_stk_03"
+  ],
+  [
+   482,
+   "Stateavg",
+   "al_gmcs_malnutrition_diagnosis_documented"
+  ],
+  [
+   539,
+   "Stateavg",
+   "al_vte_2"
+  ],
+  [
+   555,
+   "Stateavg",
+   "al_op_23"
+  ],
+  [
+   595,
+   "Stateavg",
+   "al_stk_02"
+  ],
+  [
+   618,
+   "Stateavg",
+   "al_op_40"
+  ],
+  [
+   855,
+   "Stateavg",
+   "al_op_23"
+  ],
+  [
+   906,
+   "Stateavg",
+   "al_hh_hyper"
+  ],
+  [
+   917,
+   "Stateavg",
+   "al_op_31"
+  ],
+  [
+   938,
+   "Stateavg",
+   "al_hh_orae"
+  ],
+  [
+   942,
+   "Stateavg",
+   "al_op_18c"
+  ],
+  [
+   948,
+   "Stateavg",
+   "al_op_40"
+  ],
+  [
+   968,
+   "Stateavg",
+   "al_hh_orae"
+  ],
+  [
+   989,
+   "Stateavg",
+   "al_edv"
+  ],
+  [
+   46,
+   "Address1",
+   "2505 u s highway 431 north"
+  ],
+  [
+   256,
+   "Address1",
+   "126 hospital ave"
+  ],
+  [
+   482,
+   "Address1",
+   "849 south three notch street"
+  ],
+  [
+   574,
+   "Address1",
+   "1256 military street south"
+  ],
+  [
+   582,
+   "Address1",
+   "1256 military street south"
+  ],
+  [
+   857,
+   "Address1",
+   "124 s memorial dr"
+  ],
+  [
+   939,
+   "Address1",
+   "2801 debarr road"
+  ],
+  [
+   972,
+   "MeasureName",
+   "average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. a lower number of minutes is better"
+  ],
+  [
+   972,
+   "Stateavg",
+   "al_op_18c"
+  ],
+  [
+   972,
+   "HospitalName",
+   "yukon kuskokwim delta reg hospital"
+  ],
+  [
+   972,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   541,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   541,
+   "MeasureName",
+   "global malnutrition composite score"
+  ],
+  [
+   12,
+   "Address1",
+   "1108 ross clark circle"
+  ],
+  [
+   13,
+   "Address1",
+   "1108 ross clark circle"
+  ],
+  [
+   318,
+   "Address1",
+   "2105 east south boulevard"
+  ],
+  [
+   397,
+   "Address1",
+   "619 south 19th street"
+  ],
+  [
+   419,
+   "Address1",
+   "619 south 19th street"
+  ],
+  [
+   162,
+   "MeasureName",
+   "average (medxan) txme psychxatrxc/mental health patxents spent xn the emergency department before leavxng from the vxsxt. a lower number of mxnutes xs better"
+  ],
+  [
+   421,
+   "MeasureName",
+   "global malxutritiox composite score"
+  ],
+  [
+   642,
+   "MeasureName",
+   "avexage (median) time psychiatxic/mental health patients spent in the emexgency depaxtment befoxe leaving fxom the visit. a lowex numbex of minutes is bettex"
+  ],
+  [
+   300,
+   "PhoneNumber",
+   "3342882100"
+  ]
+ ],
+ "all": {
+  "repair_p": 0.7882,
+  "repair_r": 0.3949,
+  "repair_f1": 0.5262,
+  "detect_f1": 0.6597,
+  "errors": 509,
+  "predicted": 255,
+  "repaired": 201,
+  "detected": 252
+ },
+ "identity": {
+  "repair_p": 0.99,
+  "repair_r": 0.4521,
+  "repair_f1": 0.6207,
+  "detect_f1": 0.627,
+  "errors": 219,
+  "predicted": 100,
+  "repaired": 99,
+  "detected": 100
+ },
+ "other": {
+  "repair_p": 0.6581,
+  "repair_r": 0.3517,
+  "repair_f1": 0.4584,
+  "detect_f1": 0.6831,
+  "errors": 290,
+  "predicted": 155,
+  "repaired": 102,
+  "detected": 152
+ }
+}

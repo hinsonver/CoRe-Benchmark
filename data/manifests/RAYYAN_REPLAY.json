@@ -1,0 +1,21 @@
+{
+  "binding": "TabClean actual input, audit input and saved judgments are distinct",
+  "files": {
+    "data/final/rayyan/dirty.csv": "7e25e6db262b0c72ca2d9735d5959599cf5a582e1c705459507c7b45d0d1d174",
+    "data/final/rayyan/clean.csv": "23159f43c0706782388ed8957ad0c74eb7b88bc98f34d65bd49296e186d4673f",
+    "results/derived/rayyan_audit.json": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9",
+    "code/src/probe_clean.py": "0480548df57cf4bdcfb73ae058a467e8bd8287b154187c3217aa1d25370ca4e1",
+    "code/src/rayyan_audit.py": "3271086b8688e05d7a03d6742e24465fb0da7d175a38663a6793f1a4354a5f8d",
+    "data/provenance/rayyan/dev-row-indices.json": "ddf1490674604e99de0815525ef88218c4ce72994e5b1191ce9398da15306bf4",
+    "data/provenance/rayyan/m06-criteria.json": "83367ab27c7d0c623fee1ad00c227fe194703d774aadca6127bebf1cd02a3d16",
+    "data/provenance/rayyan/retrieval-status.json": "6373b70b251a0a8f9aab4f3d9c60eeab187fa3a21cc742825fd5869a10169f30",
+    "data/provenance/rayyan/remote-search.json": "93d0b2fdfb4e43943fa9dba3b3dca0896928d038cfe341eee27695eecb6ae976"
+  },
+  "external_files": {
+    "artifacts/raw_outputs/e4/inputs/rayyan/dirty.csv": "61aa71010693eb551122521e56b3997c0d366e3aa81848585631dfbef80d7309",
+    "artifacts/raw_outputs/e4/inputs/rayyan/clean.csv": "f4ab0c3bdfa6a13eeea51d16482ec8cd395acbf59b595e3ea6ef0b34bc448744",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/final_cleaned.csv": "01f832b1cfc04da5685264252b1253e32903f24d36656d8b99cb4bccaebb6125",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_dirty.csv": "6c6454556db9cb31112867e6a953c504fbc6a0379e96c63ff5dc9ae5bea958fa"
+  },
+  "delivery_mode": "layered_numerical_replay"
+}

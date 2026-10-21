@@ -1,0 +1,22 @@
+{
+ "seed": 1,
+ "rows": 1000,
+ "error_cells": 2192,
+ "note": "same clean table as movies_fresh; errors redrawn with this seed",
+ "Director: original errors": 43,
+ "Director: copied": 27,
+ "Director: copied to another RT row with as many names": 7,
+ "Director: left clean (no RT row can take it)": 4,
+ "Director: copied on its own row (other number of names)": 5,
+ "Creator: original errors": 129,
+ "Creator: copied": 85,
+ "Creator: copied to another RT row with as many names": 40,
+ "Creator: left clean (no RT row can take it)": 4,
+ "Name: original errors": 17,
+ "Name: copied (other RT row)": 12,
+ "Name: copied (same row)": 5,
+ "Name: copied partly (one of two edits)": 1,
+ "Genre: original errors": 180,
+ "Genre: copied": 167,
+ "Genre: left clean (the slots give the IMDb list back)": 13
+}

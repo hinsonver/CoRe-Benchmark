@@ -1,0 +1,1001 @@
+id,beer-name,style,abv,brewery_id,brewery-name,city,state
+2699,Paper Umbrella,American India Pale Ale,0.045,176,Goose Island Brewery,Chicago,IL
+2695,Hombre Secreto With Mango,Saison,0.1,176,Goose Island Brewery,Chicago,IL
+2694,Fulton St Blend Coffee Ale,Blond,0.055,176,Goose Island Brewery,Chicago,IL
+2693,Flamango,American India Pale Ale,0.072,176,Goose Island Brewery,Chicago,IL
+2691,The Ogden,Tripel,0.09,176,Goose Island Brewery,Chicago,IL
+2686,Double LP: Side B,English Barley Wine,0.146,176,Goose Island Brewery,Chicago,IL
+2685,Matilda Lambicus,Belgian Pale Ale,0.07,176,Goose Island Brewery,Chicago,IL
+2681,Bourbon County Brand Reserve Stout (2025),Imperial Stout,0.152,176,Goose Island Brewery,Chicago,IL
+2678,Green Line Pale Ale,American Pale Ale,0.054,176,Goose Island Brewery,Chicago,IL
+2676,Wild Herd,Kölsch,0.05,176,Goose Island Brewery,Chicago,IL
+2674,Wooden Wings,Imperial Stout,0.138,176,Goose Island Brewery,Chicago,IL
+2672,Bourbon County Brand Chocolate Praline Stout (2025),Imperial Stout,0.146,176,Goose Island Brewery,Chicago,IL
+2669,SO-LO,Session India Pale Ale,0.03,176,Goose Island Brewery,Chicago,IL
+2661,Kaleidoscope Cuvée,Stout,0.147,176,Goose Island Brewery,Chicago,IL
+2658,Little Risk,American Stout,0.026,176,Goose Island Brewery,Chicago,IL
+2652,Festivity Ale,Winter Warmer,0.077,176,Goose Island Brewery,Chicago,IL
+2649,River Bird,American India Pale Ale,0.065,176,Goose Island Brewery,Chicago,IL
+2648,Hazy IPA Now,New England India Pale Ale,0.065,176,Goose Island Brewery,Chicago,IL
+2647,MAGIC LANTERN: Passionfruit - Guava - Blood Orange,Gose,0.036,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2644,FIRE DOME,Sour Beer,0.069,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2642,ROSWELL: GRUDGE,Lambic,0.07,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2640,HOPLITE,Sour Beer,0.045,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2636,CHEMTRAIL,Sour Beer,0.054,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2633,DAGGER,Sour Beer,0.043,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2631,STINGRAY,Sour Beer,0.041,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2630,ARGUS,Sour Beer,0.05,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2626,DREAMLAND,Sour Beer,0.057,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2618,ADDER,Sour Beer,0.05,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2615,EJECTOR,Sour Beer,0.062,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2614,JUMPSEAT,Sour Beer,0.062,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2609,THOR,Sour Beer,0.072,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2608,SHADOW FACTORY: Blackberry - Raspberry,Sour Beer,0.055,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2607,KIPPER,Sour Beer,0.046,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2606,WIRETAP,Sour Beer,0.054,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2600,SHADOW FACTORY: Cranberry - Boysenberry,American Wild Ale,0.055,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2598,MIDAS,Sour Beer,0.07,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2595,ATLAS,Sour Beer,0.06,56,Black Project Spontaneous & Wild Ales,Denver,CO
+2593,Sticky Bun,Imperial Stout,0.113,212,Great Notion Brewing,Portland,OR
+2592,Baked (Cherry),Sour Beer,0.06,212,Great Notion Brewing,Portland,OR
+2589,Love & Ritual,New England India Pale Ale,0.07,212,Great Notion Brewing,Portland,OR
+2585,Sup Dog,New England India Pale Ale,0.068,212,Great Notion Brewing,Portland,OR
+2582,Mango Super Invader,Double New England India Pale Ale,0.091,212,Great Notion Brewing,Portland,OR
+2577,Queen of Fruits,Sour Beer,0.06,212,Great Notion Brewing,Portland,OR
+2570,Arctos,American India Pale Ale,0.068,212,Great Notion Brewing,Portland,OR
+2568,Seedless,Gose,0.06,212,Great Notion Brewing,Portland,OR
+2567,Skywatchers,Double India Pale Ale,0.082,212,Great Notion Brewing,Portland,OR
+2564,Stone To the Bone,Double New England India Pale Ale,0.083,212,Great Notion Brewing,Portland,OR
+2561,Super Ripe,Double New England India Pale Ale,0.091,212,Great Notion Brewing,Portland,OR
+2560,Aura,New England India Pale Ale,0.072,212,Great Notion Brewing,Portland,OR
+2559,Baked (Berry Hazelnut),Sour Beer,0.06,212,Great Notion Brewing,Portland,OR
+2557,Fruit Monster,Sour Beer,0.06,212,Great Notion Brewing,Portland,OR
+2556,Luminous 03,Sour IPA,0.055,212,Great Notion Brewing,Portland,OR
+2554,Super Baked (Blueberry Lemon),Sour Beer,0.08,212,Great Notion Brewing,Portland,OR
+2552,Boo Berry Muffin,Sour Beer,0.06,212,Great Notion Brewing,Portland,OR
+2550,Bourbon Brandy Medianoche,Imperial Stout,0.134,485,WeldWerks Brewing Co.,Greeley,CO
+2549,QDH Juicy Bits,New England India Pale Ale,0.069,485,WeldWerks Brewing Co.,Greeley,CO
+2547,Pillow Cannon,New England India Pale Ale,0.069,485,WeldWerks Brewing Co.,Greeley,CO
+2545,Dad Nap,Double New England India Pale Ale,0.083,485,WeldWerks Brewing Co.,Greeley,CO
+2543,Activate Lasers,Double New England India Pale Ale,0.084,485,WeldWerks Brewing Co.,Greeley,CO
+2538,Fake Item Box,Session India Pale Ale,0.047,485,WeldWerks Brewing Co.,Greeley,CO
+2534,All Extra Shipper Everything,Double New England India Pale Ale,0.084,485,WeldWerks Brewing Co.,Greeley,CO
+2531,Key Lime Pie,Sour Beer,0.048,485,WeldWerks Brewing Co.,Greeley,CO
+2529,Medianoche Premier Vol. 1,Imperial Stout,0.156,485,WeldWerks Brewing Co.,Greeley,CO
+2528,Fruity Bits - Piña Colada,New England India Pale Ale,0.072,485,WeldWerks Brewing Co.,Greeley,CO
+2525,Triple Double,Double India Pale Ale,0.088,485,WeldWerks Brewing Co.,Greeley,CO
+2523,Juicy Fu!,Double New England India Pale Ale,0.084,485,WeldWerks Brewing Co.,Greeley,CO
+2518,2025 Medianoche,Imperial Stout,0.126,485,WeldWerks Brewing Co.,Greeley,CO
+2516,Breakfast For Three,Imperial Stout,0.105,485,WeldWerks Brewing Co.,Greeley,CO
+2515,Coffee French Toast Stout,Sweet Stout,0.071,485,WeldWerks Brewing Co.,Greeley,CO
+2514,Exact Opposite of Hawaii(an) Punch,Sour Beer,0.044,485,WeldWerks Brewing Co.,Greeley,CO
+2513,Orange Creamsicle,Sour Beer,0.042,485,WeldWerks Brewing Co.,Greeley,CO
+2509,Juicy Axe,Double New England India Pale Ale,0.088,485,WeldWerks Brewing Co.,Greeley,CO
+2506,Cherry Poppa,Gose,0.05,175,Arkane Aleworks,Largo,FL
+2499,Hopsterical,American India Pale Ale,0.075,175,Arkane Aleworks,Largo,FL
+2497,Nuclear Dessert,Sour Beer,0.06,175,Arkane Aleworks,Largo,FL
+2493,Pistachio Cream Puff,Sour Beer,0.07,175,Arkane Aleworks,Largo,FL
+2487,"Dessert Eagle (Rocky) - Chocolate, Marshmallow and Walnut",Imperial Stout,0.1,175,Arkane Aleworks,Largo,FL
+2485,Taste the Rainbow,Sour Beer,0.051,175,Arkane Aleworks,Largo,FL
+2483,"Fire, Flood & Plague",Porter,0.099,502,Yards Brewing Company,Philadelphia,PA
+2481,Am I Me? (MORE version),Imperial Stout,0.14,591,Ology Brewing Co.,Tallahassee,FL
+2477,Tripping Ology And the Other Seasons,Double New England India Pale Ale,0.087,591,Ology Brewing Co.,Tallahassee,FL
+2475,Fat Beer In A Little Can,Double New England India Pale Ale,0.085,288,CLAG Brewing Company,Sandusky,OH
+2471,ONE MILLION DONG,New England India Pale Ale,0.07,288,CLAG Brewing Company,Sandusky,OH
+2466,Khazilla,Double New England India Pale Ale,0.08,288,CLAG Brewing Company,Sandusky,OH
+2465,Pho-tality,Triple New England India Pale Ale,0.1,288,CLAG Brewing Company,Sandusky,OH
+2464,From Sandusky With Love,Double New England India Pale Ale,0.08,288,CLAG Brewing Company,Sandusky,OH
+2463,Cold Hawaii,Double New England India Pale Ale,0.08,288,CLAG Brewing Company,Sandusky,OH
+2459,Papa Bui,Double New England India Pale Ale,0.08,288,CLAG Brewing Company,Sandusky,OH
+2458,Queen City,Double New England India Pale Ale,0.08,288,CLAG Brewing Company,Sandusky,OH
+2456,Brotherly Love,New England India Pale Ale,0.07,288,CLAG Brewing Company,Sandusky,OH
+2455,Absolutely Nothing,New England India Pale Ale,0.07,288,CLAG Brewing Company,Sandusky,OH
+2453,Widened Horizons,Double New England India Pale Ale,0.085,505,Pure Project Brewing,San Diego,CA
+2450,Petrified,Double New England India Pale Ale,0.083,505,Pure Project Brewing,San Diego,CA
+2447,Tropical Mist,Blond,0.051,505,Pure Project Brewing,San Diego,CA
+2446,Thousands of Money,New England India Pale Ale,0.071,505,Pure Project Brewing,San Diego,CA
+2443,Forest of Giants,Quadruple India Pale Ale,0.13,505,Pure Project Brewing,San Diego,CA
+2442,Catch & Release,Double New England India Pale Ale,0.085,505,Pure Project Brewing,San Diego,CA
+2438,New Fashioned,Flanders Red Ale,0.123,505,Pure Project Brewing,San Diego,CA
+2431,Serpents in the Bramble,American India Pale Ale,0.069,505,Pure Project Brewing,San Diego,CA
+2428,Endless Vista,Double New England India Pale Ale,0.083,505,Pure Project Brewing,San Diego,CA
+2427,Murk Mobile,Double New England India Pale Ale,0.085,505,Pure Project Brewing,San Diego,CA
+2425,Murk of the Beast,New England India Pale Ale,0.067,505,Pure Project Brewing,San Diego,CA
+2422,The Castle,New England Pale Ale,0.053,452,Root and Branch,Copiague,NY
+2419,Abysmal Thoughts,Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2418,Bone In the Throat,Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2414,Eyes Without A Face,New England India Pale Ale,0.065,452,Root and Branch,Copiague,NY
+2413,A Spell For the Death of Man III,Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2412,The Theory and Practice of Oligarchical Collectivism - Chapter I: Ignorance is Strength,Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2407,One-Dimensional Man,Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2405,Ben Is Dead,Double New England India Pale Ale,0.085,452,Root and Branch,Copiague,NY
+2404,Dead Men On Holiday (March 2022 / Batch 5),Double New England India Pale Ale,0.085,452,Root and Branch,Copiague,NY
+2403,Final Curtain,Quadruple India Pale Ale,0.11,452,Root and Branch,Copiague,NY
+2402,Burning From the Inside,Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2399,Visionary Heads,Double New England India Pale Ale,0.082,452,Root and Branch,Copiague,NY
+2397,A Thousand Plateaus,Double New England India Pale Ale,0.085,452,Root and Branch,Copiague,NY
+2393,The Theory and Practice of Oligarchical Collectivism - Chapter III: War Is Peace,Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2392,Everyone Stands Beneath Their Own Dome of Heaven (May 2018 / Batch 1),Double New England India Pale Ale,0.08,452,Root and Branch,Copiague,NY
+2389,Frost Proof,Belgian-style Ale,0.06,74,Cigar City Brewing,Tampa,FL
+2376,Immoderation,Imperial Stout,0.17,404,Moksa Brewing Co,Rocklin,CA
+2375,Midnight Abundance,Imperial Stout,0.18,404,Moksa Brewing Co,Rocklin,CA
+2373,Thirsty Eyes,Double New England India Pale Ale,0.083,404,Moksa Brewing Co,Rocklin,CA
+2370,Layers Throughout,Double New England India Pale Ale,0.08,404,Moksa Brewing Co,Rocklin,CA
+2359,Grasp of Darkness,Imperial Stout,0.125,404,Moksa Brewing Co,Rocklin,CA
+2348,Vanilla Three Ways,Imperial Stout,0.12,404,Moksa Brewing Co,Rocklin,CA
+2344,Mega Crunch,Imperial Stout,0.12,404,Moksa Brewing Co,Rocklin,CA
+2343,Juice Explorer,Double India Pale Ale,0.082,404,Moksa Brewing Co,Rocklin,CA
+2340,Bounteous,Imperial Stout,0.135,404,Moksa Brewing Co,Rocklin,CA
+2339,Sap & Oak,Imperial Stout,0.138,404,Moksa Brewing Co,Rocklin,CA
+2336,Moksa FOUR,Imperial Stout,0.184,404,Moksa Brewing Co,Rocklin,CA
+2330,Elijah's Creed,Imperial Stout,0.14,404,Moksa Brewing Co,Rocklin,CA
+2329,Pastry Mode,Imperial Stout,0.105,404,Moksa Brewing Co,Rocklin,CA
+2325,Crémeux,Imperial Stout,0.151,404,Moksa Brewing Co,Rocklin,CA
+2324,Dawnbreak,Double New England India Pale Ale,0.08,404,Moksa Brewing Co,Rocklin,CA
+2322,Intemperance,Imperial Stout,0.158,404,Moksa Brewing Co,Rocklin,CA
+2314,Happy Almonds,Imperial Stout,0.102,404,Moksa Brewing Co,Rocklin,CA
+2313,Mostra 5th,Imperial Stout,0.156,404,Moksa Brewing Co,Rocklin,CA
+2311,Green Star,Gose,0.041,337,Finback Brewery,Queens,NY
+2309,Foreseeing,New England India Pale Ale,0.065,337,Finback Brewery,Queens,NY
+2308,En Verano,Witbier,0.048,337,Finback Brewery,Queens,NY
+2307,Swank,Triple India Pale Ale,0.1,337,Finback Brewery,Queens,NY
+2300,Aqualung,Double New England India Pale Ale,0.084,337,Finback Brewery,Queens,NY
+2298,Double Something Mosaic,Double New England India Pale Ale,0.085,337,Finback Brewery,Queens,NY
+2293,Gets No Fatter,Double India Pale Ale,0.08,337,Finback Brewery,Queens,NY
+2291,Gavotte,Double India Pale Ale,0.08,337,Finback Brewery,Queens,NY
+2288,Non Human,Double India Pale Ale,0.085,337,Finback Brewery,Queens,NY
+2286,Nave Nave Mahana,Imperial Stout,0.11,337,Finback Brewery,Queens,NY
+2285,XYZ Corp,Baltic Porter,0.096,337,Finback Brewery,Queens,NY
+2284,Micro Plastics,Double India Pale Ale,0.085,337,Finback Brewery,Queens,NY
+2281,Life Span,Double New England India Pale Ale,0.088,337,Finback Brewery,Queens,NY
+2268,Pale Blue Dot,Sour Beer,0.084,337,Finback Brewery,Queens,NY
+2266,Double Something Sabro,Double New England India Pale Ale,0.085,337,Finback Brewery,Queens,NY
+2264,Ultramarine,American India Pale Ale,0.071,337,Finback Brewery,Queens,NY
+2263,Harambe,Imperial Stout,0.11,337,Finback Brewery,Queens,NY
+2259,Don Sixto,Double India Pale Ale,0.08,330,Brujos Brewing,Portland,OR
+2252,Vendedor de Ilusiones,American India Pale Ale,0.07,330,Brujos Brewing,Portland,OR
+2249,Malefice,American India Pale Ale,0.068,330,Brujos Brewing,Portland,OR
+2246,I Am Them...,New England India Pale Ale,0.076,330,Brujos Brewing,Portland,OR
+2243,Loneliness,New England India Pale Ale,0.076,330,Brujos Brewing,Portland,OR
+2241,Sixes,American India Pale Ale,0.066,330,Brujos Brewing,Portland,OR
+2238,Wraiths,New England India Pale Ale,0.078,330,Brujos Brewing,Portland,OR
+2232,Sitra Achra (2024),Double New England India Pale Ale,0.092,330,Brujos Brewing,Portland,OR
+2231,Void Nectar (All Hallows Edition),Double New England India Pale Ale,0.086,330,Brujos Brewing,Portland,OR
+2230,Chapters of Repugnance,Milkshake India Pale Ale,0.079,433,Electric Brewing Co.,Murrieta,CA
+2229,Master Of Alchemy,Double New England India Pale Ale,0.085,433,Electric Brewing Co.,Murrieta,CA
+2227,Reversing Gravity,Sour Beer,0.074,433,Electric Brewing Co.,Murrieta,CA
+2224,Eater of Galaxies,Double India Pale Ale,0.085,433,Electric Brewing Co.,Murrieta,CA
+2219,Polymorphic,Double New England India Pale Ale,0.083,550,Spyglass Brewing Company,Nashua,NH
+2217,Elastic Cloud,Double New England India Pale Ale,0.081,550,Spyglass Brewing Company,Nashua,NH
+2215,Superconductor,Sour Beer,0.052,550,Spyglass Brewing Company,Nashua,NH
+2214,Harmonic Wavelengths,Double New England India Pale Ale,0.085,550,Spyglass Brewing Company,Nashua,NH
+2213,Borealis,Double New England India Pale Ale,0.081,550,Spyglass Brewing Company,Nashua,NH
+2209,Foundation Model,Double New England India Pale Ale,0.083,550,Spyglass Brewing Company,Nashua,NH
+2208,Wavelength,New England India Pale Ale,0.068,550,Spyglass Brewing Company,Nashua,NH
+2207,Domain Wall,Double New England India Pale Ale,0.08,550,Spyglass Brewing Company,Nashua,NH
+2205,Fuzzier Logic,Double New England India Pale Ale,0.082,550,Spyglass Brewing Company,Nashua,NH
+2203,Kia Ora,New England India Pale Ale,0.071,550,Spyglass Brewing Company,Nashua,NH
+2202,Stratasphere,Double New England India Pale Ale,0.082,550,Spyglass Brewing Company,Nashua,NH
+2198,State Machine DDH Citra,New England India Pale Ale,0.066,550,Spyglass Brewing Company,Nashua,NH
+2190,Sippin' Pretty,Sour Beer,0.045,528,Odell Brewing Company,Fort Collins,CO
+2188,Sunny Rain,Blond,0.06,528,Odell Brewing Company,Fort Collins,CO
+2187,Cutthroat Porter,Porter,0.05,528,Odell Brewing Company,Fort Collins,CO
+2185,Pulp Theory,New England India Pale Ale,0.075,528,Odell Brewing Company,Fort Collins,CO
+2181,Old Doods,Stout,0.05,528,Odell Brewing Company,Fort Collins,CO
+2179,Tree Shaker Imperial Mango IPA,Double India Pale Ale,0.08,528,Odell Brewing Company,Fort Collins,CO
+2178,Sippin' Blackberry,Gose,0.046,528,Odell Brewing Company,Fort Collins,CO
+2176,Myrcenary Double IPA,Double India Pale Ale,0.093,528,Odell Brewing Company,Fort Collins,CO
+2174,Barreled Treasure,Double Coffee Stout,0.11,528,Odell Brewing Company,Fort Collins,CO
+2163,Barreled Treasure - Coconut/Chocolate,Imperial Stout,0.11,528,Odell Brewing Company,Fort Collins,CO
+2162,Bull Proof,Imperial Stout,0.12,528,Odell Brewing Company,Fort Collins,CO
+2159,Easy Street,American Pale Wheat,0.046,528,Odell Brewing Company,Fort Collins,CO
+2157,St. Lupulin,American Pale Ale,0.065,528,Odell Brewing Company,Fort Collins,CO
+2156,Solarized,Double India Pale Ale,0.082,528,Odell Brewing Company,Fort Collins,CO
+2154,Sippin' Lemonade,Fruited Berliner Weisse,0.05,528,Odell Brewing Company,Fort Collins,CO
+2152,Peach Stand Rambler Blonde Ale,Blond,0.05,528,Odell Brewing Company,Fort Collins,CO
+2151,Hammer Chain Fresh Grind,Double India Pale Ale,0.08,528,Odell Brewing Company,Fort Collins,CO
+2149,Regalia,Saison,0.085,282,Perennial Artisan Ales,St. Louis,MO
+2148,17,Imperial Stout,0.115,282,Perennial Artisan Ales,St. Louis,MO
+2145,Meriwether,Saison,0.055,282,Perennial Artisan Ales,St. Louis,MO
+2137,Pneumatic Tube Room,New England India Pale Ale,0.068,282,Perennial Artisan Ales,St. Louis,MO
+2134,Static Electricity,Double India Pale Ale,0.08,282,Perennial Artisan Ales,St. Louis,MO
+2127,Thoroughly New,New England India Pale Ale,0.065,282,Perennial Artisan Ales,St. Louis,MO
+2124,Barrel-Aged Abraxas,Imperial Stout,0.112,282,Perennial Artisan Ales,St. Louis,MO
+2123,Cave Torch,American India Pale Ale,0.067,282,Perennial Artisan Ales,St. Louis,MO
+2121,Vermilion,English Barley Wine,0.105,282,Perennial Artisan Ales,St. Louis,MO
+2120,Iron Thistle,Scotch Ale,0.07,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2117,Bourbon Barrel Aged Winter Warmer,Barrel-aged Beer,0.1,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2115,Black Sappath,English Stout,0.068,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2114,Rahr's Original,American Lager,0.045,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2112,Mr. Wiggles Double Dank,Double India Pale Ale,0.092,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2110,The Fort Worth American Session Ale,American Pale Ale,0.045,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2109,Dadgum IPA,American India Pale Ale,0.066,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2108,Barrel Aged Oktoberfest (Barrelfest),Märzen,0.096,435,Rahr & Sons Brewing Company,Fort Worth,TX
+2107,Hatchet Job,Double India Pale Ale,0.08,253,Kings County Brewers Collective,Brooklyn,NY
+2102,Marble of Doom II,Sour Beer,0.055,253,Kings County Brewers Collective,Brooklyn,NY
+2101,Bride of Beach Zombie,Fruited Berliner Weisse,0.04,253,Kings County Brewers Collective,Brooklyn,NY
+2100,Marble of Doom IV,Sour Beer,0.055,253,Kings County Brewers Collective,Brooklyn,NY
+2095,Morbid Hour,Schwarzbier,0.047,253,Kings County Brewers Collective,Brooklyn,NY
+2094,Marble of Doom III,Sour Beer,0.055,253,Kings County Brewers Collective,Brooklyn,NY
+2092,Jingle Zombie,Sour Beer,0.055,253,Kings County Brewers Collective,Brooklyn,NY
+2091,Infinite Machine,Pilsner,0.048,253,Kings County Brewers Collective,Brooklyn,NY
+2089,Robot Fish: Citra SMaSH,New England India Pale Ale,0.066,253,Kings County Brewers Collective,Brooklyn,NY
+2084,Wolf Ov Siberia,Double India Pale Ale,0.077,253,Kings County Brewers Collective,Brooklyn,NY
+2075,Marble of Doom,Sour Beer,0.055,253,Kings County Brewers Collective,Brooklyn,NY
+2073,Marble of Doom V,Sour Beer,0.055,253,Kings County Brewers Collective,Brooklyn,NY
+2072,Penguins In Space,New England Pale Ale,0.052,253,Kings County Brewers Collective,Brooklyn,NY
+2067,Yeti Confetti,Sour Beer,0.06,253,Kings County Brewers Collective,Brooklyn,NY
+2062,Marble of Doom VI,Sour Beer,0.055,253,Kings County Brewers Collective,Brooklyn,NY
+2061,Dangerous Precedent,New England India Pale Ale,0.072,253,Kings County Brewers Collective,Brooklyn,NY
+2059,Overshadow,Double New England India Pale Ale,0.078,390,Fidens Brewing Co.,Albany,NY
+2057,The Vegan With Pineapple,Double New England India Pale Ale,0.085,390,Fidens Brewing Co.,Albany,NY
+2056,Palm,New England India Pale Ale,0.072,390,Fidens Brewing Co.,Albany,NY
+2055,Harmony,Double New England India Pale Ale,0.082,390,Fidens Brewing Co.,Albany,NY
+2048,TDH Jasper with Nelson,Double New England India Pale Ale,0.078,390,Fidens Brewing Co.,Albany,NY
+2046,The Farmer with Pineapple,Double New England India Pale Ale,0.085,390,Fidens Brewing Co.,Albany,NY
+2040,Proper Education,New England Pale Ale,0.058,390,Fidens Brewing Co.,Albany,NY
+2039,Down This Road,Double New England India Pale Ale,0.085,390,Fidens Brewing Co.,Albany,NY
+2038,Jasper with Eggers Special,Double New England India Pale Ale,0.078,390,Fidens Brewing Co.,Albany,NY
+2037,Refurbished Tranquility,Double New England India Pale Ale,0.085,390,Fidens Brewing Co.,Albany,NY
+2034,Subculture,Double New England India Pale Ale,0.082,390,Fidens Brewing Co.,Albany,NY
+2029,DDH Necessary Means For A Necessary Means,Double New England India Pale Ale,0.084,390,Fidens Brewing Co.,Albany,NY
+2023,Vintage Memories,Double New England India Pale Ale,0.084,390,Fidens Brewing Co.,Albany,NY
+2021,Means And Methods,Pale Lager,0.052,390,Fidens Brewing Co.,Albany,NY
+2020,Boardwalk,American India Pale Ale,0.07,390,Fidens Brewing Co.,Albany,NY
+2018,Muscle Memory,New England Pale Ale,0.052,339,Cerebral Brewing,Denver,CO
+2010,Cryptic Message,Schwarzbier,0.056,339,Cerebral Brewing,Denver,CO
+2007,Arguing Semantics,Double New England India Pale Ale,0.075,339,Cerebral Brewing,Denver,CO
+2002,Character Reference,Vienna Lager,0.055,339,Cerebral Brewing,Denver,CO
+1994,Shared Trait,Double New England India Pale Ale,0.085,339,Cerebral Brewing,Denver,CO
+1990,DDH Rare Trait,New England India Pale Ale,0.064,339,Cerebral Brewing,Denver,CO
+1989,Alternative Tracks,New England India Pale Ale,0.07,339,Cerebral Brewing,Denver,CO
+1988,Plate Tectonics,Double New England India Pale Ale,0.08,339,Cerebral Brewing,Denver,CO
+1985,Safe Word,Oatmeal Stout,0.1,339,Cerebral Brewing,Denver,CO
+1974,Action Potential,New England India Pale Ale,0.065,339,Cerebral Brewing,Denver,CO
+1971,Wheels Up,New England India Pale Ale,0.066,339,Cerebral Brewing,Denver,CO
+1969,Rare Trait,New England India Pale Ale,0.064,339,Cerebral Brewing,Denver,CO
+1968,New DogTown Pale Ale,American Pale Ale,0.062,348,Lagunitas Brewing Company,Petaluma,CA
+1967,Fusion 26,American India Pale Ale,0.067,348,Lagunitas Brewing Company,Petaluma,CA
+1966,Aunt Sally,Sour Beer,0.057,348,Lagunitas Brewing Company,Petaluma,CA
+1964,C'Mon Blue!,American Pale Ale,0.05,348,Lagunitas Brewing Company,Petaluma,CA
+1960,Hazy IPA,New England India Pale Ale,0.055,348,Lagunitas Brewing Company,Petaluma,CA
+1959,Island Beats,American India Pale Ale,0.05,348,Lagunitas Brewing Company,Petaluma,CA
+1957,Secret Agenda,Bock,0.071,348,Lagunitas Brewing Company,Petaluma,CA
+1952,Maximus,Double India Pale Ale,0.09,348,Lagunitas Brewing Company,Petaluma,CA
+1950,Born Yesterday 2023,American India Pale Ale,0.072,348,Lagunitas Brewing Company,Petaluma,CA
+1946,Lagunator Lager,Steam Beer,0.079,348,Lagunitas Brewing Company,Petaluma,CA
+1944,Fusion 48,Double New England India Pale Ale,0.083,348,Lagunitas Brewing Company,Petaluma,CA
+1942,Willett Whiskey Barrel-Aged Imperial Stout,Imperial Stout,0.117,348,Lagunitas Brewing Company,Petaluma,CA
+1940,Big Black Voodoo Daddy,Imperial Stout,0.12,57,Voodoo Brewing Company,Meadville,PA
+1938,Key Lime Kölsch,Kölsch,0.05,57,Voodoo Brewing Company,Meadville,PA
+1937,The Quadfather Aged In Bourbon Barrels (Four Barrel Blend),Barrel-aged Beer,0.114,57,Voodoo Brewing Company,Meadville,PA
+1934,Space Cadet,Double New England India Pale Ale,0.091,57,Voodoo Brewing Company,Meadville,PA
+1933,"They're Good Hops, Brent",New England India Pale Ale,0.066,57,Voodoo Brewing Company,Meadville,PA
+1932,good vibes,American India Pale Ale,0.073,57,Voodoo Brewing Company,Meadville,PA
+1930,Really Thin Pancakes (Aged In Bourbon Barrels),Imperial Stout,0.128,57,Voodoo Brewing Company,Meadville,PA
+1924,Golden Sour,Sour Beer,0.053,57,Voodoo Brewing Company,Meadville,PA
+1923,Grande Negro Voodoo Papi (Aged In Red Wine Barrels),Imperial Stout,0.12,57,Voodoo Brewing Company,Meadville,PA
+1921,hazy vibes,New England India Pale Ale,0.07,57,Voodoo Brewing Company,Meadville,PA
+1919,Big Black Voodoo Daddy (Aged in Bourbon Barrels with Coffee),Imperial Stout,0.12,57,Voodoo Brewing Company,Meadville,PA
+1917,"I'm A Loner, Dottie. A Rebel",Double India Pale Ale,0.089,57,Voodoo Brewing Company,Meadville,PA
+1912,Black Magick (Old Forester Bourbon Barrels),Imperial Stout,0.13,57,Voodoo Brewing Company,Meadville,PA
+1905,Big Black Voodoo Daddy (Aged In Bourbon Barrels With Vanilla Beans),Imperial Stout,0.12,57,Voodoo Brewing Company,Meadville,PA
+1904,"Hot Garbage Aged In Buffalo Trace Bourbon (Gold Wax, 10.18.19)",Imperial Stout,0.136,57,Voodoo Brewing Company,Meadville,PA
+1903,Tranquil Breezes,American Pale Ale,0.055,57,Voodoo Brewing Company,Meadville,PA
+1901,Lord of Lightning,Double New England India Pale Ale,0.085,425,Magnanimous Brewing,Tampa,FL
+1898,Supreme Being,American India Pale Ale,0.065,425,Magnanimous Brewing,Tampa,FL
+1897,Ride the Haze Craze,Double New England India Pale Ale,0.085,425,Magnanimous Brewing,Tampa,FL
+1895,Never Ending Game,Double New England India Pale Ale,0.085,425,Magnanimous Brewing,Tampa,FL
+1877,Hazy Little Trees,New England India Pale Ale,0.075,425,Magnanimous Brewing,Tampa,FL
+1876,Hazy Up Your Ass,Quadruple India Pale Ale,0.115,425,Magnanimous Brewing,Tampa,FL
+1869,Glow,New England Pale Ale,0.06,425,Magnanimous Brewing,Tampa,FL
+1867,Brecher Bier,Helles,0.045,425,Magnanimous Brewing,Tampa,FL
+1866,Around the Horn,New England India Pale Ale,0.075,425,Magnanimous Brewing,Tampa,FL
+1862,Batida with Passion Fruit,Sour Beer,0.065,28,Xul Beer Company,Knoxville,TN
+1860,Betty’s Blueberry Cobbler,Sour Beer,0.064,28,Xul Beer Company,Knoxville,TN
+1858,Electric Handshake,Sour Beer,0.062,28,Xul Beer Company,Knoxville,TN
+1857,Rhymes Like Dimes,New England India Pale Ale,0.065,28,Xul Beer Company,Knoxville,TN
+1855,NZ State of Mind,New England India Pale Ale,0.068,28,Xul Beer Company,Knoxville,TN
+1853,PB&J Mixtape: Strawberry,Sour Beer,0.065,28,Xul Beer Company,Knoxville,TN
+1851,Lost To History,Double New England India Pale Ale,0.083,28,Xul Beer Company,Knoxville,TN
+1850,A.D.I.D.A.S.,Double New England India Pale Ale,0.082,28,Xul Beer Company,Knoxville,TN
+1849,Small Vices,New England India Pale Ale,0.055,28,Xul Beer Company,Knoxville,TN
+1848,Imperial Double Fruited Marshmallow Raspberry Hill,Sour Beer,0.073,28,Xul Beer Company,Knoxville,TN
+1844,PB&J Mixtape: Raspberry,Sour Beer,0.065,28,Xul Beer Company,Knoxville,TN
+1842,Shiner Premium,American Lager,0.044,432,Spoetzl Brewery,Shiner,TX
+1840,Shiner Hill Country Peach Wheat,Wheat Beer,0.045,432,Spoetzl Brewery,Shiner,TX
+1839,Shiner ¡Órale!,Mexican-style Lager,0.045,432,Spoetzl Brewery,Shiner,TX
+1836,Shiner TexHex Bruja’s Brew IPA,American India Pale Ale,0.07,432,Spoetzl Brewery,Shiner,TX
+1832,Shiner Oktoberfest,Märzen,0.057,432,Spoetzl Brewery,Shiner,TX
+1824,Shiner Ruby Redbird,American Lager,0.032,432,Spoetzl Brewery,Shiner,TX
+1823,Shiner Kosmos Reserve,Pale Lager,0.05,432,Spoetzl Brewery,Shiner,TX
+1822,Shiner Texhex Wicked Haze Double Hazy IPA,Double New England India Pale Ale,0.095,432,Spoetzl Brewery,Shiner,TX
+1818,Texas Special,American Lager,0.044,432,Spoetzl Brewery,Shiner,TX
+1815,Shiner TexHex Twin Dream Double IPA,Double India Pale Ale,0.095,432,Spoetzl Brewery,Shiner,TX
+1808,Shiner TexHex Desert Mirage Hazy IPA,New England India Pale Ale,0.08,432,Spoetzl Brewery,Shiner,TX
+1807,I've Got Friends In the Music Business B.A. Blend #3,Imperial Stout,0.14,444,The Bruery,Placentia,CA
+1806,Sweet Carolinas,Double New England India Pale Ale,0.08,231,New Belgium Brewing Company,Fort Collins,CO
+1803,Crikey IPA,American India Pale Ale,0.068,428,Reuben's Brews,Seattle,WA
+1802,Reaper,Double New England India Pale Ale,0.083,559,RaR Brewing,Cambridge,MD
+1801,Out of Order: Double Blueberry,Sour Beer,0.042,559,RaR Brewing,Cambridge,MD
+1800,Pulp Nuggets,Double India Pale Ale,0.08,559,RaR Brewing,Cambridge,MD
+1798,Out of Order: Whip It Good,Smoothie Sour,0.05,559,RaR Brewing,Cambridge,MD
+1797,Out of Order: Key Lime Pie,Smoothie Sour,0.046,559,RaR Brewing,Cambridge,MD
+1787,Out of Order: Not For Kids,Smoothie Sour,0.05,559,RaR Brewing,Cambridge,MD
+1784,Anaerobic Soak,Double India Pale Ale,0.088,559,RaR Brewing,Cambridge,MD
+1780,Out of Order: All Inclusive,Smoothie Sour,0.05,559,RaR Brewing,Cambridge,MD
+1779,Out of Order: Captain Barry,Smoothie Sour,0.045,559,RaR Brewing,Cambridge,MD
+1773,Southern Greens,Double New England India Pale Ale,0.08,559,RaR Brewing,Cambridge,MD
+1771,Out of Order: Cherry Dip Cone,Smoothie Sour,0.056,559,RaR Brewing,Cambridge,MD
+1770,House Phone,American Pale Ale,0.052,559,RaR Brewing,Cambridge,MD
+1769,Out of Order: Seeing Red,Smoothie Sour,0.06,559,RaR Brewing,Cambridge,MD
+1764,Out of Order: I Say Boo To You,Smoothie Sour,0.06,559,RaR Brewing,Cambridge,MD
+1759,Lumber Sexual,Double New England India Pale Ale,0.084,559,RaR Brewing,Cambridge,MD
+1755,III Little Birds,Double India Pale Ale,0.102,286,Sand City Brewing Co.,Northport,NY
+1751,Soup Du Jour: Vic Secret,American India Pale Ale,0.072,286,Sand City Brewing Co.,Northport,NY
+1750,Soup Du Jour: Galaxy,American India Pale Ale,0.07,286,Sand City Brewing Co.,Northport,NY
+1747,Two,Double India Pale Ale,0.09,286,Sand City Brewing Co.,Northport,NY
+1740,International Playboy,Double India Pale Ale,0.08,286,Sand City Brewing Co.,Northport,NY
+1737,Burning Down the House,Double India Pale Ale,0.09,286,Sand City Brewing Co.,Northport,NY
+1735,Secret Spot: Crab Meadow,New England India Pale Ale,0.085,286,Sand City Brewing Co.,Northport,NY
+1734,ONE Half,American India Pale Ale,0.06,286,Sand City Brewing Co.,Northport,NY
+1733,Handsome Maniac,Tripel,0.1,286,Sand City Brewing Co.,Northport,NY
+1731,"I Don’t Know, Margo!",Double India Pale Ale,0.085,286,Sand City Brewing Co.,Northport,NY
+1730,Stormborn Blonde Ale,Blond,0.065,286,Sand City Brewing Co.,Northport,NY
+1726,Oops I Hopped My Pants,New England India Pale Ale,0.065,286,Sand City Brewing Co.,Northport,NY
+1724,Tafelbier,Small Beer,0.042,286,Sand City Brewing Co.,Northport,NY
+1718,Guttersnipe,Double India Pale Ale,0.08,286,Sand City Brewing Co.,Northport,NY
+1715,Power of ONE,Double India Pale Ale,0.082,286,Sand City Brewing Co.,Northport,NY
+1714,Glow Up,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1713,Banana In the Tailpipe,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1712,Orange Crush,Wheat Beer,0.052,499,Hidden Springs Ale Works,Tampa,FL
+1710,Monstro,Imperial Stout,0.13,499,Hidden Springs Ale Works,Tampa,FL
+1705,Drone Thugs-N-Harmony,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1699,Shell Yeah! Hazy IPA,New England India Pale Ale,0.062,499,Hidden Springs Ale Works,Tampa,FL
+1692,The Upside Down,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1691,Capri Sin,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1689,ZFG,American Pale Ale,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1688,I Am the Walrus,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1686,Moby Thiccc,Imperial Stout,0.13,499,Hidden Springs Ale Works,Tampa,FL
+1685,Apple of My Eye,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1679,Jedi Mind Trick,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1678,Pretty in Pink,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1677,In Between Dreams,Imperial Stout,0.12,499,Hidden Springs Ale Works,Tampa,FL
+1675,Electric Pegasus,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1672,Moon Flower,Sour Beer,0.055,499,Hidden Springs Ale Works,Tampa,FL
+1670,The Lovers,Imperial Stout,0.1,499,Hidden Springs Ale Works,Tampa,FL
+1667,Sungazer,New England India Pale Ale,0.068,290,Charles Towne Fermentory,Charleston,SC
+1664,Bessie,Double India Pale Ale,0.084,290,Charles Towne Fermentory,Charleston,SC
+1660,Sungazer (Tropical Creamsicle),New England India Pale Ale,0.068,290,Charles Towne Fermentory,Charleston,SC
+1656,Mudlark,Stout,0.04,290,Charles Towne Fermentory,Charleston,SC
+1654,Double Dry Hopped Covercraft,New England India Pale Ale,0.07,290,Charles Towne Fermentory,Charleston,SC
+1652,Mars Express,American Pale Ale,0.058,290,Charles Towne Fermentory,Charleston,SC
+1644,Side Stepper,Double India Pale Ale,0.083,290,Charles Towne Fermentory,Charleston,SC
+1642,Telstar,Double India Pale Ale,0.082,290,Charles Towne Fermentory,Charleston,SC
+1641,Vistula,Baltic Porter,0.075,290,Charles Towne Fermentory,Charleston,SC
+1636,Maser,New England India Pale Ale,0.068,290,Charles Towne Fermentory,Charleston,SC
+1635,Sungazer (Double Dry Hopped),New England India Pale Ale,0.068,290,Charles Towne Fermentory,Charleston,SC
+1632,Short Jams,India Pale Lager,0.06,290,Charles Towne Fermentory,Charleston,SC
+1631,"OMNIPOLLOSCOPE #2 SUPERSTITION STRAWBERRY BOURBON MEAD BARRELS, SUPERSTITION APHRODESIA SYRAH MEAD BARRELS, VANILLA BOURBON?BARRELS and BUFFALO TRACE BARRELS BLACK BARLEYWINE",Barley Wine,0.15,254,Anchorage Brewing Company,Anchorage,AK
+1630,Budweiser Nitro Reserve Gold,American Lager,0.05,10,Anheuser-Busch,St. Louis,MO
+1628,Landshark,Lager,0.046,10,Anheuser-Busch,St. Louis,MO
+1626,Natural Ice,Ice Beer,0.059,10,Anheuser-Busch,St. Louis,MO
+1623,Budweiser,American Lager,0.05,10,Anheuser-Busch,St. Louis,MO
+1621,St. Pauli Girl Lager,Helles,0.05,10,Anheuser-Busch,St. Louis,MO
+1615,Busch Beer,American Lager,0.043,10,Anheuser-Busch,St. Louis,MO
+1607,Michelob AmberBock,Bock,0.051,10,Anheuser-Busch,St. Louis,MO
+1606,Michelob Lager,Pale Lager,0.05,10,Anheuser-Busch,St. Louis,MO
+1604,Shhh,American India Pale Ale,0.07,501,Magnify Brewing Company,Fairfield,NJ
+1600,Rock Me Dr. Vic,Double India Pale Ale,0.08,501,Magnify Brewing Company,Fairfield,NJ
+1598,Edge of the Universe,Double India Pale Ale,0.08,501,Magnify Brewing Company,Fairfield,NJ
+1597,Half Batch,Double India Pale Ale,0.08,501,Magnify Brewing Company,Fairfield,NJ
+1595,Double Dry Hopped Babysitter,Session India Pale Ale,0.042,501,Magnify Brewing Company,Fairfield,NJ
+1593,Too Stimulated,Quadruple India Pale Ale,0.124,501,Magnify Brewing Company,Fairfield,NJ
+1585,Froot Stripez,Sour Beer,0.08,501,Magnify Brewing Company,Fairfield,NJ
+1584,Smell Ya Later,Double India Pale Ale,0.095,501,Magnify Brewing Company,Fairfield,NJ
+1580,Grandiose Verbiage,Double India Pale Ale,0.08,501,Magnify Brewing Company,Fairfield,NJ
+1577,Parnold Almer,Sour Beer,0.11,501,Magnify Brewing Company,Fairfield,NJ
+1571,Trouble By Design,Triple India Pale Ale,0.1,501,Magnify Brewing Company,Fairfield,NJ
+1568,Pillow Talk,Milkshake India Pale Ale,0.07,501,Magnify Brewing Company,Fairfield,NJ
+1567,Infinite Verbiage,Triple India Pale Ale,0.1,501,Magnify Brewing Company,Fairfield,NJ
+1565,Rock Me Dr. Citra,Double India Pale Ale,0.08,501,Magnify Brewing Company,Fairfield,NJ
+1558,Strawberry Upside Down Cake IPA,Milkshake India Pale Ale,0.075,152,Southern Grist Brewing Company,Nashville,TN
+1554,Fragment of Merit,American India Pale Ale,0.046,152,Southern Grist Brewing Company,Nashville,TN
+1553,Winter Sweet Tooth,English Barley Wine,0.13,152,Southern Grist Brewing Company,Nashville,TN
+1552,Franco Crisp,Pilsner,0.048,152,Southern Grist Brewing Company,Nashville,TN
+1546,Freezies & Hoverboards,Sour Beer,0.055,152,Southern Grist Brewing Company,Nashville,TN
+1545,Passion Fruit Guava Hill,Sour Beer,0.054,152,Southern Grist Brewing Company,Nashville,TN
+1544,Double Fruited Blackberry Strawberry Hill,Sour Beer,0.056,152,Southern Grist Brewing Company,Nashville,TN
+1543,Imperial Vanilla Black Currant Boysenberry Hill,Sour Beer,0.071,152,Southern Grist Brewing Company,Nashville,TN
+1540,DDH Mixed Greens XXXIV (34),New England India Pale Ale,0.062,152,Southern Grist Brewing Company,Nashville,TN
+1537,Peach Upside Down Cake IPA,Double India Pale Ale,0.075,152,Southern Grist Brewing Company,Nashville,TN
+1534,Meddling In Minutia,Double New England India Pale Ale,0.079,152,Southern Grist Brewing Company,Nashville,TN
+1530,Collide,New England India Pale Ale,0.065,152,Southern Grist Brewing Company,Nashville,TN
+1528,Shake Ya Tailfeather,Milkshake India Pale Ale,0.075,152,Southern Grist Brewing Company,Nashville,TN
+1527,Process Control,Double New England India Pale Ale,0.075,152,Southern Grist Brewing Company,Nashville,TN
+1525,Caprison Hill,Sour Beer,0.056,152,Southern Grist Brewing Company,Nashville,TN
+1516,Gilded,Double New England India Pale Ale,0.085,152,Southern Grist Brewing Company,Nashville,TN
+1515,Marbits,American India Pale Ale,0.067,152,Southern Grist Brewing Company,Nashville,TN
+1514,Triple Dry Hopped 3rd Anniversary DIPA,Double New England India Pale Ale,0.081,152,Southern Grist Brewing Company,Nashville,TN
+1507,Back Through Lima,Double New England India Pale Ale,0.08,351,Mortalis Brewing Company,Avon,NY
+1506,Venus | S'mores,Sweet Stout,0.07,351,Mortalis Brewing Company,Avon,NY
+1504,Khloris,Double New England India Pale Ale,0.08,351,Mortalis Brewing Company,Avon,NY
+1503,Hecate's Crossroads,Double New England India Pale Ale,0.08,351,Mortalis Brewing Company,Avon,NY
+1501,Iris,Double New England India Pale Ale,0.08,351,Mortalis Brewing Company,Avon,NY
+1498,Lightning,New England India Pale Ale,0.065,351,Mortalis Brewing Company,Avon,NY
+1492,DemiSmooj,Sour Beer,0.05,351,Mortalis Brewing Company,Avon,NY
+1491,Kratos,Imperial Stout,0.1,351,Mortalis Brewing Company,Avon,NY
+1490,Hera,Double New England India Pale Ale,0.08,351,Mortalis Brewing Company,Avon,NY
+1487,Thanatos,Imperial Stout,0.1,351,Mortalis Brewing Company,Avon,NY
+1485,Inari Crunch,Imperial Stout,0.1,351,Mortalis Brewing Company,Avon,NY
+1484,Tears of the Goddess | Strawberry + Tangerine + Waffle Cone,Sour IPA,0.075,351,Mortalis Brewing Company,Avon,NY
+1483,Tears of the Goddess | Strawberry Lemonade,Sour IPA,0.075,351,Mortalis Brewing Company,Avon,NY
+1482,Leto,Imperial Stout,0.1,351,Mortalis Brewing Company,Avon,NY
+1477,Demihydra | Raspberry Blueberry Grape,Sour Beer,0.05,351,Mortalis Brewing Company,Avon,NY
+1475,AWWWW! HOW CUTE IS THIS. A PAIR OF RATS CHASING EACH OTHER ON THE SUBWAY TRACKS.,New England India Pale Ale,0.07,389,Evil Twin Brewing NYC,Ridgewood,NY
+1474,THE HARDEST THING ABOUT PARKING MY ELECTRIC SCOOTER IS DOUBLE BLACKBERRY BLUEBERRY RASPBERRY PANCAKE LASSI GOSE,Gose,0.07,389,Evil Twin Brewing NYC,Ridgewood,NY
+1473,FREEZER FRESH SUNDAE - PEANUT BUTTER CUP,Imperial Stout,0.11,389,Evil Twin Brewing NYC,Ridgewood,NY
+1469,IT WAS HIS BIRTHDAY CAKE AND THEY DIDN’T EVEN CARE,Imperial Stout,0.118,389,Evil Twin Brewing NYC,Ridgewood,NY
+1468,Corner of George St. and Shawmut Road,New England India Pale Ale,0.072,389,Evil Twin Brewing NYC,Ridgewood,NY
+1467,"TO THE MILKY WAY & BACK II - RASPBERRY, STRAWBERRY, BLACKBERRY, VANILLA",Milkshake India Pale Ale,0.075,389,Evil Twin Brewing NYC,Ridgewood,NY
+1466,OMG HOW FUNNY IS THIS. MANHATTAN HAS A STREET NAMED AFTER OUR HOMETOWN HOUSTON.,Triple India Pale Ale,0.105,389,Evil Twin Brewing NYC,Ridgewood,NY
+1465,Wait ... The L Train Isn't Closing?,Double India Pale Ale,0.085,389,Evil Twin Brewing NYC,Ridgewood,NY
+1460,"FRUCTUS DANICA 14 - RASPBERRY, BLACKBERRY, STRAWBERRY",Sour Beer,0.065,389,Evil Twin Brewing NYC,Ridgewood,NY
+1454,ETNYC Proudly Presents The Real Mexican Cake,Imperial Stout,0.129,389,Evil Twin Brewing NYC,Ridgewood,NY
+1451,"ET STAY HOME 16 - LEMON, RASPBERRY, CONCORD GRAPE, WALNUT",Sour Beer,0.07,389,Evil Twin Brewing NYC,Ridgewood,NY
+1446,"THE SOUR IPA IS DEAD, LONG LIVE THE SOUR IPA!",Sour IPA,0.07,389,Evil Twin Brewing NYC,Ridgewood,NY
+1444,"Our Marshmallow, Raspberry, Cherry, Vanilla Slush Pop",Sour IPA,0.065,389,Evil Twin Brewing NYC,Ridgewood,NY
+1442,I’M NOT COMING HOME FOR CHRISTMAS,Double New England India Pale Ale,0.085,389,Evil Twin Brewing NYC,Ridgewood,NY
+1439,"TO THE MILKY WAY & BACK IV - PEACH, CLEMENTINE, RASPBERRY, LIME, VANILLA",Milkshake India Pale Ale,0.075,389,Evil Twin Brewing NYC,Ridgewood,NY
+1438,Noa Pecan Mud Cake Chessboard Stout,Imperial Stout,0.11,165,AleSmith Brewing Company,San Diego,CA
+1437,As You Wish,Imperial Stout,0.1,388,Aslin Beer Company,Alexandria,VA
+1435,South Pickett,Imperial Stout,0.165,388,Aslin Beer Company,Alexandria,VA
+1433,Gakozing!,Sour IPA,0.065,388,Aslin Beer Company,Alexandria,VA
+1432,El Frutero w/ Watermelon,Sour Beer,0.05,388,Aslin Beer Company,Alexandria,VA
+1431,Tyson’s Grandma,American India Pale Ale,0.065,388,Aslin Beer Company,Alexandria,VA
+1430,Karate In the Garage,Double New England India Pale Ale,0.08,388,Aslin Beer Company,Alexandria,VA
+1426,Hawaiian Lush,American India Pale Ale,0.065,388,Aslin Beer Company,Alexandria,VA
+1425,No Bake,Imperial Stout,0.11,388,Aslin Beer Company,Alexandria,VA
+1424,Sparkling Wine Showers,Double India Pale Ale,0.085,388,Aslin Beer Company,Alexandria,VA
+1421,Larping 4 Love,Double New England India Pale Ale,0.083,388,Aslin Beer Company,Alexandria,VA
+1415,Colchester,Imperial Stout,0.145,388,Aslin Beer Company,Alexandria,VA
+1413,Recess,Sour Beer,0.055,388,Aslin Beer Company,Alexandria,VA
+1412,Kokomo,Imperial Stout,0.15,388,Aslin Beer Company,Alexandria,VA
+1408,Champion of the Sun,New England India Pale Ale,0.065,388,Aslin Beer Company,Alexandria,VA
+1406,Vapid,Double India Pale Ale,0.087,388,Aslin Beer Company,Alexandria,VA
+1404,San Saba,Stout,0.15,388,Aslin Beer Company,Alexandria,VA
+1403,Saulé,Baltic Porter,0.095,388,Aslin Beer Company,Alexandria,VA
+1390,Okra,Double New England India Pale Ale,0.08,273,Other Half Brewing,Brooklyn,NY
+1388,Barrel Aged Banana Cookie Kooks,Imperial Stout,0.154,273,Other Half Brewing,Brooklyn,NY
+1384,Aerobars & No Cassette,Double India Pale Ale,0.085,273,Other Half Brewing,Brooklyn,NY
+1383,Trickier Than Your Average,Quadruple India Pale Ale,0.1,273,Other Half Brewing,Brooklyn,NY
+1380,Broccoli Boat,New England India Pale Ale,0.065,273,Other Half Brewing,Brooklyn,NY
+1376,I'm With Stupid,New England India Pale Ale,0.071,273,Other Half Brewing,Brooklyn,NY
+1371,All Batter Everything,Imperial Stout,0.13,273,Other Half Brewing,Brooklyn,NY
+1367,Squares Vs. Triangles,Double New England India Pale Ale,0.083,273,Other Half Brewing,Brooklyn,NY
+1366,Ghost Diamonds,Double New England India Pale Ale,0.085,273,Other Half Brewing,Brooklyn,NY
+1365,Sleeping On the Blacktop,Triple New England India Pale Ale,0.095,273,Other Half Brewing,Brooklyn,NY
+1364,DDH Ghost Daydream,Double New England India Pale Ale,0.08,273,Other Half Brewing,Brooklyn,NY
+1362,"Quad Mmm...J.R.E.A.M. (Papaya, Pineapple, Peach, Passionfruit)",Sour Beer,0.11,273,Other Half Brewing,Brooklyn,NY
+1361,DDH Double Citra Daydream (Freaky Friday),Double New England India Pale Ale,0.085,273,Other Half Brewing,Brooklyn,NY
+1358,BAHA,Quadruple India Pale Ale,0.12,273,Other Half Brewing,Brooklyn,NY
+1357,Made Up Dream,Double New England India Pale Ale,0.08,273,Other Half Brewing,Brooklyn,NY
+1356,Put Some Bangs On It!,Double India Pale Ale,0.081,273,Other Half Brewing,Brooklyn,NY
+1352,One Giant Leap,Double India Pale Ale,0.08,273,Other Half Brewing,Brooklyn,NY
+1343,Mother of All Photo Bombs,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1340,Completely Misunderestimated,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1338,Essential Juice,New England India Pale Ale,0.068,361,District 96 Beer Factory,New City,NY
+1332,Political Juice 2.0,Double India Pale Ale,0.085,361,District 96 Beer Factory,New City,NY
+1331,Photo Finish,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1325,King Kobra,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1322,Nasty-Snarky Question,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1320,Sexual Relations,American India Pale Ale,0.063,361,District 96 Beer Factory,New City,NY
+1316,Enjoy The Snake,New England India Pale Ale,0.068,361,District 96 Beer Factory,New City,NY
+1310,Sexual Frustration,Double India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1308,Sea Snake,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1307,Elephant Snake,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1306,Political Flow,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1302,Stimulus Package,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1299,Photo Bomb,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1298,Social Experiment,Double New England India Pale Ale,0.08,361,District 96 Beer Factory,New City,NY
+1297,Mutual Respeck,Double India Pale Ale,0.082,0,Triple Crossing Beer,Richmond,VA
+1294,Tonight At Noon,Imperial Stout,0.12,343,Pipeworks Brewing,Chicago,IL
+1293,Two Suns,Double New England India Pale Ale,0.08,343,Pipeworks Brewing,Chicago,IL
+1292,Lost & Found,Sour Beer,0.066,173,Tired Hands Brewing Company,Ardmore,PA
+1290,Attention Please!,Double New England India Pale Ale,0.082,197,Bearded Iris Brewing,Nashville,TN
+1289,Mood Ring: Tropical,India Pale Ale,0.07,197,Bearded Iris Brewing,Nashville,TN
+1285,Homestyle,New England India Pale Ale,0.06,197,Bearded Iris Brewing,Nashville,TN
+1279,Mood Ring: Strawberries,Milkshake India Pale Ale,0.07,197,Bearded Iris Brewing,Nashville,TN
+1277,Queen Bee,New England India Pale Ale,0.082,197,Bearded Iris Brewing,Nashville,TN
+1269,Mood Ring: Mixed Berry,India Pale Ale,0.07,197,Bearded Iris Brewing,Nashville,TN
+1267,Tunnel Vision,New England India Pale Ale,0.068,197,Bearded Iris Brewing,Nashville,TN
+1266,Double Homestyle,Double New England India Pale Ale,0.082,197,Bearded Iris Brewing,Nashville,TN
+1264,Unpresidential,American India Pale Ale,0.067,287,Mumford Brewing,Los Angeles,CA
+1262,Rolling Blackout,American Stout,0.076,287,Mumford Brewing,Los Angeles,CA
+1253,Stealth Pigeon,American India Pale Ale,0.071,287,Mumford Brewing,Los Angeles,CA
+1250,Mindclouder,Double India Pale Ale,0.101,287,Mumford Brewing,Los Angeles,CA
+1247,Always Ready,American India Pale Ale,0.069,287,Mumford Brewing,Los Angeles,CA
+1245,L.A. Like...,American India Pale Ale,0.068,287,Mumford Brewing,Los Angeles,CA
+1244,Air Quotes,American India Pale Ale,0.068,287,Mumford Brewing,Los Angeles,CA
+1242,Constant Evolution,New England India Pale Ale,0.068,287,Mumford Brewing,Los Angeles,CA
+1241,Soundpieces,American India Pale Ale,0.07,287,Mumford Brewing,Los Angeles,CA
+1239,Summer Pale Ale,New England Pale Ale,0.056,481,Sierra Nevada Brewing Company,Chico,CA
+1228,Maze Whole Cone Pale Ale,American Pale Ale,0.056,481,Sierra Nevada Brewing Company,Chico,CA
+1227,The Product,Double India Pale Ale,0.08,467,Short Throw Brewing Co.,North Haven,CT
+1223,Who Got Da Props?,Imperial Stout,0.126,467,Short Throw Brewing Co.,North Haven,CT
+1218,Resting My Greatness,Imperial Stout,0.118,467,Short Throw Brewing Co.,North Haven,CT
+1217,That's What Happens When You Put Ketchup On A Hot Dog,Gose,0.07,467,Short Throw Brewing Co.,North Haven,CT
+1215,Shady When I Strut,Double New England India Pale Ale,0.081,467,Short Throw Brewing Co.,North Haven,CT
+1212,Stabbo Collabo,Double New England India Pale Ale,0.08,467,Short Throw Brewing Co.,North Haven,CT
+1208,Mumble Sauce,Triple India Pale Ale,0.1,467,Short Throw Brewing Co.,North Haven,CT
+1204,Low Brow Nobility,Imperial Stout,0.12,467,Short Throw Brewing Co.,North Haven,CT
+1203,The Treachery of Fruit: Tangerine & Lime,Gose,0.06,467,Short Throw Brewing Co.,North Haven,CT
+1202,Alley Oop,Double New England India Pale Ale,0.082,467,Short Throw Brewing Co.,North Haven,CT
+1200,Even More Nobility,Imperial Stout,0.15,467,Short Throw Brewing Co.,North Haven,CT
+1198,Fake Debt,New England India Pale Ale,0.07,467,Short Throw Brewing Co.,North Haven,CT
+1194,Metronome,American India Pale Ale,0.064,467,Short Throw Brewing Co.,North Haven,CT
+1192,Lips And Lungs,Double India Pale Ale,0.08,467,Short Throw Brewing Co.,North Haven,CT
+1190,Spillmatic,Triple India Pale Ale,0.101,467,Short Throw Brewing Co.,North Haven,CT
+1189,White Van Vibez,Double India Pale Ale,0.084,467,Short Throw Brewing Co.,North Haven,CT
+1186,Contrast,American Pale Wheat,0.052,61,Allagash Brewing Company,Portland,ME
+1185,ZENNEGASH,Wheat Beer,0.057,61,Allagash Brewing Company,Portland,ME
+1184,Zombie Aneurysm,Double New England India Pale Ale,0.085,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1179,Evil Haze,Double New England India Pale Ale,0.087,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1177,Hopshow,Double New England India Pale Ale,0.085,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1170,Come Out To Haze,Double New England India Pale Ale,0.085,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1168,Draugar,Double New England India Pale Ale,0.084,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1166,Hazy Birthday To Me,Double New England India Pale Ale,0.088,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1165,Hopped Alive,Double New England India Pale Ale,0.085,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1162,Dead Balls,Double India Pale Ale,0.085,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1160,We Are the Weirdos,Double New England India Pale Ale,0.097,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1159,Zombie Slaycation,Sour IPA,0.086,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1156,Hopshow 2,Double New England India Pale Ale,0.083,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1155,Zombie of Dankness,Double India Pale Ale,0.08,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1150,21 Beers of Bad Luck,Double New England India Pale Ale,0.091,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1148,Zombie Duck Hunter,American India Pale Ale,0.072,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1144,The Hoppy Horror Picture Show,Double New England India Pale Ale,0.091,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1140,We Are the Weirdos - West Coast Edition,Double India Pale Ale,0.097,380,Beer Zombies Brewing Co.,Las Vegas,NV
+1139,The Great Experiment Volume 1: Freedom,Triple India Pale Ale,0.1,114,Alvarado Street Brewery,Monterey,CA
+1138,Cup of Gold,Double New England India Pale Ale,0.084,114,Alvarado Street Brewery,Monterey,CA
+1130,Cannery Row 2.0,New England India Pale Ale,0.067,114,Alvarado Street Brewery,Monterey,CA
+1128,Stratos,Double New England India Pale Ale,0.08,114,Alvarado Street Brewery,Monterey,CA
+1125,What About Barb,Sour Beer,0.08,515,Surly Brewing Company,Brooklyn Center,MN
+1124,Fuzzy Logic,New England India Pale Ale,0.071,26,Bottle Logic Brewing,Anaheim,CA
+1120,Ghost Proton (2022),Imperial Stout,0.135,26,Bottle Logic Brewing,Anaheim,CA
+1117,Vanilla Destinations,Imperial Stout,0.131,26,Bottle Logic Brewing,Anaheim,CA
+1116,FOCOCO (2023),Imperial Stout,0.13,26,Bottle Logic Brewing,Anaheim,CA
+1114,Legion of Doom No. 2 Red Label,Imperial Stout,0.15,26,Bottle Logic Brewing,Anaheim,CA
+1112,Paisley Cave Complex (2025),Imperial Stout,0.144,26,Bottle Logic Brewing,Anaheim,CA
+1110,Mint Condition,Imperial Stout,0.1,26,Bottle Logic Brewing,Anaheim,CA
+1108,Brain Cloud,New England India Pale Ale,0.075,26,Bottle Logic Brewing,Anaheim,CA
+1105,Dark Forces (2024),Imperial Stout,0.173,26,Bottle Logic Brewing,Anaheim,CA
+1104,Mass Action (2021),Imperial Stout,0.146,26,Bottle Logic Brewing,Anaheim,CA
+1101,DOWN DOWN: Konami Code,New England India Pale Ale,0.07,26,Bottle Logic Brewing,Anaheim,CA
+1099,Teacursion,American India Pale Ale,0.065,26,Bottle Logic Brewing,Anaheim,CA
+1093,714 Blonde Ale,Blond,0.048,26,Bottle Logic Brewing,Anaheim,CA
+1081,Quarter Up! (2021),Imperial Stout,0.14,26,Bottle Logic Brewing,Anaheim,CA
+1079,Binkie Claws BA Woodford Reserve,Barley Wine,0.114,479,Hair of the Dog Brewing Company,Portland,OR
+1078,Binkie Claws BA Almond,Barley Wine,0.112,479,Hair of the Dog Brewing Company,Portland,OR
+1076,Binkie Claws BA,Barley Wine,0.144,479,Hair of the Dog Brewing Company,Portland,OR
+1073,Inglewood IPA,American India Pale Ale,0.072,434,Three Weavers Brewing Company,Inglewood,CA
+1071,Citra Puffs Juicy Pale Ale,American Pale Ale,0.052,434,Three Weavers Brewing Company,Inglewood,CA
+1066,Deep Roots,Amber Ale,0.052,434,Three Weavers Brewing Company,Inglewood,CA
+1061,Hops Need Friends,American India Pale Ale,0.07,434,Three Weavers Brewing Company,Inglewood,CA
+1060,Even Sassier,Double India Pale Ale,0.072,434,Three Weavers Brewing Company,Inglewood,CA
+1059,Southbounder Coffee Stout,Coffee Stout,0.07,434,Three Weavers Brewing Company,Inglewood,CA
+1057,Stateside,Session India Pale Ale,0.045,434,Three Weavers Brewing Company,Inglewood,CA
+1055,Blood Junkie,Imperial Red Ale,0.087,434,Three Weavers Brewing Company,Inglewood,CA
+1054,Extraordinary Humans,Porter,0.129,434,Three Weavers Brewing Company,Inglewood,CA
+1051,Ripple,Saison,0.055,434,Three Weavers Brewing Company,Inglewood,CA
+1049,Midnight Flight,Imperial Stout,0.095,434,Three Weavers Brewing Company,Inglewood,CA
+1048,Day Job,American Pale Ale,0.056,434,Three Weavers Brewing Company,Inglewood,CA
+1047,Expatriate,American India Pale Ale,0.069,434,Three Weavers Brewing Company,Inglewood,CA
+1044,Funeral Bock,Bock,0.07,527,Wayfinder Beer,Portland,OR
+1042,Kollaps,Kölsch,0.047,527,Wayfinder Beer,Portland,OR
+1041,Jazz Witch Cold IPA,Cold IPA,0.072,527,Wayfinder Beer,Portland,OR
+1039,Märzen,Märzen,0.055,527,Wayfinder Beer,Portland,OR
+1034,Luna Muerta,Vienna Lager,0.053,527,Wayfinder Beer,Portland,OR
+1033,La Magie,Pilsner,0.053,527,Wayfinder Beer,Portland,OR
+1032,Retro Gold,American India Pale Ale,0.068,527,Wayfinder Beer,Portland,OR
+1031,BeYOB,Doppelbock,0.077,527,Wayfinder Beer,Portland,OR
+1029,Winged Creatures,American India Pale Ale,0.068,527,Wayfinder Beer,Portland,OR
+1028,You NE IPAs Like ME,New England India Pale Ale,0.083,409,Barrier Brewing Company,Oceanside,NY
+1026,Strictly Business,Double India Pale Ale,0.088,409,Barrier Brewing Company,Oceanside,NY
+1025,Deadly Combination: Strata + Rakau,New England India Pale Ale,0.074,409,Barrier Brewing Company,Oceanside,NY
+1023,Kickin’ Knowledge: Pumpkin,Milkshake India Pale Ale,0.07,409,Barrier Brewing Company,Oceanside,NY
+1020,Deadly Combination: Citra + Galaxy,New England India Pale Ale,0.074,409,Barrier Brewing Company,Oceanside,NY
+1019,Green Hill,Double India Pale Ale,0.091,409,Barrier Brewing Company,Oceanside,NY
+1012,Uncharted Waters,New England India Pale Ale,0.078,409,Barrier Brewing Company,Oceanside,NY
+1010,Deadly Combination: Mosaic + Strata,New England India Pale Ale,0.074,409,Barrier Brewing Company,Oceanside,NY
+1009,Delicioulus,American Pale Ale,0.068,409,Barrier Brewing Company,Oceanside,NY
+1007,Kickin' Knowledge: Mango,Milkshake India Pale Ale,0.07,409,Barrier Brewing Company,Oceanside,NY
+1006,Our Sour : Bois & Berries,Sour Beer,0.057,409,Barrier Brewing Company,Oceanside,NY
+1005,Never Let Me Down,New England India Pale Ale,0.074,409,Barrier Brewing Company,Oceanside,NY
+1002,IYKYK,New England India Pale Ale,0.074,409,Barrier Brewing Company,Oceanside,NY
+1001,Bulkhead Red,Amber Ale,0.064,409,Barrier Brewing Company,Oceanside,NY
+1000,Can't Tell Me Nothing,New England India Pale Ale,0.078,409,Barrier Brewing Company,Oceanside,NY
+996,Kickin' Knowledge: Pineapple,Milkshake India Pale Ale,0.07,409,Barrier Brewing Company,Oceanside,NY
+993,Kickin' Knowledge,Milkshake India Pale Ale,0.07,409,Barrier Brewing Company,Oceanside,NY
+991,Stuntin',Triple India Pale Ale,0.105,409,Barrier Brewing Company,Oceanside,NY
+990,Folding Ships,New England India Pale Ale,0.075,227,Modern Times Beer,San Diego,CA
+989,Nova Swing,American India Pale Ale,0.072,227,Modern Times Beer,San Diego,CA
+988,Attack Frequency,New England India Pale Ale,0.07,227,Modern Times Beer,San Diego,CA
+987,Mega Blazing World,Imperial Red Ale,0.085,227,Modern Times Beer,San Diego,CA
+984,Night Tides,Double India Pale Ale,0.085,227,Modern Times Beer,San Diego,CA
+981,Critical Band,New England India Pale Ale,0.067,227,Modern Times Beer,San Diego,CA
+980,"Monsters' Park Aged In Bourbon Barrels W/ Cinnamon, Cocoa Nibs, Coconut & Piloncillo",Imperial Stout,0.142,227,Modern Times Beer,San Diego,CA
+977,Elara,New England India Pale Ale,0.07,227,Modern Times Beer,San Diego,CA
+975,Creature Times,Sour Beer,0.049,227,Modern Times Beer,San Diego,CA
+966,Themisto,New England India Pale Ale,0.065,227,Modern Times Beer,San Diego,CA
+961,Monsters' Park Aged In Rye Whiskey Barrels: Coconut NOLA Coffee Edition,Imperial Stout,0.142,227,Modern Times Beer,San Diego,CA
+960,Pharaoh Ascendant,Imperial Stout,0.11,227,Modern Times Beer,San Diego,CA
+956,Caliban,New England India Pale Ale,0.069,227,Modern Times Beer,San Diego,CA
+955,Red Wine Barrel Aged Funky Lomaland,Barrel-aged Beer,0.062,227,Modern Times Beer,San Diego,CA
+940,Coffee Cake: Apple Streusel,Imperial Stout,0.14,227,Modern Times Beer,San Diego,CA
+939,Mist Dragon,India Pale Lager,0.056,227,Modern Times Beer,San Diego,CA
+937,Goggle Sag,Double New England India Pale Ale,0.08,195,Outer Range Brewing Co.,San Francisco,CA
+936,Forest Bathing DDH,New England India Pale Ale,0.071,195,Outer Range Brewing Co.,San Francisco,CA
+933,Wheelie Nelson,Double New England India Pale Ale,0.081,195,Outer Range Brewing Co.,San Francisco,CA
+931,Outer Range IPA,New England India Pale Ale,0.057,195,Outer Range Brewing Co.,San Francisco,CA
+930,Forestry,New England India Pale Ale,0.067,195,Outer Range Brewing Co.,San Francisco,CA
+927,Apex,Extra Pale Ale,0.055,195,Outer Range Brewing Co.,San Francisco,CA
+925,Leave A Trail,New England India Pale Ale,0.07,195,Outer Range Brewing Co.,San Francisco,CA
+924,Crux,American India Pale Ale,0.065,195,Outer Range Brewing Co.,San Francisco,CA
+920,Sendy,New England India Pale Ale,0.068,195,Outer Range Brewing Co.,San Francisco,CA
+919,Risky Sitch,Double New England India Pale Ale,0.077,195,Outer Range Brewing Co.,San Francisco,CA
+918,Slush DDH: (Rakau),Double New England India Pale Ale,0.089,195,Outer Range Brewing Co.,San Francisco,CA
+917,Out of the Woods,Double New England India Pale Ale,0.075,195,Outer Range Brewing Co.,San Francisco,CA
+913,Après All Day,American Lager,0.045,195,Outer Range Brewing Co.,San Francisco,CA
+912,Ride The Vibe,American India Pale Ale,0.066,195,Outer Range Brewing Co.,San Francisco,CA
+911,Way Down,Double New England India Pale Ale,0.087,195,Outer Range Brewing Co.,San Francisco,CA
+907,In the Deep Steep,Double New England India Pale Ale,0.09,195,Outer Range Brewing Co.,San Francisco,CA
+906,Blocks of Light,New England India Pale Ale,0.062,195,Outer Range Brewing Co.,San Francisco,CA
+903,Head Full of Fresh Hops,New England India Pale Ale,0.068,142,Fremont Brewing,Fremont,WA
+901,Mr Sun II,Double India Pale Ale,0.082,142,Fremont Brewing,Fremont,WA
+900,Over the Sea,American India Pale Ale,0.065,142,Fremont Brewing,Fremont,WA
+899,Instant Karma,New England India Pale Ale,0.065,142,Fremont Brewing,Fremont,WA
+898,Bartell Drugs Spring Elixir Imperial IPA,Double India Pale Ale,0.105,142,Fremont Brewing,Fremont,WA
+896,12th Anniversary Stout with Cherries (2021),Imperial Stout,0.11,142,Fremont Brewing,Fremont,WA
+894,Stranger in a Strange Land,Double India Pale Ale,0.085,142,Fremont Brewing,Fremont,WA
+892,Mountain Daisy,American India Pale Ale,0.07,142,Fremont Brewing,Fremont,WA
+888,Session Pale Ale,Session India Pale Ale,0.045,142,Fremont Brewing,Fremont,WA
+887,13th Anniversary – Barrel-Aged Golden Barleywine Ale (2022),Barley Wine,0.136,142,Fremont Brewing,Fremont,WA
+886,Cultivision,Cold IPA,0.075,142,Fremont Brewing,Fremont,WA
+880,Baxter,Cold IPA,0.07,142,Fremont Brewing,Fremont,WA
+878,Specific Void,American India Pale Ale,0.075,142,Fremont Brewing,Fremont,WA
+877,Extra Lush,Triple India Pale Ale,0.098,142,Fremont Brewing,Fremont,WA
+874,SLUSHY XL: Tart Patch Cats,Smoothie Sour,0.062,562,450 North Brewing Company,Columbus,IN
+868,Diamond Nuggets,Triple India Pale Ale,0.1,562,450 North Brewing Company,Columbus,IN
+866,SLUSHY XL: Rainbow Sherbet Cone,Smoothie Sour,0.053,562,450 North Brewing Company,Columbus,IN
+864,Cookies N' Cream Nuggets,Imperial Stout,0.08,562,450 North Brewing Company,Columbus,IN
+863,Silver Nuggets,Triple India Pale Ale,0.11,562,450 North Brewing Company,Columbus,IN
+861,450 Bangers,Double New England India Pale Ale,0.082,562,450 North Brewing Company,Columbus,IN
+856,SLUSHY XL: Strawberry Shortcake Popsicle,Smoothie Sour,0.053,562,450 North Brewing Company,Columbus,IN
+854,SLUSHY XL: Zombie Kush,Smoothie Sour,0.053,562,450 North Brewing Company,Columbus,IN
+853,SLUSHY XXL Unicorn Blood,Smoothie Sour,0.053,562,450 North Brewing Company,Columbus,IN
+852,SLUSHY XXL: Hawaiian Dole Whip,Smoothie Sour,0.053,562,450 North Brewing Company,Columbus,IN
+849,SLUSHY XL: Maui Waui,Smoothie Sour,0.053,562,450 North Brewing Company,Columbus,IN
+845,Cali Dreamin,American India Pale Ale,0.05,562,450 North Brewing Company,Columbus,IN
+843,Juice Box,American India Pale Ale,0.06,562,450 North Brewing Company,Columbus,IN
+841,Tropic Nuggets X3,Triple India Pale Ale,0.11,562,450 North Brewing Company,Columbus,IN
+839,Taco Tuesday,Double New England India Pale Ale,0.08,562,450 North Brewing Company,Columbus,IN
+826,Crispy Squares,American Lager,0.05,463,3 Sons Brewing Co.,Dania Beach,FL
+825,Citrus Machine,New England India Pale Ale,0.065,463,3 Sons Brewing Co.,Dania Beach,FL
+824,Dania Pointe Pale Ale,New England Pale Ale,0.054,463,3 Sons Brewing Co.,Dania Beach,FL
+823,Fractional Sum 2022,Imperial Stout,0.105,463,3 Sons Brewing Co.,Dania Beach,FL
+821,Baby Scoop,Sweet Stout,0.065,463,3 Sons Brewing Co.,Dania Beach,FL
+813,Fractional BA Kitchen Sink,Strong Ale,0.13,463,3 Sons Brewing Co.,Dania Beach,FL
+812,S'Mortal Kombat,Imperial Stout,0.148,463,3 Sons Brewing Co.,Dania Beach,FL
+811,Fractional BA Mauna Loa,Imperial Stout,0.136,463,3 Sons Brewing Co.,Dania Beach,FL
+810,Big Sxxxy,English Barley Wine,0.105,463,3 Sons Brewing Co.,Dania Beach,FL
+806,Mayhem Maker,Double New England India Pale Ale,0.1,463,3 Sons Brewing Co.,Dania Beach,FL
+803,Scoop Hawk,Imperial Stout,0.146,463,3 Sons Brewing Co.,Dania Beach,FL
+801,West Coast Connect,Double India Pale Ale,0.08,463,3 Sons Brewing Co.,Dania Beach,FL
+796,Fractional BA Moonpie,Imperial Stout,0.13,463,3 Sons Brewing Co.,Dania Beach,FL
+793,Lone Star Cake,Imperial Stout,0.14,463,3 Sons Brewing Co.,Dania Beach,FL
+791,Double Barrel Nanner Scoop,Imperial Stout,0.134,463,3 Sons Brewing Co.,Dania Beach,FL
+785,Death Nectar,Imperial Stout,0.144,463,3 Sons Brewing Co.,Dania Beach,FL
+779,Summagick,Imperial Stout,0.119,463,3 Sons Brewing Co.,Dania Beach,FL
+775,Dopealicious,New England India Pale Ale,0.072,463,3 Sons Brewing Co.,Dania Beach,FL
+774,Strawberry Pow,Sour Beer,0.06,310,Tripping Animals Brewing Co.,Doral,FL
+773,Double Ever Haze,Double New England India Pale Ale,0.085,310,Tripping Animals Brewing Co.,Doral,FL
+770,Lyon 25,Double India Pale Ale,0.085,310,Tripping Animals Brewing Co.,Doral,FL
+769,No Mames,Mexican-style Lager,0.06,310,Tripping Animals Brewing Co.,Doral,FL
+766,Board Slide Like A Goat,Double New England India Pale Ale,0.085,310,Tripping Animals Brewing Co.,Doral,FL
+762,Lobster And Piña Coladas,Triple India Pale Ale,0.1,310,Tripping Animals Brewing Co.,Doral,FL
+757,Sunrise Wheat,American Pale Wheat,0.05,310,Tripping Animals Brewing Co.,Doral,FL
+753,Sixth Trip Around the Sun,Double New England India Pale Ale,0.08,310,Tripping Animals Brewing Co.,Doral,FL
+752,Big Ride,New England India Pale Ale,0.06,310,Tripping Animals Brewing Co.,Doral,FL
+750,Super Duper Nice,Sour Beer,0.06,310,Tripping Animals Brewing Co.,Doral,FL
+745,Elasmosaurus,Sour Beer,0.06,310,Tripping Animals Brewing Co.,Doral,FL
+744,Animals In the Machine,Double New England India Pale Ale,0.08,310,Tripping Animals Brewing Co.,Doral,FL
+740,Even More Gummy Saurus 2.0,Sour Beer,0.06,310,Tripping Animals Brewing Co.,Doral,FL
+738,Helles Dream,Helles,0.05,310,Tripping Animals Brewing Co.,Doral,FL
+727,Pig Spice Latte,Sweet Stout,0.06,310,Tripping Animals Brewing Co.,Doral,FL
+726,Falcon Haze,Double New England India Pale Ale,0.085,310,Tripping Animals Brewing Co.,Doral,FL
+725,Frog Eat Frog World,Double India Pale Ale,0.085,310,Tripping Animals Brewing Co.,Doral,FL
+724,Animals In the Machine,Double New England India Pale Ale,0.08,310,Tripping Animals Brewing Co.,Doral,FL
+717,Kromer Juice: Pink Guava,Fruited Berliner Weisse,0.04,157,The Answer,Richmond,VA
+716,"Quad Mother of Moreno: Mango, Marshmallow, Vanilla",Fruit Beer,0.068,157,The Answer,Richmond,VA
+715,Banana Rum Job,Stout,0.12,157,The Answer,Richmond,VA
+713,Blanton's German Chocolate Cake,Imperial Stout,0.12,157,The Answer,Richmond,VA
+712,Quad Mother of Strawberry Guava Puffsicle,Fruit Beer,0.067,157,The Answer,Richmond,VA
+710,Fugitive Moments,American India Pale Ale,0.069,157,The Answer,Richmond,VA
+708,"Quad Mother of Cowan: Guava, Mango, Marshmallow, Honey",Fruit Beer,0.067,157,The Answer,Richmond,VA
+707,Grand Larceny,Double India Pale Ale,0.08,157,The Answer,Richmond,VA
+703,Megablast,Triple India Pale Ale,0.101,157,The Answer,Richmond,VA
+701,Red & Blue Double Puffsicle,Sour Beer,0.065,157,The Answer,Richmond,VA
+700,Kromer Juice: Lychee,Fruited Berliner Weisse,0.035,157,The Answer,Richmond,VA
+697,Stonefruit Popsicle,Gose,0.035,157,The Answer,Richmond,VA
+692,Extra Credit,Double India Pale Ale,0.08,157,The Answer,Richmond,VA
+689,"Triple 3 Scoops: Passionfruit, Lemonade, Strawberry",Fruit Beer,0.09,157,The Answer,Richmond,VA
+688,Kromer Juice: Mango,Fruited Berliner Weisse,0.035,157,The Answer,Richmond,VA
+687,Alone At the Rodeo,American India Pale Ale,0.06,213,Foam Brewers,Burlington,VT
+686,Eternal Sunshine,New England India Pale Ale,0.066,213,Foam Brewers,Burlington,VT
+685,The Fruit That Ate Itself,New England India Pale Ale,0.072,213,Foam Brewers,Burlington,VT
+680,Multitude of Drops,Double New England India Pale Ale,0.088,213,Foam Brewers,Burlington,VT
+679,Local Dork,American Pale Ale,0.064,213,Foam Brewers,Burlington,VT
+674,Block Print: Strawberry + Vanilla,Sour Beer,0.06,213,Foam Brewers,Burlington,VT
+673,All That You Wanted,Double New England India Pale Ale,0.08,213,Foam Brewers,Burlington,VT
+672,Another Trip Around the Sun,Double New England India Pale Ale,0.08,213,Foam Brewers,Burlington,VT
+671,Long Distance Driver,American India Pale Ale,0.055,213,Foam Brewers,Burlington,VT
+670,Eraserhead,Double New England India Pale Ale,0.088,213,Foam Brewers,Burlington,VT
+669,Dead Wax,New England India Pale Ale,0.068,213,Foam Brewers,Burlington,VT
+668,Echoes,Double New England India Pale Ale,0.08,213,Foam Brewers,Burlington,VT
+667,Galaxie 500,Double New England India Pale Ale,0.09,213,Foam Brewers,Burlington,VT
+666,Grounds For Divorce,Double New England India Pale Ale,0.08,213,Foam Brewers,Burlington,VT
+665,Bushburg,Pilsner,0.05,398,Interboro Spirits & Ales,Brooklyn,NY
+661,TacocaT,Double India Pale Ale,0.078,398,Interboro Spirits & Ales,Brooklyn,NY
+659,Ill Plus,Double New England India Pale Ale,0.082,398,Interboro Spirits & Ales,Brooklyn,NY
+657,Fresh To Def - Blueberry,Sour Beer,0.052,398,Interboro Spirits & Ales,Brooklyn,NY
+656,Mad Fat Fluid,American India Pale Ale,0.07,398,Interboro Spirits & Ales,Brooklyn,NY
+655,Double Fluffed,Imperial Stout,0.11,398,Interboro Spirits & Ales,Brooklyn,NY
+654,Alpine Style,Pilsner,0.05,398,Interboro Spirits & Ales,Brooklyn,NY
+650,Mixin It Up,Gose,0.05,398,Interboro Spirits & Ales,Brooklyn,NY
+648,Mad Fat Pride,American India Pale Ale,0.07,398,Interboro Spirits & Ales,Brooklyn,NY
+646,Fulltime,American India Pale Ale,0.06,398,Interboro Spirits & Ales,Brooklyn,NY
+643,Louder Than A Bomb,Double India Pale Ale,0.08,398,Interboro Spirits & Ales,Brooklyn,NY
+641,Halftime,Session India Pale Ale,0.04,398,Interboro Spirits & Ales,Brooklyn,NY
+639,Here Come the Drums,American India Pale Ale,0.072,398,Interboro Spirits & Ales,Brooklyn,NY
+636,Mad Fat! Fluff,American Pale Ale,0.055,398,Interboro Spirits & Ales,Brooklyn,NY
+634,Coors Light,Beer Brand,0.042,111,Coors Brewing Company,Golden,CO
+629,Elder-Fu!,Double India Pale Ale,0.08,189,Russian River Brewing Company,Santa Rosa,CA
+626,TDH Infinite Content,New England India Pale Ale,0.072,338,North Park Beer Company,San Diego,CA
+622,Sorta Mostly Dead,India Pale Ale,0.074,338,North Park Beer Company,San Diego,CA
+620,Mega-Fu!,Quadruple India Pale Ale,0.13,338,North Park Beer Company,San Diego,CA
+619,DDH X-Raying Flowers,Double New England India Pale Ale,0.085,338,North Park Beer Company,San Diego,CA
+618,Axes of Fu!,Double New England India Pale Ale,0.085,338,North Park Beer Company,San Diego,CA
+613,Mr. Hoppy,India Pale Ale,0.071,338,North Park Beer Company,San Diego,CA
+612,Party Cup,American Lager,0.05,338,North Park Beer Company,San Diego,CA
+610,Aroma Constrictor,New England India Pale Ale,0.072,338,North Park Beer Company,San Diego,CA
+609,The Dankmobile,India Pale Ale,0.071,338,North Park Beer Company,San Diego,CA
+608,In the Beginning,New England India Pale Ale,0.07,338,North Park Beer Company,San Diego,CA
+606,Arctic-Fu!,Cold IPA,0.07,338,North Park Beer Company,San Diego,CA
+605,Double-Fu!,Double India Pale Ale,0.08,338,North Park Beer Company,San Diego,CA
+604,TDH Geometric Galaxy,Double New England India Pale Ale,0.085,338,North Park Beer Company,San Diego,CA
+603,Carving Is Hard,New England India Pale Ale,0.07,338,North Park Beer Company,San Diego,CA
+602,Jazz Is Harder,New England India Pale Ale,0.066,338,North Park Beer Company,San Diego,CA
+596,Disciples of Fu! Masters of Mosaic,India Pale Ale,0.065,338,North Park Beer Company,San Diego,CA
+593,Tokushima,Sour Beer,0.051,75,Commonwealth Brewing Company,Virginia Beach,VA
+591,Future Classic,Double New England India Pale Ale,0.085,75,Commonwealth Brewing Company,Virginia Beach,VA
+589,Floriography,New England India Pale Ale,0.072,75,Commonwealth Brewing Company,Virginia Beach,VA
+587,Villuminati,Gose,0.067,75,Commonwealth Brewing Company,Virginia Beach,VA
+584,Common Grounds,Triple India Pale Ale,0.105,75,Commonwealth Brewing Company,Virginia Beach,VA
+574,Tiki Vibez,Gose,0.065,75,Commonwealth Brewing Company,Virginia Beach,VA
+573,Dance Battle,Double New England India Pale Ale,0.08,75,Commonwealth Brewing Company,Virginia Beach,VA
+572,Iconoclast,Double India Pale Ale,0.084,75,Commonwealth Brewing Company,Virginia Beach,VA
+570,Retrogames,Double New England India Pale Ale,0.083,75,Commonwealth Brewing Company,Virginia Beach,VA
+568,Diadem,Double New England India Pale Ale,0.087,75,Commonwealth Brewing Company,Virginia Beach,VA
+567,Adoration,Dark Strong Ale,0.1,397,Brewery Ommegang,Cooperstown,NY
+566,Dubbel Merlau,Dubbel,0.097,397,Brewery Ommegang,Cooperstown,NY
+565,Cooper's Hop Tripel IPA,Triple India Pale Ale,0.105,397,Brewery Ommegang,Cooperstown,NY
+564,Soothsayer,Dark Strong Ale,0.089,397,Brewery Ommegang,Cooperstown,NY
+559,Belgian Essence,Tripel,0.085,397,Brewery Ommegang,Cooperstown,NY
+557,Juicy Blooms,American Lager,0.065,397,Brewery Ommegang,Cooperstown,NY
+552,Game of Thrones: Hand of the Queen,English Barley Wine,0.107,397,Brewery Ommegang,Cooperstown,NY
+551,Sirens' Song,Dark Strong Ale,0.09,397,Brewery Ommegang,Cooperstown,NY
+549,Fruittanomyces,Witbier,0.053,397,Brewery Ommegang,Cooperstown,NY
+547,Spiced Saison,Saison,0.072,397,Brewery Ommegang,Cooperstown,NY
+546,Fleur de Houblon (Summer Ale),Belgian Pale Ale,0.068,397,Brewery Ommegang,Cooperstown,NY
+545,Tripel Perfection,Tripel,0.089,397,Brewery Ommegang,Cooperstown,NY
+538,Neon Pools,New England India Pale Ale,0.065,397,Brewery Ommegang,Cooperstown,NY
+536,Neon Neon Rainbows,Double New England India Pale Ale,0.08,397,Brewery Ommegang,Cooperstown,NY
+529,Barrel-Aged Three Philosophers,Barrel-aged Beer,0.12,397,Brewery Ommegang,Cooperstown,NY
+527,Joemmegang,Dark Strong Ale,0.075,397,Brewery Ommegang,Cooperstown,NY
+525,People Power IPA,New England India Pale Ale,0.065,356,Burial Beer Co.,Asheville,NC
+523,In Spite Of It All,Double New England India Pale Ale,0.082,356,Burial Beer Co.,Asheville,NC
+520,The Tearing of Flesh From Bone,Double New England India Pale Ale,0.082,356,Burial Beer Co.,Asheville,NC
+517,Mystifying Endeavors For An Unintelligible Equilibrium,Double New England India Pale Ale,0.085,356,Burial Beer Co.,Asheville,NC
+515,Until It Ceases To Be,Double New England India Pale Ale,0.088,356,Burial Beer Co.,Asheville,NC
+514,Prophetmaker,American Pale Ale,0.053,356,Burial Beer Co.,Asheville,NC
+511,Scythe Rye IPA,Rye India Pale Ale,0.07,356,Burial Beer Co.,Asheville,NC
+507,Only Calling Hours Pull Me Back To These Midwestern Roots,American India Pale Ale,0.07,356,Burial Beer Co.,Asheville,NC
+505,Prophets of the Worlds Beyond Us,American India Pale Ale,0.072,356,Burial Beer Co.,Asheville,NC
+503,The Shattered Remains of Nothingness,Imperial Stout,0.143,356,Burial Beer Co.,Asheville,NC
+501,A Collection of Idiocy From a Top Notch Moron,Double New England India Pale Ale,0.085,356,Burial Beer Co.,Asheville,NC
+500,Billows Dry-Hopped Kolsch (2022+),Kölsch,0.049,356,Burial Beer Co.,Asheville,NC
+499,To Ascend Into the Abstract,Double New England India Pale Ale,0.085,356,Burial Beer Co.,Asheville,NC
+498,A Cursed Path to Nowhere,Imperial Stout,0.125,356,Burial Beer Co.,Asheville,NC
+493,The Logic We Use Against Logic,Double New England India Pale Ale,0.08,356,Burial Beer Co.,Asheville,NC
+490,The Rosary Belgian Export Stout,Stout,0.075,356,Burial Beer Co.,Asheville,NC
+487,Deliver Us To Evil,Imperial Stout,0.15,356,Burial Beer Co.,Asheville,NC
+478,Vehement Antipathy For the Unrealistic,Imperial Stout,0.14,356,Burial Beer Co.,Asheville,NC
+475,Careful Consideration of This Urge To Levitate,Double New England India Pale Ale,0.082,356,Burial Beer Co.,Asheville,NC
+474,Time Moves Slow,Kölsch,0.054,256,Unseen Creatures Brewing & Blending,Miami,FL
+473,The Child,New England India Pale Ale,0.06,256,Unseen Creatures Brewing & Blending,Miami,FL
+472,Pursuance,American Pale Ale,0.055,256,Unseen Creatures Brewing & Blending,Miami,FL
+468,Suits & Skulls,Amber Ale,0.052,256,Unseen Creatures Brewing & Blending,Miami,FL
+466,The Irony In A Blue Sky,Double New England India Pale Ale,0.08,256,Unseen Creatures Brewing & Blending,Miami,FL
+465,Corpsair,English Barley Wine,0.1,546,Troon Brewing,Hopewell,NJ
+460,Ergophobia,Sour Beer,0.094,546,Troon Brewing,Hopewell,NJ
+458,Athazagoraphobia,Sour Beer,0.09,546,Troon Brewing,Hopewell,NJ
+456,Malevolent Intent,Imperial Stout,0.14,546,Troon Brewing,Hopewell,NJ
+455,Dawn of Possession,Imperial Stout,0.13,546,Troon Brewing,Hopewell,NJ
+454,Hopnosis,Cold IPA,0.067,186,Firestone Walker Brewing Company,Paso Robles,CA
+452,Three Times Three Vol. 5,Double India Pale Ale,0.082,186,Firestone Walker Brewing Company,Paso Robles,CA
+447,Opal,Saison,0.08,186,Firestone Walker Brewing Company,Paso Robles,CA
+446,Parabola,Imperial Stout,0.141,186,Firestone Walker Brewing Company,Paso Robles,CA
+444,Raspberry Lemonade Milkshake,Milkshake India Pale Ale,0.065,186,Firestone Walker Brewing Company,Paso Robles,CA
+443,Bubblin' Billies,New England India Pale Ale,0.07,186,Firestone Walker Brewing Company,Paso Robles,CA
+442,Union Jack IPA,American India Pale Ale,0.07,186,Firestone Walker Brewing Company,Paso Robles,CA
+440,Parabolita,Imperial Stout,0.092,186,Firestone Walker Brewing Company,Paso Robles,CA
+439,Heart of the Universe,New England India Pale Ale,0.075,186,Firestone Walker Brewing Company,Paso Robles,CA
+435,Brain Pick,American India Pale Ale,0.07,186,Firestone Walker Brewing Company,Paso Robles,CA
+434,Mosaic Juice,Double New England India Pale Ale,0.074,488,Kings Brewing Company,Upland,CA
+433,Tidal Pool,Sour IPA,0.1,551,The Eighth State Brewing Company,Greenville,SC
+426,Different the Same,Imperial Stout,0.143,551,The Eighth State Brewing Company,Greenville,SC
+424,Daze,Double New England India Pale Ale,0.085,72,Barrel Culture Brewing And Blending,Durham,NC
+423,Summer Jam: Pineapple Beets,Sour Beer,0.056,72,Barrel Culture Brewing And Blending,Durham,NC
+420,Raging Eagle Mango,Fruit Beer,0.06,511,Yuengling,Pottsville,PA
+419,Bock Beer,Bock,0.053,511,Yuengling,Pottsville,PA
+418,Yuengling Premium Beer,Pilsner,0.045,511,Yuengling,Pottsville,PA
+414,Bongo Fizz,Fruit Beer,0.045,511,Yuengling,Pottsville,PA
+410,Slammin Bones,New England India Pale Ale,0.065,573,J. Wakefield Brewing,Miami,FL
+406,Careless Witbier,Sour Beer,0.065,573,J. Wakefield Brewing,Miami,FL
+404,Eastbound & Down,Berliner Weisse,0.07,573,J. Wakefield Brewing,Miami,FL
+403,Forbidden Forest,Imperial Stout,0.12,573,J. Wakefield Brewing,Miami,FL
+401,Gimme S'more,Imperial Stout,0.145,573,J. Wakefield Brewing,Miami,FL
+400,Nice Kicks,Sour Beer,0.06,573,J. Wakefield Brewing,Miami,FL
+399,Master Blaster,Porter,0.1,573,J. Wakefield Brewing,Miami,FL
+397,Here Kitty Kitty,Imperial Stout,0.12,573,J. Wakefield Brewing,Miami,FL
+396,Label Us Notorious,Imperial Stout,0.17,573,J. Wakefield Brewing,Miami,FL
+393,ROK n' COCO,American India Pale Ale,0.065,573,J. Wakefield Brewing,Miami,FL
+383,A Stout With No Name,Imperial Stout,0.13,573,J. Wakefield Brewing,Miami,FL
+382,Whip It Good,Sour Beer,0.06,573,J. Wakefield Brewing,Miami,FL
+379,I Believe In A Thing Called Stout,Imperial Stout,0.12,573,J. Wakefield Brewing,Miami,FL
+378,Ryevan Drago,Imperial Stout,0.14,573,J. Wakefield Brewing,Miami,FL
+376,Project Blackwing,New England India Pale Ale,0.073,573,J. Wakefield Brewing,Miami,FL
+374,Summon Ifrit,Amber Ale,0.061,269,BattleMage Brewing,Vista,CA
+372,Shroud of Mist,American India Pale Ale,0.069,269,BattleMage Brewing,Vista,CA
+371,Strawberry Cheesecake In the Face,Smoothie Sour,0.08,1,Tampa Bay Brewing Company,Tampa,FL
+369,Florida's True Blonde Ale,Blond,0.05,1,Tampa Bay Brewing Company,Tampa,FL
+367,Citrus Grove,Fruit Beer,0.061,1,Tampa Bay Brewing Company,Tampa,FL
+366,Red Eye Amber Ale,Amber Ale,0.06,1,Tampa Bay Brewing Company,Tampa,FL
+365,Last Days of Summer,Sour Beer,0.042,1,Tampa Bay Brewing Company,Tampa,FL
+364,Hop Silo 8,New England India Pale Ale,0.067,1,Tampa Bay Brewing Company,Tampa,FL
+362,Hair of the Hog,American India Pale Ale,0.07,1,Tampa Bay Brewing Company,Tampa,FL
+361,Wild Warthog Weizen,Wheat Beer,0.05,1,Tampa Bay Brewing Company,Tampa,FL
+356,One Night Stand Pale Ale,American Pale Ale,0.05,1,Tampa Bay Brewing Company,Tampa,FL
+348,Transmission Zero,New England India Pale Ale,0.07,1,Tampa Bay Brewing Company,Tampa,FL
+341,Hop Silo 12,Double New England India Pale Ale,0.095,1,Tampa Bay Brewing Company,Tampa,FL
+340,Twisted Strawberry Fest,Fruit Beer,0.05,1,Tampa Bay Brewing Company,Tampa,FL
+338,Reef Donkey,American Pale Ale,0.055,1,Tampa Bay Brewing Company,Tampa,FL
+328,Midnight Muffin: Blackberry,Smoothie Sour,0.08,1,Tampa Bay Brewing Company,Tampa,FL
+321,Quat Fruit Ale,Fruit Beer,0.05,1,Tampa Bay Brewing Company,Tampa,FL
+320,Brummel,Sour IPA,0.07,126,Narrow Gauge Brewing Company,Florissant,MO
+319,SHB: DDH Citra,New England India Pale Ale,0.07,126,Narrow Gauge Brewing Company,Florissant,MO
+317,Up Up Down Down Left Right Left Right B A,Double New England India Pale Ale,0.081,126,Narrow Gauge Brewing Company,Florissant,MO
+316,A Currant Affair,Sour IPA,0.07,126,Narrow Gauge Brewing Company,Florissant,MO
+311,DDH Hoppy Meal,New England Pale Ale,0.066,126,Narrow Gauge Brewing Company,Florissant,MO
+310,Rocket Appliances,Double New England India Pale Ale,0.081,126,Narrow Gauge Brewing Company,Florissant,MO
+308,Marya-Marya,Sour IPA,0.07,126,Narrow Gauge Brewing Company,Florissant,MO
+302,DDH Sparkle Motion,New England Pale Ale,0.06,126,Narrow Gauge Brewing Company,Florissant,MO
+300,Peach OJ Run,New England India Pale Ale,0.086,126,Narrow Gauge Brewing Company,Florissant,MO
+294,Cloud City,New England India Pale Ale,0.07,126,Narrow Gauge Brewing Company,Florissant,MO
+292,King Fallen Flag,Double New England India Pale Ale,0.086,126,Narrow Gauge Brewing Company,Florissant,MO
+288,Double Dry Hopped Fallen Flag,New England India Pale Ale,0.07,126,Narrow Gauge Brewing Company,Florissant,MO
+287,12% Brewers Series “Valley”,Double New England India Pale Ale,0.08,159,Twelve Percent Beer Project,North Haven,CT
+286,Ledgend of the Woodsman,Double New England India Pale Ale,0.08,482,Horus Aged Ales,Oceanside,CA
+284,Bird of Epic Proportions,Double New England India Pale Ale,0.08,482,Horus Aged Ales,Oceanside,CA
+283,Doom Hawk,Imperial Stout,0.11,482,Horus Aged Ales,Oceanside,CA
+278,Barrel Aged Pastry Method,Imperial Stout,0.167,482,Horus Aged Ales,Oceanside,CA
+270,Thicc Skin,Imperial Stout,0.126,482,Horus Aged Ales,Oceanside,CA
+269,Boss Tycoon,Imperial Stout,0.14,482,Horus Aged Ales,Oceanside,CA
+267,Kyle’s Axe,Double New England India Pale Ale,0.08,482,Horus Aged Ales,Oceanside,CA
+266,Dade Dolphin,Imperial Stout,0.122,482,Horus Aged Ales,Oceanside,CA
+265,Motion Lao-tion,Imperial Stout,0.115,482,Horus Aged Ales,Oceanside,CA
+256,Hawk's Blood,Triple India Pale Ale,0.11,482,Horus Aged Ales,Oceanside,CA
+253,Pacific Porpoise,Imperial Stout,0.122,482,Horus Aged Ales,Oceanside,CA
+252,Tropical Troupial,Sour Beer,0.06,482,Horus Aged Ales,Oceanside,CA
+249,Skelehawk,Double New England India Pale Ale,0.08,482,Horus Aged Ales,Oceanside,CA
+247,Cordial Cherry,Imperial Stout,0.12,482,Horus Aged Ales,Oceanside,CA
+246,Pastry Method,Imperial Stout,0.132,482,Horus Aged Ales,Oceanside,CA
+245,Fruit On the Bottom,Sour IPA,0.06,285,Stillwater Artisanal,Grand Mound,WA
+238,Kung Pao,Imperial Stout,0.11,285,Stillwater Artisanal,Grand Mound,WA
+237,G13,American India Pale Ale,0.065,285,Stillwater Artisanal,Grand Mound,WA
+236,Bright White,Wheat Beer,0.058,285,Stillwater Artisanal,Grand Mound,WA
+234,Fast Fashion,American India Pale Ale,0.065,285,Stillwater Artisanal,Grand Mound,WA
+233,Business,Imperial Stout,0.13,285,Stillwater Artisanal,Grand Mound,WA
+229,Critical Thinking,Imperial Stout,0.11,285,Stillwater Artisanal,Grand Mound,WA
+225,Extra Dry,Saison,0.042,285,Stillwater Artisanal,Grand Mound,WA
+223,Gose Gone Wild World Tour! - Phuket,Gose,0.048,285,Stillwater Artisanal,Grand Mound,WA
+222,Migdal Bavel,Saison,0.067,285,Stillwater Artisanal,Grand Mound,WA
+218,Yacht,Pale Lager,0.042,285,Stillwater Artisanal,Grand Mound,WA
+213,ASMR Frisson 002,Sour Beer,0.06,285,Stillwater Artisanal,Grand Mound,WA
+204,ASMR Frisson 003,Sour Beer,0.06,285,Stillwater Artisanal,Grand Mound,WA
+203,Clássica Tropical,Saison,0.045,285,Stillwater Artisanal,Grand Mound,WA
+201,Y Or IPA,Sour IPA,0.055,285,Stillwater Artisanal,Grand Mound,WA
+198,Amber Canyon Magik,Saison,0.06,202,American Solera,Tulsa,OK
+195,Oude Foeder,Saison,0.058,202,American Solera,Tulsa,OK
+193,Palate Jack,New England India Pale Ale,0.065,202,American Solera,Tulsa,OK
+187,The Magic Touch,Double India Pale Ale,0.082,202,American Solera,Tulsa,OK
+186,Cranbarrel,Sour Beer,0.056,202,American Solera,Tulsa,OK
+185,DDH Terpy Galaxy,Double New England India Pale Ale,0.08,202,American Solera,Tulsa,OK
+183,Precious Moments,Double India Pale Ale,0.08,202,American Solera,Tulsa,OK
+182,POP-A-TOP,American India Pale Ale,0.065,202,American Solera,Tulsa,OK
+178,Take It To the Max,Double New England India Pale Ale,0.082,202,American Solera,Tulsa,OK
+177,Loral Roberts,Kölsch,0.05,202,American Solera,Tulsa,OK
+173,Barrel Aged Dilemma,Barrel-aged Beer,0.12,202,American Solera,Tulsa,OK
+172,Our Queen,Imperial Stout,0.12,202,American Solera,Tulsa,OK
+171,Wolf Treatz,New England India Pale Ale,0.06,202,American Solera,Tulsa,OK
+167,Samison,Saison,0.056,202,American Solera,Tulsa,OK
+165,Pipe,American India Pale Ale,0.065,202,American Solera,Tulsa,OK
+162,Kepler,New England India Pale Ale,0.072,395,Celestial Beerworks,Dallas,TX
+156,Ad Reinhardt,Imperial Stout,0.102,395,Celestial Beerworks,Dallas,TX
+155,Complicated Discourse,American India Pale Ale,0.065,395,Celestial Beerworks,Dallas,TX
+154,Science Friction,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+153,Doppler Shift,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+150,Apollo 11,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+146,Luminous Moves,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+144,Stellar Remnants,New England India Pale Ale,0.07,395,Celestial Beerworks,Dallas,TX
+137,Double Stars,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+136,Kaleidoscope,Double New England India Pale Ale,0.085,395,Celestial Beerworks,Dallas,TX
+135,Lunar,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+133,Energy Transfer,Sour IPA,0.08,395,Celestial Beerworks,Dallas,TX
+132,Electromagnetism,New England India Pale Ale,0.07,395,Celestial Beerworks,Dallas,TX
+127,Jerzy,Pale Lager,0.05,395,Celestial Beerworks,Dallas,TX
+122,Digital Relationship,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+120,Pool Shark,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+115,Hazy Cosmic Jive,Double New England India Pale Ale,0.08,395,Celestial Beerworks,Dallas,TX
+114,Look What You Did You Little Jerk!,Imperial Stout,0.1,395,Celestial Beerworks,Dallas,TX
+111,Mailer Daemon,Double New England India Pale Ale,0.085,395,Celestial Beerworks,Dallas,TX
+110,Chaotic Orbit,New England India Pale Ale,0.067,395,Celestial Beerworks,Dallas,TX
+109,Dulle Wind,India Pale Ale,0.062,295,Half Acre Beer,Chicago,IL
+107,Roost,Extra Pale Ale,0.06,295,Half Acre Beer,Chicago,IL
+105,IPA Your Way,Double New England India Pale Ale,0.075,295,Half Acre Beer,Chicago,IL
+104,Ectoplasm,American India Pale Ale,0.07,295,Half Acre Beer,Chicago,IL
+103,Guayaba De Oro,Fruited Berliner Weisse,0.045,457,Casa Agria Specialty Ales,Oxnard,CA
+101,When The Sun Hits,New England India Pale Ale,0.075,457,Casa Agria Specialty Ales,Oxnard,CA
+99,Fruta Mixta,Saison,0.06,457,Casa Agria Specialty Ales,Oxnard,CA
+98,Guava Fresca,Saison,0.06,457,Casa Agria Specialty Ales,Oxnard,CA
+96,Jets Overhead,New England India Pale Ale,0.07,457,Casa Agria Specialty Ales,Oxnard,CA
+94,Vein of Stars,New England India Pale Ale,0.07,457,Casa Agria Specialty Ales,Oxnard,CA
+93,Cryospace,Double New England India Pale Ale,0.085,457,Casa Agria Specialty Ales,Oxnard,CA
+91,Bayas De La Casa,Saison,0.061,457,Casa Agria Specialty Ales,Oxnard,CA
+90,Summer In the Streets,American India Pale Ale,0.07,457,Casa Agria Specialty Ales,Oxnard,CA
+81,Frambuesa De La Casa,Saison,0.067,457,Casa Agria Specialty Ales,Oxnard,CA
+76,El Camino Del Sol,Double India Pale Ale,0.08,457,Casa Agria Specialty Ales,Oxnard,CA
+70,For Flowers,Double New England India Pale Ale,0.078,457,Casa Agria Specialty Ales,Oxnard,CA
+64,Space Craze,New England India Pale Ale,0.065,457,Casa Agria Specialty Ales,Oxnard,CA
+61,Casa Del Norte,New England India Pale Ale,0.071,457,Casa Agria Specialty Ales,Oxnard,CA
+60,Zarzamora,Fruited Berliner Weisse,0.048,457,Casa Agria Specialty Ales,Oxnard,CA
+56,Galactic Glow,New England India Pale Ale,0.073,457,Casa Agria Specialty Ales,Oxnard,CA
+54,Full Blaze,American India Pale Ale,0.065,457,Casa Agria Specialty Ales,Oxnard,CA
+50,Stern Up the Volume,New England Pale Ale,0.055,80,Mikerphone Brewing,Elk Grove Village,IL
+48,160 Swiftly,Double India Pale Ale,0.085,80,Mikerphone Brewing,Elk Grove Village,IL
+47,crushcrushcrush (Orange),Milkshake India Pale Ale,0.072,80,Mikerphone Brewing,Elk Grove Village,IL
+45,Weizen To ILL,Wheat Beer,0.061,80,Mikerphone Brewing,Elk Grove Village,IL
+38,Ride The Dragon,Double India Pale Ale,0.077,80,Mikerphone Brewing,Elk Grove Village,IL
+35,Special Sauce,New England India Pale Ale,0.068,80,Mikerphone Brewing,Elk Grove Village,IL
+31,I Can Brew For Miles And Miles,Milkshake India Pale Ale,0.083,80,Mikerphone Brewing,Elk Grove Village,IL
+27,Tuned In,Double New England India Pale Ale,0.077,80,Mikerphone Brewing,Elk Grove Village,IL
+24,Lyrical Gangsta,Double India Pale Ale,0.08,80,Mikerphone Brewing,Elk Grove Village,IL
+19,The Get-Fresh Flow,Double New England India Pale Ale,0.083,80,Mikerphone Brewing,Elk Grove Village,IL
+18,Slick Pickle Rick,Blond,0.045,80,Mikerphone Brewing,Elk Grove Village,IL
+15,I Want My IPA,American India Pale Ale,0.072,80,Mikerphone Brewing,Elk Grove Village,IL
+14,Smells Like Bean Spirit,Coffee Stout,0.08,80,Mikerphone Brewing,Elk Grove Village,IL
+7,Barrel-Aged the Velvet Coffee Ground,Barrel-aged Beer,0.11,80,Mikerphone Brewing,Elk Grove Village,IL
+5,Upper Echelon,Double India Pale Ale,0.08,80,Mikerphone Brewing,Elk Grove Village,IL
+4,Spacebar,Double New England India Pale Ale,0.085,80,Mikerphone Brewing,Elk Grove Village,IL
+3,Smells Like Bean Spirit Double Maple,Coffee Stout,0.08,80,Mikerphone Brewing,Elk Grove Village,IL
+2,Mom's Spaghetti,Sour Beer,0.065,80,Mikerphone Brewing,Elk Grove Village,IL

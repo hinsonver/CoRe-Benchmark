@@ -1,0 +1,2040 @@
+{
+ "dataset": "hospital_surrogate",
+ "mode": "raha",
+ "seed": 2,
+ "seconds": 30,
+ "detected": 438,
+ "corrections": 396,
+ "counts": {
+  "all": {
+   "errors": 509,
+   "predicted": 349,
+   "repaired": 296,
+   "detected": 323
+  },
+  "identity": {
+   "errors": 219,
+   "predicted": 161,
+   "repaired": 128,
+   "detected": 136
+  },
+  "other": {
+   "errors": 290,
+   "predicted": 188,
+   "repaired": 168,
+   "detected": 187
+  }
+ },
+ "fixes": [
+  [
+   532,
+   "HospitalName",
+   "morsultas health center"
+  ],
+  [
+   26,
+   "HospitalName",
+   "quenoskny regional hospital"
+  ],
+  [
+   131,
+   "HospitalName",
+   "osklogar memorial hospital"
+  ],
+  [
+   171,
+   "HospitalName",
+   "rhoulafen health center"
+  ],
+  [
+   243,
+   "HospitalName",
+   "garjouzar medical center"
+  ],
+  [
+   337,
+   "HospitalName",
+   "lojouula regional hospital"
+  ],
+  [
+   385,
+   "HospitalName",
+   "calulahep medical center"
+  ],
+  [
+   448,
+   "HospitalName",
+   "tasquenkel medical center"
+  ],
+  [
+   560,
+   "HospitalName",
+   "garbalo medical center"
+  ],
+  [
+   654,
+   "HospitalName",
+   "zarmorfen medical center"
+  ],
+  [
+   697,
+   "HospitalName",
+   "drivelbrin health center"
+  ],
+  [
+   710,
+   "HospitalName",
+   "drivelbrin health center"
+  ],
+  [
+   730,
+   "HospitalName",
+   "velgartas health center"
+  ],
+  [
+   758,
+   "HospitalName",
+   "lozarsul health center"
+  ],
+  [
+   765,
+   "HospitalName",
+   "lozarsul health center"
+  ],
+  [
+   777,
+   "HospitalName",
+   "uladrikel health center"
+  ],
+  [
+   903,
+   "HospitalName",
+   "ulabrinpim health center"
+  ],
+  [
+   938,
+   "HospitalName",
+   "torjouzar memorial hospital"
+  ],
+  [
+   956,
+   "HospitalName",
+   "oskkelba regional hospital"
+  ],
+  [
+   962,
+   "HospitalName",
+   "oskkelba regional hospital"
+  ],
+  [
+   987,
+   "HospitalName",
+   "vasmorrho health center"
+  ],
+  [
+   532,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   16,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   39,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   98,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   199,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   213,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   266,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   280,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   293,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   411,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   413,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   453,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   490,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   493,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   497,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   511,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   588,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   634,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   695,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   705,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   729,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   779,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   782,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   814,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   848,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   877,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   902,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   926,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   949,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   956,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   964,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   976,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   532,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   0,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   94,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   111,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   119,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   145,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   210,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   219,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   256,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   281,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   290,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   346,
+   "MeasureName",
+   "surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries"
+  ],
+  [
+   380,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   389,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   473,
+   "MeasureName",
+   "heart failure patients given discharge instructions"
+  ],
+  [
+   493,
+   "MeasureName",
+   "heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   507,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   541,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   545,
+   "MeasureName",
+   "heart attack patients given beta blocker at discharge"
+  ],
+  [
+   562,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   612,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   650,
+   "MeasureName",
+   "heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   651,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   672,
+   "MeasureName",
+   "heart attack patients given pci within 90 minutes of arrival"
+  ],
+  [
+   705,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   706,
+   "MeasureName",
+   "pneumonia patients given the most appropriate initial antibiotic(s)"
+  ],
+  [
+   713,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   785,
+   "MeasureName",
+   "heart failure patients given an evaluation of left ventricular systolic (lvs) function"
+  ],
+  [
+   802,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   816,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   893,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   902,
+   "MeasureName",
+   "children who received reliever medication while hospitalized for asthma"
+  ],
+  [
+   915,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   997,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   532,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   133,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   234,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   316,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   482,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   502,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   554,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   580,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   668,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   872,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   972,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   384,
+   "HospitalName",
+   "calulahep medical center"
+  ],
+  [
+   572,
+   "State",
+   "al"
+  ],
+  [
+   42,
+   "State",
+   "al"
+  ],
+  [
+   46,
+   "State",
+   "al"
+  ],
+  [
+   50,
+   "State",
+   "al"
+  ],
+  [
+   83,
+   "State",
+   "al"
+  ],
+  [
+   98,
+   "State",
+   "al"
+  ],
+  [
+   119,
+   "State",
+   "al"
+  ],
+  [
+   140,
+   "State",
+   "al"
+  ],
+  [
+   165,
+   "State",
+   "al"
+  ],
+  [
+   182,
+   "State",
+   "al"
+  ],
+  [
+   228,
+   "State",
+   "al"
+  ],
+  [
+   278,
+   "State",
+   "al"
+  ],
+  [
+   356,
+   "State",
+   "al"
+  ],
+  [
+   386,
+   "State",
+   "al"
+  ],
+  [
+   402,
+   "State",
+   "al"
+  ],
+  [
+   477,
+   "State",
+   "al"
+  ],
+  [
+   483,
+   "State",
+   "al"
+  ],
+  [
+   504,
+   "State",
+   "al"
+  ],
+  [
+   559,
+   "State",
+   "al"
+  ],
+  [
+   592,
+   "State",
+   "al"
+  ],
+  [
+   701,
+   "State",
+   "al"
+  ],
+  [
+   764,
+   "State",
+   "al"
+  ],
+  [
+   791,
+   "State",
+   "al"
+  ],
+  [
+   884,
+   "State",
+   "al"
+  ],
+  [
+   886,
+   "State",
+   "al"
+  ],
+  [
+   922,
+   "State",
+   "al"
+  ],
+  [
+   572,
+   "PhoneNumber",
+   "4022446622"
+  ],
+  [
+   572,
+   "HospitalOwner",
+   "voluntary non-profit - other"
+  ],
+  [
+   22,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   27,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   31,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   162,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   218,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   221,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   238,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   247,
+   "HospitalOwner",
+   "government - federal"
+  ],
+  [
+   493,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   526,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   784,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   868,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   24,
+   "PhoneNumber",
+   "7651710610"
+  ],
+  [
+   36,
+   "PhoneNumber",
+   "7651710610"
+  ],
+  [
+   57,
+   "PhoneNumber",
+   "3042984254"
+  ],
+  [
+   60,
+   "PhoneNumber",
+   "3042984254"
+  ],
+  [
+   65,
+   "PhoneNumber",
+   "3042984254"
+  ],
+  [
+   101,
+   "PhoneNumber",
+   "3250091114"
+  ],
+  [
+   217,
+   "PhoneNumber",
+   "2088259957"
+  ],
+  [
+   228,
+   "PhoneNumber",
+   "6629635964"
+  ],
+  [
+   247,
+   "PhoneNumber",
+   "2314439519"
+  ],
+  [
+   261,
+   "PhoneNumber",
+   "2314439519"
+  ],
+  [
+   321,
+   "PhoneNumber",
+   "4365569969"
+  ],
+  [
+   342,
+   "PhoneNumber",
+   "9477017594"
+  ],
+  [
+   381,
+   "PhoneNumber",
+   "2363163948"
+  ],
+  [
+   386,
+   "PhoneNumber",
+   "2363163948"
+  ],
+  [
+   393,
+   "PhoneNumber",
+   "8205416665"
+  ],
+  [
+   471,
+   "PhoneNumber",
+   "9422478735"
+  ],
+  [
+   516,
+   "PhoneNumber",
+   "2876131556"
+  ],
+  [
+   548,
+   "PhoneNumber",
+   "7554731236"
+  ],
+  [
+   561,
+   "PhoneNumber",
+   "7554731236"
+  ],
+  [
+   562,
+   "PhoneNumber",
+   "7554731236"
+  ],
+  [
+   593,
+   "PhoneNumber",
+   "6081371409"
+  ],
+  [
+   666,
+   "PhoneNumber",
+   "8692338946"
+  ],
+  [
+   699,
+   "PhoneNumber",
+   "4955797804"
+  ],
+  [
+   713,
+   "PhoneNumber",
+   "4955797804"
+  ],
+  [
+   751,
+   "PhoneNumber",
+   "8211228704"
+  ],
+  [
+   763,
+   "PhoneNumber",
+   "8211228704"
+  ],
+  [
+   824,
+   "PhoneNumber",
+   "5296991885"
+  ],
+  [
+   855,
+   "PhoneNumber",
+   "7359937352"
+  ],
+  [
+   865,
+   "PhoneNumber",
+   "7359937352"
+  ],
+  [
+   881,
+   "PhoneNumber",
+   "3947540172"
+  ],
+  [
+   883,
+   "PhoneNumber",
+   "3947540172"
+  ],
+  [
+   916,
+   "PhoneNumber",
+   "2612322711"
+  ],
+  [
+   718,
+   "MeasureCode",
+   "ami-3"
+  ],
+  [
+   718,
+   "Score",
+   "67%"
+  ],
+  [
+   721,
+   "ProviderNumber",
+   "97253"
+  ],
+  [
+   13,
+   "ProviderNumber",
+   "96890"
+  ],
+  [
+   45,
+   "ProviderNumber",
+   "94242"
+  ],
+  [
+   81,
+   "ProviderNumber",
+   "98376"
+  ],
+  [
+   213,
+   "ProviderNumber",
+   "95866"
+  ],
+  [
+   244,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   253,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   273,
+   "ProviderNumber",
+   "98268"
+  ],
+  [
+   314,
+   "ProviderNumber",
+   "92281"
+  ],
+  [
+   360,
+   "ProviderNumber",
+   "94104"
+  ],
+  [
+   408,
+   "ProviderNumber",
+   "99861"
+  ],
+  [
+   559,
+   "ProviderNumber",
+   "91649"
+  ],
+  [
+   608,
+   "ProviderNumber",
+   "97113"
+  ],
+  [
+   627,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   639,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   645,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   655,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   704,
+   "ProviderNumber",
+   "97815"
+  ],
+  [
+   724,
+   "ProviderNumber",
+   "97253"
+  ],
+  [
+   755,
+   "ProviderNumber",
+   "98541"
+  ],
+  [
+   780,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   789,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   793,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   859,
+   "ProviderNumber",
+   "90230"
+  ],
+  [
+   878,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   888,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   933,
+   "ProviderNumber",
+   "90018"
+  ],
+  [
+   955,
+   "ProviderNumber",
+   "98086"
+  ],
+  [
+   97,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   120,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   694,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   774,
+   "MeasureCode",
+   "cac-1"
+  ],
+  [
+   163,
+   "Score",
+   "67%"
+  ],
+  [
+   208,
+   "Score",
+   "67%"
+  ],
+  [
+   256,
+   "Score",
+   "67%"
+  ],
+  [
+   378,
+   "Score",
+   "67%"
+  ],
+  [
+   405,
+   "Score",
+   "67%"
+  ],
+  [
+   426,
+   "Score",
+   "67%"
+  ],
+  [
+   769,
+   "Score",
+   "67%"
+  ],
+  [
+   888,
+   "Score",
+   "67%"
+  ],
+  [
+   721,
+   "Stateavg",
+   "al_ami-7a"
+  ],
+  [
+   384,
+   "PhoneNumber",
+   "2363163948"
+  ],
+  [
+   193,
+   "Stateavg",
+   "al_scip-vte-2"
+  ],
+  [
+   213,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   244,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   248,
+   "Stateavg",
+   "al_ami-5"
+  ],
+  [
+   269,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   347,
+   "Stateavg",
+   "al_scip-vte-2"
+  ],
+  [
+   370,
+   "Stateavg",
+   "al_pn-7"
+  ],
+  [
+   373,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   387,
+   "Stateavg",
+   "al_hf-2"
+  ],
+  [
+   477,
+   "Stateavg",
+   "al_pn-2"
+  ],
+  [
+   646,
+   "Stateavg",
+   "al_ami-7a"
+  ],
+  [
+   764,
+   "Stateavg",
+   "al_scip-vte-1"
+  ],
+  [
+   827,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   842,
+   "Stateavg",
+   "al_pn-6"
+  ],
+  [
+   367,
+   "City",
+   "torsulosk"
+  ],
+  [
+   3,
+   "City",
+   "hepmormor"
+  ],
+  [
+   180,
+   "City",
+   "tasmorkel"
+  ],
+  [
+   212,
+   "City",
+   "hepmormor"
+  ],
+  [
+   578,
+   "City",
+   "kelkelcal"
+  ],
+  [
+   590,
+   "City",
+   "kelkelcal"
+  ],
+  [
+   690,
+   "City",
+   "hepmormor"
+  ],
+  [
+   855,
+   "City",
+   "torsulosk"
+  ],
+  [
+   985,
+   "City",
+   "morcalzar"
+  ],
+  [
+   108,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   177,
+   "MeasureCode",
+   "hf-2"
+  ],
+  [
+   349,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   391,
+   "MeasureCode",
+   "pn-3b"
+  ],
+  [
+   398,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   495,
+   "MeasureCode",
+   "ami-5"
+  ],
+  [
+   580,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   673,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   676,
+   "MeasureCode",
+   "hf-4"
+  ],
+  [
+   749,
+   "MeasureCode",
+   "hf-2"
+  ],
+  [
+   788,
+   "MeasureCode",
+   "pn-2"
+  ],
+  [
+   842,
+   "MeasureCode",
+   "pn-6"
+  ],
+  [
+   10,
+   "City",
+   "hepmormor"
+  ],
+  [
+   56,
+   "City",
+   "tasmorkel"
+  ],
+  [
+   88,
+   "City",
+   "nycalula"
+  ],
+  [
+   228,
+   "City",
+   "brinny"
+  ],
+  [
+   311,
+   "City",
+   "logar"
+  ],
+  [
+   437,
+   "City",
+   "oskgar"
+  ],
+  [
+   474,
+   "City",
+   "rhovelbrin"
+  ],
+  [
+   485,
+   "City",
+   "rhovelbrin"
+  ],
+  [
+   517,
+   "City",
+   "torula"
+  ],
+  [
+   601,
+   "City",
+   "morbrin"
+  ],
+  [
+   696,
+   "City",
+   "nyrho"
+  ],
+  [
+   736,
+   "City",
+   "quenhep"
+  ],
+  [
+   756,
+   "City",
+   "wexmor"
+  ],
+  [
+   772,
+   "City",
+   "logar"
+  ],
+  [
+   821,
+   "City",
+   "vaswex"
+  ],
+  [
+   895,
+   "City",
+   "bajou"
+  ],
+  [
+   949,
+   "City",
+   "vasdri"
+  ],
+  [
+   960,
+   "City",
+   "morbrin"
+  ],
+  [
+   968,
+   "City",
+   "morbrin"
+  ],
+  [
+   158,
+   "Score",
+   "100%"
+  ],
+  [
+   336,
+   "Score",
+   "100%"
+  ],
+  [
+   648,
+   "Score",
+   "empty"
+  ],
+  [
+   354,
+   "Sample",
+   "10 patients"
+  ],
+  [
+   17,
+   "Sample",
+   "10 patients"
+  ],
+  [
+   411,
+   "Address1",
+   "1958 garhep avenue"
+  ],
+  [
+   57,
+   "Address1",
+   "2178 kelpim blvd"
+  ],
+  [
+   161,
+   "Address1",
+   "6213 keljou drive"
+  ],
+  [
+   175,
+   "Address1",
+   "6799 veltor blvd"
+  ],
+  [
+   260,
+   "Address1",
+   "2593 nybrin road"
+  ],
+  [
+   264,
+   "Address1",
+   "2593 nybrin road"
+  ],
+  [
+   275,
+   "Address1",
+   "9208 garba drive"
+  ],
+  [
+   334,
+   "Address1",
+   "5895 ulahep road"
+  ],
+  [
+   350,
+   "Address1",
+   "1377 vasquen blvd"
+  ],
+  [
+   393,
+   "Address1",
+   "1958 garhep avenue"
+  ],
+  [
+   472,
+   "Address1",
+   "5696 tasquen blvd"
+  ],
+  [
+   484,
+   "Address1",
+   "5696 tasquen blvd"
+  ],
+  [
+   652,
+   "Address1",
+   "155 quenquen road"
+  ],
+  [
+   849,
+   "Address1",
+   "8579 vasmor avenue"
+  ],
+  [
+   857,
+   "Address1",
+   "6615 rhopim road"
+  ],
+  [
+   915,
+   "Address1",
+   "7776 rhorho drive"
+  ],
+  [
+   934,
+   "Address1",
+   "7859 taskel street"
+  ],
+  [
+   986,
+   "Address1",
+   "2560 drihep road"
+  ],
+  [
+   654,
+   "City",
+   "velpim"
+  ],
+  [
+   411,
+   "Score",
+   "100%"
+  ],
+  [
+   488,
+   "Score",
+   "100%"
+  ],
+  [
+   514,
+   "Score",
+   "100%"
+  ],
+  [
+   711,
+   "Score",
+   "100%"
+  ],
+  [
+   735,
+   "MeasureCode",
+   "scip-inf-2"
+  ],
+  [
+   190,
+   "MeasureCode",
+   "scip-inf-4"
+  ],
+  [
+   264,
+   "MeasureCode",
+   "scip-inf-3"
+  ],
+  [
+   464,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   639,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   956,
+   "Address1",
+   "6998 velpim drive"
+  ],
+  [
+   409,
+   "MeasureCode",
+   "scip-inf-1"
+  ],
+  [
+   722,
+   "CountyName",
+   "tascalsul"
+  ],
+  [
+   0,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   1,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   2,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   3,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   4,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   5,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   6,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   7,
+   "Address1",
+   "6862 joukel blvd"
+  ],
+  [
+   294,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   295,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   296,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   297,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   298,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   299,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   300,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   301,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   302,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   303,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   304,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   305,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   306,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   307,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   308,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   309,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   310,
+   "Address1",
+   "5472 rhosul road"
+  ],
+  [
+   434,
+   "MeasureName",
+   "heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   447,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   354,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   355,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   356,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   357,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   358,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   359,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   360,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   361,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   362,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   363,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   364,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   365,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   366,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   368,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   369,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   370,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   371,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   372,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   373,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   374,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   375,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   376,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   377,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   378,
+   "Address1",
+   "65 loba road"
+  ],
+  [
+   318,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   367,
+   "Address1",
+   "6615 rhopim road"
+  ],
+  [
+   716,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   717,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   718,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   719,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   720,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   721,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   723,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   724,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   725,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   726,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   727,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   728,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   729,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   731,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   732,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   733,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   734,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   735,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   736,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   737,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   738,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   739,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   740,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   716,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   56,
+   "Stateavg",
+   "al_pn-3b"
+  ],
+  [
+   69,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   334,
+   "Stateavg",
+   "al_pn-2"
+  ],
+  [
+   555,
+   "Stateavg",
+   "al_pn-5c"
+  ],
+  [
+   564,
+   "Stateavg",
+   "al_scip-vte-1"
+  ],
+  [
+   567,
+   "Stateavg",
+   "al_ami-2"
+  ],
+  [
+   622,
+   "Stateavg",
+   "al_ami-8a"
+  ],
+  [
+   678,
+   "Stateavg",
+   "al_pn-3b"
+  ],
+  [
+   760,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   787,
+   "Stateavg",
+   "al_hf-4"
+  ],
+  [
+   796,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   920,
+   "Stateavg",
+   "al_pn-6"
+  ],
+  [
+   722,
+   "Address1",
+   "4427 driquen street"
+  ],
+  [
+   730,
+   "Address1",
+   "4427 driquen street"
+  ]
+ ],
+ "all": {
+  "repair_p": 0.8481,
+  "repair_r": 0.5815,
+  "repair_f1": 0.69,
+  "detect_f1": 0.7529,
+  "errors": 509,
+  "predicted": 349,
+  "repaired": 296,
+  "detected": 323
+ },
+ "identity": {
+  "repair_p": 0.795,
+  "repair_r": 0.5845,
+  "repair_f1": 0.6737,
+  "detect_f1": 0.7158,
+  "errors": 219,
+  "predicted": 161,
+  "repaired": 128,
+  "detected": 136
+ },
+ "other": {
+  "repair_p": 0.8936,
+  "repair_r": 0.5793,
+  "repair_f1": 0.7029,
+  "detect_f1": 0.7824,
+  "errors": 290,
+  "predicted": 188,
+  "repaired": 168,
+  "detected": 187
+ }
+}

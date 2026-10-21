@@ -1,0 +1,31 @@
+\begin{table*}[t]
+  \caption{Public verification entries for the three analyses. Movies uses numerical witnesses
+  for cleaning and conflict results, and saved summaries for the continuation probe. The README
+  maps each entry to its input files and generated results.}
+  \label{tab:public-verification}
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabularx}{\textwidth}{@{}>{\raggedright\arraybackslash}p{.12\textwidth}>{\raggedright\arraybackslash}X>{\raggedright\arraybackslash}p{.24\textwidth}>{\raggedright\arraybackslash}X@{}}
+    \toprule
+    Analysis & Public evidence & Offline entry & Replayed results \\
+    \midrule
+    C1: Knowledge effects &
+    Archived block counts, construction summaries and P1 summaries; numerical movie views &
+    \path{scripts/reproduce.sh} &
+    Score contrasts, block-bootstrap intervals, significance decisions, seed ranges and aligned comparisons
+    (Table~\ref{tab:main}; Figures~\ref{fig:aligned} and~\ref{fig:scale}) \\
+    \addlinespace
+    C2: Knowledge conflicts &
+    Anonymous movie entity indicators and model-specific known flags; archived Hospital and Beers results &
+    \path{scripts/reproduce.sh} &
+    Directed rewrite rates, entity-bootstrap intervals, known-entity denominators and control-edit counts
+    (Figure~\ref{fig:nearmodels}; Table~\ref{tab:conflictcounts}) \\
+    \addlinespace
+    C3: Reference quality &
+    Saved title matches and field checks; version-bound Rayyan input pairs, development indices and TabClean output &
+    \path{tools/check_rayyan.py} &
+    Weighted reference-check failure rate and interval; credited repairs and date-conversion count
+    (Table~\ref{tab:rayyan}; Section~\ref{sec:rayyan-rewards}) \\
+    \bottomrule
+  \end{tabularx}
+\end{table*}

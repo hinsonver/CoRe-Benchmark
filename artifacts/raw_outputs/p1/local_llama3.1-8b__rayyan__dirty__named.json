@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:llama3.1-8b",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": true,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.5,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.3011,
+  "acc_noninferable": 0.0055,
+  "noninferable_cells": 182,
+  "acc_hard": 0.0059,
+  "hard_cells": 169,
+  "leak_rate": 0.0,
+  "leak_cells": 20,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 20,
+  "per_column": {
+   "id": {
+    "n": 25,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 25,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 17,
+    "model": 0.0,
+    "freq": 0.059,
+    "trans": 0.0,
+    "structural": 0.059
+   },
+   "jounral_abbreviation": {
+    "n": 6,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 13,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 20,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.15
+   },
+   "article_pagination": {
+    "n": 21,
+    "model": 0.0,
+    "freq": 0.095,
+    "trans": 0.0,
+    "structural": 0.095
+   },
+   "author_list": {
+    "n": 24,
+    "model": 0.0,
+    "freq": 0.042,
+    "trans": 0.0,
+    "structural": 0.042
+   },
+   "article_jcreated_at": {
+    "n": 19,
+    "model": 0.053,
+    "freq": 0.158,
+    "trans": 0.0,
+    "structural": 0.158
+   },
+   "article_language": {
+    "n": 3,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 9,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.333
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "395808,In this issue,,Japanese Journal of Clinical Oncology,,,41,1,1/1/11,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "\"1056-1063,\"{\"\"S. Gouin\"\",\"\"J. Gravel\"\",\"\"M. Roy\"\",\"\"D. Lebel\"\",\"\"T.-T. Vo\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 786,
+   "output": "\"105111,The effects of a new method of teaching on the learning of a new language,eng,Journal of Language and Linguistics,,2157-6945,5,1,1/1/14,1-10,\"{\"\"J. Smith\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 921,
+   "output": "109595,[Blood insulin values after the oral glucose tolerance test (OGTT) and the body composition in 30 obese children].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "858570,Phenotypic analysis of misato function reveals roles of noncentrosomal microtubules in Drosophila spindle formation,English,JOURNAL OF CELL SCIENCE,J Cell Sci,0021-9533,124,1,1/1/11,706-17,\"{\"\"M. Gatti\"\",\"\"S. Bonaccorsi\"\",\"\"V. Mottier-Pavie\"\",\"\"F. Verni\"\",\"\"G. Cenci\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "\"Use of alendronate in peri-implant defect regeneration,English,,,,70,2,1/1/99,151-158,\"{\"\"P. C. Wollan\"\",\"\"S. J. Meraw\"\",\"\"C. M. Reeve\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 275,
+   "output": "253150,Lifetime risk of suicide in bipolar disorder,,The British Journal of Psychiatry,,0007-1250 1472-1465,173,1,1/1/98,186-186,\"{\"\"A. S. Lee\"\",\"\"S. Davies\"\",\"\"P. C. Naik\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "105982,A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity.,eng,\"Science (New York, N.Y.)\",Science,1095-9203,316,5827,5/18/07,895-900,\"{\"\"George Davey Smith\"\",\"\"Amanda J Bennett\"\",\"\"Eleftheria Zeggini\"\",\"\"Marjo-Riitta Jarvelin\"\",\"\"Nicholas J Wareham\"\",\"\"Lorna W Harries\"\",\"\"Colin N A Palmer\"\",\"\"Shah Ebrahim\"\",\"\"Timothy M Frayling\"\",\"\"Susan M Ring\"\",\"\"Bridget Knight\"\",\"\"Sian Ellard\"\",\"\"Katharine R Owen\"\",\"\"Rachel M Freathy\"\",\"\"Hana Lango\"\",\"\"Debbie A Lawlor\"\",\"\"Lon R Cardon\"\",\"\"John R B Perry\"\",\"\"Jeffrey C Barrett\"\",\"\"Andrew D Morris\"\",\"\"Graham A Hitman\"\",\"\"Katherine S Elliott\"\",\"\"Ulla Sovio\"\",\"\"Mark I McCarthy\"\",\"\"David Melzer\"\",\"\"Alex S F Doney\"\",\"\"Andrew R Ness\"\",\"\"Yoav Ben-Shlomo\"\",\"\"Andrew T Hattersley\"\",\"\"Ann-Marie Patch\"\",\"\"Nicholas J Timpson\"\",\"\"Nigel W Rayner\"\",\"\"Mark Walker\"\",\"\"Michael N Weedon\"\",\"\"Ruth J F Loos\"\",\"\"Fredrik Karpe\"\",\"\"Iṅs Barroso\"\",\"\"Luigi Ferrucci\"\",\"\"Christopher J Groves\"\",\"\"Cecilia M Lindgren\"\",\"\"Beverley Shields\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "\"104,The effects of a new type of exercise on the elderly: A pilot study,,,\",,\",,1/1/12,,\"{\"\"S. M. A. El-Sayed\"\",\"\"M. A. El-Sayed\"\",\"\"M. A. El-Sayed\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 424,
+   "output": "450528,Impact of hepatitis C on survival in dialysis patients: A link with cardiovascular mortality?.,,,,,0,0,,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "134738,Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?,English,Journal of sports sciences,Journal of sports sciences,1476-3586,17,0,1/1/12,261-270 ST  - Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?-,\"{\"\"Stuart Calver\"\",\"\"Julia Nichols\"\",\"\"Rachel C1  - Fr̴n systematiska ̦versikter -șkningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "164722,[The microclimate of apartments and its hygienic norms],,Das Mikorklima der Wohnungen und seine hygienische Normierung.,,0049-8610,13,11,1/1/67,757-62,\"{\"\"M. S. Goromossow\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "\"Association of the 5-HT2A receptor gene polymorphism with schizophrenia: a meta-analysis of case-control studies.\",,Schizophrenia Research,Schizophr. Res.,0920-9964,69,2,1/1/03,147-54,\"{\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane\"\",\"\"J. M. Kane",
+   "parsed": false
+  },
+  {
+   "row": 320,
+   "output": "\"Normalisation of left ventricular systolic function after change from VVI pacing to biventricular pacing in a child with congenital complete atrioventricular block, long-QT syndrome, and congenital muscular dystrophy: a 10-year follow-up.\",eng,Cardiology in the young,Cardiol Young,1467-1107,25,0,6/1/15,521-4,\"{\"\"Jesper I Reimers\"\",\"\"Sabrina G Elles��e\"\",\"\"Henrik �� Andersen\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 498,
+   "output": "863343,The role of the nurse in the management of patients with chronic kidney disease: A systematic review.,eng,Nephrology,,1471-4071,24,3,3/1/06,251-8,\"{\"\"A. M. J. Winkelmayer\"\",\"\"A. M. P. Feest\"\",\"\"A. J. Gilliland\"\",\"\"A. J. Kurth\"\",\"\"A. M. P. Feest\"\",\"\"A. J. Gilliland\"\",\"\"A. J. Kurth\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "\"Anatomical and functional outcomes of laparoscopic versus open repair of abdominal aortic aneurysms: a systematic review and meta-analysis.\",eng,Journal of Vascular Surgery,Journal of Vascular Surgery,0741-5214,59,4,4/1/14,1051-1061,\"{\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A. M. Abou-Zamzam\"\",\"\"A.",
+   "parsed": false
+  },
+  {
+   "row": 607,
+   "output": "\"914008,The effects of a 12-week exercise program on the physical fitness of children with cerebral palsy,eng,Physical therapy,Phys Ther,0031-9023,90,1,1/1/10,1-9,\"{\"\"H. H. Huang\"\",\"\"J. Hale\"\",\"\"L. Fetters\"\",\"\"A. McBride\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 923,
+   "output": "109595,[Blood insulin values after the oral glucose tolerance test (OGTT) and the body composition in 30 obese children].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "438682,Should psychiatrists use atypical antipsychotics to treat nonpsychotic anxiety?,eng,Journal of clinical psychopharmacology,J Clin Psychopharmacol,0271-0749,31,1,1/1/11,1-5,\"{\"\"A. M. Fava\"\",\"\"M. J. Alpert\"\",\"\"M. A. Nierenberg\"\",\"\"M. B. Keller\"\",\"\"S. A. Carpenter\"\",\"\"M. A. Thase\"\",\"\"M. A. Trivedi\"\",\"\"M. E. Thase\"\",\"\"M. A. Fava\"\",\"\"M. A. Nierenberg\"\",\"\"M. B. Keller\"\",\"\"S. A. Carpenter\"\",\"\"M. A. Thase\"\",\"\"M. A. Trivedi\"\",\"\"M. E. Thase\"\",\"\"M. A. Fava\"\",\"\"M. A. Nierenberg\"\",\"\"M. B. Keller\"\",\"\"S. A. Carpenter\"\",\"\"M. A. Thase\"\",\"\"M. A. Trivedi\"\",\"\"M. E. Thase\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "800901,\"The role of the gut microbiota in the pathogenesis of chronic pelvic pain.\",eng,Best practice & research. Clinical gastroenterology,Best Pract Res Clin Gastroenterol,1532-1916,24,1,1/1/10,1-13,\"{\"\"Andrew Paul Baranowski\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "\"104,The effects of a 12-week exercise program on the quality of life of patients with chronic heart failure.,eng,Journal of Cardiac Failure,J Card Fail,1556-2650,12,7,1/1/06,432-8,\"{\"\"Suzanne M. Groenwold\"\",\"\"Huibert W. de Bruin\"\",\"\"Hans P. van der Palen\"\",\"\"Jan A. E. Kors\"\",\"\"Dirk J. van Veldhuisen\"\",\"\"Adriaan A. Voors\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 152,
+   "output": "900625,The effects of a new antihistamine on the treatment of allergic rhinitis (Structured abstract),,Health Technology Assessment Database,,,0,5,1/1/11,,\"{\"\"A. M. M. El-Sayed\"\",\"\"M. A. El-Gamal\"\",\"\"A. M. El-Sayed\"\",\"\"M. A. El-Gamal\"\",\"\"A. M. El-Sayed\"\",\"\"M. A. El-Gamal\"\",\"\"A. M. El-Sayed\"\",\"\"M. A. El-Gamal\"\",\"\"A. M. El-Sayed\"\",\"\"M. A. El-Gamal\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "\"104,The effects of a 12-week exercise program on the physical fitness of patients with chronic heart failure.,eng,Journal of sports sciences,Journal of Sports Sci.,0264-0414,24,10,1/1/06,1231-1238,\"{\"\"M. A. Al-Mallah\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A. Alenezi\"\",\"\"M. A",
+   "parsed": false
+  },
+  {
+   "row": 153,
+   "output": "520772,[Skeletal maturation in assessing underage asylum seekers].,dut,\"Euthanasie en andere medische beslissingen rond het levenseinde, 1990-1995\",,0028-2162,149,23,5/28/05,1241; author reply 1241,\"{\"\"R R van Rijn\"\",\"\"S G F Robben\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "\"934328,Use of a Brief Phone Call After ED Discharge,,,,,0,0,,,\"{\"\"NCT01893932 \"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 107,
+   "output": "764225,High intensity interval exercise training in overweight young women with polycystic ovary syndrome,,,,,52,4,1/1/12,255-62,\"{\"\"Y. Fengying\"\",\"\"Y. Hainai\"\",\"\"W. Jianxiong\"\",\"\"T. Sijie\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "\"113363,Mental health symptoms in a population based survey of minority farm operators,,,,,0,0,,62928,\"{\"\"A. L. Steege\"\",\"\"T. Alterman\"\",\"\"M. R. Petersen\"\",\"\"J. Li\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 828,
+   "output": "1267,Clinical effect observation of fule cream to cure dermatitis eczemal,,International Medicine & Health Guidance News [Guo Ji Yi Yao Wei Sheng Dao Bao],,,15,0,1/1/09,,\"{\"\"X. H. LYWXWF Wu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "\"104,The effects of a 12-week exercise program on the physical and psychological health of patients with chronic heart failure: a randomized controlled trial.,eng,European Journal of Cardiovascular Nursing,Eur J Cardiovasc Nurs.,1474-5151,9,5,10/1/10,456-64,\"{\"\"S. J. Bacon\"\",\"\"S. J. H. Elliott\"\",\"\"S. M. J. Lewis\"\",\"\"S. M. J. Lewis\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H. Elliott\"\",\"\"S. J. H.",
+   "parsed": false
+  },
+  {
+   "row": 941,
+   "output": "\"Should patients with chronic kidney disease be treated with erythropoiesis-stimulating agents?.,eng,Journal of the American Society of Nephrology,J. Am. Soc. Nephrol.,1533-3450,10,10,7/10/15,2607-18,\"{\"\"Chu Chen\"\",\"\"Brian L Strom\"\",\"\"Susan E McCann\"\",\"\"Harvey A Risch\"\",\"\"Lingeng Lu\"\",\"\"Fulvio Ricceri\"\",\"\"Immaculata De Vivo\"\",\"\"Amanda B Spurdle\"\",\"\"Susan E Hankinson\"\",\"\"Pamela J Thompson\"\",\"\"Catherine Schairer\"\",\"\"Herbert Yu\"\",\"\"Radhai Rastogi\"\",\"\"Jennifer Doherty\"\",\"\"Carlotta Sacerdote\"\",\"\"Laurence N Kolonel\"\",\"\"Mia M Gaudet\"\",\"\"Kim Robien\"\",\"\"Marc T Goodman\"\",\"\"Piet A van den Brandt\"\",\"\"Robert A Soslow\"\",\"\"Jolanta Lissowska\"\",\"\"Anthony B Miller\"\",\"\"Kirsten B Moysich\"\",\"\"Montserrat Garcia-Closas\"\",\"\"Silvia Polidoro\"\",\"\"Linda S Cook\"\",\"\"Kristin E Anderson\"\",\"\"Rayna K Matsuno\"\",\"\"Xiao-ou Shu\"\",\"\"Penelope M Webb\"\",\"\"Kerry S Courneya\"\",\"\"Christine M Friedenreich\"\",\"\"Jo L Freudenheim\"\",\"\"Yong-Bing Xiang\"\",\"\"Brian E Henderson\"\",\"\"Galina Lurie\"\",\"\"Leo J Schouten\"\",\"\"Timothy R Rebbeck\"\",\"\"Anthony M Magliocco\"\",\"\"Malcolm C Pike\"\",\"\"Leslie Bernstein\"\",\"\"Hannah P Yang\"\",\"\"[Collective Name] Australian National Endometrial Cancer Study Group\"\",\"\"Sara H Olson\"\",\"\"Pamela L Horn-Ross\"\",\"\"Marjorie L McCullough\"\",\"\"Hoda Anton-Culver\"\",\"\"Noel S Weiss\"\",\"\"James R Cerhan\"\",\"\"Louise A Brinton\"\",\"\"Alicja Wolk\"\",\"\"Jennifer Prescott\"\",\"\"Xiaolin Liang\"\",\"\"Thomas E Rohan\"\",\"\"Yikyung Park\"\",\"\"Niclas",
+   "parsed": false
+  },
+  {
+   "row": 555,
+   "output": "\"Screening for and managing chronic compartment syndrome in athletes: a systematic review and meta-analysis\",,Sports Medicine and Traumatology,SM&T,,\"\",,,\"{\"\"S. M. O'Brien\"\",\"\"A. J. McHugh\"\",\"\"M. P. Reilly\"\",\"\"M. A. Fragomeni\"\",\"\"M. P. Fragomeni\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 732,
+   "output": "240949,\"William H. Taft High School Project HOLA, 1985-1986. OEA Evaluation Report.\",,,,,0,0,1/1/86,,\"{\"\"Brooklyn. Office of Educational Assessment. New York City Board of Education\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "294720,Prehospital hypertonic saline resuscitation attenuates the activation and promotes apoptosis of neutrophils in patients with severe traumatic brain injury.,eng,\"Shock (Augusta, Ga.)\",Shock,1540-0514,40,6,12/1/13,375-83,\"{\"\"David B Hoyt\"\",\"\"Sandro B Rizoli\"\",\"\"Andrew J Baker\"\",\"\"Eileen M Bulger\"\",\"\"Wolfgang G Junger\"\",\"\"Joseph Cuschieri\"\",\"\"Shawn G Rhind\"\",\"\"Pang N Shek\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "\"Exercise-induced flow limitation, dynamic hyperinflation and exercise capacity in patients with bronchial asthma.\",eng,The European respiratory journal,Eur. Respir. J.,0903-1936,25,4,10/1/05,385-91,\"{\"\"A Polychronaki\"\",\"\"Ch Roussos\"\",\"\"A Koutsoukou\"\",\"\"I Dimitroulis\"\",\"\"J Milic-Emili\"\",\"\"N G Koulouris\"\",\"\"S Retsou\"\",\"\"E N Kosmas\"\",\"\"M Gaga\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 933,
+   "output": "166779,Preferences and practices of Americans and their physicians in antihypertensive therapy,eng,,,,81,0,1/1/86,20-4 ST  - Preferences and practices of Americans and their physicians in antihypertensive therapy-,\"{\"\"H. E. CN  - PubMed DA  - Dec 31 DP  - NLM ET  - 1986/12/31 Cotugno\"\",\"\"Jr. Gallup, G.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "131821,\"The effects of a 12-week exercise program on the quality of life of patients with chronic heart failure.\",eng,Journal of Cardiac Failure,JC Fail,1071-9164,20,10,10/1/14,1234-41,\"{\"\"A. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M. M.",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "\"111111,The effects of mindfulness on stress and anxiety in college students: a systematic review.,eng,Journal of American college health,Am J Coll Health,0744-8481,65,5,1/1/16,1-9,\"{\"\"Sara A. Qualls\"\",\"\"Lori A. Russell-Chapin\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 111,
+   "output": "\"Effect of a 12-week exercise program on the physical fitness of patients with chronic heart failure: a randomized controlled trial.\",English,,,,,1,1,1/1/13,1-8,\"{\"\"M. Tercedor S��nchez\"\",\"\"J.A. Prieto Velasco\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "\"Prevalence of and risk factors for postoperative complications in patients with diabetes: a systematic review and meta-analysis.\",eng,Journal of clinical nursing,Journal of Clinical Nursing,0962-1062,29,11-12,11/1/15,2163-2173,\"{\"\"S. M. Ali\"\",\"\"S. A. Alqahtani\"\",\"\"A. A. Alqahtani\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 85,
+   "output": "\"Adherence to fesoterodine in women with overactive bladder in routine clinical practice.,engspa,Actas urologicas espanolas,Actas Urol Esp,1699-7980,39,4,5/1/15,222-8,\"{\"\"E Huguet\"\",\"\"O Porta\"\",\"\"E Martínez\"\",\"\"I Mora\"\",\"\"M Simón\"\",\"\"J Pubill\"\",\"\"J A Ortega\"\",\"\"M T Castillo\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 930,
+   "output": "109596,[The effects of a new antihypertensive drug on the cardiovascular system in patients with hypertension].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,6,9/1/94,475-8,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "\"105,The effects of a school-based health education program on the knowledge and attitudes of adolescents towards HIV/AIDS.,eng,Journal of Adolescent Health,Journal Adolesc Health,1054-139X,18,2,1/1/96,83-8,\"{\"\"M. A. St. Lawrence\"\",\"\"M. A. Jefferson\"\",\"\"M. A. Hunt\"\",\"\"M. A. Brasfield\"\",\"\"M. A. Shirley\"\",\"\"M. A. Peterson\"\",\"\"M. A. Sanchez\"\",\"\"M. A. Liepman\"\",\"\"M. A. Brasfield\"\",\"\"M. A. Shirley\"\",\"\"M. A. Peterson\"\",\"\"M. A. Sanchez\"\",\"\"M. A. Liepman\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 710,
+   "output": "107925,\"Obesity, weight change and risks for hypertension, diabetes and hypercholesterolemia in Japanese men.\",eng,European journal of clinical nutrition,Eur J Clin Nutr,0954-3007,57,8,8/1/02,601-7,\"{\"\"K Ishikawa-Takata\"\",\"\"T Ohta\"\",\"\"K Moritaki\"\",\"\"T Gotou\"\",\"\"S Inoue\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "\"923,The effects of a 12-week exercise program on the physical and mental health of patients with chronic obstructive pulmonary disease: a randomized controlled trial.,eng,Journal of Cardiopulmonary Rehabilitation and Prevention,J Cardiopulm Rehabil Prev,1064-5379,29,5,1/1/09,281-8,\"{\"\"Suzanne M Schneider\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M Braun\"\",\"\"Lynne M",
+   "parsed": false
+  },
+  {
+   "row": 493,
+   "output": "\"Health literacy and child health promotion: Implications for research, clinical care, and public policy\",,Pediatrics,,,124,0,,S306-S314,\"{\"\"Rudd R.\"\",\"\"Guez G.\"\",\"\"Sanders L.M.\"\",\"\"Baur C.\"\",\"\"Shaw J.S.\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 583,
+   "output": "368652,A randomized controlled trial of paracetamol versus morphine for the treatment of acute painful crisis of sickle cell disease,,,,,20,6,1/1/13,S150,\"{\"\"R. Rehmani\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "255433,Pool fencing for preventing drowning in children.,eng,The Cochrane Database Of Systematic Reviews,Cochrane Database Syst Rev,1469-493X,,3,1/1/00,CD001048,\"{\"\"D C Thompson\"\",\"\"F P Rivara\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "\"Effects of a 12-week exercise program on the physical fitness of patients with chronic heart failure: a randomized controlled trial.\",eng,European journal of preventive cardiology, Eur J Prev Cardiol,2047-4879,7,2,1/1/15,147-155,\"{\"\"M. A. Al-Mallah\"\",\"\"A. M. Al-Zakwani\"\",\"\"A. M. Al-Maskari\"\",\"\"A. M. Al-Zakwani\"\",\"\"A. M. Al-Maskari\"\",\"\"A. M. Al-Zakwani\"\",\"\"A. M. Al-Maskari\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 454,
+   "output": "\"Working memory, short-term memory, and reading disabilities: a selective meta-analysis of the literature.\",eng,Journal of learning disabilities,J Learn Disabil,0022-2194,43,4,5/1/10,288-302,\"{\"\"H Lee Swanson\"\",\"\"Olga Jerman\"\",\"\"Xinhua Zheng\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 333,
+   "output": "\"111111,The effects of climate change on mental health: A systematic review.,,,,,0,0,,,{NULL}\"",
+   "parsed": false
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+\begin{table}[t]
+  \caption{Identity-column contrast ranges over three construction seeds; seed 0 is in
+  Table~\ref{tab:main}. Fresh clean records are fixed while errors are redrawn.}
+  \label{tab:seeds}
+  \small
+  \setlength{\tabcolsep}{2.5pt}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l ccc cc@{}}
+    \toprule
+    & \multicolumn{3}{c}{Hospital} & \multicolumn{2}{c}{Movies} \\
+    \cmidrule(lr){2-4}\cmidrule(l){5-6}
+    Model & F$-$W & W$-$S & O$-$S & F$-$W & O$-$W \\
+    \midrule
+    DeepSeek & .34--.45 & .33--.36 & .66--.72 & .39--.44 & .31--.32 \\
+    Qwen3.8 & .34--.38 & .33--.38 & .68--.69 & .38--.42 & .26--.28 \\
+    GLM-5.3 & .28--.29 & .34--.37 & .57--.61 & .14--.19 & .07--.08 \\
+    GPT-6.1 & .28--.29 & .09--.10 & .32--.34 & .32--.35 & .07 \\
+    \midrule
+    Qwen-7B & .16--.22 & .02--.07 & .19--.20 & .01--.03 & .00--.01 \\
+    Llama-8B & .14--.24 & .01--.04 & .30 & .03--.04 & .03 \\
+    Qwen-14B & .23--.31 & .12--.17 & .37--.42 & .03--.06 & .05 \\
+    Qwen-32B & .17--.30 & .27--.28 & .49--.52 & .02--.03 & .01--.03 \\
+    \bottomrule
+  \end{tabular*}
+\end{table}

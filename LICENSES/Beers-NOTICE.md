@@ -1,0 +1,7 @@
+# Beers inherited database notice
+
+This inherited database originates with Nick Hould / CraftCans, Kaggle version1, and is redistributed through the fixed Raha source. The data entry declares Open Data Commons Open Database License1.0 and Database Contents License1.0. Preserve that attribution and the attached full texts. Publisher code licensed MIT does not change the database declaration.
+
+CoRe's inherited O input and its error/word-name/syllable-name variants are separate from Beers F. CoRe modifies identifiers/names and injects controlled errors as documented in the construction companion; it does not present them as the publisher's factual corrections. Applicable derivative databases remain available in machine-readable form under ODbL, with contents under DbCL; see the exact database-member list and hashes in `data/manifests/LICENSE_SCOPE.json`. The provided CSV/JSON database members and original construction code supply the applicable derivative database/alteration material directly, without an additional paid access route.
+
+The Beers F database instead uses Wikidata structured facts under CC0 with author-created synthetic IDs and controlled errors. It is not a relicensing of CraftCans. Pure statistical figures and this collective code/documentation repository are not all designated ODbL by this notice. If an archive contains a substantial record-level derivative, preserve this database notice alongside it.

@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:llama3.1-8b",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": true,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.8,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.2955,
+  "acc_noninferable": 0.0,
+  "noninferable_cells": 308,
+  "acc_hard": 0.0,
+  "hard_cells": 299,
+  "leak_rate": 0.0,
+  "leak_cells": 43,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 41,
+  "per_column": {
+   "id": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 28,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 26,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 35,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.086
+   },
+   "article_jissue": {
+    "n": 13,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.308
+   },
+   "article_jcreated_at": {
+    "n": 31,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.032,
+    "structural": 0.032
+   },
+   "article_pagination": {
+    "n": 37,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "author_list": {
+    "n": 39,
+    "model": 0.0,
+    "freq": 0.026,
+    "trans": 0.0,
+    "structural": 0.026
+   },
+   "jounral_abbreviation": {
+    "n": 17,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_language": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 518,
+   "output": "144340,Comparative in vitro performance of three small-volume valved holding chambers with beclomethasone/formoterol pressurized metered dose inhaler.,eng,Journal of aerosol medicine and pulmonary drug delivery,J Aerosol Med Pulm Drug Deliv,1941-2703,26,5,9/1/13,223-7,\"{\"\"Kamel Alhanout\"\",\"\"Jean-Christophe Dubus\"\",\"\"Talita Mota Goncalves\"\",\"\"Veronique Andrieu\"\",\"\"Alain Nicolay\"\",\"\"Davi Pereira de Santana\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 565,
+   "output": "102180,\"Safety, tolerability and sustained weight loss over 2 years with the once-daily human GLP-1 analog, liraglutide.\",eng,International journal of obesity (2005),Int J Obes (Lond),1476-5497,36,6,6/1/12,843-54,\"{\"\"R Carraro\"\",\"\"M F Rasmussen\"\",\"\"L Niskanen\"\",\"\"A Harper\"\",\"\"N Finer\"\",\"\"S R̦ssner\"\",\"\"M Kunesova\"\",\"\"L Van Gaal\"\",\"\"M E J Lean\"\",\"\"A Astrup\"\",\"\"A Rissanen\"\",\"\"M J Savolainen\"\",\"\"[Collective Name] NN8022-1807 Investigators\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 62,
+   "output": "108425,Outcome of gastric bypass patients.,eng,Obesity surgery,Obes Surg,0960-8923,12,3,4/1/02,261-4,\"{\"\"Ryan Holzwarth\"\",\"\"Basir Tareen\"\",\"\"Alicia Majkrzak\"\",\"\"Darren Huber\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 352,
+   "output": "294440,\"Alcohol-related road traffic injuries in Eldoret, Kenya\",,East African Medical Journal,,0012-835X,75,12,1/1/98,709-712,\"{\"\"W Odero\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 674,
+   "output": "810153,Acta Derm.-Venereol.,,Acta Derm.-Venereol.,-9262,86,5,1/1/09,422-424,\"{\"\"Katoulis A.C.\"\",\"\"Georgala K.\"\",\"\"Georgala S.\"\",\"\"Befon A.\"\",\"\"Stavropoulos P.G.\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 644,
+   "output": "638338,\"Letter by Raposeiras-Roubin et al regarding article, \"\"mortality associated with atrial fibrillation in patients with myocardial infarction: a systematic review and meta-analysis\"\".\",eng,Circulation,Circulation,1524-4539,124,18,11/1/11,e483; author's reply e484,\"{\"\"Sergio Raposeiras-Roub�_n\"\",\"\"Jos̩ Maria Garc�_a-Acu̱a\"\",\"\"Jos̩ Ram�_n Gonz��lez-Juanatey\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 545,
+   "output": "751811,School soft drink intervention study,,BMJ,,1468-5833 (Electronic),329,7462,1/1/04,E315-6,\"{\"\"S. A. French\"\",\"\"M. Story\"\",\"\"P. J. Hannan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 410,
+   "output": "789057,VY levator lengthening to treat upper eyelid retraction.,eng,\"Journal of plastic, reconstructive & aesthetic surgery : JPRAS\",J Plast Reconstr Aesthet Surg,1878-0539,66,7,7/1/13,1005-7,\"{\"\"Kenichi Kokubo\"\",\"\"Taro Kamisasanuki\"\",\"\"Kengo Hayashi\"\",\"\"Kenichiro Kasai\"\",\"\"Nobutada Katori\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 635,
+   "output": "505530,Fiscal impact of a potential legislative ban on second trimester elective terminations for prenatally diagnosed abnormalities (Structured abstract),,,,,91,5,1/1/00,359-362,\"{\"\"E. L. Krivchenia\"\",\"\"M. I. Evans\"\",\"\"M. A. Ayoub\"\",\"\"V. L. Miller\"\",\"\"S. B. Ransom\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 476,
+   "output": "\"104111,The impact of 3D volume of interest definition on accuracy and precision of activity estimation in quantitative SPECT and planar processing methods.,English,Physics in medicine and biology,Physics in medicine and biology,0031-9155,56,13,7/21/10,3535-44,\"{\"\"Bin He\"\",\"\"Eric C Frey\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 771,
+   "output": "625307,[Mammographic density: a valid risk factor for breast cancer?].,fre,Pr̩vention de l'insuffisance r̩nale induite par les produits de contrnste iodes,,0221-0363,90,10,10/1/08,1141-51,\"{\"\"G Boutet\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "\"104111,The effects of a 12-week exercise program on the physical fitness of patients with chronic heart failure.,eng,Journal of sports sciences,Journal Sports Sci,1460-1543,32,12,1/1/14,1231-1238,\\\"{\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani\\\\\\\",\\\\\\\"M. A. Al-Shaarani",
+   "parsed": false
+  },
+  {
+   "row": 666,
+   "output": "706765,Remote area indigenous psychiatry - Reflections on ten years as a visiting psychiatrist,,,,,46,0,1/1/12,A32,\"{\"\"N. Cord-Udy\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 192,
+   "output": "225002,Services for children and adolescents with autism spectrum disorders: payment issues.,eng,Pediatric annals,Pediatr Ann,0090-4481,38,1,1/1/09,57-61,\"{\"\"Lynn M Wegner\"\",\"\"Michelle M Macias\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 380,
+   "output": "\"Relationship between water hardness and coronary mortality in Taiwan,Groundbreaking study links physical activity with lower costs in seniors,eng,,,\"{\"\"C. Y. Yang\"\",\"\"T. N. Wang\"\",\"\"H. F. Chiu\"\",\"\"C. H. Lee\"\",\"\"J. F. Chiu\"\",\"\"Y. C. Ko\"\",\"\"C. Y. Yang\"\",\"\"T. N. Wang\"\",\"\"H. F. Chiu\"\",\"\"C. H. Lee\"\",\"\"J. F. Chiu\"\",\"\"Y. C. Ko\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 193,
+   "output": "550351,The role of the teacher in the learning process,,Learning & Leading with Technology,,,34,1,3/1/07,14-17,\"{\"\"OR. International Society for Technology in Education, Eugene\"\",\"\"Bjorn Norstrom\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 130,
+   "output": "946007,Primary vaginal cancer and chemoradiotherapy: a patterns-of-care analysis,eng,Int J Gynecol Cancer,International journal of gynecological cancer : official journal of the International Gynecological Cancer Society,1048-891X (Print)     1048-891x,21,3,1/1/11,385-91,\"{\"\"A. J. Ghia\"\",\"\"V. J. Gonzalez\"\",\"\"J. D. Tward\"\",\"\"A. M. Stroup\"\",\"\"D. K. Gaffney\"\",\"\"L. Pappas\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 822,
+   "output": "743820,Effect of (D)-fagomine on excreted Enterobacteria and weight gain in rats fed a high-fat high-sucrose diet.,eng,\"Obesity (Silver Spring, Md.)\",Obesity (Silver Spring),1930-739X,22,5,4/1/14,976-9,\"{\"\"Eunice Molinar-Toribio\"\",\"\"Benjam�_n Pi̱a\"\",\"\"Livia G�_mez\"\",\"\"Jara P̩rez-Jim̩nez\"\",\"\"Marta Casado\"\",\"\"Sara Ramos-Romero\"\",\"\"Pere Clap̩s\"\",\"\"Josep Llu�_s Torres\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 339,
+   "output": "id,article_title,article_language,journal_title,jounral_abbreviation,journal_issn,article_jvolumn,article_jissue,article_jcreated_at,article_pagination,author_list",
+   "parsed": true
+  },
+  {
+   "row": 700,
+   "output": "894415,internetQueryObject to Partner With DataFlux; iQO to Provide Enhanced Application Scalability through QueryObject System; DataFlux to Enhance Data Accuracy through dfPower,English,Business Wire,,,0,0,7/1/00,1-Jan,\"{\"\"Business/Technology Editors\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "305933,Clinical course of patients with aspirin-exacerbated     respiratory disease: can we predict the prognosis?,English,Pharmacogenomics,,,15,4,1/1/14,449-457,\"{\"\"Choi GS\"\",\"\"Kim JH\"\",\"\"Park HS\"\",\"\"Ye YM\"\",\"\"Kim SH\"\",\"\"Kim JE\"\",\"\"Jin HJ\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 797,
+   "output": "379578,\"Monitoring of fluid changes in hospitalized, Malnourished, Guatemalan children using bioelectrical impedance spectroscopy (BIS).\",eng,\"Applied radiation and isotopes : including data, instrumentation and methods for use in agriculture, industry and medicine\",Appl Radiat Isot,0969-8043,50,6,6/1/98,617-9,\"{\"\"C Pithan\"\",\"\"M Mazariegos\"\",\"\"N W Solomons\"\",\"\"P Furst\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 200,
+   "output": "348007,Ultrasonically enhanced vancomycin activity against Staphylococcus epidermidis biofilms in vivo.,eng,Journal of biomaterials applications,J Biomater Appl,0885-3282,18,5,4/1/04,237-45,\"{\"\"R A Robison\"\",\"\"J L Nelson\"\",\"\"B L Roeder\"\",\"\"B L Beckstead\"\",\"\"G B Schaalje\"\",\"\"J C Carmen\"\",\"\"W G Pitt\"\",\"\"C M Runyan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 421,
+   "output": "450528,Impact of hepatitis C on survival in dialysis patients: A link with cardiovascular mortality?,eng,,Nature Clinical Practice Neurology,,1745-834X     1745-8358,4,4,1/1/08,226-232,\"{\"\"A.U. Monsch\"\",\"\"M. Tolnay\"\",\"\"K.I. Taylor\"\",\"\"A. Probst\"\",\"\"A.R. Miserez\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 137,
+   "output": "812893,Clinical outcomes and cost-effectiveness of strategies for managing people at high risk for diabetes (Structured abstract),,Annals of Internal Medicine,,,143,1,1/1/05,251-264,\"{\"\"L. Schlessinger\"\",\"\"D. M. Eddy\"\",\"\"R. Kahn\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 104,
+   "output": "816681,The embodied nature of medical concepts: Image schemas and language for pain,English,Cognitive Processing,,1612-4782     1612-4790,16,1,1/1/15,297-310,\"{\"\"M. Tercedor S��nchez\"\",\"\"J.A. Prieto Velasco\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 906,
+   "output": "672671,Mediterranean diet and metabolic syndrome: an updated systematic review.,eng,Reviews in endocrine & metabolic disorders,Rev Endocr Metab Disord,1573-2606,14,3,9/1/13,255-63,\"{\"\"Demosthenes B Panagiotakos\"\",\"\"Katherine Esposito\"\",\"\"Christina-Maria Kastorini\"\",\"\"Dario Giugliano\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 447,
+   "output": "111971,Why is functional capacity decreased in hypertensive patients? From mechanisms to clinical studies.,eng,\"Journal of cardiovascular medicine (Hagerstown, Md.)\",J Cardiovasc Med (Hagerstown),1558-2035,16,1,7/1/14,456-65,\"{\"\"Branislava Ivanovic\"\",\"\"Marijana Tadic\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 628,
+   "output": "\"Association between genetic polymorphism of tumor necrosis factor-alpha and risk of oral submucous fibrosis, a pre-cancerous condition of oral cancer.\",eng,Journal of dental research,J. Dent. Res.,0022-0345,81,1,1/1/02,1-6,\"{\"\"L J Hahn\"\",\"\"C J Chiu\"\",\"\"M L Chang\"\",\"\"L L Hsieh\"\",\"\"Y S Kuo\"\",\"\"H M Chen\"\",\"\"C P Chiang\"\",\"\"C J Chen\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 736,
+   "output": "660499,Inappropriate use of emergency services: a systematic review of prevalence and associated factors.,eng,\"Violencia contra a crianca: revelando o perfil dos atendimentos em servicos de emergencia, Brasil, 2006 e 2007.\",,1678-4464,25,1,1/1/09,28-Jul,\"{\"\"Marlos Rodrigues Domingues\"\",\"\"Ana Claudia Gastal Fassa\"\",\"\"Maria Laura Vidal Carret\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 139,
+   "output": "862799,A pharmacoeconomic evaluation of statins in the treatment of hypercholesterolaemia in the primary care setting in Spain (Structured abstract),,Pharmacoeconomics,,,23,4,1/1/05,289-301,\"{\"\"P. Tarraga-Lopez\"\",\"\"J. M. Ocana-Lopez\"\",\"\"J. Miguel-Clave\"\",\"\"J. Solera-Albero\"\",\"\"M. Cerdan-Oliver\"\",\"\"M. A. Lopez-Cara\"\",\"\"A. Celada-Rodriguez\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 471,
+   "output": "299635,\"The Social Workers Guide to Child and Adolescent Mental Health.\",,Child & Family Social Work,,1356-7500,16,2,5/1/11,241-242,\"{\"\"Jo Finch\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "\"1111111,[Anesthetic gases exposure: findings from a 13 year environmental and biological monitoring in a hospital company].,ita,Patologie asbesto correlate in congiunti di lavoratori del settore cemento-amianto.,,1592-7830,30,4,1/1/08,411-3,\"{\"\"M A Sanchez\"\",\"\"S Ritzu\"\",\"\"V Capelli\"\",\"\"P Boccalon\"\",\"\"G Arcangeli\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 431,
+   "output": "369162,[Autologous stem cell therapy with surgical myocardial revascularization].,tur,Anadolu kardiyoloji dergisi : AKD = the Anatolian journal of cardiology,Anadolu Kardiyol Derg,1308-0032,9,6,12/1/09,465-6,\"{\"\"Serkan Durdu\"\",\"\"Ahmet R���_���han Akar\"\",\"\"G���_nseli Cubuk���uo����lu Deniz\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "164722,[The microclimate of apartments and its hygienic norms],,Das Mikorklima der Wohnungen und seine hygienische Normierung.,,0049-8610,14,1,1/1/68,757-61,\"{\"\"M. S. Goromossow\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 851,
+   "output": "820550,Chiropractic vertebral subluxations,English,Focus on Alternative and Complementary Therapies,,,16,0,1/1/11,15-16,\"{\"\"S. Homola\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 282,
+   "output": "113399,Use of Job Design to Reduce Mechanical Stress on the Back,,,,,0,0,1/1/89,323-326,\"{\"\"D. W. Badger\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 723,
+   "output": "\"Probiotics for the treatment of upper and lower respiratory-tract infections in children: systematic review based on randomized clinical trials\",eng,J Pediatr (Rio J),Jornal de pediatria,0021-7557,91,5,1/1/15,413-27,\"{\"\"M. H. de Oliveira Junior\"\",\"\"E. S. Sarinho\"\",\"\"G. V. de Araujo\"\",\"\"D. M. Peixoto\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 989,
+   "output": "\"104111,The effects of a new type of exercise on the cardiovascular system,eng,Journal of Sports Medicine and Physical Fitness,Journal of sports medicine and physical fitness,0022-4650 (Print) 0022-4650,45,2,1/1/05,147-53,\"{\"\"A. M. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S. Oliveira\"\",\"\"M. A. S.",
+   "parsed": false
+  },
+  {
+   "row": 594,
+   "output": "313584,The Effects of Cognitive Coaching and Nonverbal Classroom Management on Teacher Efficacy and Perceptions of School Culture.,English,,,,0,0,1/1/98,53,\"{\"\"Jennifer L. Edwards\"\",\"\"Cherie A. Lyons\"\",\"\"Marcia E. Swords\"\",\"\"Mary S. Rogers\"\",\"\"Kathy E. Green\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 684,
+   "output": "280419,Designing in the social context: Using the social contextual model of health behavior change to develop a tobacco control intervention for teachers in India,English,Health Education Research,,0268-1153,28,2,1/1/13,130-138,\"{\"\"Cara B. Ebbeling\"\",\"\"Dhirendra N. Sinha\"\",\"\"Glorian C. Sorensen\"\",\"\"Harry A. Lando\"\",\"\"Mangesh S. Pednekar\"\",\"\"Claudia R. Pischke\"\",\"\"Prakash C. Gupta\"\",\"\"Eve M. Nagler\"\",\"\"Mira B. Aghi\"\",\"\"Kasisomayajula Viswanath\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 353,
+   "output": "294440,Alcohol-related road traffic injuries in Eldoret, Kenya,East African Medical Journal,,0012-835X,76,1,1/1/99,712-715,\"{\"\"W Odero\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 87,
+   "output": "\"Assessing the impact of the Affordable Care Act on health care access and outcomes for low-income populations in the United States.\",eng,Journal of Health Care for the Poor and Underserved,Journal of Health Care for the Poor and Underserved,1073-146X,28,4,1/1/17,746-54,\"{\"\"S. M. Short\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\",\"\"M. A. Staiti\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 719,
+   "output": "84941,Incidence of and risk factors for motor neurone disease in UK women: a prospective study.,eng,BMC neurology,BMC Neurol,1471-2377,12,,1/1/12,25,\"{\"\"Anna Brown\"\",\"\"Jane Green\"\",\"\"Valerie Beral\"\",\"\"Gillian Reeves\"\",\"\"Pat Doyle\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 28,
+   "output": "971878,Diminished A-cell secretion in the early phase of type I diabetes mellitus,English,Metabolism: Clinical and Experimental,,,35,11,1/1/86,1074-1077,\"{\"\"S. Srikanta\"\",\"\"O. P. Ganda\"\",\"\"R. E. Gleason\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 127,
+   "output": "259367,A comparison of recovery characteristics of sevoflurane and propofol-remifentanil anesthesia in geriatric patients,,,,,14,0,1/1/11,208-213,\"{\"\"A. Erol\"\",\"\"J. B. Celik\"\",\"\"I. Kara\"\",\"\"A. Topal\"\",\"\"S. Guven\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 534,
+   "output": "408199,\"The parvalbumin-positive interneurons in the mouse dentate gyrus express GABAA receptor subunits �1, �_2, and � along their extrasynaptic cell membrane.\",eng,Neuroscience,Neuroscience,1873-7544,255,,5/20/14,,\"{\"\"H H̦ger\"\",\"\"W Sieghart\"\",\"\"T Klausberger\"\",\"\"I Milenkovic\"\",\"\"M Vasiljevic\"\",\"\"D Maurer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 886,
+   "output": "861475,Cost-effectiveness of pharmacological and psychosocial interventions for schizophrenia (Structured abstract),,Cost Effectiveness and Resource Allocation,,1478-7547 (electronic),9,1,1/1/11,,\"{\"\"P. Phanthunane\"\",\"\"M. Bertram\"\",\"\"H. Whiteford\"\",\"\"T. Vos\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 830,
+   "output": "411673,Sleep and sleep disorders in the hospital,English,,,,141,5,1/1/12,1337-45,\"{\"\"S. B. Venkateshiah\"\",\"\"N. A. Collop\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 11,
+   "output": "340223,A comparative evaluation of two head and neck immobilization devices using electronic portal imaging,,The British journal of radiology,,,80,1,1/1/07,162-5,\"{\"\"K. Fleming\"\",\"\"K. Donato\"\",\"\"K. Leszczynski\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

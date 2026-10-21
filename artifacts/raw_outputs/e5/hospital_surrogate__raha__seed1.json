@@ -1,0 +1,1085 @@
+{
+ "dataset": "hospital_surrogate",
+ "mode": "raha",
+ "seed": 1,
+ "seconds": 28,
+ "detected": 206,
+ "corrections": 205,
+ "counts": {
+  "all": {
+   "errors": 509,
+   "predicted": 187,
+   "repaired": 187,
+   "detected": 187
+  },
+  "identity": {
+   "errors": 219,
+   "predicted": 69,
+   "repaired": 69,
+   "detected": 69
+  },
+  "other": {
+   "errors": 290,
+   "predicted": 118,
+   "repaired": 118,
+   "detected": 118
+  }
+ },
+ "fixes": [
+  [
+   532,
+   "HospitalName",
+   "morsultas health center"
+  ],
+  [
+   171,
+   "HospitalName",
+   "rhoulafen health center"
+  ],
+  [
+   730,
+   "HospitalName",
+   "velgartas health center"
+  ],
+  [
+   777,
+   "HospitalName",
+   "uladrikel health center"
+  ],
+  [
+   987,
+   "HospitalName",
+   "vasmorrho health center"
+  ],
+  [
+   532,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   16,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   39,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   98,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   199,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   213,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   266,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   280,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   293,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   411,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   413,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   453,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   490,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   493,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   497,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   511,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   588,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   634,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   695,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   705,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   729,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   779,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   782,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   814,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   848,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   877,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   902,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   926,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   949,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   956,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   964,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   976,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   532,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   532,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   256,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   21,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   127,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   199,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   225,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   236,
+   "Condition",
+   "suxgical infection pxevention"
+  ],
+  [
+   239,
+   "Condition",
+   "surgxcal infectxon preventxon"
+  ],
+  [
+   279,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   366,
+   "Condition",
+   "pnxumonia"
+  ],
+  [
+   369,
+   "Condition",
+   "pnexmonia"
+  ],
+  [
+   386,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   400,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   467,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   506,
+   "Condition",
+   "pneumonix"
+  ],
+  [
+   599,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   608,
+   "Condition",
+   "surgical ixfectiox prevextiox"
+  ],
+  [
+   631,
+   "Condition",
+   "pneumonxa"
+  ],
+  [
+   679,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   695,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   698,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   712,
+   "Condition",
+   "surgical infection xrevention"
+  ],
+  [
+   716,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   733,
+   "Condition",
+   "suxgical infection pxevention"
+  ],
+  [
+   780,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   851,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   869,
+   "Condition",
+   "surgical ixfectiox prevextiox"
+  ],
+  [
+   955,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   974,
+   "Condition",
+   "surgical xnfection prevention"
+  ],
+  [
+   256,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   256,
+   "Score",
+   "96%"
+  ],
+  [
+   405,
+   "Score",
+   "94%"
+  ],
+  [
+   769,
+   "Score",
+   "93%"
+  ],
+  [
+   555,
+   "Condition",
+   "pxeumoxia"
+  ],
+  [
+   673,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   97,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   108,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   120,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   177,
+   "MeasureCode",
+   "hf-2"
+  ],
+  [
+   190,
+   "MeasureCode",
+   "scip-inf-4"
+  ],
+  [
+   264,
+   "MeasureCode",
+   "scip-inf-3"
+  ],
+  [
+   349,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   391,
+   "MeasureCode",
+   "pn-3b"
+  ],
+  [
+   398,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   409,
+   "MeasureCode",
+   "scip-inf-1"
+  ],
+  [
+   464,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   495,
+   "MeasureCode",
+   "ami-5"
+  ],
+  [
+   580,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   639,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   676,
+   "MeasureCode",
+   "hf-4"
+  ],
+  [
+   694,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   718,
+   "MeasureCode",
+   "ami-3"
+  ],
+  [
+   735,
+   "MeasureCode",
+   "scip-inf-2"
+  ],
+  [
+   749,
+   "MeasureCode",
+   "hf-2"
+  ],
+  [
+   774,
+   "MeasureCode",
+   "cac-1"
+  ],
+  [
+   788,
+   "MeasureCode",
+   "pn-2"
+  ],
+  [
+   0,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   94,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   111,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   119,
+   "MeasureName",
+   "heart attack patients given aspirin at arrivax"
+  ],
+  [
+   145,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   210,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   219,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   281,
+   "MeasureName",
+   "pnxumonia patixnts whosx initial emxrgxncy room blood culturx was pxrformxd prior to thx administration of thx first hospital dosx of antibiotics"
+  ],
+  [
+   290,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   346,
+   "MeasureName",
+   "surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries"
+  ],
+  [
+   380,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   389,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   473,
+   "MeasureName",
+   "heart failure patients given discharge instructions"
+  ],
+  [
+   493,
+   "MeasureName",
+   "heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   507,
+   "MeasureName",
+   "pneumonix pxtients assessed xnd given influenzx vxccinxtion"
+  ],
+  [
+   541,
+   "MeasureName",
+   "hexrt attxck pxtients given aspirin xt arrivxl"
+  ],
+  [
+   545,
+   "MeasureName",
+   "heart attack patients given beta blocker at discharge"
+  ],
+  [
+   562,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   612,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   650,
+   "MeasureName",
+   "heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   651,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   672,
+   "MeasureName",
+   "heart attack patients given pci within 90 minutes of arrival"
+  ],
+  [
+   705,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   706,
+   "MeasureName",
+   "pneumonia patients given the most appropriate initial antibiotic(s)"
+  ],
+  [
+   713,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   785,
+   "MeasureName",
+   "heart failure patients given an evaluation of left ventricular systolic (lvs) function"
+  ],
+  [
+   802,
+   "MeasureName",
+   "heart attack patxents gxven aspxrxn at arrxval"
+  ],
+  [
+   816,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   893,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaxxination"
+  ],
+  [
+   902,
+   "MeasureName",
+   "children who received reliever medication while hospitalized for asthma"
+  ],
+  [
+   915,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   997,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   673,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   26,
+   "HospitalName",
+   "quenoskny regional hospital"
+  ],
+  [
+   131,
+   "HospitalName",
+   "osklogar memorial hospital"
+  ],
+  [
+   243,
+   "HospitalName",
+   "garjouzar medical center"
+  ],
+  [
+   337,
+   "HospitalName",
+   "lojouula regional hospital"
+  ],
+  [
+   385,
+   "HospitalName",
+   "calulahep medical center"
+  ],
+  [
+   448,
+   "HospitalName",
+   "tasquenkel medical center"
+  ],
+  [
+   560,
+   "HospitalName",
+   "garbalo medical center"
+  ],
+  [
+   654,
+   "HospitalName",
+   "zarmorfen medical center"
+  ],
+  [
+   697,
+   "HospitalName",
+   "drivelbrin health center"
+  ],
+  [
+   710,
+   "HospitalName",
+   "drivelbrin health center"
+  ],
+  [
+   758,
+   "HospitalName",
+   "lozarsul health center"
+  ],
+  [
+   765,
+   "HospitalName",
+   "lozarsul health center"
+  ],
+  [
+   903,
+   "HospitalName",
+   "ulabrinpim health center"
+  ],
+  [
+   938,
+   "HospitalName",
+   "torjouzar memorial hospital"
+  ],
+  [
+   956,
+   "HospitalName",
+   "oskkelba regional hospital"
+  ],
+  [
+   962,
+   "HospitalName",
+   "oskkelba regional hospital"
+  ],
+  [
+   935,
+   "Address1",
+   "7859 taskel street"
+  ],
+  [
+   945,
+   "Address1",
+   "7859 taskel street"
+  ],
+  [
+   842,
+   "MeasureCode",
+   "pn-6"
+  ],
+  [
+   244,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   253,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   360,
+   "ProviderNumber",
+   "94104"
+  ],
+  [
+   724,
+   "ProviderNumber",
+   "97253"
+  ],
+  [
+   780,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   244,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   384,
+   "HospitalName",
+   "calulahep medical center"
+  ],
+  [
+   411,
+   "Address1",
+   "1958 garhep avenue"
+  ],
+  [
+   767,
+   "Address1",
+   "8113 rhopim street"
+  ],
+  [
+   934,
+   "Address1",
+   "7859 taskel street"
+  ],
+  [
+   434,
+   "MeasureName",
+   "heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   447,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   384,
+   "PhoneNumber",
+   "2363163948"
+  ],
+  [
+   13,
+   "ProviderNumber",
+   "96890"
+  ],
+  [
+   45,
+   "ProviderNumber",
+   "94242"
+  ],
+  [
+   81,
+   "ProviderNumber",
+   "98376"
+  ],
+  [
+   213,
+   "ProviderNumber",
+   "95866"
+  ],
+  [
+   273,
+   "ProviderNumber",
+   "98268"
+  ],
+  [
+   314,
+   "ProviderNumber",
+   "92281"
+  ],
+  [
+   408,
+   "ProviderNumber",
+   "99861"
+  ],
+  [
+   559,
+   "ProviderNumber",
+   "91649"
+  ],
+  [
+   608,
+   "ProviderNumber",
+   "97113"
+  ],
+  [
+   627,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   639,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   645,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   655,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   704,
+   "ProviderNumber",
+   "97815"
+  ],
+  [
+   721,
+   "ProviderNumber",
+   "97253"
+  ],
+  [
+   755,
+   "ProviderNumber",
+   "98541"
+  ],
+  [
+   789,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   793,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   859,
+   "ProviderNumber",
+   "90230"
+  ],
+  [
+   878,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   888,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   933,
+   "ProviderNumber",
+   "90018"
+  ],
+  [
+   955,
+   "ProviderNumber",
+   "98086"
+  ],
+  [
+   94,
+   "Address1",
+   "9751 lokel street"
+  ],
+  [
+   106,
+   "Address1",
+   "9751 lokel street"
+  ],
+  [
+   260,
+   "Address1",
+   "2593 nybrin road"
+  ],
+  [
+   264,
+   "Address1",
+   "2593 nybrin road"
+  ],
+  [
+   275,
+   "Address1",
+   "9208 garba drive"
+  ],
+  [
+   316,
+   "Address1",
+   "8113 rhopim street"
+  ],
+  [
+   350,
+   "Address1",
+   "1377 vasquen blvd"
+  ],
+  [
+   652,
+   "Address1",
+   "155 quenquen road"
+  ],
+  [
+   849,
+   "Address1",
+   "8579 vasmor avenue"
+  ],
+  [
+   857,
+   "Address1",
+   "6615 rhopim road"
+  ],
+  [
+   22,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   73,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   229,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   860,
+   "Score",
+   "80%"
+  ],
+  [
+   187,
+   "Score",
+   "95%"
+  ],
+  [
+   252,
+   "Score",
+   "89%"
+  ],
+  [
+   506,
+   "Score",
+   "93%"
+  ],
+  [
+   57,
+   "Address1",
+   "2178 kelpim blvd"
+  ],
+  [
+   393,
+   "Address1",
+   "1958 garhep avenue"
+  ],
+  [
+   787,
+   "Stateavg",
+   "al_hf-4"
+  ],
+  [
+   772,
+   "City",
+   "logar"
+  ],
+  [
+   42,
+   "State",
+   "al"
+  ],
+  [
+   42,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ]
+ ],
+ "all": {
+  "repair_p": 1.0,
+  "repair_r": 0.3674,
+  "repair_f1": 0.5374,
+  "detect_f1": 0.5374,
+  "errors": 509,
+  "predicted": 187,
+  "repaired": 187,
+  "detected": 187
+ },
+ "identity": {
+  "repair_p": 1.0,
+  "repair_r": 0.3151,
+  "repair_f1": 0.4792,
+  "detect_f1": 0.4792,
+  "errors": 219,
+  "predicted": 69,
+  "repaired": 69,
+  "detected": 69
+ },
+ "other": {
+  "repair_p": 1.0,
+  "repair_r": 0.4069,
+  "repair_f1": 0.5784,
+  "detect_f1": 0.5784,
+  "errors": 290,
+  "predicted": 118,
+  "repaired": 118,
+  "detected": 118
+ }
+}

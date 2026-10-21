@@ -1,0 +1,386 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-7b",
+  "dataset": "hospital",
+  "source": "clean",
+  "named": true,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [
+   "index"
+  ],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.9649,
+  "acc_noninferable": 0.2563,
+  "noninferable_cells": 238,
+  "acc_hard": 0.04,
+  "hard_cells": 75,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "MeasureCode": {
+    "n": 49,
+    "model": 0.592,
+    "freq": 0.0,
+    "trans": 1.0,
+    "structural": 1.0
+   },
+   "MeasureName": {
+    "n": 49,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 1.0,
+    "structural": 1.0
+   },
+   "Score": {
+    "n": 24,
+    "model": 0.083,
+    "freq": 0.042,
+    "trans": 0.0,
+    "structural": 0.042
+   },
+   "Sample": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.025,
+    "trans": 0.025,
+    "structural": 0.025
+   },
+   "Stateavg": {
+    "n": 49,
+    "model": 0.592,
+    "freq": 0.0,
+    "trans": 0.98,
+    "structural": 0.98
+   },
+   "Condition": {
+    "n": 10,
+    "model": 0.1,
+    "freq": 0.3,
+    "trans": 0.0,
+    "structural": 1.0
+   },
+   "ProviderNumber": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 1.0
+   },
+   "HospitalName": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "Address1": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "City": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.5,
+    "trans": 0.0,
+    "structural": 0.5
+   },
+   "ZipCode": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "CountyName": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.5,
+    "trans": 0.0,
+    "structural": 0.5
+   },
+   "PhoneNumber": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "HospitalOwner": {
+    "n": 2,
+    "model": 0.0,
+    "freq": 0.5,
+    "trans": 0.0,
+    "structural": 0.5
+   },
+   "EmergencyService": {
+    "n": 1,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "875,10044,marion regional medical center,1256 military street south,empty,empty,hamilton,al,35570,marion,2059216200,acute care hospitals,voluntary non-profit - private,yes,surgical infection prevention,scip-inf-5,all heart surgery patients who received the right kind of antibiotic to help prevent infection,87%,15 patients,al_scip-inf-5",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "405,10108,prattville baptist hospital,124 s memorial dr,empty,empty,prattville,al,36067,autauga,3343614267,acute care hospitals,voluntary non-profit - private,yes,pneumonia,pn-4,pneumonia patients given flu vaccine,95%,116 patients,al_pn-4",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "787,10039,huntsville hospital,101 sivley rd,empty,empty,huntsville,al,35801,madison,2562651000,acute care hospitals,government - hospital district or authority,yes,heart failure,hf-3,heart failure patients given discharge medications,94%,303 patients,al_hf-3",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "922,10046,riverview regional medical center,600 south third street,empty,empty,gadsden,al,35901,etowah,2565435200,acute care hospitals,proprietary,yes,pneumonia,pn-7,pneumonia patients given discharge instructions,100%,239 patients,al_pn-7",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "441,20017,alaska regional hospital,2801 debarr road,empty,empty,anchorage,ak,99508,anchorage,9072761131,acute care hospitals,proprietary,yes,pneumonia,pn-6,pneumonia patients with comorbidities who received discharge instructions,94%,26 patients,ak_pn-6",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "52,10005,marshall medical center south,2505 u s highway 431 north,empty,empty,boaz,al,35957,marshall,2565938310,acute care hospitals,government - hospital district or authority,yes,heart attack,ami-9a,heart attack patients given alteplase (tpa) within 30 minutes of arrival,empty,0 patients,al_ami-9a",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "276,10016,shelby baptist medical center,1000 first street north,empty,empty,alabaster,al,35007,shelby,2056208100,acute care hospitals,voluntary non-profit - church,yes,heart attack,ami-7b,heart attack patients given fibrinolytic medication within 30 minutes of meeting criteria for treatment,empty,0 patients,al_ami-7b",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "534,10023,baptist medical center south,2105 east south boulevard,empty,empty,montgomery,al,36116,montgomery,3342882100,acute care hospitals,voluntary non-profit - church,yes,pneumonia,pn-8,pneumonia patients assessed and given pneumococcal vaccination,94%,103 patients,al_pn-8",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "508,10022,cherokee medical center,400 northwood dr,empty,empty,centre,al,35960,cherokee,2569275531,acute care hospitals,voluntary non-profit - private,yes,pneumonia,pn-7,pneumonia patients given discharge instructions,95%,44 patients,al_pn-7",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "425,10164,coosa valley medical center,315 w hickory st,empty,empty,sylacauga,al,35150,talladega,2562495000,acute care hospitals,voluntary non-profit - other,no,heart failure,hf-4,heart failure patients given beta blocker,85%,21 patients,al_hf-4",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "951,10047,georgiana hospital,515 miranda st,empty,empty,georgiana,al,36033,butler,3343762205,acute care hospitals,voluntary non-profit - private,no,surgical infection prevention,scip-inf-3,surgery patients who received the correct dose of antibiotic to help prevent infection,empty,empty,al_scip-inf-3",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "813,10040,gadsden regional medical center,1007 goodyear avenue,empty,empty,gadsden,al,35903,etowah,2564944000,acute care hospitals,proprietary,yes,heart failure,hf-4,heart failure patients given discharge medications,91%,211 patients,al_hf-4",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "856,10044,marion regional medical center,1256 military street south,empty,empty,hamilton,al,35570,marion,2059216200,acute care hospitals,voluntary non-profit - private,yes,heart attack,ami-4,heart attack patients given smoking cessation advice/counseling,empty,0 patients,al_ami-4",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "321,10038,stringfellow memorial hospital,301 east 18th st,empty,empty,anniston,al,36201,calhoun,2562358900,acute care hospitals,proprietary,yes,heart failure,hf-1,heart failure patients given angiotensin converting enzyme (ace) inhibitors,95%,11 patients,al_hf-1",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "499,10022,cherokee medical center,400 northwood dr,empty,empty,centre,al,35960,cherokee,2569275531,acute care hospitals,voluntary non-profit - private,yes,heart attack,ami-9a,heart attack patients given appropriate discharge instructions,empty,0 patients,al_ami-9a",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "377,10086,northwest medical center,1530 u s highway 43,empty,empty,winfield,al,35594,marion,2054877736,acute care hospitals,proprietary,yes,surgical infection prevention,scip-inf-5,all other surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,95%,105 patients,al_scip-inf-5",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "608,10027,elba general hospital,987 drayton street,empty,empty,elba,al,36323,coffee,3348972257,acute care hospitals,voluntary non-profit - other,yes,pneumonia,pn-7,pneumonia patients given discharge instructions,100%,30 patients,al_pn-7",
+   "parsed": true
+  },
+  {
+   "row": 923,
+   "output": "924,10046,riverview regional medical center,600 south third street,empty,empty,gadsden,al,35901,etowah,2565435200,acute care hospitals,proprietary,yes,surgical infection prevention,scip-card-3,surgery patients who were taking blood thinners before coming to the hospital who were kept on the blood thinners during the period just before and after their surgery,98%,112 patients,al_scip-card-3",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "940,10047,georgiana hospital,515 miranda st,empty,empty,georgiana,al,36033,butler,3343762205,acute care hospitals,voluntary non-profit - private,no,heart failure,hf-3,heart failure patients given discharge medications,85%,51 patients,al_hf-3",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "234,10012,dekalb regional medical center,200 med center drive,empty,empty,fort payne,al,35968,de kalb,2568453150,acute care hospitals,voluntary non-profit - church,yes,pneumonia,pn-5,pneumonia patients given discharge instructions,95%,101 patients,al_pn-5",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "527,10023,baptist medical center south,2105 east south boulevard,empty,empty,montgomery,al,36116,montgomery,3342882100,acute care hospitals,voluntary non-profit - church,yes,heart failure,hf-4,heart failure patients given beta blocker,100%,112 patients,al_hf-4",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "153,10009,hartselle medical center,201 pine street northwest,empty,empty,hartselle,al,35640,morgan,2567736511,acute care hospitals,proprietary,yes,heart failure,hf-2,heart failure patients given angiotensin-converting enzyme (ace) inhibitors or angiotensin receptor blockers (arb) for left ventricular systolic dysfunction (lvfsd),97%,35 patients,al_hf-2",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "299,10018,callahan eye foundation hospital,1720 university blvd,empty,empty,birmingham,al,35233,jefferson,2053258100,acute care hospitals,voluntary non-profit - private,yes,heart attack,ami-5,heart attack patients given beta blocker therapy within 24 hours of arrival,empty,empty,al_ami-5",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "154,10009,hartselle medical center,201 pine street northwest,empty,empty,hartselle,al,35640,morgan,2567736511,acute care hospitals,proprietary,yes,heart failure,hf-3,heart failure patients given discharge medications,98%,35 patients,al_hf-3",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "784,10039,huntsville hospital,101 sivley rd,empty,empty,huntsville,al,35801,madison,2562651000,acute care hospitals,government - hospital district or authority,yes,heart attack,ami-7b,heart attack patients given fibrinolytic medication within 30 minutes of arrival,0%,0 patients,al_ami-7b",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "108,10007,mizell memorial hospital,702 n main st,empty,empty,opp,al,36467,covington,3344933541,acute care hospitals,voluntary non-profit - private,no,pneumonia,pn-4,pneumonia patients given flu vaccine,89%,102 patients,al_pn-4",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "644,10032,wedowee hospital,209 north main street,empty,empty,wedowee,al,36278,randolph,2563572111,acute care hospitals,government - local,no,heart attack,ami-3,heart attack patients given beta-blockers at arrival,75%,4 patients,al_ami-3",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "829,10043,chilton medical center,1010 lay dam road,empty,empty,clanton,al,35045,chilton,2057552500,acute care hospitals,voluntary non-profit - private,yes,heart attack,ami-2,heart attack patients given a medication to break up blood clots within 12 hours of arrival,91%,1 patients,al_ami-2",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "267,10015,southwest alabama medical center,33700 highway 43,empty,empty,thomasville,al,36784,clarke,3346366221,acute care hospitals,government - federal,yes,surgical infection prevention,scip-inf-5,all other surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery,empty,14 patients,al_scip-inf-5",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "942,10047,georgiana hospital,515 miranda st,empty,empty,georgiana,al,36033,butler,3343762205,acute care hospitals,voluntary non-profit - private,no,heart failure,hf-5,heart failure patients given beta blocker,50%,10 patients,al_hf-5",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "556,10024,jackson hospital & clinic inc,1725 pine street,empty,empty,montgomery,al,36106,montgomery,3342938000,acute care hospitals,voluntary non-profit - private,yes,pneumonia,pn-5,pneumonia patients given discharge instructions,90%,243 patients,al_pn-5",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "733,10035,cullman regional medical center,1912 alabama highway 157,empty,empty,cullman,al,35058,cullman,2567372000,acute care hospitals,government - hospital district or authority,yes,pneumonia,pn-7,pneumonia patients given fluconazole for suspected or confirmed candidemia,100%,138 patients,al_pn-7",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "840,10043,chilton medical center,1010 lay dam road,empty,empty,clanton,al,35045,chilton,2057552500,acute care hospitals,voluntary non-profit - private,yes,pneumonia,pn-3,pneumonia patients assessed and given influenza vaccination,92%,47 patients,al_pn-3",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "627,10029,east alabama medical center and snf,2000 pepperell parkway,empty,empty,opelika,al,36801,lee,3347493411,acute care hospitals,government - hospital district or authority,yes,heart failure,hf-4,heart failure patients given beta blocker,88%,272 patients,al_hf-4",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "934,10047,georgiana hospital,515 miranda st,empty,empty,georgiana,al,36033,butler,3343762205,acute care hospitals,voluntary non-profit - private,no,heart attack,ami-4,heart attack patients given beta-blocker for left ventricular systolic dysfunction (lvsd),100%,1 patients,al_ami-4",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "161,10009,hartselle medical center,201 pine street northwest,empty,empty,hartselle,al,35640,morgan,2567736511,acute care hospitals,proprietary,yes,pneumonia,pn-7,pneumonia patients given discharge instructions,100%,45 patients,al_pn-7",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "328,10038,stringfellow memorial hospital,301 east 18th st,empty,empty,anniston,al,36201,calhoun,2562358900,acute care hospitals,proprietary,yes,pneumonia,pn-5,pneumonia patients given discharge instructions,97%,110 patients,al_pn-5",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "112,10007,mizell memorial hospital,702 n main st,empty,empty,opp,al,36467,covington,3344933541,acute care hospitals,voluntary non-profit - private,no,pneumonia,pn-8,pneumonia patients assessed and given pneumococcal vaccination,87%,85 patients,al_pn-8",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "758,10036,andalusia regional hospital,849 south three notch street,empty,empty,andalusia,al,36420,covington,3342228466,acute care hospitals,proprietary,no,pneumonia,pn-7,pneumonia patients given discharge instructions,100%,118 patients,al_pn-7",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "86,10006,eliza coffee memorial hospital,205 marengo street,empty,empty,florence,al,35631,lauderdale,2567688400,acute care hospitals,voluntary non-profit - other,yes,pneumonia,pn-7,pneumonia patients given discharge instructions,88%,138 patients,al_pn-7",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "931,10046,riverview regional medical center,600 south third street,empty,empty,gadsden,al,35901,etowah,2565435200,acute care hospitals,proprietary,yes,surgical infection prevention,scip-vte-3,surgery patients who received the right type of treatment to help prevent blood clots after certain types of surgery,91%,280 patients,al_scip-vte-3",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "881,10045,fayette medical center,1653 temple avenue north,empty,empty,fayette,al,35555,fayette,2059325966,acute care hospitals,voluntary non-profit - other,yes,heart attack,ami-4,heart attack patients given beta blocker for left ventricular systolic dysfunction (lvsd),0%,1 patients,al_ami-4",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "711,10034,community hospital inc,805 friendship road,empty,empty,tallassee,al,36078,elmore,3342836541,acute care hospitals,voluntary non-profit - private,no,surgical infection prevention,scip-inf-2,surgery patients who were given the correct type of antibiotic to help prevent infection,95%,12 patients,al_scip-inf-2",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "349,10055,flowers hospital,4370 west main street,empty,empty,dothan,al,36305,houston,3347935000,acute care hospitals,proprietary,yes,surgical infection prevention,scip-vte-3,surgery patients who received the right type of treatment to help prevent blood clots after certain types of surgery,100%,497 patients,al_scip-vte-3",
+   "parsed": true
+  },
+  {
+   "row": 493,
+   "output": "494,10022,cherokee medical center,400 northwood dr,empty,empty,centre,al,35960,cherokee,2569275531,acute care hospitals,voluntary non-profit - private,yes,heart attack,ami-3,heart attack patients given beta-blockers at arrival,100%,1 patients,al_ami-3",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "584,10025,g h lanier memorial hospital,4800 48th st,empty,empty,valley,al,36854,chambers,3347561400,acute care hospitals,voluntary non-profit - other,yes,pneumonia,pn-8,pneumonia patients assessed and given pneumococcal vaccination for those at high risk,83%,48 patients,al_pn-8",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "114,10007,mizell memorial hospital,702 n main st,empty,empty,opp,al,36467,covington,3344933541,acute care hospitals,voluntary non-profit - private,no,surgical infection prevention,scip-inf-2,surgery patients who were given the correct type of antibiotic to help prevent infection,89%,101 patients,al_scip-inf-2",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "373,10086,northwest medical center,1530 u s highway 43,empty,empty,winfield,al,35594,marion,2054877736,acute care hospitals,proprietary,yes,surgical infection prevention,scip-card-3,surgery patients who were taking blood thinners before coming to the hospital who were kept on the blood thinners during the period just before and after their surgery,95%,21 patients,al_scip-card-3",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "455,10019,helen keller memorial hospital,1300 south montgomery avenue,empty,empty,sheffield,al,35660,jefferson,2563864556,acute care hospitals,government - hospital district or authority,yes,pneumonia,pn-4,pneumonia patients assessed for risk of developing complications,95%,149 patients,al_pn-4",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "334,10055,flowers hospital,4370 west main street,empty,empty,dothan,al,36305,houston,3347935000,acute care hospitals,proprietary,yes,heart failure,hf-4,heart failure patients given smoking cessation advice/counseling,100%,123 patients,al_hf-4",
+   "parsed": true
+  }
+ ]
+}

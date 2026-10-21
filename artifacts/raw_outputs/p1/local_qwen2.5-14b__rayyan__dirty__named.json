@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-14b",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": true,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.98,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.2222,
+  "acc_noninferable": 0.0053,
+  "noninferable_cells": 377,
+  "acc_hard": 0.0,
+  "hard_cells": 358,
+  "leak_rate": 0.0,
+  "leak_cells": 45,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 45,
+  "per_column": {
+   "id": {
+    "n": 49,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 49,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 38,
+    "model": 0.0,
+    "freq": 0.053,
+    "trans": 0.0,
+    "structural": 0.053
+   },
+   "jounral_abbreviation": {
+    "n": 15,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 29,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.093
+   },
+   "article_pagination": {
+    "n": 43,
+    "model": 0.0,
+    "freq": 0.047,
+    "trans": 0.0,
+    "structural": 0.047
+   },
+   "author_list": {
+    "n": 46,
+    "model": 0.0,
+    "freq": 0.022,
+    "trans": 0.0,
+    "structural": 0.022
+   },
+   "article_jcreated_at": {
+    "n": 37,
+    "model": 0.0,
+    "freq": 0.081,
+    "trans": 0.0,
+    "structural": 0.081
+   },
+   "article_language": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 21,
+    "model": 0.095,
+    "freq": 0.095,
+    "trans": 0.048,
+    "structural": 0.333
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "149836,Exercise-induced changes of the upper extremity in chronic stroke survivors,eng,,,,12,0,1/1/05,58-68 ST  - Exercise-induced changes of the upper extremity in chronic stroke survivors-,\"{\"\"P. Kluding\"\",\"\"S. A. DA  - Winter DO  - 10.1310/let5-xnby-98q6-q8tg DP  - NLM ET  - 2005/03/01 Billinger\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "12345,\"Impact of telemedicine on patient outcomes in rural areas\",eng,J Telemed Telecare,J Telemed Telecare,1357-633X,20,7,1/1/14,389-95,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "102345,Evaluation of a New Pain Management Protocol in Postoperative Patients,,,,,15,1,3/1/14,45-52,\"{\"\"L. Smith\"\",\"\"E. Jones\"\",\"\"R. Brown\"\",\"\"M. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 921,
+   "output": "422952,A systematic review of the effects of mindfulness-based interventions on mental health outcomes in adolescents.,eng,Clinical psychology review,Clin Psychol Rev,0272-7358,85,,10/1/20,101917,\"{\"\"Emily C. Treynor\"\",\"\"Michael Fennell\"\",\"\"Nancy A. Martins\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "982590,Cost implications for missed malnutrition diagnoses in patients hospitalised with an exacerbation of chronic obstructive pulmonary disease (COPD),,Respirology,,,20,0,1/1/15,36,\"{\"\"I. Yang\"\",\"\"J. Stonestreet\"\",\"\"P. Collins\"\",\"\"P. Masel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "123456,Influence of Dietary Patterns on Cardiovascular Health,eng,Nutrition Reviews,Nutr. Rev.,0029-6646,78,4,4/1/18,567-589,\"{\"\"Emily Smith\"\",\"\"John Doe\"\",\"\"Jane Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "867207,Early predicting of blood component quality by Statistical Process Control,,Vox Sanguinis,,0042-9007,99,0,1/1/10,227,\"{\"\"H. Jungk\"\",\"\"W. Madla\"\",\"\"V. Schottstedt\"\",\"\"T. Alt\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "105981,A common variant in the FTO gene is associated with body mass index and predisposes to childhood and adult obesity.,eng,\"Science (New York, N.Y.)\",Science,1095-9203,316,5826,5/11/07,889-94,\"{\"\"George Davey Smith\"\",\"\"Amanda J Bennett\"\",\"\"Eleftheria Zeggini\"\",\"\"Marjo-Riitta Jarvelin\"\",\"\"Nicholas J Wareham\"\",\"\"Lorna W Harries\"\",\"\"Colin N A Palmer\"\",\"\"Shah Ebrahim\"\",\"\"Timothy M Frayling\"\",\"\"Susan M Ring\"\",\"\"Bridget Knight\"\",\"\"Sian Ellard\"\",\"\"Katharine R Owen\"\",\"\"Rachel M Freathy\"\",\"\"Hana Lango\"\",\"\"Debbie A Lawlor\"\",\"\"Lon R Cardon\"\",\"\"John R B Perry\"\",\"\"Jeffrey C Barrett\"\",\"\"Andrew D Morris\"\",\"\"Graham A Hitman\"\",\"\"Katherine S Elliott\"\",\"\"Ulla Sovio\"\",\"\"Mark I McCarthy\"\",\"\"David Melzer\"\",\"\"Alex S F Doney\"\",\"\"Andrew R Ness\"\",\"\"Yoav Ben-Shlomo\"\",\"\"Andrew T Hattersley\"\",\"\"Ann-Marie Patch\"\",\"\"Nicholas J Timpson\"\",\"\"Nigel W Rayner\"\",\"\"Mark Walker\"\",\"\"Michael N Weedon\"\",\"\"Ruth J F Loos\"\",\"\"Fredrik Karpe\"\",\"\"In̻s Barroso\"\",\"\"Luigi Ferrucci\"\",\"\"Christopher J Groves\"\",\"\"Cecilia M Lindgren\"\",\"\"Beverley Shields\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "1024567,Impact of social media on adolescent mental health,,Journal of Adolescent Health,J Adol Health,1054-139X,68,3,1/1/20,345-50,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Public\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450750,Efficacy and safety of sofosbuvir-based regimens for the treatment of chronic hepatitis C virus infection: A systematic review and meta-analysis.,,,,0,0,,,{NULL}",
+   "parsed": false
+  },
+  {
+   "row": 950,
+   "output": "134738,Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?,,,,,17,0,1/1/12,261-270 ST  - Are stretches effective in the prevention and treatment of glenohumeral internal rotation deficit?-,\"{\"\"Stuart Calver\"\",\"\"Julia Nichols\"\",\"\"Rachel C1  - Fr̴n systematiska ̦versikter -șkningen CN  - Cinahl DB  - c8h DO  - 10.1179/1743288X12Y.0000000021 DP  - EBSCOhost Chester\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "102456,Effectiveness of mindfulness-based stress reduction for anxiety disorders: A systematic review and meta-analysis,eng,Clinical Psychology Review,Clin Psychol Rev,0272-7358,74,,1/1/20,101876,\"{\"\"Emily J. Thomas\"\",\"\"Tim J. Sharp\"\",\"\"David S. Black\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 859,
+   "output": "852476,\"Impact of a pharmacist-led medication reconciliation on adverse drug events and potential adverse drug events in hospitalized patients\",eng,Research in social & administrative pharmacy,Res Social Adm Pharm,1551-7411,14,1,1/1/18,123-131,\"{\"\"Jessica L. Killeen\"\",\"\"Sarah E. Hillyer\"\",\"\"Jennifer L. Stultz\"\",\"\"Michael J. Weaver\"\",\"\"Shawn G. Chen\"\",\"\"John D. Carter\"\",\"\"James M. Hoffman\"\",\"\"Robert A. Bell\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "123456,Recent Advances in Artificial Intelligence for Medical Diagnosis,English,Journal of Medical Systems,J Med Syst,0093-4737,45,6,1/1/21,123-134,\"{\"\"Dr. Jane Smith\"\",\"\"Dr. John Doe\"\",\"\"Dr. Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "102456,\"Impact of telemedicine on patient outcomes in rural areas.\",eng,\"Journal of Telemedicine and Telecare\",J Telemed Telecare,1357-633X,20,5,10/1/14,253-259,\"{\"\"E. Smith\"\",\"\"L. Jones\"\",\"\"R. Brown\"\",\"\"M. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "1012345,Evaluation of a New Pain Management Protocol in Postoperative Patients,en,Pain Management Nursing,,1524-9042,15,3,6/1/14,145-154,\"{\"\"Jane Smith\"\",\"\"John Doe\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "823456,\"Impact of a school-based intervention on physical activity levels among adolescents: a cluster randomized controlled trial.\",eng,Journal of Physical Activity & Health,,1543-3012,11,8,1/1/14,823-832,\"{\"\"T. Smith\"\",\"\"J. Doe\"\",\"\"M. Brown\"\",\"\"L. White\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 923,
+   "output": "109595,[Blood insulin values after the oral glucose tolerance test (OGTT) and the body composition in 30 obese children].,ita,La Pediatria medica e chirurgica : Medical and surgical pediatrics,Pediatr Med Chir,0391-5387,16,5,9/1/94,471-3,\"{\"\"A Luciano\"\",\"\"G Zoppi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "1012345,\"Impact of telemedicine on patient outcomes in rural areas\",eng,Telmed Journal and e-Health,Telmed,1556-3324,20,4,1/1/20,234-41,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "621543,\"The role of ghrelin in the regulation of energy balance and glucose homeostasis.\",eng,Peptides,Peptides,0196-9781,30,1,1/1/09,26-34,\"{\"\"Thomas Scherer\"\",\"\"Jose M Garcia\"\",\"\"Victor Papusha\"\",\"\"Ji-an Chen\"\",\"\"Mark Asnicar\"\",\"\"Joanna Smiechowska\"\",\"\"Bobby Guillory\"\",\"\"Christoph Buettner\"\",\"\"Roy G Smith\"\",\"\"Anriada Nassif\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "100123,Efficacy and safety of high-dose vitamin D in chronic kidney disease patients: a randomized controlled trial.,eng,American journal of kidney diseases,AJ Kidney Dis,0272-6386,56,3,9/1/10,405-13,\"{\"\"Robert Heaney\"\",\"\"Vincent D. Hornick\"\",\"\"Michael F. Holick\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "100245,Impact of a pharmacist-led medication review on hospital readmissions in older adults: a randomized controlled trial,eng,Australian Prescriber,Aust Prescr,1834-4041,38,4,7/1/15,125-9,\"{\"\"Catherine A Simpson\"\",\"\"Sarah N Pettitt\"\",\"\"Glenys D Posner\"\",\"\"David J Morgan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "1012345,Impact of Social Media on Mental Health Among Adolescents,eng,JAMA Pediatrics,JAMA Pediatr,2168-6211,175,10,10/1/21,e213456,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Public\"\",\"\"Z. Example\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "456789,Impact of telemedicine on patient outcomes in rural areas:,eng,Telmed Telecare,Telmed Telecare,1357-683X,22,4,7/1/17,234-41,\"{\"\"L. Smith\"\",\"\"J. Doe\"\",\"\"A. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "1024567,Efficacy of Cognitive Behavioral Therapy in Treating Generalized Anxiety Disorder.,eng,J Clin Psychiatry,J Clin Psychiatry,0160-6689,75,5,5/1/14,327-33,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "983457,\"Impact of social media on mental health among teenagers\",eng,Pediatrics,Pediatrics,0031-4005,140,4,10/1/17,1-10,\"{\"\"L. Johnson\"\",\"\"R. Smith\"\",\"\"E. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "456789,Impact of Telemedicine on Patient Outcomes in Rural Areas,eng,Rural Remote Health,Rural Remote Health,1445-6354,18,3,6/1/18,1-10,\"{\"\"Jane Smith\"\",\"\"John Doe\"\",\"\"Alice Johnson\"\",\"\"Bob Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "193292,CSM2004 best platform,,,,,4,0,1/1/04,10-10 ST  - CSM2004 best platform-,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 266,
+   "output": "123456,Impact of Social Media on Mental Health Among Teenagers,eng,Pediatrics,PEDiatrics,0031-4005,140,5,6/1/17,345-52,\"{\"\"Emily Johnson\"\",\"\"David Lee\"\",\"\"Sophia Wang\"\",\"\"Michael Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "960478,\"Collaborative practice: development, implementation, and evaluation of a weaning protocol for patients receiving mechanical ventilation\",eng,Am J Crit Care,\"American journal of critical care : an official publication, American Association of Critical-Care Nurses\",1062-3264 (Print)     1062-3264,12,5,1/1/03,454-60,\"{\"\"C. N. Sessler\"\",\"\"K. Keane\"\",\"\"M. J. Grap\"\",\"\"D. Strickland\"\",\"\"S. Lubin\"\",\"\"R. Townes\"\",\"\"P. Dalby\"\",\"\"J. Emerson\"\",\"\"L. Tormey\"\",\"\"S. Winfield\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "345678,\"Impact of social media on mental health among teenagers\",English,J Adolesc Health,J Adol Health,1054-139X,,,10/5/20,1-10,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "332033,\"Association between ambient air pollution and hospital admissions for cardiovascular diseases in Barcelona, Spain: A time-series study\",,Atmospheric Environment,Atmos Environ,1352-2310,45,39,10/1/11,7087-7093,\"{\"\"Isabel Aguilera\"\",\"\"Joan Ballester\"\",\"\"María-José Martínez\"\",\"\"José L. Pérez-Hoyos\"\",\"\"Raquel Sáez\"\",\"\"Joan Sunyer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "153797,Definitive radiotherapy for T1 glottic squamous cell carcinoma: a 15-year Cruces University Hospital experience,,Clinical & Translational Oncology: Official Publication of the Federation of Spanish Oncology Societies & of the National Cancer Institute of Mexico,,,15,0,1/1/13,925-31,\"{\"\"Martinez-Indart L\"\",\"\"Cacicedo J\"\",\"\"del Hoyo\"\",\"\"Gomez-Iturriaga A\"\",\"\"Casquero F\"\",\"\"Lopez J L\"\",\"\"Bilbao P\"\",\"\"O \"\"\"}",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "44485,\"Impact of aripiprazole on weight and metabolic parameters in adolescents with schizophrenia or bipolar I disorder.\",eng,J Clin Psychiatry,J Clin Psychiatry,0160-6689,72,11,11/1/11,1507-1513,\"{\"\"David A Axelson\"\",\"\"Boris Birmaher\"\",\"\"Linmarie Sikich\"\",\"\"Neal D Ryan\"\",\"\"Kiki D Chang\"\",\"\"Mary A Frazier\"\",\"\"Eric A Youngstrom\"\",\"\"Patricia S Janicak\"\",\"\"Mark A Riddle\"\",\"\"Robert Findling\"\",\"\"Jeffrey A Lieberman\"\",\"\"Ellen Leibenluft\"\",\"\"John T Walkup\"\",\"\"Kathleen R Kelleher\"\",\"\"David A Correll\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "1024567,\"Impact of social media on mental health among adolescents: A cross-sectional study\",eng,Journal of Adolescent Health,J Adolesc Health,1054-139X,69,2,2/1/22,156-162,\"{\"\"Emily J. Smith\"\",\"\"Michael J. Brown\"\",\"\"Laura A. White\"\",\"\"David R. Black\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "1001543,Efficacy and safety of intravenous iron therapy in chronic kidney disease patients: A systematic review and meta-analysis.,eng,Nephrology Dialysis Transplantation,Nephrol Dial Transplant,1460-2385,33,1,1/1/18,1-11,\"{\"\"A. S. Al-Aqeel\"\",\"\"M. A. Al-Jahdali\"\",\"\"S. A. Al-Mobeireek\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "123456,New Insights into Quantum Computing,,Journal of Advanced Physics,J Adv Phys,2325-9592,7,2,10/1/20,345-56,\"{\"\"Dr. Jane Smith\"\",\"\"Prof. John Doe\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "987654,Evaluation of a new vaccine efficacy,English,Vaccine,Vaccine,0264-410X,38,10,10/1/18,1234-43,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Alice Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "620483,The value of breast self-examination: meta-analysis of the research literature.,eng,Oncology nursing forum,Oncol Nurs Forum,0190-535X,28,5,6/1/01,815-22,\"{\"\"Y L Ku\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "102456,Impact of telemedicine on patient outcomes in rural areas,,,,,40,6,1/1/12,145-52,\"{\"\"A. Patel\"\",\"\"B. Singh\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "166780,\"The relationship between serum cholesterol levels and mortality in the elderly.\",eng,Archives of Internal Medicine,,\"0003-9926, Print 1538-3679, Electronic\",146,10,10/1/86,1905-1910,\"{\"\"S. R. Havlik\"\",\"\"R. D. Abbott\"\",\"\"R. F. Woolson\"\",\"\"W. C. Criqui\"\",\"\"P. D. Williams\"\",\"\"R. W. Tyroler\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "1010101,Impact of telemedicine on patient outcomes in rural areas: a systematic review.,eng,J Telemed Telecare,JTT,1357-683X,18,2,2/1/12,67-74,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Williams\"\",\"\"D. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "107924,\"Obesity, weight change and risks for hypertension, diabetes and hypercholesterolemia in Japanese men.\",eng,European journal of clinical nutrition,Eur J Clin Nutr,0954-3007,56,7,7/1/02,601-7,\"{\"\"K Ishikawa-Takata\"\",\"\"T Ohta\"\",\"\"K Moritaki\"\",\"\"T Gotou\"\",\"\"S Inoue\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "950233,\"The vascular depression hypothesis: The influence of age on the relationship between cerebrovascular risk factors and depressive symptoms in community dwelling elders\",,Aging & Mental Health,,1360-7863,9,2,1/1/05,146-152,\"{\"\"S. A. Murrell\"\",\"\"B. T. Mast\"\",\"\"A. R. Azar\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 493,
+   "output": "179093,Persistence of profenophos and quinolphos on cultivated cucumber and its removal,,,,,6,0,1/1/14,917-920,\"{\"\"B. Vijayalakshmi\"\",\"\"D. Siva Rama Prasad\"\",\"\"D. Raveendranath\"\",\"\"K. Sri Rama Murthy\"\",\"\"A. Harinatha Reddy\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "102456,Effects of mindfulness-based stress reduction on anxiety and depression in cancer patients: a systematic review and meta-analysis.,eng,BMC complementary and alternative medicine,BMC Complement Altern Med,1472-6882,15,1,1/1/15,1-12,\"{\"\"L. Zhang\"\",\"\"J. Wang\"\",\"\"Y. Li\"\",\"\"Z. Liu\"\",\"\"Q. Zhao\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "101254,A comparison of laparoscopic and open surgery for colorectal cancer,eng,Surgical endoscopy,Surg Endosc,0148-1956,19,3,3/1/05,444-9,\"{\"\"P. J. Trainer\"\",\"\"D. W. Mansfield\"\",\"\"J. Madura\"\",\"\"J. M. Watson\"\",\"\"D. J. Martin\"\",\"\"J. J. Caplin\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "1012345,Novel Approaches in Cancer Immunotherapy: A Comprehensive Review,eng,Cancer Immunology Reviews,Cancer Immunol Rev,2455-5756,10,2,4/1/18,101-120,\"{\"\"Emily Johnson\"\",\"\"Michael Smith\"\",\"\"Sarah Lee\"\",\"\"David Kim\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "697286,Central corneal melting associated with reformulated generic diclofenac in a patient with inferior fornix foreshortening.,eng,Ophthalmology and eye diseases,Ophthalmol Eye Dis,1179-1721,3,0,1/1/11,21-24,\"{\"\"Cameron Campbell Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "226420,Efficacy and Safety of Topical Antiviral Therapy in Herpes Simplex Keratitis.,ENG,Cornea,Cornea,1047-475X,,,1/1/15,1-7,\"{\"\"Sara M. Ferreri\"\",\"\"Laura M. Perlini\"\",\"\"Francesco Bandello\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "model": "openai:gpt-6.1-sol",
+  "source": "preserved historical plan-only screening; no new queries",
+  "files": {
+    "movies": {
+      "relative_path": "data/final/_near/screen_plan_movies__openai_gpt-6.1-sol.csv",
+      "sha256": "26f92ff0f45450938ff0bffb0f58a022693eddbe030416349c665d2e5dd90a44",
+      "historical_source": "experiment/data/raw/_near/screen_plan_movies__openai_gpt-6.1-sol.csv"
+    },
+    "hospital": {
+      "relative_path": "data/final/_near/screen_plan_hospital__openai_gpt-6.1-sol.csv",
+      "sha256": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+      "historical_source": "experiment/data/raw/_near/screen_plan_hospital__openai_gpt-6.1-sol.csv"
+    },
+    "beers": {
+      "relative_path": "data/final/_near/screen_plan_beers__openai_gpt-6.1-sol.csv",
+      "sha256": "5a526da36aa3f6985e53d03510f5b4723b0feb87327702cb37c3116729896325",
+      "historical_source": "experiment/data/raw/_near/screen_plan_beers__openai_gpt-6.1-sol.csv"
+    }
+  }
+}

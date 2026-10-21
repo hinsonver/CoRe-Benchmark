@@ -1,0 +1,58 @@
+{
+ "dataset": "beers_orig",
+ "mode": "raha",
+ "seed": 2,
+ "seconds": 11,
+ "detected": 551,
+ "corrections": 490,
+ "counts": {
+  "all": {
+   "errors": 565,
+   "predicted": 490,
+   "repaired": 473,
+   "detected": 490
+  },
+  "identity": {
+   "errors": 127,
+   "predicted": 120,
+   "repaired": 120,
+   "detected": 120
+  },
+  "other": {
+   "errors": 438,
+   "predicted": 370,
+   "repaired": 353,
+   "detected": 370
+  }
+ },
+ "all": {
+  "repair_p": 0.9653,
+  "repair_r": 0.8372,
+  "repair_f1": 0.8967,
+  "detect_f1": 0.9289,
+  "errors": 565,
+  "predicted": 490,
+  "repaired": 473,
+  "detected": 490
+ },
+ "identity": {
+  "repair_p": 1.0,
+  "repair_r": 0.9449,
+  "repair_f1": 0.9717,
+  "detect_f1": 0.9717,
+  "errors": 127,
+  "predicted": 120,
+  "repaired": 120,
+  "detected": 120
+ },
+ "other": {
+  "repair_p": 0.9541,
+  "repair_r": 0.8059,
+  "repair_f1": 0.8738,
+  "detect_f1": 0.9158,
+  "errors": 438,
+  "predicted": 370,
+  "repaired": 353,
+  "detected": 370
+ }
+}

@@ -1,0 +1,846 @@
+{
+  "schema_version": 1,
+  "source_candidate_manifest_sha256": "10171d13eaa3a916af53ce196e21a87b1ef886ebba280c6897fd8b9584272fd5",
+  "controlled_files": {
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_fresh.json": "f4d0f0b96a1cf1e4c67d6290206f6ddb59aa815f9ff831a75a017bcfbd7d9797",
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_orig.json": "dc4a531dd2f98b1a6ea9bd5be351f3757c10350e89c9bbb5d0421adfc93bec82",
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_surrogate.json": "65a672a096703af8eae48ca94bfdfb56438664d0d69f3036cbc75b79ac038c6d",
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_surrogatewords.json": "68fd3acb2c4e509c3ef8ea4f5cca00f59d9dff6b591e2feeac88762dbb196a2e",
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital.json": "e73dda212eea1aec76e4db4c37da52dea0626a3ae3730625f2cce3f574e0ccdc",
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_fresh.json": "32a9bb00c0d528835da159a5bd594a6e731778426facf49de6d5c8babf89aba2",
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_surrogate.json": "0814da1525e9f27936c9940b00d5b3b393e8f165d68ea408e2cf06934550f682",
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords.json": "f3238480ae83660f190c63b7cca80d135117c29bef9d113f2c9b0fd057165ca7",
+    "artifacts/raw_outputs/e4/inputs/rayyan/clean.csv": "f4ab0c3bdfa6a13eeea51d16482ec8cd395acbf59b595e3ea6ef0b34bc448744",
+    "artifacts/raw_outputs/e4/inputs/rayyan/dirty.csv": "61aa71010693eb551122521e56b3997c0d366e3aa81848585631dfbef80d7309",
+    "artifacts/raw_outputs/e4/tabclean/beers_fresh/dev_cleaned_1.csv": "1587113f304a5b8dcca7adc8610a01cbe778ab1e0f01f045857ad071b2bcb846",
+    "artifacts/raw_outputs/e4/tabclean/beers_fresh/dev_dirty.csv": "7276420293100ed2ba3e59bd9b78341560f8e09dc4797e3cfacf23373d8b9f2a",
+    "artifacts/raw_outputs/e4/tabclean/beers_fresh/final_cleaned.csv": "e76036c7cf64c0d709b82211f722db4e5b2aa0de2cfe4c30f028dad118c15a51",
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_cleaned_1.csv": "5a916a78ddc43aa2352bd239b8bfe6230c87f3ef504fb666859374ebc878f659",
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_cleaned_2.csv": "9761a4e378bb6652859f5f64ec406bfe0a1792090572e81f2f21b90302786457",
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_dirty.csv": "80b38cf100a9d1361b9fcdf75ae356135aae8a34d83d8cb57e172e602b46659c",
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/final_cleaned.csv": "3e5746094ab07aab358f95cc2392fdfb123d9bf879dfeb651df520879215069b",
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_cleaned_1.csv": "f3fdd9469e8dd427c8936c1e72a70429a7ea9583074b88a9adb5bcfa977a549d",
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_cleaned_2.csv": "dd83ae89c69dc9edd17c6fb7ba8e40d2695bb1300afff2f19a8bb1c566416e84",
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_dirty.csv": "1e9bcb63e2592bc09517f999271fa93e74aa04a8e98b396b976fefcace44f3b3",
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/final_cleaned.csv": "f31a2eac947e6350efdbae36208b759bed2049085bdbf4b3bbfa9fb93de9c648",
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/dev_cleaned_1.csv": "97c8d3c3683972a7fa71ba585e4ebdee696c45f695c3f2d761f22688df6ce208",
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/dev_dirty.csv": "a28abdef450e5674a998bb866f14709e631e9d275ce1c4744ac2d1d20a0f5ee0",
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/final_cleaned.csv": "379cf4f87fe12202278708f8fff9607a433d688c3ad4ba69c3147a9b490ee850",
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_1.csv": "ee05f5fa6f20028d96121dbcb8f8b1786e51f25586501a164940de53cfdcc0b5",
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_2.csv": "1587187ed7fe3641c1ce113921e7b6fcf94fea9ef3e3bf16f4e5a3aa8be93243",
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_3.csv": "a2e936b95ee72ae64db2a2f36ef6e8d25ffd4a5a8243f2a84408b713e8844f8e",
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_dirty.csv": "766480000ddf5053cf0cbd35e5b80ad39aa03cba02f217c20c4666ec335a338a",
+    "artifacts/raw_outputs/e4/tabclean/hospital/final_cleaned.csv": "6f1e9c24de72a99a0ae45de98ada733ee9da3bd0cb9c6e7151eb702abea679cd",
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_1.csv": "f0b00cb1c4e3483f8f0e5e9022bbf3819b50720bdee8372f7edbc2257ff8a85a",
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_2.csv": "1e2b95b04cc0fd91bd9dfdbd5fd6a5b22fe812b496f87cd62b23a872225759a6",
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_3.csv": "60982a8db6c0ac99477404af74588a962e559bdc234498887806e0caac1cd517",
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_dirty.csv": "0da3c5e328e7edcc6703c0a54436ca9b3617773712fe44c3ffb3413a5b66052b",
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/final_cleaned.csv": "85317347cab703e7d260f505f43dca7aa6b66f7145972bedafda2656ab8e77c0",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_1.csv": "93f95e74c30d895672f8a5e3d6534e6922f725a72f9344e836c9c2e4bac95d73",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_2.csv": "5ad8410a0a04bbab923a185c7ac2e5b400833d786a4674969f6814d94052ff0e",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_3.csv": "b37f66ebc535d37241a3a6274b547669a484187e197deb3302d0df35c8302805",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_dirty.csv": "06450579b0d67bd194d01426eeb70446464567bde6d913607cf6173d021f7185",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/final_cleaned.csv": "8ce816852cc1d489050550b734861cfda9b2681ae4a95da1ff3d6b179846bb31",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_cleaned_1.csv": "1139b80ba3702804e7cb27df60169ba56771f45da8bdbd3d43042e5e0d211aca",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_cleaned_2.csv": "4b5aff59d0ff5369d88be5293903fee896453e29103adec9621b4a64cce684c8",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_dirty.csv": "135b9557f7d4a8809ac2748d4bcac279181fd82ed888d3a94505cdaa6c4e0006",
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/final_cleaned.csv": "13224e4ca3a2e0a327259052a5f366ecc240c02b89b8bf5b7050bcf2746e3d7a",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_1.csv": "af5574ab60e23ae3b32ae6135abe69f7adb9a5ef533991d754afcb1787b6b903",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_2.csv": "6a525ff0750f33ca4faeec3ca64e25bda78ac4e2d1de99b0b6061a959a1ded9a",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_3.csv": "5017592e0d648ad2154eb43a7a9801ef3e0adad25f6a48ca2f998ce9aa17f016",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_4.csv": "c2daa1e545028aa27fbc9b6cad1b38beab624d5a598b646ecf8f1c498c45506d",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_5.csv": "25374a4130fb30ff05b23f06931167603508378e7f7a223f38fa77f7eee11a1c",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_6.csv": "5d10e5c0a3d490a4b592e5d0c4d7326e09f1a34539d85de97dbfd5a74cb5e1cb",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_7.csv": "564b68f14a104518ff883027d7c117937398e0dd5058465ccccf4f9d2df49175",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_dirty.csv": "6c6454556db9cb31112867e6a953c504fbc6a0379e96c63ff5dc9ae5bea958fa",
+    "artifacts/raw_outputs/e4/tabclean/rayyan/final_cleaned.csv": "01f832b1cfc04da5685264252b1253e32903f24d36656d8b99cb4bccaebb6125",
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__beers.json": "c147c7d5316f30dfa64aef0c6d7f385b484352c0912d933b999de984b834b5e1",
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__beers__summary.json": "ae4f462ad0bfdb2dfefb2e7bef2fd8f3bc93ecba5d6e13856e7f35458a1ea010",
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__hospital.json": "82a716bd27f607d1cd4da7a47691ea97664b3add4681d876b53258bec935d627",
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__hospital__summary.json": "01a22f1b938f62ffe60e0fdcc444a592c79f1b222f2c30049eb4c628c926857d",
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__beers.json": "ca8113eea7959e2f4689002269cd62c4c00a18d06b499259b6d566c5d6449d36",
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__beers__summary.json": "b56e4ac6340e9d22aae5a09b7b6f0f7ab9604322469dca4d115bfc6507a0026c",
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__hospital.json": "b7a071acf4dbbb48d1320942ffe09c00dc44267c4cd912364cbd57f75911646e",
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__hospital__summary.json": "c44b9b90901c346e636ba864fe3420f790af487077e8acd15d70dbeeb8ac14d6",
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__beers.json": "c2214c3a4f1c3372a8cf2d16469c11a200800b7bbfaf6c630a4df926272fa52d",
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__beers__summary.json": "bd1a8f055e702b12c1d67d760a15f2ec57c7f1a721bafb964213dbcf646395a2",
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__hospital.json": "e1dff20de811bf0844364ac42657c398dbd398dcca32e9823f9fa07fbb278bf5",
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__hospital__summary.json": "04763a86d112514d95add05ae47183744e422911316b04b1c1d2f4091ee1aee4",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__clean__anon.json": "d916983ea8e2d11fb8f6981faabf57258da716cbc31ccdb227e5b43b59cd8609",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__clean__named.json": "5e8d1336a09f9f61986bbcc55781192bf9bcb20538a52f39fe9bb4d200373891",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__dirty__anon.json": "becb9331f54000d54cba487e0cf7b0cbd0b4a4c275ad3924207f3468b3b28e0f",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__dirty__named.json": "3c1184c39b628afd7497b7e340df8b90133e2933f7e859ee5d12b9730605169f",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__clean__anon.json": "35fd733e27abea5880960ae9796247a1b9efaa099a19b391a3118bf7cad2ca3e",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__clean__named.json": "578c7696926f984c06d3930a7767faa2292c6da03258dcddc57dbebd569a6b7e",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__dirty__anon.json": "54ca7e984eace02c8510c4c411180151b90bebf64d6a0d4c7b4a9250f57e2e04",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__dirty__named.json": "9e52e335e9b43043e635fee62b846eb3a82c63a7d719ac762350befa6e325fb1",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__clean__anon.json": "9a78762eb490146899fce89b714ca049e69797fedfa9d888c5083f58b163f4bc",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__clean__named.json": "69b256f52056e3c826d472aed4290f9663e28ef34414c4e00b13d01443e39c15",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__dirty__anon.json": "ae11e94b4c5789f05a011c5d6acbf4a29f62b7c1249dd848072ecf2d391b661f",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__dirty__named.json": "6359de294fb5c6b59ca17d1f5baac1f8d9c45e4a126f0160eb1722e543a754db",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__clean__anon.json": "7ac9fa88d36c9ecb84c5d355830b057679c8bba38bd7b52100cfa4d68d1a7dea",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__clean__named.json": "1cdab57c0fdf823196a8f263e9851ffffb10e3c2dbbfeda20fa598f593b21fcf",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__dirty__anon.json": "d8a105cdaab4eac01f84f9834a115d8ba6e8166739d29ca0caa9f8026bb34d20",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__dirty__named.json": "26ef3452f57489286ef6ccc010bf856496360c1cb2d4417b3ec445267dce7ff7",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__clean__anon.json": "e48283668bcfbd53b54c72174f6c0f81c00dd1d05793eeeeb50a1c02d31777a7",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__clean__named.json": "0c55e69d3820bd9a124e0a74efca9a4259aa82e3ccee76a29261ead787144724",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__dirty__anon.json": "b4f826b8b97618ae99b0f823f5dba3e7ca3a11f6271af39b89cbcf0c42951dd3",
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__dirty__named.json": "b24405dc7c5faf55d833866db651de94ed14d2b8c2869dabbc350f2de836be12",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_fresh__k20__spread.json": "e13c60ed9f68aba9f22fa66c81c14a4e40190442ef5235741c0393eea3428e1c",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_orig__k20__spread.json": "19f68551bc78416fcd4291639972013f14fedd7d382c972aea6fd2862ac69543",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_surrogate__k20__spread.json": "a9e3ba3443bbc2f48969ea5331d2e89bbb17e161beef2a10b7a2d35bc5932216",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_surrogatewords__k20__spread.json": "f1869d11d43f02d3e9b09aacc0cade0c761b11e66fbf31bbdf31494975eed957",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital__k20.json": "c488b1072fb6094d23325a76d9eec9da488d5b4daaa0f14ce0cc0b2e0e44537f",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital__k20__spread.json": "2fc11b42a2c593be43f7151d939833cb13c107c380fa2992b168e92555d50af2",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh__k20.json": "4bc4ce4ba59f263b3023404b25b1f15c2fd7d2c251f304ad865313ad9305519b",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh__k20__spread.json": "2c629ab7327726b33e1e1a2ce90d8cc44ba9febfe95f676925804cc48fae89d1",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh_s1__k20__spread.json": "01346534b005f2ea93a9414c6e3f395a0f60c5e9e5cbf4d5f0767aa1835f9a0f",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh_s2__k20__spread.json": "8a32f29a7ca60ebffd0c1fb3df446a954618130c97226e16fbc8578095926bda",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate__k20.json": "b6da5144cefbd5a8e6d576dac81a471aa2e50813ac33144bf8882f3397c085da",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate__k20__spread.json": "060420b18e597672c436f176a0a288daa3951f337fbbeb5b789652b1466c4b4b",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate_s1__k20__spread.json": "ab56012856e38d1e564b78f3620c37113992ad6cfa6d733def2d151e7ee242c1",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate_s2__k20__spread.json": "a09792c88fafc4cf3514905fc47003bec9a3fc2ed64c957ce90e84ab2426df2b",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords__k20__spread.json": "badec9e8b10f7db7955b10f7cfa5a46ccc1346bbc63bcfecc547efbd551a73ae",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords_s1__k20__spread.json": "f5159de402c1baf36e12dcb813ff1b2949393a450e5c564d1dcffb50f054e0a7",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords_s2__k20__spread.json": "93dfe2e9e173358d39f7e7f7c5ea180dc4b72977fcfa0fd610da590e2a8325ab",
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__rayyan__k20__spread.json": "837a6f3058d4b6d35c6db7bb9c1e94abc5ab0a6a8cd270b73cd9fe4252133574",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_fresh__k20__spread.json": "b417791904009ce5d4139a656b0b5a8a1405c279af62a7432bdb1bcc2164c7f9",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_orig__k20__spread.json": "7943ae7813fbf7b9d2a0b550560c40dfd3cce7cf1ac80f07e33b6439b759e504",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_surrogate__k20__spread.json": "2abfa9b7b156d455ce06c80942f3f99754bf7d2b423ffa21a9e4a50a7a8b0ada",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_surrogatewords__k20__spread.json": "37c2dc4b8831d23c39fd92a29652f301fdb81ce91b04dd703cd91d33586d50f5",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital__k20__spread.json": "541a22c557e01bdcbd585ed4b961f291dc7e4195627637227f1d6b8659a32f5b",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh__k20__spread.json": "b75280a380e6421666542cdef3cb5224fd390de299aa24464b4be7958ac0facb",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh_s1__k20__spread.json": "58e5595c2f2cd58160fef8ba5c12361da5046eb3524c941848f26c891ff95b56",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh_s2__k20__spread.json": "3dd6b05ab3bcf9cc38ef9d599427fce1a2941f84b049001dddc79d99d5f66c3f",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate__k20__spread.json": "5931102c89392b87784e696eafce62217ba95406d3937aff5c23f2f404386223",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate_s1__k20__spread.json": "f71774d3ead473d19f15d899a9bb50c67d5695465af67de913c4fabe6cfe6696",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate_s2__k20__spread.json": "aced35a032f4e24928fa259d1a2d42dd33a321a2805b7306bf17c8f58e25d8d2",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords__k20__spread.json": "783b5b6370b98bc01ee13bc1cef0a084d176a32739be28d107b2cda9c23c0730",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords_s1__k20__spread.json": "8fbb0f637c9c03f516daae3ccfbe81e44c0f9a9df4be524a4e1915916dfccc64",
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords_s2__k20__spread.json": "8a973251bcf859049f313e52229a2205271d6f6f1656aae4657f83e47951ec9c",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_fresh__k20__spread.json": "bf42f33837648075406866b2a1d65c73b1ae454f9b22f87359cab54137087b7b",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_orig__k20__spread.json": "0c6a8a937f8c75910e7732c380cc176d47af00d638322283f6c571be900f3797",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_surrogate__k20__spread.json": "d7b675cf6d251912e970d2b040f8b4f3d35d337be053828716e81d2719fb0d15",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_surrogatewords__k20__spread.json": "1d5db621586712fa6f64a79e55718232a1d3d87142d0005cee53f63f1850c82b",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital__k20__spread.json": "674eaff5d51db2738c24ac17f035378ef570683bbd711e8b551825a47f1fab30",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh__k20__spread.json": "56018be297633cbc45743ae95afcd06e78aa17cf33ef9cdf3632db5e53004d80",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh_s1__k20__spread.json": "ad36248c44a0cebe716a12a564999f97e15134fc54d3e87794b8423b0b00e5f0",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh_s2__k20__spread.json": "4d19f0b0b4c5ecb25df7372b4da5632c1dd45b62857f51b73f8718963404581f",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate__k20__spread.json": "b0a1beb8e69e5a20ab40c71301e2f6d1e831b88fd0ab7ca2c4976dab8a2c0a33",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate_s1__k20__spread.json": "4838de67b86cc217cb44ca520f5ced4126720e898dccac500628ffca9df971b7",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate_s2__k20__spread.json": "093a2cbe1405589bf2aaf4d7c2a509aebba1efaa46126375b3b1f75d4751929e",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords__k20__spread.json": "a2cf7dba316327316be41a3e790282c923afbf7753edcd015e30afd6ea1dd7fc",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords_s1__k20__spread.json": "68fc20909650c89fe318107bea4fe1b4c4068db6cdbf33cb8ce3e960c5aeefdb",
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords_s2__k20__spread.json": "ccb5f0f6655e0a44157533aacaada1c79031683c130eb481d6c3c0ab08ccbe77",
+    "data/final/_near/screen_beers__custom_deepseek_deepseek-v4-pro.csv": "22e4b789d0ac3fe800b00c341ae14f1f81de0ae9ee073f71e77a3ac09fe929e4",
+    "data/final/_near/screen_hospital__custom_deepseek_deepseek-v4-pro.csv": "ea1ad68e7ed3543c2b66cba80fa74d6c2b17ee79c14b08a9bc1f0b3ed0fda3f4",
+    "data/final/_near/screen_plan_beers__custom_deepseek_deepseek-v4-pro.csv": "e50b668fef95c728c9fce82329996739d6247cb45e875d9c0c5ec13d53429a81",
+    "data/final/_near/screen_plan_beers__custom_qwen_qwen3.8-max.csv": "5f089fb129677a42c0c72e2bd2ff43332037274fc1a19c52d8790f2350832e6f",
+    "data/final/_near/screen_plan_beers__custom_z-ai_glm-5.3.csv": "3edde9694db4305bb6a05f07a417688d6ca2b9f3fd58c477a03ebe369dbc0f99",
+    "data/final/_near/screen_plan_hospital__custom_deepseek_deepseek-v4-pro.csv": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+    "data/final/_near/screen_plan_hospital__custom_qwen_qwen3.8-max.csv": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+    "data/final/_near/screen_plan_hospital__custom_z-ai_glm-5.3.csv": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c"
+  },
+  "export_dependencies": {
+    "code/src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "code/src/aligned.py": "e608439a6e30b526af0990356b4cfe941340d65db737a90fd52086313de033bb",
+    "code/src/analyze_misfix.py": "db925f28d34d3aa60379afd4cfc031107cee723dda12b916cd9a8243d790c6a5",
+    "code/src/beers_variants.py": "d896876d293ebfce696773e8392eb9eccf4ed1107560243f75952e95ae58863b",
+    "code/src/clients.py": "2633d1e178387c298c020fdd9083de96336986e0384ec23b36daa9873c4f3f7b",
+    "code/src/data.py": "a27640d779e49f15f38618b7fe63d6bfc06402e31831bfc900d05f603d257a7d",
+    "code/src/e4.py": "b7b510ae0e5997f38a0722a4ecf11d4a00c9d2bf4248790d4ff75b5d749afd89",
+    "code/src/e5_baselines.py": "64f1a6a51239e3bf93d6a25dbd5961cc3f5bc48288ab6ff88c2371e039855c49",
+    "code/src/figures.py": "37390cd9887f50df8f6e01241d942d4f728990de84ca8305b797c4cdda0c89ee",
+    "code/src/hospital_variants.py": "a04d4243d9db18c2a41fe6fb85556a2f27107923fe158696205e8de01ded9934",
+    "code/src/movies_variants.py": "f6f462d62cebeb41e1c1ec7a8d483b8ffc1521d3b157e3a68cc3747afe31caef",
+    "code/src/near_entities.py": "908eb7c60d420965a8a33785a36ee06407e85d00644d9e074604bd903629bb2a",
+    "code/src/paper_tables.py": "65819d74d9b0856f20cc0e82f367a4bde6831acb13af3a564fb57571df2a2c9b",
+    "code/src/pipeline.py": "3ca1c5aba77336aa0eb4f3aaad5501eb1da4d25e6ed14e570f603ceab817cb26",
+    "code/src/probe_clean.py": "0480548df57cf4bdcfb73ae058a467e8bd8287b154187c3217aa1d25370ca4e1",
+    "code/src/probe_rowcont.py": "cb800c53af433954a3e22d198184fecb4c2448dda269a9af4f1fc4da2043ed87",
+    "code/src/rayyan_audit.py": "3271086b8688e05d7a03d6742e24465fb0da7d175a38663a6793f1a4354a5f8d",
+    "code/src/rayyan_replay.py": "b3ac68595b47066c89438764a9a4897d1c999c65b701cdcea9bae34229a67b74",
+    "code/src/scale.py": "8b3653a14e962f03c1f1a714e21f4bd91670b23c96cc40d9009100ac766d886d",
+    "code/src/screening.py": "9f740575711e959b44cb215a16945705325b745f46266495bf73a9b7989375a5",
+    "code/src/seeds.py": "852fe75ce6bea0f198d14f6cbc97a9c44321677264eab66bfbf2affcf7db0133",
+    "code/src/validate_tables.py": "f114a8909ea684163473e521172b496d66931fbba81685ff6265733fa740147a",
+    "data/final/_near/beers/control/clean.csv": "91a5d704bea00312fb7574db7cc56326bf8c6f3f95d6357568a2a11e210855c1",
+    "data/final/_near/beers/control/dirty.csv": "877964f550950a9ce7ca2651a5819332eab0419c8f7ca5c98211a2b9c55da982",
+    "data/final/_near/beers/near/clean.csv": "e9230d771b7506c4d5a7b3e227e7c83f8ba5dffc46a46572bb5730d2d7b1ff02",
+    "data/final/_near/beers/near/dirty.csv": "747bbdd2942cc499e3d0899bc44a20963d94bb9ee98c504896f57de9d152ca1b",
+    "data/final/_near/beers/plan.json": "5764f6bc615c24d4acde54b765c7095163e7b70c47a28246e6c270579c1518e5",
+    "data/final/_near/beers/real/clean.csv": "ba8d5e23fabf4003824ca266833e123b8e040353bd538ee917530aee29b5e28f",
+    "data/final/_near/beers/real/dirty.csv": "1e66c4c0f4dd3d89ad335055ef24b5cc21c7573b29d00bc4aaf5ba2d5a6df11d",
+    "data/final/_near/candidates_beers.csv": "1d336f2e8a29e18ae3deffcee351cd068cb3b824a1df1f8bf368739dad34ef17",
+    "data/final/_near/candidates_hospital.csv": "9f7856794430f047dafdab37cf7aca7496d70629b34f8d8097958bcc35575973",
+    "data/final/_near/hospital/control/clean.csv": "ba63571555666a411d8b4d5033335a686b528b353108d5467415d8a2a02dc3d2",
+    "data/final/_near/hospital/control/dirty.csv": "24746fbed742780f73a0b0b61291ac19bf725bdcfc9ceecf20a455425f505365",
+    "data/final/_near/hospital/near/clean.csv": "b46fb7c8fd74bcfc7c80e9a1bda2029720aa4b46900a771c1c0622cc198b770d",
+    "data/final/_near/hospital/near/dirty.csv": "bf55e9044f87bcf317a9e1356832453fe9c72cf83b11a7cbaf75e318e86982cb",
+    "data/final/_near/hospital/plan.json": "96c5a92c195fbc6687a3679ac8a95ae126ba0b9368b4e970b5345ea03c06c44c",
+    "data/final/_near/hospital/real/clean.csv": "4dbe060f595b00543760e218a7bf2267988f279dc1a5d2484e0234c92c330d4b",
+    "data/final/_near/hospital/real/dirty.csv": "6844fe586b814ad391c3387c860167943bf5c6815dcfb0a2d7f570f68593a844",
+    "data/final/_near/screen_plan_beers__local_llama3.1-8b.csv": "3015215e8d442e9679e04707ce5981c2699fc5ea3ce8515b26a918b8c78ce185",
+    "data/final/_near/screen_plan_beers__local_olmo2-7b.csv": "ebd9d53ced73d3920e3f81279191e8a87c75bd03027877730b5d187f0247997f",
+    "data/final/_near/screen_plan_beers__local_qwen2.5-14b.csv": "d55de392a5fa07b5a6c436e97cca81efa2993245fa8860e1a4eaa645ccf268e5",
+    "data/final/_near/screen_plan_beers__local_qwen2.5-32b-awq.csv": "b118d9f346a95a73e53eff4ea67a1b685b53b211f66d170a4dd1bbd6911e073e",
+    "data/final/_near/screen_plan_beers__local_qwen2.5-7b.csv": "a5ec5db72201f81e29423d8712e534f37c17be4b0f06343639813e348808ceee",
+    "data/final/_near/screen_plan_beers__openai_gpt-6.1-sol.csv": "5a526da36aa3f6985e53d03510f5b4723b0feb87327702cb37c3116729896325",
+    "data/final/_near/screen_plan_hospital__local_llama3.1-8b.csv": "4a86d9d186a2e8a8ebd8cd192793f8735418275cb6d31c5731e865dcce2d5d62",
+    "data/final/_near/screen_plan_hospital__local_olmo2-7b.csv": "72c72b8a946461e00dcd98244802566cf4c220a8b5b3ddc647cd6ae11b706afe",
+    "data/final/_near/screen_plan_hospital__local_qwen2.5-14b.csv": "d5db8ee4ed0994592bb9b1a893aad024bde35f81f509dc7bbf392f3123b26007",
+    "data/final/_near/screen_plan_hospital__local_qwen2.5-32b-awq.csv": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+    "data/final/_near/screen_plan_hospital__local_qwen2.5-7b.csv": "9d9a9bc9170d1fa8cad3978e4a2fd9b3ba7262f924fb261a524613edbd13fc28",
+    "data/final/_near/screen_plan_hospital__openai_gpt-6.1-sol.csv": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+    "data/final/beers/clean.csv": "373227df59ad197e154dd5149125789e415019535c7223355e9486ee1b3b93de",
+    "data/final/beers/dirty.csv": "7110bf4931a9445a1675e544d6c996817c739136239f8a2b02e088c7ec0a1f68",
+    "data/final/beers_fresh/clean.csv": "e76036c7cf64c0d709b82211f722db4e5b2aa0de2cfe4c30f028dad118c15a51",
+    "data/final/beers_fresh/dirty.csv": "f06c5b350c6f892438f4b6daf894ce5a83f4a830f2b01ac5c5dd54a4616315ed",
+    "data/final/beers_fresh/provenance.json": "6b0a088b4aec0645a978b34aa7065fce1e26a5023e2c429708daceaa953fb6ed",
+    "data/final/beers_orig/clean.csv": "3e5746094ab07aab358f95cc2392fdfb123d9bf879dfeb651df520879215069b",
+    "data/final/beers_orig/dirty.csv": "dd67dacc666d1d92cbf8d226899922b6bcaa0141b481e4fe83ec27d328b56591",
+    "data/final/beers_orig/provenance.json": "1ac5f3614ab61d1ee47e81ee304aceb24c4aba8d72c85e6b41c31f17d7677f4f",
+    "data/final/beers_surrogate/clean.csv": "f31a2eac947e6350efdbae36208b759bed2049085bdbf4b3bbfa9fb93de9c648",
+    "data/final/beers_surrogate/dirty.csv": "50b402f7a4bc895d48cd11772ff387d0cf7f5aeae1abdf722cd84b9aeb50d938",
+    "data/final/beers_surrogate/provenance.json": "5d2c1952f250402c033aba9feff11cc061b7a5849131d8547697e48aee7e80c4",
+    "data/final/beers_surrogatewords/clean.csv": "379cf4f87fe12202278708f8fff9607a433d688c3ad4ba69c3147a9b490ee850",
+    "data/final/beers_surrogatewords/dirty.csv": "e5759dc820578a0f3da0fbae671f61f582261e5a32a09ff6ffbab8f4b9e7180e",
+    "data/final/beers_surrogatewords/provenance.json": "062a1ed4c067ffb491e6fdc2a286ff56292a47f11353f90c261110884271aafd",
+    "data/final/flights/clean.csv": "0acfcfd8985b06fdd363965c9e8d9522c43e7589a93d79ae7dc311e1c37fdf3b",
+    "data/final/flights/dirty.csv": "1b5c1afa10aa0e7c20fd7e14d05c56772715b2771aa0f5fa67ed1709e1eecd46",
+    "data/final/hospital/clean.csv": "ea3ee44998455c0b491750c348509de176c758a3bbf58e4530c0a136bb248b4b",
+    "data/final/hospital/dirty.csv": "dbc5575b915fe8b5e0ac6dc6172f38ba91e611fdb76d09a8f4a81cb7ea9925ac",
+    "data/final/hospital_fresh/clean.csv": "1c202d743690ba451b345e39bcb04bf5d2d4fb6119e83f678574af48b389e6de",
+    "data/final/hospital_fresh/dirty.csv": "bc31a680985a276d7ce92e67a2b3cdc371b1d53c2d5ee54d032dc5e989c0f5c1",
+    "data/final/hospital_fresh/provenance.json": "a3429e3d7dcb05d77dc3611e0785eba6012d2df48585b5cc5ea0bee6539cf3ba",
+    "data/final/hospital_fresh_s1/clean.csv": "1c202d743690ba451b345e39bcb04bf5d2d4fb6119e83f678574af48b389e6de",
+    "data/final/hospital_fresh_s1/dirty.csv": "74f0fecd831fb1b2e447e072456f5f5907854ec6268cccc0d7893c37c82f791f",
+    "data/final/hospital_fresh_s1/provenance.json": "17763a33563d19b7411a574646200deb4ff5f8d7d0a5c147a4639018e1fd4d07",
+    "data/final/hospital_fresh_s2/clean.csv": "1c202d743690ba451b345e39bcb04bf5d2d4fb6119e83f678574af48b389e6de",
+    "data/final/hospital_fresh_s2/dirty.csv": "a6b6bbd1d7831375495c93ce954b0e050f5a2eba4ef23e2218d14871e38d9bec",
+    "data/final/hospital_fresh_s2/provenance.json": "b728a865016dba9378e87e577f7c359cce53b84a82b6d3efd578e512e9d52cb1",
+    "data/final/hospital_surrogate/clean.csv": "07477a84f64339c033c95fa5cb761c3d9975b885ffde5b12fc7b4cbb8d2dca74",
+    "data/final/hospital_surrogate/dirty.csv": "a4c13210159e88dde884cbdd94930c4ffb16d5ca905eec54f4b233832439c5fc",
+    "data/final/hospital_surrogate/provenance.json": "306fe9f78a1b895dfb2116e2c590efb27d0e3324a8907e7ce613231414828460",
+    "data/final/hospital_surrogate_s1/clean.csv": "51bcbf78f0b05606e4ab0af6940f5d5bf631ea4273724ddc63477d23e3abdddb",
+    "data/final/hospital_surrogate_s1/dirty.csv": "1fc9f0f33449f17a97a2de7bd22d9c1165940cfeebdf6849489c132c4556f8c0",
+    "data/final/hospital_surrogate_s1/provenance.json": "342db6278dda0b2891b3bc70d496cde749de38816a10564b093ced5fae4f39f4",
+    "data/final/hospital_surrogate_s2/clean.csv": "d394b70ed16444d030f85ad7bcd550730be8e45cbfe45622f32c63c1874e14ce",
+    "data/final/hospital_surrogate_s2/dirty.csv": "7ae58a4b699a001932a380354a12b1232ee39e6be2cf9d9dec0035d85fa88857",
+    "data/final/hospital_surrogate_s2/provenance.json": "dce51806db2802fa58be019ae19dc461160b3e7dfea9ef06c6104bc688d4a19a",
+    "data/final/hospital_surrogatewords/clean.csv": "578fe95a7a86ae48e404fa60d02d809e7f48cb8f03471dbba6d528dd54064214",
+    "data/final/hospital_surrogatewords/dirty.csv": "db67e90007b1b05e6a56b55652090f60e274f6e9b9954fdc9208f05650482757",
+    "data/final/hospital_surrogatewords/provenance.json": "86421a05584ef16f4eaa86ba8a9e4a015940c56e7ae3e3223a4dfe9d6b874734",
+    "data/final/hospital_surrogatewords_s1/clean.csv": "ef4c98cd54b1da61eb96b45b6984724cfe3c9fb7cae2cb12fe7c50f2dd868409",
+    "data/final/hospital_surrogatewords_s1/dirty.csv": "e6a13835f1aac7770c46a1a7876f5018951a243c471b7dba13ba6c37e95ba27c",
+    "data/final/hospital_surrogatewords_s1/provenance.json": "6a74705ab6128db8d829fcb3b9e816d0f01636da8cac8c20c6d8ccb5bf29bcad",
+    "data/final/hospital_surrogatewords_s2/clean.csv": "02aef96bab211174d3293956db3f3fd0d017b7c4025e8dbbf0f07adbbcfc50c9",
+    "data/final/hospital_surrogatewords_s2/dirty.csv": "f723efa33d3b741cb85b559844dcc664b555ca5c7b0c1b0c9366e1f6a33cca7e",
+    "data/final/hospital_surrogatewords_s2/provenance.json": "eef81a26ce87dd259e789a185e52dedfe187fd20718a8d74554867ef8ac179be",
+    "data/final/rayyan/clean.csv": "23159f43c0706782388ed8957ad0c74eb7b88bc98f34d65bd49296e186d4673f",
+    "data/final/rayyan/dirty.csv": "7e25e6db262b0c72ca2d9735d5959599cf5a582e1c705459507c7b45d0d1d174",
+    "data/final/tax/clean.csv": "201290927ae92e65b3940d776b3df5b4d953c5dfd9abb231715a2e65ecca87b0",
+    "data/final/tax/dirty.csv": "8dd3429ec4791b2ed1a688c308a57a9f3d1a94f77d1f4e98294a67273270b973",
+    "data/provenance/rayyan/audit-n30-historical.json": "8f9818607a11e96aa4ea10dadd2dbaf384bdcd370c952c26c7a2cf090fb60868",
+    "data/provenance/rayyan/dev-row-indices.json": "ddf1490674604e99de0815525ef88218c4ce72994e5b1191ce9398da15306bf4",
+    "data/provenance/rayyan/m06-criteria.json": "83367ab27c7d0c623fee1ad00c227fe194703d774aadca6127bebf1cd02a3d16",
+    "data/provenance/rayyan/remote-search.json": "93d0b2fdfb4e43943fa9dba3b3dca0896928d038cfe341eee27695eecb6ae976",
+    "data/provenance/rayyan/retrieval-status.json": "6373b70b251a0a8f9aab4f3d9c60eeab187fa3a21cc742825fd5869a10169f30",
+    "data/provenance/rayyan/version-chain.json": "9ab5df9b7cef318296943a704cf5f17461620b44195e83ff2f9257747061ad93",
+    "results/derived/rayyan_audit.json": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9",
+    "scripts/reproduce.sh": "5a13d4313b1487ecb5ad11d683b44b4638b87598b1686a12535f4a756d5e4573",
+    "tools/check_rayyan.py": "b48b0df6f82e139de3afe09a3187a12356500416a330a77451b67c1225e6005d",
+    "tools/check_screening.py": "60c49131a324ecc600749c17d2c83e16c768518556ef1ccd642c325860e1b638"
+  },
+  "public_identical_bytes": {
+    "artifacts/raw_outputs/e4/tabclean/beers_fresh/final_cleaned.csv": {
+      "public_path": "artifacts/raw_outputs/e4/inputs/beers_fresh/clean.csv",
+      "sha256": "e76036c7cf64c0d709b82211f722db4e5b2aa0de2cfe4c30f028dad118c15a51",
+      "basis": "Independent A04 public-preparation input/local-output provenance; withheld event path remains absent"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/final_cleaned.csv": {
+      "public_path": "artifacts/raw_outputs/e4/inputs/beers_orig/clean.csv",
+      "sha256": "3e5746094ab07aab358f95cc2392fdfb123d9bf879dfeb651df520879215069b",
+      "basis": "Independent A04 public-preparation input/local-output provenance; withheld event path remains absent"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/final_cleaned.csv": {
+      "public_path": "artifacts/raw_outputs/e4/inputs/beers_surrogate/clean.csv",
+      "sha256": "f31a2eac947e6350efdbae36208b759bed2049085bdbf4b3bbfa9fb93de9c648",
+      "basis": "Independent A04 public-preparation input/local-output provenance; withheld event path remains absent"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/final_cleaned.csv": {
+      "public_path": "artifacts/raw_outputs/e4/inputs/beers_surrogatewords/clean.csv",
+      "sha256": "379cf4f87fe12202278708f8fff9607a433d688c3ad4ba69c3147a9b490ee850",
+      "basis": "Independent A04 public-preparation input/local-output provenance; withheld event path remains absent"
+    },
+    "data/final/_near/screen_plan_hospital__custom_deepseek_deepseek-v4-pro.csv": {
+      "public_path": "data/final/_near/screen_plan_hospital__local_qwen2.5-32b-awq.csv",
+      "sha256": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+      "basis": "Independent A04 public-preparation input/local-output provenance; withheld event path remains absent"
+    },
+    "data/final/_near/screen_plan_hospital__custom_qwen_qwen3.8-max.csv": {
+      "public_path": "data/final/_near/screen_plan_hospital__local_qwen2.5-32b-awq.csv",
+      "sha256": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+      "basis": "Independent A04 public-preparation input/local-output provenance; withheld event path remains absent"
+    },
+    "data/final/_near/screen_plan_hospital__custom_z-ai_glm-5.3.csv": {
+      "public_path": "data/final/_near/screen_plan_hospital__local_qwen2.5-32b-awq.csv",
+      "sha256": "ec50c4a84d71b2b30e06930d23e09c059f5a9f0ed18c0b75c796eefb6f3ff07c",
+      "basis": "Independent A04 public-preparation input/local-output provenance; withheld event path remains absent"
+    }
+  },
+  "disposition": {
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_fresh.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_orig.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_surrogate.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__beers_surrogatewords.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_fresh.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_surrogate.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/aligned/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/inputs/rayyan/clean.csv": {
+      "family": "C-TABCLEAN-RAYYAN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/inputs/rayyan/dirty.csv": {
+      "family": "C-TABCLEAN-RAYYAN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_fresh/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_fresh/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_fresh/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_cleaned_2.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_orig/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_cleaned_2.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogate/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/beers_surrogatewords/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_2.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_cleaned_3.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_2.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_cleaned_3.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_fresh/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_2.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_cleaned_3.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogate/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_cleaned_1.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_cleaned_2.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/dev_dirty.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/hospital_surrogatewords/final_cleaned.csv": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_1.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_2.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_3.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_4.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_5.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_6.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_cleaned_7.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/dev_dirty.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/e4/tabclean/rayyan/final_cleaned.csv": {
+      "family": "C-TABCLEAN-RAYYAN-OUTPUT",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__beers.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__beers__summary.json": {
+      "family": "C-SUMMARY-EXAMPLES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__hospital.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_deepseek_deepseek-v4-pro__hospital__summary.json": {
+      "family": "C-SUMMARY-EXAMPLES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__beers.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__beers__summary.json": {
+      "family": "C-SUMMARY-EXAMPLES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__hospital.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_qwen_qwen3.8-max__hospital__summary.json": {
+      "family": "C-SUMMARY-EXAMPLES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__beers.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__beers__summary.json": {
+      "family": "C-SUMMARY-EXAMPLES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__hospital.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/near/custom_z-ai_glm-5.3__hospital__summary.json": {
+      "family": "C-SUMMARY-EXAMPLES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__clean__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__clean__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__dirty__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__beers__dirty__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__clean__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__clean__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__dirty__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__flights__dirty__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__clean__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__clean__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__dirty__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__hospital__dirty__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__clean__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__clean__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__dirty__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__rayyan__dirty__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__clean__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__clean__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__dirty__anon.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p1/custom_deepseek_deepseek-v4-pro__tax__dirty__named.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_fresh__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_orig__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_surrogate__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__beers_surrogatewords__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital__k20.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh__k20.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_fresh_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate__k20.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogate_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__hospital_surrogatewords_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_deepseek_deepseek-v4-pro__rayyan__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_fresh__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_orig__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_surrogate__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__beers_surrogatewords__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_fresh_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogate_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_qwen_qwen3.8-max__hospital_surrogatewords_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_fresh__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_orig__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_surrogate__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__beers_surrogatewords__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_fresh_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogate_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords_s1__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "artifacts/raw_outputs/p2/custom_z-ai_glm-5.3__hospital_surrogatewords_s2__k20__spread.json": {
+      "family": "C-RELAY-REPLIES",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_beers__custom_deepseek_deepseek-v4-pro.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_hospital__custom_deepseek_deepseek-v4-pro.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_plan_beers__custom_deepseek_deepseek-v4-pro.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_plan_beers__custom_qwen_qwen3.8-max.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_plan_beers__custom_z-ai_glm-5.3.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_plan_hospital__custom_deepseek_deepseek-v4-pro.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_plan_hospital__custom_qwen_qwen3.8-max.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    },
+    "data/final/_near/screen_plan_hospital__custom_z-ai_glm-5.3.csv": {
+      "family": "C-RELAY-SCREEN",
+      "delivery": "author_local_controlled_pending_review"
+    }
+  }
+}

@@ -1,0 +1,123 @@
+{
+ "frozen": "2026-10-02",
+ "rule": "later table errors that do not change the overall conclusions are not fixed (see memory core-tables-frozen-1002)",
+ "validation": "results/logs/validate_1002.log (506 checks, 1 failed: Hospital surrogate error strength, accepted 10-02)",
+ "tables": {
+  "beers": {
+   "clean.csv": "d06cd6190d45a50d2301f206205752f8",
+   "dirty.csv": "b67035a31bf944e3b9a0d5ed065a3327"
+  },
+  "beers_fresh": {
+   "clean.csv": "54e0135020d3b122f1e0a021827b1c6f",
+   "dirty.csv": "e778458c678fd4185dfb5ade115a700b"
+  },
+  "beers_orig": {
+   "clean.csv": "efcb7768f1d2ba3f22dee3364e55d663",
+   "dirty.csv": "419255d6cdec22a78c5a681f744e9fd1"
+  },
+  "beers_surrogate": {
+   "clean.csv": "bd43c8a4d8cd9f124ba59f2a2549b785",
+   "dirty.csv": "8663407fabb9bc7c5b1e9abb7cc21e4e"
+  },
+  "beers_surrogatewords": {
+   "clean.csv": "983665529ba9af1c94ed478e7cfd506a",
+   "dirty.csv": "e5317e0634c8a80d98dbe16cc77f4be7"
+  },
+  "flights": {
+   "clean.csv": "5cb54efc17573e8d2d6856fb36c550b9",
+   "dirty.csv": "7b2b48644d581d0283e450ea237cad5f"
+  },
+  "hospital": {
+   "clean.csv": "d3ba57fafc7c310f7c619fcf8f625f6b",
+   "dirty.csv": "2bcabdb987089bfa0cdd08ed953d156a"
+  },
+  "hospital_fresh": {
+   "clean.csv": "19021916d1b98f1d27b08f287a72e887",
+   "dirty.csv": "8ef80a7e0e0d891718065100bd1f4c36"
+  },
+  "hospital_fresh_s1": {
+   "clean.csv": "19021916d1b98f1d27b08f287a72e887",
+   "dirty.csv": "5b424803f066403db589044f31024123"
+  },
+  "hospital_fresh_s2": {
+   "clean.csv": "19021916d1b98f1d27b08f287a72e887",
+   "dirty.csv": "518e855f416275e79e2e065648dcb524"
+  },
+  "hospital_surrogate": {
+   "clean.csv": "6e5bc9217fb1b1a3f9257bd1e69de814",
+   "dirty.csv": "56730ceb8a1c50c0e94719ec9d49be3c"
+  },
+  "hospital_surrogate_s1": {
+   "clean.csv": "a7cbdc02aea81eecf854e0b6e0482e9f",
+   "dirty.csv": "12cd0d08aad824954f12a467ffdf972f"
+  },
+  "hospital_surrogate_s2": {
+   "clean.csv": "734a3620a45fb2c1bd7fed8692993e38",
+   "dirty.csv": "25cecbc22fd1a34b472ff8042f5cfe61"
+  },
+  "hospital_surrogatewords": {
+   "clean.csv": "45f81d846b74e2b2d912e48f8e0a1f05",
+   "dirty.csv": "12d241b6de85361ef8c10e55ec02475a"
+  },
+  "hospital_surrogatewords_s1": {
+   "clean.csv": "186b99b54d023b47a9d9741b55019c8a",
+   "dirty.csv": "589537a1db8d29cde0700b4742ea6186"
+  },
+  "hospital_surrogatewords_s2": {
+   "clean.csv": "fd39a62278b8e6497282caa21ad28bee",
+   "dirty.csv": "edd246ba26852f73e778ac571eb9a07a"
+  },
+  "movies": {
+   "clean.csv": "ef89efd41cd2be90543f15d1efd294c8",
+   "dirty.csv": "2191d92cb0a6ed3fe871df621cc29b96"
+  },
+  "movies_1": {
+   "clean.csv": "963efa43b0ef97599c4c7c85c9ae2847",
+   "dirty.csv": "0a225d0895ccf872fd47dc0456a82f81"
+  },
+  "movies_fresh": {
+   "clean.csv": "5e14b35c090e31213a2ea2af1b29682e",
+   "dirty.csv": "fb0ae4eb7fa241a72b2d0ec6eabe3034"
+  },
+  "movies_fresh_s1": {
+   "clean.csv": "5e14b35c090e31213a2ea2af1b29682e",
+   "dirty.csv": "4d4c13b72ffba54f468513fa3665f7bc"
+  },
+  "movies_fresh_s2": {
+   "clean.csv": "5e14b35c090e31213a2ea2af1b29682e",
+   "dirty.csv": "fe49c3fe7b4a0503f3c90b092fc2b888"
+  },
+  "movies_surrogate": {
+   "clean.csv": "cd655ef2593e7e246d97d125b6fb58f1",
+   "dirty.csv": "1134a4d07d99fedf6d8d04121961e575"
+  },
+  "movies_surrogate_s1": {
+   "clean.csv": "46f263c7c1e1f34c2072d0dab68e0e3e",
+   "dirty.csv": "3954517b6bb09e714ffc6bf5068811ec"
+  },
+  "movies_surrogate_s2": {
+   "clean.csv": "96f92c10d26b15685f6008b32747f217",
+   "dirty.csv": "60254215584ad4ed09f68111c7e307ed"
+  },
+  "movies_surrogatewords": {
+   "clean.csv": "aba2c01480de0a3997e1a60f3cc49cde",
+   "dirty.csv": "8272a2211bdbefef88da9d60807f6d58"
+  },
+  "movies_surrogatewords_s1": {
+   "clean.csv": "f8ed8e914cc5ab46fd847008e9d1ac32",
+   "dirty.csv": "0b2f718099ddacd438f70f128ac273ae"
+  },
+  "movies_surrogatewords_s2": {
+   "clean.csv": "f83cf179f3e087363c578c6afbc93d78",
+   "dirty.csv": "5e0fe7e06e9ff526f953d439a13d94e7"
+  },
+  "rayyan": {
+   "clean.csv": "96e2d25d5cecace16f2ad5630ac9dfb7",
+   "dirty.csv": "2bf7f0a4882279e37b519bfdf0271857"
+  },
+  "tax": {
+   "clean.csv": "e664b0bdb03fd50e1f0277f0fdc76742",
+   "dirty.csv": "504707dac826c9ea64c2a983e07ea336"
+  }
+ }
+}

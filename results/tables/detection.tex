@@ -1,0 +1,19 @@
+\begin{table}[t]
+  \caption{Detection and repair diverge on surrogate identity columns. Entries give detection F1 /
+  repair F1; detection counts corrupted cells found regardless of the value proposed for that cell.}
+  \label{tab:detection}
+  \small
+  \setlength{\tabcolsep}{3pt}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l ccc ccc@{}}
+    \toprule
+    & \multicolumn{3}{c}{Hospital} & \multicolumn{3}{c}{Movies} \\
+    \cmidrule(lr){2-4}\cmidrule(l){5-7}
+    Model & O & W & S & O & W & S \\
+    \midrule
+    DeepSeek & 1.0/.88 & .95/.50 & .73/.16 & .56/.36 & .41/.04 & .47/.01 \\
+    Qwen3.8 & .98/.90 & .97/.55 & .72/.21 & .56/.30 & .57/.02 & .52/.00 \\
+    GLM-5.3 & .98/.78 & .97/.55 & .72/.19 & .26/.11 & .12/.04 & .08/.01 \\
+    GPT-6.1 & .95/.94 & .71/.71 & .65/.62 & .17/.12 & .11/.05 & .09/.04 \\
+    \bottomrule
+  \end{tabular*}
+\end{table}

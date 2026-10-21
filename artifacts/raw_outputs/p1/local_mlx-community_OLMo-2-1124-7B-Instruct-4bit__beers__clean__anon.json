@@ -1,0 +1,351 @@
+{
+ "summary": {
+  "model": "local:mlx-community/OLMo-2-1124-7B-Instruct-4bit",
+  "dataset": "beers",
+  "source": "clean",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [
+   "index"
+  ],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.2799,
+  "acc_noninferable": 0.0097,
+  "noninferable_cells": 207,
+  "acc_hard": 0.0,
+  "hard_cells": 184,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 50,
+    "model": 0.04,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.36
+   },
+   "beer-name": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "abv": {
+    "n": 30,
+    "model": 0.0,
+    "freq": 0.067,
+    "trans": 0.0,
+    "structural": 0.067
+   },
+   "ibu": {
+    "n": 22,
+    "model": 0.0,
+    "freq": 0.045,
+    "trans": 0.0,
+    "structural": 0.045
+   },
+   "style": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.037,
+    "trans": 0.037,
+    "structural": 0.074
+   },
+   "ounces": {
+    "n": 3,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery_id": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "brewery-name": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "city": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "state": {
+    "n": 7,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 1587,
+   "output": "1588,3,Pumphouse Imperial Pilsner,German Pilsener,12,0.048,45,166,Oskar Blues Brewery,Longmont,CO",
+   "parsed": true
+  },
+  {
+   "row": 1732,
+   "output": "1733,1992,Serpentine,American IPA,12,0.065,45,93,Rhinegeist Brewery,Cincinnati,OH",
+   "parsed": true
+  },
+  {
+   "row": 175,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1070,
+   "output": "1071,1003,Hop Valley Hefeweizen,German Wheat Ale,12,0.05,20,198,Hop Valley Brewing Company,Springfield,OR",
+   "parsed": true
+  },
+  {
+   "row": 2104,
+   "output": "2105,2574,Wooden Rooster,Tripel,16.9,0.085,34,45,Tallgrass Brewing Company,Manhattan,KS",
+   "parsed": true
+  },
+  {
+   "row": 2000,
+   "output": "2000,2151,Onyx Black Ale,American Black Ale,12,0.052,9,131,Stevens Point Brewery,Stevens Point,WI",
+   "parsed": true
+  },
+  {
+   "row": 1668,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1252,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1962,
+   "output": "1963,1013,Siren's Whisper,American IPA,12,0.070,70,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1476,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2399,
+   "output": "2400,1517,Brewmaster's Stout,American Stout,16,0.075,110,350,Witch's Hat Brewing Company,South Lyon,MI",
+   "parsed": true
+  },
+  {
+   "row": 904,
+   "output": "905,1023,Golden Road Blonde Ale,American Blonde Ale,16,0.045,80,240,Golden Road Brewing,Los Angeles,CA",
+   "parsed": true
+  },
+  {
+   "row": 2077,
+   "output": "2078,1113,Sea Monster,American IPA,16,0.07,69,61,Surly Brewing Company,Brooklyn Center,MN",
+   "parsed": true
+  },
+  {
+   "row": 580,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1164,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 582,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 398,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1036,
+   "output": "1037,2179,Hawai'i Kama'aina Ale,American Amber Ale,12,0.056,42,234,Hawai'i Nui Brewing Co.,Hilo,HI",
+   "parsed": true
+  },
+  {
+   "row": 2191,
+   "output": "2192,2616,Brewer's Kiss,American Blonde Ale,12,0.048,37,17,Tin Man Brewing Company,Evansville,IN",
+   "parsed": true
+  },
+  {
+   "row": 611,
+   "output": "602,2012,Sugar Plum,American Brown Ale,12,0.055,,141,Cigar City Brewing Company,Tampa,FL",
+   "parsed": true
+  },
+  {
+   "row": 1280,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 414,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 312,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1362,
+   "output": "1363,1545,Brewmaster's Choice Stout,Stout,20,0.075,100,284,Milwaukee Brewing Company,Milwaukee,WI",
+   "parsed": true
+  },
+  {
+   "row": 1943,
+   "output": "1944,2025,Sundown Amber Ale,American Amber/Red Ale,12,0.05,30,249,Southampton Publick House,Southampton,NY",
+   "parsed": true
+  },
+  {
+   "row": 2302,
+   "output": "2303,1822,Wasatch Polygamy Porter,Porter,12,0.068,22,302,Utah Brewers Cooperative,Salt Lake City,UT",
+   "parsed": true
+  },
+  {
+   "row": 422,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1459,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1788,
+   "output": "1789,2072,SanTan Brewing Company's Imperial Stout,Imperial Stout,12,0.110,30,30,SanTan Brewing Company,Chandler,AZ",
+   "parsed": true
+  },
+  {
+   "row": 1305,
+   "output": "1306,1164,Saranac Hefeweizen,German Wheat Ale,12,0.045,,299,Matt Brewing Company,Utica,NY",
+   "parsed": true
+  },
+  {
+   "row": 847,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2273,
+   "output": "2274,2508,Sour Cherry,Lambic,12,0.075,90,71,Union Craft Brewing,Baltimore,MD",
+   "parsed": true
+  },
+  {
+   "row": 1963,
+   "output": "1964,1234,Red Cockaded Ale (2014),American Double / Imperial IPA,12,0.085,110,118,Southern Star Brewing Company,Conroe,TX",
+   "parsed": true
+  },
+  {
+   "row": 1823,
+   "output": "1824,1325,Schlafly Pumpkin Ale,American Pumpkin Ale,12,0.055,,428,Schlafly Brewing Company,Saint Louis,MO",
+   "parsed": true
+  },
+  {
+   "row": 2145,
+   "output": "2146,2022,Peach Fuzz,American Pale Ale (APA),12,0.04,42,469,Terrapin Brewing Company,Athens,GA",
+   "parsed": true
+  },
+  {
+   "row": 1076,
+   "output": "1077,2485,Kiss the Sky,American IPA,12,0.07,90,395,Hops & Grain Brewery,Austin,TX",
+   "parsed": true
+  },
+  {
+   "row": 265,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2257,
+   "output": "2258,1172,Brewmaster's Choice Stout,American Stout,12,0.06,35,159,Two Roads Brewing Company,Stratford,CT",
+   "parsed": true
+  },
+  {
+   "row": 67,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 392,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1643,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 14,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2031,
+   "output": "2032,2474,Hop Valley IPA,American IPA,12,0.075,60,58,Summit Brewing Company,St. Paul,MN",
+   "parsed": true
+  },
+  {
+   "row": 1374,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1009,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 1342,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 267,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 792,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  },
+  {
+   "row": 2334,
+   "output": "2335,2220,Wachusett Honey Ale,Honey Beer,12,0.0175,20,295,Wachusett Brewing Company,Westminster,MA",
+   "parsed": true
+  },
+  {
+   "row": 918,
+   "output": "index,id,beer-name,style,ounces,abv,ibu,brewery_id,brewery-name,city,state",
+   "parsed": true
+  }
+ ]
+}

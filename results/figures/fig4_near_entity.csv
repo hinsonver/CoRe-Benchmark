@@ -1,0 +1,13 @@
+item,prompt,rate,ci_low,ci_high,entities
+"Film, other director",standard,0.684,0.561,0.789,57
+"Film title, one letter off",standard,0.912,0.825,0.982,57
+"Hospital name, one letter off",standard,0.542,0.333,0.75,24
+"Brewery name, one letter off",standard,0.146,0.062,0.25,48
+"Brewery, other city",standard,0.0,0.0,0.0,48
+"Hospital, other city",standard,0.0,0.0,0.0,24
+"Film, other director",evidence,0.211,0.105,0.316,57
+"Film title, one letter off",evidence,0.719,0.596,0.842,57
+"Hospital name, one letter off",evidence,0.375,0.167,0.583,24
+"Brewery name, one letter off",evidence,0.062,0.0,0.146,48
+"Brewery, other city",evidence,0.0,0.0,0.0,48
+"Hospital, other city",evidence,0.0,0.0,0.0,24

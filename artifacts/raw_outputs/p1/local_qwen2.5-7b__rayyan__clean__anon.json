@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-7b",
+  "dataset": "rayyan",
+  "source": "clean",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.84,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.2044,
+  "acc_noninferable": 0.0031,
+  "noninferable_cells": 325,
+  "acc_hard": 0.0032,
+  "hard_cells": 309,
+  "leak_rate": null,
+  "leak_cells": 0,
+  "leak_hard_rate": null,
+  "leak_hard_cells": 0,
+  "per_column": {
+   "id": {
+    "n": 42,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 42,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 34,
+    "model": 0.0,
+    "freq": 0.059,
+    "trans": 0.0,
+    "structural": 0.059
+   },
+   "jounral_abbreviation": {
+    "n": 14,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 27,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 36,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.056
+   },
+   "article_pagination": {
+    "n": 37,
+    "model": 0.0,
+    "freq": 0.054,
+    "trans": 0.0,
+    "structural": 0.054
+   },
+   "author_list": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.025,
+    "trans": 0.0,
+    "structural": 0.025
+   },
+   "article_jcreated_at": {
+    "n": 31,
+    "model": 0.0,
+    "freq": 0.065,
+    "trans": 0.0,
+    "structural": 0.065
+   },
+   "article_language": {
+    "n": 5,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 17,
+    "model": 0.059,
+    "freq": 0.118,
+    "trans": 0.059,
+    "structural": 0.412
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "691036,Efficacy and safety of intravenous immunoglobulin in Kawasaki disease: a meta-analysis.,eng,Pediatric Infectious Disease Journal,,,21,5,1/1/02,465-470,\"{\"\"Y. Zhang\"\",\"\"Q. Chen\"\",\"\"H. Li\"\",\"\"X. Liu\"\",\"\"J. Wang\"\",\"\"L. Yang\"\",\"\"Y. Zhao\"\",\"\"F. Zhou\"\",\"\"H. Zhu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "987654,\"The impact of telemedicine on patient outcomes in rural areas\",eng,J Telemed Telecare,J Telemed. Telecare,1357-6383,22,1,1/15/03,56-61,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Richard Brown\"\",\"\"Emily Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "983456,Efficacy and safety of a new anticoagulant in patients with atrial fibrillation: a randomized controlled trial,eng,Circulation,Circulation,0009-7322,143,1,1/2/12,1234-45,\"{\"\"John Doe\"\"\",\"\"Jane Smith\"\"\",\"\"Robert Johnson\"\"\",\"\"Emily Davis\"\"\",\"\"Michael Brown\"\"\",\"\"William White\"\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 921,
+   "output": "514760,Association between air pollution and hospital admissions for cardiovascular diseases: a systematic review and meta-analysis.,eng,Environmental Health Perspectives,Environ Health Perspect,0013-8352,18,1,1/1/00,432-40,\"{\"\"Yongmei Liu\"\",\"\"Shanshan Li\"\",\"\"Jianping Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaofeng Gao\"\",\"\"Xiaohong Chen\"\",\"\"Xiaoping Wang\"\",\"\"Xiaoming Wang\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyan Sun\"\",\"\"Xiaoyan Guo\"\",\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "982590,Cost implications for missed malnutrition diagnoses in patients hospitalised with an exacerbation of chronic obstructive pulmonary disease (COPD),,Respirology,,,20,0,1/15/01,36,\"{\"\"I. Yang\"\",\"\"J. Stonestreet\"\",\"\"P. Collins\"\",\"\"P. Masel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "217725,Use of alendronate in peri-implant defect regeneration,eng,English,,0,70,2,1/1/99,151-158,\"{\"\"P. C. Wollan\"\",\"\"S. J. Meraw\"\",\"\"C. M. Reeve\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "692359,\"A randomized controlled trial of mindfulness-based cognitive therapy for preventing relapse in recurrent depression: a 10-year follow-up\",eng,British Journal of Psychiatry,BJP,0007-1250,203,0,1/1/01,298-305,\"{\"\"K. Wilczynski\"\",\"\"M. F. Lennox\"\",\"\"J. C. Williams\"\",\"\"S. Evans\"\",\"\"J. D. Teasdale\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "445672,The role of miRNAs in the pathogenesis of periodontal diseases.,eng,Biochimica et biophysica acta - Molecular basis of disease,,1879-2650,1852,19,1/1/15,2212-2224,\"{\"\"Yan Wang\"\",\"\"Xiaoyan Li\"\",\"\"Xiaofang Liu\"\",\"\"Xiaoxia Wang\"\",\"\"Xiaoliang Wang\"\",\"\"Xiaoyun Wang\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Zhao\"\",\"\"Xiaoyu Zhang\"\",\"\"Xiaozhen Wang\"\",\"\"Xiaoping Wang\"\",\"\"Xiaoyan Chen\"\",\"\"Xiaoyan Guo\"\",\"\"Xiaoyan Liu\"\",\"\"Xiaoyan Ma\"\",\"\"Xiaoyan Song\"\",\"\"Xiaoyan Wang\"\",\"\"Xiaoyan Wu\"\",\"\"Xiaoyan Yang\"\",\"\"Xiaoyan Zhang\"\",\"\"Xiaoyan Zhou\"\",\"\"Xiaoyan Zhu\"\",\"\"Xiaoyi Wang\"\",\"\"Xiaoying Li\"\",\"\"Xiaoying Liu\"\",\"\"Xiaoying Wang\"\",\"\"Xiaoying Zhang\"\",\"\"Xiaoying Zhao\"\",\"\"Xiaoyun Wang\"\",\"\"Xiaoyun Zhang\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhou\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun Zhu\"\",\"\"Xiaoyun",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "870911,The impact of mindfulness-based stress reduction on psychological well-being: A systematic review and meta-analysis,,Journal of Clinical Psychology,JClinPsychol,1097-4679,68,1,1/1/02,1-18,\"{\"\"J. Carlson\"\",\"\"S. Speca\"\",\"\"M. Patel\"\",\"\"J. Goode\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450750,Efficacy and safety of telaprevir-based triple therapy in treatment-naive patients with chronic hepatitis C virus genotype 1 infection: A meta-analysis.,eng,Journal of Viral Hepatitis,,1360-2276,18,10,10/1/11,711-22,\"{\"\"Yi-Fang Li\"\",\"\"Zhi-Hua Wang\"\",\"\"Jian-Ming Liu\"\",\"\"Jian-Guo Chen\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Ping Zhang\"\",\"\"Jian-Yu Zhang\"\",\"\"Jian-Bo Zhou\"\",\"\"Jian-Hua Zhu\"\",\"\"Jian-Zhong Zhao\"\",\"\"Jian-Zhong Zhang\"\",\"\"Jian-Zhong Wang\"\",\"\"Jian-Wei Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang\"\",\"\"Jian-Xin Wang",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "456935,The effect of a mindfulness-based intervention on stress and well-being in college students: A randomized controlled trial,English,Behavioral Sciences,BS,2076-3425,5,4,1/12/15,105-122,\"{\"\"Sara J. Yeo\"\",\"\"Jennifer L. Soper\"\",\"\"Kathleen M. Knafl\"\",\"\"Gail M. Knafl\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "876543,\"A Systematic Review and Meta-analysis of the Effectiveness of Cognitive Behavioral Therapy for Insomnia on Sleep Quality and Daytime Functioning\",eng,Sleep Medicine Reviews,Sleep Med Rev,1878-4320,25,,1/1/18,145-156,\"{\"J. Smith\",\"M. Johnson\",\"L. Williams\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 859,
+   "output": "400001,\"The impact of mindfulness-based interventions on mental health outcomes in adults: A systematic review and meta-analysis\",eng,Journal of Affective Disorders,Jon. Affect. Disord.,0165-0327,191,3,1/1/21,1234-1245,\"{\"\"Sarah J. Stewart-Brown\"\",\"\"James P. Gangwisch\"\",\"\"Laura M. Lyte\"\",\"\"Elizabeth A. Dowdy\"\",\"\"Rachel E. Neufeld\"\",\"\"Emily A. Kuhlenschmidt\"\",\"\"Jessica L. Young\"\",\"\"Kathleen M. Merikangas\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "1023456,A novel therapeutic approach for Alzheimer's disease: targeting microglia activation and neuroinflammation,English,Neurobiology of Aging,Neurobiol. Aging,0197-4580,42,1,1/15/21,123-134,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Michael Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 498,
+   "output": "109234,Impact of physical activity on mental health in adolescents.,eng,Journal of Adolescent Health,JAdolesc Health,1054-139X,45,2,1/15/07,112-119,\"{\"\"S. M. Saelens\"\",\"\"E. S. Saelens\"\",\"\"M. C. Blackwell\"\",\"\"M. L. Whitaker\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "1023456,\"Exploring the Impact of Virtual Reality on Cognitive Functioning in Elderly Populations\",eng,Aging & Mental Health,Aging Ment. Health,1360-7863,21,10,1/12/01,987-998,\"{\"\"Sarah J. Thompson\"\",\"\"James R. Brown\"\",\"\"Emily L. Davis\"\",\"\"Robert C. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "751123,The impact of mindfulness-based stress reduction on psychological distress and quality of life in breast cancer survivors: a systematic review and meta-analysis,eng,Cancer nursing,Cancer Nurs,0883-6939,36,5,1/5/14,341-352,\"{\"\"Yingying Zhang\"\",\"\"Xiaoyan Wang\"\",\"\"Jianping Li\"\",\"\"Hongyan Liu\"\",\"\"Xiaofang Chen\"\",\"\"Yanfang Zhao\"\",\"\"Yanliang Wang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 923,
+   "output": "1123456,A novel approach to treating chronic pain using transcranial magnetic stimulation: A randomized controlled trial.,eng,Neurology,Neurology,0028-3878,95,18,1/15/21,1234-41,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Robert Johnson\"\",\"\"Emily Davis\"\",\"\"Michael Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "438682,\"Should psychiatrists use atypical antipsychotics to treat nonpsychotic anxiety?\",English,Psychiatry Research,Psychiatry Res.,0165-1781,194,2,1/15/02,1-8,\"{\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "612345,\"The impact of mindfulness-based interventions on stress reduction in healthcare professionals: A systematic review\",eng,Journal of Clinical Psychology,JClinPsych,1093-9220,45,2,1/15/08,456-478,\"{\"\"L. C. King\"\",\"\"J. M. Greeson\"\",\"\"K. E. Zgierska\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "215476,Efficacy and safety of different dosages of intravenous immunoglobulin in Kawasaki disease: a meta-analysis.,eng,Pediatric cardiology,Pediatr Cardiol,0171-5572,37,2,2/1/16,341-349,\"{\"\"Yan Wang\"\",\"\"Xiaoyan Li\"\",\"\"Yingying Zhang\"\",\"\"Xiaofang Chen\"\",\"\"Yanfang Wang\"\",\"\"Xiaoxia Wang\"\",\"\"Yanping Wang\"\",\"\"Yanliang Wang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "987654,A novel therapeutic approach for Alzheimer's disease: A phase II clinical trial,eng,Alzheimer's & Dementia,Alzheimers Dement,1552-5260,17,4,1/8/21,1023-1032,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Robert Johnson\"\",\"\"Emily Davis\"\",\"\"Michael Brown\"\",\"\"Sarah White\"\",\"\"David Green\"\",\"\"Laura Black\"\",\"\"Charles Adams\"\",\"\"Patricia Taylor\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "987654,Impact of telemedicine on patient outcomes in chronic diseases,eng,J Telemed Telecare,,1357-633X,18,4,1/15/02,187-194,\"{\"\"L. Wang\"\",\"\"J. Zhang\"\",\"\"H. Li\"\",\"\"Y. Chen\"\",\"\"Z. Liu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 153,
+   "output": "281047,Efficacy and safety of aripiprazole in the treatment of schizophrenia: a systematic review and meta-analysis.,eng,Psychiatr Clin North Am,Psychiatr. Clin. North Am.,0193-953X,38,1,1/3/15,1-14,\"{\"\"Xiaoyan Wang\"\",\"\"Lili Zhang\"\",\"\"Yanping Li\"\",\"\"Xiaoxia Liu\"\",\"\"Xiaohui Wang\"\",\"\"Yanfang Zhao\"\",\"\"Yanliang Wang\"\",\"\"Xiaoyan Wang\"\",\"\"Yanping Li\"\",\"\"Xiaoxia Liu\"\",\"\"Xiaohui Wang\"\",\"\"Yanfang Zhao\"\",\"\"Yanliang Wang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "934327,Use of a Brief Phone Call After ED Discharge,eng,Academic emergency medicine,AEM,1553-2712,18,11,,,\"{\"\"NCT01893931 \"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 107,
+   "output": "893451,The effects of mindfulness-based stress reduction on psychological well-being in patients with chronic illness,eng,Complementary Therapies in Clinical Practice,Complement Ther Clin Pract,1744-3881,27,,1/1/21,100638,\"{\"\"L. Zhang\"\",\"\"X. Li\"\",\"\"H. Wang\"\",\"\"Y. Liu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "847601,Exploring the impact of social support on mental health outcomes in older adults: A systematic review and meta-analysis,eng,Aging & mental health,Aging Ment Health,1360-7863,15,10,1/1/01,1023-1035,\"{\"\"J. Zhang\"\",\"\"L. Wang\"\",\"\"X. Liu\"\",\"\"Y. Chen\"\",\"\"H. Li\"\",\"\"Z. Zhao\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "1267,Clinical effect observation of fule cream to cure dermatitis eczemal,chi,国际医学与健康指导新闻 [国际医药卫生报],,14,14,1/8/01,65-68-,\"{\"\"吴 XHLYWXWF Wu\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 266,
+   "output": "1023456,A novel approach to gene editing in plants using CRISPR technology,eng,Biotechnology Journal,Biotechnol. J.,1860-2671,15,1,1/1/23,123-30,\"{\"\"Zhang, Li\"\",\"\"Wang, Hai\"\",\"\"Chen, Fang\"\",\"\"Yang, Mei\"\",\"\"Zhao, Jun\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "438682,Antidepressant use and risk of incident atrial fibrillation: a population-based cohort study.,eng,Eur Heart J,Eur. Heart J.,0195-668X,33,1,1/15/01,145-51,\"{\"\"J. H. Lee\"\",\"\"S. Y. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H. Kim\"\",\"\"S. H. Oh\"\",\"\"J. H. Kim\"\",\"\"S. J. Cho\"\",\"\"S. H. Park\"\",\"\"J. H. Lee\"\",\"\"S. H",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "812345,\"Exploring the Impact of Virtual Reality on Cognitive Function in Elderly Individuals\",English,Psychology of Aging,Psycho Aging,0882-7974,28,6,1/8/01,567-78,\"{\"\"John Doe\"\"\",\"\"Jane Smith\"\"\",\"\"Robert Johnson\"\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 732,
+   "output": "751281,\"A novel approach to gene editing using CRISPR technology\",eng,Genome Biology,GB,,1474-760X,15,10,1/10/18,123-135,\"{\"\"John Doe\"\",\"\"Jane Smith\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 839,
+   "output": "414397,Association between sleep-disordered breathing and mortality in patients with chronic obstructive pulmonary disease: a systematic review and meta-analysis.,eng,Respiratory care,Respir Care,0020-1324,61,10,10/1/16,1453-62,\"{\"\"Yanping Li\"\",\"\"Xiaoyu Wang\"\",\"\"Yingying Zhang\"\",\"\"Jianping Liu\"\",\"\"Xiaofeng Gao\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "387999,\"The impact of mindfulness-based interventions on mental health outcomes in adolescents: A systematic review and meta-analysis\",eng,Journal of Affective Disorders,Jon. Affect. Disord.,0165-0327,175,3,1/15/15,1031-1042,\"{\"\"H. Zhang\"\",\"\"Y. Li\"\",\"\"J. Wang\"\",\"\"Z. Chen\"\",\"\"X. Liu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "438681,\"Should psychiatrists use atypical antipsychotics to treat nonpsychotic anxiety?.\",,Psychiatric Times,Psychiatr. Times,1525-7272,,1/1/03,11-15,\"{\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 160,
+   "output": "1023456,A novel approach to treating chronic pain using transcranial magnetic stimulation,eng,Pain Medicine,PAIN MED,,1526-2240,22,10,1/10/20,1829-1837,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Davis\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 327,
+   "output": "987654,Impact of remote work on mental health: A longitudinal study,,Journal of Occupational Health Psychology,JOP,1076-8998,26,2,1/5/21,123-34,\"{\"\"Linda Li\"\",\"\"John Doe\"\",\"\"Jane Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 111,
+   "output": "1002345,The role of artificial intelligence in personalized medicine: A review.,eng,BioMed Research International,BioMed Res Int,2314-6141,2021,1,1/1/21,543-562,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Michael Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "620483,The value of breast self-examination: meta-analysis of the research literature.,eng,Oncology nursing forum,Oncol Nurs Forum,0190-535X,28,5,1/1/06,815-22,\"{\"\"Y L Ku\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "102456,\"The role of social media in mental health among adolescents\",eng,J Adolesc Health,J Adol Health,1054-139X,38,4,1/12/06,341-348,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "166779,Preferences and practices of Americans and their physicians in antihypertensive therapy,eng,,,,81,0,1/1/86,20-4 ST  - Preferences and practices of Americans and their physicians in antihypertensive therapy-,\"{\"\"H. E. CN  - PubMed DA  - Dec 31 DP  - NLM ET  - 1986/12/31 Cotugno\"\",\"\"Jr. Gallup, G.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "136033,Efficacy of cognitive-behavioral therapy for insomnia in older adults: a meta-analysis.,eng,Sleep,Sleep,0161-8105,34,1,1/1/11,13-24,\"{\"\"M. R. Harvey\"\",\"\"S. E. Tang\"\",\"\"J. A. Bootzin\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "450744,Comparison of two different doses of inhaled budesonide in maintenance therapy of asthma: a randomized controlled trial,eng,Respiratory medicine,Respirology,1440-1843,0,0,1/14/01,121 [TP 185],\"{\"\"P. J. Barnes\"\",\"\"R. G. Gibson\"\",\"\"C. J. Donaldson\"\",\"\"J. R. Griffiths\"\",\"\"J. R. Hurst\"\",\"\"J. R. Jones\"\",\"\"J. R. Kharitonov\"\",\"\"J. R. Lomax\"\",\"\"J. R. Macnee\"\",\"\"J. R. McFadden\"\",\"\"J. R. O'Byrne\"\",\"\"J. R. Powell\"\",\"\"J. R. Rabe\"\",\"\"J. R. Seemungal\"\",\"\"J. R. Shaw\"\",\"\"J. R. Sterne\"\",\"\"J. R. Wardlaw\"\",\"\"J. R. Wark\"\",\"\"J. R. Wood\"\",\"\"J. R. Yelland\"\",\"\"J. R. Zenz\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J. R. Zin\"\",\"\"J.",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "853677,\"A phase II study of the combination of temsirolimus and bortezomib in relapsed and refractory multiple myeloma: a multicenter study.\",eng,The hematology journal : the official journal of the European Haematology Association / EHA,Hematol. J.,1466-4860,6,1,1/1/08,101-8,\"{\"\"Miguel San-Miguel\"\",\"\"Antonio Moreau\"\",\"\"Giovanni Fumagalli\"\",\"\"Maria Luisa Rossi\"\",\"\"Riccardo Cattaneo\"\",\"\"Francesco Castelli\"\",\"\"Paolo Ghersetich\"\",\"\"Giuseppe Sanfilippo\"\",\"\"Luisa Cavo\"\",\"\"Gianluca Rossi\"\",\"\"Giovanna Cimino\"\",\"\"Giovanni Migliaccio\"\",\"\"Giovanni Foa\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 493,
+   "output": "703421,Impact of a school-based physical activity program on physical fitness and academic performance.,eng,British journal of sports medicine,BMJ Open Sport & Active Living,2058-8945,3,1,1/1/16,bmjopen sport activ living-,-,\"{\"\"Sara J. Benjamin-Seal\"\",\"\"Sarah J. McInnes\"\",\"\"David A. Lubans\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 583,
+   "output": "587021,The effect of mindfulness-based stress reduction on symptoms of depression and anxiety in breast cancer survivors: a randomized controlled trial.,eng,BMC complementary and alternative medicine,BMC Complement Altern Med.,1472-6882,21,1,1/21/08,1-10,\"{\"\"N. M. Khalsa\"\",\"\"S. M. Ironson\"\",\"\"J. S. Irwin\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "159234,The impact of mindfulness-based interventions on psychological distress in breast cancer survivors,eng,Cancer nursing,Cancer Nurs.,0884-6206,37,2,1/1/14,111-8,\"{\"\"L. E. Carlson\"\",\"\"K. Speca\"\",\"\"M. Patel\"\",\"\"S. Goode\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "382012,Efficacy and safety of rivaroxaban versus warfarin in patients with atrial fibrillation: a network meta-analysis.,eng,Thrombosis Research, Thromb. Res.,0049-3848,163,4,4/1/15,123-130,\"{\"\"Waleed Alhazzani\"\",\"\"Lehana Thabane\"\",\"\"Deborah J Cook\"\",\"\"Wojciech Szczeklik\"\",\"\"Anees Sindi\"\",\"\"Qi Zhou\"\",\"\"Sultan Altayyar\"\",\"\"Anna Wludarczyk\"\",\"\"Gordon H Guyatt\"\",\"\"[Collective Name] Fluids in Sepsis and Septic Shock Group\"\",\"\"Michael Wang\"\",\"\"Guowei Li\"\",\"\"Roman Jaeschke\"\",\"\"Diane Heels-Ansdell\"\",\"\"Alison Fox-Robichaud\"\",\"\"Bram Rochwerg\"\",\"\"Fayez Alshamsi\"\",\"\"Wang-Chun Ip\"\",\"\"Djillali Annane\"\",\"\"Lawrence Mbuagbaw\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "911272,Effect of a mobile health intervention on physical activity in older adults: a randomized controlled trial,eng,Journal of medical Internet research,J Med Internet Res,1438-8871,17,2,1/15/14,20909,\"{\"\"Sara C. Bleich\"\",\"\"Laura D. Deierlein\"\",\"\"Elizabeth A. Rohr\"\",\"\"Kathleen M. Wolin\"\",\"\"Linda Fried\"\",\"\"Dawn E. Holman\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "512345,Prevalence and Risk Factors of HIV Among Sex Workers in Urban India: A Systematic Review and Meta-Analysis,,,,,0,0,,,{NULL}",
+   "parsed": true
+  }
+ ]
+}

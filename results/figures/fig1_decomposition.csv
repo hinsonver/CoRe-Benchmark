@@ -1,0 +1,13 @@
+dataset,columns,condition,repair_f1,ci_low,ci_high
+hospital,identity,Original,0.879,0.83,0.923
+hospital,identity,Fresh,0.95,0.922,0.975
+hospital,identity,Words surrogate,0.499,0.429,0.571
+hospital,identity,Syllable surrogate,0.16,0.109,0.207
+movies,identity,Original,0.363,0.282,0.438
+movies,identity,Fresh,0.452,0.372,0.53
+movies,identity,Words surrogate,0.043,0.018,0.071
+movies,identity,Syllable surrogate,0.011,0.0,0.025
+beers,all,Original,0.831,0.786,0.87
+beers,all,Fresh,0.666,0.587,0.744
+beers,all,Words surrogate,0.807,0.755,0.852
+beers,all,Syllable surrogate,0.796,0.743,0.846

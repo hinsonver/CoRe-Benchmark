@@ -1,0 +1,204 @@
+{
+  "tabclean": {
+    "scored_rows": 850,
+    "dev_rows": 150,
+    "all": {
+      "repair_p": 0.9257,
+      "repair_r": 0.5705,
+      "repair_f1": 0.706,
+      "detect_f1": 0.7611,
+      "errors": 808,
+      "predicted": 498,
+      "detected": 497,
+      "repaired": 461
+    },
+    "identity": {
+      "repair_p": 0.1282,
+      "repair_r": 0.0521,
+      "repair_f1": 0.0741,
+      "detect_f1": 0.563,
+      "errors": 96,
+      "predicted": 39,
+      "detected": 38,
+      "repaired": 5
+    },
+    "other": {
+      "repair_p": 0.9935,
+      "repair_r": 0.6404,
+      "repair_f1": 0.7788,
+      "detect_f1": 0.7839,
+      "errors": 712,
+      "predicted": 459,
+      "detected": 459,
+      "repaired": 456
+    }
+  },
+  "credited_date_conversions": 434,
+  "credited_date_fraction": 0.9414316702819957,
+  "audit": {
+    "estimate": 0.9517332099197813,
+    "interval_95": [
+      0.9118447824419206,
+      0.9776417171161256
+    ],
+    "sampled_cells": 279,
+    "matched_cells": 152,
+    "unique_matched_pmids": 121,
+    "scalar_checks_replayed": 114,
+    "encoding_full_metadata_rejudged": false,
+    "encoding_dirty_agreement": null,
+    "strata": {
+      "日期": {
+        "population": 722,
+        "sampled": 80,
+        "matched": 44,
+        "failed": 43
+      },
+      "编码乱码": {
+        "population": 107,
+        "sampled": 80,
+        "matched": 38,
+        "failed": 38
+      },
+      "缺失写成-1": {
+        "population": 75,
+        "sampled": 75,
+        "matched": 46,
+        "failed": 28
+      },
+      "页码": {
+        "population": 32,
+        "sampled": 32,
+        "matched": 18,
+        "failed": 18
+      },
+      "ISSN": {
+        "population": 12,
+        "sampled": 12,
+        "matched": 6,
+        "failed": 6
+      }
+    },
+    "presence_value_mismatch_annotations": [
+      {
+        "row_zero_based": 340,
+        "row_id": "734870",
+        "column": "article_jvolumn",
+        "pmid": "26452069",
+        "reference": "1",
+        "saved_pubmed_value": "31",
+        "archived_clean_ok": true,
+        "presence_check_passes": true,
+        "value_equals_saved_pubmed": false,
+        "disposition": "retain archived presence outcome; add separate value-mismatch annotation",
+        "source_evidence_sha256": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9"
+      },
+      {
+        "row_zero_based": 356,
+        "row_id": "232896",
+        "column": "article_jvolumn",
+        "pmid": "25819808",
+        "reference": "1",
+        "saved_pubmed_value": "21",
+        "archived_clean_ok": true,
+        "presence_check_passes": true,
+        "value_equals_saved_pubmed": false,
+        "disposition": "retain archived presence outcome; add separate value-mismatch annotation",
+        "source_evidence_sha256": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9"
+      }
+    ],
+    "date_conversions": 722
+  },
+  "retrieval": {
+    "full_historical_matching_replayable": false,
+    "available": [
+      "query_titles",
+      "selected_pmids",
+      "simplified_truth",
+      "field_check_flags",
+      "279 progress lines and five stratum summaries"
+    ],
+    "unavailable_in_searched_local_records": [
+      "candidate_responses",
+      "returned_titles",
+      "similarity_scores",
+      "full_metadata",
+      "unmatched_reason_codes"
+    ],
+    "local_search_scope": [
+      "preserved experiment/results including mirrored server logs and model response caches",
+      "Rayyan audit source and its output serialization"
+    ],
+    "local_records": [
+      {
+        "path": "experiment/results/logs/rayyan_audit.log",
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+        "bytes": 3279
+      },
+      {
+        "path": "experiment/results/logs/rayyan_audit_n80.log",
+        "sha256": "41ae6fe43ed3f4147714db9694e8799337d5a9139781331c753f02b6a53a381b",
+        "bytes": 6854
+      },
+      {
+        "path": "experiment/results/logs/server/rayyan_audit.log",
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+        "bytes": 3279
+      },
+      {
+        "path": "experiment/results/logs/server/server/rayyan_audit.log",
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+        "bytes": 3279
+      },
+      {
+        "path": "experiment/results/logs/server/server/server/rayyan_audit.log",
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+        "bytes": 3279
+      },
+      {
+        "path": "experiment/results/logs/server/server/server/server/rayyan_audit.log",
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+        "bytes": 3279
+      },
+      {
+        "path": "experiment/results/logs/server/server/server/server/server/rayyan_audit.log",
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+        "bytes": 3279
+      },
+      {
+        "path": "experiment/results/logs/server/server/server/server/server/server/rayyan_audit.log",
+        "sha256": "6166769213d8375232fd6ddaa31c2d6e392b60b13f006431cb566d5e163cbb9a",
+        "bytes": 3279
+      },
+      {
+        "path": "experiment/results/rayyan_audit.json",
+        "sha256": "ef48a661085be91ea407b5decc4d66b1137a48a2209ef77a100902055484c5b9",
+        "bytes": 111655
+      },
+      {
+        "path": "experiment/results/rayyan_audit_n30.json",
+        "sha256": "8f9818607a11e96aa4ea10dadd2dbaf384bdcd370c952c26c7a2cf090fb60868",
+        "bytes": 48546
+      }
+    ],
+    "current_pubmed_requests": 0,
+    "remote_search_target": "original experiment server; configured project root",
+    "remote_search_status": "completed_existing_material_disposition",
+    "interpretation": "Saved flags and selected scalar comparisons can be replayed. The completed remote search found the early sample and matching stdout, but no full historical response payload in its recorded scope. Historical candidate selection and encoding word-set judgments remain non-reconstructable from saved materials; no replacement query was made.",
+    "remote_search_report": "data/provenance/rayyan/remote-search.json",
+    "unavailable_in_searched_remote_records": [
+      "candidate_responses",
+      "returned_titles",
+      "similarity_scores",
+      "full_metadata",
+      "unmatched_reason_codes"
+    ],
+    "excluded_content_absence_not_claimed": true
+  },
+  "version_binding": "TabClean actual inputs; never audit-table substitution",
+  "delivery_verification": {
+    "tabclean": "anonymous cell-outcome recount; originals external",
+    "audit": "saved field judgments and scalar criteria replay",
+    "public_raw_tabclean_rescoring": false
+  }
+}

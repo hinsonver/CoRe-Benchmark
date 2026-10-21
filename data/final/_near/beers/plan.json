@@ -1,0 +1,2136 @@
+{
+ "dataset": "beers",
+ "base": "beers_surrogate",
+ "screened_by": "custom:deepseek/deepseek-v4-pro",
+ "known": 428,
+ "targets": 48,
+ "chunks": {
+  "1": 16,
+  "3": 16
+ },
+ "plan": [
+  {
+   "key": "534",
+   "rows": [
+    516,
+    517,
+    518
+   ],
+   "all_rows": [
+    516,
+    517,
+    518
+   ],
+   "surrogate": "Taswexlo Brewing Company",
+   "famous": {
+    "name": "Oakshire Brewing",
+    "city": "Eugene",
+    "state": "OR",
+    "answer": "Eugene, OR",
+    "known": "True"
+   },
+   "near": "Ookshire Brewing",
+   "facts": {
+    "city": "Gary",
+    "state": "IN"
+   }
+  },
+  {
+   "key": "302",
+   "rows": [
+    945,
+    946,
+    947,
+    948
+   ],
+   "all_rows": [
+    945,
+    946,
+    947,
+    948
+   ],
+   "surrogate": "Sulwexzar Brewers Tasmormorhep",
+   "famous": {
+    "name": "French Broad Brewery",
+    "city": "Asheville",
+    "state": "NC",
+    "answer": "Asheville, NC",
+    "known": "True"
+   },
+   "near": "Franch Broad Brewery",
+   "facts": {
+    "city": "Norfolk",
+    "state": "VA"
+   }
+  },
+  {
+   "key": "254",
+   "rows": [
+    542,
+    543,
+    544
+   ],
+   "all_rows": [
+    542,
+    543,
+    544
+   ],
+   "surrogate": "Suljougar's Joubrinlo",
+   "famous": {
+    "name": "Black Market Brewing Company",
+    "city": "Temecula",
+    "state": "CA",
+    "answer": "Temecula, CA",
+    "known": "True"
+   },
+   "near": "Black Markot Brewing Company",
+   "facts": {
+    "city": "Newburyport",
+    "state": "MA"
+   }
+  },
+  {
+   "key": "1",
+   "rows": [
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "all_rows": [
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "surrogate": "Zarulavel the Calula Brewery",
+   "famous": {
+    "name": "Revolution Brewing Company",
+    "city": "Chicago",
+    "state": "IL",
+    "answer": "Chicago, IL",
+    "known": "True"
+   },
+   "near": "Revolutiun Brewing Company",
+   "facts": {
+    "city": "Tempe",
+    "state": "AZ"
+   }
+  },
+  {
+   "key": "279",
+   "rows": [
+    342,
+    343,
+    344
+   ],
+   "all_rows": [
+    342,
+    343,
+    344
+   ],
+   "surrogate": "Joucaldri Brewing Company",
+   "famous": {
+    "name": "Against The Grain Brewery",
+    "city": "Louisville",
+    "state": "KY",
+    "answer": "Louisville, KY",
+    "known": "True"
+   },
+   "near": "Agaanst The Grain Brewery",
+   "facts": {
+    "city": "Pawcatuck",
+    "state": "CT"
+   }
+  },
+  {
+   "key": "301",
+   "rows": [
+    627,
+    628,
+    629,
+    630,
+    631
+   ],
+   "all_rows": [
+    627,
+    628,
+    629,
+    630,
+    631
+   ],
+   "surrogate": "Pimmor Mortastor Brewing Company",
+   "famous": {
+    "name": "The Brewer's Art",
+    "city": "Baltimore",
+    "state": "MD",
+    "answer": "Baltimore, MD",
+    "known": "True"
+   },
+   "near": "The Brewir's Art",
+   "facts": {
+    "city": "Elmira",
+    "state": "NY"
+   }
+  },
+  {
+   "key": "442",
+   "rows": [
+    613,
+    614,
+    615
+   ],
+   "all_rows": [
+    613,
+    614,
+    615
+   ],
+   "surrogate": "O'Quenquen Brewery",
+   "famous": {
+    "name": "Great River Brewery",
+    "city": "Davenport",
+    "state": "IA",
+    "answer": "Davenport, IA",
+    "known": "True"
+   },
+   "near": "Greut River Brewery",
+   "facts": {
+    "city": "Lombard",
+    "state": "IL"
+   }
+  },
+  {
+   "key": "299",
+   "rows": [
+    530,
+    531,
+    533,
+    534
+   ],
+   "all_rows": [
+    529,
+    530,
+    531,
+    532,
+    533,
+    534
+   ],
+   "surrogate": "Sulnyba Brewing Company",
+   "famous": {
+    "name": "Sherwood Forest Brewers",
+    "city": "Marlborough",
+    "state": "MA",
+    "answer": "Marlborough, MA",
+    "known": "True"
+   },
+   "near": "Sherwaod Forest Brewers",
+   "facts": {
+    "city": "Elmira",
+    "state": "NY"
+   }
+  },
+  {
+   "key": "240",
+   "rows": [
+    375,
+    376,
+    377,
+    379,
+    380,
+    381
+   ],
+   "all_rows": [
+    374,
+    375,
+    376,
+    377,
+    378,
+    379,
+    380,
+    381
+   ],
+   "surrogate": "Morbrin Drilo Brewing",
+   "famous": {
+    "name": "Mudshark Brewing Company",
+    "city": "Lake Havasu City",
+    "state": "AZ",
+    "answer": "Lake Havasu City, AZ",
+    "known": "True"
+   },
+   "near": "Mudsherk Brewing Company",
+   "facts": {
+    "city": "Detroit",
+    "state": "MI"
+   }
+  },
+  {
+   "key": "410",
+   "rows": [
+    598,
+    599,
+    600,
+    601,
+    602,
+    603
+   ],
+   "all_rows": [
+    598,
+    599,
+    600,
+    601,
+    602,
+    603
+   ],
+   "surrogate": "Bakelmor Zarvelwex Brewing Company",
+   "famous": {
+    "name": "Hilliard's Beer",
+    "city": "Seattle",
+    "state": "WA",
+    "answer": "Seattle, WA",
+    "known": "True"
+   },
+   "near": "Hillaard's Beer",
+   "facts": {
+    "city": "Hyannis",
+    "state": "MA"
+   }
+  },
+  {
+   "key": "395",
+   "rows": [
+    448,
+    449,
+    450
+   ],
+   "all_rows": [
+    448,
+    449,
+    450
+   ],
+   "surrogate": "Pimvascal & Calula Brewery",
+   "famous": {
+    "name": "Appalachian Mountain Brewery",
+    "city": "Boone",
+    "state": "NC",
+    "answer": "Boone, NC",
+    "known": "True"
+   },
+   "near": "Appalichian Mountain Brewery",
+   "facts": {
+    "city": "Mt. Airy",
+    "state": "MD"
+   }
+  },
+  {
+   "key": "30",
+   "rows": [
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    734,
+    735,
+    737,
+    738
+   ],
+   "all_rows": [
+    728,
+    729,
+    730,
+    731,
+    732,
+    733,
+    734,
+    735,
+    736,
+    737,
+    738
+   ],
+   "surrogate": "Calheptor Brewing Company",
+   "famous": {
+    "name": "Rogue Ales",
+    "city": "Newport",
+    "state": "OR",
+    "answer": "Newport, OR",
+    "known": "True"
+   },
+   "near": "Rague Ales",
+   "facts": {
+    "city": "Nantucket",
+    "state": "MA"
+   }
+  },
+  {
+   "key": "531",
+   "rows": [
+    296,
+    297,
+    298,
+    299
+   ],
+   "all_rows": [
+    296,
+    297,
+    298,
+    299
+   ],
+   "surrogate": "Taswex Garny Brewery",
+   "famous": {
+    "name": "Denali Brewing Company",
+    "city": "Talkeetna",
+    "state": "AK",
+    "answer": "Talkeetna, AK",
+    "known": "True"
+   },
+   "near": "Dinali Brewing Company",
+   "facts": {
+    "city": "Des Moines",
+    "state": "IA"
+   }
+  },
+  {
+   "key": "148",
+   "rows": [
+    623,
+    624,
+    625
+   ],
+   "all_rows": [
+    623,
+    624,
+    625
+   ],
+   "surrogate": "Sulquenkel Nygarhep",
+   "famous": {
+    "name": "Wolf Hills Brewing Company",
+    "city": "Abingdon",
+    "state": "VA",
+    "answer": "Abingdon, VA",
+    "known": "True"
+   },
+   "near": "Wolf Halls Brewing Company",
+   "facts": {
+    "city": "Ridgefield Park",
+    "state": "NJ"
+   }
+  },
+  {
+   "key": "5",
+   "rows": [
+    200,
+    201,
+    202
+   ],
+   "all_rows": [
+    200,
+    201,
+    202
+   ],
+   "surrogate": "LOQUENBA Brewing Company",
+   "famous": {
+    "name": "Lavery Brewing Company",
+    "city": "Erie",
+    "state": "PA",
+    "answer": "Erie, PA",
+    "known": "True"
+   },
+   "near": "Lavury Brewing Company",
+   "facts": {
+    "city": "Lafayette",
+    "state": "IN"
+   }
+  },
+  {
+   "key": "66",
+   "rows": [
+    363,
+    364,
+    365
+   ],
+   "all_rows": [
+    363,
+    364,
+    365
+   ],
+   "surrogate": "Nyzarjou Brewing Company",
+   "famous": {
+    "name": "Modern Times Beer",
+    "city": "San Diego",
+    "state": "CA",
+    "answer": "San Diego, CA",
+    "known": "True"
+   },
+   "near": "Midern Times Beer",
+   "facts": {
+    "city": "Lahaina",
+    "state": "HI"
+   }
+  },
+  {
+   "key": "21",
+   "rows": [
+    894,
+    895,
+    896,
+    897
+   ],
+   "all_rows": [
+    894,
+    895,
+    896,
+    897
+   ],
+   "surrogate": "Sulfentas Driosksul Brewing",
+   "famous": {
+    "name": "Straub Brewery",
+    "city": "St Mary's",
+    "state": "PA",
+    "answer": "St. Marys, PA",
+    "known": "True"
+   },
+   "near": "Streub Brewery",
+   "facts": {
+    "city": "Kalamazoo",
+    "state": "MI"
+   }
+  },
+  {
+   "key": "444",
+   "rows": [
+    109,
+    110,
+    111
+   ],
+   "all_rows": [
+    109,
+    110,
+    111
+   ],
+   "surrogate": "Pimba Kelhep Brewery",
+   "famous": {
+    "name": "Latitude 42 Brewing Company",
+    "city": "Portage",
+    "state": "MI",
+    "answer": "Portage, MI",
+    "known": "True"
+   },
+   "near": "Latutude 42 Brewing Company",
+   "facts": {
+    "city": "Lewiston",
+    "state": "ME"
+   }
+  },
+  {
+   "key": "371",
+   "rows": [
+    775,
+    776,
+    778,
+    779
+   ],
+   "all_rows": [
+    775,
+    776,
+    777,
+    778,
+    779
+   ],
+   "surrogate": "Kelzarmor Nyvelgar Brewing Company",
+   "famous": {
+    "name": "Round Guys Brewing",
+    "city": "Lansdale",
+    "state": "PA",
+    "answer": "Lansdale, PA",
+    "known": "True"
+   },
+   "near": "Ruund Guys Brewing",
+   "facts": {
+    "city": "Paso Robles",
+    "state": "CA"
+   }
+  },
+  {
+   "key": "16",
+   "rows": [
+    336,
+    337,
+    338
+   ],
+   "all_rows": [
+    336,
+    337,
+    338
+   ],
+   "surrogate": "Kelbamor 11 Keldrical",
+   "famous": {
+    "name": "Upstate Brewing Company",
+    "city": "Elmira",
+    "state": "NY",
+    "answer": "Elmira, NY",
+    "known": "True"
+   },
+   "near": "Upstite Brewing Company",
+   "facts": {
+    "city": "College Station",
+    "state": "TX"
+   }
+  },
+  {
+   "key": "135",
+   "rows": [
+    675,
+    676,
+    677,
+    678
+   ],
+   "all_rows": [
+    674,
+    675,
+    676,
+    677,
+    678
+   ],
+   "surrogate": "Hepbrinquen Joutorrho's Brewery",
+   "famous": {
+    "name": "Spiteful Brewing Company",
+    "city": "Chicago",
+    "state": "IL",
+    "answer": "Chicago, IL",
+    "known": "True"
+   },
+   "near": "Spitiful Brewing Company",
+   "facts": {
+    "city": "Montauk",
+    "state": "NY"
+   }
+  },
+  {
+   "key": "46",
+   "rows": [
+    757,
+    759,
+    760,
+    762,
+    763,
+    764
+   ],
+   "all_rows": [
+    757,
+    758,
+    759,
+    760,
+    761,
+    762,
+    763,
+    764
+   ],
+   "surrogate": "Bamortor Craft Ales",
+   "famous": {
+    "name": "Hinterland Brewery",
+    "city": "Green Bay",
+    "state": "WI",
+    "answer": "Green Bay, WI",
+    "known": "True"
+   },
+   "near": "Hanterland Brewery",
+   "facts": {
+    "city": "Odessa",
+    "state": "FL"
+   }
+  },
+  {
+   "key": "155",
+   "rows": [
+    206,
+    207,
+    209,
+    210
+   ],
+   "all_rows": [
+    206,
+    207,
+    208,
+    209,
+    210
+   ],
+   "surrogate": "Kelosk Brewing Company",
+   "famous": {
+    "name": "Steamworks Brewing Company",
+    "city": "Durango",
+    "state": "CO",
+    "answer": "Durango, CO",
+    "known": "True"
+   },
+   "near": "Steamwarks Brewing Company",
+   "facts": {
+    "city": "Smithton",
+    "state": "PA"
+   }
+  },
+  {
+   "key": "478",
+   "rows": [
+    384,
+    385,
+    386,
+    387
+   ],
+   "all_rows": [
+    384,
+    385,
+    386,
+    387
+   ],
+   "surrogate": "Wexlo Velzar Brewing Company",
+   "famous": {
+    "name": "18th Street Brewery",
+    "city": "Gary",
+    "state": "IN",
+    "answer": "Gary, IN",
+    "known": "True"
+   },
+   "near": "18th Struet Brewery",
+   "facts": {
+    "city": "Bucryus",
+    "state": "MO"
+   }
+  },
+  {
+   "key": "449",
+   "rows": [
+    859,
+    860,
+    861
+   ],
+   "all_rows": [
+    859,
+    860,
+    861
+   ],
+   "surrogate": "Tasrhoba Beer",
+   "famous": {
+    "name": "Bauhaus Brew Labs",
+    "city": "Minneapolis",
+    "state": "MN",
+    "answer": "Minneapolis, MN",
+    "known": "True"
+   },
+   "near": "Bauhaos Brew Labs",
+   "facts": {
+    "city": "Buena Vista",
+    "state": "CO"
+   }
+  },
+  {
+   "key": "360",
+   "rows": [
+    68,
+    69,
+    70
+   ],
+   "all_rows": [
+    68,
+    69,
+    70
+   ],
+   "surrogate": "Ulanykel Brewing Company",
+   "famous": {
+    "name": "Everybody's Brewing",
+    "city": "White Salmon",
+    "state": "WA",
+    "answer": "White Salmon, WA",
+    "known": "True"
+   },
+   "near": "Everybudy's Brewing",
+   "facts": {
+    "city": "Stratford",
+    "state": "CT"
+   }
+  },
+  {
+   "key": "124",
+   "rows": [
+    417,
+    418,
+    419
+   ],
+   "all_rows": [
+    417,
+    418,
+    419
+   ],
+   "surrogate": "Sulkelsul Quendritas Brewing Company",
+   "famous": {
+    "name": "Borderlands Brewing Company",
+    "city": "Tucson",
+    "state": "AZ",
+    "answer": "Tucson, AZ",
+    "known": "True"
+   },
+   "near": "Bordurlands Brewing Company",
+   "facts": {
+    "city": "Sheridan",
+    "state": "WY"
+   }
+  },
+  {
+   "key": "82",
+   "rows": [
+    592,
+    593,
+    594,
+    595,
+    596,
+    597
+   ],
+   "all_rows": [
+    592,
+    593,
+    594,
+    595,
+    596,
+    597
+   ],
+   "surrogate": "Bakelmor Suldrijou Brewing Company",
+   "famous": {
+    "name": "Fremont Brewing Company",
+    "city": "Seattle",
+    "state": "WA",
+    "answer": "Seattle, WA",
+    "known": "True"
+   },
+   "near": "Frimont Brewing Company",
+   "facts": {
+    "city": "Comstock Park",
+    "state": "MI"
+   }
+  },
+  {
+   "key": "44",
+   "rows": [
+    700,
+    701,
+    702,
+    703
+   ],
+   "all_rows": [
+    700,
+    701,
+    702,
+    703
+   ],
+   "surrogate": "Calnygar Brewing Company",
+   "famous": {
+    "name": "Renegade Brewing Company",
+    "city": "Denver",
+    "state": "CO",
+    "answer": "Denver, CO",
+    "known": "True"
+   },
+   "near": "Renagade Brewing Company",
+   "facts": {
+    "city": "Birmingham",
+    "state": "AL"
+   }
+  },
+  {
+   "key": "309",
+   "rows": [
+    785,
+    786,
+    788,
+    789,
+    791,
+    792
+   ],
+   "all_rows": [
+    785,
+    786,
+    787,
+    788,
+    789,
+    790,
+    791,
+    792
+   ],
+   "surrogate": "Pimquenosk Brewing Company",
+   "famous": {
+    "name": "Airways Brewing Company",
+    "city": "Kent",
+    "state": "WA",
+    "answer": "Kent, WA",
+    "known": "True"
+   },
+   "near": "Airwuys Brewing Company",
+   "facts": {
+    "city": "Palisade",
+    "state": "CO"
+   }
+  },
+  {
+   "key": "159",
+   "rows": [
+    923,
+    924,
+    925,
+    926,
+    927,
+    928
+   ],
+   "all_rows": [
+    923,
+    924,
+    925,
+    926,
+    927,
+    928
+   ],
+   "surrogate": "Pimrholo Brewing Company",
+   "famous": {
+    "name": "Hops & Grain Brewery",
+    "city": "Austin",
+    "state": "TX",
+    "answer": "Austin, TX",
+    "known": "True"
+   },
+   "near": "Hops & Graan Brewery",
+   "facts": {
+    "city": "Edwards",
+    "state": "CO"
+   }
+  },
+  {
+   "key": "284",
+   "rows": [
+    556,
+    557,
+    558
+   ],
+   "all_rows": [
+    556,
+    557,
+    558
+   ],
+   "surrogate": "Nywexny Brewing Company",
+   "famous": {
+    "name": "Harpoon Brewery",
+    "city": "Boston",
+    "state": "MA",
+    "answer": "Boston, MA",
+    "known": "True"
+   },
+   "near": "Harpoun Brewery",
+   "facts": {
+    "city": "Phoenixville",
+    "state": "PA"
+   }
+  },
+  {
+   "key": "165",
+   "rows": [
+    393,
+    394,
+    395,
+    396,
+    397,
+    399,
+    400
+   ],
+   "all_rows": [
+    393,
+    394,
+    395,
+    396,
+    397,
+    398,
+    399,
+    400
+   ],
+   "surrogate": "Drijou Babajou Brewery",
+   "famous": {
+    "name": "Wingman Brewers",
+    "city": "Tacoma",
+    "state": "WA",
+    "answer": "Tacoma, WA",
+    "known": "True"
+   },
+   "near": "Wungman Brewers",
+   "facts": {
+    "city": "Comstock Park",
+    "state": "MI"
+   }
+  },
+  {
+   "key": "57",
+   "rows": [
+    286,
+    289,
+    290
+   ],
+   "all_rows": [
+    286,
+    287,
+    288,
+    289,
+    290
+   ],
+   "surrogate": "Kelnytas Brewery",
+   "famous": {
+    "name": "Saint Archer Brewery",
+    "city": "San Diego",
+    "state": "CA",
+    "answer": "San Diego, CA",
+    "known": "True"
+   },
+   "near": "Saint Archar Brewery",
+   "facts": {
+    "city": "Ada",
+    "state": "MI"
+   }
+  },
+  {
+   "key": "110",
+   "rows": [
+    694,
+    696,
+    697
+   ],
+   "all_rows": [
+    694,
+    695,
+    696,
+    697
+   ],
+   "surrogate": "Callozar Brewing Company",
+   "famous": {
+    "name": "Indeed Brewing Company",
+    "city": "Minneapolis",
+    "state": "MN",
+    "answer": "Minneapolis, MN",
+    "known": "True"
+   },
+   "near": "Indied Brewing Company",
+   "facts": {
+    "city": "Boynton Beach",
+    "state": "FL"
+   }
+  },
+  {
+   "key": "51",
+   "rows": [
+    934,
+    935,
+    936,
+    937,
+    939,
+    940,
+    942
+   ],
+   "all_rows": [
+    934,
+    935,
+    936,
+    937,
+    938,
+    939,
+    940,
+    941,
+    942
+   ],
+   "surrogate": "Torlony Brewing Company",
+   "famous": {
+    "name": "Four Horsemen Brewing Company",
+    "city": "South Bend",
+    "state": "IN",
+    "answer": "South Bend, IN",
+    "known": "True"
+   },
+   "near": "Four Horsemin Brewing Company",
+   "facts": {
+    "city": "South Burlington",
+    "state": "VT"
+   }
+  },
+  {
+   "key": "134",
+   "rows": [
+    559,
+    560,
+    561,
+    563,
+    564,
+    565
+   ],
+   "all_rows": [
+    559,
+    560,
+    561,
+    562,
+    563,
+    564,
+    565
+   ],
+   "surrogate": "Torgarsul Craft Brewery",
+   "famous": {
+    "name": "Central Coast Brewing Company",
+    "city": "San Luis Obispo",
+    "state": "CA",
+    "answer": "San Luis Obispo, CA",
+    "known": "True"
+   },
+   "near": "Cantral Coast Brewing Company",
+   "facts": {
+    "city": "Alpine",
+    "state": "TX"
+   }
+  },
+  {
+   "key": "166",
+   "rows": [
+    634,
+    635,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644
+   ],
+   "all_rows": [
+    634,
+    635,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    644,
+    645
+   ],
+   "surrogate": "Dribrintor Zarvaswex Brewery",
+   "famous": {
+    "name": "RoughTail Brewing Company",
+    "city": "Midwest City",
+    "state": "OK",
+    "answer": "Midwest City, OK",
+    "known": "True"
+   },
+   "near": "RoighTail Brewing Company",
+   "facts": {
+    "city": "Rochester",
+    "state": "MI"
+   }
+  },
+  {
+   "key": "361",
+   "rows": [
+    970,
+    971,
+    973,
+    974,
+    975
+   ],
+   "all_rows": [
+    970,
+    971,
+    972,
+    973,
+    974,
+    975
+   ],
+   "surrogate": "Zarcalvel Quennygar Brewing Company",
+   "famous": {
+    "name": "Sprecher Brewing Company",
+    "city": "Glendale",
+    "state": "WI",
+    "answer": "Glendale, WI",
+    "known": "True"
+   },
+   "near": "Sprechar Brewing Company",
+   "facts": {
+    "city": "Springfield",
+    "state": "OR"
+   }
+  },
+  {
+   "key": "171",
+   "rows": [
+    45,
+    46,
+    47
+   ],
+   "all_rows": [
+    45,
+    46,
+    47
+   ],
+   "surrogate": "Bahepfen Mormortas Brewing Company",
+   "famous": {
+    "name": "La Cumbre Brewing Company",
+    "city": "Albuquerque",
+    "state": "NM",
+    "answer": "Albuquerque, NM",
+    "known": "True"
+   },
+   "near": "La Cambre Brewing Company",
+   "facts": {
+    "city": "Shelburne",
+    "state": "VT"
+   }
+  },
+  {
+   "key": "154",
+   "rows": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "all_rows": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "surrogate": "7 Velbasul Fendrimor",
+   "famous": {
+    "name": "Perrin Brewing Company",
+    "city": "Comstock Park",
+    "state": "MI",
+    "answer": "Comstock Park, MI",
+    "known": "True"
+   },
+   "near": "Perrun Brewing Company",
+   "facts": {
+    "city": "Lansdale",
+    "state": "PA"
+   }
+  },
+  {
+   "key": "336",
+   "rows": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+   ],
+   "all_rows": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106
+   ],
+   "surrogate": "Pimba Kelbrin Brewing Company",
+   "famous": {
+    "name": "Four Fathers Brewing",
+    "city": "Valparaiso",
+    "state": "IN",
+    "answer": "Valparaiso, IN",
+    "known": "True"
+   },
+   "near": "Four Futhers Brewing",
+   "facts": {
+    "city": "Garden City",
+    "state": "ID"
+   }
+  },
+  {
+   "key": "322",
+   "rows": [
+    951,
+    952,
+    954
+   ],
+   "all_rows": [
+    951,
+    952,
+    953,
+    954
+   ],
+   "surrogate": "Nyvelvas Brewery",
+   "famous": {
+    "name": "Tamarack Brewing Company",
+    "city": "Lakeside",
+    "state": "MT",
+    "answer": "Lakeside, MT",
+    "known": "True"
+   },
+   "near": "Tamaruck Brewing Company",
+   "facts": {
+    "city": "Boynton Beach",
+    "state": "FL"
+   }
+  },
+  {
+   "key": "428",
+   "rows": [
+    744,
+    745,
+    746
+   ],
+   "all_rows": [
+    744,
+    745,
+    746
+   ],
+   "surrogate": "Uladrizar Brewing Company",
+   "famous": {
+    "name": "Lift Bridge Brewing Company",
+    "city": "Stillwater",
+    "state": "MN",
+    "answer": "Stillwater, MN",
+    "known": "True"
+   },
+   "near": "Lift Brodge Brewing Company",
+   "facts": {
+    "city": "Charleston",
+    "state": "SC"
+   }
+  },
+  {
+   "key": "375",
+   "rows": [
+    535,
+    536,
+    537,
+    538,
+    539,
+    540
+   ],
+   "all_rows": [
+    535,
+    536,
+    537,
+    538,
+    539,
+    540
+   ],
+   "surrogate": "Velcaldri Brewing Company",
+   "famous": {
+    "name": "Ale Asylum",
+    "city": "Madison",
+    "state": "WI",
+    "answer": "Madison, WI",
+    "known": "True"
+   },
+   "near": "Ale Asylem",
+   "facts": {
+    "city": "Charleston",
+    "state": "SC"
+   }
+  },
+  {
+   "key": "356",
+   "rows": [
+    519,
+    520,
+    521,
+    522,
+    523
+   ],
+   "all_rows": [
+    519,
+    520,
+    521,
+    522,
+    523
+   ],
+   "surrogate": "Ulaveldri Brewing Company",
+   "famous": {
+    "name": "Snake River Brewing Company",
+    "city": "Jackson",
+    "state": "WY",
+    "answer": "Jackson, WY",
+    "known": "True"
+   },
+   "near": "Sneke River Brewing Company",
+   "facts": {
+    "city": "Carlsbad",
+    "state": "CA"
+   }
+  },
+  {
+   "key": "61",
+   "rows": [
+    850,
+    851,
+    852,
+    853
+   ],
+   "all_rows": [
+    849,
+    850,
+    851,
+    852,
+    853
+   ],
+   "surrogate": "Wexcalsul Brewing Company",
+   "famous": {
+    "name": "Blue Owl Brewing",
+    "city": "Austin",
+    "state": "TX",
+    "answer": "Austin, TX",
+    "known": "True"
+   },
+   "near": "Bloe Owl Brewing",
+   "facts": {
+    "city": "Lexington",
+    "state": "KY"
+   }
+  },
+  {
+   "key": "43",
+   "rows": [
+    714,
+    715,
+    716,
+    717,
+    718
+   ],
+   "all_rows": [
+    712,
+    713,
+    714,
+    715,
+    716,
+    717,
+    718
+   ],
+   "surrogate": "Hepnyhep Brewing Company",
+   "famous": {
+    "name": "Gore Range Brewery",
+    "city": "Edwards",
+    "state": "CO",
+    "answer": "Edwards, CO",
+    "known": "True"
+   },
+   "near": "Gore Ronge Brewery",
+   "facts": {
+    "city": "Paw Paw",
+    "state": "MI"
+   }
+  }
+ ],
+ "chunk_rows": {
+  "1": [
+   [
+    422,
+    986,
+    156,
+    255,
+    542,
+    516,
+    153,
+    511,
+    687,
+    281,
+    213,
+    610,
+    59,
+    238,
+    750,
+    35,
+    474,
+    128,
+    983,
+    945
+   ],
+   [
+    484,
+    156,
+    892,
+    980,
+    930,
+    632,
+    29,
+    782,
+    780,
+    354,
+    574,
+    25,
+    342,
+    653,
+    883,
+    179,
+    251,
+    373,
+    89,
+    627
+   ],
+   [
+    375,
+    958,
+    6,
+    461,
+    231,
+    723,
+    652,
+    914,
+    27,
+    186,
+    613,
+    359,
+    662,
+    356,
+    530,
+    986,
+    53,
+    748,
+    673,
+    578
+   ],
+   [
+    751,
+    26,
+    598,
+    271,
+    877,
+    448,
+    511,
+    390,
+    671,
+    269,
+    886,
+    686,
+    301,
+    265,
+    905,
+    749,
+    352,
+    272,
+    728,
+    583
+   ],
+   [
+    874,
+    781,
+    225,
+    526,
+    296,
+    436,
+    471,
+    747,
+    284,
+    413,
+    801,
+    706,
+    623,
+    200,
+    187,
+    275,
+    911,
+    573,
+    414,
+    231
+   ],
+   [
+    48,
+    109,
+    151,
+    515,
+    894,
+    221,
+    230,
+    363,
+    575,
+    61,
+    823,
+    141,
+    196,
+    291,
+    770,
+    293,
+    281,
+    914,
+    442,
+    898
+   ],
+   [
+    775,
+    0,
+    675,
+    679,
+    373,
+    265,
+    336,
+    914,
+    969,
+    14,
+    726,
+    152,
+    875,
+    573,
+    371,
+    621,
+    854,
+    224,
+    708,
+    720
+   ],
+   [
+    250,
+    132,
+    907,
+    16,
+    292,
+    222,
+    798,
+    206,
+    991,
+    823,
+    256,
+    272,
+    404,
+    478,
+    757,
+    62,
+    885,
+    590,
+    280,
+    384
+   ],
+   [
+    859,
+    189,
+    36,
+    148,
+    14,
+    681,
+    68,
+    462,
+    621,
+    240,
+    570,
+    326,
+    417,
+    360,
+    659,
+    616,
+    496,
+    552,
+    879,
+    689
+   ],
+   [
+    604,
+    477,
+    250,
+    322,
+    126,
+    546,
+    221,
+    493,
+    88,
+    301,
+    592,
+    307,
+    25,
+    404,
+    463,
+    920,
+    721,
+    134,
+    785,
+    700
+   ],
+   [
+    142,
+    185,
+    461,
+    724,
+    587,
+    668,
+    63,
+    667,
+    285,
+    556,
+    774,
+    961,
+    323,
+    578,
+    353,
+    772,
+    923,
+    393,
+    138,
+    511
+   ],
+   [
+    919,
+    934,
+    20,
+    981,
+    54,
+    780,
+    931,
+    63,
+    43,
+    510,
+    528,
+    739,
+    361,
+    286,
+    654,
+    694,
+    908,
+    353,
+    315,
+    270
+   ],
+   [
+    634,
+    547,
+    970,
+    559,
+    301,
+    680,
+    986,
+    197,
+    725,
+    388,
+    588,
+    572,
+    271,
+    987,
+    721,
+    922,
+    52,
+    632,
+    709,
+    526
+   ],
+   [
+    7,
+    15,
+    101,
+    749,
+    510,
+    45,
+    447,
+    163,
+    352,
+    711,
+    66,
+    63,
+    328,
+    889,
+    608,
+    462,
+    580,
+    903,
+    555,
+    339
+   ],
+   [
+    979,
+    502,
+    821,
+    962,
+    389,
+    535,
+    87,
+    476,
+    612,
+    81,
+    145,
+    911,
+    128,
+    92,
+    230,
+    951,
+    391,
+    744,
+    272,
+    438
+   ],
+   [
+    548,
+    519,
+    383,
+    372,
+    571,
+    653,
+    714,
+    620,
+    479,
+    850,
+    38,
+    869,
+    772,
+    502,
+    330,
+    73,
+    66,
+    490,
+    579,
+    903
+   ]
+  ],
+  "3": [
+   [
+    945,
+    153,
+    518,
+    721,
+    544,
+    647,
+    913,
+    555,
+    86,
+    517,
+    451,
+    947,
+    543,
+    516,
+    824,
+    266,
+    285,
+    946,
+    836,
+    542
+   ],
+   [
+    29,
+    132,
+    343,
+    706,
+    627,
+    342,
+    679,
+    661,
+    628,
+    629,
+    30,
+    616,
+    59,
+    667,
+    31,
+    344,
+    197,
+    357,
+    230,
+    944
+   ],
+   [
+    4,
+    615,
+    614,
+    487,
+    60,
+    274,
+    117,
+    531,
+    796,
+    377,
+    533,
+    530,
+    376,
+    405,
+    689,
+    375,
+    613,
+    620,
+    632,
+    511
+   ],
+   [
+    43,
+    64,
+    579,
+    729,
+    616,
+    599,
+    291,
+    416,
+    480,
+    508,
+    881,
+    450,
+    730,
+    600,
+    433,
+    449,
+    448,
+    235,
+    728,
+    598
+   ],
+   [
+    607,
+    488,
+    464,
+    816,
+    135,
+    201,
+    298,
+    285,
+    296,
+    996,
+    48,
+    297,
+    625,
+    623,
+    624,
+    580,
+    140,
+    202,
+    283,
+    200
+   ],
+   [
+    891,
+    996,
+    895,
+    363,
+    680,
+    932,
+    894,
+    263,
+    319,
+    896,
+    274,
+    109,
+    388,
+    424,
+    739,
+    721,
+    365,
+    111,
+    364,
+    110
+   ],
+   [
+    676,
+    776,
+    775,
+    772,
+    337,
+    998,
+    40,
+    579,
+    292,
+    677,
+    243,
+    336,
+    778,
+    611,
+    774,
+    654,
+    920,
+    675,
+    338,
+    889
+   ],
+   [
+    689,
+    386,
+    774,
+    741,
+    759,
+    385,
+    886,
+    384,
+    209,
+    207,
+    206,
+    524,
+    757,
+    760,
+    668,
+    372,
+    285,
+    608,
+    721,
+    153
+   ],
+   [
+    823,
+    416,
+    419,
+    126,
+    870,
+    752,
+    417,
+    418,
+    860,
+    70,
+    498,
+    69,
+    314,
+    492,
+    859,
+    68,
+    861,
+    239,
+    651,
+    995
+   ],
+   [
+    701,
+    236,
+    592,
+    63,
+    359,
+    969,
+    85,
+    232,
+    786,
+    527,
+    739,
+    594,
+    785,
+    470,
+    593,
+    788,
+    483,
+    700,
+    702,
+    197
+   ],
+   [
+    556,
+    221,
+    633,
+    545,
+    884,
+    116,
+    923,
+    394,
+    925,
+    609,
+    82,
+    437,
+    558,
+    924,
+    393,
+    557,
+    436,
+    395,
+    219,
+    478
+   ],
+   [
+    352,
+    992,
+    494,
+    694,
+    936,
+    696,
+    935,
+    697,
+    290,
+    289,
+    388,
+    286,
+    961,
+    820,
+    217,
+    589,
+    671,
+    609,
+    963,
+    934
+   ],
+   [
+    382,
+    635,
+    973,
+    270,
+    560,
+    990,
+    634,
+    688,
+    561,
+    97,
+    19,
+    670,
+    496,
+    568,
+    971,
+    970,
+    726,
+    638,
+    451,
+    559
+   ],
+   [
+    307,
+    46,
+    9,
+    673,
+    101,
+    26,
+    195,
+    45,
+    506,
+    7,
+    510,
+    670,
+    254,
+    968,
+    153,
+    102,
+    103,
+    269,
+    47,
+    8
+   ],
+   [
+    535,
+    856,
+    744,
+    271,
+    746,
+    902,
+    954,
+    952,
+    536,
+    483,
+    140,
+    512,
+    195,
+    27,
+    537,
+    11,
+    15,
+    670,
+    745,
+    951
+   ],
+   [
+    715,
+    841,
+    520,
+    850,
+    521,
+    852,
+    321,
+    803,
+    142,
+    231,
+    851,
+    195,
+    799,
+    188,
+    314,
+    519,
+    890,
+    714,
+    716,
+    576
+   ]
+  ]
+ }
+}

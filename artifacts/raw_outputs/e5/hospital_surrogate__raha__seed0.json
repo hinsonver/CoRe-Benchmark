@@ -1,0 +1,1505 @@
+{
+ "dataset": "hospital_surrogate",
+ "mode": "raha",
+ "seed": 0,
+ "seconds": 25,
+ "detected": 294,
+ "corrections": 289,
+ "counts": {
+  "all": {
+   "errors": 509,
+   "predicted": 287,
+   "repaired": 246,
+   "detected": 287
+  },
+  "identity": {
+   "errors": 219,
+   "predicted": 84,
+   "repaired": 77,
+   "detected": 84
+  },
+  "other": {
+   "errors": 290,
+   "predicted": 203,
+   "repaired": 169,
+   "detected": 203
+  }
+ },
+ "fixes": [
+  [
+   572,
+   "State",
+   "al"
+  ],
+  [
+   42,
+   "State",
+   "al"
+  ],
+  [
+   46,
+   "State",
+   "al"
+  ],
+  [
+   50,
+   "State",
+   "al"
+  ],
+  [
+   83,
+   "State",
+   "al"
+  ],
+  [
+   98,
+   "State",
+   "al"
+  ],
+  [
+   119,
+   "State",
+   "al"
+  ],
+  [
+   140,
+   "State",
+   "al"
+  ],
+  [
+   165,
+   "State",
+   "al"
+  ],
+  [
+   182,
+   "State",
+   "al"
+  ],
+  [
+   228,
+   "State",
+   "al"
+  ],
+  [
+   278,
+   "State",
+   "al"
+  ],
+  [
+   356,
+   "State",
+   "al"
+  ],
+  [
+   386,
+   "State",
+   "al"
+  ],
+  [
+   402,
+   "State",
+   "al"
+  ],
+  [
+   477,
+   "State",
+   "al"
+  ],
+  [
+   483,
+   "State",
+   "al"
+  ],
+  [
+   504,
+   "State",
+   "al"
+  ],
+  [
+   592,
+   "State",
+   "al"
+  ],
+  [
+   701,
+   "State",
+   "al"
+  ],
+  [
+   764,
+   "State",
+   "al"
+  ],
+  [
+   791,
+   "State",
+   "al"
+  ],
+  [
+   884,
+   "State",
+   "al"
+  ],
+  [
+   886,
+   "State",
+   "al"
+  ],
+  [
+   922,
+   "State",
+   "al"
+  ],
+  [
+   572,
+   "PhoneNumber",
+   "4022446622"
+  ],
+  [
+   24,
+   "PhoneNumber",
+   "7651710610"
+  ],
+  [
+   36,
+   "PhoneNumber",
+   "7651710610"
+  ],
+  [
+   57,
+   "PhoneNumber",
+   "3042984254"
+  ],
+  [
+   60,
+   "PhoneNumber",
+   "3042984254"
+  ],
+  [
+   65,
+   "PhoneNumber",
+   "3042984254"
+  ],
+  [
+   101,
+   "PhoneNumber",
+   "3250091114"
+  ],
+  [
+   217,
+   "PhoneNumber",
+   "2088259957"
+  ],
+  [
+   228,
+   "PhoneNumber",
+   "6629635964"
+  ],
+  [
+   247,
+   "PhoneNumber",
+   "2314439519"
+  ],
+  [
+   261,
+   "PhoneNumber",
+   "2314439519"
+  ],
+  [
+   321,
+   "PhoneNumber",
+   "4365569969"
+  ],
+  [
+   342,
+   "PhoneNumber",
+   "9477017594"
+  ],
+  [
+   381,
+   "PhoneNumber",
+   "2363163948"
+  ],
+  [
+   384,
+   "PhoneNumber",
+   "2363163948"
+  ],
+  [
+   386,
+   "PhoneNumber",
+   "2363163948"
+  ],
+  [
+   393,
+   "PhoneNumber",
+   "8205416665"
+  ],
+  [
+   471,
+   "PhoneNumber",
+   "9422478735"
+  ],
+  [
+   516,
+   "PhoneNumber",
+   "2876131556"
+  ],
+  [
+   548,
+   "PhoneNumber",
+   "7554731236"
+  ],
+  [
+   561,
+   "PhoneNumber",
+   "7554731236"
+  ],
+  [
+   562,
+   "PhoneNumber",
+   "7554731236"
+  ],
+  [
+   593,
+   "PhoneNumber",
+   "6081371409"
+  ],
+  [
+   666,
+   "PhoneNumber",
+   "6061657772"
+  ],
+  [
+   699,
+   "PhoneNumber",
+   "4955797804"
+  ],
+  [
+   713,
+   "PhoneNumber",
+   "4955797804"
+  ],
+  [
+   751,
+   "PhoneNumber",
+   "8211228704"
+  ],
+  [
+   763,
+   "PhoneNumber",
+   "8211228704"
+  ],
+  [
+   824,
+   "PhoneNumber",
+   "5296991885"
+  ],
+  [
+   855,
+   "PhoneNumber",
+   "7359937352"
+  ],
+  [
+   865,
+   "PhoneNumber",
+   "7359937352"
+  ],
+  [
+   881,
+   "PhoneNumber",
+   "3947540172"
+  ],
+  [
+   883,
+   "PhoneNumber",
+   "3947540172"
+  ],
+  [
+   916,
+   "PhoneNumber",
+   "2612322711"
+  ],
+  [
+   572,
+   "HospitalOwner",
+   "voluntary non-profit - other"
+  ],
+  [
+   559,
+   "State",
+   "al"
+  ],
+  [
+   532,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   16,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   39,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   98,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   199,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   213,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   266,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   280,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   293,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   411,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   413,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   453,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   490,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   493,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   497,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   511,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   588,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   634,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   695,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   705,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   729,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   779,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   782,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   814,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   848,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   877,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   902,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   926,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   949,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   956,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   964,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   976,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   532,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   532,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   532,
+   "HospitalName",
+   "morsultas health center"
+  ],
+  [
+   350,
+   "Address1",
+   "1377 vasquen blvd"
+  ],
+  [
+   161,
+   "Address1",
+   "6213 keljou drive"
+  ],
+  [
+   175,
+   "Address1",
+   "6799 veltor blvd"
+  ],
+  [
+   260,
+   "Address1",
+   "2593 nybrin road"
+  ],
+  [
+   264,
+   "Address1",
+   "2593 nybrin road"
+  ],
+  [
+   275,
+   "Address1",
+   "9208 garba drive"
+  ],
+  [
+   334,
+   "Address1",
+   "826 wexlo drive"
+  ],
+  [
+   411,
+   "Address1",
+   "1958 garhep avenue"
+  ],
+  [
+   472,
+   "Address1",
+   "5696 tasquen blvd"
+  ],
+  [
+   484,
+   "Address1",
+   "5696 tasquen blvd"
+  ],
+  [
+   652,
+   "Address1",
+   "155 quenquen road"
+  ],
+  [
+   849,
+   "Address1",
+   "8579 vasmor avenue"
+  ],
+  [
+   857,
+   "Address1",
+   "6615 rhopim road"
+  ],
+  [
+   915,
+   "Address1",
+   "7776 rhorho drive"
+  ],
+  [
+   934,
+   "Address1",
+   "7859 taskel street"
+  ],
+  [
+   956,
+   "Address1",
+   "6998 velpim drive"
+  ],
+  [
+   986,
+   "Address1",
+   "2560 drihep road"
+  ],
+  [
+   350,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   24,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   43,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   51,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   157,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   318,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   327,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   332,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   374,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   389,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   410,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   418,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   492,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   521,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   536,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   564,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   579,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   587,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   628,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   653,
+   "EmergencyService",
+   "no"
+  ],
+  [
+   674,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   797,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   809,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   866,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   889,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   919,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   921,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   0,
+   "MeasureName",
+   "heart attack patients given pci within 90 minutes of arrival"
+  ],
+  [
+   94,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   119,
+   "MeasureName",
+   "heart attack patients given fibrinolytic medication within 30 minutes of arrival"
+  ],
+  [
+   210,
+   "MeasureName",
+   "pneumonia patients given the most appropriate initial antibiotic(s)"
+  ],
+  [
+   290,
+   "MeasureName",
+   "surgery patients who were given the right kind of antibiotic to help prevent infection"
+  ],
+  [
+   493,
+   "MeasureName",
+   "heart attack patients given pci within 90 minutes of arrival"
+  ],
+  [
+   507,
+   "MeasureName",
+   "pneumonix pxtients assessed xnd given influenzx vxccinxtion"
+  ],
+  [
+   541,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   545,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   562,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   612,
+   "MeasureName",
+   "heart attack patients given pci within 90 minutes of arrival"
+  ],
+  [
+   650,
+   "MeasureName",
+   "pneumonia patients assessed and given pneumococcal vaccination"
+  ],
+  [
+   785,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   893,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaxxination"
+  ],
+  [
+   997,
+   "MeasureName",
+   "pneumonia patients assessed and given pneumococcal vaccination"
+  ],
+  [
+   639,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   721,
+   "ProviderNumber",
+   "97253"
+  ],
+  [
+   789,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   888,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   57,
+   "Address1",
+   "2178 kelpim blvd"
+  ],
+  [
+   393,
+   "Address1",
+   "1958 garhep avenue"
+  ],
+  [
+   22,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   27,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   31,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   113,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   157,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   159,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   162,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   164,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   216,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   218,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   221,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   238,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   247,
+   "HospitalOwner",
+   "government - federal"
+  ],
+  [
+   313,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   332,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   356,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   449,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   493,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   526,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   744,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   784,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   846,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   868,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   872,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   639,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   111,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   145,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   219,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   256,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   281,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   346,
+   "MeasureName",
+   "surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries"
+  ],
+  [
+   380,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   389,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   473,
+   "MeasureName",
+   "heart failure patients given discharge instructions"
+  ],
+  [
+   651,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   672,
+   "MeasureName",
+   "heart attack patients given pci within 90 minutes of arrival"
+  ],
+  [
+   705,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   706,
+   "MeasureName",
+   "pneumonia patients given the most appropriate initial antibiotic(s)"
+  ],
+  [
+   713,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   802,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   816,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   902,
+   "MeasureName",
+   "children who received reliever medication while hospitalized for asthma"
+  ],
+  [
+   915,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   13,
+   "ProviderNumber",
+   "96890"
+  ],
+  [
+   45,
+   "ProviderNumber",
+   "94242"
+  ],
+  [
+   81,
+   "ProviderNumber",
+   "95796"
+  ],
+  [
+   213,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   244,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   253,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   273,
+   "ProviderNumber",
+   "99052"
+  ],
+  [
+   314,
+   "ProviderNumber",
+   "92281"
+  ],
+  [
+   360,
+   "ProviderNumber",
+   "94104"
+  ],
+  [
+   408,
+   "ProviderNumber",
+   "99861"
+  ],
+  [
+   559,
+   "ProviderNumber",
+   "91649"
+  ],
+  [
+   608,
+   "ProviderNumber",
+   "97113"
+  ],
+  [
+   627,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   645,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   655,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   704,
+   "ProviderNumber",
+   "97815"
+  ],
+  [
+   724,
+   "ProviderNumber",
+   "98376"
+  ],
+  [
+   755,
+   "ProviderNumber",
+   "99861"
+  ],
+  [
+   780,
+   "ProviderNumber",
+   "95866"
+  ],
+  [
+   793,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   859,
+   "ProviderNumber",
+   "90230"
+  ],
+  [
+   878,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   933,
+   "ProviderNumber",
+   "90018"
+  ],
+  [
+   955,
+   "ProviderNumber",
+   "98086"
+  ],
+  [
+   673,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   97,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   101,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   108,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   120,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   177,
+   "MeasureCode",
+   "hf-2"
+  ],
+  [
+   190,
+   "MeasureCode",
+   "scip-inf-4"
+  ],
+  [
+   264,
+   "MeasureCode",
+   "scip-inf-3"
+  ],
+  [
+   349,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   391,
+   "MeasureCode",
+   "pn-3b"
+  ],
+  [
+   398,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   409,
+   "MeasureCode",
+   "scip-inf-1"
+  ],
+  [
+   464,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   495,
+   "MeasureCode",
+   "ami-5"
+  ],
+  [
+   580,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   648,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   676,
+   "MeasureCode",
+   "hf-4"
+  ],
+  [
+   691,
+   "MeasureCode",
+   "ami-1"
+  ],
+  [
+   694,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   718,
+   "MeasureCode",
+   "ami-3"
+  ],
+  [
+   729,
+   "MeasureCode",
+   "pn-4"
+  ],
+  [
+   735,
+   "MeasureCode",
+   "scip-inf-2"
+  ],
+  [
+   749,
+   "MeasureCode",
+   "hf-2"
+  ],
+  [
+   774,
+   "MeasureCode",
+   "cac-1"
+  ],
+  [
+   788,
+   "MeasureCode",
+   "pn-2"
+  ],
+  [
+   865,
+   "MeasureCode",
+   "pn-4"
+  ],
+  [
+   930,
+   "MeasureCode",
+   "ami-1"
+  ],
+  [
+   434,
+   "MeasureName",
+   "heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   447,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   673,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   91,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   133,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   234,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   316,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   413,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   444,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   482,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   502,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   554,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   580,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   588,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   668,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   776,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   866,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   872,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   905,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   972,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   842,
+   "MeasureCode",
+   "pn-6"
+  ],
+  [
+   842,
+   "Stateavg",
+   "al_pn-6"
+  ],
+  [
+   845,
+   "Sample",
+   "4 patients"
+  ],
+  [
+   115,
+   "Sample",
+   "4 patients"
+  ],
+  [
+   224,
+   "Sample",
+   "4 patients"
+  ],
+  [
+   418,
+   "Sample",
+   "4 patients"
+  ],
+  [
+   496,
+   "Sample",
+   "4 patients"
+  ],
+  [
+   17,
+   "Sample",
+   "37 patients"
+  ],
+  [
+   354,
+   "Sample",
+   "37 patients"
+  ],
+  [
+   170,
+   "Sample",
+   "6 patients"
+  ],
+  [
+   523,
+   "Sample",
+   "257 patients"
+  ],
+  [
+   166,
+   "Sample",
+   "11 patients"
+  ],
+  [
+   685,
+   "ZipCode",
+   "39689"
+  ],
+  [
+   221,
+   "CountyName",
+   "lonysul"
+  ]
+ ],
+ "all": {
+  "repair_p": 0.8571,
+  "repair_r": 0.4833,
+  "repair_f1": 0.6181,
+  "detect_f1": 0.7211,
+  "errors": 509,
+  "predicted": 287,
+  "repaired": 246,
+  "detected": 287
+ },
+ "identity": {
+  "repair_p": 0.9167,
+  "repair_r": 0.3516,
+  "repair_f1": 0.5083,
+  "detect_f1": 0.5545,
+  "errors": 219,
+  "predicted": 84,
+  "repaired": 77,
+  "detected": 84
+ },
+ "other": {
+  "repair_p": 0.8325,
+  "repair_r": 0.5828,
+  "repair_f1": 0.6856,
+  "detect_f1": 0.8235,
+  "errors": 290,
+  "predicted": 203,
+  "repaired": 169,
+  "detected": 203
+ }
+}

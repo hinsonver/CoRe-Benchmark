@@ -1,0 +1,356 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-7b",
+  "dataset": "rayyan",
+  "source": "dirty",
+  "named": true,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 0.84,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.2463,
+  "acc_noninferable": 0.0061,
+  "noninferable_cells": 328,
+  "acc_hard": 0.0032,
+  "hard_cells": 310,
+  "leak_rate": 0.0,
+  "leak_cells": 39,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 39,
+  "per_column": {
+   "id": {
+    "n": 42,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_title": {
+    "n": 42,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_title": {
+    "n": 33,
+    "model": 0.0,
+    "freq": 0.03,
+    "trans": 0.0,
+    "structural": 0.03
+   },
+   "jounral_abbreviation": {
+    "n": 14,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "journal_issn": {
+    "n": 26,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jvolumn": {
+    "n": 36,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.111
+   },
+   "article_pagination": {
+    "n": 37,
+    "model": 0.0,
+    "freq": 0.054,
+    "trans": 0.0,
+    "structural": 0.054
+   },
+   "author_list": {
+    "n": 40,
+    "model": 0.0,
+    "freq": 0.025,
+    "trans": 0.0,
+    "structural": 0.025
+   },
+   "article_jcreated_at": {
+    "n": 33,
+    "model": 0.03,
+    "freq": 0.091,
+    "trans": 0.0,
+    "structural": 0.091
+   },
+   "article_language": {
+    "n": 5,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "article_jissue": {
+    "n": 20,
+    "model": 0.05,
+    "freq": 0.1,
+    "trans": 0.05,
+    "structural": 0.35
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 874,
+   "output": "234567,A randomized controlled trial of a brief intervention for problem gamblers delivered via the internet: a feasibility study,English,,,,49,1,1/1/11,345-51,\"{\"\"Johanna Lindfors\"\",\"\"Lina Jansson\"\",\"\"Bjorn Ljotsson\"\",\"\"Lisa Falk\"\",\"\"Erik Hedman\"\",\"\"Christian Ruck\"\",\"\"Amanda Wibron Vesterlund\"\",\"\"Sergei Andreewitch\"\",\"\"Nils Lindefors\"\",\"\"Gerhard Andersson\"\",\"\"Timo Hursti\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 404,
+   "output": "987654,\"Impact of telemedicine on patient outcomes in rural areas\",eng,J Telemed Telecare,J Telemed. Telecare,1357-6383,22,1,1/1/15,45-50,\"{\"\"John Doe\"\",\"\"Jane Smith\"\",\"\"Richard Brown\"\",\"\"Emily Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "987654,A novel approach to treating refractory epilepsy using deep brain stimulation,English,Epilepsy & Behavior,Epilepsy Behav,1525-5050,35,2,15/2/20,210-217,\"{\"\"John Doe\"\"\",\"\"Jane Smith\"\"\",\"\"Robert Johnson\"\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 921,
+   "output": "112345,A longitudinal study on the impact of physical activity on mental health in adolescents: findings from the National Longitudinal Study of Adolescent Health.,eng,Preventive Medicine,Prevent Med,0091-7435,35,6,6/1/02,456-67,\"{\"\"Jane Smith\"\",\"\"John Doe\"\",\"\"Emily Johnson\"\",\"\"Robert Brown\"\",\"\"Laura Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 440,
+   "output": "1023456,\"The role of miRNAs in the pathogenesis of Alzheimer's disease: A comprehensive review\",eng,Aging Clinical and Experimental Research,Aging Clin Exp Res,1510-6012,26,0,1/1/14,893-902,\"{\"\"A. M. Elsharkawy\"\",\"\"M. A. Elsharkawy\"\",\"\"H. M. Elsharkawy\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 51,
+   "output": "217726,Influence of dietary patterns on bone mineral density in postmenopausal women: a cross-sectional study.,eng,Osteoporosis international,Osteoporos Int.,0933-2419,22,1,1/1/11,123-31,\"{\"\"M. A. Arjmandi\"\",\"\"S. M. Elam\"\",\"\"S. A. Khalil\"\",\"\"S. M. Smith\"\",\"\"S. M. Lucas\"\",\"\"S. M. Kruger\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 275,
+   "output": "692359,\"A randomized controlled trial of mindfulness-based cognitive therapy for preventing relapse in recurrent major depressive disorder: a 2-year follow-up\",eng,British Journal of Psychiatry,BJP,0007-1250,203,0,1/1/11,244-250,\"{\"\"K. M. Williams\"\",\"\"M. Segal\"\",\"\"J. Teasdale\"\",\"\"J. Lau\"\",\"\"J. Hughes\"\",\"\"J. Allen\"\",\"\"J. Gould\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 533,
+   "output": "1325651,The role of miR-21 in cancer progression and therapy resistance.,eng,Cancer Letters,Cancer Lett.,0304-3835,400,,3/1/19,112-120,\"{\"\"Yan Wang\"\",\"\"Xiaoyan Li\"\",\"\"Jianping Chen\"\",\"\"Xiaofang Liu\"\",\"\"Xiaoxia Wang\"\",\"\"Xiaoyun Zhang\"\",\"\"Xiaoliang Wang\"\",\"\"Xiaofeng Wang\"\",\"\"Xiaoming Wang\"\",\"\"Xiaoping Wang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 507,
+   "output": "1024567,A novel approach to treating depression using transcranial magnetic stimulation: A systematic review,,Journal of Affective Disorders,JoAD,0165-0327,192,1,1/1/21,123-34,\"{\"\"H. Zhang\"\",\"\"J. Li\"\",\"\"W. Wang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 424,
+   "output": "450750,Efficacy and safety of telaprevir-based triple therapy in treatment-naive patients with chronic hepatitis C virus genotype 1 infection: A systematic review and meta-analysis.,eng,Journal of viral hepatitis,Journal of viral hepatitis,1360-2276,21,10,10/1/14,751-62,\"{\"\"Xiaoyan Wang\"\",\"\"Xiaofang Liu\"\",\"\"Xiaoxia Li\"\",\"\"Xiaohua Wang\"\",\"\"Xiaoliang Chen\"\",\"\"Xiaoping Wang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 950,
+   "output": "498756,Effect of a single dose of melatonin on sleep parameters in healthy young adults: A randomized controlled trial.,English,Sleep Medicine,,-5990,15,1,1/1/13,123-130,\"{\"\"S. M. Kayumov\"\",\"\"A. F. Brown\"\",\"\"D. J. Molina\"\",\"\"J. J. F. Wurtman\"\",\"\"J. M. Simon\"\",\"\"R. J. Drake\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 812,
+   "output": "876543,\"Evaluation of a Novel Biomarker for Early Detection of Alzheimer's Disease: A Pilot Study\",eng,Alzheimer's & Dementia: Diagnosis, Assessment and Disease Monitoring,Alzheimers Dement Diagn Assess Dis Mon,2193-491X,10,1,1/1/18,102-110,\"{\"J. Smith\",\"\"L. Johnson\",\"\"A. Davis\"}\"\\n",
+   "parsed": false
+  },
+  {
+   "row": 859,
+   "output": "789123,\"Evaluation of a Novel Antibiotic Lock Solution for the Prevention of Catheter-related Bloodstream Infections in Critically Ill Patients: A Randomized Controlled Trial\",eng,Infectious Diseases in Clinical Practice,Infect. Dis. Clin. Pract.,1048-8703,25,3,3/1/18,221-228,\"{\"\"S. K. Jain\"\",\"\"R. K. Singh\"\",\"\"A. K. Srivastava\"\",\"\"V. K. Sharma\"\",\"\"P. K. Srivastava\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 320,
+   "output": "1023456,A novel therapeutic approach for Alzheimer's disease: targeting microglia activation and neuroinflammation,English,Neurobiology of Aging,Neurobiol. Aging,0197-4580,,,11/1/20,1234-1245,\"{\"\"John Doe\"\"\",\"\"Jane Smith\"\"\",\"\"Michael Johnson\"\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 498,
+   "output": "1023456,A novel approach to treating chronic wounds: A systematic review.,eng,Wound repair and regeneration,Wound Repair Regen,1067-2136,20,2,3/1/19,217-228,\"{\"\"S. M. Smith\"\",\"\"J. D. Jones\"\",\"\"R. L. Brown\"\",\"\"K. L. Davis\"\",\"\"T. W. Lee\"\",\"\"M. A. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 376,
+   "output": "1023456,\"The Role of Social Media in Mental Health Awareness: A Comparative Analysis of Platforms\",eng,Health Communication,Health Commun.,1542-7586,35,10,10/1/20,987-998,\"{\"\"Sarah J. Thompson\"\",\"\"Emily R. Davis\"\",\"\"James P. Wilson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 607,
+   "output": "751123,Impact of a mindfulness-based intervention on stress and well-being in healthcare workers: a systematic review and meta-analysis,eng,Journal of occupational health psychology,JOHP,1076-8998,24,3,3/1/20,221-234,\"{\"\"Sarah E. Eberhard\"\",\"\"Laura E. Pulkstenis\"\",\"\"Jennifer L. Martin\"\",\"\"Elizabeth A. Hoge\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 923,
+   "output": "112345,Comparison of two different dosing regimens of budesonide/formoterol in COPD patients: a randomized controlled trial,,European respiratory journal,,,22,0,1/1/04,P436,\"{\"\"Thompson NC\"\",\"\"Calverley PMA\"\",\"\"Olsson H\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 939,
+   "output": "438682,Should psychiatrists use atypical antipsychotics to treat nonpsychotic anxiety?,English,Psychiatry Research,Psychiatry Res,1879-0398,194,0,1/1/15,,{NULL}",
+   "parsed": true
+  },
+  {
+   "row": 233,
+   "output": "612345,\"Evaluation of a Novel Educational Intervention for Improving Patient Understanding of Colorectal Cancer Screening.\",eng,Cancer Epidemiology,Can. epidemiol.,1357-1142,27,2,4/1/15,123-130,\"{\"\"J. Doe\"\",\"\"A. Smith\"\",\"\"B. Jones\"\",\"\"C. Brown\"\",\"\"D. Davis\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 526,
+   "output": "187553,Efficacy and safety of a novel inhaled insulin in patients with type 2 diabetes mellitus: a randomized controlled trial.,eng,Diabetes technology & therapeutics,Dia Technol Ther,1520-9156,15,10,10/1/13,641-8,\"{\"\"Y. Zhang\"\",\"\"Q. Wang\"\",\"\"H. Li\"\",\"\"J. Liu\"\",\"\"X. Chen\"\",\"\"L. Zhang\"\",\"\"Y. Liu\"\",\"\"W. Wang\"\",\"\"H. Zhao\"\",\"\"J. Zhang\"\",\"\"Y. Yang\"\",\"\"X. Zhang\"\",\"\"H. Hu\"\",\"\"Y. Li\"\",\"\"X. Wang\"\",\"\"Y. Zhang\"\",\"\"H. Liu\"\",\"\"Y. Wang\"\",\"\"H. Zhang\"\",\"\"Y. Zhao\"\",\"\"X. Li\"\",\"\"Y. Chen\"\",\"\"H. Wang\"\",\"\"Y. Hu\"\",\"\"X. Zhao\"\",\"\"Y. Li\"\",\"\"H. Chen\"\",\"\"Y. Wang\"\",\"\"H. Zhang\"\",\"\"Y. Zhao\"\",\"\"X. Li\"\",\"\"Y. Chen\"\",\"\"H. Wang\"\",\"\"Y. Hu\"\",\"\"X. Zhao\"\",\"\"Y. Li\"\",\"\"H. Chen\"\",\"\"Y. Wang\"\",\"\"H. Zhang\"\",\"\"Y. Zhao\"\",\"\"X. Li\"\",\"\"Y. Chen\"\",\"\"H. Wang\"\",\"\"Y. Hu\"\",\"\"X. Zhao\"\",\"\"Y. Li\"\",\"\"H. Chen\"\",\"\"Y. Wang\"\",\"\"H. Zhang\"\",\"\"Y. Zhao\"\",\"\"X. Li\"\",\"\"Y. Chen\"\",\"\"H. Wang\"\",\"\"Y. Hu\"\",\"\"X. Zhao\"\",\"\"Y. Li\"\",\"\"H. Chen\"\",\"\"Y. Wang\"\",\"\"H. Zhang\"\",\"\"Y. Zhao\"\",\"\"X. Li\"\",\"\"Y. Chen\"\",\"\"H. Wang\"\",\"\"Y. Hu\"\",\"\"X. Zhao\"\",\"\"Y. Li\"\",\"\"H. Chen\"\",\"\"Y. Wang\"\",\"\"H. Zhang\"\",\"\"Y. Zhao\"\",\"\"X. Li\"\",\"\"Y. Chen\"\",\"\"H.",
+   "parsed": true
+  },
+  {
+   "row": 152,
+   "output": "987654,Effect of magnesium supplementation on blood pressure in hypertensive patients: a systematic review and meta-analysis,eng,Pakistan journal of pharmaceutical sciences,PJPSciences,1012-384X,29,2,2/1/18,345-352,\"{\"\"Zahid Ali\"\",\"\"Muhammad Asif\"\",\"\"Shahid Mehmood\"\",\"\"Faisal Khan\"\",\"\"Sajid Ali\"\",\"\"Muhammad Iqbal\"\",\"\"Muhammad Imran\"\",\"\"Muhammad Naveed\"\",\"\"Muhammad Usman\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 298,
+   "output": "987654,Impact of telemedicine on patient outcomes in chronic diseases,eng,Global advances in health and medicine,GAHM,2164-9493,3,1,1/1/15,45-56,\"{\"\"John Doe\"\"\",\"\"Jane Smith\"\"\",\"\"Richard Brown\"\"\",\"\"Emily Davis\"\"\",\"\"Michael Green\"\"\",\"\"Laura White\"\"\",\"\"David Black\"\"\",\"\"Sarah Taylor\"\"\",\"\"Charles Adams\"\"\",\"\"Karen Hill\"\"\",\"\"William Robinson\"\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 153,
+   "output": "246528,Complex regional pain syndrome type 1 after fractures of the distal radius: a prospective study of the role of psychological factors,eng,J Hand Surg Br,\"Journal of hand surgery (Edinburgh, Scotland)\",0266-7681 (Print) 0266-7681,30,6,1/1/05,574-80,\"{\"\"A. Zyluk\"\",\"\"P. Puchalski\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 783,
+   "output": "934327,Use of a Brief Phone Call After ED Discharge,eng,,,,,,0,0,,,\"{\"NCT01893931 \"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 107,
+   "output": "891022,The effects of mindfulness-based stress reduction on psychological distress and quality of life in patients with chronic illness,eng,Complementary Therapies in Clinical Practice,Complement Ther Clin Pract,1744-3881,25,,1/1/17,1-8,\"{\"\"L. Zhang\"\",\"\"X. Li\"\",\"\"H. Wang\"\",\"\"Y. Liu\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 643,
+   "output": "1023456,Impact of telemedicine on patient outcomes in rural areas: A systematic review and meta-analysis,,Telemedicine journal and e-health,Telemed J E Health,1536-867X,22,12,11/1/18,911-922,\"{\"\"L. Zhang\"\",\"\"J. Wang\"\",\"\"Y. Liu\"\",\"\"H. Chen\"\",\"\"Z. Wu\"\",\"\"F. Li\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 828,
+   "output": "161132,Efficacy of a single dose of intravenous immunoglobulin in the treatment of severe atopic dermatitis in children: a randomized, double-blind, placebo-controlled study.,eng,Allergy,Allergy,1398-2465,66,1,1/1/11,112-9,\"{\"\"H. S. Kim\"\",\"\"Y. H. Lee\"\",\"\"J. H. Park\"\",\"\"S. H. Cho\"\",\"\"S. Y. Kim\"\",\"\"J. H. Kim\"\",\"\"S. H. Lee\"\",\"\"S. H. Jeon\"\",\"\"S. H. Park\"\",\"\"S. H. Kang\"\",\"\"S. H. Kim\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 266,
+   "output": "1023456,A randomized controlled trial of cognitive-behavioral therapy for insomnia in older adults.,eng,Sleep Medicine,,1878-4260,18,10,10/1/17,1357-64,\"{\"\"J. C. Buysse\"\",\"\"M. J. Germain\"\",\"\"S. M. Moul\"\",\"\"M. A. Nofzinger\"\",\"\"J. A. Monk\"\",\"\"M. A. Manber\"\",\"\"S. M. Edinger\"\",\"\"R. M. Kupfer\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 941,
+   "output": "83013,The impact of social media on mental health in adolescents,eng,Journal of adolescent health: official publication of the Society for Adolescent Medicine,J. Adolesc. Health,1054-139X,55,2,1/2/23,100-8,\"{\"\"Alice Smith\"\",\"\"Bob Johnson\"\",\"\"Charlie Brown\"\",\"\"Diana White\"\",\"\"Eric Black\"\",\"\"Frank Green\"\",\"\"Grace Lee\"\",\"\"Henry Kim\"\",\"\"Isabella Tan\"\",\"\"Jackie Wang\"\",\"\"Karen Lee\"\",\"\"Lucas Chen\"\",\"\"Maggie Zhang\"\",\"\"Nathan Kim\"\",\"\"Olivia Chen\"\",\"\"Peter Wang\"\",\"\"Quinn Zhao\"\",\"\"Rachel Lee\"\",\"\"Samuel Kim\"\",\"\"Tina Zhang\"\",\"\"Uma Patel\"\",\"\"Victor Chen\"\",\"\"Wendy Wang\"\",\"\"Xander Zhao\"\",\"\"Yvonne Lee\"\",\"\"Zoe Kim\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 555,
+   "output": "893228,Exploring the impact of virtual reality on pain perception in patients with chronic pain conditions,English,Virtual Reality,,1434-1948,18,4,4/1/16,257-68,\"{\"\"A. Smith\"\",\"\"B. Johnson\"\",\"\"C. Davis\"\",\"\"D. Wilson\"\",\"\"E. Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 732,
+   "output": "741280,\"The role of microRNAs in regulating cardiac hypertrophy and heart failure\",,Basic Research in Cardiology,,\"1432-2277\",18,2,2/1/12,123-134,\"{\"\"J. Zhang\"\",\"\"Y. Li\"\",\"\"H. Wang\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 839,
+   "output": "414397,The impact of telemedicine on patient outcomes in chronic diseases,English,,,,124,2,2/1/14,567-74,\"{\"\"A. J. Smith\"\",\"\"B. L. Johnson\"\",\"\"C. D. Lee\"\",\"\"D. M. Patel\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 626,
+   "output": "779556,\"Cost-effectiveness of statins for primary prevention in patients newly diagnosed with type 2 diabetes in the Netherlands.\",English,Value in Health,,,17,2,1/1/14,223-230,\"{\"\"S. T. Visser\"\",\"\"M. J. Postma\"\",\"\"P. Denig\"\",\"\"F. M. De Vries\"\",\"\"E. Hak\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 933,
+   "output": "438681,\"Should psychiatrists use atypical antipsychotics to treat nonpsychotic anxiety?.\",,Psychiatric Times,Psycho Times,,2152-5031,1,,,\"{NULL}\"",
+   "parsed": true
+  },
+  {
+   "row": 160,
+   "output": "1023456,Evaluation of a novel biosensor for rapid detection of antibiotic resistance genes,eng,Biosensors and Bioelectronics,Biosens. Bioelectron.,0956-5663,65,1,1/1/20,256-62,\"{\"\"A. Patel\"\",\"\"B. Smith\"\",\"\"C. Jones\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 327,
+   "output": "951169,Evaluation of the impact of urban green spaces on air quality in cities: A case study of Paris,,Environmental Pollution,0269-7491,188,1,1/1/15,250-258,\"{\"\"L. Guizzardi\"\",\"\"F. P. J. van der Sluijs\"\",\"\"M. J. H. Anenberg\"\",\"\"M. K. Brauer\"\",\"\"M. C. Cifuentes\"\",\"\"M. Ebi\"\",\"\"M. E. Fthenakis\"\",\"\"M. J. Jerrett\"\",\"\"M. Krewski\"\",\"\"M. L. MacKenzie\"\",\"\"M. Naeher\"\",\"\"M. Neubauer\"\",\"\"M. O'Fallon\"\",\"\"M. Pruss-Ustun\"\",\"\"M. R. Schipper\"\",\"\"M. W. Smith\"\",\"\"M. W. Ziska\"\"}\"",
+   "parsed": false
+  },
+  {
+   "row": 111,
+   "output": "850221,The role of microRNAs in the pathogenesis of pulmonary arterial hypertension: a comprehensive review.,eng,Pulmonary circulation,Pulm. Circ.,2045-8940,1,1,1/1/13,10-24,\"{\"\"M. A. Al-Safi\"\",\"\"A. M. Al-Safi\"\",\"\"A. M. Al-Safi\"\",\"\"A. M. Al-Safi\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 757,
+   "output": "814567,Impact of telemedicine on patient outcomes in chronic diseases,eng,Journal of Telemedicine and Telecare,Journal of telemedicine and telecare,1357-633X,18,4,4/1/12,175-182,\"{\"\"J Smith\"\",\"\"A Johnson\"\",\"\"M Brown\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 85,
+   "output": "1029381,Impact of telehealth on mental health outcomes in elderly populations,eng,International Journal of Environmental Research and Public Health,IJERPH,1660-4601,18,19,1/1/21,1234-1245,\"{\"\"A. Patel\"\",\"\"B. Singh\"\",\"\"C. Johnson\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 930,
+   "output": "178952,\"A Randomized Controlled Trial of Acupuncture for Chronic Low Back Pain in Primary Care\",eng,Spine (Phila Pa 1976),Spine,0362-2436,31,12,1/1/06,1555-62,\"{\"\"Wang Y\"\",\"\"Furlan A.D.\"\",\"\"Irvin E.\"\",\"\"Vassey T.R.\"\",\"\"Tsertsvadze A.\"\",\"\"Garritty C.\"\",\"\"Bouter L.M.\"\",\"\"Bhandari M.\"\",\"\"Altman R.D.\"\",\"\"Guyatt G.H.\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 880,
+   "output": "834521,The impact of telemedicine on patient outcomes in rural areas: a systematic review and meta-analysis.,eng,International journal of environmental research and public health,IJERPH,1660-4601,15,10,10/1/18,2156,\"{\"\"A. Patel\"\",\"\"B. Singh\"\",\"\"C. Johnson\"\",\"\"D. Lee\"\",\"\"E. Smith\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 710,
+   "output": "112345,\"Impact of telemedicine on patient outcomes in chronic diseases: a systematic review and meta-analysis.\",eng,Global advances in health and medicine,GAHM,2164-9479,3,2,3/1/18,54-65,\"{\"\"S. K. Singh\"\",\"\"R. M. Singh\"\",\"\"A. K. Singh\"\",\"\"V. K. Singh\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 348,
+   "output": "853677,\"Randomized trial of pegylated interferon alfa-2b plus ribavirin with or without prior interferon therapy for chronic hepatitis C.\",\"eng\",\"Alimentary pharmacology & therapeutics\",\"Aliment. Pharmacol. Ther.\",\"0269-2813\",14,4,1/1/01,447-58,\"[\\\"M. J. McHutchison\\\",\\\"R. A. Manns\\\",\\\"J. J. Muirhead\\\",\\\"G. M. Lawitz\\\",\\\"M. J. Zeuzem\\\",\\\"M. L. Di Bisceglie\\\",\\\"J. M. Schiff\\\",\\\"J. M. Kwo\\\",\\\"M. J. Bacon\\\",\\\"M. J. Smith\\\",\\\"M. J. Manns\\\"]\"",
+   "parsed": false
+  },
+  {
+   "row": 493,
+   "output": "703421,Impact of a school-based physical activity program on children's physical fitness and academic performance.,eng,Preventive medicine,Preventive Med,0091-7435,45,5,5/1/07,371-80,\"{\"\"M. S. McGee\"\",\"\"J. A. Pate\"\",\"\"S. J. Ward\"\",\"\"M. A. Dowda\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 583,
+   "output": "368651,A randomized controlled trial of paracetamol versus morphine for the treatment of acute painful crisis of sickle cell disease,eng,,,,20,5,1/1/13,S149,\"{\"\"R. Rehmani\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 113,
+   "output": "213456,Impact of telemedicine on patient outcomes in chronic diseases,eng,Journal of Telemedicine and Telecare,Journal Telemed Telecare,1357-6383,18,1,2/1/15,45-52,\"{\"\"Helen C. Dickinson\"\",\"\"David J. Rees\"\",\"\"Jonathan R. Chua\"\",\"\"Paula J. Williamson\"\",\"\"Mark E. Bell\"\",\"\"Peter J. W. Thomas\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 372,
+   "output": "391254,Evaluation of a Novel Anticoagulant Strategy in Patients with Acute Coronary Syndrome Undergoing Percutaneous Coronary Intervention: A Randomized Clinical Trial.,eng,Circulation,,1524-4539,136,12,11/15/16,1455-64,\"{\"\"Mehdi Razavi\"\",\"\"Nader Najafi\"\",\"\"Ali Rezaei\"\",\"\"Mohammad Reza Mohammadi\"\",\"\"Seyed Mohammad Taghi Hashemi\"\",\"\"Seyed Ali Hosseini\"\",\"\"Seyed Mostafa Hosseini\"\",\"\"Seyed Mohammad Reza Hashemi\"\",\"\"Seyed Ahmad Hosseini\"\",\"\"Seyed Ali Akbar Hosseini\"\",\"\"Seyed Ali Akbar Hashemi\"\",\"\"Seyed Mohammad Taghi Rezaei\"\",\"\"Seyed Ali Hosseini\"\",\"\"Seyed Mostafa Hosseini\"\",\"\"Seyed Mohammad Reza Hashemi\"\",\"\"Seyed Ali Akbar Hosseini\"\",\"\"Seyed Ali Akbar Hashemi\"\",\"\"Seyed Mohammad Taghi Rezaei\"\",\"\"Seyed Ali Hosseini\"\",\"\"Seyed Mostafa Hosseini\"\",\"\"Seyed Mohammad Reza Hashemi\"\",\"\"Seyed Ali Akbar Hosseini\"\",\"\"Seyed Ali Akbar Hashemi\"\",\"\"Seyed Mohammad Taghi Rezaei\"\",\"\"Seyed Ali Hosseini\"\",\"\"Seyed Mostafa Hosseini\"\",\"\"Seyed Mohammad Reza Hashemi\"\",\"\"Seyed Ali Akbar Hosseini\"\",\"\"Seyed Ali Akbar Hashemi\"\",\"\"Seyed Mohammad Taghi Rezaei\"\",\"\"Seyed Ali Hosseini\"\",\"\"Seyed Mostafa Hosseini\"\",\"\"Seyed Mohammad Reza Hashemi\"\",\"\"Seyed Ali Akbar Hosseini\"\",\"\"Seyed Ali Akbar Hashemi\"\",\"\"Seyed Mohammad Taghi Rezaei\"\",\"\"Seyed Ali Hosseini\"\",\"\"Seyed Mostafa Hosseini\"\",\"\"Seyed Mohammad Reza Hashemi\"\",\"\"Seyed Ali Akbar Hosseini\"\",\"\"Seyed Ali Akbar Hashemi\"\",\"\"Seyed Mohammad Taghi Rezaei\"\",\"\"Seyed Ali Hosseini\"\",\"\"Seyed Mostafa Hosse",
+   "parsed": true
+  },
+  {
+   "row": 454,
+   "output": "911272,Comparison of machine learning algorithms for predicting protein-protein interactions from text.,eng,BMC bioinformatics,BMC Bioinformatics,1471-2105,14,1,1/1/13,321,\"{\"\"S. M. A. Hashem\"\",\"\"M. A. El-Assady\"\",\"\"M. A. A. El-Shahat\"\",\"\"M. A. A. Mahmoud\"\",\"\"M. A. A. Hassan\"\"}\"",
+   "parsed": true
+  },
+  {
+   "row": 333,
+   "output": "512345,Efficacy and Safety of Tocilizumab in Combination with Methotrexate in Patients with Rheumatoid Arthritis: A Systematic Review and Meta-Analysis.,ENG,Rheumatology international,Rheumatol Int,0300-9742,37,10,10/1/18,1531-42,\"{\"\"Xiaoyan Wang\"\",\"\"Yanping Li\"\",\"\"Lili Zhang\"\",\"\"Huijuan Liu\"\",\"\"Yanfang Chen\"\",\"\"Jianmin Zhang\"\"}\"",
+   "parsed": true
+  }
+ ]
+}

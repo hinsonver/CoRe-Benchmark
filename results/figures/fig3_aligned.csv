@@ -1,0 +1,25 @@
+dataset,series,condition,repair_f1,ci_low,ci_high
+hospital,"DeepSeek-V4-Pro, aligned",Original,0.966,0.94,0.987
+hospital,"DeepSeek-V4-Pro, aligned",Fresh,0.981,0.961,0.996
+hospital,"DeepSeek-V4-Pro, aligned",Words surrogate,0.764,0.712,0.814
+hospital,"DeepSeek-V4-Pro, aligned",Syllable surrogate,0.748,0.69,0.804
+hospital,"Baran, aligned",Original,0.288,0.209,0.365
+hospital,"Baran, aligned",Fresh,0.319,0.25,0.39
+hospital,"Baran, aligned",Words surrogate,0.272,0.2,0.344
+hospital,"Baran, aligned",Syllable surrogate,0.278,0.203,0.352
+hospital,"DeepSeek-V4-Pro, zero-shot",Original,0.879,0.83,0.923
+hospital,"DeepSeek-V4-Pro, zero-shot",Fresh,0.95,0.922,0.975
+hospital,"DeepSeek-V4-Pro, zero-shot",Words surrogate,0.499,0.429,0.571
+hospital,"DeepSeek-V4-Pro, zero-shot",Syllable surrogate,0.16,0.109,0.207
+movies,"DeepSeek-V4-Pro, aligned",Original,0.643,0.581,0.698
+movies,"DeepSeek-V4-Pro, aligned",Fresh,0.674,0.613,0.732
+movies,"DeepSeek-V4-Pro, aligned",Words surrogate,0.091,0.06,0.122
+movies,"DeepSeek-V4-Pro, aligned",Syllable surrogate,0.073,0.045,0.104
+movies,"Baran, aligned",Original,0.0,0.0,0.0
+movies,"Baran, aligned",Fresh,0.0,0.0,0.0
+movies,"Baran, aligned",Words surrogate,0.0,0.0,0.0
+movies,"Baran, aligned",Syllable surrogate,0.0,0.0,0.0
+movies,"DeepSeek-V4-Pro, zero-shot",Original,0.363,0.282,0.438
+movies,"DeepSeek-V4-Pro, zero-shot",Fresh,0.452,0.372,0.53
+movies,"DeepSeek-V4-Pro, zero-shot",Words surrogate,0.043,0.018,0.071
+movies,"DeepSeek-V4-Pro, zero-shot",Syllable surrogate,0.011,0.0,0.025

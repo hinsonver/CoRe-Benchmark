@@ -1,0 +1,411 @@
+{
+ "summary": {
+  "model": "local:mlx-community/OLMo-2-1124-7B-Instruct-4bit",
+  "dataset": "hospital_surrogate",
+  "k": 10,
+  "spread": true,
+  "chunks": 10,
+  "all": {
+   "repair_p": 0.0,
+   "repair_r": 0.0,
+   "repair_f1": 0.0,
+   "detect_f1": 0.0,
+   "errors": 54,
+   "predicted": 32,
+   "repaired": 0,
+   "detected": 0
+  },
+  "identity": {
+   "repair_p": 0.0,
+   "repair_r": 0.0,
+   "repair_f1": 0.0,
+   "detect_f1": 0.0,
+   "errors": 22,
+   "predicted": 12,
+   "repaired": 0,
+   "detected": 0
+  },
+  "other": {
+   "repair_p": 0.0,
+   "repair_r": 0.0,
+   "repair_f1": 0.0,
+   "detect_f1": 0.0,
+   "errors": 32,
+   "predicted": 20,
+   "repaired": 0,
+   "detected": 0
+  }
+ },
+ "chunks": [
+  {
+   "start": 120,
+   "rows": [
+    120,
+    145,
+    170,
+    195,
+    220,
+    245,
+    270,
+    315,
+    355,
+    467
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 0,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"96634\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"Nymorgar Memorial Hospital\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"39 patients\"}, {\"row\": 6, \"column\": \"State\", \"value\": \"al_ami-2\"}, {\"row\": 7, \"column\": \"ZipCode\", \"value\": \"07278\"}]}\n```"
+  },
+  {
+   "start": 17,
+   "rows": [
+    17,
+    28,
+    53,
+    835,
+    860,
+    885,
+    913,
+    938,
+    963,
+    983
+   ],
+   "n_pred": 8,
+   "counts": {
+    "all": {
+     "errors": 3,
+     "predicted": 7,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Loulan Medical Center\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"Quenoskny Regional Hospital\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"Morrobin Medical Center\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"government - hospital district or authority\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"46x patients\"}, {\"row\": 6, \"column\": \"City\", \"value\": \"Tasosk\"}, {\"row\": 7, \"column\": \"HospitalType\", \"value\": \"acute care hospitals - proprietary\"}, {\"row\": 8, \"column\": \"HospitalType\", \"value\": \"acute care hospitals - voluntary non-profit - other\"}]}\n```"
+  },
+  {
+   "start": 79,
+   "rows": [
+    79,
+    104,
+    129,
+    154,
+    179,
+    204,
+    229,
+    254,
+    279,
+    296
+   ],
+   "n_pred": 1,
+   "counts": {
+    "all": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"98376\"}]}\n```"
+  },
+  {
+   "start": 32,
+   "rows": [
+    32,
+    57,
+    814,
+    839,
+    864,
+    889,
+    917,
+    942,
+    967,
+    987
+   ],
+   "n_pred": 7,
+   "counts": {
+    "all": {
+     "errors": 6,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"ProviderNumber\", \"value\": \"906632\"}, {\"row\": 2, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"107 patients\"}, {\"row\": 6, \"column\": \"State\", \"value\": \"al\"}, {\"row\": 7, \"column\": \"Stateavg\", \"value\": \"al_pn-3b\"}]}\n```"
+  },
+  {
+   "start": 327,
+   "rows": [
+    327,
+    336,
+    367,
+    380,
+    400,
+    420,
+    438,
+    454,
+    479,
+    504
+   ],
+   "n_pred": 13,
+   "counts": {
+    "all": {
+     "errors": 7,
+     "predicted": 9,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 5,
+     "predicted": 8,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Kelburnzar Health Center\"}, {\"row\": 2, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 2, \"column\": \"PhoneNumber\", \"value\": \"9477017594\"}, {\"row\": 3, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 3, \"column\": \"Sample\", \"value\": \"40 patients\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"government - state\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 4, \"column\": \"Score\", \"value\": \"97%\"}, {\"row\": 5, \"column\": \"HospitalType\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 5, \"column\": \"HospitalOwner\", \"value\": \"yes\"}, {\"row\": 5, \"column\": \"Score\", \"value\": \"94%\"}, {\"row\": 6, \"column\": \"EmergencyService\", \"value\": \"yes\"}, {\"row\": 6, \"column\": \"Condition\", \"value\": \"heart failure\"}]}\n```"
+  },
+  {
+   "start": 33,
+   "rows": [
+    33,
+    790,
+    815,
+    840,
+    865,
+    890,
+    918,
+    943,
+    968,
+    988
+   ],
+   "n_pred": 11,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 4,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 4,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 1,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"quenoskny Regional Hospital\"}, {\"row\": 2, \"column\": \"Address1\", \"value\": \"2134 Pimtas Blvd\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 3, \"column\": \"Address3\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"HospitalOwner\", \"value\": \"voluntary non-profit - private\"}, {\"row\": 5, \"column\": \"Sample\", \"value\": \"196 patients\"}, {\"row\": 6, \"column\": \"PhoneNumber\", \"value\": \"null\"}, {\"row\": 7, \"column\": \"Address1\", \"value\": \"7776 Rhorho Drive\"}, {\"row\": 8, \"column\": \"HospitalType\", \"value\": \"acute care hospitals\"}, {\"row\": 9, \"column\": \"ZipCode\", \"value\": \"4737197800\"}, {\"row\": 10, \"column\": \"State\", \"value\": \"al_hf-2\"}]}\n```"
+  },
+  {
+   "start": 731,
+   "rows": [
+    731,
+    756,
+    792,
+    817,
+    842,
+    867,
+    892,
+    920,
+    945,
+    970
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Velgarts Health Center\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"Lozarsul Health Center\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"Uladrikel Health Center\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"Veljoudri Regional Hospital\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"Rhobrinzar Regional Hospital\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"Garnyjou Medical Center\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"Bacaljou Regional Hospital\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"Ulabrinpim Health Center\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"Torjouzar Memorial Hospital\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"Oskkelba Regional Hospital\"}]}\n```"
+  },
+  {
+   "start": 35,
+   "rows": [
+    35,
+    60,
+    85,
+    110,
+    135,
+    160,
+    185,
+    210,
+    235,
+    990
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 2,
+     "predicted": 3,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 1,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 1,
+     "predicted": 1,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"quenoskny Regional Hospital\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"Morrobin Medical Center\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"Taspimosk Health Center\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"Keltasosk Memorial Hospital\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"Oslogar Memorial Hospital\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"Nymorgar Memorial Hospital\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"Rhoulafen Health Center\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"Drilodri Memorial Hospital\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"Garjouzar Medical Center\"}, {\"row\": 10, \"column\": \"HospitalType\", \"value\": \"government - hospital district or authority\"}]}\n```"
+  },
+  {
+   "start": 707,
+   "rows": [
+    707,
+    732,
+    757,
+    793,
+    818,
+    843,
+    868,
+    893,
+    921,
+    946
+   ],
+   "n_pred": 5,
+   "counts": {
+    "all": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 2,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 3,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Drivelbrin Health Center\"}, {\"row\": 2, \"column\": \"Address1\", \"value\": \"4427 Driquen Street\"}, {\"row\": 3, \"column\": \"Address2\", \"value\": \"empty\"}, {\"row\": 4, \"column\": \"HospitalType\", \"value\": \"government - hospital district or authority\"}, {\"row\": 5, \"column\": \"State\", \"value\": \"al_pn-7\"}]}\n```"
+  },
+  {
+   "start": 378,
+   "rows": [
+    378,
+    391,
+    411,
+    413,
+    431,
+    449,
+    451,
+    465,
+    490,
+    515
+   ],
+   "n_pred": 10,
+   "counts": {
+    "all": {
+     "errors": 13,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "identity": {
+     "errors": 5,
+     "predicted": 2,
+     "repaired": 0,
+     "detected": 0
+    },
+    "other": {
+     "errors": 8,
+     "predicted": 0,
+     "repaired": 0,
+     "detected": 0
+    }
+   },
+   "output": "```json\n{\"corrections\": [{\"row\": 1, \"column\": \"HospitalName\", \"value\": \"Morrogar Memorial Hospital\"}, {\"row\": 2, \"column\": \"HospitalName\", \"value\": \"Calulahep Medical Center\"}, {\"row\": 3, \"column\": \"HospitalName\", \"value\": \"Lofenba Memorial Hospital\"}, {\"row\": 4, \"column\": \"HospitalName\", \"value\": \"Taskelfen Memorial Hospital\"}, {\"row\": 5, \"column\": \"HospitalName\", \"value\": \"Dirhowex Memorial Hospital\"}, {\"row\": 6, \"column\": \"HospitalName\", \"value\": \"Tasquenkel Medical Center\"}, {\"row\": 7, \"column\": \"HospitalName\", \"value\": \"Velulahep Regional Hospital\"}, {\"row\": 8, \"column\": \"HospitalName\", \"value\": \"Loulafen Medical Center\"}, {\"row\": 9, \"column\": \"HospitalName\", \"value\": \"Batashep Medical Center\"}, {\"row\": 10, \"column\": \"HospitalName\", \"value\": \"Garulatas Regional Hospital\"}]}\n```"
+  }
+ ]
+}

@@ -1,0 +1,4 @@
+condition,middle year,first year,other / unchanged,accuracy,middle_rule_accuracy
+Real films,160,30,0,0.911,0.879
+Words surr.,21,134,35,0.184,0.879
+Syllable surr.,19,85,86,0.132,0.879

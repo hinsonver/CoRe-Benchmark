@@ -1,0 +1,6 @@
+{
+ "rows": 1000,
+ "rt_rows": 190,
+ "error_cells": 1965,
+ "note": "1000-row evaluation set of Raha movies_1: all 190 Rotten Tomatoes rows + 810 random others (seed 0), 10 IMDb-fillable columns"
+}

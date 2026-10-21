@@ -1,0 +1,170 @@
+{
+ "hospital|all": {
+  "baran": 0.472,
+  "baran_runs": [
+   0.479,
+   0.471,
+   0.467
+  ],
+  "llm": 0.968,
+  "llm_minus_baran": [
+   0.496,
+   0.441,
+   0.543
+  ]
+ },
+ "hospital|identity": {
+  "baran": 0.288,
+  "baran_runs": [
+   0.29,
+   0.287,
+   0.286
+  ],
+  "llm": 0.966,
+  "llm_minus_baran": [
+   0.679,
+   0.601,
+   0.754
+  ]
+ },
+ "hospital|other": {
+  "baran": 0.591,
+  "baran_runs": [
+   0.6,
+   0.589,
+   0.585
+  ],
+  "llm": 0.969,
+  "llm_minus_baran": [
+   0.378,
+   0.308,
+   0.431
+  ]
+ },
+ "hospital_fresh|all": {
+  "baran": 0.458,
+  "baran_runs": [
+   0.484,
+   0.432,
+   0.456
+  ],
+  "llm": 0.975,
+  "llm_minus_baran": [
+   0.517,
+   0.444,
+   0.536
+  ]
+ },
+ "hospital_fresh|identity": {
+  "baran": 0.319,
+  "baran_runs": [
+   0.357,
+   0.281,
+   0.32
+  ],
+  "llm": 0.981,
+  "llm_minus_baran": [
+   0.661,
+   0.546,
+   0.699
+  ]
+ },
+ "hospital_fresh|other": {
+  "baran": 0.55,
+  "baran_runs": [
+   0.57,
+   0.534,
+   0.547
+  ],
+  "llm": 0.97,
+  "llm_minus_baran": [
+   0.419,
+   0.341,
+   0.459
+  ]
+ },
+ "hospital_surrogatewords|all": {
+  "baran": 0.467,
+  "baran_runs": [
+   0.479,
+   0.461,
+   0.46
+  ],
+  "llm": 0.878,
+  "llm_minus_baran": [
+   0.412,
+   0.346,
+   0.455
+  ]
+ },
+ "hospital_surrogatewords|identity": {
+  "baran": 0.272,
+  "baran_runs": [
+   0.29,
+   0.257,
+   0.269
+  ],
+  "llm": 0.764,
+  "llm_minus_baran": [
+   0.492,
+   0.384,
+   0.56
+  ]
+ },
+ "hospital_surrogatewords|other": {
+  "baran": 0.591,
+  "baran_runs": [
+   0.6,
+   0.589,
+   0.585
+  ],
+  "llm": 0.969,
+  "llm_minus_baran": [
+   0.378,
+   0.309,
+   0.43
+  ]
+ },
+ "hospital_surrogate|all": {
+  "baran": 0.468,
+  "baran_runs": [
+   0.474,
+   0.467,
+   0.463
+  ],
+  "llm": 0.872,
+  "llm_minus_baran": [
+   0.403,
+   0.343,
+   0.451
+  ]
+ },
+ "hospital_surrogate|identity": {
+  "baran": 0.278,
+  "baran_runs": [
+   0.28,
+   0.278,
+   0.276
+  ],
+  "llm": 0.748,
+  "llm_minus_baran": [
+   0.47,
+   0.383,
+   0.557
+  ]
+ },
+ "hospital_surrogate|other": {
+  "baran": 0.591,
+  "baran_runs": [
+   0.6,
+   0.589,
+   0.585
+  ],
+  "llm": 0.969,
+  "llm_minus_baran": [
+   0.378,
+   0.309,
+   0.43
+  ]
+ }
+}

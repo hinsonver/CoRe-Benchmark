@@ -1,0 +1,22 @@
+{
+  "code/src/near_entities.py": {
+    "before": "a4d69f3d5d754c395475a7060ab8c21a9986a14bb42a547174995ef50adf79c4",
+    "after": "908eb7c60d420965a8a33785a36ee06407e85d00644d9e074604bd903629bb2a"
+  },
+  "code/src/figures.py": {
+    "before": "30ec67239ca033b787877015344f9c657486983108e3e5b9f308fc30c247eda3",
+    "after": "37390cd9887f50df8f6e01241d942d4f728990de84ca8305b797c4cdda0c89ee"
+  },
+  "code/src/paper_tables.py": {
+    "before": "eff8b8b025efc336d37278270c70e785b69df379371fec5851cd67b3bbf60902",
+    "after": "65819d74d9b0856f20cc0e82f367a4bde6831acb13af3a564fb57571df2a2c9b"
+  },
+  "scripts/reproduce.sh": {
+    "before": "82ce595532f0876d3aa49e2242a64264983844b4ea328e43740225373419a79e",
+    "after": "fc8dc46687fcb4abb92b703addc5324337665054b32818eabe0c20633a80e8d4"
+  },
+  "scripts/verify.sh": {
+    "before": "811a0c291d6287dc12e68d1074a17adfc1a8c181702b4215f303bc65ebfa927e",
+    "after": "e7c12404e84877ec3157788a32488a6b14c3906020a2a492b2a4cdad187abca7"
+  }
+}

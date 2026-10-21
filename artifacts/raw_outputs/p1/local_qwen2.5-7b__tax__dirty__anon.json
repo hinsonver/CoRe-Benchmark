@@ -1,0 +1,370 @@
+{
+ "summary": {
+  "model": "local:qwen2.5-7b",
+  "dataset": "tax",
+  "source": "dirty",
+  "named": false,
+  "n": 50,
+  "k": 10,
+  "seed": 0,
+  "error_rows": false,
+  "skipped_counter_cols": [],
+  "parse_rate": 1.0,
+  "exact_row_match": 0.0,
+  "failed_calls": 0,
+  "acc_inferable": 0.4602,
+  "acc_noninferable": 0.0087,
+  "noninferable_cells": 461,
+  "acc_hard": 0.0089,
+  "hard_cells": 451,
+  "leak_rate": 0.0,
+  "leak_cells": 26,
+  "leak_hard_rate": 0.0,
+  "leak_hard_cells": 20,
+  "per_column": {
+   "f_name": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "l_name": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "area_code": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.021,
+    "structural": 0.042
+   },
+   "phone": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "city": {
+    "n": 50,
+    "model": 0.0,
+    "freq": 0.04,
+    "trans": 0.0,
+    "structural": 0.04
+   },
+   "state": {
+    "n": 47,
+    "model": 0.0,
+    "freq": 0.021,
+    "trans": 0.0,
+    "structural": 0.043
+   },
+   "zip": {
+    "n": 48,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "salary": {
+    "n": 31,
+    "model": 0.129,
+    "freq": 0.0,
+    "trans": 0.065,
+    "structural": 0.065
+   },
+   "rate": {
+    "n": 39,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.026,
+    "structural": 0.026
+   },
+   "married_exemp": {
+    "n": 18,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "child_exemp": {
+    "n": 12,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "single_exemp": {
+    "n": 17,
+    "model": 0.0,
+    "freq": 0.0,
+    "trans": 0.0,
+    "structural": 0.0
+   },
+   "gender": {
+    "n": 1,
+    "model": 0.0,
+    "freq": 1.0,
+    "trans": 1.0,
+    "structural": 1.0
+   }
+  }
+ },
+ "trials": [
+  {
+   "row": 3165,
+   "output": "Takashi,Chang,F,208,744-2044,BOISE,ID,83702,M,Y,75000,4.5,6600,0,6600",
+   "parsed": true
+  },
+  {
+   "row": 3455,
+   "output": "Rudolph,Reinhart,M,608,275-3131,WAUKESHA,WI,53188,M,Y,60000,6.0,0,4800,1000",
+   "parsed": true
+  },
+  {
+   "row": 341,
+   "output": "Neha,Jain,F,210,369-7722,SANANTONIO,TX,78212,M,N,50000,5.5,0,5000,0",
+   "parsed": true
+  },
+  {
+   "row": 2131,
+   "output": "Natalie,Vargas,F,419,231-7734,WESTERVILLE,OH,43081,M,Y,50000,6.45,0,4500,2250",
+   "parsed": true
+  },
+  {
+   "row": 4198,
+   "output": "Natalie,Hendrickson,F,206,379-2001,SEATTLE,WA,98101,M,Y,75000,5.2,0,5600,2800",
+   "parsed": true
+  },
+  {
+   "row": 3990,
+   "output": "Tero,Car,M,405,321-7240,OKLAHOMA CITY,OK,73151,S,N,25000,6.25,1000,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3327,
+   "output": "Tomasz,Kowalski,M,605,322-1111,POLKSDORF,SD,57469,M,Y,75000,5.5,0,5500,1100",
+   "parsed": true
+  },
+  {
+   "row": 2494,
+   "output": "Nurcan,Ozkan,F,212,271-3131,NYC,NY,10001,M,N,60000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3914,
+   "output": "Yurij,Altshuler,M,813,223-2517,KISSIMMEE,FL,34745,S,N,60000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2943,
+   "output": "Natalie,Vargas,F,210,555-1212,SAN ANTONIO,TX,78210,M,Y,45000,5.5,1500,0,1500",
+   "parsed": true
+  },
+  {
+   "row": 4789,
+   "output": "Natalie,Vargas,F,212,222-1111,NYC,NY,10001,S,Y,60000,5.5,1800,0,1500",
+   "parsed": true
+  },
+  {
+   "row": 1799,
+   "output": "Ida,Cheney,F,208,732-8222,BURBANK,ID,83301,S,N,40000,2.5,0,6600,0",
+   "parsed": true
+  },
+  {
+   "row": 4144,
+   "output": "Riccardo,Ventimiglia,M,212,274-3100,NEW YORK,NY,10021,M,Y,65000,4.0,0,1000,3300",
+   "parsed": true
+  },
+  {
+   "row": 1150,
+   "output": "Natalie,Chen,F,201,512-8477,PLAINFIELD,NJ,07060,S,N,30000,4.5,0,1500,0",
+   "parsed": true
+  },
+  {
+   "row": 2318,
+   "output": "Benedikt,Rehling,M,205,460-2622,PRATTVILLE,AL,36060,M,N,75000,4.25,0,3000,0",
+   "parsed": true
+  },
+  {
+   "row": 1154,
+   "output": "Suzanne,Alvarado,F,210,736-2511,SAN ANTONIO,TX,78216,S,Y,35000,3.5,0,1050,0",
+   "parsed": true
+  },
+  {
+   "row": 786,
+   "output": "Daria,VanHoesel,F,218,745-2222,GRAND FORKS,ND,58201,S,N,45000,3.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2062,
+   "output": "Natalia,Vasilev,M,212,222-3333,NEW YORK,NY,10001,M,N,60000,4.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4372,
+   "output": "Trevor,Cook,M,208,299-1234,BURBANK,ID,83315,S,Y,95000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4940,
+   "output": "Rudolph,Stoltenberg,M,210,794-0650,SAN ANTONIO,TX,78229,M,Y,65000,5.5,0,6600,3300",
+   "parsed": true
+  },
+  {
+   "row": 1213,
+   "output": "Dinesh,Venkatesan,M,205,222-8900,HUNTSVILLE,AL,35801,S,Y,45000,6.0,0,1000,0",
+   "parsed": true
+  },
+  {
+   "row": 2550,
+   "output": "Leticia,Vargas,F,210,733-8901,SAN ANTONIO,TX,78212,S,Y,30000,4.2,2200,0,2200",
+   "parsed": true
+  },
+  {
+   "row": 819,
+   "output": "Sara,Chavez,F,505,266-7464,GALLUP,NM,87301,M,Y,60000,6.0,0,6600,3300",
+   "parsed": true
+  },
+  {
+   "row": 614,
+   "output": "Linda,Huang,F,212,222-3333,NYC,NY,10001,S,Y,90000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2714,
+   "output": "Kiyotaka,Waymire,M,402,959-2974,CAMBRIDGE,NE,69022,S,N,60000,6.84,103,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3877,
+   "output": "Nina,Chang,F,212,595-7938,NEW YORK,NY,10021,S,N,65000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4595,
+   "output": "Daria,Stark,F,212,278-3921,NEW YORK,NY,01907,S,N,45000,5.5,2250,0,0",
+   "parsed": true
+  },
+  {
+   "row": 834,
+   "output": "Marta,Vazquez,F,212,555-1212,NYC,NY,10001,M,N,30000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2908,
+   "output": "Lorena,Alvarado,F,512,319-1500,AUSTIN,TX,78704,M,Y,75000,5.5,0,4500,3500",
+   "parsed": true
+  },
+  {
+   "row": 3566,
+   "output": "Graca,Bhandari,F,701,211-1318,ZAHL,ND,58856,S,N,25000,2.1,3300,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2600,
+   "output": "Narayan,Kumar,M,212,278-3456,NYC,NY,10001,M,N,90000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 1685,
+   "output": "Irina,Smith,M,201,555-1212,NEWARK,NJ,07101,S,Y,90000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4536,
+   "output": "Zhili,Tohme,M,907,585-9448,ANCHORAGE,AK-*,99515,M,Y,15000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 3917,
+   "output": "Dmitry,Vasiliev,M,212,555-1212,NEW YORK,NY,10001,M,Y,80000,6.5,2400,0,4800",
+   "parsed": true
+  },
+  {
+   "row": 3636,
+   "output": "Nikolaos,Vlachos,M,210,921-7890,Athènes,GR,10557,S,Y,7000,6.5,0,1400,0",
+   "parsed": true
+  },
+  {
+   "row": 4280,
+   "output": "Lorena,Alvarado,F,210,734-2538,SAN ANTONIO,TX,78212,M,N,40000,7.25,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2143,
+   "output": "Natalie,Vargas,F,208,585-3194,BURBANK,ID,83316,S,Y,60000,5.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 520,
+   "output": "Nikolaos,Vasilakis,M,210,973-8222,PATERSON,NJ,07501,S,Y,60000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 4504,
+   "output": "Natalie,Vargas,F,415,234-5678,SAN FRANCISCO,CA,94114,S,Y,80000,0.0,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 125,
+   "output": "Ryuzo,Ulich,F,662,484-5807,PORTERVILLE,MS,39352,S,N,100000,5.0,6000,0,0",
+   "parsed": true
+  },
+  {
+   "row": 774,
+   "output": "Yoshiki,Takahashi,M,219,278-5599,SOUTH BEND,IN,46622,M,Y,55000,4.5,0,3300,0",
+   "parsed": true
+  },
+  {
+   "row": 3277,
+   "output": "Natalie,Vargas,F,212,593-7894,NYC,NY,10001,S,Y,60000,5.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 19,
+   "output": "Mabel,Baker,F,415,956-7821,SAN FRANCISCO,CA,94110,M,Y,75000,6.5,0,3450,1650",
+   "parsed": true
+  },
+  {
+   "row": 4053,
+   "output": "Yoshiki,Tsujii,M,408,215-6901,CUPERTINO,CA,95014,M,N,80000,4.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2739,
+   "output": "Natalie,Vargas,F,415,555-1212,SAN FRANCISCO,CA,94111,M,Y,90000,4.5,0,4500,3000",
+   "parsed": true
+  },
+  {
+   "row": 2008,
+   "output": "Maryann,Mukouchi,F,719,709-7556,AURORA,CO,80019,S,Y,60000,4.63,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 2674,
+   "output": "Natalie,Reynolds,F,208,555-5555,BOISE,ID,83709,S,N,35000,5.5,0,0,0",
+   "parsed": true
+  },
+  {
+   "row": 525,
+   "output": "Daeweon,Schwartzburd,F,402,875-8341,HAZARD,NE,68844,M,Y,30000,6.84,0,206,103",
+   "parsed": true
+  },
+  {
+   "row": 1575,
+   "output": "Sihem,Pinheiro,F,580,862-2472,ADA,OK,74821,M,Y,100000,6.25,0,2000,1000",
+   "parsed": true
+  },
+  {
+   "row": 4659,
+   "output": "Shelley,Reynolds,F,205,741-2100,MOBILE,AL,01907,M,N,45000,5.0,0,5500,2750",
+   "parsed": true
+  }
+ ]
+}

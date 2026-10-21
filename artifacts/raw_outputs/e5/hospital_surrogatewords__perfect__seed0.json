@@ -1,0 +1,2555 @@
+{
+ "dataset": "hospital_surrogatewords",
+ "mode": "perfect",
+ "seed": 0,
+ "seconds": 3,
+ "detected": 509,
+ "corrections": 499,
+ "counts": {
+  "all": {
+   "errors": 509,
+   "predicted": 474,
+   "repaired": 453,
+   "detected": 474
+  },
+  "identity": {
+   "errors": 219,
+   "predicted": 219,
+   "repaired": 214,
+   "detected": 219
+  },
+  "other": {
+   "errors": 290,
+   "predicted": 255,
+   "repaired": 239,
+   "detected": 255
+  }
+ },
+ "fixes": [
+  [
+   532,
+   "HospitalName",
+   "maple timber regional hospital"
+  ],
+  [
+   532,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   16,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   39,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   98,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   199,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   213,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   266,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   280,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   293,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   411,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   413,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   453,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   490,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   493,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   497,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   511,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   588,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   634,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   695,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   705,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   729,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   779,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   782,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   814,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   848,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   877,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   902,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   926,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   949,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   956,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   964,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   976,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   532,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   0,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   94,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   111,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   119,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   145,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   210,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   219,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   256,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   281,
+   "MeasureName",
+   "pneumonia patients whose initial emergency room blood culture was performed prior to the administration of the first hospital dose of antibiotics"
+  ],
+  [
+   290,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   346,
+   "MeasureName",
+   "surgery patients whose doctors ordered treatments to prevent blood clots after certain types of surgeries"
+  ],
+  [
+   380,
+   "MeasureName",
+   "heart attack patients given aspirin at discharge"
+  ],
+  [
+   389,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   473,
+   "MeasureName",
+   "heart failure patients given discharge instructions"
+  ],
+  [
+   493,
+   "MeasureName",
+   "heart attack patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   507,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   541,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   545,
+   "MeasureName",
+   "heart attack patients given beta blocker at discharge"
+  ],
+  [
+   562,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   612,
+   "MeasureName",
+   "all heart surgery patients whose blood sugar (blood glucose) is kept under good control in the days right after surgery"
+  ],
+  [
+   650,
+   "MeasureName",
+   "heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   651,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   672,
+   "MeasureName",
+   "heart attack patients given pci within 90 minutes of arrival"
+  ],
+  [
+   705,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   706,
+   "MeasureName",
+   "pneumonia patients given the most appropriate initial antibiotic(s)"
+  ],
+  [
+   713,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   785,
+   "MeasureName",
+   "heart failure patients given an evaluation of left ventricular systolic (lvs) function"
+  ],
+  [
+   802,
+   "MeasureName",
+   "heart attack patients given aspirin at arrival"
+  ],
+  [
+   816,
+   "MeasureName",
+   "pneumonia patients given initial antibiotic(s) within 6 hours after arrival"
+  ],
+  [
+   893,
+   "MeasureName",
+   "pneumonia patients assessed and given influenza vaccination"
+  ],
+  [
+   902,
+   "MeasureName",
+   "children who received reliever medication while hospitalized for asthma"
+  ],
+  [
+   915,
+   "MeasureName",
+   "heart failure patients given smoking cessation advice/counseling"
+  ],
+  [
+   997,
+   "MeasureName",
+   "surgery patients who were taking heart drugs called beta blockers before coming to the hospital who were kept on the beta blockers during the period just before and after their surgery"
+  ],
+  [
+   532,
+   "Sample",
+   "87 patients"
+  ],
+  [
+   133,
+   "Sample",
+   "21 pxtients"
+  ],
+  [
+   234,
+   "Sample",
+   "82 patients"
+  ],
+  [
+   316,
+   "Sample",
+   "29 xatients"
+  ],
+  [
+   482,
+   "Sample",
+   "62 patients"
+  ],
+  [
+   502,
+   "Sample",
+   "44 paxienxs"
+  ],
+  [
+   554,
+   "Sample",
+   "74 patxents"
+  ],
+  [
+   580,
+   "Sample",
+   "50 pxtients"
+  ],
+  [
+   668,
+   "Sample",
+   "87 paxienxs"
+  ],
+  [
+   872,
+   "Sample",
+   "15 patiexts"
+  ],
+  [
+   972,
+   "Sample",
+   "27 paxienxs"
+  ],
+  [
+   26,
+   "HospitalName",
+   "green harvest regional hospital"
+  ],
+  [
+   131,
+   "HospitalName",
+   "rose lake memorial hospital"
+  ],
+  [
+   171,
+   "HospitalName",
+   "beacon harvest regional hospital"
+  ],
+  [
+   243,
+   "HospitalName",
+   "hollow shadow health center"
+  ],
+  [
+   337,
+   "HospitalName",
+   "crystal birch memorial hospital"
+  ],
+  [
+   384,
+   "HospitalName",
+   "evening rose health center"
+  ],
+  [
+   385,
+   "HospitalName",
+   "evening rose health center"
+  ],
+  [
+   448,
+   "HospitalName",
+   "laurel haven health center"
+  ],
+  [
+   560,
+   "HospitalName",
+   "lake rose memorial hospital"
+  ],
+  [
+   654,
+   "HospitalName",
+   "quiet iron regional hospital"
+  ],
+  [
+   697,
+   "HospitalName",
+   "maple lake medical center"
+  ],
+  [
+   730,
+   "HospitalName",
+   "orchard evening regional hospital"
+  ],
+  [
+   758,
+   "HospitalName",
+   "eagle pine medical center"
+  ],
+  [
+   765,
+   "HospitalName",
+   "eagle pine medical center"
+  ],
+  [
+   777,
+   "HospitalName",
+   "evening anchor memorial hospital"
+  ],
+  [
+   903,
+   "HospitalName",
+   "hope copper medical center"
+  ],
+  [
+   921,
+   "HospitalName",
+   "hope copper medical center"
+  ],
+  [
+   922,
+   "HospitalName",
+   "hope copper medical center"
+  ],
+  [
+   938,
+   "HospitalName",
+   "brook glen medical center"
+  ],
+  [
+   956,
+   "HospitalName",
+   "evening clear medical center"
+  ],
+  [
+   962,
+   "HospitalName",
+   "evening clear medical center"
+  ],
+  [
+   987,
+   "HospitalName",
+   "golden birch medical center"
+  ],
+  [
+   386,
+   "State",
+   "al"
+  ],
+  [
+   42,
+   "State",
+   "al"
+  ],
+  [
+   46,
+   "State",
+   "al"
+  ],
+  [
+   50,
+   "State",
+   "al"
+  ],
+  [
+   83,
+   "State",
+   "al"
+  ],
+  [
+   98,
+   "State",
+   "al"
+  ],
+  [
+   119,
+   "State",
+   "al"
+  ],
+  [
+   140,
+   "State",
+   "al"
+  ],
+  [
+   165,
+   "State",
+   "al"
+  ],
+  [
+   182,
+   "State",
+   "al"
+  ],
+  [
+   228,
+   "State",
+   "al"
+  ],
+  [
+   278,
+   "State",
+   "al"
+  ],
+  [
+   356,
+   "State",
+   "al"
+  ],
+  [
+   402,
+   "State",
+   "al"
+  ],
+  [
+   477,
+   "State",
+   "al"
+  ],
+  [
+   483,
+   "State",
+   "al"
+  ],
+  [
+   504,
+   "State",
+   "al"
+  ],
+  [
+   559,
+   "State",
+   "al"
+  ],
+  [
+   572,
+   "State",
+   "al"
+  ],
+  [
+   592,
+   "State",
+   "al"
+  ],
+  [
+   701,
+   "State",
+   "al"
+  ],
+  [
+   764,
+   "State",
+   "al"
+  ],
+  [
+   791,
+   "State",
+   "al"
+  ],
+  [
+   884,
+   "State",
+   "al"
+  ],
+  [
+   886,
+   "State",
+   "al"
+  ],
+  [
+   922,
+   "State",
+   "al"
+  ],
+  [
+   386,
+   "PhoneNumber",
+   "9427934021"
+  ],
+  [
+   386,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   400,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   710,
+   "HospitalName",
+   "maple lake medical center"
+  ],
+  [
+   157,
+   "ZipCode",
+   "58791"
+  ],
+  [
+   44,
+   "ZipCode",
+   "51617"
+  ],
+  [
+   63,
+   "ZipCode",
+   "51617"
+  ],
+  [
+   70,
+   "ZipCode",
+   "72938"
+  ],
+  [
+   137,
+   "ZipCode",
+   "37987"
+  ],
+  [
+   139,
+   "ZipCode",
+   "37987"
+  ],
+  [
+   149,
+   "ZipCode",
+   "58791"
+  ],
+  [
+   196,
+   "ZipCode",
+   "76662"
+  ],
+  [
+   232,
+   "ZipCode",
+   "93638"
+  ],
+  [
+   267,
+   "ZipCode",
+   "89037"
+  ],
+  [
+   283,
+   "ZipCode",
+   "28475"
+  ],
+  [
+   290,
+   "ZipCode",
+   "28475"
+  ],
+  [
+   325,
+   "ZipCode",
+   "55448"
+  ],
+  [
+   332,
+   "ZipCode",
+   "10965"
+  ],
+  [
+   340,
+   "ZipCode",
+   "10965"
+  ],
+  [
+   366,
+   "ZipCode",
+   "34198"
+  ],
+  [
+   375,
+   "ZipCode",
+   "34198"
+  ],
+  [
+   406,
+   "ZipCode",
+   "21834"
+  ],
+  [
+   420,
+   "ZipCode",
+   "25158"
+  ],
+  [
+   428,
+   "ZipCode",
+   "25158"
+  ],
+  [
+   490,
+   "ZipCode",
+   "08369"
+  ],
+  [
+   499,
+   "ZipCode",
+   "92013"
+  ],
+  [
+   679,
+   "ZipCode",
+   "50438"
+  ],
+  [
+   685,
+   "ZipCode",
+   "50438"
+  ],
+  [
+   710,
+   "ZipCode",
+   "15585"
+  ],
+  [
+   750,
+   "ZipCode",
+   "52160"
+  ],
+  [
+   815,
+   "ZipCode",
+   "27162"
+  ],
+  [
+   923,
+   "ZipCode",
+   "81712"
+  ],
+  [
+   24,
+   "PhoneNumber",
+   "7298147507"
+  ],
+  [
+   36,
+   "PhoneNumber",
+   "7298147507"
+  ],
+  [
+   57,
+   "PhoneNumber",
+   "6382935874"
+  ],
+  [
+   60,
+   "PhoneNumber",
+   "6382935874"
+  ],
+  [
+   65,
+   "PhoneNumber",
+   "6382935874"
+  ],
+  [
+   101,
+   "PhoneNumber",
+   "5181477282"
+  ],
+  [
+   247,
+   "PhoneNumber",
+   "5543435375"
+  ],
+  [
+   261,
+   "PhoneNumber",
+   "5543435375"
+  ],
+  [
+   321,
+   "PhoneNumber",
+   "7944920755"
+  ],
+  [
+   342,
+   "PhoneNumber",
+   "7298147507"
+  ],
+  [
+   381,
+   "PhoneNumber",
+   "9427934021"
+  ],
+  [
+   384,
+   "PhoneNumber",
+   "9427934021"
+  ],
+  [
+   393,
+   "PhoneNumber",
+   "3434624957"
+  ],
+  [
+   471,
+   "PhoneNumber",
+   "6645520972"
+  ],
+  [
+   516,
+   "PhoneNumber",
+   "9775129884"
+  ],
+  [
+   548,
+   "PhoneNumber",
+   "9775129884"
+  ],
+  [
+   561,
+   "PhoneNumber",
+   "9775129884"
+  ],
+  [
+   562,
+   "PhoneNumber",
+   "9775129884"
+  ],
+  [
+   572,
+   "PhoneNumber",
+   "6446063342"
+  ],
+  [
+   593,
+   "PhoneNumber",
+   "4002652867"
+  ],
+  [
+   699,
+   "PhoneNumber",
+   "2086878931"
+  ],
+  [
+   713,
+   "PhoneNumber",
+   "2086878931"
+  ],
+  [
+   751,
+   "PhoneNumber",
+   "6864917846"
+  ],
+  [
+   763,
+   "PhoneNumber",
+   "6864917846"
+  ],
+  [
+   824,
+   "PhoneNumber",
+   "5339169529"
+  ],
+  [
+   865,
+   "PhoneNumber",
+   "2837405312"
+  ],
+  [
+   881,
+   "PhoneNumber",
+   "9659717558"
+  ],
+  [
+   883,
+   "PhoneNumber",
+   "9659717558"
+  ],
+  [
+   916,
+   "PhoneNumber",
+   "5339169529"
+  ],
+  [
+   157,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   22,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   27,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   31,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   42,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   113,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   159,
+   "HospitalOwner",
+   "proxrietary"
+  ],
+  [
+   162,
+   "HospitalOwner",
+   "xroprietary"
+  ],
+  [
+   164,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   216,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   218,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   221,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   238,
+   "HospitalOwner",
+   "voluntary non-profit - church"
+  ],
+  [
+   247,
+   "HospitalOwner",
+   "government - federal"
+  ],
+  [
+   313,
+   "HospitalOwner",
+   "prxprietary"
+  ],
+  [
+   332,
+   "HospitalOwner",
+   "proxrietary"
+  ],
+  [
+   356,
+   "HospitalOwner",
+   "prxprietary"
+  ],
+  [
+   449,
+   "HospitalOwner",
+   "proxrietary"
+  ],
+  [
+   456,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   493,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   526,
+   "HospitalOwner",
+   "volxntary non-profit - chxrch"
+  ],
+  [
+   572,
+   "HospitalOwner",
+   "voluntary non-profit - other"
+  ],
+  [
+   744,
+   "HospitalOwner",
+   "prxprietary"
+  ],
+  [
+   784,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   846,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   868,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   872,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   157,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   24,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   43,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   51,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   318,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   327,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   332,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   350,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   374,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   389,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   410,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   418,
+   "EmergencyService",
+   "no"
+  ],
+  [
+   492,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   521,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   536,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   564,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   579,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   587,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   628,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   653,
+   "EmergencyService",
+   "no"
+  ],
+  [
+   674,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   797,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   809,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   866,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   889,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   919,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   921,
+   "EmergencyService",
+   "yes"
+  ],
+  [
+   127,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   229,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   279,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   599,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   698,
+   "Condition",
+   "heart failure"
+  ],
+  [
+   411,
+   "Address1",
+   "5780 garden drive"
+  ],
+  [
+   94,
+   "Address1",
+   "9345 ridge drive"
+  ],
+  [
+   106,
+   "Address1",
+   "9345 ridge drive"
+  ],
+  [
+   161,
+   "Address1",
+   "2663 grove avenue"
+  ],
+  [
+   175,
+   "Address1",
+   "4117 lake blvd"
+  ],
+  [
+   260,
+   "Address1",
+   "9334 gentle drive"
+  ],
+  [
+   264,
+   "Address1",
+   "9334 gentle drive"
+  ],
+  [
+   275,
+   "Address1",
+   "5112 bridge blvd"
+  ],
+  [
+   295,
+   "Address1",
+   "5749 glen road"
+  ],
+  [
+   316,
+   "Address1",
+   "6377 evening road"
+  ],
+  [
+   334,
+   "Address1",
+   "2523 canyon road"
+  ],
+  [
+   350,
+   "Address1",
+   "7513 juniper street"
+  ],
+  [
+   363,
+   "Address1",
+   "8928 bright street"
+  ],
+  [
+   415,
+   "Address1",
+   "2178 rose blvd"
+  ],
+  [
+   431,
+   "Address1",
+   "2178 rose blvd"
+  ],
+  [
+   451,
+   "Address1",
+   "1332 oak drive"
+  ],
+  [
+   472,
+   "Address1",
+   "3160 iron blvd"
+  ],
+  [
+   484,
+   "Address1",
+   "3160 iron blvd"
+  ],
+  [
+   652,
+   "Address1",
+   "7323 field avenue"
+  ],
+  [
+   736,
+   "Address1",
+   "5122 evening road"
+  ],
+  [
+   767,
+   "Address1",
+   "6377 evening road"
+  ],
+  [
+   849,
+   "Address1",
+   "6850 hollow drive"
+  ],
+  [
+   857,
+   "Address1",
+   "3508 oak street"
+  ],
+  [
+   915,
+   "Address1",
+   "3130 lake street"
+  ],
+  [
+   934,
+   "Address1",
+   "3262 gentle blvd"
+  ],
+  [
+   935,
+   "Address1",
+   "3262 gentle blvd"
+  ],
+  [
+   945,
+   "Address1",
+   "3262 gentle blvd"
+  ],
+  [
+   956,
+   "Address1",
+   "4597 iron road"
+  ],
+  [
+   986,
+   "Address1",
+   "1651 crystal avenue"
+  ],
+  [
+   228,
+   "PhoneNumber",
+   "7420281058"
+  ],
+  [
+   855,
+   "PhoneNumber",
+   "2837405312"
+  ],
+  [
+   411,
+   "Score",
+   "100%"
+  ],
+  [
+   888,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   45,
+   "ProviderNumber",
+   "94242"
+  ],
+  [
+   81,
+   "ProviderNumber",
+   "98376"
+  ],
+  [
+   244,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   253,
+   "ProviderNumber",
+   "93578"
+  ],
+  [
+   273,
+   "ProviderNumber",
+   "98268"
+  ],
+  [
+   314,
+   "ProviderNumber",
+   "92281"
+  ],
+  [
+   408,
+   "ProviderNumber",
+   "99861"
+  ],
+  [
+   627,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   639,
+   "ProviderNumber",
+   "95180"
+  ],
+  [
+   645,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   655,
+   "ProviderNumber",
+   "93350"
+  ],
+  [
+   704,
+   "ProviderNumber",
+   "97815"
+  ],
+  [
+   721,
+   "ProviderNumber",
+   "97253"
+  ],
+  [
+   724,
+   "ProviderNumber",
+   "97253"
+  ],
+  [
+   755,
+   "ProviderNumber",
+   "98541"
+  ],
+  [
+   780,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   789,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   793,
+   "ProviderNumber",
+   "94267"
+  ],
+  [
+   878,
+   "ProviderNumber",
+   "91528"
+  ],
+  [
+   933,
+   "ProviderNumber",
+   "90018"
+  ],
+  [
+   217,
+   "PhoneNumber",
+   "8414576701"
+  ],
+  [
+   666,
+   "PhoneNumber",
+   "5342121733"
+  ],
+  [
+   888,
+   "Score",
+   "85%"
+  ],
+  [
+   163,
+   "Score",
+   "85%"
+  ],
+  [
+   208,
+   "Score",
+   "85%"
+  ],
+  [
+   256,
+   "Score",
+   "96%"
+  ],
+  [
+   378,
+   "Score",
+   "85%"
+  ],
+  [
+   405,
+   "Score",
+   "85%"
+  ],
+  [
+   426,
+   "Score",
+   "85%"
+  ],
+  [
+   488,
+   "Score",
+   "100%"
+  ],
+  [
+   514,
+   "Score",
+   "100%"
+  ],
+  [
+   711,
+   "Score",
+   "100%"
+  ],
+  [
+   718,
+   "Score",
+   "85%"
+  ],
+  [
+   769,
+   "Score",
+   "85%"
+  ],
+  [
+   13,
+   "ProviderNumber",
+   "96890"
+  ],
+  [
+   213,
+   "ProviderNumber",
+   "95866"
+  ],
+  [
+   360,
+   "ProviderNumber",
+   "94104"
+  ],
+  [
+   559,
+   "ProviderNumber",
+   "91649"
+  ],
+  [
+   608,
+   "ProviderNumber",
+   "97113"
+  ],
+  [
+   859,
+   "ProviderNumber",
+   "90230"
+  ],
+  [
+   955,
+   "ProviderNumber",
+   "98086"
+  ],
+  [
+   93,
+   "ZipCode",
+   "72938"
+  ],
+  [
+   544,
+   "ZipCode",
+   "68919"
+  ],
+  [
+   842,
+   "MeasureCode",
+   "pn-6"
+  ],
+  [
+   101,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   648,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   676,
+   "MeasureCode",
+   "hf-4"
+  ],
+  [
+   842,
+   "Stateavg",
+   "al_pn-6"
+  ],
+  [
+   57,
+   "Address1",
+   "6420 stone street"
+  ],
+  [
+   393,
+   "Address1",
+   "5780 garden drive"
+  ],
+  [
+   578,
+   "City",
+   "summit"
+  ],
+  [
+   10,
+   "City",
+   "bright"
+  ],
+  [
+   56,
+   "City",
+   "gentle"
+  ],
+  [
+   474,
+   "City",
+   "harbor"
+  ],
+  [
+   485,
+   "City",
+   "harbor"
+  ],
+  [
+   590,
+   "City",
+   "summit"
+  ],
+  [
+   654,
+   "City",
+   "canyon"
+  ],
+  [
+   821,
+   "City",
+   "grove juniper"
+  ],
+  [
+   949,
+   "City",
+   "birch"
+  ],
+  [
+   960,
+   "City",
+   "stone"
+  ],
+  [
+   968,
+   "City",
+   "stone"
+  ],
+  [
+   985,
+   "City",
+   "willow"
+  ],
+  [
+   578,
+   "CountyName",
+   "aspen"
+  ],
+  [
+   67,
+   "CountyName",
+   "valley shadow"
+  ],
+  [
+   72,
+   "CountyName",
+   "mill copper"
+  ],
+  [
+   77,
+   "CountyName",
+   "mill copper"
+  ],
+  [
+   136,
+   "CountyName",
+   "copper unity"
+  ],
+  [
+   216,
+   "CountyName",
+   "sunset prairie"
+  ],
+  [
+   221,
+   "CountyName",
+   "mill haven"
+  ],
+  [
+   223,
+   "CountyName",
+   "mill haven"
+  ],
+  [
+   227,
+   "CountyName",
+   "mill haven"
+  ],
+  [
+   238,
+   "CountyName",
+   "mill haven"
+  ],
+  [
+   252,
+   "CountyName",
+   "brook"
+  ],
+  [
+   312,
+   "CountyName",
+   "rose beacon"
+  ],
+  [
+   324,
+   "CountyName",
+   "rose beacon"
+  ],
+  [
+   346,
+   "CountyName",
+   "river"
+  ],
+  [
+   415,
+   "CountyName",
+   "evening"
+  ],
+  [
+   456,
+   "CountyName",
+   "sunset prairie"
+  ],
+  [
+   457,
+   "CountyName",
+   "sunset prairie"
+  ],
+  [
+   465,
+   "CountyName",
+   "sunset prairie"
+  ],
+  [
+   502,
+   "CountyName",
+   "meadow"
+  ],
+  [
+   513,
+   "CountyName",
+   "meadow"
+  ],
+  [
+   527,
+   "CountyName",
+   "summit"
+  ],
+  [
+   540,
+   "CountyName",
+   "summit"
+  ],
+  [
+   551,
+   "CountyName",
+   "summit"
+  ],
+  [
+   590,
+   "CountyName",
+   "aspen"
+  ],
+  [
+   602,
+   "CountyName",
+   "grove gentle"
+  ],
+  [
+   633,
+   "CountyName",
+   "harvest"
+  ],
+  [
+   672,
+   "CountyName",
+   "sunset prairie"
+  ],
+  [
+   689,
+   "CountyName",
+   "sunset prairie"
+  ],
+  [
+   692,
+   "CountyName",
+   "liberty field"
+  ],
+  [
+   698,
+   "CountyName",
+   "liberty field"
+  ],
+  [
+   722,
+   "CountyName",
+   "shadow"
+  ],
+  [
+   730,
+   "CountyName",
+   "shadow"
+  ],
+  [
+   752,
+   "CountyName",
+   "noble field"
+  ],
+  [
+   785,
+   "CountyName",
+   "copper"
+  ],
+  [
+   798,
+   "CountyName",
+   "copper"
+  ],
+  [
+   895,
+   "CountyName",
+   "harbor"
+  ],
+  [
+   917,
+   "CountyName",
+   "juniper"
+  ],
+  [
+   943,
+   "CountyName",
+   "morning anchor"
+  ],
+  [
+   966,
+   "CountyName",
+   "grove gentle"
+  ],
+  [
+   21,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   22,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   73,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   199,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   225,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   236,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   239,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   366,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   369,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   467,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   506,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   555,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   608,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   631,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   679,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   695,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   712,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   716,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   733,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   780,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   851,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   869,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   955,
+   "Condition",
+   "heart attack"
+  ],
+  [
+   974,
+   "Condition",
+   "surgical infection prevention"
+  ],
+  [
+   334,
+   "Stateavg",
+   "al_pn-6"
+  ],
+  [
+   3,
+   "City",
+   "mill pine"
+  ],
+  [
+   7,
+   "City",
+   "mill pine"
+  ],
+  [
+   79,
+   "City",
+   "meadow bridge"
+  ],
+  [
+   88,
+   "City",
+   "meadow bridge"
+  ],
+  [
+   93,
+   "City",
+   "meadow bridge"
+  ],
+  [
+   180,
+   "City",
+   "canyon hollow"
+  ],
+  [
+   207,
+   "City",
+   "mill pine"
+  ],
+  [
+   212,
+   "City",
+   "mill pine"
+  ],
+  [
+   228,
+   "City",
+   "grace shadow"
+  ],
+  [
+   311,
+   "City",
+   "mill glen"
+  ],
+  [
+   367,
+   "City",
+   "pleasant harbor"
+  ],
+  [
+   437,
+   "City",
+   "ridge valley"
+  ],
+  [
+   517,
+   "City",
+   "hope"
+  ],
+  [
+   601,
+   "City",
+   "evening grove"
+  ],
+  [
+   690,
+   "City",
+   "mill pine"
+  ],
+  [
+   696,
+   "City",
+   "crystal grove"
+  ],
+  [
+   756,
+   "City",
+   "iron"
+  ],
+  [
+   772,
+   "City",
+   "mill glen"
+  ],
+  [
+   855,
+   "City",
+   "mill"
+  ],
+  [
+   895,
+   "City",
+   "harvest anchor"
+  ],
+  [
+   673,
+   "MeasureCode",
+   "hf-1"
+  ],
+  [
+   97,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   108,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   120,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   177,
+   "MeasureCode",
+   "hf-2"
+  ],
+  [
+   190,
+   "MeasureCode",
+   "scip-inf-4"
+  ],
+  [
+   264,
+   "MeasureCode",
+   "scip-inf-3"
+  ],
+  [
+   349,
+   "MeasureCode",
+   "ami-2"
+  ],
+  [
+   391,
+   "MeasureCode",
+   "pn-3b"
+  ],
+  [
+   398,
+   "MeasureCode",
+   "hx-1"
+  ],
+  [
+   409,
+   "MeasureCode",
+   "scip-inf-1"
+  ],
+  [
+   464,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   495,
+   "MeasureCode",
+   "ami-5"
+  ],
+  [
+   580,
+   "MeasureCode",
+   "pn-5c"
+  ],
+  [
+   639,
+   "MeasureCode",
+   "scip-vte-1"
+  ],
+  [
+   691,
+   "MeasureCode",
+   "ami-1"
+  ],
+  [
+   694,
+   "MeasureCode",
+   "ami-4"
+  ],
+  [
+   718,
+   "MeasureCode",
+   "ami-3"
+  ],
+  [
+   729,
+   "MeasureCode",
+   "hx-4"
+  ],
+  [
+   735,
+   "MeasureCode",
+   "scip-inf-2"
+  ],
+  [
+   749,
+   "MeasureCode",
+   "hx-2"
+  ],
+  [
+   774,
+   "MeasureCode",
+   "cac-1"
+  ],
+  [
+   788,
+   "MeasureCode",
+   "pn-2"
+  ],
+  [
+   865,
+   "MeasureCode",
+   "hx-4"
+  ],
+  [
+   930,
+   "MeasureCode",
+   "ami-1"
+  ],
+  [
+   673,
+   "Sample",
+   "618 patients"
+  ],
+  [
+   91,
+   "Sample",
+   "619 paxienxs"
+  ],
+  [
+   413,
+   "Sample",
+   "125 patixnts"
+  ],
+  [
+   444,
+   "Sample",
+   "521 patiexts"
+  ],
+  [
+   588,
+   "Sample",
+   "172 patxents"
+  ],
+  [
+   776,
+   "Sample",
+   "193 paxienxs"
+  ],
+  [
+   866,
+   "Sample",
+   "121 patiexts"
+  ],
+  [
+   905,
+   "Sample",
+   "126 patxents"
+  ],
+  [
+   256,
+   "Condition",
+   "pneumonia"
+  ],
+  [
+   736,
+   "City",
+   "lake crystal"
+  ],
+  [
+   434,
+   "MeasureName",
+   "heart failure patients given ace inhibitor or arb for left ventricular systolic dysfunction (lvsd)"
+  ],
+  [
+   447,
+   "MeasureName",
+   "surgery patients needing hair removed from the surgical area before surgery who had hair removed using a safer method (electric clippers or hair removal cream c not a razor)"
+  ],
+  [
+   373,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   244,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   69,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   193,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   213,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   248,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   269,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   567,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   764,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   796,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   827,
+   "Stateavg",
+   "al_ami-1"
+  ],
+  [
+   237,
+   "Score",
+   "97%"
+  ],
+  [
+   158,
+   "Score",
+   "97%"
+  ],
+  [
+   336,
+   "Score",
+   "100%"
+  ],
+  [
+   120,
+   "Score",
+   "100%"
+  ],
+  [
+   56,
+   "Stateavg",
+   "al_pn-3b"
+  ],
+  [
+   347,
+   "Stateavg",
+   "al_scip-vte-2"
+  ],
+  [
+   370,
+   "Stateavg",
+   "al_pn-7"
+  ],
+  [
+   387,
+   "Stateavg",
+   "al_hf-2"
+  ],
+  [
+   477,
+   "Stateavg",
+   "al_pn-2"
+  ],
+  [
+   555,
+   "Stateavg",
+   "al_pn-5c"
+  ],
+  [
+   564,
+   "Stateavg",
+   "al_scip-vte-1"
+  ],
+  [
+   622,
+   "Stateavg",
+   "al_ami-8a"
+  ],
+  [
+   646,
+   "Stateavg",
+   "al_ami-7a"
+  ],
+  [
+   678,
+   "Stateavg",
+   "al_pn-3b"
+  ],
+  [
+   721,
+   "Stateavg",
+   "al_ami-7a"
+  ],
+  [
+   760,
+   "Stateavg",
+   "al_scip-inf-2"
+  ],
+  [
+   787,
+   "Stateavg",
+   "al_hf-4"
+  ],
+  [
+   920,
+   "Stateavg",
+   "al_pn-6"
+  ],
+  [
+   238,
+   "Score",
+   "99%"
+  ],
+  [
+   698,
+   "Score",
+   "99%"
+  ],
+  [
+   546,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   462,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   187,
+   "Score",
+   "95%"
+  ],
+  [
+   252,
+   "Score",
+   "89%"
+  ],
+  [
+   860,
+   "Score",
+   "80%"
+  ],
+  [
+   506,
+   "Score",
+   "93%"
+  ]
+ ],
+ "all": {
+  "repair_p": 0.9557,
+  "repair_r": 0.89,
+  "repair_f1": 0.9217,
+  "detect_f1": 0.9644,
+  "errors": 509,
+  "predicted": 474,
+  "repaired": 453,
+  "detected": 474
+ },
+ "identity": {
+  "repair_p": 0.9772,
+  "repair_r": 0.9772,
+  "repair_f1": 0.9772,
+  "detect_f1": 1.0,
+  "errors": 219,
+  "predicted": 219,
+  "repaired": 214,
+  "detected": 219
+ },
+ "other": {
+  "repair_p": 0.9373,
+  "repair_r": 0.8241,
+  "repair_f1": 0.8771,
+  "detect_f1": 0.9358,
+  "errors": 290,
+  "predicted": 255,
+  "repaired": 239,
+  "detected": 255
+ }
+}

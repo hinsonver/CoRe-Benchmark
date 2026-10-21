@@ -1,0 +1,656 @@
+{
+ "control|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.119,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Kelbamor 11 Keldrical",
+    "model": "Kelbamor 11 Keldrical Brewing Company",
+    "famous": "Upstate Brewing Company"
+   }
+  ]
+ },
+ "control|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.013888888888888888,
+  "to_fact_rate": 0.0,
+  "entities_edited": 2,
+  "repair_f1_other_rows": 0.111,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Kelbamor 11 Keldrical",
+    "model": "Kelbamor 11 Keldrical Brewing Company",
+    "famous": "Upstate Brewing Company"
+   },
+   {
+    "col": "brewery-name",
+    "table": "Bahepfen Mormortas Brewing Company",
+    "model": "Bahepfen Mormortas Brewing Co.",
+    "famous": "La Cumbre Brewing Company"
+   }
+  ]
+ },
+ "control|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.004629629629629629,
+  "to_fact_rate": 0.0,
+  "entities_edited": 2,
+  "repair_f1_other_rows": 0.149,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.014,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "Ridgefield Park",
+    "model": "Ridgefield Park NJ",
+    "famous": "Wolf Hills Brewing Company"
+   },
+   {
+    "col": "city",
+    "table": "Lafayette",
+    "model": "Lafayette IN",
+    "famous": "Lavery Brewing Company"
+   }
+  ]
+ },
+ "control|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0023148148148148147,
+  "to_fact_rate": 0.0,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.126,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.007,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "state",
+    "table": "MO",
+    "model": "OH",
+    "famous": "18th Street Brewery"
+   }
+  ]
+ },
+ "near|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.020833333333333332,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 3,
+  "repair_f1_other_rows": 0.115,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.021
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Appalichian Mountain Brewery",
+    "model": "Appalachian Mountain Brewery",
+    "famous": "Appalachian Mountain Brewery"
+   },
+   {
+    "col": "city",
+    "table": "Phoenixville",
+    "model": "Phoenixville PA",
+    "famous": "Harpoon Brewery"
+   },
+   {
+    "col": "city",
+    "table": "Edwards",
+    "model": "Edwards CO",
+    "famous": "Hops & Grain Brewery"
+   }
+  ]
+ },
+ "near|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.188,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.021
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Appalichian Mountain Brewery",
+    "model": "Appalachian Mountain Brewery",
+    "famous": "Appalachian Mountain Brewery"
+   }
+  ]
+ },
+ "near|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.137,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "near|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.023148148148148147,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 2,
+  "repair_f1_other_rows": 0.192,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.028,
+    "to_fact_rate": 0.021
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "brewery-name",
+    "table": "Greut River Brewery",
+    "model": "Gutter River Brewery",
+    "famous": "Great River Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "18th Struet Brewery",
+    "model": "18th Street Brewery",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "city",
+    "table": "Bucryus",
+    "model": "Bucyrus",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "state",
+    "table": "MO",
+    "model": "OH",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "18th Struet Brewery",
+    "model": "18th Street Brewery",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "city",
+    "table": "Bucryus",
+    "model": "Bucyrus",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "state",
+    "table": "MO",
+    "model": "OH",
+    "famous": "18th Street Brewery"
+   },
+   {
+    "col": "brewery-name",
+    "table": "18th Struet Brewery",
+    "model": "18th Street Brewery",
+    "famous": "18th Street Brewery"
+   }
+  ]
+ },
+ "real|1|evidence": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.013888888888888888,
+  "to_fact_rate": 0.0,
+  "entities_edited": 2,
+  "repair_f1_other_rows": 0.119,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.042,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": [
+   {
+    "col": "city",
+    "table": "Phoenixville",
+    "model": "Phoenixville PA",
+    "famous": "Harpoon Brewery"
+   },
+   {
+    "col": "city",
+    "table": "Edwards",
+    "model": "Edwards CO",
+    "famous": "Hops & Grain Brewery"
+   }
+  ]
+ },
+ "real|1|standard": {
+  "entities": 48,
+  "cells": 144,
+  "edit_rate": 0.006944444444444444,
+  "to_fact_rate": 0.006944444444444444,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.239,
+  "by_column": {
+   "brewery-name": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 48,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 48,
+    "edit_rate": 0.021,
+    "to_fact_rate": 0.021
+   }
+  },
+  "examples": [
+   {
+    "col": "state",
+    "table": "TX",
+    "model": "CA",
+    "famous": "Central Coast Brewing Company"
+   }
+  ]
+ },
+ "real|3|evidence": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0,
+  "to_fact_rate": 0.0,
+  "entities_edited": 0,
+  "repair_f1_other_rows": 0.199,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   }
+  },
+  "examples": []
+ },
+ "real|3|standard": {
+  "entities": 48,
+  "cells": 432,
+  "edit_rate": 0.0023148148148148147,
+  "to_fact_rate": 0.0023148148148148147,
+  "entities_edited": 1,
+  "repair_f1_other_rows": 0.104,
+  "by_column": {
+   "brewery-name": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "city": {
+    "cells": 144,
+    "edit_rate": 0.0,
+    "to_fact_rate": 0.0
+   },
+   "state": {
+    "cells": 144,
+    "edit_rate": 0.007,
+    "to_fact_rate": 0.007
+   }
+  },
+  "examples": [
+   {
+    "col": "state",
+    "table": "TX",
+    "model": "CA",
+    "famous": "Central Coast Brewing Company"
+   }
+  ]
+ },
+ "key_rates": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|1|evidence": {
+   "rate": 0.021,
+   "ci": [
+    0.0,
+    0.062
+   ],
+   "entities": 48
+  },
+  "near|1|standard": {
+   "rate": 0.021,
+   "ci": [
+    0.0,
+    0.062
+   ],
+   "entities": 48
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "near|3|standard": {
+   "rate": 0.021,
+   "ci": [
+    0.0,
+    0.062
+   ],
+   "entities": 48
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 48
+  }
+ },
+ "screened_known": {
+  "known": 7,
+  "targets": 48
+ },
+ "key_rates_known": {
+  "control|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "control|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "control|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "control|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "near|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "near|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "near|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "near|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "real|1|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "real|1|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "real|3|evidence": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  },
+  "real|3|standard": {
+   "rate": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ],
+   "entities": 7
+  }
+ }
+}

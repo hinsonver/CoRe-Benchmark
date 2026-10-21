@@ -1,0 +1,22 @@
+\begin{table*}[t]
+  \caption{Movies' 1,965 errors and their transfer mechanisms. Source-style errors occupy
+  190 rows, with formatting rules also applied table-wide. Copied errors transfer cell recipes;
+  drawn errors follow measured rates. Slugs are the film identifiers used in Rotten Tomatoes URLs.}
+  \label{tab:movieserrors}
+  \small
+  \begin{tabular}{@{}lr p{6.4cm} p{3.75cm} p{3.75cm}@{}}
+    \toprule
+    Column & Errors & In the original & Fresh table & Surrogates \\
+    \midrule
+    identifier & 190 & Rotten Tomatoes slug (135 plain, 28 numbered, 27 with the year) & slug of the fresh title, forms at the original's rates & slug of the dirty fictitious title, same form \\
+    year & 190 & range ``Y$-$1 Y Y$+$1'' & same range & the original's cell \\
+    title & 17 & 12 edit recipes (capitalization, \& for \emph{and}, accent, punctuation, subtitle, article) & the same edits on a fresh title & the same edits on the fictitious title \\
+    director & 43 & 115 names added, 1 dropped, 17 respelled & copied name by name & copied name by name \\
+    writers & 129 & 123 names added, 51 dropped, 20 respelled; 5 cells emptied & copied name by name & copied name by name \\
+    duration & 187 & Rotten Tomatoes format (105) or empty (80) & drawn at the original's rates & the original's cell \\
+    rating & 261 & score pair (165) or empty (22); ``.0'' added (74) & drawn at the original's rates & the original's cell \\
+    rating count & 768 & thousands separators on every count $\geq$ 1,000 & the same rule & the original's cell \\
+    genre & 180 & Rotten Tomatoes genre vocabulary & copied slot by slot & the original's cell \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

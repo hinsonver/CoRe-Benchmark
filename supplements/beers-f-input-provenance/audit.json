@@ -1,0 +1,3603 @@
+{
+  "status": "source mismatch resolved by explicit historical input binding; frozen results unchanged",
+  "cache_source_sha256": "fc8348dd28df4141befbfc86c29af630929c74e0ddf33df356f5eadeb333246f",
+  "request_response_bindings": [
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 0,
+      "request_key": "eaaa1b09c9620ed283258afb12c3f85faa46c4545e6cb4a2877821b89b564d7f",
+      "response_sha256": "b563829a143be641ce65c1593ae1f77903c658ec798b87ea3f995218b73473c6",
+      "cache_line_1based": 455,
+      "final_request_key": "5e6cbd3a45dfc8a3829d2f4ab61944c151c8f04509b67c02a7ee10efb416e065"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 1,
+      "request_key": "03d592134d4b03b119daeeff17c8b1224e1278241efa9a8e86217c75ecea59ca",
+      "response_sha256": "7ea7cfd24c07fad66a397cf2d0545eeb478e57b4bda8522441e02e138802a2e7",
+      "cache_line_1based": 456,
+      "final_request_key": "ea22bc8bca5b409f32b5a413344116639962e419379d4c5c57c929e1d85680fe"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 2,
+      "request_key": "6a6e381ff5d86f581a35143e4eafde627e72ccf2d690c2e34fc696b35a4ec525",
+      "response_sha256": "20bdc00f095171837c59638e22fdcd7f15c29fc5484e42230a02815c4bce865f",
+      "cache_line_1based": 465,
+      "final_request_key": "8d81e4d01ca6072f560527afbfba6783b7e339ef8394de4a3edbed8c3954666a"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 3,
+      "request_key": "df30a51e1df3e36c6a10207b66bb358b7b4c789b2d8266542a812aec10526189",
+      "response_sha256": "f8dc9fbadff565a803c63413ab49452ebda23c35f2ce8458ff02defaa4fb208b",
+      "cache_line_1based": 458,
+      "final_request_key": "3b59e1993671353c8f5b612e143282651a9bb6366c72398a1e28095642f509bf"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 4,
+      "request_key": "c18803273d4bfa11f084b2ebc6b0bc9754c87c30a51a1db93a20b78d30149fdd",
+      "response_sha256": "d3efcb7b6a569a74c9c4f8079d3d39c7da8b32d5a4a461d1d2914c6e0a94835a",
+      "cache_line_1based": 453,
+      "final_request_key": "da5263a3cc925e178f6aa78ce30d4dcc717f7f1764d2267359fc1c4272df4e23"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 5,
+      "request_key": "3d28b8ccb7785678cb05c9f31eb30aa522ea9a59f9e3aeaa4729944e347d3636",
+      "response_sha256": "45d3272d93f11c1bb1550ddb8480c6bfe5d2c939d049ae5200f8ca38e614efe8",
+      "cache_line_1based": 467,
+      "final_request_key": "fc8604f6759abaf36a49de2fbcf39a0b0214227542ab97798effb17a04d89b83"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 6,
+      "request_key": "06104b0934d590f3e1bc2e04831560e9c79f9d430a564a77e40e6cf0cc1151f5",
+      "response_sha256": "c94cf43e9a8cecc15a9bbf404bc3d8beea52131d03db770e7c132a68fe6b28ce",
+      "cache_line_1based": 463,
+      "final_request_key": "b11fd4d6583efd42f86dff64fd996a393147ebff3500bc45d452f8b66db41a54"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 7,
+      "request_key": "e3fda80f50050a506f75551c0ae7d9f433a8f2a0f3ef1f462e2032180ec7bbd4",
+      "response_sha256": "8dc10e78738f7c3763c1602f8b2f8f36092dad80ba035140672c2110fe0b6665",
+      "cache_line_1based": 452,
+      "final_request_key": "0e63d2b2948f550eb1be131f3bf7a08000ec09fb3a869cefeb04ea8f9ae5fc2b"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 8,
+      "request_key": "c5378e85c610e933244be9c9879e794b144997d597d8f53849828d406148b32f",
+      "response_sha256": "4f14e6022a106132a5ea7bde6be84f6e3b78421f3ae6633527f30db0d63fb931",
+      "cache_line_1based": 461,
+      "final_request_key": "4d25a654412b7ef90c75d679fef58553079bc86b14075800e49d1196624afda6"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 9,
+      "request_key": "fafac5e45844d316613a4d658a129bdddcc782495f23d5b1c4173bb2be62fa5e",
+      "response_sha256": "ba5358ba2767e5e074a0af73746e4838da9ae005f859549a4c6e813cabaa298b",
+      "cache_line_1based": 454,
+      "final_request_key": "4db14f100b490f0960f4a96167a130fb7a3be3f7c69ccd1bc83ed4b617abe9b8"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 10,
+      "request_key": "7950cdd1b1d5a5439a3a878f85910909c55d18542cce546f8a7bdd3fc8ad2150",
+      "response_sha256": "83b703e8d6bb7e3fae19354fc801b7f6c971fee0d6193f5c91616376dab5e518",
+      "cache_line_1based": 462,
+      "final_request_key": "621b67d835ee5b43b4cf119df77d43d64a1436d8b6df7fa839e9ed833cc3f493"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 11,
+      "request_key": "a1941a234f9e21fb7efd0273e9e2f54d43a9a30f05a8fa71cf2c171fa755128a",
+      "response_sha256": "d1f53c012a20a1b44b274d7eb32cd3d9f35d7290b7ff2f991a0734066eaebc5d",
+      "cache_line_1based": 457,
+      "final_request_key": "ac186331c98c0245d0b6b897c4072650420aacf829eeabab0cbdaad3f2243f2e"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 12,
+      "request_key": "2bee2cde1e4699c2aa92d311c272c6008042fc26d8ee1d28088eb9281dabab56",
+      "response_sha256": "130e7774fba4a325407362da0863c9bd16b6a3229b57773be3fa8534f50d0769",
+      "cache_line_1based": 451,
+      "final_request_key": "2bee2cde1e4699c2aa92d311c272c6008042fc26d8ee1d28088eb9281dabab56"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 13,
+      "request_key": "f6d874660032d332bc1517658f2bc046693e668d52e6921840651f646727cb79",
+      "response_sha256": "ed0c80af4e947ff0f9f134b558de408d5d0046d505104c55b2cc5bf6067ee5b6",
+      "cache_line_1based": 460,
+      "final_request_key": "aa4a08b97028d55b036f21dcf68c5fb480042d3d8b5b12052f01f93bfedd6f51"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 14,
+      "request_key": "d2c8838d6ed2d1f1aa83610195fbea29325f7aecac1b7f813fc717d0a72c28e6",
+      "response_sha256": "7724711fc539ab24678e377487d2e3a51c4fd08146dc4c14028d7e80a3a0bdf2",
+      "cache_line_1based": 469,
+      "final_request_key": "e8bb4f4b92543cc916a3cb87838a68bddd77c0bb70f13d0fd4828458af695174"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 15,
+      "request_key": "c402b31dbfdad992d2e5e7c40729d0952e76308c5430c26170ca6bbf6371abb6",
+      "response_sha256": "9362e5c9ba11850cdc98b9fc88b7f2cd3fb2b204885cfe649deccb478991bf61",
+      "cache_line_1based": 459,
+      "final_request_key": "6eb75ad194a52c94ca6151120b7d7bd667e04e7d7f5f8a551616be62ac8ae2db"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 16,
+      "request_key": "f870ee11aa69f8e3cc2dc2677c8ed48f707fba148f5025adb26c693fdf4eb5c0",
+      "response_sha256": "0bb692903a86768e77422154e72016080ade67e780be6b18ae252d38990be4c8",
+      "cache_line_1based": 470,
+      "final_request_key": "65f516c56ea40bdf76624bbcde903c69d93ef0d9b4161645784ad588dbe19427"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 17,
+      "request_key": "2f0660b741378a12dbe73094e8ea70864fce44d067a6cddd6ccd4af9d6d39949",
+      "response_sha256": "bb7a8b362c173b50b00d9a7cd1e33cbbe1186511fc0885e2d86ea1dd6cded375",
+      "cache_line_1based": 475,
+      "final_request_key": "33b9888f5e5155c8b36fffbc097ec40697f39013cacc1b97e7e6c73b4db15821"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 18,
+      "request_key": "9cf9c875c030ca21d0e6050f82df13e2003db744884baa3a49e71c7d443922b9",
+      "response_sha256": "feecdb4ea7976b5783099321264b71f014ac4116157c2924ee62bdc8a73c2279",
+      "cache_line_1based": 474,
+      "final_request_key": "d84ffdf7d4f245ef2a4a5edce30d3ca4b0192396afe0d65208898c1cb6b330b5"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 19,
+      "request_key": "506171c890a7b1e6fb6836e3e64d18a1573337c3219e929b9093f9e303dfcc74",
+      "response_sha256": "3ea9741ef3e0d06d65e71d6ac565fdf631ba6e3ac827a3a2eccfa9e1b87b829f",
+      "cache_line_1based": 496,
+      "final_request_key": "2c1c442ec86f69bfbf6be2f000231bfd2680130ae03671c8457ec30d0609a222"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 20,
+      "request_key": "ed8bee6abd5f3387c2f1af459f328d1a371d88af725da95cfd6dd509e4876dfb",
+      "response_sha256": "6ecee0d95df501fa1b509be57eae2f870d8ba1b4790a6eddbd8c414e2f2c1096",
+      "cache_line_1based": 464,
+      "final_request_key": "9554fa06b8bbb6f04d1e663b81293af8d01120f10bc4c0d9fb86302a18de0d69"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 21,
+      "request_key": "297bd9daa6112bf9e255a1e8adfd84c6c46ccb6b0efa78b507c9656fb0586ea8",
+      "response_sha256": "e10f5a0af5f15676e51699c8d2983aca0f0db004e4385eb84e9d495665dc889f",
+      "cache_line_1based": 471,
+      "final_request_key": "14aad4d770417b08ec217dda0c4e2bb4c97564e051528e582cd206d22bb18a47"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 22,
+      "request_key": "162c3f3b66abcc37050fd3559ad94519affd803f45c556675d0616a9aadbe0ab",
+      "response_sha256": "36e6ff913bc7a67258f42e091cd2aaa6cc6916ef76607b4d855742cd7d0397d3",
+      "cache_line_1based": 468,
+      "final_request_key": "a3af467a662ce4541eb960a5dc11af668bfacf1aa6f1a53cc386c4377f114390"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 23,
+      "request_key": "dbdec94b996fecca722a183872b2c1ed8ee850c875bb3243d5a9c01459928925",
+      "response_sha256": "96f3f98997c5e2b223ac30da5944e33a6cb2c939b43eb8911ca7aba56898ef5e",
+      "cache_line_1based": 473,
+      "final_request_key": "7c92d45595fbadfc700bbe42170406dd961b896a015843b02176b10b3faee1b6"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 24,
+      "request_key": "0aefaac6f9dc4f5c6fbbfb556d7d855dfaac3195e2222688b598c0ab2cfe064e",
+      "response_sha256": "471768945aaaaa87ffa4c58ff13bcfe31e389e6893a5d5751afc705bb4a1d766",
+      "cache_line_1based": 466,
+      "final_request_key": "20e295fb4b0ea66c67a42177d278e1ea27178a9fd65bd37cc904361acead3b0a"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 25,
+      "request_key": "2ab4e23330467da723de7098676b29c4b42377c3478a368135e412fff0945312",
+      "response_sha256": "46fd08405cbd8e91909de2bac32c0901cabed0ccbb853323ed52994d6a9ea2da",
+      "cache_line_1based": 472,
+      "final_request_key": "d5fcae0f2eaeeec7d9a59d1bb70c8bcbc6af8ed8edeb8da31d01b2a335a35293"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 26,
+      "request_key": "8781ea563c3d128746faa8852135dc945c352f9d70762e5e9685cae7360a4ddd",
+      "response_sha256": "57ca79a0e086c713a810c23409136d5a9b53eb1f175e0bb1dea5dfe42e2699f7",
+      "cache_line_1based": 484,
+      "final_request_key": "a6eed466accdd7f16a5ef16a4df4b8394512c92d8308ab4be70815ee242b06fd"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 27,
+      "request_key": "5fbc94154832ff580ba3c08705d3172c3ea4122d91cabc647f4431ed44dfb1e2",
+      "response_sha256": "59c4808bfe79b5b2ff210cb279355fdd2955c774c12a8c726cd55e42fc78b513",
+      "cache_line_1based": 477,
+      "final_request_key": "8a8284ccbe8264717e9998976dd0261eb53347fb1d238b16e8cbab53902e8d24"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 28,
+      "request_key": "9c828eef8f6982d1f976b3dc74595b963698d02e90429d9f89a17a6a456f403c",
+      "response_sha256": "120698cc32da723f93cb58ab6b49b5d7fe8956e70038abef2d58c903c408d0f1",
+      "cache_line_1based": 476,
+      "final_request_key": "a0e6ac305e52ccb42ae1c73391ba0414f9a706243a7ab4d0ab77412bfcf034bc"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 29,
+      "request_key": "135d5e379e927e7ff6ee37cb94c2c9b558133b2cb12e280f8d04f0f6aa5828e3",
+      "response_sha256": "4905c12d340a3dd18a94fa1b306928f411036153af49b38309c214f6045c4f4b",
+      "cache_line_1based": 494,
+      "final_request_key": "1a68b123d3a63c6aa4a8c58a66f7284b74d054dd2c425f11631c19cf84fbcb84"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 30,
+      "request_key": "2af1f68d0d2338d6930832665d9df68e3b56fd914c2a26a553cf73556e7cf2e9",
+      "response_sha256": "4f19694d2885b33e85376de98c683a21032c4cd7af730737a8d52bf3604a9e63",
+      "cache_line_1based": 478,
+      "final_request_key": "d885cb43bdc85e95fd99bde2661aac00905bf8321e485a48543c63b30bac21ae"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 31,
+      "request_key": "64197b78599d7b7f56935cc7d64d5baa91e44947949f1126350b168f897f939a",
+      "response_sha256": "f6d591e5098663fd320197540044fa206be2105823983728b95920806b26f126",
+      "cache_line_1based": 497,
+      "final_request_key": "6cd8b079cd868a35470a141c799a2e517c468200a5f7b28755a5dbd95a4d4174"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 32,
+      "request_key": "2557e5617574ee0e6ada207ffb28ca9979a8b814b996f9cdf9bed165714c0a78",
+      "response_sha256": "297cfa638e3e4955b730c1be54c4c51d5d75515a53210c2f6c4c349e0606116a",
+      "cache_line_1based": 490,
+      "final_request_key": "c142ce462556ae15ea4d0dcfcbec33e14792cce6c25fa1a9ff604f09940496b0"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 33,
+      "request_key": "3865fb2584ceb7937fdcdcc2da787f345ce2626163a1304fe8ff43042dca794d",
+      "response_sha256": "d342f1d6a7159857a56b9e969dc64684fc015a7a1496a23d1b87f3c873031634",
+      "cache_line_1based": 482,
+      "final_request_key": "b7029a36a718260cd9e3d709b5575f5ff984da0308462f6033c1bdfead47d27f"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 34,
+      "request_key": "bac5fcb67c0fb98b8bcaffed11ae4471b5a66ab9ac0855bb8fca453f58ed797d",
+      "response_sha256": "ecbd56817105f18179b0892590badee698835ee8b335c13fbe6261e72427d259",
+      "cache_line_1based": 479,
+      "final_request_key": "a35f7fb1b817b089a66548e716a86e1af98e02866c492fc323262eb3aff5661d"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 35,
+      "request_key": "f3a97a16426763a79552513c09fb271fb328501de307bfadd0c1bf451d8ff414",
+      "response_sha256": "9c673166ae390249544b00cc64a950681ddaab711eb3ca1e7419faad9f7daa4b",
+      "cache_line_1based": 491,
+      "final_request_key": "272fbc606a0b3b01c894f063ab34b71fae135148c13dfda456844c9c3718f5e7"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 36,
+      "request_key": "878c59ae70a749c00d0c4d317bed0a2e1b6cf0b422359ef409392e3596bb4bfe",
+      "response_sha256": "bf8743a030a15adc3ae222acced21cd2b178e08733df3a9a75dcd5103cbd4527",
+      "cache_line_1based": 489,
+      "final_request_key": "982e0174dca8073965d1d801f0a177e0416d8a95991f68b0972cc0f76a9d2d20"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 37,
+      "request_key": "7ebd3d19cde3d1fc9d0e915cd48b4f79b6d1c7e59c5608e766a72c95438d9c45",
+      "response_sha256": "c2eba3cf50e600960a325015d575864557cb904a82ac18039cc5eef518876b62",
+      "cache_line_1based": 485,
+      "final_request_key": "82de0fd014e9612e5302d4f54a768ebe867dcf12bef11fc7fecd9f4858645c0b"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 38,
+      "request_key": "79b4fb4c169f49786a959d96be4f5dbbba1ef8a9833c1e9e932511a52c2cfe5c",
+      "response_sha256": "873584e49ff29ca5f448b35595d198704401fdb7453ee62599bb2d54cb07d286",
+      "cache_line_1based": 486,
+      "final_request_key": "1233dc56b034e7bdf0a4d278fc71a0f530f55747b2a5f23790eed612fbe53a0d"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 39,
+      "request_key": "4aa118395744185a105a18f98071318d0feb683b148463f05b2a8d2b72a244f4",
+      "response_sha256": "4b152b6ed22866136185eab383d8409097f5ccacfc7cb7f69fa73cf91652f0e6",
+      "cache_line_1based": 480,
+      "final_request_key": "4207328127d2bb5a68d0c6d1c4f4044949826041a23db6e33e6dea8e3417e633"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 40,
+      "request_key": "371cf656e26b20708ddeff48fab5a3c8658b7bae8643482a534091ef84e9b8a7",
+      "response_sha256": "7ccb913d873ddcd38f64374ac7b074e25ad544eae27de270de7419710f6faee8",
+      "cache_line_1based": 481,
+      "final_request_key": "03360f10e55cde2134d00296a14d80c01c4de47e8b99766c410e2f853e4b301a"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 41,
+      "request_key": "e977d06c3b6aa906aa796cd47bbc3e86d98f22b178a602d4db722b96f0ce1911",
+      "response_sha256": "bb879a75f9e3ef703de93a263f440ffafc5edb7cfa3b4eb8bf211c87a708dd3f",
+      "cache_line_1based": 495,
+      "final_request_key": "3bce1b4364fb1f81daf2540da1119ced3e462bb491af74c0ef9a15f062b80fc8"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 42,
+      "request_key": "be0d09fcceaac0ef71004727b580173fdec5619d8fc55c012d70a5bd4701b5c1",
+      "response_sha256": "63e9a326680a8658ffe3ce28cef2f8285487b357bafa57b20e8730528bde2a7c",
+      "cache_line_1based": 493,
+      "final_request_key": "f9e8bb4356e5eef7f6788f4c4231934e70bf08327fb66304cdc94811f8e160e0"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 43,
+      "request_key": "f9232ecc78056a56d2a2a62728a87626e1615b977be460b6c3d020d691980931",
+      "response_sha256": "2034c7f1532ed9cf800f1a78bf93395e580f872f6581c4c8505b165f3b23607a",
+      "cache_line_1based": 487,
+      "final_request_key": "cab0c152781c2bab2e50b81f8d08df6ac993aec0e03b2e9542e1425510be43d4"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 44,
+      "request_key": "45807559bc9d2cc481c62ae274c6c5f76ce688a9c09d0c27d157a4055396891c",
+      "response_sha256": "07ef2b45e82395440df975d5d3dd6e6df40292ffef356de73b783ee669106ce9",
+      "cache_line_1based": 483,
+      "final_request_key": "97190362d7e589e8a6035c5274c70478b1932380f6a14ddd991e3e60e54ec797"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 45,
+      "request_key": "90f5d7cbbfb77cba701e6095a5efc8cd215e3f54d3b16bf83b8e31b5eb015913",
+      "response_sha256": "276f5d516bfb593acd38c653b66d882077c9270b2e09118c669207dfbf2ee64c",
+      "cache_line_1based": 498,
+      "final_request_key": "94984768d60a96cc0916f2050185ac582a93ac04786d0ed36161d1382bdcf2ec"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 46,
+      "request_key": "773c011b066907f987e0c193ff568e281e4c21802de92c69c829f92bcb3f7fad",
+      "response_sha256": "dab00772b451197019a34c04e4302514fd9980e43b4c105af543a9bc05206faa",
+      "cache_line_1based": 492,
+      "final_request_key": "1ba50a2f96607a8627331eea13084ad7339056f3c2d6a178ae3b6756dc65d230"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 47,
+      "request_key": "3afbf79bd9cd772adaa62d49b221957c6a6d22462e14319bc429af73f725bdbb",
+      "response_sha256": "b3ffdbcd5d1bb9b21f1a73c1bd8cde3ad7e72d57ab330cb4416e67d739aa50de",
+      "cache_line_1based": 488,
+      "final_request_key": "5c4935d59c7571f0488cab9a47dd2180354e4d7001137fd5320a7481d311ae8c"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 48,
+      "request_key": "e5212883f88c8911531a138e77fc899c27b3433597d157c5ca8116c7fe3d025b",
+      "response_sha256": "cf4e126366d2f23ac96b5295b6c292856f4fce4c69d832c345208fef8faf857f",
+      "cache_line_1based": 499,
+      "final_request_key": "c60ba814444886644ceb216529f7d5078397b356a992601ca9dd6a52f33b610c"
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 49,
+      "request_key": "d1d78a05a049b33e0c664401c81fe6c744922f34e0d626c1f300b71325e109bd",
+      "response_sha256": "643d60176a1f130a203b016cf63636cbc9873141868bc355089fd889bb21ac32",
+      "cache_line_1based": 500,
+      "final_request_key": "3594099bfe8a38cd22bddde0d105bad4efaf94cc22fb51d867c015c1d957fbb3"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 0,
+      "request_key": "77ac7ecf53afe41020b14797c41365d03709f399076b6a75d63a71bc3763b1aa",
+      "response_sha256": "15e72e4c325b04d051f0cb5189b720b0095fe8072080e7ad0985ae6534ced358",
+      "cache_line_1based": 4980,
+      "final_request_key": "23ab6e5c7227fe4f02fd0c167cfa2a68a8e0ac7a1ca12c0592aabde848991382"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 1,
+      "request_key": "3e8146480ee9f6effe3644404e2aa3ad624745fe10af50117c2fa4b2b700f5b4",
+      "response_sha256": "baa57b4da4ef8564c512da110ee08c2ae0cc9f2e18690e1c74f19a8130d1bd82",
+      "cache_line_1based": 4983,
+      "final_request_key": "35539150d56e76ff235b03819366791e2b8c90b4b573458199a4116172115e3b"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 2,
+      "request_key": "dbb544ece649110ca26d263d4ad539539161166f7fee3ed18c230a8a9dfd578a",
+      "response_sha256": "20c548c82ed488d50ffeae901b0faf39be846fc59c8dfc5010144b2ccb4acbc7",
+      "cache_line_1based": 4977,
+      "final_request_key": "376e479fd211b69f26198202597bfa5c084eafada508802b5e41f5e6607d9e82"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 3,
+      "request_key": "486a799250dc5d0e25d218e4d052dfa53658f3608f5a460668002d6815e21e53",
+      "response_sha256": "f964030f6a88524e2d1643e51df5d07a29d3efa5fe6c3b1ca16a58ab5c82fc3b",
+      "cache_line_1based": 5002,
+      "final_request_key": "a1567d827e1085f6e43ea75ec89a3f90059f6f926d882cad3049c6e17dfc3cdd"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 4,
+      "request_key": "cce7770332e9bfe2dcd59aebae378f902e9ebb726e1945e8ed0015086c8ec7cb",
+      "response_sha256": "dc972dfb0bdf59f65de0565de66be8d2ef9b39ef96874c684a630ac880412f83",
+      "cache_line_1based": 4979,
+      "final_request_key": "df81e7ebbc87c0d8ad354be800fbcfcef0238bf6550d9a345625d73866c76a27"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 5,
+      "request_key": "bede2caf7bf97bd75d807fd00568677fd94a74712faea9f2b5a1ce51603b2963",
+      "response_sha256": "337387e1aa01f70656dc2a869010820cc576690d5741a9ee57ff3f7e9c8c23f7",
+      "cache_line_1based": 5018,
+      "final_request_key": "94f762eddfad4e47519175f29a2fd169f97ed30e5a8ebf1134909014278506d6"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 6,
+      "request_key": "6ad10b0cd5affabee4c0c65304631f4a014b81ec288dde977c1064a54a0c3d75",
+      "response_sha256": "5716554a2c69bc06498e7ac99accd100af81bcbbc53e5adec1d62275fbde67a8",
+      "cache_line_1based": 4984,
+      "final_request_key": "1808e1e259bd1b620c0fe28e44f6dbd64bfb5cfbbf735827689e6f04b072004e"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 7,
+      "request_key": "3e281ba455d5e1110a440f222eee1a25c2557ba51f4bcb2f8bb12fdb296c4ba0",
+      "response_sha256": "cabf4b00ece88cc448cc8ad53b37fab81ad7b31e2914e0d3d1320a406199eee6",
+      "cache_line_1based": 4982,
+      "final_request_key": "b032e612b9ba8646da777f55b9ad6cbf033dce370af3bc5c0d58e45bda873801"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 8,
+      "request_key": "fa9cc13e1f5e0556eed5378e3267be147c71d48860fe186b9faa669fa091bc41",
+      "response_sha256": "930d3abe38ea898fdf5fd029441210ca98730195889b7bfb58bb938595904ed5",
+      "cache_line_1based": 4976,
+      "final_request_key": "7da06297d303e6e3edfe85c28e800e8eec5d9be772f08205f2b4688b950483cd"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 9,
+      "request_key": "b28055ce86cc5b29dd57a056450a4e9b1485c8f41968bcd15db982815a280a27",
+      "response_sha256": "d43aeed43aa6f025280efd64aa66377b33233c76759fc24eccc228acfded831d",
+      "cache_line_1based": 4987,
+      "final_request_key": "596362fa2ff93e73996d47fefedaadbde19b4d1f734005c904e4b78ca796126d"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 10,
+      "request_key": "37421458a8dba081b27fb92c84137a6f99eeafaf48e5b2e6de2f549ff14811c7",
+      "response_sha256": "5b97690e3c1b7691fedc3d3a89bdd906ace5d3fbed5d27dc42a9359ac612a571",
+      "cache_line_1based": 4985,
+      "final_request_key": "ea48c67e5f33f78c7adb0094923f48d6118d2eb117580668a6712df1f4e80c19"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 11,
+      "request_key": "7003a82b22418c7d238d2126295367145c0a904d62b994d380a09ea12c9009be",
+      "response_sha256": "6317fb63f25ffcfabf7ed786da07531004b6bcb12a6b7205bf0d76ea9c5cb2b2",
+      "cache_line_1based": 4978,
+      "final_request_key": "85eb6c01d3486f4dd9bb9d4f43e17048d98878bf8b0a37da5a8dd7cc84ea1ae0"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 12,
+      "request_key": "03698fec79b6df2cddd52d47775ef08320677fa15b0d6a3753251765816f99b5",
+      "response_sha256": "c2a2e9db1b4bfbe19285935c6e79f39b2361e798a4e959af4e428ad53e3ca4fb",
+      "cache_line_1based": 5021,
+      "final_request_key": "03698fec79b6df2cddd52d47775ef08320677fa15b0d6a3753251765816f99b5"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 13,
+      "request_key": "76ae4f374d2c4bd062f5fe8395472be8e24526af7ad99361bafcee2783d78e17",
+      "response_sha256": "d706add9ebba4da25a6525e139fc7a33dfe29a970b826bb1c03a53a2eb6ac057",
+      "cache_line_1based": 4981,
+      "final_request_key": "1fcc9f7d634930662a4150c7c388c7d0597867da9e90d413dfac22e8ab1161c5"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 14,
+      "request_key": "59271984cf49617b478c4c43e55dfaf2becb7d334f0d088d29940b62204acc5b",
+      "response_sha256": "878d8fdefcf10c6fc7efffe293d16ebeab55be57ffea415c1aef3c6973bfc60c",
+      "cache_line_1based": 4992,
+      "final_request_key": "1d32f8cc877d98fa5531a75e18c7abb04aa21adce528c0da9cf0d6e8105013cc"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 15,
+      "request_key": "36ca359c9cacf4eb97ce8084bf0f803f879a04819bb1a1f592a8dff58cc29809",
+      "response_sha256": "0de46bff4d9bbf1e1e96e074688acab62f957dadad3a9e4aca07166895d16295",
+      "cache_line_1based": 4975,
+      "final_request_key": "d0d09700b4de6725b9c7ed6460eb954ec0b2d3b11b2c4ed3a029007cfd9d7bb6"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 16,
+      "request_key": "6e1f43b67d207a4927691be5d47db22a7101686f15bab5f3819314b4a55aa340",
+      "response_sha256": "3d00fb2087658d6039196edb6dcbe0d6d9ea9eff14dd34eb04007f0a12541dce",
+      "cache_line_1based": 5016,
+      "final_request_key": "f483c7827914c3cd00b1f3390d8e386f728c6e6e8ab4523515552dc3d9a797cd"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 17,
+      "request_key": "b8d4aa818bbabb7c7364aaa09fb3a5f3025c6cf09b71f7f7b3cb632953bcfc97",
+      "response_sha256": "e4391957c6fe0353b76cf99aad37d0cb2f94350b3e7f934ae1fcbf07fc1079ea",
+      "cache_line_1based": 5022,
+      "final_request_key": "01c7249b2e4514358b90aef06bc370a2f77af9a16728c2f9e0378c99b75cc56b"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 18,
+      "request_key": "8008898f7173486ed8da1a338604e99086dad5e73b3c06076e3e8d10bb5eb3e8",
+      "response_sha256": "036f4c89383f450b8b23e3a72f14634959dac67a6ab1a2f218eef2e959fb6ce7",
+      "cache_line_1based": 4986,
+      "final_request_key": "b232864cb61721d7b8e5cddceb71efc60be8281c34aaab0385a1691c8bd2f842"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 19,
+      "request_key": "30705af18118e091cb7ba47444273e93b90344fb20d4228cdb23161f1d85c122",
+      "response_sha256": "7e90d0fca29446f65c7661e36bfd5668dbd201f7371e580f66e4c1c4d93f1b0b",
+      "cache_line_1based": 4993,
+      "final_request_key": "097b5ddb872b9c6c6546193fd6ad14f5fcb6688254ef290cb0c58c3a3ded9814"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 20,
+      "request_key": "d352a02f95015f7b47d0cdbd0bffb53fce18dd86601293c3cc913a0ccff085b6",
+      "response_sha256": "c8a98c087941d96e6854bee3181b011173003fd216509e93e900025ec98614f6",
+      "cache_line_1based": 5005,
+      "final_request_key": "d9782b86b7bc31626624346464376b33f5e2791cee8bc8fc87fabf2bf3f12a8d"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 21,
+      "request_key": "1a3c57ffeae9d69767cd1dade39b80f94ee8640347766b64771143f0ced33f84",
+      "response_sha256": "cdf626a6d768b917918ba27a7215e7331e853e4aa5b9ababea94d601a0b52c21",
+      "cache_line_1based": 4994,
+      "final_request_key": "177fcf2050b61cf0f96e98d52b205e8ccd894c8a7919633afb3b840a97329898"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 22,
+      "request_key": "cbf53f53da25b212d49f224a18fc5314066d1d2a4ec51b5ce6c4ceda11c380f3",
+      "response_sha256": "e05ca43c40e3f91c59ea1665f0246aad0f2ff38100eeb53305d5c8b1b6c33645",
+      "cache_line_1based": 5023,
+      "final_request_key": "c2076cad9e3607110ed33a15ca96b27cb9994ea96e9718863a650097b13d5c6d"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 23,
+      "request_key": "f0ecb837cfdd8f55e623f5667e604d18224cd7a4b47a5224b6c86502df918bf0",
+      "response_sha256": "9577a19201a2adf02026b6b63f9f9064d2d84ca8b7bfcf569c12b9dc1a40136d",
+      "cache_line_1based": 4988,
+      "final_request_key": "878d15841a210fe008dd84fcd630b69455cf049804b4447c164228177d3e972b"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 24,
+      "request_key": "a1856f5aac68e7e300e45e2401b3dff4a2ada7ad5425ee5ec2f9cd93cebd2caf",
+      "response_sha256": "596abf5d651ee1d1ecb9d790b93317c6612b54e696006c04cdd67156ec113acc",
+      "cache_line_1based": 4989,
+      "final_request_key": "2c48d75e2877b6f98b58452e35ade7c2ef61d57acb87553452e218a139e17d38"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 25,
+      "request_key": "1d3c798c51cfe7f4ef3c21b3882cb1a9de1e19ed92ff0934122b0f3770fdef7c",
+      "response_sha256": "5acb6ec49d382873b397c1c484e265a3db5d87b99ad995f44ce9db9595fdfb03",
+      "cache_line_1based": 4990,
+      "final_request_key": "61b2e10c1c304dd7ecb4bb4b322d54013e85e87e262866835b1defbfc91fad68"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 26,
+      "request_key": "6c9537ddc2d1fddd66f7541c6c7d3911f4d16bb28d5a136685ec8dfef59c7f70",
+      "response_sha256": "ddbe09fb2014ff176df49a4d5069d81c995352bb581ef8dfc15451b62da242a6",
+      "cache_line_1based": 4995,
+      "final_request_key": "a6aad9b7a8ae8c531a4619570712e200a4934ad3350b1a489e560cbb49c24192"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 27,
+      "request_key": "a0c7aeda1c679efed9b92edb8138ca50fb2e6b88e088e399872bf902e661e278",
+      "response_sha256": "2401c50879749a84732359ecf9f547f7917b140f7e83c50874abed3794a814be",
+      "cache_line_1based": 4991,
+      "final_request_key": "8a56f24638b275839a8b4b248e872bbe5f536414c6f7cbefefd8d6738be5cf18"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 28,
+      "request_key": "f540730d2f5b6578b48b5a555234ee8f3bb5a8a3b77e5359f0dee42dd2e71657",
+      "response_sha256": "696c4a64c0c5380cc958d3b121da3025af6fad296a7c16a618010549fb19dcb6",
+      "cache_line_1based": 5007,
+      "final_request_key": "20c72c4f1374548eaf76d0cacb1ffeef155b6c681df566b40f6a440f501c0dff"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 29,
+      "request_key": "782586fba10ec9123c341ba95e973c5a0732a7f51c129ef1db3b9cadd8ab0995",
+      "response_sha256": "b7304f5004d532824d83d6252898987ea14edd4ee7c0839d0bcd9a07d795fc4d",
+      "cache_line_1based": 5001,
+      "final_request_key": "46b83116b0dd1bbfa23bd2845dd4993313dc8a72b4a3f62c867efe14d46cd5c1"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 30,
+      "request_key": "1e8908b96e29854a838cb4e9e0ebffcfc275392da02db23556f4ecfcffeb82f9",
+      "response_sha256": "136a8cff41eb88da64a44595bcc772cf7a49f5a0a4fcab778af333c6c076c532",
+      "cache_line_1based": 5020,
+      "final_request_key": "cdaa9739498ac1462f9502a1d4c40a94184cafd06874197d62eb2ac54cbfb076"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 31,
+      "request_key": "5992092d403a9e1692858db37bf3aff631c17fe3de6b3e01e8dca693d2709794",
+      "response_sha256": "d020f9a67bb472dacd8def6c0dbef83c14ee07ff1ba3fbd6ada8665d93b16ec4",
+      "cache_line_1based": 4998,
+      "final_request_key": "a7a7bfe43f49c2e14647640f32217dbc628b54a1999d98407f17ca1d35f5701d"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 32,
+      "request_key": "98905f16f62c0eac7a3b8ea1f94d233d15d6c69850e3bbabff0151a6cbd2ac66",
+      "response_sha256": "74e5dd6bb6938d6a79f2252450bcd765b13857cc1663cb398b2883f9cd2e0d1c",
+      "cache_line_1based": 4996,
+      "final_request_key": "142156b851db7e44ffe4b911de5b57214a9ae26b11ded30a1880b282d8679966"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 33,
+      "request_key": "43f3a201a02502ead78f2dccdbcbe187b4c2839c9c357f32e38818489b240761",
+      "response_sha256": "c0e73f86c086d79d06f7811a369c7d6ffe53654ea4b8c95b30c5ca36a79a31f2",
+      "cache_line_1based": 4997,
+      "final_request_key": "47a6c71952f843dd9a92e6bcfcc3858eb3408d712e2af0879f32059b1c661cf2"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 34,
+      "request_key": "b2b3f966db84799027f8c6ef36711ec1ee81ca1c6170583d35c9af17bdb70c94",
+      "response_sha256": "c3c56671427325ec12722da0590837ae8e253e92a983d1f3afe1ab8a01f23a18",
+      "cache_line_1based": 5000,
+      "final_request_key": "42e07e3a42aed5909742c50ac829e3c2bde01a982f3a718c2fb8aef10584eb67"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 35,
+      "request_key": "a641ac5d547db45ac7cc568c8ffb6f5856c512f0aa92b880721c261679e19393",
+      "response_sha256": "da8b18018cc2dbefa92d96352f2e34c93da3449484498efa943715e0df3ce961",
+      "cache_line_1based": 4999,
+      "final_request_key": "0328ba258ac063cbf5cd78372c2ba80424173f98f5c0ba2b27f71f30e468612a"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 36,
+      "request_key": "11c1f3d776473bddce8bf5e6459651e540643b3e5add8d9db0d0f7f45d973430",
+      "response_sha256": "78f33f5cdaf679246a13af013323098a2dc863bd11f378077f6e7c8852c7f5c9",
+      "cache_line_1based": 5003,
+      "final_request_key": "56e304a5b567aec29d765519b6c2f7ba72981028e289dd13f5d02bba0723bbb2"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 37,
+      "request_key": "280131e51a1071e0661b1e82619fb1dde738c842166b4754825009d2c08be2a1",
+      "response_sha256": "bfc6536d10cc22647f87676122bbc36ba45346ee82582a1d8160d8fc03198fbe",
+      "cache_line_1based": 5019,
+      "final_request_key": "fb5c6afc13abbea20ff0aaebd4d8ad4ab15a3aae5418bb0ca08f69f478c22277"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 38,
+      "request_key": "cc5b208ae85971740a719a4c6566a0b5a63272ddce8bbb90679506d6d62b8f5e",
+      "response_sha256": "6021e950afaa91d865e888249df24cd6b97c8d10e1c177119047da11cb1aca8c",
+      "cache_line_1based": 5008,
+      "final_request_key": "b13a636e843e7b9a6848564bb8620739d879ebf1d77c7ddb24c957d252666245"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 39,
+      "request_key": "f6af1198d8f8b1bed39610eab89e22a1d17040322acff9cc3533d18a848feffc",
+      "response_sha256": "f91d950c5f8f1df8f72f803a42b853b923c6b10ef1f8800f8f2fba3c6ff970dd",
+      "cache_line_1based": 5014,
+      "final_request_key": "a3d745b8e4299aca971f4c6e5cb7fc1916798684ef550030d31e8f3c4264db67"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 40,
+      "request_key": "1b3d114f9b30795a91518166417c985b239ee1b9702466c17b4ac92d68a1e354",
+      "response_sha256": "9663d68503d28c5641862450cc0cbdb3f3ac980d1573f74666752d3f0b2c47a4",
+      "cache_line_1based": 5004,
+      "final_request_key": "5aa6fafd66a336c85ca97d3bfb532941196e4b72a134e2b2a584eee2871dc8b9"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 41,
+      "request_key": "c7319f7fd5c156fca89da5fcca0ec3f45bd44ecd9c01f93b4f84c7d69214af91",
+      "response_sha256": "e58bf601266c195a537ab8652a87054064768a054c29b6fdd397969d7abc93c6",
+      "cache_line_1based": 5024,
+      "final_request_key": "ec8857288ca9406ce5bf0bf4da9becbe82e517414a59a7795c55e5d00cd6e33a"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 42,
+      "request_key": "89b910c516862679a40fa24d6fb991970321a8011d539852dd8d342962865ad9",
+      "response_sha256": "522b575ecc9ee7421cb1486d066e9a6db1f2f983fd61078d9d8e945b324e184a",
+      "cache_line_1based": 5015,
+      "final_request_key": "d8f03bef759cd192abf043c17eaae4439bb4608bba79eafe3d7eb58422c032e0"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 43,
+      "request_key": "8e57739c27c9b147f27a8bc0d944ccded57651f068e2e400b3a85187d7928fa1",
+      "response_sha256": "777a7a1a3056f3199fa0107785e44912479409dd80d597c769b3405d5c5b4917",
+      "cache_line_1based": 5010,
+      "final_request_key": "918efbec8a0e18dccb51826c3cce2f7c3e6901e616b3213017f9d7aa610d73c7"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 44,
+      "request_key": "44555f6b57252b8f06650e19ff698aac4e871a2a0e0c4186309c807756f5cefc",
+      "response_sha256": "0e6b4f0668599746968f314ac19e7b4dc59bd9af030e7d072824365d63fcdbbc",
+      "cache_line_1based": 5006,
+      "final_request_key": "7e6d38f3356eddc58f5286324d8ef9f4338d03ff77c89ad3787fc83436bcae7e"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 45,
+      "request_key": "2b66d2feac460bf7910a4e693ec1c06b519095c3e03a5d62e07f20437c3769d8",
+      "response_sha256": "cb36541e55a22b03dab4106b8e5a135743e24bdb02a7f474da94f9eda09a3a4d",
+      "cache_line_1based": 5009,
+      "final_request_key": "5e1ad6d50ffc022af8e2449f51a6fb4135be5675761b59b6a4aa36caea225b3d"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 46,
+      "request_key": "841dc75276527b53e3e3a57728f00ce16722e2657c91f7be3f732fa3d6e2c83a",
+      "response_sha256": "860c229ee4857dbebd2653fd952b17b450ebf04ec30b5be953addd756a0e1977",
+      "cache_line_1based": 5011,
+      "final_request_key": "a18e29e8b6531f4f4623d40b1faacbd7c36fc35b11db7ceb29d39baad6e1fc28"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 47,
+      "request_key": "30a600efb3beebc0ae5025e5c300ab29957bf30f55c87536fd09beea057378a6",
+      "response_sha256": "67859efd0c3577d249d5fc37bf60af077d44ab4411a277117d01d7ad1655f2ec",
+      "cache_line_1based": 5017,
+      "final_request_key": "9d6dc95ee807a5c426e830fa177f2634d357cbde2599f6876fc2151e9354bf67"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 48,
+      "request_key": "b256c707bd021e10f5a36c7cae42734c1f71fb229844282c1a27f9f3cdf93daa",
+      "response_sha256": "9396e160af3366b4b9ac0d1a62e5e954134385f1955130c4152840d87df20ee2",
+      "cache_line_1based": 5013,
+      "final_request_key": "4607f96b78068e5d6c8852d90dd9ec71ba550cde17753cc11f8d6f477b26b248"
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 49,
+      "request_key": "1946ed01db07ff8ec0c02eb9a2e50e426d25bfc7a50d7f9636d9a8be410286d9",
+      "response_sha256": "23666a76bdd9dc5bfb59a909879c627e6ebff020bf7a2c0b0265363862660689",
+      "cache_line_1based": 5012,
+      "final_request_key": "901b5ff051021fbddf0e4a7034024eba44a4c2132a6d639e0e5810932887a50e"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 0,
+      "request_key": "f1b2b1197b504bbca3249849b7dae97cd8c026356072b01da29e4ca882557f5c",
+      "response_sha256": "5cc47b0c66df73dbe5c6944ee67b75c62616419881fbf40e72ae24dd7c279d89",
+      "cache_line_1based": 3866,
+      "final_request_key": "0402fcd4f02c7c6b2ce84ae5c840c46b8bf545373a6865075fd2c47a38a9cf33"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 1,
+      "request_key": "87397691484bbb612a3f95224dd2a266af712a6f5c97fd635ad410e69ee38a3e",
+      "response_sha256": "6293f922e1d7bd9bc4c0e2f11972dbe8375c595358b970bf85b36431d29b206c",
+      "cache_line_1based": 3857,
+      "final_request_key": "aa4fe497def3356ad16f529ade40f93c050923376881a559757cd5736eb7e1ac"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 2,
+      "request_key": "5fa1b265a4a322d2b4b48bc370e222aa61c8ca3126c3a145451cb00e139ec919",
+      "response_sha256": "af8e4c59e55d0f0547ba266668137ae76725bd95dac946e3d770c736c5ef7c80",
+      "cache_line_1based": 3849,
+      "final_request_key": "8e3a98a074d3fec51dee208b6fb66b9be2c34132259183527f4472b70fe8dbfe"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 3,
+      "request_key": "c4a0a424d9a1f6204862038e94f0d73b60ad74b037c05ee95eff4a3c9395c123",
+      "response_sha256": "c6ac5bc40b977fd71925cb41a528b683dd0eba7c7f746903cee12ad38887e00d",
+      "cache_line_1based": 3860,
+      "final_request_key": "a6796d2fd34ea7fe574a351bd8da4f4b1cffb70c89b5abbc45f848eba62da657"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 4,
+      "request_key": "47eeda8a49a9366b632ab47c48c9933094fb14c6321ce4d44c1ec92986931799",
+      "response_sha256": "dcbaa2986598455c2cca200a17e98de06395a5a225e9c17038c0cebf1e270d13",
+      "cache_line_1based": 3868,
+      "final_request_key": "fba7b0aa9c4b954f4c4588b711ba01246169e93923c2e5be71c0e0d217077029"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 5,
+      "request_key": "2588c0070b7521fd618eb5094a8d2ae702379cb14c936391edc06c4b64d8a8d5",
+      "response_sha256": "15e69906244856dabe5765539450ff65c3464a2b69c1028c3789e623580e42b8",
+      "cache_line_1based": 3850,
+      "final_request_key": "98687a174d591280c9d1f7338825a5e1122f93a3cdd1d8709d7edcbd85683810"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 6,
+      "request_key": "6ade9418d62cdcf1b7cbe22e722ade1b2c61ae4feb63e28f1be43f551d8afbdf",
+      "response_sha256": "d6585daf76ea81abaa11042a7d8679c0648ee00f7f7a5341af32f0efec420abc",
+      "cache_line_1based": 3847,
+      "final_request_key": "90ea5856448886fff60550592819967cf75db7be16dcde34a80d247745a0a627"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 7,
+      "request_key": "13e82c9150446bad49d7ac98e9333d31593e7917cb71d9f6bd801b14b9638c15",
+      "response_sha256": "e16b8cdf333b5d45eafc9bae50157fe45ad1b4b33b9ab2a1272db70f38668f82",
+      "cache_line_1based": 3851,
+      "final_request_key": "c41aba47de1e0d75b4490f6b196a25491649c26385ad7d9da29d208a00c79be6"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 8,
+      "request_key": "050e85f0b6afee67fcba850f3b7c35944e049ceb4ab1948d4e057ebfe3be5ae6",
+      "response_sha256": "94e266e67bbe4aaf6bf7598d56d9971b8f6eda6c1d55fd04dca8c47758d49416",
+      "cache_line_1based": 3848,
+      "final_request_key": "3d61732560aee59f88c58be0bf19b0af743302ea10b295d8661b8cf2a8539805"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 9,
+      "request_key": "f4a9922269c734b7ead2f22d73bb10ade5124bdc3299fa17e3e318e2010386ae",
+      "response_sha256": "19a00db08a542adb8d47a14c67dfedda87d026ce57b94150c64f7a467c13cde3",
+      "cache_line_1based": 3863,
+      "final_request_key": "ec8d11a77b84f61bbfeb1f8f2a2be01ee7b51ba0d6a247ed4b7c7139111837dc"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 10,
+      "request_key": "d42e6f2cbcc9792fbe699b9a3e0ee8e4f4d439c97216f3fdac66ad799d8831ca",
+      "response_sha256": "30db17292ea24912769f2a0af424d3d7229e97a6799cf331f98a004b4cd8e935",
+      "cache_line_1based": 3846,
+      "final_request_key": "9b35609f6e45fcfa2a2b01619fea75690cf10406b529c516b8228b33e1359e5a"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 11,
+      "request_key": "1454f18f40e625aa49144e5a6121063c8ca5fbec97f950b7fd726bc407b4583f",
+      "response_sha256": "15c9c1c575811a0801c9a01de3e7fa63ffc514398249e2729528e22f582c9dcc",
+      "cache_line_1based": 3852,
+      "final_request_key": "2898a7b4a14bf467c1b86d2776bd10729db977d2e3cfb607c810988369be2dbd"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 12,
+      "request_key": "b6cedfd22a2ee01dc6539ebc53a96fc87a8bc1b17adcc65c3bd099239613b4cb",
+      "response_sha256": "79de02d655f59e8927c1aa73d7602fd5ccc844bc4b15ff3a8bc42e60ae59d734",
+      "cache_line_1based": 3865,
+      "final_request_key": "b6cedfd22a2ee01dc6539ebc53a96fc87a8bc1b17adcc65c3bd099239613b4cb"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 13,
+      "request_key": "951d11183ad87dbf2976eb2abe089d5f4237d233552ddcd7c1be17cb6eebcc36",
+      "response_sha256": "86f7bc53b5e418e4d0184d73d60541a7ae5e135a68fba0ef178f0241ba83cb99",
+      "cache_line_1based": 3845,
+      "final_request_key": "9d0cea570033a2a81ed2426c5dad198ec746aede1b73466babaa1c613df1bfda"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 14,
+      "request_key": "f3d111d8c9db2cd2e1cea95d00f475c12cb107b5fd236578d08f21456a2775df",
+      "response_sha256": "e929c9a501db0b459fe54b34d7f8677c66af4d1cf1e15a403ecaaedd6967ff76",
+      "cache_line_1based": 3854,
+      "final_request_key": "087016b1bffd45103d2f961cb1d6abe9f9b35058614633651fd1c66031a91c1d"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 15,
+      "request_key": "a7a8c0f2c4f16117f5e1dc03a60f3904a7e57c11c421d376854fc994fb9bf5d3",
+      "response_sha256": "8f9808343f4e6fb6f0065ab3b10bcb768bd030596267d56b4dfdfe46580fdae7",
+      "cache_line_1based": 3844,
+      "final_request_key": "6d2fc9c04adf2b07c8814826d9054bc09cf582f13998d5ad26b829b79e5120a5"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 16,
+      "request_key": "f67c7d35bd3f9409875dffd09f134fcd60a0593d9f7cb836f1d025ba0829bc97",
+      "response_sha256": "b60aa412275ff7b1673a6c3b161ab9fd69e56fe321549fe2492f77c7ee4615a1",
+      "cache_line_1based": 3858,
+      "final_request_key": "690a0ce29d3fbb6c8bc8aae4a08e091a479f216c0788f72984f74ed88ff5716e"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 17,
+      "request_key": "db32812ae0f9713081aa8867f36ea04ef5c35103995f4e23fe79f49840a00e9b",
+      "response_sha256": "12216397ee6cfad5bab9076a889aae4bb8dce82883d960c9740194d9687860c5",
+      "cache_line_1based": 3871,
+      "final_request_key": "d0d014f08ee918e24363bb08e62cfe6a97ba182ca3519b7c53fef5db7017198b"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 18,
+      "request_key": "c35c215a936495de81915aaa40aec7f3eafd1b7579039a8dc82a2d653e4d4c5b",
+      "response_sha256": "0cec35829bdbd26bd5b8ac4828a34d80fc926fb504d996d8adc2904dba69ba67",
+      "cache_line_1based": 3856,
+      "final_request_key": "c2e8f3ea1c33b21b286da6d81543c61faee908915e9c6287e91de86016591867"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 19,
+      "request_key": "f5fac49e53bf1de6b5413f7ed76f5654538bf031e1c16cffb4001cd03ef21b97",
+      "response_sha256": "15c618fdff5183f156df6cf7df5ac93d685836dc70e90ffcef271ce9533bb467",
+      "cache_line_1based": 3855,
+      "final_request_key": "7faf84303b725a5e1e43b67b466f771995cb1ccc27436e1cc449a46f5b0e5ea5"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 20,
+      "request_key": "ab74089758607183c9fa1e36ec3037f4de1e58763e0823802ad3cc9ddf9c94af",
+      "response_sha256": "4c95cfc1dd2dc42e97ed76c710a96e3205f9643eef28342c3a0ec7cd066090c1",
+      "cache_line_1based": 3853,
+      "final_request_key": "eb76a688406623307f749f754ddcb5f57074f645cad63c8e2da1fb251cf1f727"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 21,
+      "request_key": "d6b16d8c303168f9796ca56efd8ff520eafef45816bb1a94ddedcaba2291a4e4",
+      "response_sha256": "46875b7cdba822f9fe97cbfe47c3ce298b2c47c4e968d56d35ba34c3a9254d28",
+      "cache_line_1based": 3872,
+      "final_request_key": "cff80aeae88d6985c52eea64679f0885e92758b54977ebd3763c8f010550f124"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 22,
+      "request_key": "0299d6d50584031239f402b842e4e3e8d6df1d617c6644f16cba1df486774d33",
+      "response_sha256": "86d61056a39f8b68fe20e0da61c1501e94527392a568faa298755cec7816d015",
+      "cache_line_1based": 3859,
+      "final_request_key": "1b72c1d1ae999e56c5bbb0ce264ea5abb7c4595feb0675b578f1c3fb651f6295"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 23,
+      "request_key": "2ed80f15d91e1dc66fda0bc032855b66c323fef354e2b73248ed743bf37e244e",
+      "response_sha256": "a06e03c87edbb7df4b2a6ff543169d401a6099325ffc8d171e44b2cb8508a773",
+      "cache_line_1based": 3889,
+      "final_request_key": "7e5650abdb67d6463d44c46669a0cdb3dec29befac10d3876cef30c83c01cec9"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 24,
+      "request_key": "8ad32f991d949ab1d84a77e073d55d4ab014eb9879bc6fd3e0c7f5bc38b977bc",
+      "response_sha256": "b1545b41a03ef1f7888c0f15c6e7ebc49de79da8f55c19b520c604130c972178",
+      "cache_line_1based": 3873,
+      "final_request_key": "62340e252ad0c07f6a19d070ead0d2e4b47d2d98f7ecd9597d8cb5288a9d22c5"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 25,
+      "request_key": "9a466ec0afe87a219659821b0d3c1e307da1ea75105034c3fddd4e0c50b25be2",
+      "response_sha256": "7ee77decae63a765f2cfa00bd11bc28bbfdaf54fb25dc81025e6b66e415dd0c9",
+      "cache_line_1based": 3861,
+      "final_request_key": "e7174fbee199242a05ec11de7e0bcb4d00790fc22cd02afb4629ee749de19524"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 26,
+      "request_key": "f69f405437521ad3e1fc972e12a9678470ed61e4178340d25638be08f7691d03",
+      "response_sha256": "7f495a68e55a872c816f7e2fecdbac17666b1148834fcba0acdac2e64cdba894",
+      "cache_line_1based": 3862,
+      "final_request_key": "b18d7cae56d1863b8d5f58efe551198d4e1c525172682363816ba8f9744f93c6"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 27,
+      "request_key": "c880fbb200051644d186ae6a939cdf48ab635f1e2a1c7cc1b61253682a3e587b",
+      "response_sha256": "52de04b68ab945c9dae0fa5bf075f4b79c4c6a4c87776c530fe85d7e0226d646",
+      "cache_line_1based": 3869,
+      "final_request_key": "201be532d3e9958f9c066a38fa36efd87ce8b7e6736b2c4e8969e914c76b6521"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 28,
+      "request_key": "367ebade6802cafe4f137bc6db54dde44c4f77921c6b08adff766552cc853454",
+      "response_sha256": "ad018f4626f54668cb8375e6a7ee3147519c6449cd906bdcb949a8f68f802258",
+      "cache_line_1based": 3864,
+      "final_request_key": "9b56b9c614a794bd17bd2e3fb504e0ffe07804cff5aec73f47bd0b9acf2f34cd"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 29,
+      "request_key": "13b6f6709678fb8f3e9e74de4d1631dc647f4b12bd3169c164406fa9db3c84e8",
+      "response_sha256": "7c8c083cdd3d38627fc0b74b548f9dc841dcb67bd19c0250b1223346a3723f04",
+      "cache_line_1based": 3881,
+      "final_request_key": "7fdde032f950b62e4a644c4982c50314773ab4f48d53ac60085baa71aff02461"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 30,
+      "request_key": "f6faa5c7e8acc58175ba4ff1362dabe4ee36690bb0c9878132b2b1e9cf47f4a3",
+      "response_sha256": "6def4ff1bb365cdd4d110aa95154fc0754987860a3109cec24b3542db3b4ee1c",
+      "cache_line_1based": 3880,
+      "final_request_key": "ea4fcbb5d0995c84762f26aaf1755012e0fc7614f190eb4dd9c2d53cc32e88b6"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 31,
+      "request_key": "a20def04be18e7bbf81a77eb85f536e674e2ca5b852c09abbe58a7c0b7583a93",
+      "response_sha256": "1252c76207d3da90e0dbc51df15bd2e64ec03fc573e43508e8d863c0e1a86d60",
+      "cache_line_1based": 3877,
+      "final_request_key": "03520403196966ed468bf62ed5419c593dff103ccedabda9b84a13262e1b3e9e"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 32,
+      "request_key": "74d1f08d1e58021b56375416dacfd7bb060c00a4ea4129742759a20f38ee610f",
+      "response_sha256": "e263ae63c1f783c05842a4190b115aeff65f5845f94a8f3ae3d17efc04226b74",
+      "cache_line_1based": 3867,
+      "final_request_key": "fc02aa9f2e58d44ec1aad1a65c6ce2204147b81317e810b96ca947acb9669bfa"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 33,
+      "request_key": "2b8a0d2ae2295c7a122a2d04646d547a7b956ad4b2f8e128c84c9ea49abe823a",
+      "response_sha256": "ce14be42307324915c6192c3370f6d5b1bf7ecbca0741c4545a4adc0fcff9109",
+      "cache_line_1based": 3883,
+      "final_request_key": "050b983e3025317a62a66e71968ed25c861c78520a25b88159c6a9b38ac9c3f8"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 34,
+      "request_key": "34e56d7c1dffdee2c4b88a3084331ff87431590a457943f0e765d999a25f07a1",
+      "response_sha256": "153136a8bb9ea787ca28c75897fdc0099522d76bb27d3409128d705e2af39cb9",
+      "cache_line_1based": 3875,
+      "final_request_key": "9264c8209afd910d72f660bff7c00d27268c21ca567dbd767bfbdd1dbe7f2458"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 35,
+      "request_key": "1005c272a234bc862758b1dfd4197f95c817bc57fdbab0491759414388493559",
+      "response_sha256": "d9e6ff7066ae2be2b6658bd41ab7d160cf30d0bc2c8a2d04e71ae893eb90593f",
+      "cache_line_1based": 3887,
+      "final_request_key": "28cde2f7680cf06cba5efef73b5f7ba6abe28d346ea040fb98a6d647051f7d81"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 36,
+      "request_key": "2ceee2613a65f352473c4bf4a547a94dc042af0fddd8e4ceebed63ee723c1dc8",
+      "response_sha256": "b19606c1225f4db1ada417993cdd9d61bc443121e63d059a406592bc1ad50a41",
+      "cache_line_1based": 3888,
+      "final_request_key": "9163cc569f7214f1791e0b746b9aa9b05381c18947849a9f7f7ce8464df23569"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 37,
+      "request_key": "35c1688c10b9d50ff793c4f92467c144abc0f2069cd2816d8c6b52fe7dccfbf9",
+      "response_sha256": "cee45c67ad752b0a30258fc05d2e935897c12f7f35ee38edd52e095ff430ad42",
+      "cache_line_1based": 3870,
+      "final_request_key": "ff0ccbf0fba59859d5128c6b1e9233bbd194c5bc99993222c23b604606a11d1f"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 38,
+      "request_key": "55fad7ba8c257d11d572f34a951c79428f7d573d1dbf93bfd59f3c98b9ec0e9a",
+      "response_sha256": "84bbb0e87479decabea82cea3d9511979f56619b686482e0642a81835ac3c365",
+      "cache_line_1based": 3878,
+      "final_request_key": "031ade10ec339e559f060ff88f02fa67c7a52b0efd12bd9a561626748973d376"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 39,
+      "request_key": "7932648cd1f5630648eb0e540c36b2b3b181b603c37976f1f7ecb8ceab271ad9",
+      "response_sha256": "fe57a8089502675244965d5796ed7f7d74e17c479259d70a35dfc0174a7d7aeb",
+      "cache_line_1based": 3876,
+      "final_request_key": "c58ebd04d61ce6879a986fd8cf941ea2a8a97c243e9875eed150fa089d1a5d89"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 40,
+      "request_key": "0d441c8c2b7163cf7e0883785d09c35d210eee725407ece90934299e4d02aef4",
+      "response_sha256": "0911b8081229236cc9db8fd1e23586b494d4826a1a18ba863ee9355585be88cf",
+      "cache_line_1based": 3893,
+      "final_request_key": "70f487599bf13f1edd3aaed1fe91860071306da1e30c11ab88997b8b459623b1"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 41,
+      "request_key": "87d915eccab75ce4f721b6f5a83afbadfcee551c9016dbb8c2fb6bb8ec754c7f",
+      "response_sha256": "15c35afd0078792793537d7cd8e322bc9faefdc43eb1f2e14077383a116b7f79",
+      "cache_line_1based": 3874,
+      "final_request_key": "0236e7b8cf44943505a5dbcf1a6936b373b4eb863cf60cb3baae9cda6e44f360"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 42,
+      "request_key": "86bfd5e921c4cbf52a395de88abb40a53068594bf102e1b0f5ff90a6dc33895e",
+      "response_sha256": "5140406f128bc970a7bda9516e10e04c8b82c623c15c1681ea01f161087a04ff",
+      "cache_line_1based": 3884,
+      "final_request_key": "37b3f81db0d2ce54253f571679338218e20eaa08bc3e98b34c902e2fb63c34b8"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 43,
+      "request_key": "afef71dc07ce9446aec5f11999d72d0b27efd8ab74165bcb2ab8109f923ee9f4",
+      "response_sha256": "06d0f79842e729dcdc495b7629eb45bbf679416ddbd680faba15a6c294d336cc",
+      "cache_line_1based": 3891,
+      "final_request_key": "b3eb6cffa5199296333e5a0b0bc3f4b49916e9338ba7cf47a928b2251e7f6401"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 44,
+      "request_key": "7d68a970cff581c96f9b0e780e4b5171665cb56b95bc24bd0c486271f52f53b9",
+      "response_sha256": "642da9ae41a9dcf800780640c57760add612ea402af72f4705eae9bcf4698cf8",
+      "cache_line_1based": 3892,
+      "final_request_key": "ce7222c2d7df5a43e1c0be2bbe4a3fb38a8ffc2fdfb51751293847a853098d39"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 45,
+      "request_key": "f504c581dc6ca23254c85da3fa90759ec5d10d868848b43eb45eae875cdbb6ec",
+      "response_sha256": "c8521e1f0a38dc5b9b1aaaa02b62030afc6f2acaa606ef13b5615cf319fe9949",
+      "cache_line_1based": 3890,
+      "final_request_key": "24c2db2b59eeb82a70db00020913981e1db39b12df7a33bd01cf62d0a227d83d"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 46,
+      "request_key": "6abbc0e5608be469c113491d993b9c9f3ec5076564706a42826f084a1e03bf6d",
+      "response_sha256": "758ea3152ccf8f4e93ae0268851afdef2d101527132d2373e051a6aa0a41222c",
+      "cache_line_1based": 3879,
+      "final_request_key": "a35627fdb17234a08ccc900f7331fdfe029acc8798c706f402bcb1aeabc234e6"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 47,
+      "request_key": "a8ae1e29789f516bccc9d1053a57ce2d80529e0b23d0172777bc8d6ed800d459",
+      "response_sha256": "92e50b62585a4024ffceec84d78607b6ff6c417bf8c169d9df4f88bbeae2c446",
+      "cache_line_1based": 3885,
+      "final_request_key": "00316566d898a1c84a3f192107914577fb400a33e67d9b44974f37b8fc19200a"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 48,
+      "request_key": "03194a7d6fbf8aa3df1abec1cf1cba28d2ce13e516c8978ba992a5e75cc49576",
+      "response_sha256": "10064eca41f70952bc54948f5ff7509ae1d29c423951fb86f45c4c92df30a342",
+      "cache_line_1based": 3882,
+      "final_request_key": "cdd9d74d0a4d9909b5f50c1cdf905cefeb09984d90190295db6000ffe4da1547"
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 49,
+      "request_key": "3bd34eb29958607b3be87097b6a74f70c93eadf0dec8c7b17930daf16223dceb",
+      "response_sha256": "e53d2f8951c16b2d758f46ce861160c370293cd0908927a535ed647d14bde948",
+      "cache_line_1based": 3886,
+      "final_request_key": "3dd71ba87c7f2cd8257c9f977e3ad7139a28c85e3523bff331e0410007e73473"
+    }
+  ],
+  "discrepancies": [
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 13,
+      "rows_0based": [
+        303,
+        321,
+        336,
+        354,
+        366,
+        389,
+        407,
+        422,
+        437,
+        455,
+        472,
+        488,
+        527,
+        545,
+        564,
+        580,
+        607,
+        623,
+        640,
+        654
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 8,
+          "predicted": 4,
+          "detected": 4,
+          "repaired": 2
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 6,
+          "predicted": 4,
+          "detected": 4,
+          "repaired": 2
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 8,
+          "predicted": 5,
+          "detected": 4,
+          "repaired": 2
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 6,
+          "predicted": 5,
+          "detected": 4,
+          "repaired": 2
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 437,
+          "column": "state",
+          "value": "NJ",
+          "dirty_historical": "NJ",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 15,
+      "rows_0based": [
+        44,
+        62,
+        81,
+        92,
+        107,
+        126,
+        143,
+        168,
+        185,
+        218,
+        233,
+        245,
+        257,
+        273,
+        293,
+        304,
+        322,
+        337,
+        355,
+        367
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 11,
+          "predicted": 6,
+          "detected": 5,
+          "repaired": 1
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 6,
+          "detected": 5,
+          "repaired": 1
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 11,
+          "predicted": 5,
+          "detected": 5,
+          "repaired": 1
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 5,
+          "detected": 5,
+          "repaired": 1
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 81,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "MI",
+          "dirty_final": "OH",
+          "effective_historical": true,
+          "effective_final": false,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 21,
+      "rows_0based": [
+        64,
+        83,
+        94,
+        109,
+        128,
+        145,
+        154,
+        170,
+        187,
+        196,
+        204,
+        220,
+        235,
+        247,
+        259,
+        275,
+        284,
+        295,
+        306,
+        324
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 5,
+          "detected": 2,
+          "repaired": 1
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 1,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 10,
+          "predicted": 4,
+          "detected": 2,
+          "repaired": 1
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 4,
+          "detected": 2,
+          "repaired": 1
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 1,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 10,
+          "predicted": 3,
+          "detected": 2,
+          "repaired": 1
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 83,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "MI",
+          "dirty_final": "OH",
+          "effective_historical": true,
+          "effective_final": false,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 34,
+      "rows_0based": [
+        14,
+        33,
+        50,
+        68,
+        74,
+        87,
+        98,
+        113,
+        132,
+        149,
+        158,
+        162,
+        174,
+        191,
+        200,
+        208,
+        224,
+        239,
+        251,
+        995
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 15,
+          "predicted": 4,
+          "detected": 3,
+          "repaired": 1
+        },
+        "identity": {
+          "errors": 4,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 11,
+          "predicted": 4,
+          "detected": 3,
+          "repaired": 1
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 15,
+          "predicted": 3,
+          "detected": 3,
+          "repaired": 1
+        },
+        "identity": {
+          "errors": 4,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 11,
+          "predicted": 3,
+          "detected": 3,
+          "repaired": 1
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 87,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "MI",
+          "dirty_final": "OH",
+          "effective_historical": true,
+          "effective_final": false,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:qwen2.5-7b",
+      "chunk_0based": 36,
+      "rows_0based": [
+        552,
+        556,
+        571,
+        587,
+        596,
+        614,
+        630,
+        647,
+        661,
+        676,
+        694,
+        712,
+        727,
+        741,
+        755,
+        773,
+        783,
+        799,
+        818,
+        823
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 4,
+          "detected": 3,
+          "repaired": 2
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 3,
+          "detected": 2,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 1,
+          "detected": 1,
+          "repaired": 1
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 5,
+          "detected": 3,
+          "repaired": 2
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 3,
+          "detected": 2,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 2,
+          "detected": 1,
+          "repaired": 1
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 676,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "OH",
+          "dirty_final": "IN",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 3,
+      "rows_0based": [
+        3,
+        21,
+        57,
+        121,
+        138,
+        180,
+        213,
+        228,
+        268,
+        317,
+        332,
+        350,
+        403,
+        418,
+        433,
+        451,
+        468,
+        484,
+        806,
+        944
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 3,
+          "detected": 3,
+          "repaired": 2
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 1,
+          "detected": 1,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 10,
+          "predicted": 2,
+          "detected": 2,
+          "repaired": 1
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 6,
+          "detected": 3,
+          "repaired": 2
+        },
+        "identity": {
+          "errors": 2,
+          "predicted": 1,
+          "detected": 1,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 10,
+          "predicted": 5,
+          "detected": 2,
+          "repaired": 1
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 317,
+          "column": "state",
+          "value": "MA",
+          "dirty_historical": "MA",
+          "dirty_final": "MD",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 418,
+          "column": "state",
+          "value": "CT",
+          "dirty_historical": "CT",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 433,
+          "column": "state",
+          "value": "NJ",
+          "dirty_historical": "NJ",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 5,
+      "rows_0based": [
+        4,
+        23,
+        40,
+        58,
+        103,
+        122,
+        139,
+        181,
+        214,
+        229,
+        269,
+        318,
+        333,
+        351,
+        386,
+        404,
+        419,
+        434,
+        946,
+        985
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 16,
+          "predicted": 17,
+          "detected": 12,
+          "repaired": 12
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 1,
+          "detected": 1,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 13,
+          "predicted": 16,
+          "detected": 11,
+          "repaired": 11
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 16,
+          "predicted": 21,
+          "detected": 12,
+          "repaired": 12
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 1,
+          "detected": 1,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 13,
+          "predicted": 20,
+          "detected": 11,
+          "repaired": 11
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 318,
+          "column": "state",
+          "value": "MA",
+          "dirty_historical": "MA",
+          "dirty_final": "MD",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 386,
+          "column": "state",
+          "value": "CT",
+          "dirty_historical": "CT",
+          "dirty_final": "NJ",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 419,
+          "column": "state",
+          "value": "CT",
+          "dirty_historical": "CT",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 434,
+          "column": "state",
+          "value": "NJ",
+          "dirty_historical": "NJ",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 14,
+      "rows_0based": [
+        8,
+        27,
+        669,
+        687,
+        705,
+        720,
+        734,
+        748,
+        766,
+        792,
+        811,
+        855,
+        872,
+        884,
+        900,
+        915,
+        930,
+        950,
+        971,
+        989
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 14,
+          "detected": 10,
+          "repaired": 9
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 2,
+          "detected": 2,
+          "repaired": 2
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 12,
+          "detected": 8,
+          "repaired": 7
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 15,
+          "detected": 10,
+          "repaired": 9
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 2,
+          "detected": 2,
+          "repaired": 2
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 13,
+          "detected": 8,
+          "repaired": 7
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 669,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "OH",
+          "dirty_final": "IN",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 16,
+      "rows_0based": [
+        390,
+        408,
+        423,
+        438,
+        456,
+        473,
+        489,
+        528,
+        546,
+        565,
+        581,
+        608,
+        624,
+        641,
+        655,
+        670,
+        688,
+        706,
+        721,
+        735
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 12,
+          "detected": 12,
+          "repaired": 12
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 3,
+          "detected": 3,
+          "repaired": 3
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 9,
+          "detected": 9,
+          "repaired": 9
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 12,
+          "predicted": 15,
+          "detected": 12,
+          "repaired": 12
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 3,
+          "detected": 3,
+          "repaired": 3
+        },
+        "other": {
+          "errors": 9,
+          "predicted": 12,
+          "detected": 9,
+          "repaired": 9
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 423,
+          "column": "state",
+          "value": "CT",
+          "dirty_historical": "CT",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 608,
+          "column": "state",
+          "value": "CA",
+          "dirty_historical": "CA",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 670,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "OH",
+          "dirty_final": "IN",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 22,
+      "rows_0based": [
+        339,
+        357,
+        369,
+        378,
+        392,
+        410,
+        425,
+        440,
+        458,
+        475,
+        491,
+        503,
+        512,
+        530,
+        548,
+        567,
+        583,
+        592,
+        610,
+        626
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 6,
+          "predicted": 19,
+          "detected": 5,
+          "repaired": 5
+        },
+        "identity": {
+          "errors": 0,
+          "predicted": 4,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 6,
+          "predicted": 15,
+          "detected": 5,
+          "repaired": 5
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 6,
+          "predicted": 22,
+          "detected": 5,
+          "repaired": 5
+        },
+        "identity": {
+          "errors": 0,
+          "predicted": 4,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 6,
+          "predicted": 18,
+          "detected": 5,
+          "repaired": 5
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 425,
+          "column": "state",
+          "value": "CT",
+          "dirty_historical": "CT",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 440,
+          "column": "state",
+          "value": "NJ",
+          "dirty_historical": "NJ",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 610,
+          "column": "state",
+          "value": "CA",
+          "dirty_historical": "CA",
+          "dirty_final": "NY",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 30,
+      "rows_0based": [
+        13,
+        32,
+        49,
+        67,
+        73,
+        86,
+        97,
+        781,
+        797,
+        816,
+        836,
+        860,
+        877,
+        889,
+        905,
+        920,
+        935,
+        955,
+        976,
+        994
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 11,
+          "predicted": 9,
+          "detected": 9,
+          "repaired": 9
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 2,
+          "detected": 2,
+          "repaired": 2
+        },
+        "other": {
+          "errors": 8,
+          "predicted": 7,
+          "detected": 7,
+          "repaired": 7
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 11,
+          "predicted": 10,
+          "detected": 9,
+          "repaired": 9
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 2,
+          "detected": 2,
+          "repaired": 2
+        },
+        "other": {
+          "errors": 8,
+          "predicted": 8,
+          "detected": 7,
+          "repaired": 7
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 86,
+          "column": "state",
+          "value": "MI",
+          "dirty_historical": "MI",
+          "dirty_final": "OH",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 37,
+      "rows_0based": [
+        15,
+        34,
+        51,
+        69,
+        75,
+        88,
+        99,
+        828,
+        838,
+        847,
+        862,
+        879,
+        891,
+        907,
+        922,
+        937,
+        957,
+        961,
+        978,
+        996
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 8,
+          "predicted": 6,
+          "detected": 5,
+          "repaired": 5
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 1,
+          "detected": 1,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 5,
+          "predicted": 5,
+          "detected": 4,
+          "repaired": 4
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 8,
+          "predicted": 8,
+          "detected": 5,
+          "repaired": 5
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 2,
+          "detected": 1,
+          "repaired": 1
+        },
+        "other": {
+          "errors": 5,
+          "predicted": 6,
+          "detected": 4,
+          "repaired": 4
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 828,
+          "column": "state",
+          "value": "VA",
+          "dirty_historical": "VA",
+          "dirty_final": "NJ",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 862,
+          "column": "city",
+          "value": "Deerfield Beach",
+          "dirty_historical": "Deerfield Beach",
+          "dirty_final": "Miami",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "chunk_0based": 41,
+      "rows_0based": [
+        16,
+        35,
+        52,
+        70,
+        76,
+        79,
+        89,
+        100,
+        115,
+        134,
+        151,
+        160,
+        164,
+        176,
+        923,
+        938,
+        958,
+        962,
+        979,
+        997
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 15,
+          "predicted": 14,
+          "detected": 12,
+          "repaired": 11
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 2,
+          "detected": 2,
+          "repaired": 2
+        },
+        "other": {
+          "errors": 12,
+          "predicted": 12,
+          "detected": 10,
+          "repaired": 9
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 15,
+          "predicted": 15,
+          "detected": 12,
+          "repaired": 11
+        },
+        "identity": {
+          "errors": 3,
+          "predicted": 2,
+          "detected": 2,
+          "repaired": 2
+        },
+        "other": {
+          "errors": 12,
+          "predicted": 13,
+          "detected": 10,
+          "repaired": 9
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 89,
+          "column": "state",
+          "value": "MI",
+          "dirty_historical": "MI",
+          "dirty_final": "OH",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 23,
+      "rows_0based": [
+        643,
+        657,
+        672,
+        690,
+        708,
+        723,
+        737,
+        751,
+        769,
+        779,
+        795,
+        814,
+        834,
+        858,
+        875,
+        887,
+        903,
+        918,
+        933,
+        953
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 15,
+          "predicted": 22,
+          "detected": 11,
+          "repaired": 4
+        },
+        "identity": {
+          "errors": 4,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 11,
+          "predicted": 22,
+          "detected": 11,
+          "repaired": 4
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 15,
+          "predicted": 23,
+          "detected": 11,
+          "repaired": 4
+        },
+        "identity": {
+          "errors": 4,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 11,
+          "predicted": 23,
+          "detected": 11,
+          "repaired": 4
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 672,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "OH",
+          "dirty_final": "IN",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "chunk_0based": 40,
+      "rows_0based": [
+        648,
+        662,
+        677,
+        695,
+        713,
+        728,
+        742,
+        756,
+        774,
+        784,
+        800,
+        819,
+        824,
+        829,
+        839,
+        848,
+        863,
+        880,
+        892,
+        908
+      ],
+      "archived_counts": {
+        "all": {
+          "errors": 18,
+          "predicted": 14,
+          "detected": 14,
+          "repaired": 14
+        },
+        "identity": {
+          "errors": 4,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 14,
+          "predicted": 14,
+          "detected": 14,
+          "repaired": 14
+        }
+      },
+      "final_counts": {
+        "all": {
+          "errors": 18,
+          "predicted": 16,
+          "detected": 14,
+          "repaired": 14
+        },
+        "identity": {
+          "errors": 4,
+          "predicted": 0,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "errors": 14,
+          "predicted": 16,
+          "detected": 14,
+          "repaired": 14
+        }
+      },
+      "effective_edit_changes": [
+        {
+          "row_0based": 677,
+          "column": "state",
+          "value": "OH",
+          "dirty_historical": "OH",
+          "dirty_final": "IN",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        },
+        {
+          "row_0based": 829,
+          "column": "state",
+          "value": "VA",
+          "dirty_historical": "VA",
+          "dirty_final": "NJ",
+          "effective_historical": false,
+          "effective_final": true,
+          "is_error": false
+        }
+      ]
+    }
+  ],
+  "run_summaries": [
+    {
+      "model": "local:qwen2.5-7b",
+      "archived": {
+        "all": {
+          "repair_p": 0.2771,
+          "repair_r": 0.1133,
+          "repair_f1": 0.1608,
+          "detect_f1": 0.4296,
+          "errors": 565,
+          "predicted": 231,
+          "repaired": 64,
+          "detected": 171
+        },
+        "identity": {
+          "repair_p": 0.4375,
+          "repair_r": 0.0551,
+          "repair_f1": 0.0979,
+          "detect_f1": 0.1399,
+          "errors": 127,
+          "predicted": 16,
+          "repaired": 7,
+          "detected": 10
+        },
+        "other": {
+          "repair_p": 0.2651,
+          "repair_r": 0.1301,
+          "repair_f1": 0.1746,
+          "detect_f1": 0.4931,
+          "errors": 438,
+          "predicted": 215,
+          "repaired": 57,
+          "detected": 161
+        }
+      },
+      "final_input_diagnostic_only": {
+        "all": {
+          "repair_p": 0.2783,
+          "repair_r": 0.1133,
+          "repair_f1": 0.161,
+          "detect_f1": 0.4302,
+          "errors": 565,
+          "predicted": 230,
+          "detected": 171,
+          "repaired": 64
+        },
+        "identity": {
+          "repair_p": 0.4375,
+          "repair_r": 0.0551,
+          "repair_f1": 0.0979,
+          "detect_f1": 0.1399,
+          "errors": 127,
+          "predicted": 16,
+          "detected": 10,
+          "repaired": 7
+        },
+        "other": {
+          "repair_p": 0.2664,
+          "repair_r": 0.1301,
+          "repair_f1": 0.1748,
+          "detect_f1": 0.4939,
+          "errors": 438,
+          "predicted": 214,
+          "detected": 161,
+          "repaired": 57
+        }
+      },
+      "historical_prompt_cache_matches": 50,
+      "final_prompt_cache_matches": 1
+    },
+    {
+      "model": "local:llama3.1-8b",
+      "archived": {
+        "all": {
+          "repair_p": 0.4246,
+          "repair_r": 0.4283,
+          "repair_f1": 0.4264,
+          "detect_f1": 0.5463,
+          "errors": 565,
+          "predicted": 570,
+          "repaired": 242,
+          "detected": 310
+        },
+        "identity": {
+          "repair_p": 0.359,
+          "repair_r": 0.2205,
+          "repair_f1": 0.2732,
+          "detect_f1": 0.3415,
+          "errors": 127,
+          "predicted": 78,
+          "repaired": 28,
+          "detected": 35
+        },
+        "other": {
+          "repair_p": 0.435,
+          "repair_r": 0.4886,
+          "repair_f1": 0.4602,
+          "detect_f1": 0.5914,
+          "errors": 438,
+          "predicted": 492,
+          "repaired": 214,
+          "detected": 275
+        }
+      },
+      "final_input_diagnostic_only": {
+        "all": {
+          "repair_p": 0.4116,
+          "repair_r": 0.4283,
+          "repair_f1": 0.4198,
+          "detect_f1": 0.5377,
+          "errors": 565,
+          "predicted": 588,
+          "detected": 310,
+          "repaired": 242
+        },
+        "identity": {
+          "repair_p": 0.3544,
+          "repair_r": 0.2205,
+          "repair_f1": 0.2718,
+          "detect_f1": 0.3398,
+          "errors": 127,
+          "predicted": 79,
+          "detected": 35,
+          "repaired": 28
+        },
+        "other": {
+          "repair_p": 0.4204,
+          "repair_r": 0.4886,
+          "repair_f1": 0.452,
+          "detect_f1": 0.5808,
+          "errors": 438,
+          "predicted": 509,
+          "detected": 275,
+          "repaired": 214
+        }
+      },
+      "historical_prompt_cache_matches": 50,
+      "final_prompt_cache_matches": 1
+    },
+    {
+      "model": "local:qwen2.5-32b-awq",
+      "archived": {
+        "all": {
+          "repair_p": 0.2918,
+          "repair_r": 0.2903,
+          "repair_f1": 0.291,
+          "detect_f1": 0.4987,
+          "errors": 565,
+          "predicted": 562,
+          "repaired": 164,
+          "detected": 281
+        },
+        "identity": {
+          "repair_p": 0.0,
+          "repair_r": 0.0,
+          "repair_f1": 0.0,
+          "detect_f1": 0.0,
+          "errors": 127,
+          "predicted": 6,
+          "repaired": 0,
+          "detected": 0
+        },
+        "other": {
+          "repair_p": 0.295,
+          "repair_r": 0.3744,
+          "repair_f1": 0.33,
+          "detect_f1": 0.5654,
+          "errors": 438,
+          "predicted": 556,
+          "repaired": 164,
+          "detected": 281
+        }
+      },
+      "final_input_diagnostic_only": {
+        "all": {
+          "repair_p": 0.2903,
+          "repair_r": 0.2903,
+          "repair_f1": 0.2903,
+          "detect_f1": 0.4973,
+          "errors": 565,
+          "predicted": 565,
+          "detected": 281,
+          "repaired": 164
+        },
+        "identity": {
+          "repair_p": 0.0,
+          "repair_r": 0.0,
+          "repair_f1": 0.0,
+          "detect_f1": 0.0,
+          "errors": 127,
+          "predicted": 6,
+          "detected": 0,
+          "repaired": 0
+        },
+        "other": {
+          "repair_p": 0.2934,
+          "repair_r": 0.3744,
+          "repair_f1": 0.329,
+          "detect_f1": 0.5637,
+          "errors": 438,
+          "predicted": 559,
+          "detected": 281,
+          "repaired": 164
+        }
+      },
+      "historical_prompt_cache_matches": 50,
+      "final_prompt_cache_matches": 1
+    }
+  ],
+  "location_changes": [
+    {
+      "row_0based": 81,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 82,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 83,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 84,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 85,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 86,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 87,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 88,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 89,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 90,
+      "brewery": "CLAG Brewing Company",
+      "column": "state",
+      "historical": "MI",
+      "final": "OH"
+    },
+    {
+      "row_0based": 317,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 318,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 319,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 320,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 321,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 322,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 323,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 324,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 325,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 326,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 327,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 328,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 329,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 330,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 331,
+      "brewery": "RaR Brewing",
+      "column": "state",
+      "historical": "MA",
+      "final": "MD"
+    },
+    {
+      "row_0based": 386,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 387,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 388,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 389,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 390,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 391,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 392,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 393,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 394,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 395,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 396,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 397,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 398,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 399,
+      "brewery": "Magnify Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 418,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 419,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 420,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 421,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 422,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 423,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 424,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 425,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 426,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 427,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 428,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 429,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 430,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 431,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 432,
+      "brewery": "Mortalis Brewing Company",
+      "column": "state",
+      "historical": "CT",
+      "final": "NY"
+    },
+    {
+      "row_0based": 433,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 434,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 435,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 436,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 437,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 438,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 439,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 440,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 441,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 442,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 443,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 444,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 445,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 446,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 447,
+      "brewery": "Evil Twin Brewing NYC",
+      "column": "state",
+      "historical": "NJ",
+      "final": "NY"
+    },
+    {
+      "row_0based": 600,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 601,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 602,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 603,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 604,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 605,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 606,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 607,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 608,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 609,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 610,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 611,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 612,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 613,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 614,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 615,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 616,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 617,
+      "brewery": "Barrier Brewing Company",
+      "column": "state",
+      "historical": "CA",
+      "final": "NY"
+    },
+    {
+      "row_0based": 665,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 666,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 667,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 668,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 669,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 670,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 671,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 672,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 673,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 674,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 675,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 676,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 677,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 678,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 679,
+      "brewery": "450 North Brewing Company",
+      "column": "state",
+      "historical": "OH",
+      "final": "IN"
+    },
+    {
+      "row_0based": 827,
+      "brewery": "Troon Brewing",
+      "column": "state",
+      "historical": "VA",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 828,
+      "brewery": "Troon Brewing",
+      "column": "state",
+      "historical": "VA",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 829,
+      "brewery": "Troon Brewing",
+      "column": "state",
+      "historical": "VA",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 830,
+      "brewery": "Troon Brewing",
+      "column": "state",
+      "historical": "VA",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 831,
+      "brewery": "Troon Brewing",
+      "column": "state",
+      "historical": "VA",
+      "final": "NJ"
+    },
+    {
+      "row_0based": 851,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 852,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 853,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 854,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 855,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 856,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 857,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 858,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 859,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 860,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 861,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 862,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 863,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 864,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    },
+    {
+      "row_0based": 865,
+      "brewery": "J. Wakefield Brewing",
+      "column": "city",
+      "historical": "Deerfield Beach",
+      "final": "Miami"
+    }
+  ],
+  "input_sha256": {
+    "实验A-记忆性/data/raw/_fresh_v2/beers_fresh/dirty.csv": "5ab60cb16d653c2ed34ada15cd97ea45d24b4daf7d93748eb9ad3d93b92bb6df",
+    "实验A-记忆性/data/raw/_fresh_v2/beers_fresh/clean.csv": "169f8d2c80c380ccd53a467f79123d2186cd5846f2bbb928ee4744343619ae70",
+    "实验A-记忆性/data/raw/_fresh_v2/beers_fresh/provenance.json": "99cdf7a9979bed64999a7aa87ff93e8aa1f04af219b67d86dc9503376e738577",
+    "CoRe-artifact/data/final/beers_fresh/dirty.csv": "f06c5b350c6f892438f4b6daf894ce5a83f4a830f2b01ac5c5dd54a4616315ed",
+    "CoRe-artifact/data/final/beers_fresh/clean.csv": "e76036c7cf64c0d709b82211f722db4e5b2aa0de2cfe4c30f028dad118c15a51",
+    "CoRe-artifact/data/final/beers_fresh/provenance.json": "6b0a088b4aec0645a978b34aa7065fce1e26a5023e2c429708daceaa953fb6ed",
+    "CoRe-artifact/code/src/probe_clean.py": "0480548df57cf4bdcfb73ae058a467e8bd8287b154187c3217aa1d25370ca4e1",
+    "CoRe-artifact/code/src/data.py": "a27640d779e49f15f38618b7fe63d6bfc06402e31831bfc900d05f603d257a7d",
+    "论文/审读核验/beers_f_replay.py": "c77198fa1a615c659ba67313b4fdc514c5ac285e6db1d9fe30ab5ba46bc10de9",
+    "CoRe-artifact/artifacts/raw_outputs/p2/local_qwen2.5-7b__beers_fresh__k20__spread.json": "8b4173a2955fb017e5a65117b7af4c2d8fb1a88071318b12e949aac6cde6dedf",
+    "CoRe-artifact/artifacts/raw_outputs/p2/local_llama3.1-8b__beers_fresh__k20__spread.json": "e51c6533fe6165b7529312df1be203754c632a988f46022d90bee798fa89ba6e",
+    "CoRe-artifact/artifacts/raw_outputs/p2/local_qwen2.5-32b-awq__beers_fresh__k20__spread.json": "022f34eeec8cced4ba746f978e857b731f397569ec5b04609106f506dcfc5bd9"
+  },
+  "frozen_manifest_files_verified": 926,
+  "freeze_document_sha256": "3530eefd9899ddaf5767f842341fde7ad38e3c0c3166ad60cfe799fe7c2f26b9",
+  "manuscript_sha256": "6e0acef5ab740cfacf5177cc78656a0aa6d10ac33fb354fe98b0061b896e0df6",
+  "pdf_sha256": "43c2f361220456e87584d1288d980952b3cfc5f414fc619732b6e6126d24bc54",
+  "scorer_independent_checks": 150,
+  "portable_verification": {
+    "historical_chunks_equal": 150,
+    "summaries_equal": 9,
+    "cache_witnesses_equal": 150,
+    "final_mismatches": {
+      "local:qwen2.5-7b": [
+        13,
+        15,
+        21,
+        34,
+        36
+      ],
+      "local:llama3.1-8b": [
+        3,
+        5,
+        14,
+        16,
+        22,
+        30,
+        37,
+        41
+      ],
+      "local:qwen2.5-32b-awq": [
+        23,
+        40
+      ]
+    },
+    "changed_dirty_cells": 122,
+    "changed_clean_cells": 122,
+    "error_mask_equal": true
+  }
+}

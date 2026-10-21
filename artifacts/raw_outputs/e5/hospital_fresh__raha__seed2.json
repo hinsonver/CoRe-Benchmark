@@ -1,0 +1,1760 @@
+{
+ "dataset": "hospital_fresh",
+ "mode": "raha",
+ "seed": 2,
+ "seconds": 26,
+ "detected": 350,
+ "corrections": 340,
+ "counts": {
+  "all": {
+   "errors": 509,
+   "predicted": 337,
+   "repaired": 289,
+   "detected": 336
+  },
+  "identity": {
+   "errors": 219,
+   "predicted": 115,
+   "repaired": 111,
+   "detected": 115
+  },
+  "other": {
+   "errors": 290,
+   "predicted": 222,
+   "repaired": 178,
+   "detected": 221
+  }
+ },
+ "fixes": [
+  [
+   482,
+   "PhoneNumber",
+   "3342228466"
+  ],
+  [
+   482,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   6,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   10,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   26,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   42,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   53,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   61,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   68,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   83,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   146,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   220,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   307,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   363,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   369,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   400,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   404,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   454,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   507,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   539,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   636,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   685,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   702,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   703,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   759,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   763,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   866,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   887,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   908,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   909,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   946,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   972,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   981,
+   "HospitalType",
+   "acute care hospitals"
+  ],
+  [
+   482,
+   "Stateavg",
+   "al_gmcs_malnutrition_diagnosis_documented"
+  ],
+  [
+   482,
+   "Address1",
+   "849 south three notch street"
+  ],
+  [
+   924,
+   "City",
+   "sylacauga"
+  ],
+  [
+   924,
+   "State",
+   "al"
+  ],
+  [
+   28,
+   "State",
+   "al"
+  ],
+  [
+   43,
+   "State",
+   "al"
+  ],
+  [
+   65,
+   "State",
+   "al"
+  ],
+  [
+   117,
+   "State",
+   "al"
+  ],
+  [
+   121,
+   "State",
+   "al"
+  ],
+  [
+   196,
+   "State",
+   "al"
+  ],
+  [
+   206,
+   "State",
+   "al"
+  ],
+  [
+   212,
+   "State",
+   "al"
+  ],
+  [
+   221,
+   "State",
+   "al"
+  ],
+  [
+   262,
+   "State",
+   "al"
+  ],
+  [
+   367,
+   "State",
+   "al"
+  ],
+  [
+   407,
+   "State",
+   "al"
+  ],
+  [
+   441,
+   "State",
+   "al"
+  ],
+  [
+   462,
+   "State",
+   "al"
+  ],
+  [
+   509,
+   "State",
+   "al"
+  ],
+  [
+   538,
+   "State",
+   "al"
+  ],
+  [
+   656,
+   "State",
+   "al"
+  ],
+  [
+   693,
+   "State",
+   "al"
+  ],
+  [
+   718,
+   "State",
+   "al"
+  ],
+  [
+   770,
+   "State",
+   "al"
+  ],
+  [
+   816,
+   "State",
+   "al"
+  ],
+  [
+   841,
+   "State",
+   "al"
+  ],
+  [
+   873,
+   "State",
+   "al"
+  ],
+  [
+   884,
+   "State",
+   "al"
+  ],
+  [
+   970,
+   "State",
+   "al"
+  ],
+  [
+   117,
+   "City",
+   "opp"
+  ],
+  [
+   158,
+   "City",
+   "fort payne"
+  ],
+  [
+   210,
+   "City",
+   "sheffield"
+  ],
+  [
+   265,
+   "City",
+   "ozark"
+  ],
+  [
+   285,
+   "City",
+   "centre"
+  ],
+  [
+   375,
+   "City",
+   "opelika"
+  ],
+  [
+   506,
+   "City",
+   "andalusia"
+  ],
+  [
+   581,
+   "City",
+   "hamilton"
+  ],
+  [
+   622,
+   "City",
+   "fayette"
+  ],
+  [
+   659,
+   "City",
+   "gadsden"
+  ],
+  [
+   660,
+   "City",
+   "enterprise"
+  ],
+  [
+   729,
+   "City",
+   "birmingham"
+  ],
+  [
+   767,
+   "City",
+   "decatur"
+  ],
+  [
+   836,
+   "City",
+   "mobile"
+  ],
+  [
+   866,
+   "City",
+   "prattville"
+  ],
+  [
+   869,
+   "City",
+   "prattville"
+  ],
+  [
+   871,
+   "City",
+   "russellville"
+  ],
+  [
+   892,
+   "City",
+   "russellville"
+  ],
+  [
+   931,
+   "City",
+   "anchorage"
+  ],
+  [
+   960,
+   "City",
+   "bethel"
+  ],
+  [
+   969,
+   "City",
+   "bethel"
+  ],
+  [
+   984,
+   "City",
+   "bethel"
+  ],
+  [
+   663,
+   "Score",
+   "empty"
+  ],
+  [
+   58,
+   "Score",
+   "empty"
+  ],
+  [
+   138,
+   "Score",
+   "empty"
+  ],
+  [
+   197,
+   "Score",
+   "empty"
+  ],
+  [
+   244,
+   "Score",
+   "empty"
+  ],
+  [
+   467,
+   "Score",
+   "empty"
+  ],
+  [
+   487,
+   "Score",
+   "empty"
+  ],
+  [
+   569,
+   "Score",
+   "empty"
+  ],
+  [
+   726,
+   "Score",
+   "empty"
+  ],
+  [
+   934,
+   "Score",
+   "empty"
+  ],
+  [
+   663,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   571,
+   "City",
+   "hamilton"
+  ],
+  [
+   93,
+   "PhoneNumber",
+   "3344933541"
+  ],
+  [
+   111,
+   "PhoneNumber",
+   "3344933541"
+  ],
+  [
+   114,
+   "PhoneNumber",
+   "3344933541"
+  ],
+  [
+   157,
+   "PhoneNumber",
+   "2568453150"
+  ],
+  [
+   178,
+   "PhoneNumber",
+   "2568453150"
+  ],
+  [
+   189,
+   "PhoneNumber",
+   "2056208100"
+  ],
+  [
+   208,
+   "PhoneNumber",
+   "2056208100"
+  ],
+  [
+   253,
+   "PhoneNumber",
+   "3347742601"
+  ],
+  [
+   283,
+   "PhoneNumber",
+   "2569275531"
+  ],
+  [
+   300,
+   "PhoneNumber",
+   "3342882100"
+  ],
+  [
+   328,
+   "PhoneNumber",
+   "3342882100"
+  ],
+  [
+   348,
+   "PhoneNumber",
+   "3342938000"
+  ],
+  [
+   380,
+   "PhoneNumber",
+   "3345281300"
+  ],
+  [
+   408,
+   "PhoneNumber",
+   "2059344011"
+  ],
+  [
+   431,
+   "PhoneNumber",
+   "3342836541"
+  ],
+  [
+   442,
+   "PhoneNumber",
+   "3342836541"
+  ],
+  [
+   451,
+   "PhoneNumber",
+   "2567372000"
+  ],
+  [
+   456,
+   "PhoneNumber",
+   "2567372000"
+  ],
+  [
+   464,
+   "PhoneNumber",
+   "2567372000"
+  ],
+  [
+   535,
+   "PhoneNumber",
+   "2562651000"
+  ],
+  [
+   571,
+   "PhoneNumber",
+   "2059216200"
+  ],
+  [
+   620,
+   "PhoneNumber",
+   "2059325966"
+  ],
+  [
+   704,
+   "PhoneNumber",
+   "3347935000"
+  ],
+  [
+   719,
+   "PhoneNumber",
+   "3347935000"
+  ],
+  [
+   786,
+   "PhoneNumber",
+   "2054877000"
+  ],
+  [
+   814,
+   "PhoneNumber",
+   "2514717110"
+  ],
+  [
+   815,
+   "PhoneNumber",
+   "2514717110"
+  ],
+  [
+   922,
+   "PhoneNumber",
+   "2562495000"
+  ],
+  [
+   950,
+   "PhoneNumber",
+   "9072761131"
+  ],
+  [
+   959,
+   "PhoneNumber",
+   "9072761131"
+  ],
+  [
+   973,
+   "PhoneNumber",
+   "9075436000"
+  ],
+  [
+   975,
+   "PhoneNumber",
+   "9075436000"
+  ],
+  [
+   982,
+   "PhoneNumber",
+   "9075436000"
+  ],
+  [
+   330,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   29,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   82,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   192,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   194,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   206,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   261,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   308,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   332,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   354,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   377,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   548,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   688,
+   "HospitalOwner",
+   "proprietary"
+  ],
+  [
+   746,
+   "HospitalOwner",
+   "voluntary non-profit - private"
+  ],
+  [
+   753,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   813,
+   "HospitalOwner",
+   "government - state"
+  ],
+  [
+   857,
+   "HospitalOwner",
+   "government - hospital district or authority"
+  ],
+  [
+   330,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   13,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   467,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   548,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   882,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   913,
+   "ProviderNumber",
+   "10164"
+  ],
+  [
+   41,
+   "ProviderNumber",
+   "10005"
+  ],
+  [
+   97,
+   "ProviderNumber",
+   "10007"
+  ],
+  [
+   142,
+   "ProviderNumber",
+   "10011"
+  ],
+  [
+   143,
+   "ProviderNumber",
+   "10011"
+  ],
+  [
+   223,
+   "ProviderNumber",
+   "10019"
+  ],
+  [
+   265,
+   "ProviderNumber",
+   "10021"
+  ],
+  [
+   288,
+   "ProviderNumber",
+   "10022"
+  ],
+  [
+   310,
+   "ProviderNumber",
+   "10023"
+  ],
+  [
+   366,
+   "ProviderNumber",
+   "10029"
+  ],
+  [
+   394,
+   "ProviderNumber",
+   "35462"
+  ],
+  [
+   414,
+   "ProviderNumber",
+   "10033"
+  ],
+  [
+   430,
+   "ProviderNumber",
+   "35462"
+  ],
+  [
+   488,
+   "ProviderNumber",
+   "10036"
+  ],
+  [
+   497,
+   "ProviderNumber",
+   "10036"
+  ],
+  [
+   516,
+   "ProviderNumber",
+   "10039"
+  ],
+  [
+   523,
+   "ProviderNumber",
+   "10039"
+  ],
+  [
+   597,
+   "ProviderNumber",
+   "10044"
+  ],
+  [
+   773,
+   "ProviderNumber",
+   "35462"
+  ],
+  [
+   776,
+   "ProviderNumber",
+   "10085"
+  ],
+  [
+   802,
+   "ProviderNumber",
+   "10086"
+  ],
+  [
+   849,
+   "ProviderNumber",
+   "10164"
+  ],
+  [
+   864,
+   "ProviderNumber",
+   "10108"
+  ],
+  [
+   911,
+   "ProviderNumber",
+   "10164"
+  ],
+  [
+   929,
+   "ProviderNumber",
+   "10164"
+  ],
+  [
+   940,
+   "ProviderNumber",
+   "20017"
+  ],
+  [
+   988,
+   "ProviderNumber",
+   "20018"
+  ],
+  [
+   991,
+   "ProviderNumber",
+   "10051"
+  ],
+  [
+   913,
+   "MeasureName",
+   "average (median) time patients spent in the emergency department before being transferred to another facility. a lower number of minutes is better"
+  ],
+  [
+   19,
+   "MeasureName",
+   "safe use of opioids - concurrent prescribing"
+  ],
+  [
+   162,
+   "MeasureName",
+   "average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. a lower number of minutes is better"
+  ],
+  [
+   199,
+   "MeasureName",
+   "safe use of opioids - concurrent prescribing"
+  ],
+  [
+   651,
+   "MeasureName",
+   "septic shock 3-hour bundle"
+  ],
+  [
+   817,
+   "MeasureName",
+   "hospital harm - severe hypoglycemia"
+  ],
+  [
+   469,
+   "Score",
+   "empty"
+  ],
+  [
+   625,
+   "Score",
+   "empty"
+  ],
+  [
+   28,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   52,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   82,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   98,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   268,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   341,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   367,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   411,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   487,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   507,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   528,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   567,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   669,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   711,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   763,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   802,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   809,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   846,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   856,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   878,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   879,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   892,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   918,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   947,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   978,
+   "Sample",
+   "0 patients"
+  ],
+  [
+   913,
+   "CountyName",
+   "talladega"
+  ],
+  [
+   118,
+   "HospitalName",
+   "mizell memorial hospital"
+  ],
+  [
+   84,
+   "HospitalName",
+   "north alabama medical center"
+  ],
+  [
+   281,
+   "HospitalName",
+   "floyd cherokee medical center"
+  ],
+  [
+   429,
+   "HospitalName",
+   "community hospital inc"
+  ],
+  [
+   118,
+   "MeasureCode",
+   "vte_1"
+  ],
+  [
+   73,
+   "Score",
+   "empty"
+  ],
+  [
+   84,
+   "Score",
+   "empty"
+  ],
+  [
+   163,
+   "Score",
+   "empty"
+  ],
+  [
+   341,
+   "Score",
+   "empty"
+  ],
+  [
+   534,
+   "Score",
+   "empty"
+  ],
+  [
+   556,
+   "Score",
+   "empty"
+  ],
+  [
+   670,
+   "Score",
+   "empty"
+  ],
+  [
+   790,
+   "Score",
+   "empty"
+  ],
+  [
+   810,
+   "Score",
+   "empty"
+  ],
+  [
+   831,
+   "Score",
+   "empty"
+  ],
+  [
+   840,
+   "Score",
+   "empty"
+  ],
+  [
+   22,
+   "Condition",
+   "sepsis care"
+  ],
+  [
+   16,
+   "MeasureName",
+   "endoscopy/polyp surveillance: appropriate follow-up interval for normal colonoscopy in average risk patients"
+  ],
+  [
+   37,
+   "MeasureName",
+   "hospital harm - severe hypoglycemia"
+  ],
+  [
+   189,
+   "MeasureName",
+   "healthcare workers given influenza vaccination"
+  ],
+  [
+   233,
+   "MeasureName",
+   "severe sepsis 3-hour bundle"
+  ],
+  [
+   247,
+   "MeasureName",
+   "hospital harm - severe hypoglycemia"
+  ],
+  [
+   255,
+   "MeasureName",
+   "head ct results"
+  ],
+  [
+   281,
+   "MeasureName",
+   "average (median) time patients spent in the emergency department before leaving from the visit, excluding patients transferred to another facility or psychiatric care/mental health patients. a lower number of minutes is better"
+  ],
+  [
+   362,
+   "MeasureName",
+   "global malnutrition composite score: malnutrition diagnosis documented"
+  ],
+  [
+   369,
+   "MeasureName",
+   "healthcare workers given influenza vaccination"
+  ],
+  [
+   370,
+   "MeasureName",
+   "average (median) time all patients spent in the emergency department before leaving from the visit, including psychiatric/mental health patients and patients who were transferred to another facility. a lower number of minutes is better"
+  ],
+  [
+   393,
+   "MeasureName",
+   "global malnutrition composite score: malnutrition risk screening"
+  ],
+  [
+   421,
+   "MeasureName",
+   "global malxutritiox composite score"
+  ],
+  [
+   475,
+   "MeasureName",
+   "discharged on antithrombotic therapy"
+  ],
+  [
+   508,
+   "MeasureName",
+   "venous thromboembolism prophylaxis"
+  ],
+  [
+   575,
+   "MeasureName",
+   "global malnutrition composite score: nutritional care plan"
+  ],
+  [
+   585,
+   "MeasureName",
+   "head ct results"
+  ],
+  [
+   628,
+   "MeasureName",
+   "venous thromboembolism prophylaxis"
+  ],
+  [
+   642,
+   "MeasureName",
+   "average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. a lower number of minutes is better"
+  ],
+  [
+   646,
+   "MeasureName",
+   "endoscopy/polyp surveillance: appropriate follow-up interval for normal colonoscopy in average risk patients"
+  ],
+  [
+   696,
+   "MeasureName",
+   "hospital harm - severe hyperglycemia"
+  ],
+  [
+   716,
+   "MeasureName",
+   "anticoagulation therapy for atrial fibrillation/flutter"
+  ],
+  [
+   748,
+   "MeasureName",
+   "venous thromboembolism prophylaxis"
+  ],
+  [
+   752,
+   "MeasureName",
+   "global malnutrition composite score: malnutrition diagnosis documented"
+  ],
+  [
+   778,
+   "MeasureName",
+   "venous thromboembolism prophylaxis"
+  ],
+  [
+   823,
+   "MeasureName",
+   "average (medxan) txme patxents spent xn the emergency department before bexng transferred to another facxlxty. a lower number of mxnutes xs better"
+  ],
+  [
+   921,
+   "MeasureName",
+   "septic shock 3-hour bundle"
+  ],
+  [
+   934,
+   "MeasureName",
+   "global malnutrition composite score: nutrition assessment"
+  ],
+  [
+   963,
+   "MeasureName",
+   "global malnutrition composite score: malnutrition risk screening"
+  ],
+  [
+   972,
+   "MeasureName",
+   "average (median) time psychiatric/mental health patients spent in the emergency department before leaving from the visit. a lower number of minutes is better"
+  ],
+  [
+   22,
+   "Stateavg",
+   "al_sep_sh_6hr"
+  ],
+  [
+   194,
+   "HospitalName",
+   "shelby baptist medical center"
+  ],
+  [
+   248,
+   "HospitalName",
+   "dale medical center"
+  ],
+  [
+   332,
+   "HospitalName",
+   "jackson hospital & clinic inc"
+  ],
+  [
+   343,
+   "HospitalName",
+   "jackson hospital & clinic inc"
+  ],
+  [
+   365,
+   "HospitalName",
+   "the east alabama healthcare authority"
+  ],
+  [
+   461,
+   "HospitalName",
+   "cullman regional medical center"
+  ],
+  [
+   498,
+   "HospitalName",
+   "andalusia health"
+  ],
+  [
+   504,
+   "HospitalName",
+   "andalusia health"
+  ],
+  [
+   593,
+   "HospitalName",
+   "marion regional medical center"
+  ],
+  [
+   601,
+   "HospitalName",
+   "fayette medical center"
+  ],
+  [
+   627,
+   "HospitalName",
+   "fayette medical center"
+  ],
+  [
+   645,
+   "HospitalName",
+   "riverview regional medical center"
+  ],
+  [
+   656,
+   "HospitalName",
+   "riverview regional medical center"
+  ],
+  [
+   676,
+   "HospitalName",
+   "medical center enterprise"
+  ],
+  [
+   717,
+   "HospitalName",
+   "flowers hospital"
+  ],
+  [
+   812,
+   "HospitalName",
+   "usa health university hospital"
+  ],
+  [
+   938,
+   "HospitalName",
+   "alaska regional hospital"
+  ],
+  [
+   972,
+   "HospitalName",
+   "yukon kuskokwim delta reg hospital"
+  ],
+  [
+   541,
+   "MeasureCode",
+   "gmcs"
+  ],
+  [
+   541,
+   "MeasureName",
+   "global malnutrition composite score"
+  ],
+  [
+   441,
+   "Stateavg",
+   "al_xep_xh_3hr"
+  ],
+  [
+   968,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   12,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   17,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   59,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   62,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   68,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   154,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   231,
+   "Condition",
+   "sepsis care"
+  ],
+  [
+   247,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   266,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   312,
+   "Condition",
+   "emergency department"
+  ],
+  [
+   334,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   352,
+   "Condition",
+   "sepsis care"
+  ],
+  [
+   361,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   364,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   502,
+   "Condition",
+   "emergency department"
+  ],
+  [
+   552,
+   "Condition",
+   "sepsis care"
+  ],
+  [
+   587,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   642,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   645,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   673,
+   "Condition",
+   "emergency department"
+  ],
+  [
+   675,
+   "Condition",
+   "emergency department"
+  ],
+  [
+   687,
+   "Condition",
+   "sepsis care"
+  ],
+  [
+   743,
+   "Condition",
+   "sepsis care"
+  ],
+  [
+   840,
+   "Condition",
+   "electronic clinical quality measure"
+  ],
+  [
+   968,
+   "CountyName",
+   "bethel"
+  ],
+  [
+   296,
+   "MeasureCode",
+   "stk_03"
+  ],
+  [
+   296,
+   "ZipCode",
+   "35960"
+  ],
+  [
+   995,
+   "MeasureCode",
+   "hh_hyper"
+  ],
+  [
+   98,
+   "Stateavg",
+   "al_hh_orae"
+  ],
+  [
+   230,
+   "Stateavg",
+   "al_sep_1"
+  ],
+  [
+   245,
+   "Stateavg",
+   "al_gmcs_nutritional_care_plan"
+  ],
+  [
+   380,
+   "Stateavg",
+   "al_sep_1"
+  ],
+  [
+   539,
+   "Stateavg",
+   "al_vte_2"
+  ],
+  [
+   906,
+   "Stateavg",
+   "al_hh_hyper"
+  ],
+  [
+   938,
+   "Stateavg",
+   "al_hh_orae"
+  ],
+  [
+   968,
+   "Stateavg",
+   "al_hh_orae"
+  ],
+  [
+   989,
+   "Stateavg",
+   "al_edv"
+  ],
+  [
+   995,
+   "ZipCode",
+   "35462"
+  ],
+  [
+   595,
+   "MeasureCode",
+   "stk_02"
+  ],
+  [
+   595,
+   "Stateavg",
+   "al_stk_02"
+  ],
+  [
+   946,
+   "MeasureCode",
+   "op_29"
+  ],
+  [
+   579,
+   "MeasureCode",
+   "imm_3"
+  ],
+  [
+   579,
+   "CountyName",
+   "marion"
+  ],
+  [
+   256,
+   "MeasureCode",
+   "op_29"
+  ],
+  [
+   256,
+   "Address1",
+   "126 hospital ave"
+  ],
+  [
+   965,
+   "MeasureCode",
+   "gmcs_nutritional_care_plan"
+  ],
+  [
+   395,
+   "MeasureCode",
+   "gmcs_nutritional_care_plan"
+  ],
+  [
+   528,
+   "MeasureCode",
+   "op_29"
+  ],
+  [
+   545,
+   "MeasureCode",
+   "gmcs_nutritional_care_plan"
+  ],
+  [
+   719,
+   "MeasureCode",
+   "imm_3"
+  ],
+  [
+   737,
+   "MeasureCode",
+   "op_29"
+  ],
+  [
+   794,
+   "MeasureCode",
+   "op_29"
+  ],
+  [
+   213,
+   "MeasureCode",
+   "gmcs_malnutrition_screening"
+  ],
+  [
+   702,
+   "MeasureCode",
+   "op_18c"
+  ],
+  [
+   780,
+   "MeasureCode",
+   "edv"
+  ],
+  [
+   600,
+   "MeasureCode",
+   "edv"
+  ],
+  [
+   690,
+   "MeasureCode",
+   "edv"
+  ],
+  [
+   348,
+   "MeasureCode",
+   "op_40"
+  ]
+ ],
+ "all": {
+  "repair_p": 0.8576,
+  "repair_r": 0.5678,
+  "repair_f1": 0.6832,
+  "detect_f1": 0.7943,
+  "errors": 509,
+  "predicted": 337,
+  "repaired": 289,
+  "detected": 336
+ },
+ "identity": {
+  "repair_p": 0.9652,
+  "repair_r": 0.5068,
+  "repair_f1": 0.6647,
+  "detect_f1": 0.6886,
+  "errors": 219,
+  "predicted": 115,
+  "repaired": 111,
+  "detected": 115
+ },
+ "other": {
+  "repair_p": 0.8018,
+  "repair_r": 0.6138,
+  "repair_f1": 0.6953,
+  "detect_f1": 0.8633,
+  "errors": 290,
+  "predicted": 222,
+  "repaired": 178,
+  "detected": 221
+ }
+}

@@ -1,0 +1,17 @@
+\begin{table*}[t]
+  \caption{Controlled-table sources and scale. Error counts in parentheses are identity cells;
+  values renamed are distinct one-to-one replacements. Seeds cover F, W and S.}
+  \label{tab:construction}
+  \small
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l lr llr rc@{}}
+    \toprule
+    & \multicolumn{2}{c}{Original (O)} & \multicolumn{3}{c}{Fresh (F)} & \multicolumn{1}{c}{W and S} & \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-6}\cmidrule(lr){7-7}
+    Dataset & Entities & Errors & Source & Entities & Errors & Values renamed & Seeds \\
+    \midrule
+    Hospital & 45 hospitals & 509 (219) & CMS registry, July 2026 release & 34 hospitals (33 also in O) & 509 (219) & 296 & 3 \\
+    Movies & 1,000 films & 1,965 (379) & IMDb datasets, Sept.\ 2026 & 1,000 films & 2,195 (371) & 6,018 & 3 \\
+    Beers & 421 breweries & 565 (127) & Wikidata, Sept.\ 2026 & 94 breweries & 565 (127) & 1,712 & 1 \\
+    \bottomrule
+  \end{tabular*}
+\end{table*}
