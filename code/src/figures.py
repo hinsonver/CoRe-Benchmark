@@ -312,46 +312,27 @@ def fig7() -> None:
         save(fig, 'fig7_near_models', rows)
 
 def fig0() -> None:
-    """Controlled construction and the questions linking recovery, preservation and repair credit."""
-    from matplotlib.patches import FancyArrowPatch, FancyBboxPatch
-    fig = plt.figure(figsize=(7.1, 2.1))
-    ax = fig.add_axes([0, 0, 1, 1])
-    ax.set_xlim(0, 100)
-    ax.set_ylim(0, 30)
-    ax.axis('off')
-    LINE = 2.05
+    """Author-selected manuscript illustration, not new experimental evidence."""
+    from .example_diagrams import render_overview
+    result = render_overview(FIG, SERIES)
+    plt.close(result.figure)
 
-    def box(x, y, w, h, title, lines, edge, face='white', size=6.3):
-        ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle='round,pad=0.2,rounding_size=0.8', linewidth=1.0, edgecolor=edge, facecolor=face))
-        top = y + h
-        ax.text(x + 0.9, top - 0.9, title, ha='left', va='top', fontsize=7.0, fontweight='bold', color=INK)
-        for (k, line) in enumerate(lines):
-            ax.text(x + 0.9, top - 3.6 - LINE * k, line, ha='left', va='top', fontsize=size, color=INK2)
 
-    def arrow(x0, y0, x1, y1, dotted=False):
-        ax.add_patch(FancyArrowPatch((x0, y0), (x1, y1), arrowstyle='-|>', mutation_scale=7, linewidth=0.9, color=MUTED, shrinkA=0, shrinkB=0, linestyle=(0, (1, 2)) if dotted else 'solid'))
-    box(0.6, 10.0, 16.4, 10.5, 'Benchmark table (O)', ['dirty + reference table', 'public, well-known entities', 'a city: $\\mathtt{birminghxm}$'], SERIES[0])
-    conds = [('Fresh (F)', ['real records outside the benchmark', 'transferred errors: $\\mathtt{dxthan}$']), ('Words surrogate (W)', ['same rows and error cells', 'names from English words: $\\mathtt{xill\\ pine}$']), ('Syllable surrogate (S)', ['same rows and error cells', 'names from syllables: $\\mathtt{hepmxrmxr}$'])]
-    ys = [21.2, 11.5, 1.8]
-    for ((title, lines), y, color) in zip(conds, ys, SERIES[1:]):
-        box(23.0, y, 25.0, 7.6, title, lines, color)
-        arrow(17.2, 15.25, 22.8, y + 3.8)
-    ax.text(10.0, 7.6, 'paired renaming or\nerror-recipe transfer', ha='center', va='center', fontsize=5.9, color=MUTED, linespacing=1.1)
-    box(52.4, 7.6, 17.6, 15.3, 'Acceptance checks', ['error masks and recipes;', 'kinds, strength, formats;', 'names and leakage checks;', 'byte-identical rebuilds;', 'construction seed ranges'], AXIS)
-    for y in ys:
-        arrow(48.3, y + 3.8, 52.2, 15.25)
-    box(74.4, 19.0, 25.0, 10.2, 'Recovery evidence', ['same method, prompt and information', 'four-condition contrasts', 'independent row-continuation probe'], AXIS)
-    arrow(70.2, 18.5, 74.2, 22.5)
-    box(74.4, 9.7, 25.0, 7.6, 'Assigned values', ['separate knowledge-conflict test', 'familiar facts vs table-value priority'], INK2, face=SURFACE)
-    box(74.4, 0.3, 25.0, 7.6, 'Repair credit', ['separate Rayyan field checks', 'reference conversions vs external matches'], INK2, face=SURFACE)
-    arrow(86.9, 18.8, 86.9, 17.5, dotted=True)
-    arrow(86.9, 9.5, 86.9, 8.1, dotted=True)
-    arrow(1.6, 3.8, 5.0, 3.8)
-    ax.text(5.8, 3.8, 'table construction', va='center', fontsize=5.5, color=MUTED)
-    arrow(1.6, 1.6, 5.0, 1.6, dotted=True)
-    ax.text(5.8, 1.6, 'question sequence', va='center', fontsize=5.5, color=MUTED)
-    save(fig, 'fig0_overview', [{'box': 'see src/figures.py fig0', 'note': 'diagram, no data'}])
+def fig_example() -> None:
+    """Construct the four illustrated Hospital cells from included tables."""
+    from .example_diagrams import render_construction
+    result = render_construction(FIG, SERIES)
+    plt.close(result.figure)
+
+
+def fig1_recovery() -> None:
+    """Recompute plotted fractions from the saved column table and year counts."""
+    from .evidence_panels import render_recovery_evidence
+    result = render_recovery_evidence(FIG, SERIES)
+    plt.close(result.figure)
+
+
 if __name__ == '__main__':
-    for f in (fig0, fig1, fig2, fig3, fig4, fig5, fig6, fig7):
+    for f in (fig0, fig_example, fig1, fig2, fig1_recovery, fig3, fig4, fig5, fig6, fig7):
         f()
         print(f.__name__, 'done')

@@ -11,3 +11,15 @@ have been resolved and the public package has been rebuilt accordingly.
 Movies record payloads are omitted. Original code is MIT; numerical witnesses are research evidence, not a relicensing of source data. Author metadata is supplied in CITATION.cff; publication and source-specific delivery decisions remain separate.
 
 The separate historical companion is a local research artifact, not covered by a blanket redistribution grant. The paper, third-party datasets and archived replies retain their applicable rights. No public release is made.
+
+The current manuscript uses the unmodified official PVLDB template at commit
+`39c95f5c6fcbe652a83be24e4eff8f2134cd3fbc`, including acmart 2.19.
+Its original [acmart.dtx source](paper/latex/acmart.dtx) is supplied with
+the generated class, retaining its LPPL and copyright notices. The exact source
+and class hashes are in [TEMPLATE_SOURCES.json](data/manifests/TEMPLATE_SOURCES.json).
+The template does not fall under CoRe's software MIT license.
+
+The new overview and construction inputs contain only the author-selected
+cells already used in the paper's worked illustrations, not a Movies record
+table or an additional sample of model replies. Numerical Movies witnesses,
+diagnostic aggregates and historical raw records retain their distinct scopes.

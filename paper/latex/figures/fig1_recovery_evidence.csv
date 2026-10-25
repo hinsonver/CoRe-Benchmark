@@ -1,0 +1,8 @@
+dataset,model,panel,condition,comparison,repaired,errors,repair_fraction,middle_rule_correct,middle_rule_total,middle_rule_fraction,repair_source,rule_source
+Movies,DeepSeek-V4-Pro,identifier,O,paired,78,190,0.4105263157894737,,,,results/tables/moviescols.tex,
+Movies,DeepSeek-V4-Pro,identifier,F,nonpaired,75,190,0.39473684210526316,,,,results/tables/moviescols.tex,
+Movies,DeepSeek-V4-Pro,identifier,W,paired,0,190,0.0,,,,results/tables/moviescols.tex,
+Movies,DeepSeek-V4-Pro,identifier,S,paired,0,190,0.0,,,,results/tables/moviescols.tex,
+Movies,DeepSeek-V4-Pro,year,O,paired,173,190,0.9105263157894737,167,190,0.8789473684210526,results/tables/moviescols.tex,results/figures/fig2_year_range.csv
+Movies,DeepSeek-V4-Pro,year,W,paired,35,190,0.18421052631578946,167,190,0.8789473684210526,results/tables/moviescols.tex,results/figures/fig2_year_range.csv
+Movies,DeepSeek-V4-Pro,year,S,paired,25,190,0.13157894736842105,167,190,0.8789473684210526,results/tables/moviescols.tex,results/figures/fig2_year_range.csv

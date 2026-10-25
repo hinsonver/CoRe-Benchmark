@@ -1,0 +1,5 @@
+panel,dataset,row,field,condition,dirty,reference,external,note,hospital_name
+construction,hospital,3,City,O,birminghxm,birmingham,,Paired row and error cell,callahan eye foundation hospital
+construction,hospital_surrogatewords,3,City,W,xill pine,mill pine,,Paired row and error cell,timber hollow regional hospital
+construction,hospital_surrogate,3,City,S,hepmxrmxr,hepmormor,,Paired row and error cell,vasrhokel regional hospital
+construction,hospital_fresh,19,City,F,dxthan,dothan,,Newer record; not paired entity/row,southeast health medical center

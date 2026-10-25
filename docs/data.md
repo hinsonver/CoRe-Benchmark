@@ -37,7 +37,7 @@ python tools/core.py validate-private \
   --output build/historical-validation
 ```
 
-This entry checks the historical dependencies and scorer hashes before re-scoring saved Movies P2, aligned and conflict outputs and comparing them with the numerical witnesses. Its scope is the 84 archived P2 runs, the archived aligned setting and the nine-model conflict evidence. P1 still uses saved summaries; E4/E5 are not all independently re-scored by this route. See [reproduction](reproduction.md) for the other scoring entries.
+This entry checks the historical dependencies and scorer hashes before re-scoring saved Movies cleaning, aligned and conflict outputs and comparing them with the numerical witnesses. Its scope is the 84 archived direct-editing runs, the archived aligned setting and the nine-model conflict evidence. The continuation probe still uses saved summaries; E4/E5 are not all independently re-scored by this route. See [reproduction](reproduction.md) for the other scoring entries.
 
 ## Access and redistribution
 

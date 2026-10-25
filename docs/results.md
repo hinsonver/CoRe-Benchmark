@@ -2,7 +2,7 @@
 
 Read the current [paper PDF](../paper/latex/main.pdf) alongside [paper/result-map.json](../paper/result-map.json). That generated map binds all 25 displayed figures and tables to the current LaTeX labels and numbers. The labels below remain useful if numbering changes.
 
-This candidate incorporates VE-M01–M05. [Revision provenance](../paper/revisions/README.md) connects the manuscript changes to the [source/PDF binding](../paper/revision-binding.json). Read the displays as a sequence of questions: what evidence enables recovery, which assigned values should remain, and which changes receive repair credit. These questions use separate comparisons rather than one shared experimental input.
+This candidate is the adopted manuscript of 2026-10-25, retaining the earlier contribution revisions and adding the worked examples and archived diagnostic explanations. [Revision provenance](../paper/revisions/README.md) connects it to the [source/PDF binding](../paper/revision-binding.json). Read the displays as a sequence of questions: what evidence enables recovery, which assigned values should remain, and which changes receive repair credit. These questions use separate inputs and measurements.
 
 Packaged products are in [results/tables](../results/tables/) and [results/figures](../results/figures/). A replay writes the corresponding `tables/`, `figures/` and `derived/` directories under its chosen output path. [Claim-to-evidence navigation](../paper/claim-map.md) explains what each result supports.
 
@@ -10,8 +10,9 @@ Packaged products are in [results/tables](../results/tables/) and [results/figur
 
 | Stable label | Topic | Numerical source |
 | --- | --- | --- |
-| `fig:decomposition` | Four-condition repair scores | [fig1_decomposition.csv](../results/figures/fig1_decomposition.csv) |
-| `fig:overview` | Error transfer and recovery evidence → assigned values → repair credit | [fig0_overview.csv](../results/figures/fig0_overview.csv) |
+| `fig:decomposition` | Missing identifier mappings versus retained year candidates | [fig1_recovery_evidence.csv](../results/figures/fig1_recovery_evidence.csv) |
+| `fig:overview` | Three worked examples: recovery evidence → assigned values → repair credit | [fig0_overview.csv](../results/figures/fig0_overview.csv) |
+| `fig:example` | Hospital city-error transfer in paired names and a fresh record | [fig_example_transfer.csv](../results/figures/fig_example_transfer.csv) |
 | `fig:year` | Movies year repairs after renaming | [fig2_year_range.csv](../results/figures/fig2_year_range.csv) |
 | `fig:scale` | Full eight-model comparison, including Qwen2.5 scale | [fig6_scale.csv](../results/figures/fig6_scale.csv) |
 | `fig:aligned` | Zero-shot and aligned Hospital/Movies scores | [fig3_aligned.csv](../results/figures/fig3_aligned.csv) |
@@ -23,7 +24,6 @@ Packaged products are in [results/tables](../results/tables/) and [results/figur
 | Stable label | Topic | Source |
 | --- | --- | --- |
 | `tab:datasets` | Benchmark provenance and complementary diagnostic roles | [main.tex](../paper/latex/main.tex) |
-| `tab:example` | Complete Hospital row across four conditions | [example.tex](../results/tables/example.tex) |
 | `tab:conditions` | Interpretation of condition contrasts | [main.tex](../paper/latex/main.tex) |
 | `tab:recoverability` | Recovery evidence categories | [main.tex](../paper/latex/main.tex) |
 | `tab:construction` | Controlled-table sources and scale | [construction.tex](../results/tables/construction.tex) |
@@ -43,8 +43,10 @@ Packaged products are in [results/tables](../results/tables/) and [results/figur
 
 ## Extended products
 
-The [extended-results companion](../paper/companions/06-扩展图表与结果明细.md) retains the full acceptance checks, conflict detail, original Rayyan counts and plot. The Rayyan plot uses [fig5_rayyan.csv](../results/figures/fig5_rayyan.csv) and [fig5_rayyan_display.csv](../results/figures/fig5_rayyan_display.csv); it is not an eighth main-paper figure. The two CSVs describe the same audit, not independent samples.
+The [extended-results companion](../paper/companions/06-扩展图表与结果明细.md) retains the original three-dataset [condition overview](../results/figures/fig1_decomposition.csv), [complete Hospital row](../results/tables/example.tex), full acceptance checks, conflict detail, and original Rayyan counts and plot. The Rayyan plot uses [fig5_rayyan.csv](../results/figures/fig5_rayyan.csv) and [fig5_rayyan_display.csv](../results/figures/fig5_rayyan_display.csv); it is an extended display. The two CSVs describe the same audit, not independent samples.
 
-The current replay includes 19 table files, more than the eighteen displayed tables because several main-paper tables are inline and some generated views are retained only for extended inspection. In particular, [whole_table.tex](../results/tables/whole_table.tex) is an unused compact projection: use `tab:aligned` for the main-paper comparison. The full eight-model scale plot is the current main-paper view.
+The current replay includes 19 table files, more than the seventeen displayed tables because several main-paper tables are inline and some generated views are retained for extended inspection. In particular, [whole_table.tex](../results/tables/whole_table.tex) is an unused compact projection: use `tab:aligned` for the main-paper comparison. The full eight-model scale plot is the current main-paper view.
 
-The overview's CSV is a diagram witness, not a set of experimental observations. Its current generator is [code/src/figures.py](../code/src/figures.py); the packaged figure is [fig0_overview.pdf](../results/figures/fig0_overview.pdf). The solid arrows show construction, and the dotted arrows indicate question order, not a data dependency between C1–C3.
+The overview and construction CSVs are diagram witnesses, not new experimental observations. Their generator is [example_diagrams.py](../code/src/example_diagrams.py), called by [figures.py](../code/src/figures.py). The first result figure uses [evidence_panels.py](../code/src/evidence_panels.py), which checks saved repair counts and year accuracies. Its CSV provenance paths point to repository files.
+
+The [archived diagnostics](../paper/companions/07-归档敏感性与输出核验.md) and [diagnostic entry](../tools/review_diagnostics.py) supplement this display map without changing the frozen main table, intervals or significance.

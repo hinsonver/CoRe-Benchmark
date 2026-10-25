@@ -44,9 +44,9 @@
 \citation{jacovi2023stop,white2025livebench}
 \citation{bordt2024elephants}
 \citation{silvestri2025knowtable}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces DeepSeek-V4-Pro's repair F1 falls on Hospital and Movies surrogates. O/W/S share rows and error positions; F uses fresh real records. Results use Hospital/Movies identity columns and all Beers columns, with 95\% bootstrap intervals. $^{*}$Beers F is descriptive because brewery concentration and alcohol-content distributions differ; knowledge comparisons use the paired O/W/S conditions.}}{2}{figure.caption.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Recovery evidence in Movies. DeepSeek-V4-Pro repairs fewer identifiers when mappings disappear, but also fewer years when candidates remain. Labels give repaired/error cells; the middle-year rule matches 167/190 references. O/W/S are paired; F uses fresh records.}}{2}{figure.caption.3}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
-\newlabel{fig:decomposition}{{1}{2}{DeepSeek-V4-Pro's repair F1 falls on Hospital and Movies surrogates. O/W/S share rows and error positions; F uses fresh real records. Results use Hospital/Movies identity columns and all Beers columns, with 95\% bootstrap intervals. $^{*}$Beers F is descriptive because brewery concentration and alcohol-content distributions differ; knowledge comparisons use the paired O/W/S conditions}{figure.caption.3}{}}
+\newlabel{fig:decomposition}{{1}{2}{Recovery evidence in Movies. DeepSeek-V4-Pro repairs fewer identifiers when mappings disappear, but also fewer years when candidates remain. Labels give repaired/error cells; the middle-year rule matches 167/190 references. O/W/S are paired; F uses fresh records}{figure.caption.3}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {2}Background and Related Work}{2}{section.2}\protected@file@percent }
 \newlabel{sec:related}{{2}{2}{Background and Related Work}{section.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Cleaning Benchmarks}{2}{subsection.2.1}\protected@file@percent }
@@ -74,18 +74,16 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Chunking, Prompting and Scoring}{3}{subsection.3.3}\protected@file@percent }
 \newlabel{sec:scoring}{{3.3}{3}{Chunking, Prompting and Scoring}{subsection.3.3}{}}
 \citation{arocena2015bart}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textsc  {CoRe}{} transfers errors to paired name surrogates and fresh real records. Recovery contrasts motivate questions about assigned-value preservation and Rayyan repair credit. Hospital city tokens illustrate error transfer; the continuation probe tests row memory.}}{4}{figure.caption.5}\protected@file@percent }
-\newlabel{fig:overview}{{2}{4}{\core {} transfers errors to paired name surrogates and fresh real records. Recovery contrasts motivate questions about assigned-value preservation and Rayyan repair credit. Hospital city tokens illustrate error transfer; the continuation probe tests row memory}{figure.caption.5}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Hospital identity fields across conditions, with the corrupted city in bold. O/W/S share a row and error position. $^*$F draws a newer registry row with updated quality measures, rather than a row-paired replacement of O.}}{4}{table.caption.6}\protected@file@percent }
-\newlabel{tab:example}{{2}{4}{Hospital identity fields across conditions, with the corrupted city in bold. O/W/S share a row and error position. $^*$F draws a newer registry row with updated quality measures, rather than a row-paired replacement of O}{table.caption.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Condition contrasts and their interpretation. O/W/S pair rows, error cells, chunks and non-identity values; F shares schema, size and error recipes or rules.}}{4}{table.caption.7}\protected@file@percent }
-\newlabel{tab:conditions}{{3}{4}{Condition contrasts and their interpretation. O/W/S pair rows, error cells, chunks and non-identity values; F shares schema, size and error recipes or rules}{table.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Recovery evidence available in the shown input, under the cases defined in Section\nonbreakingspace \ref {sec:recoverability}.}}{4}{table.caption.8}\protected@file@percent }
-\newlabel{tab:recoverability}{{4}{4}{Recovery evidence available in the shown input, under the cases defined in Section~\ref {sec:recoverability}}{table.caption.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Three questions for interpreting repair scores: what evidence remains for recovery, which assigned values should be preserved, and which edits receive reference credit. The panels illustrate separate tests on their respective benchmark inputs.}}{4}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:overview}{{2}{4}{Three questions for interpreting repair scores: what evidence remains for recovery, which assigned values should be preserved, and which edits receive reference credit. The panels illustrate separate tests on their respective benchmark inputs}{figure.caption.5}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Hospital construction example. O/W/S share a row and city error cell while changing identity values. F uses a newer registry row with a newly drawn error location. The \href  {../CoRe-companion-index.md}{companion materials}{} retain the complete identity-field example.}}{4}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:example}{{3}{4}{Hospital construction example. O/W/S share a row and city error cell while changing identity values. F uses a newer registry row with a newly drawn error location. The \companion {} retain the complete identity-field example}{figure.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Condition contrasts and their interpretation. O/W/S pair rows, error cells, chunks and non-identity values; F shares schema, size and error recipes or rules.}}{4}{table.caption.7}\protected@file@percent }
+\newlabel{tab:conditions}{{2}{4}{Condition contrasts and their interpretation. O/W/S pair rows, error cells, chunks and non-identity values; F shares schema, size and error recipes or rules}{table.caption.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Recovery evidence available in the shown input, under the cases defined in Section\nonbreakingspace \ref {sec:recoverability}.}}{4}{table.caption.8}\protected@file@percent }
+\newlabel{tab:recoverability}{{3}{4}{Recovery evidence available in the shown input, under the cases defined in Section~\ref {sec:recoverability}}{table.caption.8}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {4}Building the Controlled Tables}{4}{section.4}\protected@file@percent }
 \newlabel{sec:construction}{{4}{4}{Building the Controlled Tables}{section.4}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Hospital}{4}{subsection.4.1}\protected@file@percent }
-\newlabel{sec:build-hospital}{{4.1}{4}{Hospital}{subsection.4.1}{}}
 \citation{vrandecic2014wikidata}
 \citation{deepseekai2026deepseekv4}
 \citation{qwen38}
@@ -95,10 +93,10 @@
 \citation{qwen2025qwen25}
 \citation{dubey2024llama3}
 \citation{olmo2024olmo2}
-\citation{mahdavi2020baran}
-\citation{mahdavi2019raha}
-\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Controlled-table sources and scale. Error counts in parentheses are identity cells; values renamed are distinct one-to-one replacements. Seeds cover F, W and S.}}{5}{table.caption.9}\protected@file@percent }
-\newlabel{tab:construction}{{5}{5}{Controlled-table sources and scale. Error counts in parentheses are identity cells; values renamed are distinct one-to-one replacements. Seeds cover F, W and S}{table.caption.9}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Controlled-table sources and scale. Error counts in parentheses are identity cells; values renamed are distinct one-to-one replacements. Seeds cover F, W and S.}}{5}{table.caption.9}\protected@file@percent }
+\newlabel{tab:construction}{{4}{5}{Controlled-table sources and scale. Error counts in parentheses are identity cells; values renamed are distinct one-to-one replacements. Seeds cover F, W and S}{table.caption.9}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Hospital}{5}{subsection.4.1}\protected@file@percent }
+\newlabel{sec:build-hospital}{{4.1}{5}{Hospital}{subsection.4.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Movies}{5}{subsection.4.2}\protected@file@percent }
 \newlabel{sec:build-movies}{{4.2}{5}{Movies}{subsection.4.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Beers}{5}{subsection.4.3}\protected@file@percent }
@@ -108,60 +106,62 @@
 \newlabel{sec:naming}{{4.4}{5}{Acceptance Checks and Construction Seeds}{subsection.4.4}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {5}Experimental Setup}{5}{section.5}\protected@file@percent }
 \newlabel{sec:setup}{{5}{5}{Experimental Setup}{section.5}{}}
+\citation{mahdavi2020baran}
+\citation{mahdavi2019raha}
 \citation{efron1993bootstrap}
 \citation{holm1979simple}
 \citation{liu2024infinigram}
-\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Movies' 1,965 errors and their transfer mechanisms. Source-style errors occupy 190 rows, with formatting rules also applied table-wide. Copied errors transfer cell recipes; drawn errors follow measured rates. Slugs are the film identifiers used in Rotten Tomatoes URLs.}}{6}{table.caption.10}\protected@file@percent }
-\newlabel{tab:movieserrors}{{6}{6}{Movies' 1,965 errors and their transfer mechanisms. Source-style errors occupy 190 rows, with formatting rules also applied table-wide. Copied errors transfer cell recipes; drawn errors follow measured rates. Slugs are the film identifiers used in Rotten Tomatoes URLs}{table.caption.10}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Movies' 1,965 errors and their transfer mechanisms. Source-style errors occupy 190 rows, with formatting rules also applied table-wide. Copied errors transfer cell recipes; drawn errors follow measured rates. Slugs are the film identifiers used in Rotten Tomatoes URLs.}}{6}{table.caption.10}\protected@file@percent }
+\newlabel{tab:movieserrors}{{5}{6}{Movies' 1,965 errors and their transfer mechanisms. Source-style errors occupy 190 rows, with formatting rules also applied table-wide. Copied errors transfer cell recipes; drawn errors follow measured rates. Slugs are the film identifiers used in Rotten Tomatoes URLs}{table.caption.10}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {6}Testing Benchmark Memorization}{6}{section.6}\protected@file@percent }
 \newlabel{sec:memorization}{{6}{6}{Testing Benchmark Memorization}{section.6}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Highest hard-cell continuation accuracy over datasets for each context. Columns distinguish clean/dirty context, dataset naming and error-row selection. Leakage counts clean reference values written from dirty context.}}{6}{table.caption.11}\protected@file@percent }
-\newlabel{tab:p1}{{7}{6}{Highest hard-cell continuation accuracy over datasets for each context. Columns distinguish clean/dirty context, dataset naming and error-row selection. Leakage counts clean reference values written from dirty context}{table.caption.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Highest hard-cell continuation accuracy over datasets for each context. Columns distinguish clean/dirty context, dataset naming and error-row selection. Leakage counts clean reference values written from dirty context.}}{6}{table.caption.11}\protected@file@percent }
+\newlabel{tab:p1}{{6}{6}{Highest hard-cell continuation accuracy over datasets for each context. Columns distinguish clean/dirty context, dataset naming and error-row selection. Leakage counts clean reference values written from dirty context}{table.caption.11}{}}
 \newlabel{find:mem}{{1}{6}{Testing Benchmark Memorization}{finding.1}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {7}Knowledge Inflates Cleaning Scores}{7}{section.7}\protected@file@percent }
 \newlabel{sec:knowledge}{{7}{7}{Knowledge Inflates Cleaning Scores}{section.7}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Hospital: Typos in Names}{7}{subsection.7.1}\protected@file@percent }
 \newlabel{find:hospital}{{2}{7}{Hospital: Typos in Names}{finding.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Movies: Errors That Need the Film}{7}{subsection.7.2}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces DeepSeek-V4-Pro's year repairs deteriorate after renaming, although all 190 year ranges are unchanged. Bars show the candidate written; the right panel shows repair accuracy. Taking the middle year matches 167 references (88\%).}}{7}{figure.caption.15}\protected@file@percent }
-\newlabel{fig:year}{{3}{7}{DeepSeek-V4-Pro's year repairs deteriorate after renaming, although all 190 year ranges are unchanged. Bars show the candidate written; the right panel shows repair accuracy. Taking the middle year matches 167 references (88\%)}{figure.caption.15}{}}
-\newlabel{find:movies}{{3}{7}{Movies: Errors That Need the Film}{finding.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Movies: Candidates and Mappings}{7}{subsection.7.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces DeepSeek-V4-Pro's year repairs deteriorate after renaming, although all 190 year ranges are unchanged. Bars show the candidate written; the right panel shows repair accuracy. Taking the middle year matches 167 references (88\%).}}{7}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:year}{{4}{7}{DeepSeek-V4-Pro's year repairs deteriorate after renaming, although all 190 year ranges are unchanged. Bars show the candidate written; the right panel shows repair accuracy. Taking the middle year matches 167 references (88\%)}{figure.caption.14}{}}
+\newlabel{find:movies}{{3}{7}{Movies: Candidates and Mappings}{finding.3}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.3}Beers: Formatting Errors}{7}{subsection.7.3}\protected@file@percent }
 \newlabel{find:beers}{{4}{7}{Beers: Formatting Errors}{finding.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Stability over Construction Seeds}{7}{subsection.7.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8}Does the Inflation Generalize?}{7}{section.8}\protected@file@percent }
-\newlabel{sec:generalize}{{8}{7}{Does the Inflation Generalize?}{section.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Model Scale}{7}{subsection.8.1}\protected@file@percent }
-\newlabel{sec:scale}{{8.1}{7}{Model Scale}{subsection.8.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Identity-column repair F1 and condition contrasts at seed 0. Definitions and comparison assumptions are in Section\nonbreakingspace \ref {sec:conditions}. $^\dagger $: significant at 0.05 after Holm correction over this table's 40 differences (two-sided chunk bootstrap, 2,000 resamples).}}{8}{table.caption.12}\protected@file@percent }
-\newlabel{tab:main}{{8}{8}{Identity-column repair F1 and condition contrasts at seed 0. Definitions and comparison assumptions are in Section~\ref {sec:conditions}. $^\dagger $: significant at 0.05 after Holm correction over this table's 40 differences (two-sided chunk bootstrap, 2,000 resamples)}{table.caption.12}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Hospital's total effect grows across Qwen2.5-7B/14B/32B, while S scores remain low. Identity-column repair F1, with Llama and commercial models for comparison; 95\% bootstrap intervals.}}{8}{figure.caption.19}\protected@file@percent }
-\newlabel{fig:scale}{{4}{8}{Hospital's total effect grows across Qwen2.5-7B/14B/32B, while S scores remain low. Identity-column repair F1, with Llama and commercial models for comparison; 95\% bootstrap intervals}{figure.caption.19}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Detection and repair diverge on surrogate identity columns. Entries give detection F1 / repair F1; detection counts corrupted cells found regardless of the value proposed for that cell.}}{8}{table.caption.13}\protected@file@percent }
-\newlabel{tab:detection}{{9}{8}{Detection and repair diverge on surrogate identity columns. Entries give detection F1 / repair F1; detection counts corrupted cells found regardless of the value proposed for that cell}{table.caption.13}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Near-zero scores as repaired-cell counts. Hospital W/S have 219 identity errors; Movies O/W have 379. Chunk counts give more : fewer repairs in the first condition; sign-test $p$ values are Holm-corrected over models.}}{8}{table.caption.14}\protected@file@percent }
-\newlabel{tab:counts}{{10}{8}{Near-zero scores as repaired-cell counts. Hospital W/S have 219 identity errors; Movies O/W have 379. Chunk counts give more : fewer repairs in the first condition; sign-test $p$ values are Holm-corrected over models}{table.caption.14}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Where knowledge acts on Movies: DeepSeek-V4-Pro repairs by column (repaired / errors). Identity columns are listed first; each condition uses its own error counts.}}{8}{table.caption.16}\protected@file@percent }
-\newlabel{tab:moviescols}{{11}{8}{Where knowledge acts on Movies: DeepSeek-V4-Pro repairs by column (repaired / errors). Identity columns are listed first; each condition uses its own error counts}{table.caption.16}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Recoverable Syllable Names}{8}{subsection.8.2}\protected@file@percent }
-\newlabel{sec:commercial}{{8.2}{8}{Recoverable Syllable Names}{subsection.8.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Evidence and Knowledge Effects}{7}{section.8}\protected@file@percent }
+\newlabel{sec:generalize}{{8}{7}{Evidence and Knowledge Effects}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Aligned Information and Repeated Records}{7}{subsection.8.1}\protected@file@percent }
+\newlabel{sec:labels}{{8.1}{7}{Aligned Information and Repeated Records}{subsection.8.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Identity-column repair F1 at seed 0. Nonpaired F$-$W uses fresh records; paired contrasts use O/W/S. $^\dagger $: Holm-corrected $p<0.05$ over 40 differences (two-sided chunk bootstrap, 2,000 resamples).}}{8}{table.caption.12}\protected@file@percent }
+\newlabel{tab:main}{{7}{8}{Identity-column repair F1 at seed 0. Nonpaired F$-$W uses fresh records; paired contrasts use O/W/S. $^\dagger $: Holm-corrected $p<0.05$ over 40 differences (two-sided chunk bootstrap, 2,000 resamples)}{table.caption.12}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Hospital's total effect grows across Qwen2.5-7B/14B/32B, while S scores remain low. Identity-column repair F1, with Llama and commercial models for comparison; 95\% bootstrap intervals.}}{8}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:scale}{{5}{8}{Hospital's total effect grows across Qwen2.5-7B/14B/32B, while S scores remain low. Identity-column repair F1, with Llama and commercial models for comparison; 95\% bootstrap intervals}{figure.caption.19}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Detection and repair diverge on surrogate identity columns. Entries give detection F1 / repair F1; detection counts corrupted cells found regardless of the value proposed for that cell.}}{8}{table.caption.13}\protected@file@percent }
+\newlabel{tab:detection}{{8}{8}{Detection and repair diverge on surrogate identity columns. Entries give detection F1 / repair F1; detection counts corrupted cells found regardless of the value proposed for that cell}{table.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Near-zero scores as repaired-cell counts. Hospital W/S have 219 identity errors; Movies O/W have 379. Chunk counts give more : fewer repairs in the first condition; sign-test $p$ values are Holm-corrected over models.}}{8}{table.caption.15}\protected@file@percent }
+\newlabel{tab:counts}{{9}{8}{Near-zero scores as repaired-cell counts. Hospital W/S have 219 identity errors; Movies O/W have 379. Chunk counts give more : fewer repairs in the first condition; sign-test $p$ values are Holm-corrected over models}{table.caption.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Model Scale}{8}{subsection.8.2}\protected@file@percent }
+\newlabel{sec:scale}{{8.2}{8}{Model Scale}{subsection.8.2}{}}
 \citation{tabclean2026}
-\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total O$-$S, repaired cities (of 127), and W-versus-S chunk sign tests, Holm-corrected over models. $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ. $^\dagger $: significant as in Table\nonbreakingspace \ref {tab:main}, corrected over eight differences.}}{9}{table.caption.17}\protected@file@percent }
-\newlabel{tab:beers}{{12}{9}{Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total O$-$S, repaired cities (of 127), and W-versus-S chunk sign tests, Holm-corrected over models. $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ. $^\dagger $: significant as in Table~\ref {tab:main}, corrected over eight differences}{table.caption.17}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Identity-column contrast ranges over three construction seeds; seed 0 is in Table\nonbreakingspace \ref {tab:main}. Fresh clean records are fixed while errors are redrawn.}}{9}{table.caption.18}\protected@file@percent }
-\newlabel{tab:seeds}{{13}{9}{Identity-column contrast ranges over three construction seeds; seed 0 is in Table~\ref {tab:main}. Fresh clean records are fixed while errors are redrawn}{table.caption.18}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts.}}{9}{table.caption.20}\protected@file@percent }
-\newlabel{tab:decoding}{{14}{9}{Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts}{table.caption.20}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Labels, Error Positions and Repeated Records}{9}{subsection.8.3}\protected@file@percent }
-\newlabel{sec:labels}{{8.3}{9}{Labels, Error Positions and Repeated Records}{subsection.8.3}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Labels and error positions improve DeepSeek-V4-Pro's repair but retain a fresh--words gap. Identity-column F1 in zero-shot and aligned settings; Baran is the aligned mean of three runs. Intervals are 95\% chunk-bootstrap intervals.}}{9}{figure.caption.21}\protected@file@percent }
-\newlabel{fig:aligned}{{5}{9}{Labels and error positions improve DeepSeek-V4-Pro's repair but retain a fresh--words gap. Identity-column F1 in zero-shot and aligned settings; Baran is the aligned mean of three runs. Intervals are 95\% chunk-bootstrap intervals}{figure.caption.21}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces Identity-column repair F1 under aligned and whole-table information. Aligned uses the same chunks, 20 labeled tuples and error positions; Baran is the mean of three runs. Whole-table Baran uses perfect detection. TabClean uses DeepSeek-V4-Pro with development rows excluded.}}{9}{table.caption.22}\protected@file@percent }
-\newlabel{tab:aligned}{{15}{9}{Identity-column repair F1 under aligned and whole-table information. Aligned uses the same chunks, 20 labeled tuples and error positions; Baran is the mean of three runs. Whole-table Baran uses perfect detection. TabClean uses DeepSeek-V4-Pro with development rows excluded}{table.caption.22}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Where knowledge acts on Movies: DeepSeek-V4-Pro repairs by column (repaired / errors). Identity columns are listed first; each condition uses its own error counts.}}{9}{table.caption.16}\protected@file@percent }
+\newlabel{tab:moviescols}{{10}{9}{Where knowledge acts on Movies: DeepSeek-V4-Pro repairs by column (repaired / errors). Identity columns are listed first; each condition uses its own error counts}{table.caption.16}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total O$-$S, repaired cities (O/F/W/S, of 127), and W-versus-S chunk sign tests, Holm-corrected over models. $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ. $^\dagger $: significant as in Table\nonbreakingspace \ref {tab:main}, corrected over eight differences.}}{9}{table.caption.17}\protected@file@percent }
+\newlabel{tab:beers}{{11}{9}{Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total O$-$S, repaired cities (O/F/W/S, of 127), and W-versus-S chunk sign tests, Holm-corrected over models. $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ. $^\dagger $: significant as in Table~\ref {tab:main}, corrected over eight differences}{table.caption.17}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {12}{\ignorespaces Identity-column contrast ranges over three construction seeds; seed 0 is in Table\nonbreakingspace \ref {tab:main}. Fresh clean records are fixed while errors are redrawn.}}{9}{table.caption.18}\protected@file@percent }
+\newlabel{tab:seeds}{{12}{9}{Identity-column contrast ranges over three construction seeds; seed 0 is in Table~\ref {tab:main}. Fresh clean records are fixed while errors are redrawn}{table.caption.18}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Recoverable Syllable Names}{9}{subsection.8.3}\protected@file@percent }
+\newlabel{sec:commercial}{{8.3}{9}{Recoverable Syllable Names}{subsection.8.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Labels and error positions improve DeepSeek-V4-Pro's repair but retain a fresh--words gap. Identity-column F1 in zero-shot and aligned settings; Baran is the aligned mean of three runs. Intervals are 95\% chunk-bootstrap intervals.}}{9}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:aligned}{{6}{9}{Labels and error positions improve DeepSeek-V4-Pro's repair but retain a fresh--words gap. Identity-column F1 in zero-shot and aligned settings; Baran is the aligned mean of three runs. Intervals are 95\% chunk-bootstrap intervals}{figure.caption.20}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Identity-column repair F1 under aligned and whole-table information. Aligned uses the same chunks, 20 labeled tuples and error positions; Baran is the mean of three runs. Whole-table Baran uses perfect detection. TabClean uses DeepSeek-V4-Pro with development rows excluded.}}{9}{table.caption.21}\protected@file@percent }
+\newlabel{tab:aligned}{{13}{9}{Identity-column repair F1 under aligned and whole-table information. Aligned uses the same chunks, 20 labeled tuples and error positions; Baran is the mean of three runs. Whole-table Baran uses perfect detection. TabClean uses DeepSeek-V4-Pro with development rows excluded}{table.caption.21}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts.}}{9}{table.caption.22}\protected@file@percent }
+\newlabel{tab:decoding}{{14}{9}{Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts}{table.caption.22}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Program-Generating Cleaner}{9}{subsection.8.4}\protected@file@percent }
 \newlabel{sec:e4}{{8.4}{9}{Program-Generating Cleaner}{subsection.8.4}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces A conflict target with the same assigned Director reference in three name versions. The real credit of \emph  {Taken} (2008) is Pierre Morel; all other cells remain identical.}}{10}{table.caption.23}\protected@file@percent }
-\newlabel{tab:conflictexample}{{16}{10}{A conflict target with the same assigned Director reference in three name versions. The real credit of \emph {Taken} (2008) is Pierre Morel; all other cells remain identical}{table.caption.23}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces A conflict target with the same assigned Director reference in three name versions. The real credit of \emph  {Taken} (2008) is Pierre Morel; all other cells remain identical.}}{10}{table.caption.23}\protected@file@percent }
+\newlabel{tab:conflictexample}{{15}{10}{A conflict target with the same assigned Director reference in three name versions. The real credit of \emph {Taken} (2008) is Pierre Morel; all other cells remain identical}{table.caption.23}{}}
 \newlabel{find:general}{{5}{10}{Program-Generating Cleaner}{finding.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {9}Knowledge Overrides the Table}{10}{section.9}\protected@file@percent }
 \newlabel{sec:conflict}{{9}{10}{Knowledge Overrides the Table}{section.9}{}}
@@ -169,21 +169,21 @@
 \newlabel{sec:conflictdesign}{{9.1}{10}{Constructing Knowledge Conflicts}{subsection.9.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Measuring Rewrites}{10}{subsection.9.2}\protected@file@percent }
 \newlabel{sec:conflictmetric}{{9.2}{10}{Measuring Rewrites}{subsection.9.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces DeepSeek-V4-Pro rewrites assigned directors more often than cities. Attribute rewrites and name restoration are separate events, using 57 films, 24 hospitals or 48 breweries with one row per target and 95\% entity-bootstrap intervals. Controls have zero directed rewrites.}}{10}{figure.caption.24}\protected@file@percent }
-\newlabel{fig:near}{{6}{10}{DeepSeek-V4-Pro rewrites assigned directors more often than cities. Attribute rewrites and name restoration are separate events, using 57 films, 24 hospitals or 48 breweries with one row per target and 95\% entity-bootstrap intervals. Controls have zero directed rewrites}{figure.caption.24}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Table-evidence instructions reduce director rewrites unevenly. Rates divide matching real-credit rewrites by known films, with 95\% entity-bootstrap intervals. Parentheses give denominators, unchanged between prompts; Table\nonbreakingspace \ref {tab:conflictcounts} gives counts and control edits.}}{10}{figure.caption.25}\protected@file@percent }
-\newlabel{fig:nearmodels}{{7}{10}{Table-evidence instructions reduce director rewrites unevenly. Rates divide matching real-credit rewrites by known films, with 95\% entity-bootstrap intervals. Parentheses give denominators, unchanged between prompts; Table~\ref {tab:conflictcounts} gives counts and control edits}{figure.caption.25}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Results}{10}{subsection.9.3}\protected@file@percent }
-\newlabel{sec:conflictresults}{{9.3}{10}{Results}{subsection.9.3}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces DeepSeek-V4-Pro rewrites assigned directors more often than cities. Attribute rewrites and name restoration are separate events, using 57 films, 24 hospitals or 48 breweries with one row per target and 95\% entity-bootstrap intervals. Controls have zero directed rewrites.}}{10}{figure.caption.24}\protected@file@percent }
+\newlabel{fig:near}{{7}{10}{DeepSeek-V4-Pro rewrites assigned directors more often than cities. Attribute rewrites and name restoration are separate events, using 57 films, 24 hospitals or 48 breweries with one row per target and 95\% entity-bootstrap intervals. Controls have zero directed rewrites}{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Table-evidence instructions reduce director rewrites unevenly. Rates divide matching real-credit rewrites by known films, with 95\% entity-bootstrap intervals. Parentheses give denominators, unchanged between prompts; Table\nonbreakingspace \ref {tab:conflictcounts} gives counts and control edits.}}{10}{figure.caption.25}\protected@file@percent }
+\newlabel{fig:nearmodels}{{8}{10}{Table-evidence instructions reduce director rewrites unevenly. Rates divide matching real-credit rewrites by known films, with 95\% entity-bootstrap intervals. Parentheses give denominators, unchanged between prompts; Table~\ref {tab:conflictcounts} gives counts and control edits}{figure.caption.25}{}}
 \citation{ziemann2016gene}
-\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Director rewrite counts among known films ($n/N$). Exact-name targets count edits matching a real-world director credit. Surrogate controls count any Director change; none matches the paired film's real credit.}}{11}{table.caption.26}\protected@file@percent }
-\newlabel{tab:conflictcounts}{{17}{11}{Director rewrite counts among known films ($n/N$). Exact-name targets count edits matching a real-world director credit. Surrogate controls count any Director change; none matches the paired film's real credit}{table.caption.26}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {16}{\ignorespaces Director rewrite counts among known films ($n/N$). Exact-name targets count edits matching a real-world director credit. Surrogate controls count any Director change; none matches the paired film's real credit.}}{11}{table.caption.26}\protected@file@percent }
+\newlabel{tab:conflictcounts}{{16}{11}{Director rewrite counts among known films ($n/N$). Exact-name targets count edits matching a real-world director credit. Surrogate controls count any Director change; none matches the paired film's real credit}{table.caption.26}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Results}{11}{subsection.9.3}\protected@file@percent }
+\newlabel{sec:conflictresults}{{9.3}{11}{Results}{subsection.9.3}{}}
 \newlabel{find:conflict}{{6}{11}{Results}{finding.6}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {10}Benchmark Quality}{11}{section.10}\protected@file@percent }
 \newlabel{sec:quality}{{10}{11}{Benchmark Quality}{section.10}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {10.1}Systematic Reference Transformations}{11}{subsection.10.1}\protected@file@percent }
-\@writefile{lot}{\contentsline {table}{\numberline {18}{\ignorespaces Rayyan field checks: population $N_h$, sample $n_h$, title matches $m_h$, failed reference and passed dirty checks per matched cell. A dash denotes an unassessed dirty check.}}{11}{table.caption.27}\protected@file@percent }
-\newlabel{tab:rayyan}{{18}{11}{Rayyan field checks: population $N_h$, sample $n_h$, title matches $m_h$, failed reference and passed dirty checks per matched cell. A dash denotes an unassessed dirty check}{table.caption.27}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {17}{\ignorespaces Rayyan field checks: population $N_h$, sample $n_h$, title matches $m_h$, failed reference and passed dirty checks per matched cell. A dash denotes an unassessed dirty check.}}{11}{table.caption.27}\protected@file@percent }
+\newlabel{tab:rayyan}{{17}{11}{Rayyan field checks: population $N_h$, sample $n_h$, title matches $m_h$, failed reference and passed dirty checks per matched cell. A dash denotes an unassessed dirty check}{table.caption.27}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {10.2}Stratified PubMed Checks}{11}{subsection.10.2}\protected@file@percent }
 \newlabel{sec:rayyan-audit}{{10.2}{11}{Stratified PubMed Checks}{subsection.10.2}{}}
 \newlabel{eq:rayyan-weighted}{{1}{11}{Stratified PubMed Checks}{equation.1}{}}
@@ -281,5 +281,7 @@
 \newlabel{tocindent1}{8.37pt}
 \newlabel{tocindent2}{14.53499pt}
 \newlabel{tocindent3}{0pt}
+\newlabel{tocindent4}{0pt}
+\newlabel{tocindent5}{0pt}
 \newlabel{TotPages}{{14}{14}{}{page.14}{}}
 \gdef \@abspage@last{14}

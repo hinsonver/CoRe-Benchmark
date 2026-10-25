@@ -2390,6 +2390,11 @@
     "paper_consumer": "paper"
   },
   {
+    "relative_path": "results/derived/review_diagnostics.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
     "relative_path": "results/derived/scale_summary.json",
     "kind": "summary",
     "paper_consumer": "paper"
@@ -2420,6 +2425,11 @@
     "paper_consumer": "paper"
   },
   {
+    "relative_path": "results/figures/fig0_overview.svg",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
     "relative_path": "results/figures/fig1_decomposition.csv",
     "kind": "figure",
     "paper_consumer": "paper"
@@ -2431,6 +2441,26 @@
   },
   {
     "relative_path": "results/figures/fig1_decomposition.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig1_recovery_evidence.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig1_recovery_evidence.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig1_recovery_evidence.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig1_recovery_evidence.svg",
     "kind": "figure",
     "paper_consumer": "paper"
   },
@@ -2526,6 +2556,26 @@
   },
   {
     "relative_path": "results/figures/fig7_near_models.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig_example_transfer.csv",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig_example_transfer.pdf",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig_example_transfer.png",
+    "kind": "figure",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/figures/fig_example_transfer.svg",
     "kind": "figure",
     "paper_consumer": "paper"
   },

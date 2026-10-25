@@ -1,0 +1,94 @@
+{
+  "schema": 1,
+  "scope": "Author-selected illustration cells already displayed in the adopted manuscript; not complete benchmark records, model replies, or new evidence.",
+  "overview": [
+    {
+      "panel": "recovery",
+      "dataset": "movies",
+      "row": 7,
+      "field": "Id",
+      "condition": "O",
+      "dirty": "american_ultra",
+      "reference": "tt3316948",
+      "external": "",
+      "note": "Public identity mapping in O; arbitrary reference IDs in W/S"
+    },
+    {
+      "panel": "recovery",
+      "dataset": "movies",
+      "row": 7,
+      "field": "Year",
+      "condition": "O",
+      "dirty": "2014 2015 2016",
+      "reference": "2015",
+      "external": "",
+      "note": "Same candidate years in O/W/S"
+    },
+    {
+      "panel": "recovery",
+      "dataset": "movies_surrogatewords",
+      "row": 7,
+      "field": "Id",
+      "condition": "W",
+      "dirty": "mill_brook",
+      "reference": "tt1095783",
+      "external": "",
+      "note": "Public identity mapping in O; arbitrary reference IDs in W/S"
+    },
+    {
+      "panel": "recovery",
+      "dataset": "movies_surrogatewords",
+      "row": 7,
+      "field": "Year",
+      "condition": "W",
+      "dirty": "2014 2015 2016",
+      "reference": "2015",
+      "external": "",
+      "note": "Same candidate years in O/W/S"
+    },
+    {
+      "panel": "recovery",
+      "dataset": "movies_surrogate",
+      "row": 7,
+      "field": "Id",
+      "condition": "S",
+      "dirty": "jouvas_of_quenula_pimtas_kelosk_wexny",
+      "reference": "tt9636956",
+      "external": "",
+      "note": "Public identity mapping in O; arbitrary reference IDs in W/S"
+    },
+    {
+      "panel": "recovery",
+      "dataset": "movies_surrogate",
+      "row": 7,
+      "field": "Year",
+      "condition": "S",
+      "dirty": "2014 2015 2016",
+      "reference": "2015",
+      "external": "",
+      "note": "Same candidate years in O/W/S"
+    },
+    {
+      "panel": "assigned",
+      "dataset": "_near/movies/real",
+      "row": 490,
+      "field": "Director",
+      "condition": "",
+      "dirty": "Stanley Kubrick",
+      "reference": "Stanley Kubrick",
+      "external": "Pierre Morel",
+      "note": "Taken: dirty and reference assign Stanley Kubrick; arrow is a schematic counting event"
+    },
+    {
+      "panel": "credit",
+      "dataset": "rayyan",
+      "row": 120,
+      "field": "journal_issn",
+      "condition": "",
+      "dirty": "Mar-22",
+      "reference": "22-Mar",
+      "external": "0003-3022",
+      "note": "Saved PMID 8916815 match; recorded edit earns no reference repair credit"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="511.2pt" height="151.2pt" viewBox="0 0 511.2 151.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-23T13:34:57.777376</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 151.2 
+L 511.2 151.2 
+L 511.2 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 2.541686 148.942886 
+L 167.176714 148.942886 
+L 167.176714 2.257114 
+L 2.541686 2.257114 
+z
+" clip-path="url(#p1c7209ecff)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 2.541686 18.932659 
+L 167.176714 18.932659 
+L 167.176714 2.257114 
+L 2.541686 2.257114 
+z
+" clip-path="url(#p1c7209ecff)" style="fill: #eaf2fc"/>
+   </g>
+   <g id="public identity mapping">
+    <path d="M 86.515488 53.907034 
+Q 92.312496 53.907034 97.159175 53.907034 
+" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 94.559175 52.607034 
+L 97.159175 53.907034 
+L 94.559175 55.207034 
+z
+" clip-path="url(#p1c7209ecff)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 6.18552 118.838362 
+L 163.53288 118.838362 
+L 163.53288 103.195814 
+L 6.18552 103.195814 
+z
+" clip-path="url(#p1c7209ecff)" style="fill: #f0f3f6"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 86.515488 82.093133 
+L 98.109504 82.093133 
+" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #485563; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 91.484352 84.749414 
+L 94.796928 79.436851 
+" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #9f3930; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 7.841808 123.265498 
+L 161.876592 123.265498 
+" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="12.844922" transform="rotate(-0 8.669952 12.844922)">Recovery evidence</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="29.542108" transform="rotate(-0 8.669952 29.542108)">Movies: American Ultra (2015)</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #2a78d6" x="8.669952" y="43.885329" transform="rotate(-0 8.669952 43.885329)">O: public identity mapping</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="55.741252" transform="rotate(-0 8.669952 55.741252)">american_ultra</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="101.42208" y="56.454924" transform="rotate(-0 101.42208 56.454924)">tt3316948</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #167a56" x="8.669952" y="71.923857" transform="rotate(-0 8.669952 71.923857)">W: renamed, arbitrary reference ID</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="83.927352" transform="rotate(-0 8.669952 83.927352)">mill_brook</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="101.42208" y="84.641023" transform="rotate(-0 101.42208 84.641023)">tt1095783</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="98.754472" transform="rotate(-0 8.669952 98.754472)">W / S: mapping unavailable</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="10.32624" y="113.034425" transform="rotate(-0 10.32624 113.034425)">O / W / S year: 2014 2015 2016</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="132.963146" transform="rotate(-0 8.669952 132.963146)">Four-condition recovery comparison</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="143.588273" transform="rotate(-0 8.669952 143.588273)">+ independent continuation probe</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_5">
+    <path d="M 173.282486 148.942886 
+L 337.917514 148.942886 
+L 337.917514 2.257114 
+L 173.282486 2.257114 
+z
+" clip-path="url(#p2642e43851)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 173.282486 18.932659 
+L 337.917514 18.932659 
+L 337.917514 2.257114 
+L 173.282486 2.257114 
+z
+" clip-path="url(#p2642e43851)" style="fill: #edf6f1"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 234.068256 62.908877 
+L 331.789248 62.908877 
+L 331.789248 51.693466 
+L 234.068256 51.693466 
+z
+" clip-path="url(#p2642e43851)" style="fill: #e8f4ed"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 234.068256 77.370854 
+L 331.789248 77.370854 
+L 331.789248 66.155443 
+L 234.068256 66.155443 
+z
+" clip-path="url(#p2642e43851)" style="fill: #e8f4ed"/>
+   </g>
+   <g id="rewrite to real-world director">
+    <path d="M 262.225152 93.456115 
+Q 262.225152 98.768678 262.225152 103.130913 
+" clip-path="url(#p2642e43851)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 263.525152 100.530913 
+L 262.225152 103.130913 
+L 260.925152 100.530913 
+z
+" clip-path="url(#p2642e43851)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 178.582608 48.446899 
+L 332.617392 48.446899 
+" clip-path="url(#p2642e43851)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 178.582608 123.265498 
+L 332.617392 123.265498 
+" clip-path="url(#p2642e43851)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="12.844922" transform="rotate(-0 179.410752 12.844922)">Assigned values</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="29.953905" transform="rotate(-0 179.410752 29.953905)">Movies conflict test: Taken</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #485563" x="179.410752" y="44.711025" transform="rotate(-0 179.410752 44.711025)">Table</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #485563" x="237.380832" y="44.711025" transform="rotate(-0 237.380832 44.711025)">Director</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="59.380305" transform="rotate(-0 179.410752 59.380305)">Dirty</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="237.380832" y="59.352961" transform="rotate(-0 237.380832 59.352961)">Stanley Kubrick</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="74.520408" transform="rotate(-0 179.410752 74.520408)">Reference</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="237.380832" y="73.814939" transform="rotate(-0 237.380832 73.814939)">Stanley Kubrick</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #485563" x="179.410752" y="90.167498" transform="rotate(-0 179.410752 90.167498)">Schematic counting event</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="115.39763" transform="rotate(-0 179.410752 115.39763)">Real credit:</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #167a56" x="250.631136" y="115.39763" transform="rotate(-0 250.631136 115.39763)">Pierre Morel</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="132.963146" transform="rotate(-0 179.410752 132.963146)">Separate knowledge-conflict test</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="143.588273" transform="rotate(-0 179.410752 143.588273)">Count rewrites of assigned values</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_9">
+    <path d="M 344.023286 148.942886 
+L 508.658314 148.942886 
+L 508.658314 2.257114 
+L 344.023286 2.257114 
+z
+" clip-path="url(#pa946c1d7de)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 344.023286 18.932659 
+L 508.658314 18.932659 
+L 508.658314 2.257114 
+L 344.023286 2.257114 
+z
+" clip-path="url(#pa946c1d7de)" style="fill: #fff5dc"/>
+   </g>
+   <g id="recorded external-matching edit">
+    <path d="M 456.153984 48.004186 
+Q 456.153984 53.611891 456.153984 58.269268 
+" clip-path="url(#pa946c1d7de)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 457.453984 55.669268 
+L 456.153984 58.269268 
+L 454.853984 55.669268 
+z
+" clip-path="url(#pa946c1d7de)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 420.543792 70.877722 
+L 501.701904 70.877722 
+L 501.701904 59.957453 
+L 420.543792 59.957453 
+z
+" clip-path="url(#pa946c1d7de)" style="fill: #e8f4ed"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 349.323408 88.586266 
+L 503.358192 88.586266 
+" clip-path="url(#pa946c1d7de)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 349.323408 123.265498 
+L 503.358192 123.265498 
+" clip-path="url(#pa946c1d7de)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="12.876172" transform="rotate(-0 350.151552 12.876172)">Repair credit</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="29.248436" transform="rotate(-0 350.151552 29.248436)">Rayyan: ISSN field (row 120)</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="44.328043" transform="rotate(-0 350.151552 44.328043)">Dirty</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="424.684512" y="44.944371" transform="rotate(-0 424.684512 44.944371)">Mar-22</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="68.027275" transform="rotate(-0 350.151552 68.027275)">Saved match</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #167a56" x="424.684512" y="67.965478" transform="rotate(-0 424.684512 67.965478)">0003-3022</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #485563" x="350.151552" y="82.658068" transform="rotate(-0 350.151552 82.658068)">PMID 8916815; recorded edit</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="101.083224" transform="rotate(-0 350.151552 101.083224)">Reference</text>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9f3930" x="424.684512" y="101.021427" transform="rotate(-0 424.684512 101.021427)">22-Mar</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9f3930" x="350.151552" y="115.39763" transform="rotate(-0 350.151552 115.39763)">No reference credit</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="132.963146" transform="rotate(-0 350.151552 132.963146)">Separate field / scoring checks</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="144.247023" transform="rotate(-0 350.151552 144.247023)">External match differs from reference</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1c7209ecff">
+   <rect x="2.0448" y="1.8144" width="165.6288" height="147.5712"/>
+  </clipPath>
+  <clipPath id="p2642e43851">
+   <rect x="172.7856" y="1.8144" width="165.6288" height="147.5712"/>
+  </clipPath>
+  <clipPath id="pa946c1d7de">
+   <rect x="343.5264" y="1.8144" width="165.6288" height="147.5712"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -6,7 +6,7 @@
       "body_sha256": "265e6385a5f5da62cfb8028d8b89de01a727afc6906ebef2e1d38f1f2c9ec394"
     },
     "beers.tex": {
-      "caption": "Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total\n  O$-$S, repaired cities (of 127), and W-versus-S chunk sign tests, Holm-corrected over models.\n  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.\n  $^\\dagger$: significant as in Table~\\ref{tab:main}, corrected over eight differences.",
+      "caption": "Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total\n  O$-$S, repaired cities (O/F/W/S, of 127), and W-versus-S chunk sign tests, Holm-corrected over models.\n  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.\n  $^\\dagger$: significant as in Table~\\ref{tab:main}, corrected over eight differences.",
       "body_sha256": "f50b94faef23003602c37943cf14b562c3f78b6a756131e976b7e64291b60545"
     },
     "checks.tex": {
@@ -30,7 +30,7 @@
       "body_sha256": "c2bd642bc2d2fa013114367cc85eb5ead0effb1e47cf2391fd8cd9ccbe8318ad"
     },
     "decomposition.tex": {
-      "caption": "Identity-column repair F1 and condition contrasts at seed 0. Definitions and\n  comparison assumptions are in Section~\\ref{sec:conditions}. $^\\dagger$: significant at 0.05\n  after Holm correction over this table's 40 differences (two-sided chunk bootstrap,\n  2,000 resamples).",
+      "caption": "Identity-column repair F1 at seed 0. Nonpaired F$-$W uses fresh records; paired contrasts\n  use O/W/S. $^\\dagger$: Holm-corrected $p<0.05$ over 40 differences (two-sided chunk bootstrap,\n  2,000 resamples).",
       "body_sha256": "cc5e4aa776bfec3da37514aea7d8d84dadbed3f192683ef4ac9bada54ace8168"
     },
     "detection.tex": {

@@ -1,22 +1,15 @@
-# CoRe manuscript companion index
+# CoRe companion materials
 
-This index preserves the local links embedded in the unchanged manuscript PDF.
-The six companions provide the construction contract, experiment/scoring settings,
-Rayyan provenance, adaptation guidance, executable verification and extended displays.
+The adopted manuscript links to this index. The [full companion index](companions/README.md) connects each stable manuscript label to its technical specification and extended displays.
 
-| Topic | Companion |
-| --- | --- |
-| Controlled tables and acceptance | [Construction and acceptance](companions/01-构造与验收细则.md) |
-| Models, prompts and scoring | [Run and scoring specification](companions/02-运行与评分规格.md) |
-| Rayyan inputs, field checks and repair credit | [Rayyan retrieval and scoring](companions/03-Rayyan检索与评分材料说明.md) |
-| Adapting the protocol | [Applying CoRe](companions/04-新基准应用指南.md) |
-| Executable result checks | [Verification guide](companions/05-Public-Verification-Guide.md) |
-| Full tables and extended plots | [Extended displays](companions/06-扩展图表与结果明细.md) |
+Its reading guide maps recovery evidence, information conditions, assigned targets and reference credit to the corresponding figures, tables and Findings, without combining their different statistical objects into a new summary score.
 
-Start with the repository [README](../README.md) for execution, [data acquisition](../docs/data.md)
-for the separate local historical archive, and [result navigation](../docs/results.md)
-for all current main-paper figures and tables. The [label map](result-map.json) binds
-the manuscript numbers to these packaged products. This local candidate has not been published.
+- [Controlled-table construction and acceptance](companions/01-构造与验收细则.md)
+- [Run and scoring specification](companions/02-运行与评分规格.md)
+- [Rayyan retrieval and scoring details](companions/03-Rayyan检索与评分材料说明.md)
+- [Applying CoRe to another benchmark](companions/04-新基准应用指南.md)
+- [Public numerical replay and authorized local validation](companions/05-Public-Verification-Guide.md)
+- [Extended displays and result details](companions/06-扩展图表与结果明细.md)
+- [Archived sensitivity, output checks, exact prompt and recorded usage](companions/07-归档敏感性与输出核验.md)
 
-The [revision binding](revision-binding.json) and [revision provenance](revisions/README.md)
-identify the manuscript and presentation after VE-M01–M05; the frozen scientific results remain unchanged.
+These files accompany the current private working revision. Previous fixed archives retain their original hashes; this synchronization does not create public or reviewer access.

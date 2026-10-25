@@ -25,8 +25,8 @@ class SubmissionContract(unittest.TestCase):
         self.assertEqual(mapping['body_pages'],12)
         self.assertEqual(mapping['total_pages'],14)
         records = mapping['entries']
-        self.assertEqual(sum(r['kind']=='figure' for r in records),7)
-        self.assertEqual(sum(r['kind']=='table' for r in records),18)
+        self.assertEqual(sum(r['kind']=='figure' for r in records),8)
+        self.assertEqual(sum(r['kind']=='table' for r in records),17)
         for record in records:
             self.assertTrue((ROOT / record['manuscript_source']).is_file(),record['label'])
             for name in record['asset_paths']+record['csv_paths']:
@@ -36,7 +36,7 @@ class SubmissionContract(unittest.TestCase):
 
     def test_current_tables_and_csvs(self):
         self.assertEqual(len(list((ROOT / 'results/tables').glob('*.tex'))),19)
-        self.assertEqual(len(list((ROOT / 'results/figures').glob('*.csv'))),9)
+        self.assertEqual(len(list((ROOT / 'results/figures').glob('*.csv'))),11)
         config = json.loads((ROOT / 'code/config/paper_presentation.json').read_text())
         self.assertEqual(len(config['sources']),17)
 
@@ -54,7 +54,7 @@ class SubmissionContract(unittest.TestCase):
                      'docs/limitations.md','tools/data.py','tools/core.py','tools/check_rayyan.py',
                      'paper/companions/README.md','paper/frozen-claims.md','paper/latex/main.pdf']:
             self.assertTrue((ROOT / name).is_file(),name)
-        self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))),6)
+        self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))),7)
         replay_requirements = (ROOT / 'environment/requirements-replay.txt').read_text()
         self.assertNotIn('openai',replay_requirements)
         for path in (ROOT / 'scripts').glob('*.sh'):

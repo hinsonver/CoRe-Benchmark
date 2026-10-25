@@ -7,6 +7,20 @@ import re
 
 CONFIG = Path(__file__).resolve().parents[1] / 'config/paper_presentation.json'
 
+_MODEL_HEADER = r'    Model & O & F & W & S & F$-$W & W$-$S & O$-$S & O & F & W & S & F$-$W & O$-$W \\'
+_GROUPED_HEADER = r'''    & \multicolumn{4}{c}{Scores} & Nonpaired & \multicolumn{2}{c}{Paired} & \multicolumn{4}{c}{Scores} & Nonpaired & Paired \\
+    \cmidrule(lr){2-5}\cmidrule(lr){6-6}\cmidrule(lr){7-8}\cmidrule(lr){9-12}\cmidrule(lr){13-13}\cmidrule(l){14-14}
+''' + _MODEL_HEADER
+
+
+def group_decomposition_header(text):
+    """Group comparisons without touching a numerical or significance cell."""
+    if text.count(_MODEL_HEADER) != 1:
+        raise ValueError('expected exactly one recognized decomposition header')
+    if _GROUPED_HEADER in text:
+        return text
+    return text.replace(_MODEL_HEADER, _GROUPED_HEADER, 1)
+
 
 def caption_span(text):
     match = re.search(r'\\caption\{', text)
@@ -31,10 +45,15 @@ def project_tables(inputs):
     for name, spec in sources.items():
         text = inputs[name]
         start, end = caption_span(text)
-        digest = hashlib.sha256((text[:start] + text[end:]).encode()).hexdigest()
+        audited = text[:start] + text[end:]
+        if name == 'decomposition.tex':
+            audited = audited.replace(_GROUPED_HEADER, _MODEL_HEADER)
+        digest = hashlib.sha256(audited.encode()).hexdigest()
         if digest != spec['body_sha256']:
             raise ValueError(f'{name}: frozen non-caption content changed')
         outputs[name] = text[:start] + spec['caption'] + text[end:]
+        if name == 'decomposition.tex':
+            outputs[name] = group_decomposition_header(outputs[name])
 
     rows = []
     for line in outputs['aligned.tex'].splitlines():

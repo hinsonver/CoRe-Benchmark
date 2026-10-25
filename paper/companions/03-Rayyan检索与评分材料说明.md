@@ -1,6 +1,6 @@
 # Rayyan retrieval and scoring details
 
-This companion supports the manuscript's reference-quality analysis. Packaged [retrieval status](../../data/provenance/rayyan/retrieval-status.json) and [remote-search provenance](../../data/provenance/rayyan/remote-search.json) describe the retained historical evidence; no new PubMed query or revised ground truth is introduced.
+This companion specifies title retrieval, field checks and the two scored Rayyan input versions. It describes saved retrieval evidence; no new PubMed query or revised ground truth is introduced.
 
 ## Audit input and mechanical transformations
 
@@ -26,7 +26,7 @@ The date field is `article_jcreated_at`; its exact dataset semantics are undocum
 
 With N_h error-type populations, m_h matches and b_h failed reference checks, the estimate is the sum of `(N_h/948)*(b_h/m_h)`: 95.2%, interval 91.2%–97.8%. It uses the audit input's 948-cell composition. The 722-cell date stratum carries most weight. The 5,000 bootstrap draws resample saved binary outcomes within matched strata with seed 0 and fixed weights. The interval conditions on the selected matches and field criteria, without matching uncertainty or dependence between cells sharing a PMID.
 
-Saved records include query titles, PMIDs, compared field values and outcomes, the publication year for dates, and a text prefix for encoding. Complete candidate responses, returned titles and similarity scores are not retained. The [archived remote search](../../data/provenance/rayyan/remote-search.json) found matching early JSON/logs/programs but did not recover an additional complete candidate-response chain. [rayyan_audit.py](../../code/src/rayyan_audit.py) describes the historical query/check logic; the public replay uses saved matches and outcomes rather than issuing fresh searches.
+Saved records include query titles, PMIDs, compared field values and outcomes, the publication year for dates, and a text prefix for encoding. Complete candidate responses, returned titles and similarity scores are not retained. The remote search in record 17 found matching early JSON/logs/programs but did not recover an additional complete candidate-response chain. `code/src/rayyan_audit.py` describes the historical query/check logic; the public replay uses saved matches and outcomes rather than issuing fresh searches.
 
 ## Repair credit and input versions
 
@@ -36,7 +36,7 @@ TabClean's distributed input has 960 differences. It removes commas, represents 
 
 The remaining 850 rows have 808 errors. There are 498 effective edits and 461 credited repairs, so `F1=2*461/(498+808)=0.71` after rounding. Of the 461 credited repairs, 434 (94%) reproduce the reference date transformation. This is a count of credited output transformations, not a claim about the method's intent or a new externally rescored ranking.
 
-The entry is [tools/check_rayyan.py](../../tools/check_rayyan.py); it binds audit and TabClean inputs, development indices and output to the recorded versions. See the [Rayyan replay guide](../../docs/rayyan-replay.md), [retrieval status](../../data/provenance/rayyan/retrieval-status.json), [remote-search provenance](../../data/provenance/rayyan/remote-search.json) and [verification guide](05-Public-Verification-Guide.md).
+The entry is [tools/check_rayyan.py](../../tools/check_rayyan.py); it binds audit and TabClean inputs, development indices and output to the recorded versions. See [Public verification](05-Public-Verification-Guide.md) and the [data guide](../../docs/data.md).
 
 ## Other reference examples
 

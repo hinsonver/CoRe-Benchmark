@@ -1,0 +1,9 @@
+panel,dataset,row,field,condition,dirty,reference,external,note
+recovery,movies,7,Id,O,american_ultra,tt3316948,,Public identity mapping in O; arbitrary reference IDs in W/S
+recovery,movies,7,Year,O,2014 2015 2016,2015,,Same candidate years in O/W/S
+recovery,movies_surrogatewords,7,Id,W,mill_brook,tt1095783,,Public identity mapping in O; arbitrary reference IDs in W/S
+recovery,movies_surrogatewords,7,Year,W,2014 2015 2016,2015,,Same candidate years in O/W/S
+recovery,movies_surrogate,7,Id,S,jouvas_of_quenula_pimtas_kelosk_wexny,tt9636956,,Public identity mapping in O; arbitrary reference IDs in W/S
+recovery,movies_surrogate,7,Year,S,2014 2015 2016,2015,,Same candidate years in O/W/S
+assigned,_near/movies/real,490,Director,,Stanley Kubrick,Stanley Kubrick,Pierre Morel,Taken: dirty and reference assign Stanley Kubrick; arrow is a schematic counting event
+credit,rayyan,120,journal_issn,,Mar-22,22-Mar,0003-3022,Saved PMID 8916815 match; recorded edit earns no reference repair credit

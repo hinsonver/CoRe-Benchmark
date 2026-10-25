@@ -1,7 +1,6 @@
 \begin{table*}[t]
-  \caption{Identity-column repair F1 and condition contrasts at seed 0. Definitions and
-  comparison assumptions are in Section~\ref{sec:conditions}. $^\dagger$: significant at 0.05
-  after Holm correction over this table's 40 differences (two-sided chunk bootstrap,
+  \caption{Identity-column repair F1 at seed 0. Nonpaired F$-$W uses fresh records; paired contrasts
+  use O/W/S. $^\dagger$: Holm-corrected $p<0.05$ over 40 differences (two-sided chunk bootstrap,
   2,000 resamples).}
   \label{tab:main}
   \small
@@ -9,6 +8,8 @@
     \toprule
     & \multicolumn{7}{c}{Hospital} & \multicolumn{6}{c}{Movies} \\
     \cmidrule(lr){2-8}\cmidrule(l){9-14}
+    & \multicolumn{4}{c}{Scores} & Nonpaired & \multicolumn{2}{c}{Paired} & \multicolumn{4}{c}{Scores} & Nonpaired & Paired \\
+    \cmidrule(lr){2-5}\cmidrule(lr){6-6}\cmidrule(lr){7-8}\cmidrule(lr){9-12}\cmidrule(lr){13-13}\cmidrule(l){14-14}
     Model & O & F & W & S & F$-$W & W$-$S & O$-$S & O & F & W & S & F$-$W & O$-$W \\
     \midrule
     DeepSeek-V4-Pro & 0.88 & 0.95 & 0.50 & 0.16 & +0.45$^\dagger$ & +0.34$^\dagger$ & +0.72$^\dagger$ & 0.36 & 0.45 & 0.04 & 0.01 & +0.41$^\dagger$ & +0.32$^\dagger$ \\

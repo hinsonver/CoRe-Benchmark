@@ -1,0 +1,10 @@
+{
+  "version": "2.19",
+  "class_noncomment_lines_matched": 3549,
+  "class_sha256": "2f949e6e3f2a79f2cdc218b9dcdbaa7dd451adb4ee0be1af6dc7ebe00b318ea7",
+  "source_sha256": "4e2fd29fc8a45c3d02facb616ed29954d7932891883185460bf374303036f3e1",
+  "official_template_commit": "39c95f5c6fcbe652a83be24e4eff8f2134cd3fbc",
+  "class_source_url": "https://github.com/borisveytsman/acmart/blob/v2.19/acmart.dtx",
+  "source_git_blob": "71d4191036a7a7575f0592ef5f447311f7b158c6",
+  "method": "ordered exact noncomment class-code lines in original source after removing single-line docstrip guards; no TeX regeneration claimed"
+}
