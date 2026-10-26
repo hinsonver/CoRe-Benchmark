@@ -15,6 +15,15 @@ import subprocess
 import sys
 import uuid
 
+if __package__:
+    from . import model_access
+elif __name__ == "__main__":
+    import model_access
+else:  # File-based loaders used by the offline execution contracts.
+    _access_spec = importlib.util.spec_from_file_location("core_model_access", Path(__file__).with_name("model_access.py"))
+    model_access = importlib.util.module_from_spec(_access_spec)
+    _access_spec.loader.exec_module(model_access)
+
 ROOT = Path(__file__).resolve().parents[1]
 TABCLEAN_COMMIT = "ae292b6ff8118c8786cd7c97364e9a8a07f00b62"
 ROUTES = ("cleaning", "continuation", "conflicts", "aligned-llm", "aligned-baran", "baran", "tabclean", "rayyan-retrieval")
@@ -38,6 +47,7 @@ def parser():
     action = p.add_mutually_exclusive_group()
     action.add_argument("--plan", action="store_true", help="print a read-only plan (the default)")
     action.add_argument("--preflight", action="store_true", help="check local inputs/configuration, without service calls")
+    action.add_argument("--check-model", action="store_true", help="query only the selected model's catalogue metadata; requires --allow-network")
     action.add_argument("--execute", action="store_true", help="explicitly attempt this one archived experiment")
     p.add_argument("--experiment", choices=ROUTES, required=True)
     p.add_argument("--dataset", required=True)
@@ -55,6 +65,7 @@ def parser():
     p.add_argument("--tabclean-root", help="explicit externally installed pinned TabClean checkout")
     p.add_argument("--allow-network", action="store_true", help="acknowledge endpoint/data-transfer risk for execution")
     p.add_argument("--allow-paid-api", action="store_true", help="additional acknowledgement of hosted API costs")
+    p.add_argument("--confirm-model-version", help="repeat the exact archived provider:model after checking it with your provider; required for hosted generation")
     return p
 
 
@@ -79,6 +90,8 @@ def safe_output(value, root):
 
 def make_plan(a, root=ROOT):
     root = Path(root).resolve()
+    if a.confirm_model_version and a.confirm_model_version != a.model:
+        raise ValueError("model confirmation must equal the exact requested archived provider:model")
     if a.workers < 1 or a.workers > 16:
         raise ValueError("workers must be between 1 and 16")
     if a.construction_seed not in (0, 1, 2):
@@ -106,6 +119,8 @@ def make_plan(a, root=ROOT):
     if a.experiment not in ("baran", "aligned-baran") and a.algorithm_seed:
         raise ValueError("algorithm seed applies only to Baran")
     needs_model = a.experiment not in ("baran", "aligned-baran", "rayyan-retrieval")
+    if not needs_model and (a.check_model or a.confirm_model_version):
+        raise ValueError("model checks/confirmation require a model experiment")
     if needs_model and a.model not in MODELS:
         raise ValueError("model must be an exact archived identifier, not a substitute")
     if needs_model and not continuation and "olmo" in a.model.lower():
@@ -187,7 +202,7 @@ def make_plan(a, root=ROOT):
     if a.experiment == "tabclean":
         dependencies += ["langchain_openai", "langgraph", "dateutil"]
     private = any(relative in sources["private_files"] for relative in inputs)
-    return {"schema_version": 1, "action": "execute" if a.execute else "preflight" if a.preflight else "plan",
+    return {"schema_version": 1, "action": "execute" if a.execute else "check_model" if a.check_model else "preflight" if a.preflight else "plan",
             "experiment": a.experiment, "module": module, "entrypoint": entrypoint, "invocation": invocation,
             "model": a.model if needs_model else None, "dataset": a.dataset, "table": table,
             "construction_seed": a.construction_seed, "algorithm_seed": a.algorithm_seed,
@@ -301,14 +316,8 @@ def preflight(plan, a, root=ROOT):
             blockers.append("frozen input hash differs: " + relative)
         else:
             resolved[relative] = str(path)
-    required_env = []
-    if plan["model"]:
-        provider = plan["model"].split(":", 1)[0]
-        required_env = ["LOCAL_BASE_URL"] if provider in ("local", "localbase") else ["OPENAI_API_KEY"] if provider == "openai" else ["CUSTOM_BASE_URL", "CUSTOM_API_KEY"]
-        absent = [key for key in required_env if not os.environ.get(key)]
-        blockers += ["missing environment variable: " + key for key in absent]
-        if provider not in ("local", "localbase"):
-            blockers.append("historical hosted endpoint/version availability is not established; no replacement is authorized")
+    config = model_access.configuration(plan["model"])
+    blockers.extend(config["issues"])
     upstream = None
     tabclean_verified = False
     if plan["experiment"] == "tabclean":
@@ -316,15 +325,21 @@ def preflight(plan, a, root=ROOT):
         source_blockers = verify_tabclean_checkout(upstream)
         blockers.extend(source_blockers)
         tabclean_verified = not source_blockers
-        # The historical hosted backbone is unavailable regardless of checkout presence.
     return {"status": "blocked" if blockers else "ready_to_attempt", "blockers": blockers,
-            "dependencies_missing": missing, "required_environment": required_env,
-            "environment_present": {key: bool(os.environ.get(key)) for key in required_env},
+            "dependencies_missing": missing, "required_environment": config["required_environment"],
+            "environment_present": config["environment_present"], "configuration_check": config,
+            "model_version_check": model_access.version_check(plan["model"], a.confirm_model_version),
             "service_status": "not_contacted", "network_used": False, "response_cache_read": False,
             "resolved_inputs": resolved, "tabclean_root": str(upstream) if upstream else None,
             "tabclean_source_verified": tabclean_verified,
             "tabclean_required_commit": TABCLEAN_COMMIT if upstream else None,
             "historical_versions_reverified": False, "private_inputs_verified": private_ok}
+
+
+def check_model(plan, a):
+    # Independent of input/dependency preflight: metadata lookup does not need an
+    # SDK, private Movies data, experiment imports, prompts or response caches.
+    return model_access.lookup_model(plan["model"], allow_network=a.allow_network)
 
 
 # This adapter is evaluated only in a fresh subprocess after all execution gates.
@@ -424,6 +439,8 @@ def execute(plan, a, root=ROOT):
         blockers.append("execution requires --allow-network; this is not service verification")
     if plan["model"] and not plan["model"].startswith(("local:", "localbase:")) and not a.allow_paid_api:
         blockers.append("hosted execution additionally requires --allow-paid-api")
+    if plan["model"] and not plan["model"].startswith(("local:", "localbase:")) and a.confirm_model_version != plan["model"]:
+        blockers.append("hosted execution requires --confirm-model-version with the exact archived provider:model")
     if blockers:
         return {**check, "status": "blocked", "blockers": blockers}
     output = safe_output(plan["output_directory"], root)
@@ -437,7 +454,7 @@ def execute(plan, a, root=ROOT):
         target = output / destination
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(check["resolved_inputs"][relative], target)
-    env = {k: v for k, v in os.environ.items() if not k.startswith("CORE_")}
+    env = model_access.execution_environment(plan["model"])
     env.update(plan["environment_overrides"])
     env.update({"CORE_ARTIFACT_ROOT": str(Path(root).resolve()), "CORE_MODE": "public",
                 "PYTHONPATH": str(Path(root).resolve() / "code"), "PYTHONDONTWRITEBYTECODE": "1",
@@ -462,12 +479,12 @@ def main(argv=None):
     a = p.parse_args(argv)
     try:
         plan = make_plan(a)
-        result = execute(plan, a) if a.execute else preflight(plan, a) if a.preflight else plan
+        result = execute(plan, a) if a.execute else check_model(plan, a) if a.check_model else preflight(plan, a) if a.preflight else plan
     except (ValueError, OSError, KeyError, TypeError) as error:
         print(json.dumps({"status": "rejected", "reason": str(error)}))
         return 2
     print(json.dumps(result, indent=2))
-    return 3 if result.get("status") in ("blocked", "failed") else 0
+    return 3 if result.get("status") in ("blocked", "failed") or (a.check_model and result.get("status") != "model_identifier_advertised") else 0
 
 
 if __name__ == "__main__":

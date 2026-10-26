@@ -64,4 +64,10 @@ Use a fresh output directory. A completed integrated historical check retains ex
 
 Private hosting does not establish that a particular reviewer can access the repository, submission eligibility, public availability or third-party redistribution rights. No public release or change of repository visibility is implied. Applicable source terms, provider terms and [original notices](../LICENSES.md) still apply; CoRe's code license does not relicense data or archived replies. Any public publication or wider sharing requires separate approval and the relevant rights.
 
-Hosting the exact archive does not recover the older continuation scoring source, the 12 missing whole-table correction lists or missing historical Rayyan responses and encoding evidence. It does not establish that the original Qwen and DeepSeek APIs remain available. The [limitations](limitations.md) and [coverage matrix](../REPRODUCTION.json) retain those boundaries; these downloads make no new model or PubMed calls.
+Hosting the exact archive does not recover the older continuation scoring source, the 12 missing whole-table correction lists or missing historical Rayyan responses and encoding evidence. It does not establish historical model-version availability. The [limitations](limitations.md) and [coverage matrix](../REPRODUCTION.json) retain those boundaries; these downloads make no new model or PubMed calls.
+
+The fixed `v0.2.0` core ZIP keeps its original code and hashes. For the updated
+reviewer-owned API entrypoint, use the current repository checkout and its
+[execution guide](experiment-execution.md). The historical ZIP, installation gate,
+paper PDFs and accepted statistical replay are unchanged. No author API key is
+included or required; fresh hosted calls use the reviewer's own credentials.

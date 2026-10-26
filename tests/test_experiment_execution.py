@@ -160,7 +160,9 @@ class ExperimentExecutionTests(unittest.TestCase):
         a = self.args(m, "--model", "custom:deepseek/deepseek-v4-pro", "--preflight")
         with patch.dict(os.environ, {"CUSTOM_BASE_URL": "https://invalid.example", "CUSTOM_API_KEY": "not-a-key"}):
             result = m.preflight(m.make_plan(a, ROOT), a, ROOT)
-        self.assertTrue(any("historical hosted" in b for b in result["blockers"]))
+        self.assertFalse(any("historical hosted" in b for b in result["blockers"]))
+        self.assertFalse(result["historical_versions_reverified"])
+        self.assertEqual(result["model_version_check"]["confirmation"], "not_confirmed")
         self.assertNotIn("not-a-key", json.dumps(result))
         self.assertEqual(result["service_status"], "not_contacted")
 

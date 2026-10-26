@@ -1,4 +1,4 @@
-# Original experiment execution: plan and preflight
+# Original experiment execution with reviewer-owned credentials
 
 The packaged statistical replay recomputes published results from frozen responses.
 It is not a fresh run of the models. `tools/experiments.py` separately describes and
@@ -6,19 +6,25 @@ preflights one original experiment at a time, and contains an explicitly gated
 adapter to the retained experiment modules. It does not invent missing model
 responses or use public numerical Movies witnesses as model inputs.
 
-No experiment, service call, model download, training or PubMed query was performed
-to prepare this entrypoint. The historical hosted versions are not established as
-available now. In particular, the frozen decision records that the original Qwen
-and DeepSeek APIs could no longer be used. Supplying another endpoint with a
-similar model name is not a reproduction and is not authorized by this tool.
+Historical replay uses the supplied inputs, replies and intermediate records; it
+needs no API key. For fresh hosted runs, reviewers use their own accounts, keys
+and service quotas and pay their own provider's charges. No author credential,
+shared account or prepaid author quota is part of this artifact.
+
+The author's former Qwen/DeepSeek access path stopped working; this does not
+establish that the same versions are unavailable to other accounts. The entrypoint
+therefore checks configuration separately from model identity. It keeps the exact
+archived identifiers and never silently substitutes a similar model. No model,
+catalogue or PubMed request was made to prepare and test this revision.
 
 ## Safe starting commands
 
 Run these from the package root, using Python 3.11. `--plan` is the default.
 Both plan and preflight are read-only: they do not import experiment clients,
 read response caches, load `.env` files, write run directories or contact services.
-Preflight checks local file hashes, Python module availability and environment
-variable presence; it never prints credential or endpoint values.
+Preflight checks local file hashes, Python module availability and credential /
+endpoint configuration; it never prints credential or endpoint values. Only the
+separate `--check-model --allow-network` action contacts a model catalogue.
 
 ```sh
 python3 tools/experiments.py --help
@@ -30,9 +36,12 @@ A plan names the exact module/function, arguments, frozen inputs and their hashe
 historical output and hash, and proposed output directory. Preflight returns
 `blocked` with concrete missing inputs/software/configuration, or
 `ready_to_attempt`. The latter only means local preconditions are present:
-`service_status` remains `not_contacted` and historical checkpoint equivalence
-remains unverified. Exit codes are 0 for a plan or locally satisfied preflight,
-2 for rejected scope/path requests, and 3 for blocked preflight or failed execution.
+`service_status` remains `not_contacted`. `configuration_check` reports local
+configuration, while `model_version_check` reports the selected archived identifier
+and the operator's confirmation separately. Neither proves historical checkpoint
+equivalence. Exit codes are 0 for a plan, locally satisfied preflight, successful
+execution or matching catalogue identifier; 2 for rejected scope/path requests;
+and 3 for blocked/failed execution or an unsuccessful catalogue check.
 
 ## Routes and frozen scope
 
@@ -44,7 +53,7 @@ remains unverified. Exit codes are 0 for a plan or locally satisfied preflight,
 | Aligned LLM cleaning | `src.aligned.llm` | One frozen condition and copied frozen label indices; 20 labels and original perfect-detection repair prompt; 4096-token budget. |
 | Aligned Baran | `src.aligned.baran_chunks` | Same frozen labels/condition; one archived algorithm run seed 0, 1 or 2. |
 | Whole-table Baran | `src.e5_baselines` with `--mode perfect` | Frozen condition, 20 sampled labeled tuples, one archived algorithm seed; pretrained value models disabled. |
-| TabClean | Explicitly configured external `pipeline`/`main` modules | Frozen archived TabClean input pair, not a substituted audit table; original DeepSeek backbone and development split; separate pinned upstream checkout. Currently blocked by historical hosted-version availability. |
+| TabClean | Explicitly configured external `pipeline`/`main` modules | Frozen archived TabClean input pair, original DeepSeek backbone and development split; separate pinned upstream checkout. Requires the reviewer's hosted credentials, exact model confirmation and upstream/dependency checks. |
 | Rayyan reference retrieval | `src.rayyan_audit.pubmed` and `judge` | The accepted, hash-bound 279-cell sample and original title-matching/judgment rules; no new sampling and no original audit replacement. Future retrieval needs explicit network authorization. |
 
 Cleaning supports Hospital and Movies F/W/S construction seeds 0, 1 and 2, plus
@@ -147,19 +156,83 @@ checkpoint revision or serving environment is provided by the client dependency
 file. The relevant selected checkpoint must already exist and match the historical
 configuration. The planner never starts a server or downloads weights.
 
-Hosted `openai` uses `OPENAI_API_KEY`; archived relay runs use `CUSTOM_BASE_URL`
-and `CUSTOM_API_KEY`. Environment presence is reported only as true/false.
-Hosted runs remain blocked because historical endpoint/version availability has
-not been established; cost acknowledgement does not bypass that blocker.
+## Reviewer configuration and model identity
+
+Hosted `openai` uses your `OPENAI_API_KEY` (or the retained `GPT_API_KEY` fallback),
+with the default OpenAI endpoint or your `OPENAI_BASE_URL`. Archived `custom` relay
+runs use your `CUSTOM_BASE_URL` and `CUSTOM_API_KEY`. The endpoint must accept the
+exact archived model name after the colon, including its namespace. A provider's
+different alias is not automatically treated as the same version. Keys from one
+provider are not credentials for another provider's endpoint.
+
+Set values in your own session or secret manager, not in source files or a
+committed configuration. For example, in **Bash** the following reads your relay
+key without echoing it or putting its value in shell history:
+
+```bash
+export CUSTOM_BASE_URL="https://your-compatible-provider.example/v1"
+read -r -s -p "Your relay API key: " CUSTOM_API_KEY
+export CUSTOM_API_KEY
+```
+
+Replace the example endpoint with your provider's actual compatible endpoint.
+The tool does not load `.env` files. `.env`/`.env.*` and run outputs under `build/`
+are ignored by Git; do not force-add them. Configuration reports contain variable
+names and status only. Hosted URLs require HTTPS, except loopback HTTP for local
+test services, and may not embed credentials, queries or fragments. Optional
+`CUSTOM_EXTRA_BODY` must be a JSON object and cannot override the selected model,
+credentials, messages or frozen request arguments. Leave it unset to retain the
+archived client defaults; if supplied, it must exactly match the selected model's
+archived thinking/reasoning settings, including for TabClean.
+
+Check local setup first; this performs no service request:
+
+```sh
+python tools/experiments.py --experiment cleaning --dataset hospital --model custom:deepseek/deepseek-v4-pro --preflight
+```
+
+To inspect only the provider's catalogue entry, explicitly enable network access:
+
+```sh
+python tools/experiments.py --experiment cleaning --dataset hospital --model custom:deepseek/deepseek-v4-pro --check-model --allow-network
+```
+
+This sends one authenticated `GET /models/<encoded-exact-identifier>` request,
+without table data, a generation prompt or a response-cache read. Redirects are
+refused and environment-configured proxies are not used for this request.
+The operation follows the [OpenAI model-retrieval interface](https://developers.openai.com/api/reference/resources/models/methods/retrieve);
+third-party compatible endpoints need not implement this metadata operation.
+`model_identifier_advertised` means the returned `id` exactly matches the requested
+identifier. It does not test generation entitlement, balance, context limits or
+immutable historical weights. Authentication (401), authorization (403), rate
+limits, network failure, malformed replies and name mismatch have separate statuses.
+A 404/405 can mean a missing model **or an unsupported catalogue operation**; it
+is not proof that the historical model was retired.
+
+If the endpoint does not support catalogue lookup, check the exact model/version
+with your provider's documentation or account console. Before generation, repeat
+the selected full `provider:model` in `--confirm-model-version`. This records the
+operator's identity confirmation, not a repository-certified historical checkpoint.
+`historical_versions_reverified` remains false; service-side alias changes cannot
+be resolved from an unchanged name alone. Catalogue lookup is optional, so an
+unsupported metadata operation does not permanently disable an otherwise usable
+generation endpoint.
 
 ## Explicit future execution and output isolation
 
-Actual model execution is outside this preparation task and the frozen manuscript
-does not authorize new runs. If the author later explicitly authorizes a permitted
-historical rerun and its network/data transfer, the same command may add both
-`--execute --allow-network`, and hosted runs additionally require
-`--allow-paid-api`. These flags acknowledge risks; they do not grant dataset rights,
-unfreeze experiments, override missing software, or authorize model substitutions.
+To rerun an archived configuration with your own account, add
+`--execute --allow-network`; hosted runs also require `--allow-paid-api` and
+`--confirm-model-version` with exactly the selected full identifier. For example:
+
+```sh
+python tools/experiments.py --experiment cleaning --dataset hospital --model custom:deepseek/deepseek-v4-pro --execute --allow-network --allow-paid-api --confirm-model-version custom:deepseek/deepseek-v4-pro
+```
+
+This is a real generation command and may incur charges: run it only when you
+intend to send the selected input to your provider. The flags acknowledge the
+operator's choice; they do not grant dataset rights, override missing software,
+authorize substitutions or change the accepted paper results. This revision was
+tested offline and did not execute that command against a hosted service.
 
 Every attempt requires a **new**, non-symlink directory below
 `build/experiment-runs/`, generated automatically or selected by `--output-dir`.
@@ -169,7 +242,14 @@ the real modules. The adapter never runs the intentionally disabled
 `src.pipeline`, writes original archives, rebuilds frozen tables, or replaces
 frozen labels. A run records `execution.json`, `execution.log`, separate generated
 outputs and any new cache/usage records. `CORE_*` variables inherited from another
-workflow cannot redirect this run. Authorized Movies outputs remain private work
+workflow cannot redirect this run. A runtime-variable allowlist forwards ordinary
+shell/locale/library settings and the selected provider's configuration, not other
+provider keys, AWS credentials, database connection variables or Python startup
+injection settings. This is environment filtering, not a filesystem or code
+sandbox; TabClean still requires an isolated environment. Metadata does not
+contain key or endpoint values. Treat runtime logs and
+new replies as private work products and inspect them before sharing: a provider
+or an external method may include sensitive text in an error. Authorized Movies outputs remain private work
 files under `build/`; they are not permission to redistribute movie records.
 
 The new process's successful exit is not scientific acceptance, a newly accepted
