@@ -2,6 +2,7 @@ import json
 from pathlib import Path
 import os
 import subprocess
+import sys
 import tempfile
 import unittest
 
@@ -14,7 +15,7 @@ class ReproductionTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             env = {
                 **os.environ,
-                "PYTHON": os.environ.get("PYTHON", "python3"),
+                "PYTHON": os.environ.get("PYTHON", sys.executable),
                 "CORE_MPLCONFIG_DIR": str(ROOT / "build/test-mplconfig"),
             }
             subprocess.run(

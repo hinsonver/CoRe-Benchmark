@@ -2405,6 +2405,16 @@
     "paper_consumer": "paper"
   },
   {
+    "relative_path": "results/derived/uniform-continuation-provenance.md",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/derived/uniform_continuation.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
     "relative_path": "results/derived/validate_tables.json",
     "kind": "summary",
     "paper_consumer": "paper"

@@ -14,8 +14,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT), str(ROOT / 'code')]
-MAIN_SHA = '40f4bc0a616759310fd94f7c21bea01fe9bd9c9184ec16886aa0c07a5bec15e6'
-PDF_SHA = 'bee3fe95e538b83a38c5a62ec62eccdc2430fc9a11c3cf9c92b02594111f8158'
+MAIN_SHA = 'ba9f2eacdc984c8324f283fb8278f118f0ac2eaac3f29719a8630dcca681e8a9'
+PDF_SHA = '2b6e5fdd814658307f77e1d1da86fa699c574ecd100474a0838598a206ff2e8e'
 
 
 class CurrentRevision(unittest.TestCase):
@@ -30,7 +30,7 @@ class CurrentRevision(unittest.TestCase):
         self.assertEqual(len(re.findall(r'\\label\{find:', text)), 7)
         self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))), 0)
         self.assertEqual(hashlib.sha256((ROOT / 'paper/CoRe-Supplementary-Technical-Report.pdf').read_bytes()).hexdigest(),
-                         '1c7179b97f99befd038a2592d4e61e3b5b6a05c311537595450bc8b32b6202d4')
+                         'ce23abbc850bcd4ac4df205bddf31d49569423d8e501e75193ae2388914c090c')
         self.assertEqual(len(list((ROOT / 'results/figures').glob('*.csv'))), 11)
 
     def test_current_display_projects_19_tables_exactly(self):

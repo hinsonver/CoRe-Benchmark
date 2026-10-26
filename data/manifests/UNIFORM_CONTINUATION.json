@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "criterion": "current_full",
+  "files": {
+    "results/derived/uniform_continuation.json": "a7c5bf2be91212a075b33a3b322ee333d029e1e2f9d9a63ba4ab3252a3fe4c9b"
+  },
+  "provenance": {
+    "independent_results_sha256": "28708ba93ddb65cbbe0b45cecac368c58fc73dbf4a6667660563e12293f5d478",
+    "independent_summary_sha256": "bcee3a681d1b0e4ced226a5a5437ff972ee1b079b75af3e8b5adff900c70ebc8",
+    "export_source_sha256": "aba50104310b2d418783c9dcc13b86da90766a84126c4c3e0b62a05d1dcd9611",
+    "independent_integer_agreement": {
+      "archives": 168,
+      "comparisons": 672
+    },
+    "original_archives_retained": true,
+    "historical_mismatch": {
+      "archives": 12,
+      "summary_leaves": 253,
+      "old_source_recovered": false
+    }
+  }
+}

@@ -28,7 +28,7 @@ Packaged products are in [results/tables](../results/tables/) and [results/figur
 | `tab:recoverability` | Recovery evidence categories | [main.tex](../paper/latex/main.tex) |
 | `tab:construction` | Controlled-table sources and scale | [construction.tex](../results/tables/construction.tex) |
 | `tab:movieserrors` | Movies error-transfer mechanisms | [movieserrors.tex](../results/tables/movieserrors.tex) |
-| `tab:p1` | Saved continuation-probe results | [p1.tex](../results/tables/p1.tex) |
+| `tab:p1` | Uniform full-table-screen continuation reanalysis | [p1.tex](../results/tables/p1.tex), [integer provenance](../results/derived/uniform-continuation-provenance.md) |
 | `tab:main` | Identity-column repair and condition contrasts | [decomposition.tex](../results/tables/decomposition.tex) |
 | `tab:detection` | Detection versus repair | [detection.tex](../results/tables/detection.tex) |
 | `tab:counts` | Near-zero repair counts; separate eight-model Holm families by dataset | [counts.tex](../results/tables/counts.tex) |

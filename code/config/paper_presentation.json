@@ -6,8 +6,8 @@
       "body_sha256": "265e6385a5f5da62cfb8028d8b89de01a727afc6906ebef2e1d38f1f2c9ec394"
     },
     "beers.tex": {
-      "caption": "Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total\n  O$-$S, repaired cities (O/F/W/S, of 127), and W-versus-S chunk sign tests, Holm-corrected over models.\n  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.\n  $^\\dagger$: significant as in Table~\\ref{tab:main}, corrected over eight differences.",
-      "body_sha256": "f50b94faef23003602c37943cf14b562c3f78b6a756131e976b7e64291b60545"
+      "caption": "Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total\n  O$-$S, repaired cities (O/F/W/S, of 127), and exact W-versus-S chunk sign tests, Holm-corrected over models.\n  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.\n  $^\\dagger$: significant as in Table~\\ref{tab:main}, corrected over eight differences.",
+      "body_sha256": "36529feadbedc4b166580ee7823f05b4e68441552e92cf0ce8c0e2ec609c8c5e"
     },
     "checks.tex": {
       "caption": "Acceptance checks, run on every controlled table before any model sees it: 506 checks over 21 tables.",
@@ -54,12 +54,12 @@
       "body_sha256": "d351f9927244b2f5e589b1f39860ade8c045be1d1584342fd8133cbf03735c78"
     },
     "p1.tex": {
-      "caption": "Highest hard-cell continuation accuracy over datasets for each context.\n  Columns distinguish clean/dirty context, dataset naming and error-row selection.\n  Leakage counts clean reference values written from dirty context.",
-      "body_sha256": "4395b7c61a0161b27dfeada8506257526c0206bbedd468dcdb69acff35a5b663"
+      "caption": "Highest hard-cell continuation accuracy over datasets under the full-table structural screen.\n  Columns distinguish clean/dirty context, naming and error-row selection.\n  Leakage pools clean-reference hits from dirty context over hard erroneous cell-trials.",
+      "body_sha256": "99eff812feda5c053cc26933363448162bccc850fa7544dea6f41d0615208493"
     },
     "publicverification.tex": {
-      "caption": "Public verification entries for the three analyses. Movies uses numerical witnesses\n  for cleaning and conflict results, and saved summaries for the continuation probe. The README\n  maps each entry to its input files and generated results.",
-      "body_sha256": "9617381a9265ff96b8482d427f54d365be45a2a1e0d13573c6cd6ca26bc097fb"
+      "caption": "Public verification entries for the three analyses. Movies uses numerical witnesses\n  for cleaning and conflict results, and separately bound uniform continuation counts. The README\n  maps each entry to its input files and generated results.",
+      "body_sha256": "37be68c50e89d74b9d18ef65ead654da99c4e25fb23b9a2483ec778439837565"
     },
     "rayyan.tex": {
       "caption": "Rayyan's stratified field checks. $N_h$: error population; $n_h$: sampled;\n  $m_h$: title-matched; $b_h$: failed reference checks; $d_h$: passed dirty checks.\n  A dash denotes an unassessed dirty-side check.",

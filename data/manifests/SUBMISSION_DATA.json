@@ -295,7 +295,9 @@
       "tools/check_screening.py": "60c49131a324ecc600749c17d2c83e16c768518556ef1ccd642c325860e1b638",
       "tools/check_rayyan.py": "b48b0df6f82e139de3afe09a3187a12356500416a330a77451b67c1225e6005d"
     },
-    "publication_status": "local_only_not_published"
+    "publication_status": "private_repository_asset",
+    "download_url": "https://github.com/hinsonver/CoRe-Benchmark/releases/download/v0.2.0-review-private-20261026/CoRe-submission-VE-M01-M05-historical.zip",
+    "release_tag": "v0.2.0-review-private-20261026"
   },
   "upstream_snapshots": [
     {

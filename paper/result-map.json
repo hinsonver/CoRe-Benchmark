@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "manuscript_sha256": "40f4bc0a616759310fd94f7c21bea01fe9bd9c9184ec16886aa0c07a5bec15e6",
-  "compiled_pdf_sha256": "bee3fe95e538b83a38c5a62ec62eccdc2430fc9a11c3cf9c92b02594111f8158",
+  "manuscript_sha256": "d82436439960937130998977501de2cf4842d999f73ebd2c892c32043b72a35b",
+  "compiled_pdf_sha256": "b8fb43edd698cdf7eeca2c98c645ff4190d713e5ce9fbe94628cd90dc2d69abe",
   "body_pages": 12,
   "total_pages": 14,
   "entries": [
@@ -127,7 +127,7 @@
       "kind": "table",
       "label": "tab:construction",
       "number": "4",
-      "page": "5",
+      "page": "6",
       "claim": "C1/design",
       "manuscript_source": "paper/latex/tables/construction.tex",
       "asset_paths": [],
@@ -161,18 +161,19 @@
       "kind": "table",
       "label": "tab:p1",
       "number": "6",
-      "page": "6",
+      "page": "7",
       "claim": "C1/design",
       "manuscript_source": "paper/latex/tables/p1.tex",
       "asset_paths": [],
       "reference_table": "results/tables/p1.tex",
       "csv_paths": [],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
-      "evidence_scope": "Saved continuation summaries and included non-Movies trials; no claim of complete raw-trial rejudgment",
+      "generator": "code/src/uniform_continuation.py + code/src/paper_tables.py + code/src/paper_presentation.py",
+      "evidence_scope": "Uniform full-source structural-screen integer counts; original summaries retained separately; see docs/continuation-scoring.md",
       "claims": [
         "C1"
-      ]
+      ],
+      "additional_raw_scoring_entry": "python tools/score_continuations.py --output build/raw-continuations"
     },
     {
       "kind": "table",
@@ -275,7 +276,7 @@
       "csv_paths": [],
       "entry": "python tools/core.py reproduce --output build/replayed",
       "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
-      "evidence_scope": "Included Beers archived chunks, summary statistics and historical F-input provenance",
+      "evidence_scope": "Archived raw-derived repair/block counts; exact binomial probabilities enter eight-model Holm before rounding; historical F input retained",
       "claims": [
         "C1"
       ]
@@ -415,7 +416,7 @@
       "kind": "figure",
       "label": "fig:nearmodels",
       "number": "8",
-      "page": "10",
+      "page": "11",
       "claim": "C2",
       "manuscript_source": "paper/latex/main.tex",
       "asset_paths": [
@@ -503,7 +504,7 @@
       "fig_example_transfer.csv"
     ]
   },
-  "version": "manuscript-report-20261026",
+  "version": "reproduction-integration-20261026",
   "diagram_cells_are_experimental_samples": false,
-  "report_pdf_sha256": "1c7179b97f99befd038a2592d4e61e3b5b6a05c311537595450bc8b32b6202d4"
+  "report_pdf_sha256": "be669bb1c7125a966b84132ed640aa7ee628a77cf5df91d7b98479952facfc91"
 }

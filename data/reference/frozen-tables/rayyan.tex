@@ -1,0 +1,18 @@
+\begin{table}[t]
+  \caption{Most of Rayyan's ground truth is wrong. Error cells checked against PubMed (up to 80 sampled per kind;
+  only records whose title
+  matches). Weighted by population, 95.2\% of the 948 error cells have a wrong ground truth (95\% interval 91.2--97.8\%).}
+  \label{tab:rayyan}
+  \small
+  \begin{tabular}{@{}lrrrrr@{}}
+    \toprule
+    Error kind & Cells & Sampled & Found & Truth wrong & Dirty right \\
+    \midrule
+    Date & 722 & 80 & 44 & 43 & 42 \\
+    Encoding & 107 & 80 & 38 & 38 & 0 \\
+    Missing as $-$1 & 75 & 75 & 46 & 28 & 17 \\
+    Pages & 32 & 32 & 18 & 18 & 17 \\
+    ISSN & 12 & 12 & 6 & 6 & 0 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

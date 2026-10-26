@@ -1,0 +1,13 @@
+# Client-side experiment environment, separate from offline statistical replay.
+# Installing packages is a user/environment setup action, never done by the planner.
+-r requirements-replay.txt
+openai>=1.0
+
+# Whole-table and aligned Baran additionally need raha==1.26 in a separate venv.
+# Its original dependency metadata includes numpy, pandas, scipy, scikit-learn,
+# matplotlib, prettytable, mwparserfromhell, beautifulsoup4 and py7zr.
+# Do not install a second conflicting NumPy/pandas stack into a working replay env.
+# TabClean additionally needs its pinned external checkout and its own requirements
+# (historically pandas, langchain-openai, langgraph, python-dateutil).
+# GPU serving/weights are intentionally excluded; no vLLM install or model download
+# is performed or implied by this client dependency file.

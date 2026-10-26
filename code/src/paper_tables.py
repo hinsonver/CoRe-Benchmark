@@ -320,14 +320,15 @@ def seeds_table():
     write('seeds', "\\begin{table}[t]\n  \\caption{Hospital's total knowledge effect varies little across construction seeds. Ranges over three seeds\n  (identity columns; seed 0 in Table~\\ref{tab:main}). Fresh clean records are fixed across seeds.}\n  \\label{tab:seeds}\n  \\small\n  \\setlength{\\tabcolsep}{2.5pt}\n  \\begin{tabular*}{\\columnwidth}{@{\\extracolsep{\\fill}}l ccc cc@{}}\n    \\toprule\n    & \\multicolumn{3}{c}{Hospital} & \\multicolumn{2}{c}{Movies} \\\\\n    \\cmidrule(lr){2-4}\\cmidrule(l){5-6}\n    Model & F$-$W & W$-$S & O$-$S & F$-$W & O$-$W \\\\\n    \\midrule\n" + '\n'.join(('    ' + r for r in rows)) + '\n    \\bottomrule\n  \\end{tabular*}\n\\end{table}\n')
 
 def beers_table():
-    from .scale import beers_city
+    from .scale import beers_city, sign_test
     fam = Family()
     rows, signs = ([], [])
     for tag, name in COMMERCIAL + OPEN:
         b = [chunks(tag, c) for c in CONDS['beers']]
         city = beers_city(tag)
         rep = ' / '.join((str(city[k]['repaired']) for k in ('original', 'fresh', 'words', 'syllable')))
-        p = city['words_vs_syllable']['sign_test_p']
+        city_counts = city['words_vs_syllable']
+        p = sign_test(city_counts['chunks_syllable_more'], city_counts['chunks_words_more'])
         signs.append(p)
         rows.append(' & '.join([name] + [f2(f1_of(x, G)) for x in b] + [fam.add(b[0], b[3], True), rep, f'@@p{len(signs) - 1}@@']) + ' \\\\')
     body, n_tests = fam.render('\n'.join(('    ' + r for r in rows)))
@@ -357,22 +358,13 @@ def aligned_table():
     write('aligned', '\\begin{table}[t]\n  \\caption{DeepSeek-V4-Pro retains a fresh--words gap on Hospital and Movies with labels and error positions.\n  Whole-table Baran and TabClean scores vary little across conditions. Repair F1 on identity columns.\n  Aligned: the same chunks with 20 labeled tuples and the error\n  positions (Baran: mean of three seeded runs). Whole table: Baran with perfect detection, mean of three seeds.\n  TabClean: DeepSeek-V4-Pro backbone, development rows excluded.}\n  \\label{tab:aligned}\n  \\small\n  \\begin{tabular*}{\\columnwidth}{@{\\extracolsep{\\fill}}l cccc@{}}\n    \\toprule\n    Method & O & F & W & S \\\\\n    \\midrule\n' + '\n'.join(('    ' + r for r in rows)) + '\n    \\bottomrule\n  \\end{tabular*}\n\\end{table}\n')
 
 def p1_table():
+    from .uniform_continuation import current_rows
     models = [('custom_deepseek_deepseek-v4-pro', 'DeepSeek-V4-Pro'), ('local_mlx-community_OLMo-2-1124-7B-Instruct-4bit', 'OLMo-2-7B-Instruct'), ('localbase', 'OLMo-2-7B (base)')] + OPEN
-    modes = [('clean', 'anon'), ('dirty', 'anon'), ('clean', 'named'), ('dirty', 'named'), ('dirty', 'anon__err')]
+    current = current_rows(ROOT)
     rows = []
     for tag, name in models:
-        best, leaks, hard = ([], 0, 0)
-        for src, mode in modes:
-            vals = []
-            for f in evidence_glob(str(ARCHIVE / 'p1' / f'{tag}__*__{src}__{mode}.json')):
-                s = evidence_json(Path(f))['summary']
-                if s.get('acc_hard') is not None:
-                    vals.append(s['acc_hard'])
-                if src == 'dirty':
-                    n = s.get('leak_hard_cells') or 0
-                    hard += n
-                    leaks += round((s.get('leak_hard_rate') or 0) * n)
-            best.append(f'{max(vals):.3f}' if vals else '---')
+        best = current[tag]['display']
+        leaks, hard = current[tag]['hard_leak']
         rows.append(' & '.join([name] + best + [f'{leaks} / {hard}']) + ' \\\\')
     write('p1', '\\begin{table}[t]\n  \\caption{Row continuation provides no positive evidence of benchmark memorization in the tested models.\n  Row-continuation probe:\n  the highest share of hard cells (those no structural baseline guesses) continued\n  correctly over the datasets, by context (clean or dirty table; dataset name withheld or given; rows with errors only),\n  and how many hard erroneous cells were continued with their clean value given the dirty context.}\n  \\label{tab:p1}\n  \\small\n  \\setlength{\\tabcolsep}{2.5pt}\n  \\begin{tabular}{@{}lcccccr@{}}\n    \\toprule\n    & \\multicolumn{2}{c}{Anonymous} & \\multicolumn{2}{c}{Named} & Error & Clean value \\\\\n    \\cmidrule(lr){2-3}\\cmidrule(lr){4-5}\n    Model & clean & dirty & clean & dirty & rows & leaked \\\\\n    \\midrule\n' + '\n'.join(('    ' + r for r in rows)) + '\n    \\bottomrule\n  \\end{tabular}\n\\end{table}\n')
 

@@ -7,7 +7,7 @@
 \usepackage{fancyvrb,upquote}
 \usepackage[hyphens]{url}
 \usepackage[colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black,bookmarksnumbered=true,pdfusetitle]{hyperref}
-\hypersetup{pdftitle={CoRe: Supplementary Technical Report},pdfauthor={Jingru Yang; Zheng Chen; Ju Fan}}
+\hypersetup{pdftitle={CoRe: Supplementary Technical Report},pdfauthor={Jingru Yang; Zheng Chen; Ju Fan; Xiaoyong Du}}
 \urlstyle{same}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{3.5pt plus 1pt}
@@ -28,7 +28,7 @@
 \begin{center}
 {\LARGE\bfseries CoRe: Supplementary Technical Report\par}
 \vspace{12pt}
-{\large Jingru Yang\textsuperscript{1}\quad Zheng Chen\textsuperscript{1}\quad Ju Fan\textsuperscript{2}\par}
+{\large Jingru Yang\textsuperscript{1}\quad Zheng Chen\textsuperscript{1}\quad Ju Fan\textsuperscript{2}\quad Xiaoyong Du\textsuperscript{2}\par}
 \vspace{5pt}
 \textsuperscript{1}Minzu University of China, China\par
 \textsuperscript{2}Renmin University of China, China
@@ -40,7 +40,7 @@ This report provides the technical specification and extended evidence for
 We describe controlled-table construction and acceptance, archived execution and scoring,
 Rayyan retrieval and repair-credit criteria, adaptation to other benchmarks, offline
 verification routes, extended displays, and sensitivity checks on the existing evidence.
-Original estimates, inputs and outputs are retained. Construction-seed ranges,
+Original inputs, outputs and historical estimates are retained alongside the uniformly re-scored continuation results and exact sign-test corrections. Construction-seed ranges,
 fixed-construction bootstrap intervals, and conditional field-audit uncertainty are distinguished throughout.
 \end{abstract}
 The seven numbered sections correspond to the manuscript's Report \S1--\S7 links.
@@ -179,13 +179,23 @@ The scorer sets precision to zero when \(|P|=0\) and recall to zero when \(|E|=0
 
 No-op and repaired-value comparisons ignore case and normalize whitespace, including spaces around commas. \(E\) uses original strings. Consequently, the five case-only title errors in each Movies condition belong to \(E\) but earn no repair credit under normalized comparison. This convention remains identical across conditions. Identity-column results and other-column results remain separate.
 
-Chunk intervals use 2,000 bootstrap resamples, paired for O/W/S, with 95\% percentile intervals. Bootstrap differences form a Holm family within each result table: the main Hospital/Movies comparison contains 40 differences (eight cleaners times five contrasts). Significance means adjusted p below 0.05. Near-zero results also use repaired-cell counts and paired-chunk sign tests. These sign tests form separate eight-model Holm families for Hospital and Movies, rather than joining the 40 bootstrap differences. Seed 0 supplies the main tables. The minimum and maximum over three construction seeds describe naming/error-draw variation, not confidence intervals.
+Chunk intervals use 2,000 bootstrap resamples, paired for O/W/S, with 95\% percentile intervals. Bootstrap differences form a Holm family within each result table: the main Hospital/Movies comparison contains 40 differences (eight cleaners times five contrasts). Significance means adjusted p below 0.05. Near-zero results also use repaired-cell counts and paired-chunk sign tests. These sign tests form separate eight-model Holm families for Hospital and Movies, rather than joining the 40 bootstrap differences. The Beers city comparison is another eight-model sign-test family. Its unrounded two-sided binomial p-values enter Holm correction before display rounding. DeepSeek's 10 versus 3 non-tied chunks give adjusted p=0.646; Qwen3.8's 4 versus 15 give 0.154. Both remain non-significant. Seed 0 supplies the main tables. The minimum and maximum over three construction seeds describe naming/error-draw variation, not confidence intervals.
 
 \subsection{Row-continuation probe}
 
 The prompt supplies a header and ten consecutive rows and asks for the next row. It uses 100 trials per dataset for DeepSeek-V4-Pro and 50 for local models, clean or dirty context, with or without dataset names. The six datasets are Hospital, Movies, Beers, Rayyan, Flights and Tax; OLMo-2 omits Movies. The continuation probe covers DeepSeek, the four open-weight cleaners and the two OLMo-2 variants. Qwen3.8-Max, GLM-5.3 and GPT-6.1-Sol are outside this probe's archived coverage. Its absence of positive evidence concerns the tested models and settings.
 
-Hard cells are absent from the context column and not guessed by the column mode or most-frequent-successor baseline, both fitted leave-one-out. Naive Hospital continuation reaches 47\%, versus 2.4\% on hard cells for DeepSeek. The highest hard-cell rate across tested settings is 0.085. Giving dataset names changes rates by at most 0.02; selecting erroneous rows does not raise them. OLMo-2 base reaches at most 0.011. Dirty-context clean-value leakage is 3/479 hard erroneous cells for DeepSeek and 1/2,008 for the four open instruction cleaners. The public-corpus infini-gram check finds Hospital fragments in a GitHub issue and tool documentation, and none of the other tables.
+\textbf{Structural screen.} A hard cell has a target value absent from the corresponding context column and missed by all four structural rules: column mode, most-frequent successor, approximate functional dependencies and previous-value $\pm1$. For clean-context continuation the target is the clean next row; for dirty-context continuation it is the dirty next row. Strictly increasing unit-step counter columns, identified in the clean table, are omitted from cell scoring. This counter exclusion is separate from the $\pm1$ rule applied to other numeric cells.
+
+The rules use the complete source table, including records outside the ten-row prompt. Mode and successor queries subtract one vote for the queried target value; ties retain full-table first-occurrence order. For a dependency $d\to c$, the determinant has at most $N/2$ distinct values, and its modal mapping covers at least 99\% of the $N$ rows. Admission is determined on the full table. A successor query predicts $d$ from its preceding value, then the admitted mapping predicts $c$; the target's mapping vote is subtracted when the predicted determinant equals its actual value. Dependency admission and tie order are not refitted after subtraction. These are offline structural exclusions, not an input-matched cleaner.
+
+\textbf{Parsing and leakage.} Cell-accuracy rates condition on a parsed row. Of 9,600 stored trials, five calls failed, 511 other replies were unparseable, and 9,084 supplied a parsed row. These outcomes remain separate from cell denominators. A clean-value leakage opportunity has an erroneous dirty target whose clean reference is absent from the corresponding dirty-context column. The additional hard-leakage screen uses the full clean table and its clean predecessor. This oracle information may exclude values that the model cannot infer from its dirty prompt. Pooling across settings counts scored cell-trials, not necessarily distinct cells or independent observations.
+
+\textbf{Uniform scoring and results.} Current results apply the complete screen uniformly to the saved replies. Twelve early DeepSeek summaries are compatible with a different counting behavior, without target-vote subtraction or the arithmetic rule; the old source revision was not recovered. Those summaries remain historical records, while the uniform integer counts are stored separately in \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/results/derived/uniform_continuation.json}{\nolinkurl{results/derived/uniform_continuation.json}}. The current \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/code/src/uniform_continuation.py}{\nolinkurl{code/src/uniform_continuation.py}} selects maxima and pools leakage from those integers. On Hospital, DeepSeek scores 221/468 (47\%) on context-absent cells and 3/144 (2.1\%) on hard cells. Across tested settings, the largest hard-cell accuracy is 32/375 (0.085 after rounding). OLMo-2 base reaches a displayed maximum of 0.011. Hard clean-value leakage is 3/601 cell-trials for DeepSeek and 1/2,008 for the four open instruction cleaners.
+
+Named and anonymous results are reported separately. Naming can change an individual rate by more than 0.02: Llama's Hospital clean rates are 3/72 and 1/72, a difference of 0.0278. Selecting erroneous target rows can also raise individual screened rates, as with Qwen-7B on Movies dirty (0.0070 to 0.0185). This latter setting changes the sampling pool rather than comparing identical target rows. The public-corpus infini-gram check finds Hospital fragments in a GitHub issue and tool documentation, and none of the other tables.
+
+\textbf{Row-held-out sensitivity.} Removing the target row and both incident transitions, then refitting dependency admission and tie order, gives DeepSeek hard leakage of 3/607. Qwen-7B and Qwen-32B's error-row maxima become 0.028 rather than 0.029. The global maximum 32/375 and Hospital example 3/144 do not change. This separate calculation distinguishes full row-held-out fitting from the target-vote screen used for the reported results. Under the reported screen, the probe supplies no positive evidence attributable to benchmark-row memory beyond the excluded regularities; it does not estimate memory prevalence or rule out contamination.
 
 \subsection{Knowledge-conflict construction and matching}
 
@@ -318,7 +328,7 @@ python3 tools/review_diagnostics.py
 \end{Verbatim}
 \end{quote}
 
-The \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/scripts/verify.sh}{\nolinkurl{scripts/verify.sh}} and \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/scripts/reproduce.sh}{\nolinkurl{scripts/reproduce.sh}} wrappers use the selected {\ttfamily\small PYTHON} interpreter. Public replay requires no GPU, model key or network. The current presentation regenerates 19 table sources and eleven CSV files. Adding {\ttfamily\small --presentation frozen} selects the original formatting. The fixed ZIP's 16-table/nine-CSV inventory describes that historical archive, not the current presentation. Explanatory verification and diagram views are not additional experimental observations.
+The \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/scripts/verify.sh}{\nolinkurl{scripts/verify.sh}} and \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/scripts/reproduce.sh}{\nolinkurl{scripts/reproduce.sh}} wrappers use the selected {\ttfamily\small PYTHON} interpreter. Public replay requires no GPU, model key or network. The current presentation regenerates 19 table sources and eleven CSV files, using uniform continuation counts and exact sign-test probabilities before Holm correction. Adding {\ttfamily\small --presentation frozen} selects the original archived scores and formatting. The fixed ZIP's 16-table/nine-CSV inventory describes that historical archive, not the current presentation. Explanatory verification and diagram views are not additional experimental observations.
 
 \subsection{Manuscript to evidence map}
 
@@ -340,7 +350,7 @@ Analysis and manuscript labels & Public evidence & Entry & Replayed products \\
 \endhead
 \midrule\multicolumn{4}{r}{\footnotesize Continued on next page}\\\endfoot
 \bottomrule\endlastfoot
-Knowledge effects and continuation & Archived block counts and construction/continuation summaries; \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/data/witnesses/movies.json}{\nolinkurl{data/witnesses/movies.json}}; original evidence under \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/artifacts/raw_outputs/p2/}{\nolinkurl{artifacts/raw_outputs/p2/}}, {\ttfamily\small p1/\allowbreak{}}, {\ttfamily\small aligned/\allowbreak{}}, {\ttfamily\small e4/\allowbreak{}}, {\ttfamily\small e5/\allowbreak{}} & \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/scripts/reproduce.sh}{\nolinkurl{scripts/reproduce.sh}} or {\ttfamily\small tools/\allowbreak{}core.py reproduce} & Contrasts, block-bootstrap intervals, significance, seed/scale summaries, aligned results and figure CSVs. Movies continuation uses saved summaries. \\
+Knowledge effects and continuation & Archived block counts and construction summaries; uniform continuation integer counts; \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/data/witnesses/movies.json}{\nolinkurl{data/witnesses/movies.json}}; original evidence under \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/artifacts/raw_outputs/p2/}{\nolinkurl{artifacts/raw_outputs/p2/}}, {\ttfamily\small p1/\allowbreak{}}, {\ttfamily\small aligned/\allowbreak{}}, {\ttfamily\small e4/\allowbreak{}}, {\ttfamily\small e5/\allowbreak{}} & \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/scripts/reproduce.sh}{\nolinkurl{scripts/reproduce.sh}} or {\ttfamily\small tools/\allowbreak{}core.py reproduce} & Contrasts, block-bootstrap intervals, significance, seed/scale summaries, aligned results and figure CSVs. Current continuation maxima and leakage use separately bound uniform counts. \\
 Knowledge conflicts & Anonymous movie entity IDs, per-model known flags and directed/any-edit indicators; Hospital/Beers archived conflict results & {\ttfamily\small tools/\allowbreak{}core.py verify} and public reproduce & Full/known entity-bootstrap checks, {\ttfamily\small tables/\allowbreak{}near.tex}, {\ttfamily\small conflictcounts.tex}, {\ttfamily\small fig4\_\allowbreak{}near\_\allowbreak{}entity.csv}, {\ttfamily\small fig7\_\allowbreak{}near\_\allowbreak{}models.csv}; retains known denominators and control edits. \\
 Reference quality and repair credit & Saved title matches and field checks, \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/data/manifests/RAYYAN_REPLAY.json}{\nolinkurl{data/manifests/RAYYAN_REPLAY.json}}, {\ttfamily\small results/\allowbreak{}derived/\allowbreak{}rayyan\_\allowbreak{}audit.json}, \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/data/provenance/rayyan/}{\nolinkurl{data/provenance/rayyan/}}, audit and actual TabClean inputs, development indices and archived output & \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/tools/check_rayyan.py}{\nolinkurl{tools/check_rayyan.py}}; public reproduce also invokes it & Weighted check-failure estimate/interval, {\ttfamily\small derived/\allowbreak{}rayyan\_\allowbreak{}replay.json}, {\ttfamily\small tables/\allowbreak{}rayyan.tex}, Rayyan CSVs and the 808/498/461/434 scoring counts. \\
 \end{longtable}\endgroup
@@ -368,7 +378,7 @@ python3 tools/core.py validate-private \
 \end{Verbatim}
 \end{quote}
 
-The authorization record contains {\ttfamily\small purpose}, {\ttfamily\small rights\_\allowbreak{}basis}, a {\ttfamily\small scope} with {\ttfamily\small historical\_\allowbreak{}inputs} and {\ttfamily\small historical\_\allowbreak{}outputs}, and {\ttfamily\small redistribution: false}. The entry checks 264 historical dependencies and 25 code files against the manifest before re-scoring saved direct-editing, aligned and conflict replies. Its witnesses must match the public witnesses. The continuation probe remains a saved-summary projection. New daily IMDb downloads or new model replies do not replace the historical materials.
+The authorization record contains {\ttfamily\small purpose}, {\ttfamily\small rights\_\allowbreak{}basis}, a {\ttfamily\small scope} with {\ttfamily\small historical\_\allowbreak{}inputs} and {\ttfamily\small historical\_\allowbreak{}outputs}, and {\ttfamily\small redistribution: false}. The entry checks 264 historical dependencies and 25 code files against the manifest before re-scoring saved direct-editing, aligned and conflict replies. Its witnesses must match the public witnesses. The original continuation summaries remain available in frozen replay; the current presentation uses the separately bound uniform counts described in Section 2.5. The raw continuation scoring entry checks the stored replies when the corresponding inputs are available. New daily IMDb downloads or new model replies do not replace the historical materials.
 
 \subsection{Verification boundaries}
 
@@ -491,7 +501,7 @@ The field definitions and conditional weighted estimate are specified in \hyperl
 
 The \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/paper/latex/figures/fig6_scale.pdf}{full eight-model scale plot} and \href{https://github.com/hinsonver/CoRe-Benchmark/blob/main/results/figures/fig6_scale.csv}{frozen scale CSV} remain available. Any focused main-paper view selects original rows and intervals without re-estimation.
 
-The current presentation reads the complete frozen table sources, checks their non-caption content, restores the manuscript captions, and adds {\ttfamily\small whole\_\allowbreak{}table.tex} and {\ttfamily\small rayyan\_\allowbreak{}checks.tex}. It produces 19 table sources and eleven CSV files through the repository replay:
+The current presentation checks the non-caption content of its bound table sources, restores the manuscript captions, and adds {\ttfamily\small whole\_\allowbreak{}table.tex} and {\ttfamily\small rayyan\_\allowbreak{}checks.tex}. Its continuation table uses the uniform integer counts in Section 2.5, and its Beers city tests apply Holm to unrounded probabilities. The original archived scores remain available under {\ttfamily\small --presentation frozen}. Current replay produces 19 table sources and eleven CSV files:
 
 \begin{quote}
 \begin{Verbatim}[fontsize=\footnotesize,fontfamily=cmtt,formatcom={\fontencoding{OT1}\selectfont\def\textasciigrave{\char18}\def\textquotesingle{\char13}}]

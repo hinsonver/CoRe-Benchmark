@@ -1,7 +1,7 @@
 \begin{table}[t]
-  \caption{Highest hard-cell continuation accuracy over datasets for each context.
-  Columns distinguish clean/dirty context, dataset naming and error-row selection.
-  Leakage counts clean reference values written from dirty context.}
+  \caption{Highest hard-cell continuation accuracy over datasets under the full-table structural screen.
+  Columns distinguish clean/dirty context, naming and error-row selection.
+  Leakage pools clean-reference hits from dirty context over hard erroneous cell-trials.}
   \label{tab:p1}
   \small
   \setlength{\tabcolsep}{2.5pt}
@@ -11,7 +11,7 @@
     \cmidrule(lr){2-3}\cmidrule(lr){4-5}
     Model & clean & dirty & clean & dirty & rows & leaked \\
     \midrule
-    DeepSeek-V4-Pro & 0.065 & 0.060 & 0.085 & 0.065 & --- & 3 / 479 \\
+    DeepSeek-V4-Pro & 0.080 & 0.070 & 0.085 & 0.065 & --- & 3 / 601 \\
     OLMo-2-7B-Instruct & 0.027 & 0.019 & --- & --- & 0.030 & 0 / 187 \\
     OLMo-2-7B (base) & 0.011 & 0.011 & --- & --- & --- & 1 / 92 \\
     Qwen2.5-7B & 0.040 & 0.028 & 0.040 & 0.046 & 0.029 & 0 / 449 \\

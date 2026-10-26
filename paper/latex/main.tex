@@ -10,6 +10,7 @@
 %%% VLDB block end %%%
 \usepackage{enumitem}
 \usepackage{tabularx}
+\settopmatter{authorsperrow=4}
 \setlist[itemize]{leftmargin=1.1em, itemsep=1pt, topsep=2pt, parsep=0pt}
 \setlist[enumerate]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
 
@@ -39,28 +40,32 @@
 % float-to-text, 12pt between floats, 10pt between a float and its caption). Fonts and margins
 % are left as in the template.
 \raggedbottom
-\setlength{\textfloatsep}{10pt plus 1pt minus 2pt}
-\setlength{\dbltextfloatsep}{10pt plus 1pt minus 2pt}
+\setlength{\textfloatsep}{8pt plus 1pt minus 2pt}
+\setlength{\dbltextfloatsep}{8pt plus 1pt minus 2pt}
 \setlength{\floatsep}{8pt plus 1pt minus 2pt}
 \setlength{\dblfloatsep}{8pt plus 1pt minus 2pt}
 \setlength{\intextsep}{8pt plus 1pt minus 2pt}
-\captionsetup{skip=5pt}
+\captionsetup{skip=4pt}
 
 \begin{document}
 \title{Cleaning or Recalling? Disentangling Memorization and World Knowledge in LLM-based Data Cleaning [Experiment, Analysis \& Benchmark]}
 
 % Single-blind review: real names and affiliations, one \author block each.
 \author{Jingru Yang}
-\affiliation[obeypunctuation=true]{\institution{Minzu University of China}, \country{China}}
+\affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
 \email{okiyang@muc.edu.cn}
 
 \author{Zheng Chen}
-\affiliation[obeypunctuation=true]{\institution{Minzu University of China}, \country{China}}
+\affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
 \email{202301050@muc.edu.cn}
 
 \author{Ju Fan}
-\affiliation[obeypunctuation=true]{\institution{Renmin University of China}, \country{China}}
+\affiliation[obeypunctuation=true]{\institution{Renmin University of China},~\country{China}}
 \email{fanj@ruc.edu.cn}
+
+\author{Xiaoyong Du}
+\affiliation[obeypunctuation=true]{\institution{Renmin University of China},~\country{China}}
+\email{duyong@ruc.edu.cn}
 
 \begin{abstract}
 High scores on public data-cleaning benchmarks can reflect knowledge of familiar entities,
@@ -72,8 +77,8 @@ error positions and transfer error mechanisms, linking performance changes to th
 each error leaves available for repair. Across 21 controlled tables and eight LLMs, we find
 large knowledge effects on Hospital's identity columns and on Movies for commercial models.
 On Movies, word renaming lowers DeepSeek-V4-Pro's year accuracy from 91\% to 18\%
-despite unchanged candidates. Knowledge effects persist on fresh records, while a continuation
-probe finds no positive evidence of benchmark-row memorization in the tested models.
+despite unchanged candidates. Knowledge effects persist on fresh records, while a screened continuation
+probe finds no positive evidence of benchmark-row memory in the tested models.
 Yet recovering a familiar fact is not always the task's goal: models replace assigned movie
 directors with real-world credits, sometimes even under table-evidence instructions. Whether
 an edit receives repair credit then depends on the reference. On Rayyan, checks against title-matched
@@ -155,9 +160,9 @@ on \emph{identity columns}, which name or locate an entity.
   \Description{Two Movies comparisons show fewer identifier repairs when mappings are removed and fewer year repairs despite retained year candidates.}
 \end{figure}
 
-The continuation probe finds no positive evidence of benchmark-row memorization in its tested
+The screened continuation probe finds no positive evidence of benchmark-row memory in its tested
 models (Section~\ref{sec:memorization}). The knowledge effects also persist across construction
-seeds and, for DeepSeek-V4-Pro, with labeled examples and error positions. Within Qwen2.5,
+seeds and, for DeepSeek-V4-Pro, with labeled examples and error positions. For Qwen2.5,
 Hospital's total effect grows across the three model sizes. On Hospital and Beers,
 whole-table Baran and TabClean retain high scores under renaming, with repeated records and
 formatting patterns available for repair (Sections~\ref{sec:knowledge}--\ref{sec:generalize}).
@@ -558,22 +563,23 @@ The continuation probe covers DeepSeek-V4-Pro, the four open-weight cleaners and
 variants. It asks for the next row after a header and ten consecutive rows, and tests whether
 dirty context elicits a clean reference value. \companionref{2} details trial counts and context settings.
 
-\textbf{Separating structure from row memory.} Many next-row values are predictable from
-repeated values and fixed record order. On Hospital, naive scoring gives DeepSeek-V4-Pro 47\%
-continuation accuracy on cells absent from the context. We instead score \emph{hard} cells,
-whose values are absent from the context column and not guessed by a column-mode or
-most-frequent-successor baseline, both fitted leave-one-out. Accuracy then falls to 2.4\%.
-The baselines control for structural predictability.
+\textbf{Separating structure from row memory.} Repeated values and record order make many
+continuations predictable. A cell is \emph{hard} if its value is absent from the context column
+and missed by a full-table screen: column modes, frequent successors, low-cardinality functional dependencies
+and previous-value $\pm1$. Counts subtract the target vote; dependency eligibility stays fixed.
+The screen uses records beyond the prompt (\companionref{2}). On Hospital, screening lowers
+DeepSeek's context-absent accuracy from 47\% to 2.1\% (3/144).
 
-No tested model exceeds 0.085 on hard cells (Table~\ref{tab:p1}). DeepSeek's highest rates come
-from Beers, where its outputs name real beers of the contextual brewery rather than the next
-beer in the table. OLMo-2 base also has low accuracy (at most 0.011); an
+The highest hard-cell accuracy is 32/375 (0.085; Table~\ref{tab:p1}). On Beers, many replies name
+other real beers of the contextual brewery, not the next beer in the file.
+OLMo-2 base also has low accuracy (at most 0.011); an
 infini-gram~\cite{liu2024infinigram} search of its public corpus finds only Hospital fragments
 in a GitHub issue and tool documentation, and none of the other tables.
 
-\textbf{Clean-value leakage.} Given dirty context, DeepSeek writes the clean value of only
-3 of 479 hard erroneous cells. The four open instruction cleaners together do so for 1 of
-2,008. Values absent from the input provide a distinct reference-leakage test.
+\textbf{Clean-value leakage.} For clean references absent from the corresponding context column,
+DeepSeek produces 3 of 601 hard erroneous cell-trials, and the four open instruction cleaners
+1 of 2,008. This additional screen uses the full clean table and clean predecessor---oracle
+information beyond the dirty prompt.
 
 \textbf{Original versus fresh.} All four commercial cleaners score lower on O than F on
 Hospital ($-$0.03 to $-$0.07) and Movies ($-$0.09 to $-$0.25; Table~\ref{tab:main}). Some open
@@ -581,8 +587,8 @@ models have the opposite sign, including Llama's $+$0.10 on Hospital, without po
 from the continuation probe. As defined in Table~\ref{tab:conditions}, O\,$-$\,F also includes difficulty changes
 and serves as supporting evidence. We next examine knowledge effects on original and fresh records.
 
-\finding{After accounting for structural predictability, the continuation probe finds no
-positive evidence of benchmark-row memorization in any of the tested models.}\label{find:mem}
+\finding{The screened continuation results provide no positive evidence attributable to
+benchmark-row memory in the tested settings.}\label{find:mem}
 
 \input{tables/p1}
 
@@ -650,6 +656,7 @@ fresh--words gaps are $+$0.17 to $+$0.42, while the paired O\,$-$\,W contrasts a
 and none on surrogates (Table~\ref{tab:moviescols}). A fictitious slug does not determine its
 random identifier, so the repairs on real films use mappings absent after renaming.
 
+\pagebreak[4]
 Without identifiers, F\,$-$\,W remains $+$0.26 to $+$0.33 across the four commercial models,
 whereas O\,$-$\,W is $+$0.04 to $+$0.15. Original people-list errors often contain legitimate
 Rotten Tomatoes credits, making the reference's source choice difficult even when the film is
@@ -1002,7 +1009,7 @@ evidence and the intended target, including source priorities and reference tran
 \subsection{Artifact and Result Replay}\label{sec:artifact}
 
 The statistical core replays condition contrasts, conflict rates and Rayyan checks offline from
-Hospital/Beers tables, Movies numerical witnesses and saved continuation summaries.
+Hospital/Beers tables, Movies numerical witnesses and re-scored continuation counts.
 Authorized local validation checks historical movie inputs, replies and scoring-code hashes
 before re-scoring. The repository \texttt{README} provides runnable entries;
 \companionref{5} maps each analysis to input versions, scoring entries and results;
@@ -1035,7 +1042,7 @@ from familiar and unfamiliar inputs. Across eight LLMs, familiar
 entities contribute substantially to Hospital's identity-column scores and to Movies scores for
 commercial models. Movies illustrates why the retained evidence matters: DeepSeek-V4-Pro's
 repair falls both when identifier mappings disappear and when year candidates remain.
-The continuation probe finds no positive evidence of benchmark-row memorization in the
+The screened continuation probe finds no positive evidence of benchmark-row memory in the
 tested models. Direct editing and table-based repair draw on different evidence, so
 information access also shapes the observed differences in repair.
 
@@ -1047,6 +1054,8 @@ Evaluations should therefore connect recovery on unfamiliar entities with source
 and value-preservation tests, and inspect the targets used to score repairs. The construction
 principles provide a basis for studying these questions in other entity-based data preparation tasks.
 
+\clearpage
+\balance
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{refs}
 

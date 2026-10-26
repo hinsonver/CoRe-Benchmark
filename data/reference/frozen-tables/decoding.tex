@@ -1,0 +1,19 @@
+\begin{table}[t]
+  \caption{GPT-6.1-Sol decodes the syllable surrogate. Corrupted identity cells of Hospital's syllable surrogate repaired
+  by each model, by what could restore them: a pseudo-word the surrogate's 24 syllables restore uniquely or
+  ambiguously, a generic English word (\emph{hospital}, \emph{street}), or digits (number of cells in parentheses).}
+  \label{tab:decoding}
+  \small
+  \setlength{\tabcolsep}{4pt}
+  \begin{tabular}{@{}lrrrr@{}}
+    \toprule
+    Model & Unique (95) & Ambig. (11) & Generic (14) & Digits (97) \\
+    \midrule
+    DeepSeek-V4-Pro & 8 & 0 & 13 & 5 \\
+    Qwen3.8-Max & 12 & 0 & 12 & 11 \\
+    GLM-5.3 & 10 & 0 & 12 & 8 \\
+    GPT-6.1-Sol & 74 & 4 & 14 & 6 \\
+    Open models & 0--1 & 0 & 0--3 & 0--6 \\
+    \bottomrule
+  \end{tabular}
+\end{table}

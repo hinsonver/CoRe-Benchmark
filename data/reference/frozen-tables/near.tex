@@ -1,0 +1,23 @@
+\begin{table*}[t]
+  \caption{Knowledge overrides the table: share of famous entities (among those the model knows) whose correct but
+  unusual attribute is rewritten to the real one. Movies: the director, with the standard prompt and with a prompt asking
+  to rely only on the table (95\% intervals). Hospital and Beers: the location, standard prompt.}
+  \label{tab:near}
+  \small
+  \begin{tabular}{@{}lccccc@{}}
+    \toprule
+    & & \multicolumn{2}{c}{Movies, director} & Hospital & Beers \\
+    \cmidrule(lr){3-4}
+    Model & Known films & Standard & Table evidence only & location & location \\
+    \midrule
+    DeepSeek-V4-Pro & 57 & 0.68 [0.56, 0.79] & 0.21 [0.10, 0.32] & 0.00 & 0.00 \\
+    Qwen3.8-Max & 57 & 0.98 [0.95, 1.00] & 0.40 [0.28, 0.53] & 0.00 & 0.02 \\
+    GLM-5.3 & 57 & 1.00 [1.00, 1.00] & 0.17 [0.09, 0.28] & 0.00 & 0.14 \\
+    GPT-6.1-Sol & 57 & 0.93 [0.86, 0.98] & 0.00 [0.00, 0.00] & 0.00 & 0.00 \\
+    Qwen2.5-7B & 52 & 0.14 [0.06, 0.23] & 0.10 [0.02, 0.19] & 0.00 & 0.00 \\
+    Llama-3.1-8B & 56 & 0.32 [0.20, 0.45] & 0.27 [0.16, 0.39] & 0.00 & 0.00 \\
+    Qwen2.5-14B & 55 & 0.69 [0.56, 0.80] & 0.64 [0.51, 0.76] & 0.04 & 0.00 \\
+    Qwen2.5-32B & 53 & 0.70 [0.57, 0.81] & 0.60 [0.47, 0.74] & 0.00 & 0.00 \\
+    \bottomrule
+  \end{tabular}
+\end{table*}

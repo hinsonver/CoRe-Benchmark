@@ -44,7 +44,7 @@ class SubmissionContract(unittest.TestCase):
         sources = json.loads((ROOT / 'data/manifests/CORE_SOURCES.json').read_text())
         metadata = json.loads((ROOT / 'data/manifests/SUBMISSION_DATA.json').read_text())
         self.assertEqual(metadata['historical']['file_count'],289)
-        self.assertEqual(metadata['historical']['publication_status'],'local_only_not_published')
+        self.assertEqual(metadata['historical']['publication_status'],'private_repository_asset')
         self.assertEqual(metadata['historical']['files'],{**sources['private_files'],**sources['private_code']})
         for name in sources['omitted_files']:
             self.assertFalse((ROOT / name).exists(),name)

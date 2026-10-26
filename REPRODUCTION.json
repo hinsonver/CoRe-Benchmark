@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "title": "CoRe experiment, scoring and display coverage",
+  "scope": "Frozen evidence only; offline checks do not generate model replies or query PubMed.",
+  "entry": "python tools/reproduce_all.py --output build/all-offline",
+  "historical_entry": "python tools/reproduce_all.py --output build/all-with-history --historical-root /absolute/external/history --authorization-record /absolute/local-use.json",
+  "references": {"current_tables": "results/tables", "current_csvs": "results/figures", "frozen_tables": "data/reference/frozen-tables", "result_map": "paper/result-map.json"},
+  "readiness": {
+    "official_eligibility": "not_determined",
+    "actual_review_access_ready": false,
+    "publication_status": "private_repository_prerelease",
+    "technical_checks": "Determined by the generated manifest-bound coverage report, not this static inventory.",
+    "exact_history_complete": false,
+    "frozen_raw_agreement": false
+  },
+  "historical_material": {
+    "archive_filename": "CoRe-submission-VE-M01-M05-historical.zip",
+    "archive_sha256": "9569fe9d6d475ea0243b5d9a04f2a8ed098557873ffca7597cbcb6eef67bbc09",
+    "publication_status": "private_repository_asset",
+    "release_tag": "v0.2.0-review-private-20261026",
+    "download_url": "https://github.com/hinsonver/CoRe-Benchmark/releases/download/v0.2.0-review-private-20261026/CoRe-submission-VE-M01-M05-historical.zip",
+    "bound_dependencies": 264,
+    "bound_scoring_sources": 25,
+    "install_command": "python tools/data.py install --archive /path/to/CoRe-submission-VE-M01-M05-historical.zip --output /absolute/external/history",
+    "access": "Separate Release asset in the same private hinsonver/CoRe-Benchmark repository; authenticated acquisition requires actual repository access. No public availability, verified reviewer access or blanket third-party redistribution right is asserted.",
+    "local_use_record": "Each reader supplies an external truthful purpose, rights_basis, historical_inputs/historical_outputs scope and redistribution:false; documents local use, not a rights ruling or author-side proof of reviewer rights."
+  },
+  "known_limits": {
+    "continuation": {"full_mismatch_archives": 12, "public_mismatch_archives": 10, "full_mismatched_summary_leaves": 253, "older_source_recovered": false, "details": "docs/continuation-scoring.md", "disposition": "Current display uses separately bound uniform current_full integer reanalysis. Original archives, saved summaries and frozen presentation remain unchanged; early historical source not recovered."},
+    "whole_table_baran": {"count_only_runs": 12, "details": "docs/baseline-scoring.md", "remote_check": "2026-10-26: exact twelve server results, twelve earlier acceptance copies, two ZIPs and related research logs checked; no corresponding raw fixes recovered in that scope.", "disposition": "Counts can be replayed; supplied inputs/code allow a new run, not recovery of historical fixes."},
+    "aligned": {"legacy_unseeded_metadata_exceptions": 1, "selected_seeded_comparisons_affected": 0, "disposition": "Unseeded Movies-fresh diagnostic uses earlier label rows; current selected run0/1/2 files match the bound current labels."},
+    "reference_audit": {"complete_historical_candidate_payloads": false, "scalar_rechecks": 114, "accepted_sample_cells": 279, "disposition": "Saved matches/outcomes and actual TabClean inputs are checkable; the accepted-sample retrieval route would make new requests, not reconstruct missing historical responses."},
+    "hosted_models": {"historical_versions_available_now": "not_established", "disposition": "Original Qwen and DeepSeek APIs are recorded unavailable. No substitute endpoint/version is silently used."},
+    "access": {"reviewer_access_verified": false, "private_repository_asset_authorized": true, "further_redistribution_authorized": false, "disposition": "Historical row-level materials are hosted as a separate Release asset in the same private repository, not the Git tree or default statistical core. Private hosting and local verification do not establish reviewer access, public availability or blanket third-party rights."}
+  },
+  "routes": [
+    {
+      "id": "continuation", "title": "Row-continuation probe", "claims": ["C1"],
+      "input_acquisition": {"included": "Frozen Hospital, Beers, Flights, Rayyan and Tax CSV pairs plus 144 reply archives", "external": "24 Movies archives and original input pair require the exact historical installation"},
+      "execution": {"command": "python tools/experiments.py --experiment continuation --dataset hospital --model local:qwen2.5-7b --source clean --plan", "status": "Explicit original single-run route; no execution during acceptance"},
+      "scoring": {"command": "python tools/score_continuations.py --output build/raw-continuations", "status": "Raw reply parsing, row sampling and all summary fields; optional external Movies history"},
+      "display": ["tab:p1", "Report section 2"],
+      "historical_limits": ["Early DeepSeek scoring-convention discrepancies remain explicit; old corresponding source not recovered", "Current display selects exact integer maxima and leakage from results/derived/uniform_continuation.json; public aggregate replay does not rejudge excluded raw Movies replies", "Frozen presentation preserves saved summaries; selected current_full screen is target-vote subtraction with full-table FD admission, not strict row refitting"]
+    },
+    {
+      "id": "four-condition-cleaning", "title": "Four-condition cleaning comparisons", "claims": ["C1"],
+      "input_acquisition": {"included": "Frozen Hospital and Beers O/F/W/S pairs and archived replies", "external": "Movies pairs and replies in the exact separate archive; default Movies numerical witnesses are included"},
+      "execution": {"command": "python tools/experiments.py --experiment cleaning --dataset hospital --condition O --model local:qwen2.5-7b --plan", "status": "Original per-condition route; frozen model/condition coverage enforced"},
+      "scoring": {"command": "python tools/core.py reproduce --output build/condition-results", "status": "Statistical replay from saved block counts; authorized historical validation additionally re-scores 84 Movies reply archives"},
+      "display": ["tab:main", "tab:detection", "tab:counts", "tab:moviescols", "tab:beers", "fig:decomposition", "fig:year"],
+      "historical_limits": ["Public cleaning block counts are replayed, not independently re-parsed by this aggregate route", "Three Beers F runs require the included historical-input provenance supplement"]
+    },
+    {
+      "id": "construction-seeds", "title": "Existing construction-seed comparisons", "claims": ["C1"],
+      "input_acquisition": {"included": "Hospital F/W/S seeds 0,1,2 with frozen replies", "external": "Corresponding Movies conditions and replies require the separate history for row-level scoring"},
+      "execution": {"command": "python tools/experiments.py --experiment cleaning --dataset hospital --condition W --construction-seed 1 --model local:qwen2.5-7b --plan", "status": "Existing seed only; Beers construction extensions rejected"},
+      "scoring": {"command": "python tools/core.py reproduce --output build/seed-results", "status": "Saved block-count contrasts, seed ranges and intervals; no new constructions"},
+      "display": ["tab:seeds", "Report sections 1 and 7"],
+      "historical_limits": ["Construction uncertainty and repeated model requests are different quantities"]
+    },
+    {
+      "id": "scale", "title": "Archived Qwen2.5 scale comparison", "claims": ["C1"],
+      "input_acquisition": {"included": "Existing 7B/14B/32B Hospital response and count archives", "external": "Actual future generation needs the original model checkpoints and serving environment"},
+      "execution": {"command": "python tools/experiments.py --experiment cleaning --dataset hospital --condition O --model local:qwen2.5-14b --plan", "status": "Individual frozen checkpoint/condition route, not an automatic bulk experiment"},
+      "scoring": {"command": "python tools/core.py reproduce --output build/scale-results", "status": "Recomputes scale summaries from frozen evidence"},
+      "display": ["fig:scale", "tab:seeds"],
+      "historical_limits": ["Checkpoint and runtime availability are not established by offline replay"]
+    },
+    {
+      "id": "aligned", "title": "Aligned LLM and Baran correction", "claims": ["C1"],
+      "input_acquisition": {"included": "Saved labels and 40 Hospital/Beers archives", "external": "20 Movies archives plus labels/tables in exact historical installation"},
+      "execution": {"command": "python tools/experiments.py --experiment aligned-baran --dataset hospital --condition F --algorithm-seed 0 --plan", "status": "Frozen labels; separate aligned-llm route uses the original hosted backbone"},
+      "scoring": {"command": "python tools/score_baselines.py --output build/aligned-scores", "status": "Raw saved corrections/replies, exact selected rows, three Baran runs, means and paired intervals"},
+      "display": ["fig:aligned", "tab:aligned", "Report section 6"],
+      "historical_limits": ["The retained unseeded Movies-fresh diagnostic has stale row metadata and is not a selected frozen comparison"]
+    },
+    {
+      "id": "whole-table-baran", "title": "Whole-table Baran baselines", "claims": ["C1"],
+      "input_acquisition": {"included": "Frozen tables, 42 correction-list archives and 12 count-only runs", "external": "30 Movies correction-list runs require exact history; raha==1.26 is a separate execution dependency"},
+      "execution": {"command": "python tools/experiments.py --experiment baran --dataset hospital --condition O --algorithm-seed 0 --plan", "status": "Original perfect-detection single-run route; execution is separate from saved-output scoring"},
+      "scoring": {"command": "python tools/score_baselines.py --output build/whole-table-scores", "status": "Independently checks saved fixes where present and labels count-only arithmetic separately"},
+      "display": ["results/tables/whole_table.tex", "Report section 6"],
+      "historical_limits": ["12 original Hospital/Beers perfect/raha algorithm-seed0/1/2 runs lack saved fixes", "A future rerun is not recovery of those historical corrections"]
+    },
+    {
+      "id": "tabclean", "title": "TabClean final-table scoring", "claims": ["C1", "C3"],
+      "input_acquisition": {"included": "Nine actual input/development/final-output conditions including Rayyan", "external": "Four Movies conditions in exact history; optional upstream checkout must match the pinned commit and clean source tree"},
+      "execution": {"command": "python tools/experiments.py --experiment tabclean --dataset rayyan --model custom:deepseek/deepseek-v4-pro --plan", "status": "Original external upstream adapter; historical API and optional dependencies remain explicit preflight conditions"},
+      "scoring": {"command": "python tools/score_baselines.py --output build/tabclean-scores", "status": "Actual saved inputs and final tables; full seed42 development sample and 150-row exclusion checked"},
+      "display": ["results/tables/whole_table.tex", "tab:rayyan", "Report sections 3 and 6"],
+      "historical_limits": ["The Rayyan scoring inputs intentionally differ from the audit-table version; no substitution is made"]
+    },
+    {
+      "id": "knowledge-conflicts", "title": "Assigned values and knowledge conflicts", "claims": ["C2"],
+      "input_acquisition": {"included": "Hospital/Beers fixed plans, screening files, replies and summaries; Movies anonymous event witnesses", "external": "Movies fixed plans, inputs, screening and nine-model replies require exact history"},
+      "execution": {"command": "python tools/experiments.py --experiment conflicts --dataset hospital --model local:qwen2.5-7b --plan", "status": "Existing plan and inputs only; no new candidate selection or factual screening"},
+      "scoring": {"command": "python tools/core.py reproduce --output build/conflict-results", "status": "Known-entity denominators and event statistics; authorized historical validation additionally parses nine Movies reply archives"},
+      "display": ["fig:near", "fig:nearmodels", "results/tables/near.tex", "tab:conflictcounts"],
+      "historical_limits": ["Numerical event replay is distinguished from raw reply judgment", "Historical factual queries are not repeated during offline acceptance"]
+    },
+    {
+      "id": "reference-audit", "title": "Rayyan reference and repair-credit audit", "claims": ["C3"],
+      "input_acquisition": {"included": "Accepted 279-cell sample, saved title matches and field outcomes, actual TabClean inputs and output", "external": "New retrieval would require PubMed; complete historical candidate payloads are not present"},
+      "execution": {"command": "python tools/experiments.py --experiment rayyan-retrieval --dataset rayyan --plan", "status": "Fixed accepted sample; explicitly gated new retrieval, never a replacement historical audit"},
+      "scoring": {"command": "python tools/check_rayyan.py", "status": "114 scalar rechecks, saved-match weighted estimate and actual-input repair-credit scoring"},
+      "display": ["tab:rayyan", "results/tables/checks.tex", "results/tables/rayyan_checks.tex", "Report section 3"],
+      "historical_limits": ["Full historical PubMed candidate responses and all raw encoding checks cannot be reconstructed from the retained outcomes", "Interval conditions on saved matches and field decisions"]
+    },
+    {
+      "id": "archived-diagnostics", "title": "Archived sensitivity and output diagnostics", "claims": ["C1", "C3"],
+      "input_acquisition": {"included": "Bound aggregate diagnostics, Hospital tables and reply/count evidence", "external": "Omitted Movies replies and historical usage logs are not recreated from the aggregate"},
+      "execution": {"command": "python tools/experiments.py --experiment cleaning --dataset hospital --model local:qwen2.5-7b --plan", "status": "No new diagnostic experiment is executed; original cleaning route is separately specified"},
+      "scoring": {"command": "python tools/review_diagnostics.py", "status": "Recomputes supported seed/strength/interval checks and labels aggregate-only output/usage summaries"},
+      "display": ["Report section 7"],
+      "historical_limits": ["Historical token totals are scoped saved evidence, not a billing reconstruction", "No new Beers seed extension is authorized"]
+    },
+    {
+      "id": "construction-provenance", "title": "Frozen construction and Beers input provenance", "claims": ["C1"],
+      "input_acquisition": {"included": "Frozen construction manifests, non-Movies table pairs and Beers historical-input supplement", "external": "Movies original row-level inputs remain in the exact separate installation"},
+      "execution": {"command": "python tools/data.py status", "status": "Frozen inputs supplied or installed; no table regeneration or new construction in acceptance"},
+      "scoring": {"command": "python supplements/beers-f-input-provenance/verify.py", "status": "Checks 150 response witnesses and the disposition of 15 input mismatches"},
+      "display": ["tab:construction", "tab:movieserrors", "fig:example", "Report section 1"],
+      "historical_limits": ["Illustrative diagram cells are not an extra experimental sample", "Exact historical inputs are not replaced by newly downloaded current data"]
+    }
+  ]
+}
