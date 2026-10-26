@@ -54,7 +54,8 @@ class SubmissionContract(unittest.TestCase):
                      'docs/limitations.md','tools/data.py','tools/core.py','tools/check_rayyan.py',
                      'paper/companions/README.md','paper/frozen-claims.md','paper/latex/main.pdf']:
             self.assertTrue((ROOT / name).is_file(),name)
-        self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))),7)
+        self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))),0)
+        self.assertTrue((ROOT / 'paper/CoRe-Supplementary-Technical-Report.pdf').is_file())
         replay_requirements = (ROOT / 'environment/requirements-replay.txt').read_text()
         self.assertNotIn('openai',replay_requirements)
         for path in (ROOT / 'scripts').glob('*.sh'):
@@ -83,7 +84,9 @@ class SubmissionContract(unittest.TestCase):
             if '://' not in link and not link.startswith('mailto:') and '\\' not in link:
                 local.append(link)
                 self.assertTrue((source.parent / link).resolve().is_file(),link)
-        self.assertIn('../CoRe-companion-index.md',local)
+        text = source.read_text()
+        self.assertIn('https://github.com/hinsonver/CoRe-Benchmark/raw/refs/heads/main/paper/CoRe-Supplementary-Technical-Report.pdf', text)
+        self.assertIn(r'\#nameddest=companion-#1', text)
 
 
 if __name__ == '__main__':

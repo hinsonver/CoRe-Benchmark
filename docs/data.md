@@ -7,7 +7,7 @@ The default replay uses the evidence already in this repository. No raw-data acq
 | Included non-Movies controlled tables and archived replies | `data/` and `artifacts/raw_outputs/`; frozen inputs for the included scoring and replay routes |
 | Numerical Movies witnesses | [movies.json](../data/witnesses/movies.json); block counts, anonymous conflict events and saved summary projections without row-level Movies records or replies |
 | Witness and source bindings | [CORE_WITNESSES.json](../data/manifests/CORE_WITNESSES.json), [CORE_SOURCES.json](../data/manifests/CORE_SOURCES.json) |
-| Rayyan saved retrieval evidence and scoring inputs | [Replay guide](rayyan-replay.md) and [Rayyan companion](../paper/companions/03-Rayyan检索与评分材料说明.md) |
+| Rayyan saved retrieval evidence and scoring inputs | [Replay guide](rayyan-replay.md) and [Rayyan companion](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-3) |
 | Beers F historical/final input provenance | [Supplement README](../supplements/beers-f-input-provenance/README.md) and its verifier |
 | Optional exact historical Movies dependencies | Separate local sibling archive `../CoRe-submission-VE-M01-M05-historical.zip`; not part of the repository |
 
@@ -37,7 +37,7 @@ python tools/core.py validate-private \
   --output build/historical-validation
 ```
 
-This entry checks the historical dependencies and scorer hashes before re-scoring saved Movies cleaning, aligned and conflict outputs and comparing them with the numerical witnesses. Its scope is the 84 archived direct-editing runs, the archived aligned setting and the nine-model conflict evidence. The continuation probe still uses saved summaries; E4/E5 are not all independently re-scored by this route. See [reproduction](reproduction.md) for the other scoring entries.
+This entry checks the historical dependencies and scorer hashes before re-scoring saved Movies cleaning, aligned and conflict outputs and comparing them with the numerical witnesses. Its scope is the 84 archived direct-editing runs, the archived aligned setting and the nine-model conflict evidence. The continuation probe still uses saved summaries; archived whole-table runs are not all independently re-scored by this route. See [reproduction](reproduction.md) for the other scoring entries.
 
 ## Access and redistribution
 

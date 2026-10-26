@@ -122,6 +122,8 @@ def fig2() -> None:
         fig.tight_layout(pad=0.3)
         save(fig, 'fig2_year_range', [{'condition': c[1], **d, 'accuracy': round(a, 3), 'middle_rule_accuracy': round(r, 3)} for (c, d, a, r) in zip(conds, data, acc, rule)])
 
+# Baran whiskers retain a translated first-run interval, not a confidence interval of the mean.
+# The legacy ci_low/ci_high CSV columns hold those unchanged display endpoints.
 def fig3() -> None:
     """One column: DeepSeek-V4-Pro zero-shot and aligned, Baran aligned, on Hospital and Movies identity columns."""
     from .aligned import score

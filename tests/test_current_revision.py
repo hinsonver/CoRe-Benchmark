@@ -1,4 +1,4 @@
-"""Executable contract for the adopted second-review manuscript (offline only)."""
+"""Executable contract for the current manuscript and formal report (offline only)."""
 import csv
 import hashlib
 import importlib
@@ -14,8 +14,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT), str(ROOT / 'code')]
-MAIN_SHA = '976a8eb55ffe0ffab1d9de779a6df085efbd90d45e006f0db7f992860f7308cf'
-PDF_SHA = '04a1c7ee5d7ec992c78fefa6d929319ffb552897ab072eddc94b7ccc2153285d'
+MAIN_SHA = '40f4bc0a616759310fd94f7c21bea01fe9bd9c9184ec16886aa0c07a5bec15e6'
+PDF_SHA = 'bee3fe95e538b83a38c5a62ec62eccdc2430fc9a11c3cf9c92b02594111f8158'
 
 
 class CurrentRevision(unittest.TestCase):
@@ -28,7 +28,9 @@ class CurrentRevision(unittest.TestCase):
         self.assertEqual(len(re.findall(r'\\begin\{figure\*?\}', expanded)), 8)
         self.assertEqual(len(re.findall(r'\\begin\{table\*?\}', expanded)), 17)
         self.assertEqual(len(re.findall(r'\\label\{find:', text)), 7)
-        self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))), 7)
+        self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))), 0)
+        self.assertEqual(hashlib.sha256((ROOT / 'paper/CoRe-Supplementary-Technical-Report.pdf').read_bytes()).hexdigest(),
+                         '1c7179b97f99befd038a2592d4e61e3b5b6a05c311537595450bc8b32b6202d4')
         self.assertEqual(len(list((ROOT / 'results/figures').glob('*.csv'))), 11)
 
     def test_current_display_projects_19_tables_exactly(self):
@@ -42,6 +44,8 @@ class CurrentRevision(unittest.TestCase):
                           (output / 'tables/decomposition.tex').read_text())
             self.assertIn('repaired cities (O/F/W/S, of 127)',
                           (output / 'tables/beers.tex').read_text())
+            self.assertIn('separate eight-model Holm families by dataset',
+                          (output / 'tables/counts.tex').read_text())
             for table in (ROOT / 'paper/latex/tables').glob('*.tex'):
                 self.assertEqual((output / 'tables' / table.name).read_bytes(), table.read_bytes(), table.name)
             # A second projection is safe; numeric-body tampering is never accepted.

@@ -22,7 +22,7 @@
       "body_sha256": "9f3167bb938f6f3c87470ce8e94fd9b6bd715597bd813fd11df0b1f6844afbdd"
     },
     "counts.tex": {
-      "caption": "Near-zero scores as repaired-cell counts. Hospital W/S have 219 identity errors;\n  Movies O/W have 379. Chunk counts give more : fewer repairs in the first condition;\n  sign-test $p$ values are Holm-corrected over models.",
+      "caption": "Near-zero repaired-cell counts. Hospital W/S: 219 identity errors; Movies O/W: 379.\n  Chunk counts give more : fewer repairs in the first condition;\n  sign-test $p$ values use separate eight-model Holm families by dataset.",
       "body_sha256": "755331f0f04396c879d3a80233e42adabdd09465f8f36234b2a40974905c344e"
     },
     "decoding.tex": {

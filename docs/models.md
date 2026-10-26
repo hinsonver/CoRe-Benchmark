@@ -28,8 +28,8 @@ the GPT client uses low reasoning effort and leaves sampling parameters at API d
 Local instruction cleaners use greedy decoding. The continuation probe covers DeepSeek,
 the four open-weight cleaners and both OLMo variants, not all eight cleaners.
 Exact prompt, budgets and reply-completeness handling are in the
-[run specification](../paper/companions/02-运行与评分规格.md) and
-[archived diagnostics](../paper/companions/07-归档敏感性与输出核验.md).
+[run specification](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-2) and
+[archived diagnostics](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-7).
 
 No API key, endpoint credential, response cache, or model weight is distributed
 in this package. Provider runs require `--allow-paid-api`; this guard covers

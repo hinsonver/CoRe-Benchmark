@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "manuscript_sha256": "976a8eb55ffe0ffab1d9de779a6df085efbd90d45e006f0db7f992860f7308cf",
-  "compiled_pdf_sha256": "04a1c7ee5d7ec992c78fefa6d929319ffb552897ab072eddc94b7ccc2153285d",
+  "manuscript_sha256": "40f4bc0a616759310fd94f7c21bea01fe9bd9c9184ec16886aa0c07a5bec15e6",
+  "compiled_pdf_sha256": "bee3fe95e538b83a38c5a62ec62eccdc2430fc9a11c3cf9c92b02594111f8158",
   "body_pages": 12,
   "total_pages": 14,
   "entries": [
@@ -503,6 +503,7 @@
       "fig_example_transfer.csv"
     ]
   },
-  "version": "adopted-20261025",
-  "diagram_cells_are_experimental_samples": false
+  "version": "manuscript-report-20261026",
+  "diagram_cells_are_experimental_samples": false,
+  "report_pdf_sha256": "1c7179b97f99befd038a2592d4e61e3b5b6a05c311537595450bc8b32b6202d4"
 }

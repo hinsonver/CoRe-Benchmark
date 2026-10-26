@@ -1,10 +1,10 @@
 # CoRe
 
-**PRIVATE WORKING REPOSITORY — not released publicly. Current manuscript: 2026-10-25.**
+**PRIVATE WORKING REPOSITORY — not released publicly. Current manuscript and report: 2026-10-26.**
 
 Artifact for *Cleaning or Recalling? Disentangling Memorization and World Knowledge in LLM-based Data Cleaning*, by Jingru Yang, Zheng Chen and Ju Fan.
 
-CoRe connects recovery evidence, assigned-value preservation and reference-based repair credit. It compares original tables (O), fresh real records (F), word-name surrogates (W) and syllable-name surrogates (S), alongside separate conflict and reference checks. This revision synchronizes the adopted paper, worked-example figures, seven companions and archived sensitivity checks. The [revision binding](paper/revision-binding.json) identifies the exact manuscript and sources; [revision provenance](paper/revisions/README.md) explains what changed. The scientific results remain frozen; replay does not query a model.
+CoRe connects recovery evidence, assigned-value preservation and reference-based repair credit. It compares original tables (O), fresh real records (F), word-name surrogates (W) and syllable-name surrogates (S), alongside separate conflict and reference checks. Read the current [paper](paper/latex/main.pdf) with the [21-page supplementary technical report](paper/CoRe-Supplementary-Technical-Report.pdf). The [revision binding](paper/revision-binding.json) identifies their exact bytes and current presentation sources; [revision provenance](paper/revisions/README.md) separates historical records from current reading. The scientific results remain frozen; replay does not query a model.
 
 ## Quick start
 
@@ -36,13 +36,13 @@ The [tested runtime](environment/tested-runtime.json) records the local acceptan
 | Understand included data and install historical inputs | [Data guide](docs/data.md) |
 | Replay, score or inspect source entry points | [Reproduction guide](docs/reproduction.md) |
 | Interpret the scope of the checks | [Limitations](docs/limitations.md) |
-| Read construction, scoring and extended details | [Manuscript companions](paper/companions/README.md) |
-| Check construction/reply sensitivity and output summaries | [Archived diagnostics](paper/companions/07-归档敏感性与输出核验.md) and [offline entry](tools/review_diagnostics.py) |
+| Read construction, scoring and extended details | [Technical report](paper/CoRe-Supplementary-Technical-Report.pdf) and [seven-section index](paper/CoRe-companion-index.md) |
+| Check construction/reply sensitivity and output summaries | [Archived diagnostics](paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-7) and [offline entry](tools/review_diagnostics.py) |
 | Cite this work | [Citation metadata](CITATION.cff) |
 
 The paper has a 12-page body and 14 pages including references, with eight figures, seventeen tables and seven Findings. Its first result figure contrasts missing identifier mappings with retained year candidates. The overview and Hospital construction figure use worked examples. The original condition overview, complete Hospital row and Rayyan plot remain in the extended displays.
 
-The PDF is the adopted manuscript, SHA-256 `04a1c7ee5d7ec992c78fefa6d929319ffb552897ab072eddc94b7ccc2153285d`. The source includes the matching official template and its original class source. This synchronization does not change the [previous fixed private release](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.1.0-a04-review-private-20261022), its tag or its archives.
+The main PDF has SHA-256 `bee3fe95e538b83a38c5a62ec62eccdc2430fc9a11c3cf9c92b02594111f8158`; the technical report has SHA-256 `1c7179b97f99befd038a2592d4e61e3b5b6a05c311537595450bc8b32b6202d4`. The report has seven sections, fourteen tables and seven original figures. Its PDF replaces the former seven Markdown reports as the formal scholarly reading document; the Markdown versions remain in Git history. The source includes the matching official template and its original class source. This synchronization does not change the [previous fixed private release](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.1.0-a04-review-private-20261022), its tag or its archives. Records under `paper/revisions/` and the retained author-side frozen-claims snapshot are historical provenance, not current reader instructions.
 
 ## Optional exact historical validation
 

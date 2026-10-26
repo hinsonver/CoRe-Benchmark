@@ -1,15 +1,38 @@
-# CoRe companion materials
+# CoRe supplementary technical report
 
-The adopted manuscript links to this index. The [full companion index](companions/README.md) connects each stable manuscript label to its technical specification and extended displays.
+The [supplementary technical report](CoRe-Supplementary-Technical-Report.pdf) provides the manuscript's detailed specifications, extended results and verification guide. The paper's “Report §1–§7” links refer to the seven sections below. The repository README provides installation, data acquisition and runnable commands.
 
-Its reading guide maps recovery evidence, information conditions, assigned targets and reference credit to the corresponding figures, tables and Findings, without combining their different statistical objects into a new summary score.
+<a id="companion-1"></a>
+## 1. Controlled-table construction and acceptance
 
-- [Controlled-table construction and acceptance](companions/01-构造与验收细则.md)
-- [Run and scoring specification](companions/02-运行与评分规格.md)
-- [Rayyan retrieval and scoring details](companions/03-Rayyan检索与评分材料说明.md)
-- [Applying CoRe to another benchmark](companions/04-新基准应用指南.md)
-- [Public numerical replay and authorized local validation](companions/05-Public-Verification-Guide.md)
-- [Extended displays and result details](companions/06-扩展图表与结果明细.md)
-- [Archived sensitivity, output checks, exact prompt and recorded usage](companions/07-归档敏感性与输出核验.md)
+[Report §1](CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-1) describes the construction contract, Movies and Beers sampling, fresh records, name surrogates, acceptance thresholds and construction seeds.
 
-These files accompany the current private working revision. Previous fixed archives retain their original hashes; this synchronization does not create public or reviewer access.
+<a id="companion-2"></a>
+## 2. Run and scoring specification
+
+[Report §2](CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-2) specifies model requests, information settings, budgets and retries, cell scoring, statistical families, continuation trials and conflict prompts.
+
+<a id="companion-3"></a>
+## 3. Rayyan retrieval and scoring details
+
+[Report §3](CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-3) documents title-based retrieval, field checks, version-specific repair credit and other reference examples.
+
+<a id="companion-4"></a>
+## 4. Applying CoRe to another benchmark
+
+[Report §4](CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-4) covers recovery profiling, fresh records, naming styles, acceptance and fair comparisons.
+
+<a id="companion-5"></a>
+## 5. Verification guide
+
+[Report §5](CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-5) maps condition comparisons, knowledge-conflict tests and reference checks to executable evidence, distinguishing numerical replay from historical row-level validation.
+
+<a id="companion-6"></a>
+## 6. Extended displays and result details
+
+[Report §6](CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-6) contains the three-dataset condition overview, complete Hospital example, acceptance and aligned/whole-table results, Rayyan counts, full model comparison and archived TabClean output evidence.
+
+<a id="companion-7"></a>
+## 7. Archived sensitivity checks and output patterns
+
+[Report §7](CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-7) gives passing-seed contrasts, incomplete-reply sensitivity, rating-count outputs, title-match coverage, the exact direct-editing prompt and historical token usage.

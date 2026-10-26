@@ -30,7 +30,7 @@ two unequal saved volumes remain independent annotations. Encoding dirty-side
 agreement is unassessed, and full encoding metadata is not independently rejudged.
 
 See [the criteria decision](../data/provenance/rayyan/m06-criteria.json) and
-[the detailed companion](../paper/companions/03-Rayyan检索与评分材料说明.md).
+[the detailed companion](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-3).
 
 ## Historical retrieval provenance
 

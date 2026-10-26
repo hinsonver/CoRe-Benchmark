@@ -4,7 +4,7 @@
 % excluding references, appendices included; title suffix [Experiment, Analysis & Benchmark];
 % link to the full reproducibility package required at the first submission.
 
-\documentclass[sigconf, nonacm, balance=false]{acmart}
+\documentclass[sigconf, nonacm]{acmart}
 %%% VLDB block start %%%
 \usepackage{pvldb}
 %%% VLDB block end %%%
@@ -15,12 +15,12 @@
 
 \renewcommand\vldbdoi{XX.XX/XXX.XX}
 \renewcommand\vldbpages{XXX-XXX}
-% The true reviewer-access URL is a separate submission gate, not a placeholder.
-\renewcommand\vldbavailabilityurl{}
+% Repository URL for the standard PVLDB availability block.
+\renewcommand\vldbavailabilityurl{https://github.com/hinsonver/CoRe-Benchmark}
 
 \newcommand{\core}{\textsc{CoRe}}
-\newcommand{\companion}{\href{../CoRe-companion-index.md}{companion materials}}
-\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\companion}{\href{https://github.com/hinsonver/CoRe-Benchmark/raw/refs/heads/main/paper/CoRe-Supplementary-Technical-Report.pdf}{supplementary report}}
+\newcommand{\companionref}[1]{\href{https://github.com/hinsonver/CoRe-Benchmark/raw/refs/heads/main/paper/CoRe-Supplementary-Technical-Report.pdf\#nameddest=companion-#1}{Report~\S#1}}
 % Numbered finding at the end of each results section (cf. the "Finding" boxes of EA&B papers).
 \newcounter{finding}
 \newcommand{\finding}[1]{\par\smallskip\noindent\refstepcounter{finding}%
@@ -161,7 +161,7 @@ seeds and, for DeepSeek-V4-Pro, with labeled examples and error positions. Withi
 Hospital's total effect grows across the three model sizes. On Hospital and Beers,
 whole-table Baran and TabClean retain high scores under renaming, with repeated records and
 formatting patterns available for repair (Sections~\ref{sec:knowledge}--\ref{sec:generalize}).
-The \companion{} retain the three-dataset condition overview and its intervals.
+The \companion{} retains the three-dataset condition overview and its intervals.
 
 Yet a familiar fact can be the wrong value to preserve. Commercial models rewrite
 68\%--100\% of assigned directors of known films toward real-world credits. Table-evidence
@@ -315,7 +315,7 @@ examine assigned-value preservation and the edits that receive credit
   which assigned values should be preserved, and which edits receive reference credit.
   The panels illustrate separate tests on their respective benchmark inputs.}
   \label{fig:overview}
-  \Description{Three separate examples illustrate recovery evidence, preservation of an assigned director, and reference credit for a date transformation.}
+  \Description{Three separate examples illustrate recovery evidence, preservation of an assigned director, and an externally matched ISSN correction rejected by reference scoring.}
 \end{figure*}
 
 \subsection{Four Conditions and Their Comparisons}\label{sec:conditions}
@@ -337,7 +337,7 @@ Figure~\ref{fig:example} illustrates naming and error transfer on Hospital rows.
   \includegraphics[width=\textwidth]{figures/fig_example_transfer.pdf}
   \caption{Hospital construction example. O/W/S share a row and city error cell while
   changing identity values. F uses a newer registry row with a newly drawn error location.
-  The \companion{} retain the complete identity-field example.}
+  The \companion{} retains the complete identity-field example.}
   \label{fig:example}
   \Description{Hospital rows compare original, word and syllable names with a shared city error; a fresh registry row uses a newly drawn error location.}
 \end{figure*}
@@ -417,8 +417,8 @@ after no-ops are removed, and $R \subseteq P \cap E$ those set to the reference 
 and detection F1 uses $P \cap E$ in place of $R$. Edit and repaired-value comparisons ignore
 case and normalize whitespace, while $E$ uses original strings. Thus Movies' five case-only
 title errors remain in $E$ but cannot earn repair credit. Identity columns are reported
-separately from the others. The \companion{} specify normalization, reply handling and the
-construction recipes used below.
+separately from the others. Normalization and reply handling follow \companionref{2};
+the exact prompt is in \companionref{7}.
 
 \section{Building the Controlled Tables}\label{sec:construction}
 
@@ -428,7 +428,7 @@ we start from the observed error profile and transfer it to renamed values or fr
 Surrogates preserve non-identity cells and error positions, whereas fresh error counts depend
 on whether recipes and rules apply to the new records. Naming rules keep fictitious values
 from revealing identities or looking malformed. Table~\ref{tab:construction}
-summarizes the constructions, with full recipes and checks in the \companion{}.
+summarizes the constructions, with full recipes and checks in \companionref{1}.
 
 \input{tables/construction}
 
@@ -500,7 +500,7 @@ Acceptance checks cover structure, error counts and strength, naming leakage, fr
 requirements and deterministic rebuilding. The tables pass 505 of 506 checks. Hospital W at
 seed~0 has fewer errors replacing three or more characters: 6.4\%, versus 16.9\% in O.
 The 10.5-point difference exceeds the eight-point tolerance by 2.5 points; error positions
-are unchanged. Full distributions and thresholds appear in the \companion{}.
+are unchanged. \companionref{1} gives the thresholds and \companionref{7} the distributions.
 
 Naming and leakage account for 263 checks: one-to-one replacements, exclusion of real values,
 and title-shape comparisons against chance-level matching. Deterministic rebuilding checks
@@ -510,53 +510,53 @@ Hospital and Movies have three construction seeds: surrogates redraw names and a
 errors; F redraws errors on fixed clean records. Seed ranges capture construction variation,
 whereas bootstrap intervals summarize chunks of one construction. Main tables report seed~0.
 Hospital W at seeds 1 and 2 passes the strength check, with positive F\,$-$\,W and
-W\,$-$\,S contrasts for all eight cleaners. Table~\ref{tab:seeds} gives construction ranges;
-the \companion{} detail the passing-seed comparison.
+W\,$-$\,S contrasts for all eight cleaners. Construction ranges and passing-seed contrasts
+appear in Table~\ref{tab:seeds} and \companionref{7}, respectively.
 
 \section{Experimental Setup}\label{sec:setup}
 
-\textbf{Models.} We evaluate DeepSeek-V4-Pro~\cite{deepseekai2026deepseekv4},
-Qwen3.8-Max~\cite{qwen38}, GLM-5.3~\cite{zai2026glm53} and
-GPT-6.1-Sol~\cite{openai2026gpt61sol} as commercial cleaners. Locally,
-vLLM~\cite{kwon2023vllm} uses greedy decoding
-for Qwen2.5 Instruct at 7B, 14B and 32B (AWQ)~\cite{qwen2025qwen25}, and
+\textbf{Models.} Commercial requests disable thinking and set temperature~0 for
+DeepSeek-V4-Pro~\cite{deepseekai2026deepseekv4} and Qwen3.8-Max~\cite{qwen38}.
+GLM-5.3~\cite{zai2026glm53} uses low reasoning effort and temperature~0;
+GPT-6.1-Sol~\cite{openai2026gpt61sol} uses low reasoning effort with sampling parameters
+left at API defaults. Settings stay fixed across conditions within each model.
+Locally, vLLM~\cite{kwon2023vllm} greedily decodes
+Qwen2.5 Instruct at 7B, 14B and 32B (AWQ)~\cite{qwen2025qwen25}, and
 Llama-3.1-8B-Instruct~\cite{dubey2024llama3}. OLMo-2-7B instruction/base
-variants~\cite{olmo2024olmo2} are auxiliary continuation models with a public pretraining corpus.
-Compact labels abbreviate these names; Qwen-7B/14B/32B denote Qwen2.5.
-Eight of GLM's 500 Movies replies remain incomplete after retries and yield no parsed corrections.
-The \companion{} detail reasoning settings, budgets, usage and exclusion sensitivity.
+variants~\cite{olmo2024olmo2} support auxiliary continuation with a public pretraining corpus.
+Table labels shorten model names; Qwen-7B/14B/32B denote Qwen2.5.
+Eight of GLM's 500 Movies replies remain incomplete with no parsed corrections.
+\companionref{2} gives budgets and retries; \companionref{7} covers usage and sensitivity.
 
 \textbf{Methods and information.} The \emph{aligned} setting adds 20 labeled dirty/clean tuples
-and error positions to the main chunks. Baran~\cite{mahdavi2020baran} receives the same information,
-with three seeded runs, and also runs on whole tables with perfect detection or
+and error positions to the main chunks. Baran~\cite{mahdavi2020baran} uses the same aligned
+inputs with three seeds, plus whole tables with perfect detection or
 Raha~\cite{mahdavi2019raha}. We disable Baran's Wikipedia-revision value models and Raha's
-knowledge-base detector. TabClean uses DeepSeek-V4-Pro on whole tables, with its 150 labeled
-development rows excluded from scoring. These settings distinguish information available within
-a chunk from evidence supplied by repeated records and labels.
+knowledge-base detector. TabClean runs DeepSeek-V4-Pro on whole tables with repeated records;
+scoring excludes 150 labeled development rows.
 
-\textbf{Scale.} The study includes about 23,000 prompts for cleaning, aligned comparisons,
-knowledge conflicts and continuation. Their breakdown and run specifications are in the
-\companion{}. Table~\ref{tab:datasets} gives the dataset roles; the Rayyan analysis uses the
-version-specific inputs defined in Section~\ref{sec:quality}.
+\textbf{Scale.} The 1,000-row inputs retain Movies' source-style and Beers' city-error rows
+(Section~\ref{sec:benchmarks}; \companionref{1}). Fixed paired O/W/S chunks and Hospital/Movies
+construction-seed repetitions support recovery-mechanism comparisons
+(Section~\ref{sec:acceptance}). \companionref{2} details about 23,000 cleaning,
+aligned, conflict and continuation prompts; Rayyan input versions follow Section~\ref{sec:quality}.
 
-\textbf{Statistics.} Condition differences use a chunk-level bootstrap~\cite{efron1993bootstrap}
-with 2,000 resamples, paired for O/W/S, and 95\% percentile intervals. Each table's differences
-form a family, with significance at Holm-corrected~\cite{holm1979simple} $p<0.05$. Near-zero
-scores also use repaired-cell counts and paired-chunk sign tests, corrected over models.
-Main tables show construction seed~0; seed ranges describe the variation defined in
-Section~\ref{sec:acceptance}.
+\textbf{Statistics.} Condition differences use 2,000 chunk-bootstrap resamples~\cite{efron1993bootstrap},
+paired for O/W/S, with 95\% percentile intervals. Bootstrap tests form one Holm family per
+results table (8 models $\times$ 5 contrasts $=$ 40 tests in Table~\ref{tab:main}), with
+corrected~\cite{holm1979simple} $p<0.05$. Near-zero scores use repaired-cell counts and paired-chunk
+sign tests, Holm-corrected separately over eight models per dataset.
 
-Conflict intervals resample entity means 2,000 times under the metric in
-Section~\ref{sec:conflictmetric}, conditioning on the selected entities in fixed table contexts.
-Rayyan intervals use 5,000 within-stratum resamples of saved binary checks, with fixed type
-weights, conditioning on the selected title matches and field criteria
-(Section~\ref{sec:rayyan-audit}). Both report 95\% percentile intervals.
+Conflict intervals resample selected entity means 2,000 times in fixed table contexts
+(Section~\ref{sec:conflictmetric}). Rayyan uses 5,000 within-stratum resamples of saved binary
+checks with fixed type weights, conditional on selected title matches and field criteria
+(Section~\ref{sec:rayyan-audit}). Both use 95\% percentile intervals.
 
 \section{Testing Benchmark Memorization}\label{sec:memorization}
 
 The continuation probe covers DeepSeek-V4-Pro, the four open-weight cleaners and both OLMo-2
 variants. It asks for the next row after a header and ten consecutive rows, and tests whether
-dirty context elicits a clean reference value. The \companion{} detail trial counts and context settings.
+dirty context elicits a clean reference value. \companionref{2} details trial counts and context settings.
 
 \textbf{Separating structure from row memory.} Many next-row values are predictable from
 repeated values and fixed record order. On Hospital, naive scoring gives DeepSeek-V4-Pro 47\%
@@ -619,8 +619,8 @@ contribute, while detection remains stronger than repair.}\label{find:hospital}
 \subsection{Movies: Candidates and Mappings}
 
 \textbf{Year ranges retain useful candidates.} In the 190 source-style rows, the year is
-``Y$-$1 Y Y$+$1'' and the middle candidate matches 167 references (88\%). DeepSeek is right
-91\% on real films, but only 18\% on W and 13\% on S, where it mostly chooses the first year
+``Y$-$1 Y Y$+$1'' and the middle candidate matches 167 references (88\%). DeepSeek's year
+accuracy is 91\% on real films, but only 18\% on W and 13\% on S, where it mostly chooses the first year
 (Figure~\ref{fig:year}). The unchanged candidates retain a useful constraint after renaming,
 although the prompt does not state the rule. Lower repair reflects limited use of this
 evidence on unfamiliar names.
@@ -720,11 +720,11 @@ their spelling contrast, while real entities retain an advantage.
 \begin{figure}[tbp]
   \centering
   \includegraphics[width=\columnwidth]{figures/fig3_aligned.pdf}
-  \caption{Labels and error positions improve DeepSeek-V4-Pro's repair but retain a fresh--words
-  gap. Identity-column F1 in zero-shot and aligned settings; Baran is the aligned mean of three
-  runs. Intervals are 95\% chunk-bootstrap intervals.}
+  \caption{Alignment improves DeepSeek-V4-Pro's repair but retains a fresh--words gap.
+  Identity-column F1 in zero-shot and aligned settings. DeepSeek has 95\% chunk-bootstrap
+  intervals; Baran shows a three-run mean with the first run's interval shifted to it.}
   \label{fig:aligned}
-  \Description{Hospital and Movies condition scores compare aligned DeepSeek, zero-shot DeepSeek and aligned Baran with chunk-bootstrap intervals.}
+  \Description{Hospital and Movies identity-column scores compare zero-shot and aligned DeepSeek with 95 percent chunk-bootstrap intervals. Baran points are means of three aligned runs; their whiskers translate the first run's interval to that mean.}
 \end{figure}
 
 Baran with the same chunks, labels and positions scores 0.27--0.32 on Hospital and zero on
@@ -756,9 +756,8 @@ represented in every chunk and permits a
 unique restoration for 95 corrupted names. GPT restores 74 of them; the other commercial models
 restore 8--12 and open models at most one (Table~\ref{tab:decoding}). The inventory is used by
 our analysis, not supplied to the cleaner. On digits, which it does not constrain, GPT repairs
-6 of 97, like the others. Its stronger S performance is concentrated on names recoverable
-from the restricted vocabulary. Name-replacement gaps thus reflect a model's use of retained
-evidence as well as familiar entities.
+6 of 97. Its S advantage is concentrated on names recoverable from the restricted vocabulary.
+Name-replacement gaps thus reflect a model's use of retained evidence as well as familiar entities.
 
 \input{tables/decoding}
 
@@ -806,7 +805,7 @@ Each target has an exact real name, a one-vowel-changed name and its syllable co
 the name differs across versions; attributes, other values, error positions and chunks are
 fixed. Hospital and Beers receive internally consistent locations. Movies also updates
 related director occurrences consistently, preventing another column from supplying the old
-director as a candidate. The \companion{} specify these cross-column replacements.
+director as a candidate. \companionref{2} specifies these cross-column replacements.
 
 The common pool contains 57 films, 24 hospitals and 48 breweries known to DeepSeek-V4-Pro.
 Main chunks contain three targets and 17 other-entity fillers, with one row per target.
@@ -826,7 +825,7 @@ A directed rewrite changes the assigned Director or City to the paired entity's 
 fact. Director outputs must contain a full credited name; cities must match the normalized
 real city. The one-letter-name variant instead measures restoration of the exact real name.
 These events are scored separately from any change to the target cell. Output parsing and
-matching normalization are specified in the \companion{}.
+matching normalization are specified in \companionref{2}.
 
 Let $E_m$ contain entities passing model $m$'s factual queries, $s$ be target rows per entity,
 and $z_{ej}$ indicate a matching rewrite in row $j$ of entity $e$. We report
@@ -911,7 +910,7 @@ We sample up to 80 cells per error type, including all volume/issue, pagination 
 differences, for 279 cells. Automatic title matching selects the highest-similarity PubMed
 candidate among up to five results at a normalized similarity of at least 0.9. This yields
 152 matched cells associated with 121 PMIDs: 54.5\% overall and 47.5\%--61.3\% across types
-(Table~\ref{tab:rayyan}). Query construction and retrieval provenance appear in the \companion{}.
+(Table~\ref{tab:rayyan}). Query construction and retrieval provenance appear in \companionref{3}.
 
 \textbf{Field-specific checks.} The date field \texttt{article\_jcreated\_at} is checked for
 agreement with PubMed's publication year; the dataset does not document its exact semantics.
@@ -946,7 +945,7 @@ TabClean's distributed Rayyan input has 960 difference cells, rather than the au
 Both are 1,000-row, eleven-column tables with the same date-conversion pattern. We score the
 archived output against its actual input pair and exclude 150 development rows. The remaining
 850 rows contain 808 errors; 498 effective edits yield 461 credited repairs, giving
-$F_1=2\times461/(498+808)=0.71$ after rounding. The \companion{} record the input-version
+$F_1=2\times461/(498+808)=0.71$ after rounding. \companionref{3} records the input-version
 differences, development indices and saved output.
 
 External checks reverse the date comparison: 42/44 matched dirty dates pass the year check,
@@ -959,11 +958,11 @@ rejecting the externally matched ISSN.
 Hospital's reference places Helen Keller Memorial Hospital in Jefferson County, although its
 city, Sheffield, is in Colbert County. Three commercial models correct some of these cells and
 are penalized as false edits. These smaller issues illustrate the same distinction between
-reference agreement and external correctness. The \companion{} give their counts and an
-example of duplicate writer credits in Movies.
+reference agreement and external correctness. \companionref{3} records these counts and
+Movies' duplicate writer credits.
 
 \finding{Rayyan's systematic date and page conversions affect repair credit. Stratified field
-checks against title-matched PubMed records give 95.2\% weighted reference-check failure
+checks against title-matched PubMed records give a 95.2\% weighted reference-check failure rate
 (95\% interval: 91.2--97.8\%), using the 948-cell type composition. On TabClean's version,
 434/461 credited repairs (94\%), after excluding 150 development rows, reproduce the reference
 date transformation.}\label{find:quality}
@@ -998,16 +997,16 @@ bind scores to input versions and development exclusions (Finding~\ref{find:qual
 Adapting \core{} leaves the cleaner unchanged but requires an error profile, a compatible fresh
 source, two naming styles and acceptance checks. Profiling identifies the available recovery
 evidence and the intended target, including source priorities and reference transformations.
-The \companion{} provide an application guide. Matching and imputation offer future settings.
+\companionref{4} provides an application guide. Matching and imputation offer future settings.
 
 \subsection{Artifact and Result Replay}\label{sec:artifact}
 
-The statistical core supports offline replay of the condition contrasts, conflict rates and
-Rayyan checks. It provides Hospital/Beers tables and archived evidence; Movies uses numerical
-witnesses and saved continuation summaries. A separate authorized local entry checks historical
-movie inputs, replies and scoring-code hashes before re-scoring. The \companion{} map C1--C3
-to their input versions, executable entries and reported results, distinguishing public numerical
-replay from reader-supplied row-level validation.
+The statistical core replays condition contrasts, conflict rates and Rayyan checks offline from
+Hospital/Beers tables, Movies numerical witnesses and saved continuation summaries.
+Authorized local validation checks historical movie inputs, replies and scoring-code hashes
+before re-scoring. The repository \texttt{README} provides runnable entries;
+\companionref{5} maps each analysis to input versions, scoring entries and results;
+\companionref{6} gives the extended displays.
 
 \subsection{Limitations}\label{sec:limitations}
 
@@ -1019,7 +1018,7 @@ and F introduces record-difficulty differences (Table~\ref{tab:conditions}). Bee
 different brewery concentration and alcohol distributions, while Hospital's restricted syllables
 provide the regularity observed for GPT (Section~\ref{sec:commercial}). The study covers eight
 commercial and open-weight cleaners on English tables concerning mainly US entities, with
-decoding settings in the \companion{}; it does not cover Claude or Gemini.
+decoding settings in \companionref{2}; it does not cover Claude or Gemini.
 
 Intervals summarize fixed constructions and archived replies, rather than repeated API calls.
 Chunk resampling does not separately estimate dependence between chunks sharing an entity;
