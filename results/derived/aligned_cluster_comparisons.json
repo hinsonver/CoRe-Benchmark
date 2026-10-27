@@ -1,0 +1,686 @@
+{
+  "hospital|O|all": {
+    "point": 0.9680170575692963,
+    "ci": [
+      0.9308626283656422,
+      0.989467310373828
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.4955612386611905,
+      "ci": [
+        0.4237851206526218,
+        0.570897580747247
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.47245581890810584
+  },
+  "hospital|O|identity": {
+    "point": 0.9663461538461539,
+    "ci": [
+      0.9099536645445094,
+      0.993194221952533
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.6787054497591252,
+      "ci": [
+        0.5752267133324436,
+        0.7847159877355218
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.28764070408702874
+  },
+  "hospital|O|other": {
+    "point": 0.9693486590038314,
+    "ci": [
+      0.9201915285188775,
+      0.9933759845786824
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.3784685738650253,
+      "ci": [
+        0.29681830646701945,
+        0.46457633009804705
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.5908800851388061
+  },
+  "hospital|F|all": {
+    "point": 0.9744680851063829,
+    "ci": [
+      0.9442922315889064,
+      0.9917304595765661
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.5168997661154278,
+      "ci": [
+        0.4402091950440225,
+        0.6008897917334928
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.4575683189909552
+  },
+  "hospital|F|identity": {
+    "point": 0.9807692307692307,
+    "ci": [
+      0.9398633793745353,
+      0.9974932652708517
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.6614271823429676,
+      "ci": [
+        0.5253807941555099,
+        0.7990347757285278
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.3193420484262632
+  },
+  "hospital|F|other": {
+    "point": 0.9694656488549618,
+    "ci": [
+      0.9230508616844335,
+      0.9928085057409791
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.41912920553726296,
+      "ci": [
+        0.33584834108753414,
+        0.509496647677936
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.5503364433176988
+  },
+  "hospital|W|all": {
+    "point": 0.8784648187633263,
+    "ci": [
+      0.823662410168952,
+      0.9236599796792058
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.4118373842066428,
+      "ci": [
+        0.3476037479168966,
+        0.48034628173636285
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.4666274345566835
+  },
+  "hospital|W|identity": {
+    "point": 0.7644230769230769,
+    "ci": [
+      0.6524516814914247,
+      0.8580500489044012
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.49230351192612515,
+      "ci": [
+        0.3962338908470181,
+        0.5993737591768167
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.2721195649969517
+  },
+  "hospital|W|other": {
+    "point": 0.9693486590038314,
+    "ci": [
+      0.9208208314330062,
+      0.9931348969962079
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.3784685738650253,
+      "ci": [
+        0.2972590823819561,
+        0.4641361377375368
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.5908800851388061
+  },
+  "hospital|S|all": {
+    "point": 0.8715203426124197,
+    "ci": [
+      0.8129520819404636,
+      0.9201506328403809
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.4034407307622562,
+      "ci": [
+        0.33549904962130883,
+        0.47538584605500944
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.46807961185016356
+  },
+  "hospital|S|identity": {
+    "point": 0.7475728155339806,
+    "ci": [
+      0.6230499794645095,
+      0.8502637227077557
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.4698589583375587,
+      "ci": [
+        0.37180601224974613,
+        0.5771538529963425
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.2777138571964219
+  },
+  "hospital|S|other": {
+    "point": 0.9693486590038314,
+    "ci": [
+      0.9208208314330062,
+      0.9931348969962079
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.3784685738650253,
+      "ci": [
+        0.2972590823819561,
+        0.4641361377375368
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.5908800851388061
+  },
+  "movies|O|all": {
+    "point": 0.8030865961703344,
+    "ci": [
+      0.7841702324478281,
+      0.8216501168911846
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.6046431934727232,
+      "ci": [
+        0.5581585804285388,
+        0.6470036707501051
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.1984434026976112
+  },
+  "movies|O|identity": {
+    "point": 0.6434494195688225,
+    "ci": [
+      0.5836293429036975,
+      0.6974391062109042
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.6434494195688225,
+      "ci": [
+        0.5836293429036975,
+        0.6974391062109042
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.0
+  },
+  "movies|O|other": {
+    "point": 0.8363259668508287,
+    "ci": [
+      0.8183322975758052,
+      0.8543714495727873
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.6004550486908595,
+      "ci": [
+        0.5482066342254114,
+        0.6490754020871169
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.23587091815996916
+  },
+  "movies|F|all": {
+    "point": 0.8322418136020151,
+    "ci": [
+      0.8088102894774322,
+      0.8546665400615597
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.5167678190802134,
+      "ci": [
+        0.47143926786713874,
+        0.5642225419073817
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.3154739945218017
+  },
+  "movies|F|identity": {
+    "point": 0.6744186046511628,
+    "ci": [
+      0.6127064532091064,
+      0.7330931626818565
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.6744186046511628,
+      "ci": [
+        0.6127064532091064,
+        0.7330931626818565
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.0
+  },
+  "movies|F|other": {
+    "point": 0.8604513064133017,
+    "ci": [
+      0.8394257014414024,
+      0.8796065715068575
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.49978985209971727,
+      "ci": [
+        0.4501434770664163,
+        0.5516907788715124
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.36066145431358443
+  },
+  "movies|W|all": {
+    "point": 0.581037982023775,
+    "ci": [
+      0.5529593415924033,
+      0.6089199207879845
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.3823767913392777,
+      "ci": [
+        0.3367750568241404,
+        0.4264718423410048
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.19866119068449725
+  },
+  "movies|W|identity": {
+    "point": 0.09059233449477352,
+    "ci": [
+      0.0619353772985447,
+      0.12177146397476704
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.09059233449477352,
+      "ci": [
+        0.0619353772985447,
+        0.12177146397476704
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.0
+  },
+  "movies|W|other": {
+    "point": 0.6789565217391305,
+    "ci": [
+      0.6526359636946746,
+      0.7038207245757642
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.44308560357916127,
+      "ci": [
+        0.392288532536188,
+        0.49283438920935146
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.23587091815996916
+  },
+  "movies|S|all": {
+    "point": 0.5791460935230903,
+    "ci": [
+      0.5529553628340061,
+      0.606278397502334
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.38054501642717053,
+      "ci": [
+        0.33423079766261354,
+        0.42476813923067025
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.19860107709591981
+  },
+  "movies|S|identity": {
+    "point": 0.07317073170731707,
+    "ci": [
+      0.04706662138564311,
+      0.10414270218005832
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.07317073170731707,
+      "ci": [
+        0.04706662138564311,
+        0.10414270218005832
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.0
+  },
+  "movies|S|other": {
+    "point": 0.6803764377831997,
+    "ci": [
+      0.6569811139903511,
+      0.7040368468934987
+    ],
+    "interval_available": true,
+    "kind": "cluster_percentile",
+    "llm_minus_baran": {
+      "point": 0.4445055196232305,
+      "ci": [
+        0.3930365020703219,
+        0.49419263436980876
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.23587091815996916
+  },
+  "beers|O|all": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.8030520413288939,
+      "ci": [
+        0.7299597038104597,
+        0.8658597003205966
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.19694795867110612
+  },
+  "beers|O|identity": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.8080972222222222,
+      "ci": [
+        0.6634202634661258,
+        0.9165949785057649
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.19190277777777776
+  },
+  "beers|O|other": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.8020119474024927,
+      "ci": [
+        0.72337000349125,
+        0.8683970569666443
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.1979880525975073
+  },
+  "beers|F|all": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.39667023630167464,
+      "ci": [
+        0.3403138410248167,
+        0.4706524734408479
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.6033297636983254
+  },
+  "beers|F|identity": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.2301576132845483,
+      "ci": [
+        0.16586667330940347,
+        0.3121336457629034
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.7698423867154517
+  },
+  "beers|F|other": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.4510446368188078,
+      "ci": [
+        0.38309554632420145,
+        0.529541173765483
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.5489553631811922
+  },
+  "beers|W|all": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.800995215959829,
+      "ci": [
+        0.7282815544147431,
+        0.8640433954757438
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.19900478404017097
+  },
+  "beers|W|identity": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.7987941429801895,
+      "ci": [
+        0.6557908713133468,
+        0.9093996229220672
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.2012058570198105
+  },
+  "beers|W|other": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.8020119474024927,
+      "ci": [
+        0.72337000349125,
+        0.8683970569666443
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.1979880525975073
+  },
+  "beers|S|all": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.7978433516864529,
+      "ci": [
+        0.7241497378476305,
+        0.8624633970466082
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.2021566483135471
+  },
+  "beers|S|identity": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.7841016300032694,
+      "ci": [
+        0.639725726810932,
+        0.9012992969390871
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.21589836999673065
+  },
+  "beers|S|other": {
+    "point": 1.0,
+    "ci": [
+      1.0,
+      1.0
+    ],
+    "interval_available": false,
+    "kind": "empirical_constant",
+    "llm_minus_baran": {
+      "point": 0.8020119474024927,
+      "ci": [
+        0.72337000349125,
+        0.8683970569666443
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "baran_mean": 0.1979880525975073
+  }
+}

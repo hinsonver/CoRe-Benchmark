@@ -14,9 +14,11 @@ class SubmissionContract(unittest.TestCase):
 
     def test_ordered_citation(self):
         citation = (ROOT / 'CITATION.cff').read_text()
-        self.assertLess(citation.index('family-names: Yang'),citation.index('family-names: Chen'))
-        self.assertLess(citation.index('family-names: Chen'),citation.index('family-names: Fan'))
-        for email in ['okiyang@muc.edu.cn','202301050@muc.edu.cn','fanj@ruc.edu.cn']:
+        authors = re.findall(r'family-names: (\w+)', citation)
+        self.assertEqual(authors, ['Yang', 'Zhang', 'Fan', 'Chen', 'Du'])
+        self.assertIn('Knowledge Dependence in LLM-based Data Cleaning', citation)
+        for email in ['okiyang@muc.edu.cn','26302276@muc.edu.cn','fanj@ruc.edu.cn',
+                      '202301050@muc.edu.cn','duyong@ruc.edu.cn']:
             self.assertIn(email,citation)
         self.assertNotIn('doi:',citation)
 

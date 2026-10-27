@@ -1,25 +1,22 @@
 \begin{table}[t]
-  \caption{Near-zero repaired-cell counts. Hospital W/S: 219 identity errors; Movies O/W: 379.
-  Chunk counts give more : fewer repairs in the first condition;
-  sign-test $p$ values use separate eight-model Holm families by dataset.}
+  \caption{Repaired cells and chunk wins:losses, excluding ties. Hospital compares W/S on 219 identity errors; Movies compares O/W on 379. Hospital chunk counts are descriptive; Movies sign tests use Holm correction over eight models.}
   \label{tab:counts}
   \small
   \setlength{\tabcolsep}{3.5pt}
-  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}l rrr rrr@{}}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lrr rrr@{}}
     \toprule
-    & \multicolumn{3}{c}{Hospital, W vs S} & \multicolumn{3}{c}{Movies, O vs W} \\
-    \cmidrule(lr){2-4}\cmidrule(l){5-7}
-    Model & W/S & Chunks & $p$ & O/W & Chunks & $p$ \\
+    & \multicolumn{2}{c}{Hospital, W vs S} & \multicolumn{3}{c}{Movies, O vs W} \\
+    \cmidrule(lr){2-3}\cmidrule(l){4-6}
+    Model & W/S & Chunks & O/W & Chunks & $p$ \\
     \midrule
-    DeepSeek & 104/28 & 35:1 & $<$.001 & 97/11 & 35:3 & $<$.001 \\
-    Qwen3.8 & 116/37 & 39:2 & $<$.001 & 94/7 & 37:2 & $<$.001 \\
-    GLM-5.3 & 117/32 & 39:2 & $<$.001 & 25/8 & 16:3 & .022 \\
-    GPT-6.1 & 120/100 & 19:6 & .044 & 24/10 & 13:6 & .334 \\
-    \midrule
-    Qwen-7B & 11/4 & 8:4 & .388 & 1/0 & 1:0 & 1 \\
-    Llama-8B & 5/1 & 4:0 & .250 & 12/3 & 9:1 & .086 \\
-    Qwen-14B & 35/7 & 23:2 & $<$.001 & 14/3 & 10:0 & .012 \\
-    Qwen-32B & 63/7 & 35:0 & $<$.001 & 7/1 & 6:0 & .094 \\
+    DeepSeek & 104/28 & 35:1 & 97/11 & 35:3 & $<$.001 \\
+    Qwen3.8 & 116/37 & 39:2 & 94/7 & 37:2 & $<$.001 \\
+    GLM-5.3 & 117/32 & 39:2 & 25/8 & 16:3 & .022 \\
+    GPT-6.1 & 120/100 & 19:6 & 24/10 & 13:6 & .334 \\
+    Qwen-7B & 11/4 & 8:4 & 1/0 & 1:0 & 1 \\
+    Llama-8B & 5/1 & 4:0 & 12/3 & 9:1 & .086 \\
+    Qwen-14B & 35/7 & 23:2 & 14/3 & 10:0 & .012 \\
+    Qwen-32B & 63/7 & 35:0 & 7/1 & 6:0 & .094 \\
     \bottomrule
   \end{tabular*}
 \end{table}

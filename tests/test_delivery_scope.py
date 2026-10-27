@@ -49,13 +49,13 @@ class DeliveryScope(unittest.TestCase):
         self.assertEqual(hashlib.sha256((directory/'p1.tex').read_bytes()).hexdigest(),
                          '2d024ba4f49c2743048a481e171b95c8b469c9ce5ada6fad2f8d5367939d1882')
 
-    def test_four_authors_and_current_exact_reading_documents(self):
+    def test_five_authors_and_current_exact_reading_documents(self):
         citation=(ROOT/'CITATION.cff').read_text()
-        self.assertEqual(citation.count('family-names:'),4)
+        self.assertEqual(citation.count('family-names:'),5)
         self.assertIn('duyong@ruc.edu.cn',citation)
-        expected={'paper/latex/main.tex':'ba9f2eacdc984c8324f283fb8278f118f0ac2eaac3f29719a8630dcca681e8a9',
-                  'paper/latex/main.pdf':'2b6e5fdd814658307f77e1d1da86fa699c574ecd100474a0838598a206ff2e8e',
-                  'paper/CoRe-Supplementary-Technical-Report.pdf':'ce23abbc850bcd4ac4df205bddf31d49569423d8e501e75193ae2388914c090c'}
+        expected={'paper/latex/main.tex':'23e5dc6cc722e907efe5f54796f08ba0d04e758a0f500e89caf9c6fa20b7b4f3',
+                  'paper/latex/main.pdf':'48434d05d806c4559ca1669cb9171698e6db839b712bfe9743a721f4094a8080',
+                  'paper/CoRe-Supplementary-Technical-Report.pdf':'89ae56e95411d1a4944e9d2b131a7c24e71da56193d7659bc63d6526e7379dee'}
         for name,digest in expected.items():
             self.assertEqual(hashlib.sha256((ROOT/name).read_bytes()).hexdigest(),digest,name)
 

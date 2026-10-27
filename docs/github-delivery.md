@@ -1,14 +1,24 @@
-# Download the fixed private GitHub delivery
+# Obtain the current checkout and fixed historical materials
 
-The current delivery is the [2026-10-26 private prerelease](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.2.0-review-private-20261026) in the existing `hinsonver/CoRe-Benchmark` repository. It has three assets:
+The `main` checkout in the existing private `hinsonver/CoRe-Benchmark` repository contains the current five-author paper, 24-page technical report and matching statistical display. With an account that has repository access:
+
+```sh
+gh repo clone hinsonver/CoRe-Benchmark
+cd CoRe-Benchmark
+git rev-parse HEAD
+```
+
+Record that commit identifier when reporting a reproduction. The [README](../README.md#quick-start) gives the current offline commands. The paper and report are linked there and bound by SHA-256 in [the document binding](../paper/revision-binding.json).
+
+The retained [2026-10-26 private prerelease](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.2.0-review-private-20261026) has three fixed assets:
 
 | Asset | Purpose |
 | --- | --- |
-| `CoRe-review-core-20261026.zip` | Current four-author paper, 22-page technical report, code, non-Movies raw evidence and numerical Movies witnesses; no raw Movies records or replies |
+| `CoRe-review-core-20261026.zip` | Earlier four-author paper, 22-page technical report and code snapshot, non-Movies raw evidence and numerical Movies witnesses; no raw Movies records or replies |
 | `CoRe-submission-VE-M01-M05-historical.zip` | Exact historical Movies inputs, archived replies and bound historical code, separate from the Git tree and statistical core |
 | `SHA256SUMS` | SHA-256 checksums of both ZIP assets |
 
-The [previous fixed private release](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.1.0-a04-review-private-20261022), tag and assets are unchanged. Use the fixed tag above, not a moving `latest` URL or a source-code ZIP offered automatically by GitHub.
+Both this fixed snapshot and the [previous fixed private release](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.1.0-a04-review-private-20261022), their tags and assets are unchanged. Use the checkout for the current paper and inference display; use the fixed tag above to acquire exact historical inputs or reproduce the older core snapshot. Do not use a moving `latest` URL or mistake an automatically generated source-code ZIP for the separate historical asset.
 
 ## Authenticate and download
 
@@ -66,8 +76,9 @@ Private hosting does not establish that a particular reviewer can access the rep
 
 Hosting the exact archive does not recover the older continuation scoring source, the 12 missing whole-table correction lists or missing historical Rayyan responses and encoding evidence. It does not establish historical model-version availability. The [limitations](limitations.md) and [coverage matrix](../REPRODUCTION.json) retain those boundaries; these downloads make no new model or PubMed calls.
 
-The fixed `v0.2.0` core ZIP keeps its original code and hashes. For the updated
-reviewer-owned API entrypoint, use the current repository checkout and its
-[execution guide](experiment-execution.md). The historical ZIP, installation gate,
-paper PDFs and accepted statistical replay are unchanged. No author API key is
-included or required; fresh hosted calls use the reviewer's own credentials.
+The fixed `v0.2.0` core ZIP keeps its original code and hashes. The current
+checkout supplies the updated paper, report, statistical display and
+reviewer-owned API entrypoint; see the [inference guide](cluster-inference.md)
+and [execution guide](experiment-execution.md). The historical ZIP and its
+installation gate remain unchanged. No author API key is included or required;
+fresh hosted calls use the reviewer's own credentials.

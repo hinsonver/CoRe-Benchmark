@@ -1,23 +1,20 @@
 \begin{table}[t]
-  \caption{Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total
-  O$-$S, repaired cities (O/F/W/S, of 127), and exact W-versus-S chunk sign tests, Holm-corrected over models.
-  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.
-  $^\dagger$: significant as in Table~\ref{tab:main}, corrected over eight differences.}
+  \caption{Beers identity-column repair F1, O$-$S contrasts and repaired cities (O/F/W/S, of 127). $^\dagger$: Holm-corrected $p<0.05$ across eight O$-$S contrasts using entity/reply weights. F is descriptive; its brewery and alcohol-content distributions differ from O.}
   \label{tab:beers}
   \small
-  \setlength{\tabcolsep}{2pt}
-  \begin{tabular}{@{}lcccccrr@{}}
+  \setlength{\tabcolsep}{3.5pt}
+  \begin{tabular*}{\columnwidth}{@{\extracolsep{\fill}}lcccccr@{}}
     \toprule
-    Model & O & F$^{*}$ & W & S & O$-$S & Cities repaired & $p$ \\
+    Model & O & F & W & S & O$-$S & Cities repaired \\
     \midrule
-    DeepSeek-V4-Pro & 0.27 & 0.24 & 0.11 & 0.28 & $-$0.01 & 20 / 18 / 8 / 22 & 0.646 \\
-    Qwen3.8-Max & 0.94 & 0.61 & 0.82 & 0.69 & +0.24$^\dagger$ & 122 / 67 / 108 / 82 & 0.154 \\
-    GLM-5.3 & 0.94 & 0.88 & 0.89 & 0.94 & +0.00 & 120 / 110 / 116 / 117 & 1.000 \\
-    GPT-6.1-Sol & 0.96 & 0.89 & 0.98 & 1.00 & $-$0.03$^\dagger$ & 127 / 115 / 127 / 127 & 1.000 \\
-    Qwen2.5-7B & 0.00 & 0.10 & 0.04 & 0.05 & $-$0.05 & 0 / 7 / 4 / 5 & 1.000 \\
-    Llama-3.1-8B & 0.18 & 0.27 & 0.11 & 0.14 & +0.04 & 23 / 28 / 14 / 17 & 1.000 \\
-    Qwen2.5-14B & 0.16 & 0.05 & 0.11 & 0.19 & $-$0.03 & 13 / 4 / 15 / 20 & 1.000 \\
-    Qwen2.5-32B & 0.03 & 0.00 & 0.04 & 0.11 & $-$0.08 & 2 / 0 / 3 / 10 & 1.000 \\
+    DeepSeek-V4-Pro & 0.27 & 0.24 & 0.11 & 0.28 & $-$0.01 & 20 / 18 / 8 / 22 \\
+    Qwen3.8-Max & 0.94 & 0.61 & 0.82 & 0.69 & +0.24$^\dagger$ & 122 / 67 / 108 / 82 \\
+    GLM-5.3 & 0.94 & 0.88 & 0.89 & 0.94 & +0.00 & 120 / 110 / 116 / 117 \\
+    GPT-6.1-Sol & 0.96 & 0.89 & 0.98 & 1.00 & $-$0.03 & 127 / 115 / 127 / 127 \\
+    Qwen2.5-7B & 0.00 & 0.10 & 0.04 & 0.05 & $-$0.05 & 0 / 7 / 4 / 5 \\
+    Llama-3.1-8B & 0.18 & 0.27 & 0.11 & 0.14 & +0.04 & 23 / 28 / 14 / 17 \\
+    Qwen2.5-14B & 0.16 & 0.05 & 0.11 & 0.19 & $-$0.03 & 13 / 4 / 15 / 20 \\
+    Qwen2.5-32B & 0.03 & 0.00 & 0.04 & 0.11 & $-$0.08 & 2 / 0 / 3 / 10 \\
     \bottomrule
-  \end{tabular}
+  \end{tabular*}
 \end{table}

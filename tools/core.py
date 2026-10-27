@@ -38,6 +38,9 @@ def verify(root=ROOT,release=False,release_record=None):
     if set(witnesses['near'])!=set(sources['movie_near_models']):raise ValueError('Movie model coverage mismatch')
     if sources.get('publication_mode')!='statistical_core':raise ValueError('Unsupported package mode')
     runtime.verify_entity_witnesses(witnesses)
+    from src.cluster_statistics import read_witness
+    clusters=read_witness(root)
+    runtime.check_payload(clusters)
     gates=[]
     if not (root/'CITATION.cff').is_file():gates.append('final author/citation metadata')
     if release_record is None:
@@ -66,7 +69,11 @@ def run_products(root,output,presentation='current'):
     for part in ('derived','tables','figures','.mplconfig'):(output/part).mkdir()
     for name in ('rayyan_audit.json','validate_tables.json'):
         shutil.copyfile(root/'results/derived'/name,output/'derived'/name)
-    for name in ('rayyan_replay','seeds','scale','figures','paper_tables' if presentation=='current' else 'paper_tables_frozen'):
+    if presentation=='current':
+        env['CORE_COLLECT_ONLY']='1'
+        shutil.copytree(root/'results/figures',output/'figures',dirs_exist_ok=True)
+    sequence=('rayyan_replay','seeds','scale','paper_tables') if presentation=='current' else ('rayyan_replay','seeds','scale','figures','paper_tables_frozen')
+    for name in sequence:
         args=[sys.executable,'-m','src.'+name]
         if name=='rayyan_replay':args+=['--output',str(output/'derived/rayyan_replay.json')]
         subprocess.run(args,cwd=root,env=env,check=True)

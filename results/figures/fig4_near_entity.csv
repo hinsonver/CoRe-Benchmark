@@ -1,13 +1,13 @@
-item,prompt,rate,ci_low,ci_high,entities
-"Film, other director",standard,0.684,0.561,0.789,57
-"Film title, one letter off",standard,0.912,0.825,0.982,57
-"Hospital name, one letter off",standard,0.542,0.333,0.75,24
-"Brewery name, one letter off",standard,0.146,0.062,0.25,48
-"Brewery, other city",standard,0.0,0.0,0.0,48
-"Hospital, other city",standard,0.0,0.0,0.0,24
-"Film, other director",evidence,0.211,0.105,0.316,57
-"Film title, one letter off",evidence,0.719,0.596,0.842,57
-"Hospital name, one letter off",evidence,0.375,0.167,0.583,24
-"Brewery name, one letter off",evidence,0.062,0.0,0.146,48
-"Brewery, other city",evidence,0.0,0.0,0.0,48
-"Hospital, other city",evidence,0.0,0.0,0.0,24
+item,prompt,rate,ci_low,ci_high,entities,interval_kind,rewritten_entities
+"Film, other director",standard,0.684,0.49122807017543857,0.8596491228070176,57,cluster_percentile,39.0
+"Film title, one letter off",standard,0.912,0.8245614035087719,0.9824561403508771,57,cluster_percentile,52.0
+"Hospital name, one letter off",standard,0.542,0.25,0.8333333333333334,24,cluster_percentile,13.0
+"Brewery name, one letter off",standard,0.146,0.041666666666666664,0.2916666666666667,48,cluster_percentile,7.0
+"Brewery, other city",standard,0.0,,,48,empirical_constant,0.0
+"Hospital, other city",standard,0.0,,,24,empirical_constant,0.0
+"Film, other director",evidence,0.211,0.05263157894736842,0.42105263157894735,57,cluster_percentile,12.0
+"Film title, one letter off",evidence,0.719,0.543859649122807,0.8771929824561403,57,cluster_percentile,41.0
+"Hospital name, one letter off",evidence,0.375,0.08333333333333333,0.6666666666666666,24,cluster_percentile,9.0
+"Brewery name, one letter off",evidence,0.062,0.0,0.16666666666666666,48,cluster_percentile,3.0
+"Brewery, other city",evidence,0.0,,,48,empirical_constant,0.0
+"Hospital, other city",evidence,0.0,,,24,empirical_constant,0.0

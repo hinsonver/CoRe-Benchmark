@@ -1,0 +1,23 @@
+{
+  "runs": 80,
+  "chunks": 4000,
+  "paired_variants": 6,
+  "raw_count_checks": 48000,
+  "count_mismatches": 0,
+  "surrogate_geo_edits": 7073,
+  "surrogate_uncredited_geo_edits": 4393,
+  "surrogate_clean_geo_edits": 2125,
+  "surrogate_state_clean_edits": 130,
+  "surrogate_state_wrong_repairs": 8,
+  "uncredited_by_column": {
+    "ZipCode": 1048,
+    "Address1": 406,
+    "PhoneNumber": 1101,
+    "CountyName": 629,
+    "City": 1071,
+    "State": 138
+  },
+  "old_row_matches_uncredited": 2,
+  "no_causal_effect_identified": true,
+  "failures": []
+}

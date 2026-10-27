@@ -32,9 +32,16 @@ def save(fig, name: str, rows: list[dict]) -> None:
 (COL, PAGE) = (3.33, 7.0)
 SMALL = {'font.size': 7, 'axes.titlesize': 7.2, 'axes.labelsize': 6.8, 'xtick.labelsize': 6.4, 'ytick.labelsize': 6.4, 'legend.fontsize': 6.4, 'legend.handlelength': 1.2, 'legend.columnspacing': 1.0}
 
-def f1_ci(chunks: list[dict], group: str, n: int=2000) -> tuple[float, float, float]:
+def f1_ci(chunks: list[dict], group: str, n: int=2000, *, model=None, condition=None) -> tuple[float, float, float]:
     """Repair F1 and its 95% bootstrap interval over chunks."""
 
+    if os.environ.get('CORE_CLUSTER_RESULTS'):
+        data=json.loads(Path(os.environ['CORE_CLUSTER_RESULTS']).read_text())
+        base=next(d for d in ('hospital','movies','beers') if condition.startswith(d))
+        cond='F' if '_fresh' in condition else 'W' if '_surrogatewords' in condition else 'S' if '_surrogate' in condition else 'O'
+        record=data['score_intervals'][f'{model}|{base}|{cond}|{group}']
+        value=round(record['point'],4)
+        return (value,*record['ci']) if record['interval_available'] else (value,value,value)
     def f1(cs):
         tot = {k: sum((c['counts'][group][k] for c in cs)) for k in ('errors', 'predicted', 'repaired', 'detected')}
         return metrics(tot)['repair_f1']
@@ -65,16 +72,18 @@ def fig1() -> None:
             (vals, errs) = ([], [])
             for (cond, name) in zip(BASES[base], CONDITIONS):
                 ch = evidence_json(ARCHIVE / 'p2' / f'{MODEL}__{cond}__k20__spread.json')['chunks']
-                (v, lo, hi) = f1_ci(ch, group)
+                (v, lo, hi) = f1_ci(ch, group,model=MODEL,condition=cond)
                 vals.append(v)
                 errs.append((lo, hi))
-                rows.append({'dataset': base, 'columns': group, 'condition': name, 'repair_f1': round(v, 3), 'ci_low': round(lo, 3), 'ci_high': round(hi, 3)})
+                available=not os.environ.get('CORE_CLUSTER_RESULTS') or lo!=hi
+                rows.append({'dataset': base, 'columns': group, 'condition': name, 'repair_f1': round(v, 3), 'ci_low': round(lo, 3) if available else None, 'ci_high': round(hi, 3) if available else None})
             display_order = [0, 2, 3, 1]
             x = [0, 1, 2, 3.6]
             shown_vals = [vals[i] for i in display_order]
             shown_errs = [errs[i] for i in display_order]
             ax.bar(x, shown_vals, width=0.72, color=[SERIES[i] for i in display_order], edgecolor='white', linewidth=0.8, zorder=2)
-            ax.errorbar(x, shown_vals, yerr=[[v - e[0] for (v, e) in zip(shown_vals, shown_errs)], [e[1] - v for (v, e) in zip(shown_vals, shown_errs)]], fmt='none', ecolor=INK2, elinewidth=0.6, capsize=1.2, zorder=3)
+            eligible=[i for i,e in enumerate(shown_errs) if not os.environ.get('CORE_CLUSTER_RESULTS') or e[0]!=e[1]]
+            ax.errorbar([x[i] for i in eligible],[shown_vals[i] for i in eligible], yerr=[[shown_vals[i]-shown_errs[i][0] for i in eligible],[shown_errs[i][1]-shown_vals[i] for i in eligible]], fmt='none', ecolor=INK2, elinewidth=0.6, capsize=1.2, zorder=3)
             for (xi, v, e) in zip(x, shown_vals, shown_errs):
                 ax.text(xi, e[1] + 0.03, f'{v:.2f}'[1:] if v < 1 else '1.0', ha='center', va='bottom', fontsize=5.6, color=INK)
             ax.set_xticks(x, ['O', 'W', 'S', '$F^{*}$' if base == 'beers' else 'F'])
@@ -124,42 +133,60 @@ def fig2() -> None:
 
 # Baran whiskers retain a translated first-run interval, not a confidence interval of the mean.
 # The legacy ci_low/ci_high CSV columns hold those unchanged display endpoints.
-def fig3() -> None:
-    """One column: DeepSeek-V4-Pro zero-shot and aligned, Baran aligned, on Hospital and Movies identity columns."""
-    from .aligned import score
-    panels = [('hospital', 'identity', 'Hospital'), ('movies', 'identity', 'Movies')]
-    rows = []
+def render_aligned_csv(source: Path, output_dir: Path):
+    """Plot saved centers; only DeepSeek has corresponding bootstrap intervals."""
+    with Path(source).open(newline="") as handle:
+        rows = list(csv.DictReader(handle))
+    series = ["DeepSeek-V4-Pro, aligned", "Baran, aligned", "DeepSeek-V4-Pro, zero-shot"]
+    expected = {(dataset, name, condition) for dataset in ("hospital", "movies")
+                for name in series for condition in CONDITIONS}
+    keys = [(row["dataset"], row["series"], row["condition"]) for row in rows]
+    if len(keys) != 24 or set(keys) != expected:
+        raise ValueError("expected exactly the 24 fixed aligned-result rows")
     with plt.rc_context(SMALL):
-        (fig, axes) = plt.subplots(1, 2, figsize=(COL, 1.6), sharey=True)
-        for (ax, (base, group, title)) in zip(axes, panels):
-            series = {'DeepSeek-V4-Pro, aligned': [], 'Baran, aligned': [], 'DeepSeek-V4-Pro, zero-shot': []}
-            for cond in BASES[base]:
-                aligned = ARCHIVE / 'aligned'
-                llm = score(cond, evidence_json(aligned / f'{MODEL}__{cond}.json'))
-                runs = sorted(evidence_paths(aligned, f'baran__{cond}__run*.json')) or [aligned / f'baran__{cond}.json']
-                bars = [f1_ci(score(cond, evidence_json(f)), group) for f in runs]
-                mean = sum((b[0] for b in bars)) / len(bars)
-                bar = (mean, bars[0][1] + mean - bars[0][0], bars[0][2] + mean - bars[0][0])
-                p2 = evidence_json(ARCHIVE / 'p2' / f'{MODEL}__{cond}__k20__spread.json')['chunks']
-                for (k, v) in zip(series, (f1_ci(llm, group), bar, f1_ci(p2, group))):
-                    series[k].append(v)
+        fig, axes = plt.subplots(1, 2, figsize=(COL, 1.6), sharey=True)
+        for ax, base, title in zip(axes, ("hospital", "movies"), ("Hospital", "Movies")):
             x = list(range(4))
-            for ((k, vals), color, mk) in zip(series.items(), (SERIES[0], SERIES[1], SERIES[2]), ('o', 's', 'o')):
-                v = [t[0] for t in vals]
-                ax.plot(x, v, color=color, linewidth=1.4, marker=mk, markersize=3.6, markeredgecolor='white', markeredgewidth=0.8, zorder=2, label=k)
-                ax.errorbar(x, v, yerr=[[t[0] - t[1] for t in vals], [t[2] - t[0] for t in vals]], fmt='none', ecolor=color, elinewidth=0.6, capsize=1.2, zorder=2)
-                for (c, t) in zip(CONDITIONS, vals):
-                    rows.append({'dataset': base, 'series': k, 'condition': c, 'repair_f1': round(t[0], 3), 'ci_low': round(t[1], 3), 'ci_high': round(t[2], 3)})
-            ax.set_xticks(x, ['O', 'F', 'W', 'S'])
+            for name, color, mk in zip(series, (SERIES[0], SERIES[1], SERIES[2]), ("o", "s", "o")):
+                selected = {(row["condition"]): row for row in rows
+                            if row["dataset"] == base and row["series"] == name}
+                vals = [selected[condition] for condition in CONDITIONS]
+                v = [float(row["repair_f1"]) for row in vals]
+                ax.plot(x, v, color=color, linewidth=1.4, marker=mk, markersize=3.6, markeredgecolor="white",
+                        markeredgewidth=0.8, zorder=2, label=name)
+                if name != "Baran, aligned":
+                    eligible=[i for i,row in enumerate(vals) if row['ci_low']!='' and row['ci_high']!='']
+                    ax.errorbar([x[i] for i in eligible],[v[i] for i in eligible],
+                                yerr=[[v[i]-float(vals[i]['ci_low']) for i in eligible],
+                                      [float(vals[i]['ci_high'])-v[i] for i in eligible]],
+                                fmt="none", ecolor=color, elinewidth=0.6, capsize=1.2, zorder=2)
+            ax.set_xticks(x, ["O", "F", "W", "S"])
             ax.set_xlim(-0.3, 3.3)
             ax.set_ylim(0, 1.05)
             ax.set_yticks([0, 0.5, 1.0])
-            ax.set_title(title, loc='left', pad=3)
-        axes[0].set_ylabel('Repair F1')
-        (h, l) = axes[0].get_legend_handles_labels()
-        fig.legend(h, l, loc='upper center', ncol=2, bbox_to_anchor=(0.54, 1.02), frameon=False)
+            ax.set_title(title, loc="left", pad=3)
+        axes[0].set_ylabel("Repair F1")
+        h, l = axes[0].get_legend_handles_labels()
+        fig.legend(h, l, loc="upper center", ncol=2, bbox_to_anchor=(0.54, 1.02), frameon=False)
         fig.tight_layout(pad=0.3, w_pad=0.6, rect=(0, 0, 1, 0.8))
-        save(fig, 'fig3_aligned', rows)
+        output_dir = Path(output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        csv_output = output_dir / 'fig3_aligned.csv'
+        if csv_output.resolve() != Path(source).resolve():
+            csv_output.write_bytes(Path(source).read_bytes())
+        for extension in ("pdf", "png"):
+            fig.savefig(output_dir / f"fig3_aligned.{extension}", dpi=300,
+                        bbox_inches="tight", pad_inches=0.02)
+        return fig
+
+
+
+def fig3() -> None:
+    """Render the aligned comparison without re-scoring historical replies."""
+    source = FIG / "fig3_aligned.csv"
+    if not source.is_file():
+        source = ROOT / "results" / "figures" / "fig3_aligned.csv"
+    plt.close(render_aligned_csv(source, FIG))
 
 def fig4() -> None:
     """Directed fact/name rewrites by DeepSeek-V4-Pro; one row per target, entity-bootstrap CIs."""
@@ -169,19 +196,24 @@ def fig4() -> None:
         (fig, ax) = plt.subplots(figsize=(COL, 2.4))
         y = [6, 2, 1, 0, 5, 4]
         for (off, (prompt, label, color)) in zip((0.16, -0.16), (('standard', 'standard prompt', SERIES[0]), ('evidence', 'table-evidence prompt', SERIES[1]))):
-            (vs, lo, hi) = ([], [], [])
+            (vs, lo, hi, point_labels) = ([], [], [], [])
             for (ds, key, name) in items:
-                s_ = evidence_json(ARCHIVE / 'near' / f'{MODEL}__{ds}__summary.json')['key_rates']
+                summary = evidence_json(ARCHIVE / 'near' / f'{MODEL}__{ds}__summary.json')
+                s_ = known_key_rates(ROOT / 'data/final/_near',ds,MODEL,summary) if os.environ.get('CORE_CLUSTER_RESULTS') else summary['key_rates']
                 r = s_[f'{key}|{prompt}']
                 vs.append(r['rate'])
                 lo.append(r['ci'][0])
                 hi.append(r['ci'][1])
-                rows.append({'item': name, 'prompt': prompt, 'rate': r['rate'], 'ci_low': r['ci'][0], 'ci_high': r['ci'][1], 'entities': r['entities']})
+                available=r.get('interval_available',True)
+                point_labels.append(f"{r['rate']:.3f}" if available else f"{int(r['rewritten'])}/{r['entities']}")
+                extra={'interval_kind':r['kind'],'rewritten_entities':r['rewritten']} if os.environ.get('CORE_CLUSTER_RESULTS') else {}
+                rows.append({'item': name, 'prompt': prompt, 'rate': r['rate'], 'ci_low': r['ci'][0] if available else None, 'ci_high': r['ci'][1] if available else None, 'entities': r['entities'],**extra})
             yy = [v + off for v in y]
-            ax.errorbar(vs, yy, xerr=[[v - l for (v, l) in zip(vs, lo)], [h - v for (v, h) in zip(vs, hi)]], fmt='none', ecolor=color, elinewidth=0.8, capsize=1.5, zorder=2)
+            eligible=[i for i in range(len(vs)) if not os.environ.get('CORE_CLUSTER_RESULTS') or lo[i]!=hi[i]]
+            ax.errorbar([vs[i] for i in eligible],[yy[i] for i in eligible], xerr=[[vs[i]-lo[i] for i in eligible],[hi[i]-vs[i] for i in eligible]], fmt='none', ecolor=color, elinewidth=0.8, capsize=1.5, zorder=2)
             ax.scatter(vs, yy, s=14, color=color, edgecolor='white', linewidth=0.7, zorder=3, label=label)
-            for (v, h, yi) in zip(vs, hi, yy):
-                ax.text(max(h, v) + 0.02, yi, f'{v:.3f}', va='center', fontsize=5.8, color=INK)
+            for (v, h, yi, text) in zip(vs, hi, yy,point_labels):
+                ax.text(max(h, v) + 0.02, yi, text, va='center', fontsize=5.8, color=INK)
         ax.set_yticks(y, [i[2] for i in items])
         ax.set_xlim(0, 1.18)
         ax.set_xticks([0, 0.25, 0.5, 0.75, 1.0])
@@ -254,14 +286,16 @@ def fig6() -> None:
         for (k, (name, color)) in enumerate(zip(CONDITIONS, SERIES)):
             (xs, vs, los, his) = ([], [], [], [])
             for (i, (tag, model, _)) in enumerate(models):
-                (v, lo, hi) = f1_ci(chunks(tag, CONDS['hospital'][k]), 'identity')
+                (v, lo, hi) = f1_ci(chunks(tag, CONDS['hospital'][k]), 'identity',model=tag,condition=CONDS['hospital'][k])
                 xs.append(i + (k - 1.5) * w)
                 vs.append(v)
                 los.append(v - lo)
                 his.append(hi - v)
-                rows.append({'panel': 'hospital identity columns, repair F1', 'model': model, 'series': name, 'value': round(v, 3), 'ci_low': round(lo, 3), 'ci_high': round(hi, 3)})
+                available=not os.environ.get('CORE_CLUSTER_RESULTS') or lo!=hi
+                rows.append({'panel': 'hospital identity columns, repair F1', 'model': model, 'series': name, 'value': round(v, 3), 'ci_low': round(lo, 3) if available else None, 'ci_high': round(hi, 3) if available else None})
             ax.bar(xs, vs, width=w, color=color, edgecolor='white', linewidth=0.5, zorder=2, label=name)
-            ax.errorbar(xs, vs, yerr=[los, his], fmt='none', ecolor=INK2, elinewidth=0.5, capsize=1, zorder=3)
+            eligible=[i for i in range(len(xs)) if not os.environ.get('CORE_CLUSTER_RESULTS') or los[i]+his[i]!=0]
+            ax.errorbar([xs[i] for i in eligible],[vs[i] for i in eligible], yerr=[[los[i] for i in eligible],[his[i] for i in eligible]], fmt='none', ecolor=INK2, elinewidth=0.5, capsize=1, zorder=3)
             for (x, v, h) in zip(xs, vs, his):
                 ax.text(x, v + h + 0.02, f'{v:.2f}'[1:] if v < 1 else '1.0', ha='center', va='bottom', fontsize=5.6, color=INK)
         ax.axvline(n_open - 0.5, color=AXIS, linewidth=0.8, linestyle=(0, (3, 2)), zorder=1)
@@ -287,19 +321,23 @@ def fig7() -> None:
         (fig, ax) = plt.subplots(figsize=(COL, 2.2))
         y = list(range(len(models)))[::-1]
         for (off, (prompt, label, color)) in zip((0.16, -0.16), (('standard', 'standard prompt', SERIES[0]), ('evidence', 'table-evidence prompt', SERIES[1]))):
-            (vs, lo, hi) = ([], [], [])
+            (vs, lo, hi, point_labels) = ([], [], [], [])
             for (tag, model, _) in models:
                 s_ = evidence_json(ARCHIVE / 'near' / f'{tag}__movies__summary.json')
                 r = known_key_rates(ROOT / 'data/final/_near', 'movies', tag, s_)[f'real|1|{prompt}']
                 vs.append(r['rate'])
                 lo.append(r['ci'][0])
                 hi.append(r['ci'][1])
-                rows.append({'model': model, 'prompt': prompt, 'rate': r['rate'], 'ci_low': r['ci'][0], 'ci_high': r['ci'][1], 'films_known': r['entities']})
+                available=r.get('interval_available',True)
+                point_labels.append(f"{r['rate']:.3f}" if available else f"{int(r['rewritten'])}/{r['entities']}")
+                extra={'interval_kind':r['kind'],'rewritten_entities':r['rewritten']} if os.environ.get('CORE_CLUSTER_RESULTS') else {}
+                rows.append({'model': model, 'prompt': prompt, 'rate': r['rate'], 'ci_low': r['ci'][0] if available else None, 'ci_high': r['ci'][1] if available else None, 'films_known': r['entities'],**extra})
             yy = [v + off for v in y]
-            ax.errorbar(vs, yy, xerr=[[v - l for (v, l) in zip(vs, lo)], [h - v for (v, h) in zip(vs, hi)]], fmt='none', ecolor=color, elinewidth=0.8, capsize=1.5, zorder=2)
+            eligible=[i for i in range(len(vs)) if not os.environ.get('CORE_CLUSTER_RESULTS') or lo[i]!=hi[i]]
+            ax.errorbar([vs[i] for i in eligible],[yy[i] for i in eligible], xerr=[[vs[i]-lo[i] for i in eligible],[hi[i]-vs[i] for i in eligible]], fmt='none', ecolor=color, elinewidth=0.8, capsize=1.5, zorder=2)
             ax.scatter(vs, yy, s=14, color=color, edgecolor='white', linewidth=0.7, zorder=3, label=label)
-            for (v, h, yi) in zip(vs, hi, yy):
-                ax.text(max(h, v) + 0.02, yi, f'{v:.3f}', va='center', fontsize=5.8, color=INK)
+            for (v, h, yi, text) in zip(vs, hi, yy,point_labels):
+                ax.text(max(h, v) + 0.02, yi, text, va='center', fontsize=5.8, color=INK)
         ax.axhline(len(models) - n_open - 0.5, color=AXIS, linewidth=0.8, linestyle=(0, (3, 2)), zorder=1)
         known = {r['model']: r['films_known'] for r in rows}
         ax.set_yticks(y, [f'{n} ({known[n]})' for (_, n, _) in models])

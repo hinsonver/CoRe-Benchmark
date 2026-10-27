@@ -2,6 +2,7 @@ from .core_runtime import evidence_json, evidence_glob, evidence_paths, movie_vi
 'Model-scale gradient: the same P2 and near-entity results for every model, side by side.\n\nFor each model: repair F1 on the four conditions (identity columns) and the paired differences\n(memory, entity knowledge, spelling knowledge) per dataset; near-entity rewrite rates over the\nentities that model itself knows; and, for the Beers negative control, how many "City ST" errors\nit repairs per condition with a sign test over chunks (at near-zero scores the bootstrap star is\nunreliable: Qwen-32B\'s "significant" words-vs-syllable gap is 1 vs 11 repaired cells in 7 chunks).\n\nUsage: .venv/bin/python -m src.scale   (writes results/scale_summary.json, prints the tables)\n'
 import collections
 import json
+import os
 from math import comb
 from .data import ARCHIVE, BUILD, ROOT, load
 from .screening import known_key_rates
@@ -72,6 +73,9 @@ def main() -> None:
     target = BUILD / 'derived' / 'scale_summary.json'
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(out, indent=1, ensure_ascii=False))
+    if os.environ.get('CORE_COLLECT_ONLY'):
+        print('Collected conditional scores and counts for cluster inference.')
+        return
     star = lambda e: '*' if e['ci'][0] > 0 or e['ci'][1] < 0 else ' '
     for base in CONDS:
         print(f'\n{base}, identity columns: repair F1 and differences (95% bootstrap CI over chunks)')

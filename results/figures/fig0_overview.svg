@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-23T13:34:57.777376</dc:date>
+    <dc:date>2026-10-27T09:59:43.141029</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -35,7 +35,7 @@ L 167.176714 148.942886
 L 167.176714 2.257114 
 L 2.541686 2.257114 
 z
-" clip-path="url(#p1c7209ecff)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#p5d4060285c)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 2.541686 18.932659 
@@ -43,17 +43,17 @@ L 167.176714 18.932659
 L 167.176714 2.257114 
 L 2.541686 2.257114 
 z
-" clip-path="url(#p1c7209ecff)" style="fill: #eaf2fc"/>
+" clip-path="url(#p5d4060285c)" style="fill: #eaf2fc"/>
    </g>
    <g id="public identity mapping">
     <path d="M 86.515488 53.907034 
 Q 92.312496 53.907034 97.159175 53.907034 
-" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+" clip-path="url(#p5d4060285c)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
     <path d="M 94.559175 52.607034 
 L 97.159175 53.907034 
 L 94.559175 55.207034 
 z
-" clip-path="url(#p1c7209ecff)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+" clip-path="url(#p5d4060285c)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
    </g>
    <g id="patch_4">
     <path d="M 6.18552 118.838362 
@@ -61,25 +61,25 @@ L 163.53288 118.838362
 L 163.53288 103.195814 
 L 6.18552 103.195814 
 z
-" clip-path="url(#p1c7209ecff)" style="fill: #f0f3f6"/>
+" clip-path="url(#p5d4060285c)" style="fill: #f0f3f6"/>
    </g>
    <g id="line2d_1">
     <path d="M 86.515488 82.093133 
 L 98.109504 82.093133 
-" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #485563; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p5d4060285c)" style="fill: none; stroke: #485563; stroke-width: 0.8; stroke-linecap: square"/>
    </g>
    <g id="line2d_2">
     <path d="M 91.484352 84.749414 
 L 94.796928 79.436851 
-" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #9f3930; stroke-linecap: square"/>
+" clip-path="url(#p5d4060285c)" style="fill: none; stroke: #9f3930; stroke-linecap: square"/>
    </g>
    <g id="line2d_3">
     <path d="M 7.841808 123.265498 
 L 161.876592 123.265498 
-" clip-path="url(#p1c7209ecff)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p5d4060285c)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="12.844922" transform="rotate(-0 8.669952 12.844922)">Recovery evidence</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="13.651172" transform="rotate(-0 8.669952 13.651172)">What can be recovered?</text>
    </g>
    <g id="text_2">
     <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="29.542108" transform="rotate(-0 8.669952 29.542108)">Movies: American Ultra (2015)</text>
@@ -109,10 +109,10 @@ L 161.876592 123.265498
     <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="10.32624" y="113.034425" transform="rotate(-0 10.32624 113.034425)">O / W / S year: 2014 2015 2016</text>
    </g>
    <g id="text_11">
-    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="132.963146" transform="rotate(-0 8.669952 132.963146)">Four-condition recovery comparison</text>
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="132.963146" transform="rotate(-0 8.669952 132.963146)">Identifier mapping is missing</text>
    </g>
    <g id="text_12">
-    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="143.588273" transform="rotate(-0 8.669952 143.588273)">+ independent continuation probe</text>
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="8.669952" y="144.247023" transform="rotate(-0 8.669952 144.247023)">Year candidates remain available</text>
    </g>
   </g>
   <g id="axes_2">
@@ -122,7 +122,7 @@ L 337.917514 148.942886
 L 337.917514 2.257114 
 L 173.282486 2.257114 
 z
-" clip-path="url(#p2642e43851)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#pd47232ce30)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
     <path d="M 173.282486 18.932659 
@@ -130,7 +130,7 @@ L 337.917514 18.932659
 L 337.917514 2.257114 
 L 173.282486 2.257114 
 z
-" clip-path="url(#p2642e43851)" style="fill: #edf6f1"/>
+" clip-path="url(#pd47232ce30)" style="fill: #edf6f1"/>
    </g>
    <g id="patch_7">
     <path d="M 234.068256 62.908877 
@@ -138,7 +138,7 @@ L 331.789248 62.908877
 L 331.789248 51.693466 
 L 234.068256 51.693466 
 z
-" clip-path="url(#p2642e43851)" style="fill: #e8f4ed"/>
+" clip-path="url(#pd47232ce30)" style="fill: #e8f4ed"/>
    </g>
    <g id="patch_8">
     <path d="M 234.068256 77.370854 
@@ -146,30 +146,30 @@ L 331.789248 77.370854
 L 331.789248 66.155443 
 L 234.068256 66.155443 
 z
-" clip-path="url(#p2642e43851)" style="fill: #e8f4ed"/>
+" clip-path="url(#pd47232ce30)" style="fill: #e8f4ed"/>
    </g>
    <g id="rewrite to real-world director">
     <path d="M 262.225152 93.456115 
 Q 262.225152 98.768678 262.225152 103.130913 
-" clip-path="url(#p2642e43851)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+" clip-path="url(#pd47232ce30)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
     <path d="M 263.525152 100.530913 
 L 262.225152 103.130913 
 L 260.925152 100.530913 
 z
-" clip-path="url(#p2642e43851)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+" clip-path="url(#pd47232ce30)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
    </g>
    <g id="line2d_4">
     <path d="M 178.582608 48.446899 
 L 332.617392 48.446899 
-" clip-path="url(#p2642e43851)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#pd47232ce30)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_5">
     <path d="M 178.582608 123.265498 
 L 332.617392 123.265498 
-" clip-path="url(#p2642e43851)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#pd47232ce30)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="text_13">
-    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="12.844922" transform="rotate(-0 179.410752 12.844922)">Assigned values</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="12.844922" transform="rotate(-0 179.410752 12.844922)">Which value should stay?</text>
    </g>
    <g id="text_14">
     <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="29.953905" transform="rotate(-0 179.410752 29.953905)">Movies conflict test: Taken</text>
@@ -193,7 +193,7 @@ L 332.617392 123.265498
     <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="237.380832" y="73.814939" transform="rotate(-0 237.380832 73.814939)">Stanley Kubrick</text>
    </g>
    <g id="text_21">
-    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #485563" x="179.410752" y="90.167498" transform="rotate(-0 179.410752 90.167498)">Schematic counting event</text>
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #485563" x="179.410752" y="90.167498" transform="rotate(-0 179.410752 90.167498)">Rewrite being measured</text>
    </g>
    <g id="text_22">
     <text style="font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="115.39763" transform="rotate(-0 179.410752 115.39763)">Real credit:</text>
@@ -202,10 +202,10 @@ L 332.617392 123.265498
     <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #167a56" x="250.631136" y="115.39763" transform="rotate(-0 250.631136 115.39763)">Pierre Morel</text>
    </g>
    <g id="text_24">
-    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="132.963146" transform="rotate(-0 179.410752 132.963146)">Separate knowledge-conflict test</text>
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="132.963146" transform="rotate(-0 179.410752 132.963146)">The table assigns Stanley Kubrick</text>
    </g>
    <g id="text_25">
-    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="143.588273" transform="rotate(-0 179.410752 143.588273)">Count rewrites of assigned values</text>
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="179.410752" y="143.588273" transform="rotate(-0 179.410752 143.588273)">A real credit can be a wrong update</text>
    </g>
   </g>
   <g id="axes_3">
@@ -215,7 +215,7 @@ L 508.658314 148.942886
 L 508.658314 2.257114 
 L 344.023286 2.257114 
 z
-" clip-path="url(#pa946c1d7de)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
+" clip-path="url(#p4a30983b4b)" style="fill: #ffffff; stroke: #ccd3da; stroke-width: 0.65; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 344.023286 18.932659 
@@ -223,17 +223,17 @@ L 508.658314 18.932659
 L 508.658314 2.257114 
 L 344.023286 2.257114 
 z
-" clip-path="url(#pa946c1d7de)" style="fill: #fff5dc"/>
+" clip-path="url(#p4a30983b4b)" style="fill: #fff5dc"/>
    </g>
    <g id="recorded external-matching edit">
     <path d="M 456.153984 48.004186 
 Q 456.153984 53.611891 456.153984 58.269268 
-" clip-path="url(#pa946c1d7de)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+" clip-path="url(#p4a30983b4b)" style="fill: none; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
     <path d="M 457.453984 55.669268 
 L 456.153984 58.269268 
 L 454.853984 55.669268 
 z
-" clip-path="url(#pa946c1d7de)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
+" clip-path="url(#p4a30983b4b)" style="fill: #485563; stroke: #485563; stroke-width: 0.85; stroke-linecap: round"/>
    </g>
    <g id="patch_11">
     <path d="M 420.543792 70.877722 
@@ -241,20 +241,20 @@ L 501.701904 70.877722
 L 501.701904 59.957453 
 L 420.543792 59.957453 
 z
-" clip-path="url(#pa946c1d7de)" style="fill: #e8f4ed"/>
+" clip-path="url(#p4a30983b4b)" style="fill: #e8f4ed"/>
    </g>
    <g id="line2d_6">
     <path d="M 349.323408 88.586266 
 L 503.358192 88.586266 
-" clip-path="url(#pa946c1d7de)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p4a30983b4b)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="line2d_7">
     <path d="M 349.323408 123.265498 
 L 503.358192 123.265498 
-" clip-path="url(#pa946c1d7de)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
+" clip-path="url(#p4a30983b4b)" style="fill: none; stroke: #ccd3da; stroke-width: 0.5; stroke-linecap: square"/>
    </g>
    <g id="text_26">
-    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="12.876172" transform="rotate(-0 350.151552 12.876172)">Repair credit</text>
+    <text style="font-weight: 700; font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="12.876172" transform="rotate(-0 350.151552 12.876172)">What earns repair credit?</text>
    </g>
    <g id="text_27">
     <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="29.248436" transform="rotate(-0 350.151552 29.248436)">Rayyan: ISSN field (row 120)</text>
@@ -284,21 +284,21 @@ L 503.358192 123.265498
     <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #9f3930" x="350.151552" y="115.39763" transform="rotate(-0 350.151552 115.39763)">No reference credit</text>
    </g>
    <g id="text_36">
-    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="132.963146" transform="rotate(-0 350.151552 132.963146)">Separate field / scoring checks</text>
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="132.963146" transform="rotate(-0 350.151552 132.963146)">The score requires a reference match</text>
    </g>
    <g id="text_37">
-    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="144.247023" transform="rotate(-0 350.151552 144.247023)">External match differs from reference</text>
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #17212b" x="350.151552" y="144.247023" transform="rotate(-0 350.151552 144.247023)">This external match earns no credit</text>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="p1c7209ecff">
+  <clipPath id="p5d4060285c">
    <rect x="2.0448" y="1.8144" width="165.6288" height="147.5712"/>
   </clipPath>
-  <clipPath id="p2642e43851">
+  <clipPath id="pd47232ce30">
    <rect x="172.7856" y="1.8144" width="165.6288" height="147.5712"/>
   </clipPath>
-  <clipPath id="pa946c1d7de">
+  <clipPath id="p4a30983b4b">
    <rect x="343.5264" y="1.8144" width="165.6288" height="147.5712"/>
   </clipPath>
  </defs>

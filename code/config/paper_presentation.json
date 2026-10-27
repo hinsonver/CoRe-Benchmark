@@ -6,8 +6,9 @@
       "body_sha256": "265e6385a5f5da62cfb8028d8b89de01a727afc6906ebef2e1d38f1f2c9ec394"
     },
     "beers.tex": {
-      "caption": "Qwen3.8-Max shows a positive knowledge effect on Beers. Identity-column F1, total\n  O$-$S, repaired cities (O/F/W/S, of 127), and exact W-versus-S chunk sign tests, Holm-corrected over models.\n  $^{*}$F is descriptive because its brewery concentration and alcohol distribution differ.\n  $^\\dagger$: significant as in Table~\\ref{tab:main}, corrected over eight differences.",
-      "body_sha256": "36529feadbedc4b166580ee7823f05b4e68441552e92cf0ce8c0e2ec609c8c5e"
+      "caption": "Beers identity-column repair F1, O$-$S contrasts and repaired cities (O/F/W/S, of 127). $^\\dagger$: Holm-corrected $p<0.05$ across eight O$-$S contrasts using entity/reply weights. F is descriptive; its brewery and alcohol-content distributions differ from O.",
+      "body_sha256": "054b260cd944322cf04e61265a2c946807db859e63359dcaacec6a8b8a40093c",
+      "input_body_sha256": "36529feadbedc4b166580ee7823f05b4e68441552e92cf0ce8c0e2ec609c8c5e"
     },
     "checks.tex": {
       "caption": "Acceptance checks, run on every controlled table before any model sees it: 506 checks over 21 tables.",
@@ -18,20 +19,22 @@
       "body_sha256": "fa083428d21eb4f7b80d127a22cc95e3444ee724ccd76567b6c7c484e85520e0"
     },
     "construction.tex": {
-      "caption": "Controlled-table sources and scale. Error counts in parentheses are identity cells;\n  values renamed are distinct one-to-one replacements. Seeds cover F, W and S.",
+      "caption": "Controlled-table sources and scale. Parentheses give error counts in identity columns;\n  values renamed are distinct one-to-one replacements. Seeds cover F, W and S.",
       "body_sha256": "9f3167bb938f6f3c87470ce8e94fd9b6bd715597bd813fd11df0b1f6844afbdd"
     },
     "counts.tex": {
-      "caption": "Near-zero repaired-cell counts. Hospital W/S: 219 identity errors; Movies O/W: 379.\n  Chunk counts give more : fewer repairs in the first condition;\n  sign-test $p$ values use separate eight-model Holm families by dataset.",
-      "body_sha256": "755331f0f04396c879d3a80233e42adabdd09465f8f36234b2a40974905c344e"
+      "caption": "Repaired cells and chunk wins:losses, excluding ties. Hospital compares W/S on 219 identity errors; Movies compares O/W on 379. Hospital chunk counts are descriptive; Movies sign tests use Holm correction over eight models.",
+      "body_sha256": "6a7860d420d7ff9ed7b06a2a362ab8ec09145da252309b562ed6246a0b7f93a8",
+      "input_body_sha256": "755331f0f04396c879d3a80233e42adabdd09465f8f36234b2a40974905c344e"
     },
     "decoding.tex": {
       "caption": "Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory;\n  Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering\n  217 of 219 errors, with two address-spacing errors excluded from these counts.",
       "body_sha256": "c2bd642bc2d2fa013114367cc85eb5ead0effb1e47cf2391fd8cd9ccbe8318ad"
     },
     "decomposition.tex": {
-      "caption": "Identity-column repair F1 at seed 0. Nonpaired F$-$W uses fresh records; paired contrasts\n  use O/W/S. $^\\dagger$: Holm-corrected $p<0.05$ over 40 differences (two-sided chunk bootstrap,\n  2,000 resamples).",
-      "body_sha256": "cc5e4aa776bfec3da37514aea7d8d84dadbed3f192683ef4ac9bada54ace8168"
+      "caption": "Identity-column repair F1 at seed 0. F$-$W uses nonpaired fresh records; O/W/S contrasts are paired. $^\\dagger$: Holm-corrected $p<0.05$ over 40 contrasts, using 50,000 entity/reply bootstrap reweightings (Section~\\ref{sec:setup}).",
+      "body_sha256": "24032b2e3a0a85f53013cc55a718556be22458b00b2160d8b621a31fcf1f843e",
+      "input_body_sha256": "cc5e4aa776bfec3da37514aea7d8d84dadbed3f192683ef4ac9bada54ace8168"
     },
     "detection.tex": {
       "caption": "Detection and repair diverge on surrogate identity columns. Entries give detection F1 /\n  repair F1; detection counts corrupted cells found regardless of the value proposed for that cell.",
@@ -42,7 +45,7 @@
       "body_sha256": "dddef08a8371b5e1a557afe3203dacfbd3496785a675d53863e0b5a76c429484"
     },
     "moviescols.tex": {
-      "caption": "Where knowledge acts on Movies: DeepSeek-V4-Pro repairs by column (repaired / errors).\n  Identity columns are listed first; each condition uses its own error counts.",
+      "caption": "DeepSeek-V4-Pro Movies repairs by column (repaired / errors). Identity columns\n  are listed first; each condition uses its own error counts.",
       "body_sha256": "ebbcc7fd080199fb6c40ea6f9a63dd8f1690533dde66d0bcb6c3a50379904b7e"
     },
     "movieserrors.tex": {
@@ -50,15 +53,16 @@
       "body_sha256": "88c507a5a4541335b3a2a629958d8da627fe4037965f12f0a41e8d982c16ab9c"
     },
     "near.tex": {
-      "caption": "Director rewrites toward real-world credits are frequent, while city rewrites are rare.\n  Rates use each model's known subset of the common target pool, with one row per target.\n  Movies: a Director edit matching at least one real credit, with standard and table-evidence\n  prompts (95\\% entity-bootstrap intervals). Hospital and Beers: city edits matching the real\n  city, standard prompt. Rates and interval endpoints retain the source precision.",
-      "body_sha256": "d351f9927244b2f5e589b1f39860ade8c045be1d1584342fd8133cbf03735c78"
+      "caption": "Director rewrite rates among known films and city rewrite rates among known Hospital/Beers entities, with one row per target. Brackets give 95\\% reply-cluster percentile intervals. All-or-none outcomes show rewritten/known counts instead of intervals.",
+      "body_sha256": "911aef81585a538d7f50ea1d30fff6bf4829fadea2627de5ca99b7c73fc14921",
+      "input_body_sha256": "d351f9927244b2f5e589b1f39860ade8c045be1d1584342fd8133cbf03735c78"
     },
     "p1.tex": {
-      "caption": "Highest hard-cell continuation accuracy over datasets under the full-table structural screen.\n  Columns distinguish clean/dirty context, naming and error-row selection.\n  Leakage pools clean-reference hits from dirty context over hard erroneous cell-trials.",
+      "caption": "Highest hard-cell continuation accuracy over datasets for each context.\n  Columns distinguish clean/dirty context, dataset naming and error-row selection.\n  Leakage counts clean reference values written from dirty context.",
       "body_sha256": "99eff812feda5c053cc26933363448162bccc850fa7544dea6f41d0615208493"
     },
     "publicverification.tex": {
-      "caption": "Public verification entries for the three analyses. Movies uses numerical witnesses\n  for cleaning and conflict results, and separately bound uniform continuation counts. The README\n  maps each entry to its input files and generated results.",
+      "caption": "Offline calculations for the three analyses. Movies uses numerical witnesses\n  for cleaning and conflict results, and saved counts for the continuation probe. The README\n  lists commands, input files and generated results.",
       "body_sha256": "37be68c50e89d74b9d18ef65ead654da99c4e25fb23b9a2483ec778439837565"
     },
     "rayyan.tex": {

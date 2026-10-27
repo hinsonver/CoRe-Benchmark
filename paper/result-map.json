@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "manuscript_sha256": "d82436439960937130998977501de2cf4842d999f73ebd2c892c32043b72a35b",
-  "compiled_pdf_sha256": "b8fb43edd698cdf7eeca2c98c645ff4190d713e5ce9fbe94628cd90dc2d69abe",
+  "manuscript_sha256": "23e5dc6cc722e907efe5f54796f08ba0d04e758a0f500e89caf9c6fa20b7b4f3",
+  "compiled_pdf_sha256": "48434d05d806c4559ca1669cb9171698e6db839b712bfe9743a721f4094a8080",
   "body_pages": 12,
   "total_pages": 14,
   "entries": [
@@ -186,11 +186,12 @@
       "reference_table": "results/tables/decomposition.tex",
       "csv_paths": [],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
-      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately",
+      "generator": "code/src/paper_tables.py + tools/cluster_display.py + code/src/paper_presentation.py",
+      "evidence_scope": "Anonymous entity/reply numerical contributions and target indicators; conditional cluster intervals and full comparison families; raw historical validation remains separate",
       "claims": [
         "C1"
-      ]
+      ],
+      "statistics_entry": "python tools/replay_cluster_statistics.py --output build/cluster-statistics.json"
     },
     {
       "kind": "table",
@@ -241,17 +242,18 @@
       "reference_table": "results/tables/counts.tex",
       "csv_paths": [],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
-      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately",
+      "generator": "code/src/paper_tables.py + tools/cluster_display.py + code/src/paper_presentation.py",
+      "evidence_scope": "Frozen repaired counts and chunk wins; Hospital wins are descriptive; Movies sign tests use a separate eight-model Holm family",
       "claims": [
         "C1"
-      ]
+      ],
+      "statistics_entry": "python tools/replay_cluster_statistics.py --output build/cluster-statistics.json"
     },
     {
       "kind": "table",
       "label": "tab:moviescols",
       "number": "10",
-      "page": "9",
+      "page": "8",
       "claim": "C1/design",
       "manuscript_source": "paper/latex/tables/moviescols.tex",
       "asset_paths": [],
@@ -268,18 +270,19 @@
       "kind": "table",
       "label": "tab:beers",
       "number": "11",
-      "page": "9",
+      "page": "8",
       "claim": "C1/design",
       "manuscript_source": "paper/latex/tables/beers.tex",
       "asset_paths": [],
       "reference_table": "results/tables/beers.tex",
       "csv_paths": [],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/paper_tables.py + code/src/paper_presentation.py",
-      "evidence_scope": "Archived raw-derived repair/block counts; exact binomial probabilities enter eight-model Holm before rounding; historical F input retained",
+      "generator": "code/src/paper_tables.py + tools/cluster_display.py + code/src/paper_presentation.py",
+      "evidence_scope": "Archived repair counts with hash-bound historical F inputs; eight-model O-S family using entity/reply weights; city chunk wins are descriptive",
       "claims": [
         "C1"
-      ]
+      ],
+      "statistics_entry": "python tools/replay_cluster_statistics.py --output build/cluster-statistics.json"
     },
     {
       "kind": "table",
@@ -302,7 +305,7 @@
       "kind": "figure",
       "label": "fig:scale",
       "number": "5",
-      "page": "8",
+      "page": "9",
       "claim": "C1/design",
       "manuscript_source": "paper/latex/main.tex",
       "asset_paths": [
@@ -313,11 +316,12 @@
         "results/figures/fig6_scale.csv"
       ],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/figures.py",
-      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately",
+      "generator": "code/src/cluster_statistics.py + code/src/figures.py",
+      "evidence_scope": "Anonymous entity/reply numerical contributions and target indicators; conditional cluster intervals and full comparison families; raw historical validation remains separate",
       "claims": [
         "C1"
-      ]
+      ],
+      "statistics_entry": "python tools/replay_cluster_statistics.py --output build/cluster-statistics.json"
     },
     {
       "kind": "figure",
@@ -334,11 +338,12 @@
         "results/figures/fig3_aligned.csv"
       ],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/figures.py",
-      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately",
+      "generator": "code/src/cluster_statistics.py + code/src/figures.py",
+      "evidence_scope": "Anonymous entity/reply numerical contributions and target indicators; conditional cluster intervals and full comparison families; raw historical validation remains separate",
       "claims": [
         "C1"
-      ]
+      ],
+      "statistics_entry": "python tools/replay_cluster_statistics.py --output build/cluster-statistics.json"
     },
     {
       "kind": "table",
@@ -406,11 +411,12 @@
         "results/figures/fig4_near_entity.csv"
       ],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/figures.py",
-      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately",
+      "generator": "code/src/cluster_statistics.py + code/src/figures.py",
+      "evidence_scope": "Anonymous entity/reply numerical contributions and target indicators; conditional cluster intervals and full comparison families; raw historical validation remains separate",
       "claims": [
         "C2"
-      ]
+      ],
+      "statistics_entry": "python tools/replay_cluster_statistics.py --output build/cluster-statistics.json"
     },
     {
       "kind": "figure",
@@ -427,11 +433,12 @@
         "results/figures/fig7_near_models.csv"
       ],
       "entry": "python tools/core.py reproduce --output build/replayed",
-      "generator": "code/src/figures.py",
-      "evidence_scope": "Public Movies statistical witnesses; exact historical local validation available separately",
+      "generator": "code/src/cluster_statistics.py + code/src/figures.py",
+      "evidence_scope": "Anonymous entity/reply numerical contributions and target indicators; conditional cluster intervals and full comparison families; raw historical validation remains separate",
       "claims": [
         "C2"
-      ]
+      ],
+      "statistics_entry": "python tools/replay_cluster_statistics.py --output build/cluster-statistics.json"
     },
     {
       "kind": "table",
@@ -504,7 +511,8 @@
       "fig_example_transfer.csv"
     ]
   },
-  "version": "reproduction-integration-20261026",
+  "version": "current-github-sync-20261027",
   "diagram_cells_are_experimental_samples": false,
-  "report_pdf_sha256": "be669bb1c7125a966b84132ed640aa7ee628a77cf5df91d7b98479952facfc91"
+  "report_pdf_sha256": "89ae56e95411d1a4944e9d2b131a7c24e71da56193d7659bc63d6526e7379dee",
+  "manuscript_title": "Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning"
 }

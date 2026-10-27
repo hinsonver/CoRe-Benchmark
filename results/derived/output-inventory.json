@@ -2380,6 +2380,16 @@
     "paper_consumer": "paper"
   },
   {
+    "relative_path": "results/derived/aligned_cluster_comparisons.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
+    "relative_path": "results/derived/cluster_statistics.json",
+    "kind": "summary",
+    "paper_consumer": "paper"
+  },
+  {
     "relative_path": "results/derived/rayyan_audit.json",
     "kind": "summary",
     "paper_consumer": "paper"

@@ -1,5 +1,5 @@
-% CoRe manuscript; official PVLDB template commit 39c95f5c (2026-10-23 migration).
-% Section plan and evidence: ../00-论文骨架.md. Numbers come from the rebuilt (v2) tables.
+% CoRe manuscript; official PVLDB template commit 39c95f5c.
+% Section plan and evidence: ../00-论文骨架.md. Tables and figures use archived evidence.
 % PVLDB Vol. 20 (checked 10-03): single-blind (names and affiliations on page 1); 12 pages
 % excluding references, appendices included; title suffix [Experiment, Analysis & Benchmark];
 % link to the full reproducibility package required at the first submission.
@@ -10,7 +10,11 @@
 %%% VLDB block end %%%
 \usepackage{enumitem}
 \usepackage{tabularx}
-\settopmatter{authorsperrow=4}
+\settopmatter{authorsperrow=3}
+\makeatletter
+\patchcmd{\@mkauthors@iii}{\par\medskip\leavevmode}{\par\leavevmode}{}{\errmessage{Author spacing patch failed}}
+\patchcmd{\@mkauthors@iii}{\lineskip=1pc\relax}{\lineskip=2pt\relax}{}{\errmessage{Author row spacing patch failed}}
+\makeatother
 \setlist[itemize]{leftmargin=1.1em, itemsep=1pt, topsep=2pt, parsep=0pt}
 \setlist[enumerate]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
 
@@ -40,51 +44,59 @@
 % float-to-text, 12pt between floats, 10pt between a float and its caption). Fonts and margins
 % are left as in the template.
 \raggedbottom
-\setlength{\textfloatsep}{8pt plus 1pt minus 2pt}
-\setlength{\dbltextfloatsep}{8pt plus 1pt minus 2pt}
-\setlength{\floatsep}{8pt plus 1pt minus 2pt}
-\setlength{\dblfloatsep}{8pt plus 1pt minus 2pt}
-\setlength{\intextsep}{8pt plus 1pt minus 2pt}
+\setlength{\textfloatsep}{12pt plus 1pt minus 2pt}
+\setlength{\dbltextfloatsep}{12pt plus 1pt minus 2pt}
+\setlength{\floatsep}{12pt plus 1pt minus 2pt}
+\setlength{\dblfloatsep}{12pt plus 1pt minus 2pt}
+\setlength{\intextsep}{12pt plus 1pt minus 2pt}
 \captionsetup{skip=4pt}
 
 \begin{document}
-\title{Cleaning or Recalling? Disentangling Memorization and World Knowledge in LLM-based Data Cleaning [Experiment, Analysis \& Benchmark]}
+\title[Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning]{Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning [Experiment, Analysis \& Benchmark]}
 
 % Single-blind review: real names and affiliations, one \author block each.
 \author{Jingru Yang}
 \affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
 \email{okiyang@muc.edu.cn}
 
-\author{Zheng Chen}
+\author{Honglu Zhang}
 \affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
-\email{202301050@muc.edu.cn}
+\email{26302276@muc.edu.cn}
 
 \author{Ju Fan}
 \affiliation[obeypunctuation=true]{\institution{Renmin University of China},~\country{China}}
 \email{fanj@ruc.edu.cn}
 
+\author{Zheng Chen}
+\affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
+\email{202301050@muc.edu.cn}
+
 \author{Xiaoyong Du}
 \affiliation[obeypunctuation=true]{\institution{Renmin University of China},~\country{China}}
 \email{duyong@ruc.edu.cn}
 
+\hypersetup{pdfauthor={Jingru Yang; Honglu Zhang; Ju Fan; Zheng Chen; Xiaoyong Du}}
+
 \begin{abstract}
 High scores on public data-cleaning benchmarks can reflect knowledge of familiar entities,
-leaving unclear how well an LLM can repair unfamiliar data. We present \core{}, a controlled
-evaluation protocol linking recovery evidence, assigned values and repair credit. It compares
-benchmarks with fresh real records and name surrogates built from English words or syllables.
-The paired surrogates retain
-error positions and transfer error mechanisms, linking performance changes to the evidence
-each error leaves available for repair. Across 21 controlled tables and eight LLMs, we find
-large knowledge effects on Hospital's identity columns and on Movies for commercial models.
-On Movies, word renaming lowers DeepSeek-V4-Pro's year accuracy from 91\% to 18\%
-despite unchanged candidates. Knowledge effects persist on fresh records, while a screened continuation
-probe finds no positive evidence of benchmark-row memory in the tested models.
-Yet recovering a familiar fact is not always the task's goal: models replace assigned movie
-directors with real-world credits, sometimes even under table-evidence instructions. Whether
-an edit receives repair credit then depends on the reference. On Rayyan, checks against title-matched
-PubMed records identify reference discrepancies, and 94\% of TabClean's credited repairs
-reproduce the reference date transformation. These results connect the evidence supporting
-a repair to the task's preservation requirements and the reference that awards credit.
+making it difficult to assess how well an LLM repairs unfamiliar data. We present \core{},
+an evaluation protocol that compares public benchmarks with fresh real records and paired
+name surrogates built from English words or syllables. The surrogates retain error positions
+and non-identity values while transferring the benchmark's error mechanisms. Across 21
+controlled tables and eight LLMs, repair performance varies substantially with entity names
+on Hospital and, for commercial models, Movies. Renaming removes some information needed
+for repair, such as a film's identifier mapping. It also affects repairs whose candidates
+remain available: replacing entity names with word-based surrogates lowers
+DeepSeek-V4-Pro's year accuracy from 91\% to 18\%.
+On Hospital and Movies, commercial models score higher on fresh records than on word-based
+surrogates. A screened continuation probe finds no positive evidence of benchmark-row memory
+in the tested models.
+Familiar facts can conflict with the task. Even with explicit table-evidence instructions,
+commercial models rewrite assigned directors at rates of 0.000--0.404 on known films.
+Reference scoring can also disagree with external records. On Rayyan,
+an ISSN correction matching a title-matched PubMed record
+receives no credit, whereas 94\% of TabClean's credited repairs reproduce the reference date
+transformation. We provide controlled tables, scoring code and materials for offline replay.
 \end{abstract}
 
 \maketitle
@@ -100,8 +112,8 @@ set of public benchmark tables~\cite{rahm2000data,ilyas2019book,chu2016overview,
 Large language models (LLMs) have opened new approaches to data management~\cite{fernandez2023disrupt},
 including few-shot error detection and imputation competitive with specialized
 systems~\cite{narayan2022wrangle}. Recent cleaners use LLMs to edit values, derive rules or write
-cleaning programs~\cite{ni2025zeroed,ni2024iterclean,zhang2025data,tabclean2026}. Their benchmark
-scores, however, can draw on information beyond the table being cleaned.
+cleaning programs~\cite{ni2025zeroed,ni2024iterclean,zhang2025data,tabclean2026}. These methods,
+however, can use information beyond the table being cleaned.
 
 Public cleaning benchmarks contain familiar hospitals, films, breweries and articles.
 Pretrained models can retrieve entity facts from their parameters~\cite{petroni2019lama,mallen2023trust},
@@ -117,24 +129,25 @@ recovering \texttt{tt3316948} from \texttt{american\_ultra} requires the film's 
 a fictitious slug does not determine its random identifier. Year ranges, however, retain the
 same candidates after renaming. DeepSeek-V4-Pro's repairs decline in both cases
 (Figure~\ref{fig:decomposition}), although the year candidates remain available.
-The score changes therefore call for different explanations.\smallskip
+\smallskip
 
 Controlled tabular evaluations already test recognition and completion of dataset instances
 (KnowTable~\cite{silvestri2025knowtable}) and adherence to counterfactual database values
-(ContraTable~\cite{wang2026contratable}). Cleaning poses a further question: which input values
-should change, and what makes a change count as a repair? Interpreting scores requires
-connecting recovery evidence with the values to preserve and the reference used for scoring.
+(ContraTable~\cite{wang2026contratable}). Cleaning requires deciding which cells to change
+and which source should supply their values. It also scores each edit against a reference,
+which may itself contain a systematic conversion.
 
 In this paper, we present \core{}, a protocol that compares repairs on dirty/reference pairs
 under controlled entity replacements. Each benchmark is compared with \emph{fresh} real records,
-a \emph{words surrogate} with fictitious English-word names, and a \emph{syllable surrogate}
+a \emph{word-based surrogate} with fictitious English-word names, and a \emph{syllable-based surrogate}
 with meaningless names. The original and its surrogates share rows and error positions, while
 fresh records carry the same kinds of errors. Paired substitutions test entity familiarity
 and word form. Fresh records test performance beyond the benchmark, while a separate
 continuation probe tests for benchmark-row memory.
 
-The constructions retain the original cleaning problems by transferring error mechanisms,
-rather than adding arbitrary noise. This is particularly important for Movies, where errors
+We transfer the benchmarks' error mechanisms to new records and renamed identity values,
+retaining error positions and non-identity values in the paired surrogates. This is particularly
+important for Movies, where errors
 often reflect differences between two legitimate sources. Fictitious names must also hide the
 entity without themselves looking erroneous. We build 21 controlled tables: nine each for
 Hospital and Movies across three seeds, and three for Beers. Their surrogates contain about 41,000 fictitious
@@ -142,13 +155,13 @@ values, assessed by 506 acceptance checks. We evaluate four commercial and four 
 LLMs, alongside Baran~\cite{mahdavi2020baran} and the program-generating cleaner
 TabClean~\cite{tabclean2026}, using about 23,000 prompts. Our main findings are as follows.
 
-Familiar entities affect both recovery from missing mappings and the use of retained evidence.
+Movie identifiers lose their mappings after renaming, but year ranges retain the same candidates.
 On Movies, DeepSeek-V4-Pro's year accuracy falls from 91\% on real films to 18\% on word names
 and 13\% on syllable names, even though the candidates are unchanged
 (Figure~\ref{fig:decomposition}). Across the four commercial models, Movies' identity-column
-fresh--words gaps are $+$0.17 to $+$0.42 at construction seed~0 (Table~\ref{tab:main}).
+F\,$-$\,W gaps are $+$0.17 to $+$0.42 at construction seed~0 (Table~\ref{tab:main}).
 On Hospital, three commercial models lose 0.59 to 0.72 repair F1 after syllable replacement
-on \emph{identity columns}, which name or locate an entity.
+on \emph{identity columns}, which contain entity names and locations.
 
 \begin{figure}[tb]
   \centering
@@ -161,23 +174,25 @@ on \emph{identity columns}, which name or locate an entity.
 \end{figure}
 
 The screened continuation probe finds no positive evidence of benchmark-row memory in its tested
-models (Section~\ref{sec:memorization}). The knowledge effects also persist across construction
-seeds and, for DeepSeek-V4-Pro, with labeled examples and error positions. For Qwen2.5,
-Hospital's total effect grows across the three model sizes. On Hospital and Beers,
+models (Section~\ref{sec:memorization}). Hospital and Movies retain positive condition contrasts
+across construction seeds and, for DeepSeek-V4-Pro, with labeled examples and error positions.
+Hospital's O\,$-$\,S gap grows across the three Qwen2.5 model sizes. On Hospital and Beers,
 whole-table Baran and TabClean retain high scores under renaming, with repeated records and
 formatting patterns available for repair (Sections~\ref{sec:knowledge}--\ref{sec:generalize}).
-The \companion{} retains the three-dataset condition overview and its intervals.
+The \companion{} gives the overview with intervals.
 
-Yet a familiar fact can be the wrong value to preserve. Commercial models rewrite
-68\%--100\% of assigned directors of known films toward real-world credits. Table-evidence
-instructions reduce these rates unevenly, while hospital and brewery city rewrites are
-less frequent (Section~\ref{sec:conflict}).
+Yet a familiar fact can be the wrong value to preserve. Under explicit table-evidence
+instructions, commercial models rewrite 0.000--0.404 of assigned directors of known films
+toward real-world credits, compared with 68\%--100\% under the standard prompt. Qwen2.5-14B
+still rewrites more than 60\% under the explicit instruction. Hospital and brewery city
+rewrites are less frequent (Section~\ref{sec:conflict}).
 
-The reference then determines repair credit. Rayyan contains systematic date and page
-conversions (Section~\ref{sec:quality}). Stratified field checks against title-matched PubMed records yield a weighted
-reference-check failure rate of 95.2\% (95\% interval: 91.2--97.8\%), using the audit input's
-948-cell error-type composition. On TabClean's input version, 434 of 461 credited repairs
-(94\%), after excluding development rows, reproduce the reference date transformation.
+Reference errors can also change which edits receive credit. Rayyan contains systematic date and page
+conversions (Section~\ref{sec:quality}). A repair that matches a title-linked PubMed ISSN
+receives no credit because the reference contains a spreadsheet conversion. On TabClean's
+input, 434 of 461 credited repairs (94\%), after excluding development rows, reproduce the
+reference date transformation. Stratified PubMed field checks examine these references
+separately, with field-specific criteria and measured title-match coverage.
 
 \noindent We make the following contributions:
 \begin{itemize}
@@ -185,8 +200,7 @@ reference-check failure rate of 95.2\% (95\% interval: 91.2--97.8\%), using the 
   to paired name surrogates and relates repair scores to the recovery evidence retained in
   the input (Section~\ref{sec:protocol}).
   \item We construct controlled tables for three benchmarks and provide construction and
-  evaluation code, numerical witnesses and replay materials. Public statistical replay
-  and authorized local validation provide distinct verification entries
+  evaluation code, numerical witnesses and replay materials
   (Sections~\ref{sec:construction} and~\ref{sec:artifact}).
   \item We characterize both knowledge-dependent repair and directed rewriting of assigned
   values across eight LLMs, with separate continuation and information-condition checks
@@ -261,13 +275,18 @@ compile curation pipelines (SEED~\cite{chen2024seeddomainspecificdatacuration}),
 cleaning programs (TabClean~\cite{tabclean2026}). We study direct value editing and generated
 programs under controlled entity replacements.
 
-\subsection{Related Work}\label{sec:relatedwork}
+\begingroup
+\makeatletter
+\patchcmd{\subsection}{-.75\baselineskip}{-2pt}{}{\errmessage{Local subsection spacing patch failed}}
+\makeatother
+\subsection{Knowledge and Benchmark Evaluation}\label{sec:relatedwork}
 
 \textbf{LLMs on enterprise data.} Enterprise annotation and integration studies examine domain
 context, schemas, table width and sparsity~\cite{kayali_cidr25,demiralp2024enterprise}.
 Bodensohn et al. also observe a bias toward familiar SQL despite explicit SIGNAL
-documentation~\cite{bodensohn2025enterprise}. \core{} compares repair and preservation
-under controlled entity replacements.
+documentation~\cite{bodensohn2025enterprise}.
+\par
+\endgroup
 
 \textbf{Memorization and contamination.} LLMs can memorize training text, with stronger effects
 as models grow or data repeat~\cite{274574,carlini2023quantifying}. Detection methods include
@@ -305,13 +324,12 @@ repairs back to reference transformations and examine what the score rewards.
 
 \section{The \core{} Protocol}\label{sec:protocol}
 
-\core{} connects the evidence for recovering values with the task's preservation requirements
-and repair credit (Figure~\ref{fig:overview}). The four-condition comparison uses controlled
-dirty/reference pairs, holding the cleaner's prompt, information access and scoring fixed
-within a setting. Paired surrogates test dependence on familiar entities and word forms;
-fresh records test performance beyond the benchmark. Separate conflict and reference checks
-examine assigned-value preservation and the edits that receive credit
-(Sections~\ref{sec:conflict} and~\ref{sec:quality}).
+\core{} evaluates repair under four input conditions. Within a setting, the prompt,
+information access and scoring are fixed. Paired surrogates replace identity values in the
+same dirty/reference rows; fresh records provide a separate comparison on other records.
+Figure~\ref{fig:overview} also shows two checks beyond recovery: whether a cleaner preserves an
+assigned director, and whether a repair agrees with the scoring reference. These use the
+conflict and reference inputs in Sections~\ref{sec:conflict} and~\ref{sec:quality}.
 
 \begin{figure*}[t]
   \centering
@@ -329,10 +347,10 @@ Besides the original (\textbf{O}), \core{} builds three tables with the same sch
 \begin{itemize}
   \item \textbf{Fresh (F)} uses real records outside the benchmark: newer registry records for
   Hospital, or other films and beers. Their entities may remain familiar to a model.
-  \item \textbf{Words surrogate (W)} replaces identity values one to one with fictitious names
-  made of English words and random numeric identifiers. Non-identity values and error positions
-  stay fixed.
-  \item \textbf{Syllable surrogate (S)} uses syllable names in the same construction, retaining
+  \item \textbf{Word-based surrogate (W)} replaces identity values one to one with fictitious names
+  made of English words and random numeric identifiers, retaining non-identity values and
+  error positions.
+  \item \textbf{Syllable-based surrogate (S)} uses syllable names in the same construction, retaining
   generic terms such as \emph{hospital} and \emph{street}.
 \end{itemize}
 Figure~\ref{fig:example} illustrates naming and error transfer on Hospital rows.
@@ -342,7 +360,7 @@ Figure~\ref{fig:example} illustrates naming and error transfer on Hospital rows.
   \includegraphics[width=\textwidth]{figures/fig_example_transfer.pdf}
   \caption{Hospital construction example. O/W/S share a row and city error cell while
   changing identity values. F uses a newer registry row with a newly drawn error location.
-  The \companion{} retains the complete identity-field example.}
+  The \companion{} gives the extended identity-field example.}
   \label{fig:example}
   \Description{Hospital rows compare original, word and syllable names with a shared city error; a fresh registry row uses a newly drawn error location.}
 \end{figure*}
@@ -356,10 +374,10 @@ Figure~\ref{fig:example} illustrates naming and error transfer on Hospital rows.
     \toprule
     Contrast & Interpretation and comparison assumption \\
     \midrule
-    O$-$W & Paired entity-familiarity contrast; its magnitude also depends on the change from real names to English-word combinations. \\
-    W$-$S & Spelling contrast; interpretation depends on the difficulty of the two naming styles and any regularities they introduce. \\
-    O$-$S & Total knowledge effect under entity replacement, combining changes in entity familiarity and word form. \\
-    F$-$W & Fresh--words comparison; entity familiarity changes with record difficulty and, where recipes cannot transfer exactly, error composition. \\
+    O$-$W & Paired entity-renaming contrast; replacement changes familiarity, word forms and factual associations between fields. \\
+    W$-$S & Word-form contrast; interpretation depends on the difficulty of the two naming styles and any regularities they introduce. \\
+    O$-$S & Paired O--S contrast, combining changes in entity familiarity and word form. \\
+    F$-$W & Fresh records versus word-based surrogates; entity familiarity changes with record difficulty and, where recipes cannot transfer exactly, error composition. \\
     O$-$F & Original--fresh comparison; benchmark exposure and table difficulty both change. Memorization is tested separately. \\
     \bottomrule
   \end{tabularx}
@@ -367,30 +385,33 @@ Figure~\ref{fig:example} illustrates naming and error transfer on Hospital rows.
 
 Let $s_O,s_F,s_W,s_S$ denote a method's repair F1 in a fixed column group.
 Table~\ref{tab:conditions} defines three paired contrasts: O\,$-$\,W, W\,$-$\,S and O\,$-$\,S.
-They measure score changes under entity and word-form replacement; the first two sum to the third. Their interpretation
-uses the error profiles and method controls, since renaming changes candidate values and
-construction regularities as well as familiarity. We report F\,$-$\,W separately to examine
-knowledge effects on fresh records; it is not a component of O\,$-$\,S. O\,$-$\,F combines
-exposure and difficulty, so it supports the independent continuation probe rather than defining
-a pure memory effect.
+They measure score changes under entity and word-form replacement; the first two sum to the third.
+We interpret these differences alongside the error profiles and information-access controls,
+since renaming changes candidate values and
+construction regularities as well as familiarity. F\,$-$\,W compares fresh real records with
+word-based surrogates and is reported separately. O\,$-$\,F also changes record difficulty;
+the continuation probe examines benchmark-row memory separately.
 
 \subsection{What Makes an Error Recoverable?}\label{sec:recoverability}
 
-Recovery evidence determines how to interpret the condition contrasts. Table~\ref{tab:recoverability}
-distinguishes \emph{locally reversible} errors, whose information supports a conversion under
-a specified target convention (R1); \emph{constrained} errors, which retain candidates or
-regularities (R2); and \emph{underdetermined} errors, which need evidence absent from the shown
-chunk (R3). A column can contain several cases, and additional examples or records can change
-a cell's recoverability.
+Recovery depends on the target convention and the information shown to the cleaner
+(Table~\ref{tab:recoverability}). The reference specifies the target convention, which is not
+explicitly stated in the zero-shot prompt. A \emph{locally reversible} error admits a conversion to the
+specified convention (R1). A \emph{constrained} error retains candidates or regularities that
+narrow the choices (R2), without necessarily selecting a unique source value.
+An \emph{underdetermined} error lacks a required mapping or replacement value (R3).
+We describe these properties for each error type and information setting, not from a model's
+success rate. These properties can overlap.
 
 Where rules or candidates remain available, paired contrasts test their use after renaming.
 When the required mapping is absent, lower scores instead expose the recovery evidence removed
-by construction. Labels or repeated records can supply additional evidence
-(Section~\ref{sec:labels}). The S score measures residual repair after renaming, including local
-rules and construction regularities.
+by construction. A repeated record or labeled example can supply a previously missing value
+(Section~\ref{sec:labels}); a candidate list need not resolve which source takes priority.
+\companionref{4} gives the criteria and error-type coverage. The S score includes repairs
+using local rules and construction regularities.
 
 \begin{table}[t]
-  \caption{Recovery evidence available in the shown input, under the cases defined in
+  \caption{Recovery evidence relative to the shown input and target convention, as defined in
   Section~\ref{sec:recoverability}.}
   \label{tab:recoverability}
   \small
@@ -431,8 +452,8 @@ The controlled tables retain the benchmark's error mechanisms while varying enti
 forms. Error generators can vary detectability and repairability~\cite{arocena2015bart}; here,
 we start from the observed error profile and transfer it to renamed values or fresh records.
 Surrogates preserve non-identity cells and error positions, whereas fresh error counts depend
-on whether recipes and rules apply to the new records. Naming rules keep fictitious values
-from revealing identities or looking malformed. Table~\ref{tab:construction}
+on whether recipes and rules apply to the new records. Naming rules hide identity cues while
+retaining expected word forms. Table~\ref{tab:construction}
 summarizes the constructions, with full recipes and checks in \companionref{1}.
 
 \input{tables/construction}
@@ -448,7 +469,10 @@ per-column error counts and position-weighted substitution rule, with newly draw
 Surrogates rename each distinct identity value consistently and transfer the original errors
 by position (Figure~\ref{fig:example}). S uses an inventory of 24 syllables; W uses English-word
 combinations. Generic suffixes preserve column conventions, and numeric identifiers become
-random digits. The restricted syllable inventory supplies a recoverable regularity examined
+random digits. Column-wise replacements preserve repeated-value relationships, but random
+ZIP codes and phones are not constrained by the retained State values. Thus Hospital also
+changes factual associations between fields; \companionref{1} details these relationships
+and the archived-edit checks. The restricted syllable inventory supplies a regularity examined
 in Section~\ref{sec:commercial}.
 
 \subsection{Movies}\label{sec:build-movies}
@@ -472,8 +496,7 @@ another source-style row able to take it.
 Some recipes remain inapplicable: four director and four writer errors stay clean, leaving 371
 identity errors in F versus 379 in O/W/S. Formatting rules also change counts: the separator
 rule affects all 1,000 fresh rating counts, compared with 768 in O. F therefore has 2,195 errors
-at seed~0 versus 1,965 in O/W/S. These are fresh-record comparisons under transferred mechanisms,
-with the non-paired interpretation defined in Table~\ref{tab:conditions}.
+at seed~0 versus 1,965 in O/W/S. Table~\ref{tab:conditions} specifies the nonpaired F comparison.
 
 Surrogates rename the 6,018 distinct identity values one to one. Titles require special care:
 retaining a real title's function words, numbers and punctuation can reveal the film. We
@@ -495,9 +518,7 @@ from 94 Wikidata breweries~\cite{vrandecic2014wikidata}, excluding original beer
 the original error forms and counts.
 
 Surrogates preserve generic terms and consistent relationships between brewery and city names.
-A one-word city stays one word, since a two-word fictitious city could resemble the city/state
-error itself. These choices keep the naming transformation from introducing the formatting
-problem the model is asked to solve.
+A one-word city stays one word, avoiding the appearance of a glued city/state value.
 
 \subsection{Acceptance Checks and Construction Seeds}\label{sec:acceptance}\label{sec:naming}
 
@@ -513,10 +534,10 @@ that the same rules yield identical tables.
 
 Hospital and Movies have three construction seeds: surrogates redraw names and applicable
 errors; F redraws errors on fixed clean records. Seed ranges capture construction variation,
-whereas bootstrap intervals summarize chunks of one construction. Main tables report seed~0.
+whereas cluster intervals describe one fixed construction. Main tables report seed~0.
 Hospital W at seeds 1 and 2 passes the strength check, with positive F\,$-$\,W and
-W\,$-$\,S contrasts for all eight cleaners. Construction ranges and passing-seed contrasts
-appear in Table~\ref{tab:seeds} and \companionref{7}, respectively.
+W\,$-$\,S contrasts for all eight cleaners. Table~\ref{tab:seeds} gives construction ranges;
+\companionref{7} gives the passing-seed contrasts.
 
 \section{Experimental Setup}\label{sec:setup}
 
@@ -546,16 +567,19 @@ construction-seed repetitions support recovery-mechanism comparisons
 (Section~\ref{sec:acceptance}). \companionref{2} details about 23,000 cleaning,
 aligned, conflict and continuation prompts; Rayyan input versions follow Section~\ref{sec:quality}.
 
-\textbf{Statistics.} Condition differences use 2,000 chunk-bootstrap resamples~\cite{efron1993bootstrap},
-paired for O/W/S, with 95\% percentile intervals. Bootstrap tests form one Holm family per
-results table (8 models $\times$ 5 contrasts $=$ 40 tests in Table~\ref{tab:main}), with
-corrected~\cite{holm1979simple} $p<0.05$. Near-zero scores use repaired-cell counts and paired-chunk
-sign tests, Holm-corrected separately over eight models per dataset.
+\textbf{Statistics.} Repair intervals use 50,000 bootstrap reweightings~\cite{efron1993bootstrap,owen2012arrays}.
+Hospital and Beers multiply independent entity and reply weights; Movies reweights replies.
+O/W/S share paired weights, while F uses independent reply weights. Weighted counts are
+pooled before computing F1. Two-sided tests use centered bootstrap differences, with
+Holm correction~\cite{holm1979simple} within each result table (40 contrasts in
+Table~\ref{tab:main}). Chunk wins/losses are descriptive where entities recur;
+Movies sign tests form a separate eight-model family.
 
-Conflict intervals resample selected entity means 2,000 times in fixed table contexts
-(Section~\ref{sec:conflictmetric}). Rayyan uses 5,000 within-stratum resamples of saved binary
-checks with fixed type weights, conditional on selected title matches and field criteria
-(Section~\ref{sec:rayyan-audit}). Both use 95\% percentile intervals.
+Conflict intervals resample whole replies 50,000 times, retaining equal entity weights
+(Section~\ref{sec:conflictmetric}); all-or-none outcomes are reported as counts and rates.
+Rayyan uses 5,000 within-stratum resamples of saved binary checks with fixed type weights,
+conditional on title matches and field criteria (Section~\ref{sec:rayyan-audit}).
+Intervals use the 2.5th and 97.5th percentiles; \companionref{7} details the clustering.
 
 \section{Testing Benchmark Memorization}\label{sec:memorization}
 
@@ -563,7 +587,7 @@ The continuation probe covers DeepSeek-V4-Pro, the four open-weight cleaners and
 variants. It asks for the next row after a header and ten consecutive rows, and tests whether
 dirty context elicits a clean reference value. \companionref{2} details trial counts and context settings.
 
-\textbf{Separating structure from row memory.} Repeated values and record order make many
+\textbf{Screening predictable continuations.} Repeated values and record order make many
 continuations predictable. A cell is \emph{hard} if its value is absent from the context column
 and missed by a full-table screen: column modes, frequent successors, low-cardinality functional dependencies
 and previous-value $\pm1$. Counts subtract the target vote; dependency eligibility stays fixed.
@@ -577,22 +601,24 @@ infini-gram~\cite{liu2024infinigram} search of its public corpus finds only Hosp
 in a GitHub issue and tool documentation, and none of the other tables.
 
 \textbf{Clean-value leakage.} For clean references absent from the corresponding context column,
-DeepSeek produces 3 of 601 hard erroneous cell-trials, and the four open instruction cleaners
-1 of 2,008. This additional screen uses the full clean table and clean predecessor---oracle
+the hard-cell screen retains 601 erroneous cell-trials for DeepSeek, which supplies the clean
+reference in three; the four open instruction cleaners do so in 1 of 2,008.
+This additional screen uses the full clean table and clean predecessor---oracle
 information beyond the dirty prompt.
 
 \textbf{Original versus fresh.} All four commercial cleaners score lower on O than F on
 Hospital ($-$0.03 to $-$0.07) and Movies ($-$0.09 to $-$0.25; Table~\ref{tab:main}). Some open
 models have the opposite sign, including Llama's $+$0.10 on Hospital, without positive evidence
 from the continuation probe. As defined in Table~\ref{tab:conditions}, O\,$-$\,F also includes difficulty changes
-and serves as supporting evidence. We next examine knowledge effects on original and fresh records.
+in addition to exposure. Section~\ref{sec:knowledge} compares repair on these real records with
+the paired surrogates.
 
 \finding{The screened continuation results provide no positive evidence attributable to
 benchmark-row memory in the tested settings.}\label{find:mem}
 
 \input{tables/p1}
 
-\section{Knowledge Inflates Cleaning Scores}\label{sec:knowledge}
+\section{Entity Familiarity and Repair Performance}\label{sec:knowledge}
 
 Table~\ref{tab:main} reports the eight-model condition scores and contrasts. The error profiles
 in Section~\ref{sec:recoverability} distinguish missing entity mappings from candidates and rules
@@ -600,36 +626,35 @@ retained after renaming.
 
 \input{tables/decomposition}
 
-\subsection{Hospital: Typos in Names}
+\subsection{Hospital: Damaged Identity Values}
 
 Replacing Hospital's entity names with syllables reduces DeepSeek-V4-Pro's identity-column
 repair F1 from 0.88 to 0.16. Qwen3.8-Max and GLM-5.3 have similarly large losses, giving a
-0.59--0.72 range for these three models. Both paired steps matter: their W\,$-$\,S contrasts
+0.59--0.72 range for these three models. Their W\,$-$\,S contrasts
 are $+$0.33 to $+$0.37, in addition to positive O\,$-$\,W contrasts. F\,$-$\,W is also large
-($+$0.28 to $+$0.45), so the advantage of familiar entities persists on fresh records.
-GPT-6.1-Sol's stronger S performance is explained in Section~\ref{sec:commercial}.
+($+$0.28 to $+$0.45), with higher scores on fresh real records than on word-based names.
+GPT-6.1-Sol's higher S score follows the construction regularities examined in
+Section~\ref{sec:commercial}.
 
 Detection remains stronger than repair (Table~\ref{tab:detection}). For example, DeepSeek
 detects S identity errors with F1 0.73 but repairs them with 0.16, while its non-identity repair
-scores remain between 0.91 and 0.95 across conditions. The aggregate gap separates error
-localization from value recovery: name candidates may constrain typos, while identifiers can
-remain underdetermined.
-Open models show smaller total effects, from $+$0.20 to $+$0.52 at seed~0.
+scores remain between 0.91 and 0.95 across conditions. Name candidates can help resolve typos;
+recovering an arbitrary identifier requires its mapping.
+Open models show smaller O\,$-$\,S differences, from $+$0.20 to $+$0.52 at seed~0.
 
 \input{tables/detection}
 
-\finding{DeepSeek-V4-Pro, Qwen3.8-Max and GLM-5.3 lose 0.59--0.72 repair F1 on Hospital's
-identity columns under syllable replacement. Entity familiarity and familiar word forms both
-contribute, while detection remains stronger than repair.}\label{find:hospital}
+\finding{Syllable replacement lowers identity-column repair F1 by 0.59--0.72 for
+DeepSeek-V4-Pro, Qwen3.8-Max and GLM-5.3 on Hospital. Detection remains stronger than repair.}\label{find:hospital}
 
 \subsection{Movies: Candidates and Mappings}
 
 \textbf{Year ranges retain useful candidates.} In the 190 source-style rows, the year is
 ``Y$-$1 Y Y$+$1'' and the middle candidate matches 167 references (88\%). DeepSeek's year
 accuracy is 91\% on real films, but only 18\% on W and 13\% on S, where it mostly chooses the first year
-(Figure~\ref{fig:year}). The unchanged candidates retain a useful constraint after renaming,
-although the prompt does not state the rule. Lower repair reflects limited use of this
-evidence on unfamiliar names.
+(Figure~\ref{fig:year}). Renaming shifts its choices from the middle toward the first candidate;
+the prompt does not specify which candidate to select. \companionref{7} separates the 167
+middle-reference cases from the other 23.
 The other commercial models show the same pattern: 171--176 correct years on O, versus
 24--48 on surrogates. Duration and genre repairs also decline after renaming
 (Table~\ref{tab:moviescols}).
@@ -644,28 +669,27 @@ use varies across chunks and naming conditions.
   \includegraphics[width=\columnwidth]{figures/fig2_year_range.pdf}
   \caption{DeepSeek-V4-Pro's year repairs deteriorate after renaming, although all 190 year
   ranges are unchanged. Bars show the candidate written; the right panel shows repair accuracy.
-  Taking the middle year matches 167 references (88\%).}
+  The middle year matches 167 references (88\%).}
   \label{fig:year}
   \Description{Stacked bars compare the year candidates selected on real and renamed films; accuracy falls after renaming although the candidate ranges are unchanged.}
 \end{figure}
 
 \textbf{Identifiers require entity mappings.} All commercial models score at most 0.05 on
 Movies' surrogate identity columns. Their
-fresh--words gaps are $+$0.17 to $+$0.42, while the paired O\,$-$\,W contrasts are smaller
+F\,$-$\,W gaps are $+$0.17 to $+$0.42, while the paired O\,$-$\,W contrasts are smaller
 (Table~\ref{tab:main}). DeepSeek replaces 78 of 190 real slugs with the correct IMDb identifier
 and none on surrogates (Table~\ref{tab:moviescols}). A fictitious slug does not determine its
 random identifier, so the repairs on real films use mappings absent after renaming.
 
-\pagebreak[4]
 Without identifiers, F\,$-$\,W remains $+$0.26 to $+$0.33 across the four commercial models,
 whereas O\,$-$\,W is $+$0.04 to $+$0.15. Original people-list errors often contain legitimate
 Rotten Tomatoes credits, making the reference's source choice difficult even when the film is
 known. GPT-6.1-Sol rarely guesses identifiers on O (10 of 190); its O\,$-$\,W of $+$0.07 is
-not significant after correction, whereas its fresh--words gap is.
+not significant after correction, whereas its F\,$-$\,W gap is.
 
 Open models repair at most 14 of 379 identity errors on O and three on W
 (Table~\ref{tab:counts}). These near-zero results provide little evidence about their
-entity-knowledge effects on Movies.
+response to entity renaming on Movies.
 
 GLM's O\,$-$\,W remains significant after excluding incomplete replies:
 $+$0.068 versus $+$0.070 on all chunks.
@@ -674,44 +698,43 @@ $+$0.068 versus $+$0.070 on all chunks.
 
 \input{tables/moviescols}
 
-\finding{Movies' commercial-model fresh--words gaps are $+$0.17--$+$0.42 at seed~0, with
+\finding{Movies' commercial-model F\,$-$\,W gaps are $+$0.17--$+$0.42 at seed~0, with
 surrogate identity repair F1 at most 0.05. Year repair also deteriorates despite retained
 candidate evidence.}\label{find:movies}
 
 \subsection{Beers: Formatting Errors}
 
-Beers tests whether cleaners split city/state strings equally for real and fictitious names
+On Beers, we compare city/state repairs for real and fictitious names
 (Table~\ref{tab:beers}). At seed~0, seven models show no significant positive O\,$-$\,S effect; their
-contrasts range from $-$0.08 to $+$0.04, with GPT's significant $-$0.03 in the opposite direction.
+contrasts range from $-$0.08 to $+$0.04, including GPT's $-$0.03 in the opposite direction.
 Qwen3.8-Max instead repairs 122 of 127 cities on O, 108 on W and 82 on S, giving a significant
-total effect of $+$0.24. Its W-versus-S sign test has $p=0.019$ uncorrected and 0.15 after
-correction over models. Dependence on familiar names therefore varies by model even for this
-formatting repair. F is descriptive because its brewery concentration and alcohol distribution
-differ from O (Section~\ref{sec:build-beers}).
+O\,$-$\,S difference of $+$0.24 (adjusted $p=0.042$). W repairs more cities than S in 15 chunks
+and fewer in four. F is descriptive because its brewery concentration and alcohol distribution
+differ (Section~\ref{sec:build-beers}).
 
-\finding{Qwen3.8-Max has a positive total knowledge effect of $+$0.24 on Beers' formatting
+\finding{Qwen3.8-Max has a positive O\,$-$\,S repair-F1 difference of $+$0.24 on Beers' formatting
 errors; no significant positive effect appears in the other seven models.}\label{find:beers}
 
 \input{tables/beers}
 
 \subsection{Stability over Construction Seeds}
 
-Table~\ref{tab:seeds} reports construction variation separately from chunk-bootstrap intervals.
-Hospital's total effect varies by at most 0.06 per model, and its spelling contrast by at most
+Table~\ref{tab:seeds} reports construction variation separately from cluster intervals.
+Hospital's O\,$-$\,S contrast varies by at most 0.06 per model, and W\,$-$\,S by at most
 0.05. F\,$-$\,W is more sensitive to the fresh error draw, with ranges reaching 0.11 for
 DeepSeek and 0.13 for open models. Movies' commercial-model gaps remain positive across seeds,
-including $+$0.39 to $+$0.44 for DeepSeek. The table gives the full model-specific ranges.
+including $+$0.39 to $+$0.44 for DeepSeek.
 
 \input{tables/seeds}
 
-\section{Evidence and Knowledge Effects}\label{sec:generalize}
+\section{Information Available for Repair}\label{sec:generalize}
 
 \begin{figure*}[t]
   \centering
   \includegraphics[width=\textwidth]{figures/fig6_scale.pdf}
-  \caption{Hospital's total effect grows across Qwen2.5-7B/14B/32B, while S scores remain low.
-  Identity-column repair F1, with Llama and commercial models for comparison; 95\% bootstrap
-  intervals.}
+  \caption{Hospital identity-column repair F1 across model sizes and families.
+  Within Qwen2.5-7B/14B/32B, the O--S gap grows while S scores remain low.
+  Llama and commercial models are shown for comparison; whiskers give 95\% cluster intervals.}
   \label{fig:scale}
   \Description{Condition scores across models show a larger original-to-syllable gap for larger Qwen models on Hospital while syllable-condition scores stay low.}
 \end{figure*}
@@ -721,17 +744,17 @@ including $+$0.39 to $+$0.44 for DeepSeek. The table gives the full model-specif
 The aligned setting adds labeled target-value examples and error positions without enlarging
 the main chunks. DeepSeek-V4-Pro improves across conditions but retains
 F\,$-$\,W gaps of $+$0.22 on Hospital and $+$0.58 on Movies (Figure~\ref{fig:aligned}).
-Hospital's rounded W and S scores differ by only 0.01. The added information largely closes
-their spelling contrast, while real entities retain an advantage.
+Hospital's rounded W and S scores differ by only 0.01, compared with the larger W\,$-$\,S
+difference in the zero-shot setting.
 
 \begin{figure}[tbp]
   \centering
   \includegraphics[width=\columnwidth]{figures/fig3_aligned.pdf}
-  \caption{Alignment improves DeepSeek-V4-Pro's repair but retains a fresh--words gap.
-  Identity-column F1 in zero-shot and aligned settings. DeepSeek has 95\% chunk-bootstrap
-  intervals; Baran shows a three-run mean with the first run's interval shifted to it.}
+  \caption{Identity-column repair F1 in zero-shot and aligned settings.
+  DeepSeek shows 95\% cluster intervals; aligned Baran shows three-run means
+  without error bars.}
   \label{fig:aligned}
-  \Description{Hospital and Movies identity-column scores compare zero-shot and aligned DeepSeek with 95 percent chunk-bootstrap intervals. Baran points are means of three aligned runs; their whiskers translate the first run's interval to that mean.}
+  \Description{Hospital and Movies identity-column scores compare zero-shot and aligned DeepSeek with entity/reply cluster intervals. Baran points are means of three aligned runs, without intervals.}
 \end{figure}
 
 Baran with the same chunks, labels and positions scores 0.27--0.32 on Hospital and zero on
@@ -742,18 +765,12 @@ Movies condition, but its advantage narrows on surrogates.
 
 \input{tables/aligned}
 
-These comparisons expose two routes to improvement: labels and error positions improve
-DeepSeek's repair within a chunk, while repeated records supply values absent from that chunk.
-The former tests dependence on familiar entities under additional guidance; the latter changes
-the evidence from which a replacement can be recovered.
-
 \subsection{Model Scale}\label{sec:scale}
 
 Within Qwen2.5, Hospital's O\,$-$\,S grows from $+$0.20 at 7B to $+$0.40 at 14B and $+$0.52
 at 32B, in the same order at every construction seed (Figure~\ref{fig:scale};
-Table~\ref{tab:seeds}). S repair F1 stays low at 0.02, 0.04 and 0.03. Higher original scores
-thus accompany a larger gap under entity replacement, with little improvement on unfamiliar
-names in this family and benchmark.
+Table~\ref{tab:seeds}). S repair F1 stays low at 0.02, 0.04 and 0.03; the increase is mainly
+in scores on the original hospital names.
 
 \subsection{Recoverable Syllable Names}\label{sec:commercial}
 
@@ -764,7 +781,6 @@ unique restoration for 95 corrupted names. GPT restores 74 of them; the other co
 restore 8--12 and open models at most one (Table~\ref{tab:decoding}). The inventory is used by
 our analysis, not supplied to the cleaner. On digits, which it does not constrain, GPT repairs
 6 of 97. Its S advantage is concentrated on names recoverable from the restricted vocabulary.
-Name-replacement gaps thus reflect a model's use of retained evidence as well as familiar entities.
 
 \input{tables/decoding}
 
@@ -776,10 +792,10 @@ its Beers output splits ``San Francisco CA'' into city and state, both retained 
 Movies' source mappings and omitted credits require external evidence.
 
 \finding{Labels and error positions improve DeepSeek-V4-Pro's repair without closing its
-fresh--words gaps. Whole-table Baran and TabClean remain strong under renaming on Hospital
+F\,$-$\,W gaps. Whole-table Baran and TabClean remain strong under renaming on Hospital
 and Beers, but weak on Movies.}\label{find:general}
 
-\section{Knowledge Overrides the Table}\label{sec:conflict}
+\section{Preserving Assigned Values}\label{sec:conflict}
 
 Movies often pairs legitimate values from different sources, so a familiar credit alone does
 not identify the task's target. We next fix a value to preserve and test whether a familiar
@@ -818,9 +834,9 @@ The common pool contains 57 films, 24 hospitals and 48 breweries known to DeepSe
 Main chunks contain three targets and 17 other-entity fillers, with one row per target.
 Supplementary Hospital/Beers conditions use three rows per target. Every model receives the
 same pool, but rates use its own subset passing separate factual queries: 52--57 films,
-22--24 hospitals and 7--48 breweries. Film knowledge accepts a credited full name or a surname
-of at least four letters; location knowledge requires matching city and state. These are
-conditional rates within the fixed pool.
+22--24 hospitals and 7--48 breweries. The factual screen for films accepts a credited full name
+or a surname of at least four letters; the location screen requires matching city and state.
+Rates are conditional on the fixed pool.
 
 The standard prompt asks for cleaning while preserving correct cells, without specifying
 source priority. The \emph{table-evidence prompt} explicitly favors input-table evidence over
@@ -843,14 +859,15 @@ and $z_{ej}$ indicate a matching rewrite in row $j$ of entity $e$. We report
 For Movies, $s=1$, giving rewritten known films divided by known films. For $s=3$, row indicators
 are first averaged within entities. Targets without a matching correction, including unusable
 replies, remain in the denominator. Surrogate controls use the same known subset and paired
-fact. Entity-bootstrap intervals follow Section~\ref{sec:setup}.
+fact. Reply-cluster intervals follow Section~\ref{sec:setup}.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{figures/fig4_near_entity.pdf}
   \caption{DeepSeek-V4-Pro rewrites assigned directors more often than cities. Attribute rewrites
   and name restoration are separate events, using 57 films, 24 hospitals or 48 breweries with
-  one row per target and 95\% entity-bootstrap intervals. Controls have zero directed rewrites.}
+  one row per target. Whiskers give 95\% reply-cluster intervals; all-or-none outcomes show counts.
+  Controls have zero directed rewrites.}
   \label{fig:near}
   \Description{Paired points compare standard and table-evidence prompts for director or city rewrites and for restoration of one-letter-changed entity names.}
 \end{figure}
@@ -858,21 +875,25 @@ fact. Entity-bootstrap intervals follow Section~\ref{sec:setup}.
 \begin{figure}[t]
   \centering
   \includegraphics[width=\columnwidth]{figures/fig7_near_models.pdf}
-  \caption{Table-evidence instructions reduce director rewrites unevenly. Rates divide
-  matching real-credit rewrites by known films, with 95\% entity-bootstrap intervals.
-  Parentheses give denominators, unchanged between prompts; Table~\ref{tab:conflictcounts}
-  gives counts and control edits.}
+  \caption{Director rewrites under standard and table-evidence prompts. Parentheses give
+  known-film counts shared by both prompts; Table~\ref{tab:conflictcounts} includes control edits.
+  Whiskers give 95\% reply-cluster intervals, with counts for all-or-none outcomes.}
   \label{fig:nearmodels}
   \Description{Per-model director rewrite rates and intervals compare the two prompts; labels give each model's known-film denominator.}
 \end{figure}
 
 \subsection{Results}\label{sec:conflictresults}
 
-\textbf{Familiar names draw factual rewrites.} Commercial models know the same 57 films and
+\textbf{Explicit table priority.} With the table-evidence prompt, GPT does not replace any
+assigned director with a real-world credit (0/57). DeepSeek still rewrites 12 of 57 directors; GLM and
+Qwen3.8-Max rewrite 10/57 and 23/57, respectively. Rates for Qwen2.5 at 14B and 32B remain
+above 0.60 (Table~\ref{tab:conflictcounts}). These updates contradict the prompt's explicit
+instruction to use table evidence.
+
+\textbf{Director rewrites.} Commercial models know the same 57 films and
 rewrite 68\%--100\% of their assigned directors under the standard prompt
 (Figure~\ref{fig:nearmodels}). DeepSeek, for example, rewrites 39/57. Controls also receive
 Director edits, but none matches the paired film's real credit (Table~\ref{tab:conflictcounts}).
-The paired names separate directed factual rewrites from other edits.
 
 \input{tables/conflictcounts}
 
@@ -880,27 +901,20 @@ Within Qwen2.5, conditional rates rise from 0.135 at 7B to 0.691 at 14B and 0.69
 Their known subsets differ, as shown in Table~\ref{tab:conflictcounts}. Llama knows 56 films
 and rewrites 18 (0.321).
 
-\textbf{The effect depends on the attribute.} Standard-prompt city rewrites reach at most
-0.042 on Hospital and 0.140 on Beers across models. This is consistent with the distinction
-between a particular directing credit and an institution that may operate at multiple locations.
-DeepSeek also restores 91\% of one-letter-changed film names (Figure~\ref{fig:near}), a possible
-spelling correction distinct from overriding an assigned attribute.
+\textbf{Director versus city.} Standard-prompt city rewrites reach at most
+0.042 on Hospital and 0.140 on Beers across models.
+DeepSeek also restores 91\% of one-letter-changed film names (Figure~\ref{fig:near}). This may
+correct spelling without changing the assigned attribute.
 
-\textbf{Source-priority instructions help unevenly.} With the table-evidence prompt, GPT makes
-no directed director rewrite (0/57). DeepSeek still rewrites 12 of 57 directors; GLM and
-Qwen3.8-Max rewrite 10/57 and 23/57, respectively. Rates for Qwen2.5 at 14B and 32B remain
-above 0.60 (Table~\ref{tab:conflictcounts}). These rewrites remain invalid under the prompt's
-explicit table priority.
-
-\finding{For known films, commercial models rewrite 68\%--100\% of assigned directors toward
-real credits, while city rewrites are rare. Table-evidence instructions reduce their director
-rates to 0.000--0.404, but Qwen2.5-14B/32B retain rates above 0.60.}\label{find:conflict}
+\finding{Under explicit table-evidence instructions, commercial models' director rewrite
+rates range from 0.000 to 0.404; Qwen2.5-14B/32B remain above 0.60. Standard-prompt rates for
+commercial models are 68\%--100\%, while city rewrites are less frequent in these tests.}\label{find:conflict}
 
 \section{Benchmark Quality}\label{sec:quality}
 
-The conflict test fixes values to preserve. Rayyan presents a complementary problem: a cleaner
-can recover a value supported by an external record and still receive no credit. Conversely,
-reproducing the reference's transformation can count as a repair.
+Rayyan contains systematic date and page conversions in its reference values. A cleaner can
+receive credit for reproducing these conversions but none for an externally matched
+ISSN correction.
 
 \subsection{Systematic Reference Transformations}
 
@@ -910,6 +924,20 @@ All 722 date differences map input \texttt{m/d/yy} to \texttt{d/int(yy)/mm}, wit
 input month in the final position: for example, \texttt{1/1/13} becomes \texttt{1/13/01}.
 Similarly, 31 of 32 pagination differences turn page ranges into month-name strings, such as
 \texttt{70-6} to \texttt{Jun-70}.
+
+\subsection{What the Reference Rewards}\label{sec:rayyan-rewards}
+
+On the audit input, DeepSeek-V4-Pro's zero-shot output scores F1 0.002. It changes dirty ISSN
+\texttt{Mar-22} to \texttt{0003-3022}, matching a title-matched PubMed record, but the reference
+is \texttt{22-Mar}. This correction receives no repair credit.
+
+TabClean's distributed Rayyan input has 960 difference cells, rather than the audit's 948.
+Both are 1,000-row, eleven-column tables with the same date-conversion pattern. We score the
+archived output against its actual input pair and exclude 150 development rows. The remaining
+850 rows contain 808 errors; 498 effective edits yield 461 credited repairs, giving
+$F_1=2\times461/(498+808)=0.71$ after rounding. Of these credited repairs, 434 (94\%) reproduce
+the reference date transformation. \companionref{3} specifies the actual inputs, development
+indices and output.
 
 \subsection{Stratified PubMed Checks}\label{sec:rayyan-audit}
 
@@ -936,83 +964,75 @@ the matched references failing that field's check. The weighted reference-check 
   \widehat q = \sum_h \frac{N_h}{948}\frac{b_h}{m_h}.
   \label{eq:rayyan-weighted}
 \end{equation}
-Thus each within-type proportion uses matched cells, while weights follow the 948-cell audit
-composition. The result is 95.2\% (95\% interval: 91.2--97.8\%;
-Table~\ref{tab:rayyan}). Dates account for 722 of 948 error cells and
-most of the weight. The interval conditions on the saved title matches and field checks;
+Weighting the five field checks by the 948-cell audit composition gives a reference-check
+failure rate of 95.2\% (95\% interval: 91.2--97.8\%; Table~\ref{tab:rayyan}). Each within-type
+proportion uses title-matched cells. Dates account for 722 of 948 error cells and most of the
+weight. The interval conditions on the saved title matches and field checks;
 matching uncertainty and dependence between cells sharing a PMID are outside this estimate.
 
-\subsection{What the Reference Rewards}\label{sec:rayyan-rewards}
-
-On the audit input, DeepSeek-V4-Pro's zero-shot output scores F1 0.002. For example, it changes
-dirty ISSN \texttt{Mar-22} to \texttt{0003-3022}, matching the saved external ISSN, but the
-reference is \texttt{22-Mar}. Scoring rejects this external match because the reference differs.
-
-TabClean's distributed Rayyan input has 960 difference cells, rather than the audit's 948.
-Both are 1,000-row, eleven-column tables with the same date-conversion pattern. We score the
-archived output against its actual input pair and exclude 150 development rows. The remaining
-850 rows contain 808 errors; 498 effective edits yield 461 credited repairs, giving
-$F_1=2\times461/(498+808)=0.71$ after rounding. \companionref{3} records the input-version
-differences, development indices and saved output.
-
-External checks reverse the date comparison: 42/44 matched dirty dates pass the year check,
-whereas 43/44 references fail. Yet 434 of TabClean's 461 credited repairs (94\%) reproduce the
-reference date transformation. Reference matching therefore rewards this conversion while
-rejecting the externally matched ISSN.
+Among the 44 title-matched date cells, 42 dirty values agree with PubMed's publication year,
+whereas 43 reference values do not. These sampled publication-year checks differ from
+TabClean's credited-conversion count of 434/461.
 
 \subsection{Reference Issues in Other Benchmarks}
 
 Hospital's reference places Helen Keller Memorial Hospital in Jefferson County, although its
 city, Sheffield, is in Colbert County. Three commercial models correct some of these cells and
-are penalized as false edits. These smaller issues illustrate the same distinction between
-reference agreement and external correctness. \companionref{3} records these counts and
-Movies' duplicate writer credits.
+are penalized as false edits. Counts and duplicate writer credits in Movies are detailed in
+\companionref{3}.
 
-\finding{Rayyan's systematic date and page conversions affect repair credit. Stratified field
-checks against title-matched PubMed records give a 95.2\% weighted reference-check failure rate
-(95\% interval: 91.2--97.8\%), using the 948-cell type composition. On TabClean's version,
-434/461 credited repairs (94\%), after excluding 150 development rows, reproduce the reference
-date transformation.}\label{find:quality}
+\finding{On Rayyan, 434/461 of TabClean's credited repairs (94\%), after excluding 150
+development rows, reproduce the reference date transformation. An externally matched ISSN
+correction earns no repair credit.}\label{find:quality}
 
 \section{Lessons and Recommendations}\label{sec:discussion}
 
-\textbf{Interpret scores through recovery evidence.} An identifier may lose its mapping after
+\textbf{Distinguish missing mappings from retained candidates.} An identifier may lose its mapping after
 renaming, while a year range retains its candidates (Section~\ref{sec:recoverability}). Report
 formatting repairs separately once the target convention is established: a local conversion
-and a source-specific value pose different recovery problems. Compare original, word and
-syllable conditions to examine dependence on familiar entities and
-word forms (Findings~\ref{find:hospital}--\ref{find:beers}). Fresh records test transfer to new
-rows whose entities may remain familiar.
+and a source-specific value pose different recovery problems
+(Findings~\ref{find:hospital}--\ref{find:beers}). If a renamed identifier has no mapping, supply a
+candidate list or retrieval source before comparing a method's ability to recover it. Where
+candidates remain, report which candidates the method selects, as in the year comparison,
+rather than interpreting all score losses as missing external knowledge.
 
-\textbf{Align labels, error positions and supporting records.} Chunk-based editing and
-whole-table repair offer different evidence. Compare aligned settings before attributing score
-gaps to method capability; repeated records can supply candidates absent from a chunk
-(Finding~\ref{find:general}). Equal detection information need not supply equal evidence for
-recovering values.
+\textbf{Align labels, error positions and supporting records.} Compare chunk-based and
+whole-table methods under aligned labels and error positions (Finding~\ref{find:general}).
+Report supporting-record access separately: another record of the same entity may supply a
+replacement absent from the chunk. Equal detection information does not imply equal evidence
+for recovering values.
 
 \textbf{Set source priority and test value preservation.} Movies requires selecting a preferred
 source, whereas the conflict test requires retaining an assigned director. Count factual rewrites
 separately from other edits: a real credit can still be the wrong update for that task
-(Finding~\ref{find:conflict}).
+(Finding~\ref{find:conflict}). For cross-source errors, name the preferred source explicitly:
+a Rotten Tomatoes credit can be legitimate yet differ from an IMDb reference. For assigned
+values, state that the table takes priority and include unchanged target cells in evaluation.
 
-\textbf{Check which edits receive repair credit.} Rayyan credits date conversion but rejects an
+\textbf{Inspect the edits rewarded by the reference.} Rayyan credits date conversion but rejects an
 externally matched ISSN. Compare fields with independent records under explicit criteria, and
-bind scores to input versions and development exclusions (Finding~\ref{find:quality}).
+report the scored input and development exclusions (Finding~\ref{find:quality}). Separate
+mechanical conversions from changes in field content. An external year check also requires
+the date field's semantics, while a weighted summary requires the match coverage and criteria
+for each field. Inspecting high-credit edits is especially useful when a single transformation
+accounts for most repaired cells.
 
 \subsection{Applying \core{} to Other Benchmarks}\label{sec:apply}
 
-Adapting \core{} leaves the cleaner unchanged but requires an error profile, a compatible fresh
-source, two naming styles and acceptance checks. Profiling identifies the available recovery
-evidence and the intended target, including source priorities and reference transformations.
-\companionref{4} provides an application guide. Matching and imputation offer future settings.
+Applying \core{} requires profiling errors and reference conventions, selecting a compatible
+fresh source, and building the two naming styles with acceptance checks. Report F1 contrasts
+alongside error-type counts and candidate selections, as in the Movies year
+analysis. Record which field relationships survive identity replacement: geographic
+codes can retain familiar meanings after names change. \companionref{4} describes the
+adaptation procedure.
 
 \subsection{Artifact and Result Replay}\label{sec:artifact}
 
 The statistical core replays condition contrasts, conflict rates and Rayyan checks offline from
 Hospital/Beers tables, Movies numerical witnesses and re-scored continuation counts.
 Authorized local validation checks historical movie inputs, replies and scoring-code hashes
-before re-scoring. The repository \texttt{README} provides runnable entries;
-\companionref{5} maps each analysis to input versions, scoring entries and results;
+before re-scoring. The repository \texttt{README} gives the commands;
+\companionref{5} maps each analysis to its inputs, scoring code and outputs;
 \companionref{6} gives the extended displays.
 
 \subsection{Limitations}\label{sec:limitations}
@@ -1027,35 +1047,31 @@ provide the regularity observed for GPT (Section~\ref{sec:commercial}). The stud
 commercial and open-weight cleaners on English tables concerning mainly US entities, with
 decoding settings in \companionref{2}; it does not cover Claude or Gemini.
 
-Intervals summarize fixed constructions and archived replies, rather than repeated API calls.
-Chunk resampling does not separately estimate dependence between chunks sharing an entity;
-entity resampling in the conflict test leaves shared-chunk dependence outside its uncertainty
-estimate. The controlled conflict measures source priority, not the prevalence of conflicting
-values in private data. Whole-table results show how additional records can supply evidence
-absent from the main chunks.
+The intervals describe variation across entities and replies within fixed constructions.
+New backgrounds, regrouped prompts and repeated API calls introduce other sources of variation.
+\companionref{7} gives the entity--reply structure and shows how repair F1 changes when one
+hospital's rows are omitted from the saved outputs.
 
 \section{Conclusion}\label{sec:conclusion}
 
-\core{} connects the evidence used to recover values with the targets that determine
-preservation and repair credit. Paired entity replacements and fresh records test recovery
-from familiar and unfamiliar inputs. Across eight LLMs, familiar
-entities contribute substantially to Hospital's identity-column scores and to Movies scores for
-commercial models. Movies illustrates why the retained evidence matters: DeepSeek-V4-Pro's
-repair falls both when identifier mappings disappear and when year candidates remain.
-The screened continuation probe finds no positive evidence of benchmark-row memory in the
-tested models. Direct editing and table-based repair draw on different evidence, so
-information access also shapes the observed differences in repair.
+Renaming Movies lowers DeepSeek-V4-Pro's year accuracy from 91\% to 18\% even though the
+candidate years remain in the input. Identifier repairs decline too, but their mappings are
+no longer available. On Hospital, GPT repairs 74 of 95 errors with a unique restoration under
+the constructor's restricted syllable inventory. The paired comparisons in \core{} retain
+error positions, while fresh records
+and a screened continuation probe examine transfer and benchmark-row memory separately.
+The probe finds no positive evidence of row memory in its tested models.
 
-Recovery alone does not determine whether an edit serves the task. Models can replace assigned
-directors with familiar real credits, with uneven reductions under table-evidence instructions.
-Repair credit ultimately depends on the reference. Rayyan's stratified field checks and
-credited date conversions show how a reference can reward its own transformations.
-Evaluations should therefore connect recovery on unfamiliar entities with source-priority
-and value-preservation tests, and inspect the targets used to score repairs. The construction
-principles provide a basis for studying these questions in other entity-based data preparation tasks.
+The assigned-value and reference analyses reveal errors that conventional repair scores can
+miss. Some models replace assigned directors with real credits even after an explicit
+table-evidence instruction. On Rayyan, 434/461 of TabClean's credited repairs reproduce a
+reference date transformation, while an externally matched ISSN correction earns no credit.
+For evaluation, these cases call for tests with a specified source priority and inspection of
+the edits counted as correct. The constructions and scoring code support comparisons with
+other data cleaners.
 
 \clearpage
-\balance
+\nobalance
 \bibliographystyle{ACM-Reference-Format}
 \bibliography{refs}
 

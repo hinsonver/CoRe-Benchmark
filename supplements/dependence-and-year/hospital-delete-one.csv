@@ -1,0 +1,121 @@
+model,seed,contrast,full_difference,deletion_min,deletion_max,deletions,all_positive,scheme
+custom_deepseek_deepseek-v4-pro,0,O-W,0.3799175762364936,0.3679049550854824,0.3958237316978055,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,0,W-S,0.33925679968845435,0.32783143107989465,0.3499547602292149,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,0,O-S,0.7191743759249479,0.7110712437467656,0.7374370737670579,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,0,F-W,0.4509707302651029,0.43977168949771683,0.4634193321776176,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_deepseek_deepseek-v4-pro,0,O-F,-0.07105315402860934,-0.08281992606935407,-0.05717025751680993,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_deepseek_deepseek-v4-pro,1,O-W,0.330331438694914,0.31605241148592134,0.34482641886287857,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,1,W-S,0.3330896463492643,0.3215232913974838,0.3577733642281805,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,1,O-S,0.6634210850441783,0.6505798518932514,0.6794326241134752,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,1,F-W,0.369044095886357,0.3562801135238599,0.38282498740995385,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_deepseek_deepseek-v4-pro,1,O-F,-0.03871265719144301,-0.04580976641768497,-0.024829760679643598,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_deepseek_deepseek-v4-pro,2,O-W,0.31665764553936515,0.30661941885187805,0.3301086179461753,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,2,W-S,0.3603802176608348,0.3467952353942144,0.37214290688766627,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,2,O-S,0.6770378632001999,0.6660167781088243,0.6992000659739404,45,True,paired entity omitted from both fixed outputs
+custom_deepseek_deepseek-v4-pro,2,F-W,0.3395409407338732,0.3259920745660546,0.3495437192834703,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_deepseek_deepseek-v4-pro,2,O-F,-0.022883295194508046,-0.032552447744321755,-0.009000398682708632,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_qwen_qwen3.8-max,0,O-W,0.3514390756302521,0.3392646910424165,0.3774263120057513,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,0,W-S,0.3320095205712343,0.31765921527535224,0.34621698472723006,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,0,O-S,0.6834485962014865,0.6726229961304588,0.7028700989879998,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,0,F-W,0.3810582863282299,0.3719167158244303,0.39166083391660833,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_qwen_qwen3.8-max,0,O-F,-0.029619210697977794,-0.0401785714285714,-0.011052788802116686,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_qwen_qwen3.8-max,1,O-W,0.3102092567337198,0.2964783523923309,0.33052199680875316,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,1,W-S,0.38139788612342307,0.36379487992391213,0.39575044876726384,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,1,O-S,0.6916071428571429,0.681129137987545,0.7170574411105646,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,1,F-W,0.34439467747735963,0.33397598511753757,0.3565682743764935,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_qwen_qwen3.8-max,1,O-F,-0.03418542074363984,-0.041645707578806146,-0.015618998847778731,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_qwen_qwen3.8-max,2,O-W,0.31923285048285055,0.30886663271657333,0.3444592790387183,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,2,W-S,0.36279112766364885,0.34371205612320976,0.37831325301204816,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,2,O-S,0.6820239781464994,0.6706446182252633,0.7077953649181568,45,True,paired entity omitted from both fixed outputs
+custom_qwen_qwen3.8-max,2,F-W,0.33724322969174236,0.32595982710399196,0.3530278114601155,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_qwen_qwen3.8-max,2,O-F,-0.018010379208891814,-0.033794960977264976,0.0005560426869692936,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_z-ai_glm-5.3,0,O-W,0.22936320754716977,0.21484288436821342,0.24966783019930194,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,0,W-S,0.36529787117003143,0.3541021227768216,0.38116541940086657,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,0,O-S,0.5946610787172012,0.583037165605973,0.609154441332261,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,0,F-W,0.28029711559314674,0.27060755336617404,0.2955985421923184,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_z-ai_glm-5.3,0,O-F,-0.05093390804597697,-0.05799035965888022,-0.03125798212005104,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_z-ai_glm-5.3,1,O-W,0.2152122641509434,0.20035013074502506,0.2385787376618672,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,1,W-S,0.3555114200595829,0.3447593935398814,0.3709076271691812,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,1,O-S,0.5707236842105263,0.55789920124408,0.5954726061894902,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,1,F-W,0.28649682636292495,0.27765533515884144,0.2965215058571046,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_z-ai_glm-5.3,1,O-F,-0.07128456221198154,-0.08130924170616116,-0.05160863628605561,79,False,one entity omitted on one side; fresh comparison unpaired
+custom_z-ai_glm-5.3,2,O-W,0.2622023809523809,0.24215124215124217,0.29228395061728396,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,2,W-S,0.34360902255639103,0.3279190837423769,0.36136780996386475,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,2,O-S,0.6058114035087719,0.5945064662319001,0.6264463729417,45,True,paired entity omitted from both fixed outputs
+custom_z-ai_glm-5.3,2,F-W,0.2763546798029556,0.25977576322403906,0.3019547675872257,79,True,one entity omitted on one side; fresh comparison unpaired
+custom_z-ai_glm-5.3,2,O-F,-0.014152298850574674,-0.039752386634844816,0.005523627075351256,79,False,one entity omitted on one side; fresh comparison unpaired
+openai_gpt-6.1-sol,0,O-W,0.23093681917211328,0.22082572866544992,0.2804020668040771,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,0,W-S,0.0885984023238926,0.07363955474630668,0.09937840534110964,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,0,O-S,0.3195352214960059,0.30366711440414806,0.3673843605820418,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,0,F-W,0.2758528068761751,0.26832052567101017,0.2845482690683928,79,True,one entity omitted on one side; fresh comparison unpaired
+openai_gpt-6.1-sol,0,O-F,-0.0449159877040618,-0.05361144989627953,-0.00042674860239833023,79,False,one entity omitted on one side; fresh comparison unpaired
+openai_gpt-6.1-sol,1,O-W,0.23333080002026652,0.2222566103747562,0.2828009485283861,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,1,W-S,0.10476225744334178,0.09564318651613934,0.11486404833836861,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,1,O-S,0.3380930574636083,0.3247011804758909,0.3865371693848879,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,1,F-W,0.29194541786131456,0.2828589396549367,0.3005697416159693,79,True,one entity omitted on one side; fresh comparison unpaired
+openai_gpt-6.1-sol,1,O-F,-0.058614617841048045,-0.0631808278867102,-0.014125378739384575,79,False,one entity omitted on one side; fresh comparison unpaired
+openai_gpt-6.1-sol,2,O-W,0.24065398037287677,0.2232910454417586,0.29039932030586235,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,2,W-S,0.09924211481733614,0.08881922675026133,0.11060722297212,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,2,O-S,0.3398960951902129,0.32697257228615717,0.38824847430643594,45,True,paired entity omitted from both fixed outputs
+openai_gpt-6.1-sol,2,F-W,0.2764375479856144,0.2613565391181246,0.28548617530884945,79,True,one entity omitted on one side; fresh comparison unpaired
+openai_gpt-6.1-sol,2,O-F,-0.0357835676127376,-0.04431290335840832,0.00870567148892587,79,False,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-7b,0,O-W,0.14937454010301693,0.1368688194626761,0.16470140311978587,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,0,W-S,0.049591868165716924,0.03695841382384783,0.05593153649419635,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,0,O-S,0.19896640826873385,0.18095902083817492,0.20681989599460124,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,0,F-W,0.1590363758518092,0.14207769101512308,0.17652073617170655,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-7b,0,O-F,-0.009661835748792286,-0.026755852842809374,0.007296849087893853,79,False,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-7b,1,O-W,0.1334850208570345,0.11292962356792144,0.1466204584579143,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,1,W-S,0.06639083265010391,0.0546837608578324,0.07376623376623377,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,1,O-S,0.1998758535071384,0.18220556902505325,0.21289765630739843,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,1,F-W,0.18753907491108857,0.17506647961640737,0.1985377603752162,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-7b,1,O-F,-0.05405405405405406,-0.07114807114807115,-0.04158145875937286,79,False,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-7b,2,O-W,0.17126680820948337,0.1528406234288587,0.18345625209520616,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,2,W-S,0.022136970208704275,0.009711779448621553,0.02872014398988179,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,2,O-S,0.19340377841818762,0.18051749229809674,0.20288568257491676,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-7b,2,F-W,0.21976281803146003,0.20472640416907933,0.23310255700175392,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-7b,2,O-F,-0.04849600982197666,-0.06559002691599375,-0.03345959595959597,79,False,one entity omitted on one side; fresh comparison unpaired
+local_llama3.1-8b,0,O-W,0.2835966914707539,0.27091344317400495,0.2956715548463896,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,0,W-S,0.018207517788265733,0.01397763182660208,0.019150315859933903,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,0,O-S,0.30180420925901963,0.28983348471086895,0.3117094820508549,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,0,F-W,0.1908614232209738,0.17712888829083406,0.1984353877180152,79,True,one entity omitted on one side; fresh comparison unpaired
+local_llama3.1-8b,0,O-F,0.0927352682497801,0.08094459582198002,0.10646780317991983,79,True,one entity omitted on one side; fresh comparison unpaired
+local_llama3.1-8b,1,O-W,0.25110031405668637,0.23763304898102144,0.2639023812344509,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,1,W-S,0.04399936613703035,0.03621976325270201,0.04904510361641609,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,1,O-S,0.29509968019371674,0.2829357741458616,0.30477685924968057,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,1,F-W,0.13646748073553766,0.12165508909694957,0.14503171247357294,79,True,one entity omitted on one side; fresh comparison unpaired
+local_llama3.1-8b,1,O-F,0.11463283332114871,0.10284216089334863,0.12944522495973682,79,True,one entity omitted on one side; fresh comparison unpaired
+local_llama3.1-8b,2,O-W,0.29208258759709943,0.279679389009328,0.3031672759634038,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,2,W-S,0.009766604703313565,0.005209342154893826,0.014319809069212411,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,2,O-S,0.301849192300413,0.2899015615404337,0.31173789948400293,45,True,paired entity omitted from both fixed outputs
+local_llama3.1-8b,2,F-W,0.23601398601398602,0.22312738807584168,0.24508134352693936,79,True,one entity omitted on one side; fresh comparison unpaired
+local_llama3.1-8b,2,O-F,0.05606860158311344,0.04427792915531337,0.06895519952125778,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-14b,0,O-W,0.2498522194575423,0.2368794326241135,0.2642140468227424,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,0,W-S,0.14891440928085092,0.13735896039218737,0.15991148289689483,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,0,O-S,0.39876662873839325,0.38099707968293706,0.4173060528559249,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,0,F-W,0.23388685617787783,0.2182396300043359,0.24880152705124656,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-14b,0,O-F,0.01596536327966447,-0.0008398656215005129,0.03546910755148741,79,False,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-14b,1,O-W,0.2575984697926488,0.2458258449765204,0.27178665112212186,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,1,W-S,0.11691952506596306,0.10539890710382513,0.12696882031501128,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,1,O-S,0.3745179948586118,0.3560416429627944,0.39252173913043475,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,1,F-W,0.3140869684405304,0.3003648415108563,0.3291229318626579,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-14b,1,O-F,-0.05648849864788169,-0.07329372754904667,-0.03698475437605875,79,False,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-14b,2,O-W,0.2517318913163775,0.23377208799134513,0.27674645823155836,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,2,W-S,0.16689529894453317,0.15075616242607073,0.17682683879193561,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,2,O-S,0.41862719026091066,0.40138923654568215,0.43756439315887075,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-14b,2,F-W,0.30576248980814935,0.2932085201136797,0.3227352868320973,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-14b,2,O-F,-0.05403059849177183,-0.07100339551571977,-0.03452685421994889,79,False,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-32b-awq,0,O-W,0.2364455096778879,0.22047154840172295,0.25496577706767654,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,0,W-S,0.2829317464962768,0.2669505141388175,0.2945829338446788,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,0,O-S,0.5193772561741647,0.507611237980437,0.5324106215530217,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,0,F-W,0.17019436820933115,0.15900810906099422,0.1854266898914092,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-32b-awq,0,O-F,0.06625114146855676,0.05502616255331444,0.07996381841366357,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-32b-awq,1,O-W,0.21149450711494505,0.19694304522800565,0.22338483687687993,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,1,W-S,0.2803363449801445,0.2695222637781384,0.2962370011394286,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,1,O-S,0.49183085209508953,0.4818939239991871,0.5041315629844307,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,1,F-W,0.23661616161616156,0.22036289790858982,0.2553661616161616,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-32b-awq,1,O-F,-0.025121654501216506,-0.04387165450121655,-0.008868390793644765,79,False,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-32b-awq,2,O-W,0.24653644318515877,0.23361036651894557,0.25920844327176784,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,2,W-S,0.2697989253744213,0.25351862803075104,0.28102526276968465,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,2,O-S,0.5163353685595801,0.5046830905750486,0.5295484692524008,45,True,paired entity omitted from both fixed outputs
+local_qwen2.5-32b-awq,2,F-W,0.2995992741569635,0.2842869636657568,0.3187660668380463,79,True,one entity omitted on one side; fresh comparison unpaired
+local_qwen2.5-32b-awq,2,O-F,-0.05306283097180475,-0.07222962365288754,-0.037750520480598015,79,False,one entity omitted on one side; fresh comparison unpaired

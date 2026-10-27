@@ -3,6 +3,7 @@ from .core_runtime import evidence_json, evidence_glob, evidence_paths, movie_vi
 import csv
 import hashlib
 import json
+import os
 from pathlib import Path
 GPT = 'openai_gpt-6.1-sol'
 
@@ -38,6 +39,13 @@ def known_names(near, ds, model):
     return known
 
 def known_key_rates(near, ds, model, summary):
+    if os.environ.get('CORE_CLUSTER_RESULTS'):
+        corrected=json.loads(Path(os.environ['CORE_CLUSTER_RESULTS']).read_text())
+        if model in corrected['near']:
+            rates=corrected['near'][model][ds]
+            if any(r['entities']!=summary['screened_known']['known'] for r in rates.values()):
+                raise ValueError('Cluster screening denominator mismatch')
+            return rates
     if ds == 'movies' and public_mode():
         from .core_runtime import movie_known_key_rates
         return movie_known_key_rates(model, summary)

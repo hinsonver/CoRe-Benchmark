@@ -1,0 +1,11 @@
+table,entities,replies,components,min_replies_per_entity,max_replies_per_entity,min_entities_per_reply,max_entities_per_reply
+hospital,45,50,1,1,28,20,20
+hospital_fresh,34,50,1,11,30,20,20
+hospital_surrogatewords,45,50,1,1,28,20,20
+hospital_surrogate,45,50,1,1,28,20,20
+hospital_fresh_s1,34,50,1,11,30,20,20
+hospital_surrogatewords_s1,45,50,1,1,28,20,20
+hospital_surrogate_s1,45,50,1,1,28,20,20
+hospital_fresh_s2,34,50,1,11,30,20,20
+hospital_surrogatewords_s2,45,50,1,1,28,20,20
+hospital_surrogate_s2,45,50,1,1,28,20,20

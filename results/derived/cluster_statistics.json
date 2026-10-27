@@ -1,0 +1,6459 @@
+{
+  "schema": 1,
+  "replicates": 50000,
+  "seed": 20261027,
+  "witness_sha256": "8833b1ad8c8f50e15d64d771ac4668efac76af1fbdb0e5e86fd4805c9116ea45",
+  "score_intervals": {
+    "custom_deepseek_deepseek-v4-pro|hospital|O|all": {
+      "point": 0.9206349206349206,
+      "ci": [
+        0.87186103380653,
+        0.9558521442921329
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|F|all": {
+      "point": 0.9287128712871288,
+      "ci": [
+        0.8866424152795702,
+        0.959311686504123
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|W|all": {
+      "point": 0.7517587939698492,
+      "ci": [
+        0.6895905058502465,
+        0.8084483375175254
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|S|all": {
+      "point": 0.6436285097192225,
+      "ci": [
+        0.5740032249320953,
+        0.7086654103635787
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|O|identity": {
+      "point": 0.8787185354691075,
+      "ci": [
+        0.7868816987169064,
+        0.9432600401449381
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|F|identity": {
+      "point": 0.9497716894977168,
+      "ci": [
+        0.8888474888562845,
+        0.9850750347650762
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|W|identity": {
+      "point": 0.4988009592326139,
+      "ci": [
+        0.38449134678202945,
+        0.6124575224509707
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|S|identity": {
+      "point": 0.15954415954415954,
+      "ci": [
+        0.08411678311339524,
+        0.25554985261419244
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|O|other": {
+      "point": 0.9527145359019265,
+      "ci": [
+        0.9061081615355007,
+        0.9809192961345878
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|F|other": {
+      "point": 0.9125874125874126,
+      "ci": [
+        0.843606323470598,
+        0.9577868939766724
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|W|other": {
+      "point": 0.9342560553633218,
+      "ci": [
+        0.8828692068176752,
+        0.9689049928050193
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|S|other": {
+      "point": 0.9391304347826087,
+      "ci": [
+        0.886959176144298,
+        0.9737784205597586
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|O|all": {
+      "point": 0.3254945875326614,
+      "ci": [
+        0.2853717547831882,
+        0.36483954044166134
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|F|all": {
+      "point": 0.38002594033722437,
+      "ci": [
+        0.3367614076695189,
+        0.425631352761978
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|W|all": {
+      "point": 0.09188588366061504,
+      "ci": [
+        0.06733295487856332,
+        0.1258792460648238
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|S|all": {
+      "point": 0.12158273381294964,
+      "ci": [
+        0.07900757870022426,
+        0.17616581011953045
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|O|identity": {
+      "point": 0.36329588014981273,
+      "ci": [
+        0.2851600259806434,
+        0.43875265350284803
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|F|identity": {
+      "point": 0.4523809523809524,
+      "ci": [
+        0.3726013253097474,
+        0.5287962853954804
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|W|identity": {
+      "point": 0.042801556420233464,
+      "ci": [
+        0.02048579476679908,
+        0.07243140695105098
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|S|identity": {
+      "point": 0.01125703564727955,
+      "ci": [
+        0.0024126405576474367,
+        0.026192709350184137
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|O|other": {
+      "point": 0.31608391608391606,
+      "ci": [
+        0.2792271207020397,
+        0.35115163959783924
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|F|other": {
+      "point": 0.3629807692307692,
+      "ci": [
+        0.316956246051833,
+        0.41508257618312117
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|W|other": {
+      "point": 0.1034324942791762,
+      "ci": [
+        0.07520738261140074,
+        0.14329570080933546
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|S|other": {
+      "point": 0.14775255896751224,
+      "ci": [
+        0.09637073685157534,
+        0.2126482194557759
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|O|all": {
+      "point": 0.8311156601842374,
+      "ci": [
+        0.7728762396876091,
+        0.8778535732100983
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|F|all": {
+      "point": 0.6659707724425887,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|W|all": {
+      "point": 0.8068068068068068,
+      "ci": [
+        0.7418256058011925,
+        0.8571208368662563
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|S|all": {
+      "point": 0.7962962962962963,
+      "ci": [
+        0.7263283198293881,
+        0.8523079873453857
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|O|identity": {
+      "point": 0.2684563758389262,
+      "ci": [
+        0.09718797259764965,
+        0.4861192647981806
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|F|identity": {
+      "point": 0.23684210526315788,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|W|identity": {
+      "point": 0.11267605633802817,
+      "ci": [
+        0.01879148387178712,
+        0.2940913994577562
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|S|identity": {
+      "point": 0.27848101265822783,
+      "ci": [
+        0.11860416630841886,
+        0.4768760450748089
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|O|other": {
+      "point": 0.9323671497584541,
+      "ci": [
+        0.8736607275033353,
+        0.9696161167679733
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|F|other": {
+      "point": 0.7468982630272953,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|W|other": {
+      "point": 0.9218203033838973,
+      "ci": [
+        0.8519585527041407,
+        0.9646723661049149
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|S|other": {
+      "point": 0.8968058968058968,
+      "ci": [
+        0.8244688489588292,
+        0.9452918971673149
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|hospital|O|identity": {
+      "point": 0.8973214285714286,
+      "ci": [
+        0.8188631221851549,
+        0.9530301430422844
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|hospital|F|identity": {
+      "point": 0.9269406392694064,
+      "ci": [
+        0.8603418092875603,
+        0.9704218366985061
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|hospital|W|identity": {
+      "point": 0.5458823529411765,
+      "ci": [
+        0.43541553056970667,
+        0.6564499707925081
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|hospital|S|identity": {
+      "point": 0.2138728323699422,
+      "ci": [
+        0.1220940473187129,
+        0.3235106204134785
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|movies|O|identity": {
+      "point": 0.29513343799058084,
+      "ci": [
+        0.2368105438978001,
+        0.35554382810165
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|movies|F|identity": {
+      "point": 0.44283646888567296,
+      "ci": [
+        0.3819504817601175,
+        0.4972663997019938
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|movies|W|identity": {
+      "point": 0.024054982817869417,
+      "ci": [
+        0.00910330328804437,
+        0.04571018531626942
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|movies|S|identity": {
+      "point": 0.0034602076124567475,
+      "ci": [
+        8.904714399015545e-05,
+        0.012143637642434188
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|beers|O|identity": {
+      "point": 0.9384615384615385,
+      "ci": [
+        0.8595100087868464,
+        0.9812057295111123
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|beers|F|identity": {
+      "point": 0.6118721461187214,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "custom_qwen_qwen3.8-max|beers|W|identity": {
+      "point": 0.8150943396226416,
+      "ci": [
+        0.694166287657757,
+        0.9036149525604397
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_qwen_qwen3.8-max|beers|S|identity": {
+      "point": 0.6949152542372882,
+      "ci": [
+        0.5171398435278891,
+        0.8391307177600985
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|hospital|O|identity": {
+      "point": 0.78125,
+      "ci": [
+        0.672434175622291,
+        0.872940356999918
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|hospital|F|identity": {
+      "point": 0.832183908045977,
+      "ci": [
+        0.7512891039015005,
+        0.8974974553343216
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|hospital|W|identity": {
+      "point": 0.5518867924528302,
+      "ci": [
+        0.4383073490046482,
+        0.6645413980637291
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|hospital|S|identity": {
+      "point": 0.18658892128279883,
+      "ci": [
+        0.10354023672109282,
+        0.28833647324079364
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|movies|O|identity": {
+      "point": 0.1079913606911447,
+      "ci": [
+        0.06907806688646938,
+        0.1523716895031641
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|movies|F|identity": {
+      "point": 0.20416666666666666,
+      "ci": [
+        0.1484906790990667,
+        0.2625244153940183
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|movies|W|identity": {
+      "point": 0.03818615751789976,
+      "ci": [
+        0.017865910127372285,
+        0.06310414290310486
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|movies|S|identity": {
+      "point": 0.009828009828009828,
+      "ci": [
+        0.0012327657510675493,
+        0.026917532217467986
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|beers|O|identity": {
+      "point": 0.9448818897637795,
+      "ci": [
+        0.8663954892849367,
+        0.9848414259217081
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|beers|F|identity": {
+      "point": 0.88,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "custom_z-ai_glm-5.3|beers|W|identity": {
+      "point": 0.8854961832061069,
+      "ci": [
+        0.7907230318354737,
+        0.9467033536791983
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "custom_z-ai_glm-5.3|beers|S|identity": {
+      "point": 0.9435483870967742,
+      "ci": [
+        0.8655840536102718,
+        0.9834546543583707
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|hospital|O|identity": {
+      "point": 0.9368191721132898,
+      "ci": [
+        0.8276757032455404,
+        0.9907258741149708
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|hospital|F|identity": {
+      "point": 0.9817351598173516,
+      "ci": [
+        0.939887611632984,
+        0.9981346431627478
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|hospital|W|identity": {
+      "point": 0.7058823529411765,
+      "ci": [
+        0.6061348217868313,
+        0.792164232483447
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|hospital|S|identity": {
+      "point": 0.6172839506172839,
+      "ci": [
+        0.49693141301501537,
+        0.7242943068483457
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|movies|O|identity": {
+      "point": 0.11538461538461539,
+      "ci": [
+        0.06404684491832295,
+        0.1810971432674189
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|movies|F|identity": {
+      "point": 0.3665987780040733,
+      "ci": [
+        0.2682157138139374,
+        0.4741954442821885
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|movies|W|identity": {
+      "point": 0.04962779156327544,
+      "ci": [
+        0.022455775745359525,
+        0.08587481840344346
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|movies|S|identity": {
+      "point": 0.03508771929824561,
+      "ci": [
+        0.013638183400059364,
+        0.06469181138772503
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|beers|O|identity": {
+      "point": 0.9621212121212122,
+      "ci": [
+        0.9003549558358311,
+        0.9917210523946834
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|beers|F|identity": {
+      "point": 0.8949416342412452,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "openai_gpt-6.1-sol|beers|W|identity": {
+      "point": 0.9769230769230769,
+      "ci": [
+        0.930007735090456,
+        0.9967090425324104
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "openai_gpt-6.1-sol|beers|S|identity": {
+      "point": 0.996078431372549,
+      "ci": [
+        0.9782218384611504,
+        0.9999803144807089
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|hospital|O|identity": {
+      "point": 0.2222222222222222,
+      "ci": [
+        0.12558395047335583,
+        0.34314606175782864
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|hospital|F|identity": {
+      "point": 0.2318840579710145,
+      "ci": [
+        0.1368140671867495,
+        0.342481141802111
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|hospital|W|identity": {
+      "point": 0.0728476821192053,
+      "ci": [
+        0.019074469586204994,
+        0.16360329451295835
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|hospital|S|identity": {
+      "point": 0.023255813953488372,
+      "ci": [
+        0.0031271979883338375,
+        0.0694592758350913
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|movies|O|identity": {
+      "point": 0.004962779156327543,
+      "ci": [
+        0.00012404332226065206,
+        0.018440348023561103
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|movies|F|identity": {
+      "point": 0.020618556701030927,
+      "ci": [
+        0.00577724553351328,
+        0.04360075784687175
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|movies|W|identity": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant"
+    },
+    "local_qwen2.5-7b|movies|S|identity": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant"
+    },
+    "local_qwen2.5-7b|beers|O|identity": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant"
+    },
+    "local_qwen2.5-7b|beers|F|identity": {
+      "point": 0.0979020979020979,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "local_qwen2.5-7b|beers|W|identity": {
+      "point": 0.042105263157894736,
+      "ci": [
+        0.004188910149813019,
+        0.13894693464951036
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-7b|beers|S|identity": {
+      "point": 0.05263157894736842,
+      "ci": [
+        0.007683705001181747,
+        0.14799754437676949
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|hospital|O|identity": {
+      "point": 0.30606860158311344,
+      "ci": [
+        0.21104457283181502,
+        0.40949176609399424
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|hospital|F|identity": {
+      "point": 0.21333333333333335,
+      "ci": [
+        0.1265199952037748,
+        0.3250034925226911
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|hospital|W|identity": {
+      "point": 0.02247191011235955,
+      "ci": [
+        0.0038517524178461274,
+        0.06610173623056675
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|hospital|S|identity": {
+      "point": 0.0042643923240938165,
+      "ci": [
+        2.2154091714259422e-05,
+        0.02152304021406725
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|movies|O|identity": {
+      "point": 0.04013377926421405,
+      "ci": [
+        0.022409943651069356,
+        0.05835872135363566
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|movies|F|identity": {
+      "point": 0.041666666666666664,
+      "ci": [
+        0.020420486055875597,
+        0.0685423304381565
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|movies|W|identity": {
+      "point": 0.006072874493927126,
+      "ci": [
+        0.0007287534257597691,
+        0.016943284391695443
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|movies|S|identity": {
+      "point": 0.0069124423963133645,
+      "ci": [
+        0.0008453395803357025,
+        0.019606729596274
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|beers|O|identity": {
+      "point": 0.18181818181818182,
+      "ci": [
+        0.0700788923020846,
+        0.34507354201761553
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|beers|F|identity": {
+      "point": 0.2731707317073171,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "local_llama3.1-8b|beers|W|identity": {
+      "point": 0.109375,
+      "ci": [
+        0.025672694253861792,
+        0.2640205873238852
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_llama3.1-8b|beers|S|identity": {
+      "point": 0.14225941422594143,
+      "ci": [
+        0.050442984150935566,
+        0.2843750347053389
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|hospital|O|identity": {
+      "point": 0.4370179948586118,
+      "ci": [
+        0.31746777547306426,
+        0.5563360366110608
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|hospital|F|identity": {
+      "point": 0.42105263157894735,
+      "ci": [
+        0.3096737165575792,
+        0.5323001790971582
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|hospital|W|identity": {
+      "point": 0.18716577540106952,
+      "ci": [
+        0.10737872566706051,
+        0.2844701626988604
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|hospital|S|identity": {
+      "point": 0.03825136612021858,
+      "ci": [
+        0.007793098319940114,
+        0.09980415563894172
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|movies|O|identity": {
+      "point": 0.06100217864923747,
+      "ci": [
+        0.033608170823583076,
+        0.09495200343733863
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|movies|F|identity": {
+      "point": 0.04405286343612335,
+      "ci": [
+        0.021342422693006194,
+        0.07330917641631532
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|movies|W|identity": {
+      "point": 0.011342155009451797,
+      "ci": [
+        0.0013954292050431048,
+        0.03187664523426197
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|movies|S|identity": {
+      "point": 0.007782101167315175,
+      "ci": [
+        0.0009714886409561619,
+        0.02074673344191037
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|beers|O|identity": {
+      "point": 0.15853658536585366,
+      "ci": [
+        0.04116940904796007,
+        0.3427881086571387
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|beers|F|identity": {
+      "point": 0.052980132450331126,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "local_qwen2.5-14b|beers|W|identity": {
+      "point": 0.10948905109489052,
+      "ci": [
+        0.030844621968913646,
+        0.2396235570508473
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-14b|beers|S|identity": {
+      "point": 0.1932367149758454,
+      "ci": [
+        0.08505555459096355,
+        0.3424008750314672
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|hospital|O|identity": {
+      "point": 0.5498783454987834,
+      "ci": [
+        0.43503611234659806,
+        0.6607544496935258
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|hospital|F|identity": {
+      "point": 0.4836272040302267,
+      "ci": [
+        0.3782183847563152,
+        0.5845700114019122
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|hospital|W|identity": {
+      "point": 0.31343283582089554,
+      "ci": [
+        0.2127874228978106,
+        0.42725264200391777
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|hospital|S|identity": {
+      "point": 0.030501089324618737,
+      "ci": [
+        0.007290628756946154,
+        0.0763121197131412
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|movies|O|identity": {
+      "point": 0.029045643153526972,
+      "ci": [
+        0.012217452137951331,
+        0.052051688394787576
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|movies|F|identity": {
+      "point": 0.029473684210526315,
+      "ci": [
+        0.012601965706959966,
+        0.05230053531212431
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|movies|W|identity": {
+      "point": 0.003976143141153081,
+      "ci": [
+        0.00010070290951391389,
+        0.014667134580833695
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|movies|S|identity": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant"
+    },
+    "local_qwen2.5-32b-awq|beers|O|identity": {
+      "point": 0.029850746268656716,
+      "ci": [
+        0.00039992603346009124,
+        0.1369797170905033
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|beers|F|identity": {
+      "point": 0.0,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive"
+    },
+    "local_qwen2.5-32b-awq|beers|W|identity": {
+      "point": 0.039735099337748346,
+      "ci": [
+        0.002174000110125265,
+        0.14413128045379311
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    },
+    "local_qwen2.5-32b-awq|beers|S|identity": {
+      "point": 0.11049723756906077,
+      "ci": [
+        0.02520280267292604,
+        0.24965342949731087
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile"
+    }
+  },
+  "contrasts": {
+    "custom_deepseek_deepseek-v4-pro|hospital|F-W": {
+      "point": 0.4509707302651029,
+      "ci": [
+        0.32736673500412,
+        0.5711187608985948
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.45099999999999996,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|W-S": {
+      "point": 0.33925679968845435,
+      "ci": [
+        0.21095507246936673,
+        0.4638651581901929
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.33930000000000005,
+      "p": 5.999880002399952e-05,
+      "holm_p": 0.0013799724005519889,
+      "significant": true
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|O-S": {
+      "point": 0.7191743759249479,
+      "ci": [
+        0.5900438572220814,
+        0.8251274882736827
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.7192000000000001,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|O-W": {
+      "point": 0.3799175762364936,
+      "ci": [
+        0.2520841692175685,
+        0.5097915033155651
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.3799,
+      "p": 1.999960000799984e-05
+    },
+    "custom_deepseek_deepseek-v4-pro|hospital|O-F": {
+      "point": -0.07105315402860934,
+      "ci": [
+        -0.17047390553393274,
+        0.018007735310865847
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.07109999999999994,
+      "p": 0.12545749085018298
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|F-W": {
+      "point": 0.4095793959607189,
+      "ci": [
+        0.3256532057323393,
+        0.4897372548254687
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.4096,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|W-S": {
+      "point": 0.031544520772953916,
+      "ci": [
+        0.005834982197937015,
+        0.06273493805527845
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0315,
+      "p": 0.031599368012639746
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|O-S": {
+      "point": 0.3520388445025332,
+      "ci": [
+        0.27276004995332187,
+        0.42821330026444876
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.35200000000000004,
+      "p": 1.999960000799984e-05
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|O-W": {
+      "point": 0.32049432372957926,
+      "ci": [
+        0.23596062450094824,
+        0.4011715530382923
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.3205,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_deepseek_deepseek-v4-pro|movies|O-F": {
+      "point": -0.08908507223113965,
+      "ci": [
+        -0.19798476731851317,
+        0.02087010015864397
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.08910000000000001,
+      "p": 0.1119377612447751
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|F-W": {
+      "point": 0.12416604892512971,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.12410000000000002,
+      "p": null
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|W-S": {
+      "point": -0.16580495632019965,
+      "ci": [
+        -0.39497101523361366,
+        0.07107406136170509
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.16580000000000003,
+      "p": 0.14423711525769484
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|O-S": {
+      "point": -0.010024636819301658,
+      "ci": [
+        -0.2714187478738638,
+        0.26175256016240706
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.010000000000000009,
+      "p": 0.9370012599748005,
+      "holm_p": 1.0,
+      "significant": false
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|O-W": {
+      "point": 0.155780319500898,
+      "ci": [
+        -0.08164025666932996,
+        0.39367752158051444
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.15580000000000002,
+      "p": 0.16997660046799065
+    },
+    "custom_deepseek_deepseek-v4-pro|beers|O-F": {
+      "point": 0.031614270575768294,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.031700000000000006,
+      "p": null
+    },
+    "custom_qwen_qwen3.8-max|hospital|F-W": {
+      "point": 0.3810582863282299,
+      "ci": [
+        0.25841803888690607,
+        0.5008898125565293
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.3809999999999999,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_qwen_qwen3.8-max|hospital|W-S": {
+      "point": 0.3320095205712343,
+      "ci": [
+        0.1883580320682654,
+        0.4692078195722198
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.3320000000000001,
+      "p": 0.00011999760004799904,
+      "holm_p": 0.00251994960100798,
+      "significant": true
+    },
+    "custom_qwen_qwen3.8-max|hospital|O-S": {
+      "point": 0.6834485962014865,
+      "ci": [
+        0.5592180173754077,
+        0.794949436954389
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.6834,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_qwen_qwen3.8-max|hospital|O-W": {
+      "point": 0.3514390756302521,
+      "ci": [
+        0.2265575329896575,
+        0.47715106287839354
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.35139999999999993,
+      "p": 1.999960000799984e-05
+    },
+    "custom_qwen_qwen3.8-max|hospital|O-F": {
+      "point": -0.029619210697977794,
+      "ci": [
+        -0.1242421812001759,
+        0.05999109986789314
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.02959999999999996,
+      "p": 0.499530009399812
+    },
+    "custom_qwen_qwen3.8-max|movies|F-W": {
+      "point": 0.4187814860678035,
+      "ci": [
+        0.35520319556622,
+        0.4761217933454041
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.4187,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_qwen_qwen3.8-max|movies|W-S": {
+      "point": 0.02059477520541267,
+      "ci": [
+        0.0032728580774299626,
+        0.04327603251911804
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0206,
+      "p": 0.04425911481770364
+    },
+    "custom_qwen_qwen3.8-max|movies|O-S": {
+      "point": 0.2916732303781241,
+      "ci": [
+        0.23208802334331402,
+        0.35297060609043296
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.29159999999999997,
+      "p": 1.999960000799984e-05
+    },
+    "custom_qwen_qwen3.8-max|movies|O-W": {
+      "point": 0.2710784551727114,
+      "ci": [
+        0.20753592862159012,
+        0.3325625038663607
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.27099999999999996,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_qwen_qwen3.8-max|movies|O-F": {
+      "point": -0.14770303089509212,
+      "ci": [
+        -0.22762773226424265,
+        -0.06233777489266427
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.14770000000000005,
+      "p": 0.0005199896002079958
+    },
+    "custom_qwen_qwen3.8-max|beers|F-W": {
+      "point": -0.20322219350392012,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": -0.20320000000000005,
+      "p": null
+    },
+    "custom_qwen_qwen3.8-max|beers|W-S": {
+      "point": 0.12017908538535338,
+      "ci": [
+        -0.07225929947853814,
+        0.3261490775646218
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.12020000000000008,
+      "p": 0.23091538169236614
+    },
+    "custom_qwen_qwen3.8-max|beers|O-S": {
+      "point": 0.2435462842242503,
+      "ci": [
+        0.09871218666157892,
+        0.42359256068666556
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.24360000000000004,
+      "p": 0.005219895602087958,
+      "holm_p": 0.041759164816703664,
+      "significant": true
+    },
+    "custom_qwen_qwen3.8-max|beers|O-W": {
+      "point": 0.12336719883889691,
+      "ci": [
+        0.04167574310702654,
+        0.2336021959715594
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.12339999999999995,
+      "p": 0.016859662806743864
+    },
+    "custom_qwen_qwen3.8-max|beers|O-F": {
+      "point": 0.32658939234281703,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.3266,
+      "p": null
+    },
+    "custom_z-ai_glm-5.3|hospital|F-W": {
+      "point": 0.28029711559314674,
+      "ci": [
+        0.1452309022385678,
+        0.4105690934088218
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.2803000000000001,
+      "p": 7.999840003199936e-05,
+      "holm_p": 0.001759964800703986,
+      "significant": true
+    },
+    "custom_z-ai_glm-5.3|hospital|W-S": {
+      "point": 0.36529787117003143,
+      "ci": [
+        0.2324225032051919,
+        0.4899093204985494
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.36529999999999996,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_z-ai_glm-5.3|hospital|O-S": {
+      "point": 0.5946610787172012,
+      "ci": [
+        0.4688398683383584,
+        0.7143767245811021
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.5946,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_z-ai_glm-5.3|hospital|O-W": {
+      "point": 0.22936320754716977,
+      "ci": [
+        0.10028309430282939,
+        0.36459402437758204
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.22930000000000006,
+      "p": 0.0010799784004319913
+    },
+    "custom_z-ai_glm-5.3|hospital|O-F": {
+      "point": -0.05093390804597697,
+      "ci": [
+        -0.17486005430203716,
+        0.06916161806785061
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.051000000000000045,
+      "p": 0.4038919221615568
+    },
+    "custom_z-ai_glm-5.3|movies|F-W": {
+      "point": 0.16598050914876689,
+      "ci": [
+        0.10557488644334374,
+        0.22783565904441838
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.16599999999999998,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "custom_z-ai_glm-5.3|movies|W-S": {
+      "point": 0.028358147689889937,
+      "ci": [
+        0.011166126942216213,
+        0.05064849340380672
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.028399999999999998,
+      "p": 0.007639847203055939
+    },
+    "custom_z-ai_glm-5.3|movies|O-S": {
+      "point": 0.09816335086313488,
+      "ci": [
+        0.0613308418874232,
+        0.14112655044099348
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0982,
+      "p": 3.999920001599968e-05
+    },
+    "custom_z-ai_glm-5.3|movies|O-W": {
+      "point": 0.06980520317324494,
+      "ci": [
+        0.032005108837567034,
+        0.1111495646021894
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0698,
+      "p": 0.0011999760004799903,
+      "holm_p": 0.021599568008639825,
+      "significant": true
+    },
+    "custom_z-ai_glm-5.3|movies|O-F": {
+      "point": -0.09617530597552196,
+      "ci": [
+        -0.16719287516924938,
+        -0.024390218411511597
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0962,
+      "p": 0.007819843603127938
+    },
+    "custom_z-ai_glm-5.3|beers|F-W": {
+      "point": -0.005496183206106897,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": -0.005499999999999949,
+      "p": null
+    },
+    "custom_z-ai_glm-5.3|beers|W-S": {
+      "point": -0.05805220389066734,
+      "ci": [
+        -0.1564596392706959,
+        0.032813118672363605
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.05800000000000005,
+      "p": 0.1875762484750305
+    },
+    "custom_z-ai_glm-5.3|beers|O-S": {
+      "point": 0.0013335026670052708,
+      "ci": [
+        -0.09152746424023937,
+        0.0929265987149838
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0013999999999999568,
+      "p": 0.9708005839883203,
+      "holm_p": 1.0,
+      "significant": false
+    },
+    "custom_z-ai_glm-5.3|beers|O-W": {
+      "point": 0.05938570655767261,
+      "ci": [
+        -0.04510804023738578,
+        0.16909494997688185
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.05940000000000001,
+      "p": 0.2382552348953021
+    },
+    "custom_z-ai_glm-5.3|beers|O-F": {
+      "point": 0.06488188976377951,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.06489999999999996,
+      "p": null
+    },
+    "openai_gpt-6.1-sol|hospital|F-W": {
+      "point": 0.2758528068761751,
+      "ci": [
+        0.1851937696732952,
+        0.3776272885495316
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.27580000000000005,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "openai_gpt-6.1-sol|hospital|W-S": {
+      "point": 0.0885984023238926,
+      "ci": [
+        -0.009962382547809432,
+        0.19952385177426624
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.08860000000000001,
+      "p": 0.08975820483590329,
+      "holm_p": 0.35903281934361314,
+      "significant": false
+    },
+    "openai_gpt-6.1-sol|hospital|O-S": {
+      "point": 0.3195352214960059,
+      "ci": [
+        0.1727962556258102,
+        0.460661126217219
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.3195,
+      "p": 0.0001399972000559989,
+      "holm_p": 0.0027999440011199778,
+      "significant": true
+    },
+    "openai_gpt-6.1-sol|hospital|O-W": {
+      "point": 0.23093681917211328,
+      "ci": [
+        0.09322525189491096,
+        0.35228729364400785
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.2309,
+      "p": 0.0016999660006799865
+    },
+    "openai_gpt-6.1-sol|hospital|O-F": {
+      "point": -0.0449159877040618,
+      "ci": [
+        -0.15570024178922331,
+        0.02239642477525778
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.04490000000000005,
+      "p": 0.26309473810523787
+    },
+    "openai_gpt-6.1-sol|movies|F-W": {
+      "point": 0.31697098644079785,
+      "ci": [
+        0.2130142948995117,
+        0.428913206789162
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.317,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "openai_gpt-6.1-sol|movies|W-S": {
+      "point": 0.014540072265029826,
+      "ci": [
+        -0.006022027514667777,
+        0.04440731558497566
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.014499999999999999,
+      "p": 0.20601587968240634
+    },
+    "openai_gpt-6.1-sol|movies|O-S": {
+      "point": 0.08029689608636978,
+      "ci": [
+        0.023073606101478645,
+        0.1451152633430338
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.08030000000000001,
+      "p": 0.0124397512049759
+    },
+    "openai_gpt-6.1-sol|movies|O-W": {
+      "point": 0.06575682382133996,
+      "ci": [
+        0.003044762679429509,
+        0.13564065374699216
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0658,
+      "p": 0.05139897202055959,
+      "holm_p": 0.25699486010279793,
+      "significant": false
+    },
+    "openai_gpt-6.1-sol|movies|O-F": {
+      "point": -0.25121416261945795,
+      "ci": [
+        -0.3717742177996519,
+        -0.13389959559016446
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.2512,
+      "p": 3.999920001599968e-05
+    },
+    "openai_gpt-6.1-sol|beers|F-W": {
+      "point": -0.08198144268183172,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": -0.08199999999999996,
+      "p": null
+    },
+    "openai_gpt-6.1-sol|beers|W-S": {
+      "point": -0.01915535444947214,
+      "ci": [
+        -0.0644704375003368,
+        -0.001956471183857334
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.019199999999999995,
+      "p": 0.11081778364432711
+    },
+    "openai_gpt-6.1-sol|beers|O-S": {
+      "point": -0.03395721925133688,
+      "ci": [
+        -0.0957478754851742,
+        -0.001826548987966739
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.03400000000000003,
+      "p": 0.10909781804363913,
+      "holm_p": 0.609967800643987,
+      "significant": false
+    },
+    "openai_gpt-6.1-sol|beers|O-W": {
+      "point": -0.01480186480186474,
+      "ci": [
+        -0.05852977681627768,
+        0.018480352202357855
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.014800000000000035,
+      "p": 0.33003339933201337
+    },
+    "openai_gpt-6.1-sol|beers|O-F": {
+      "point": 0.06717957787996698,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.06719999999999993,
+      "p": null
+    },
+    "local_qwen2.5-7b|hospital|F-W": {
+      "point": 0.1590363758518092,
+      "ci": [
+        0.03353391686845081,
+        0.2847632396204126
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.1591,
+      "p": 0.015279694406111878,
+      "holm_p": 0.16785664286714264,
+      "significant": false
+    },
+    "local_qwen2.5-7b|hospital|W-S": {
+      "point": 0.049591868165716924,
+      "ci": [
+        -0.018278849131480163,
+        0.14243595239258328
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0495,
+      "p": 0.18091638167236657,
+      "holm_p": 0.35903281934361314,
+      "significant": false
+    },
+    "local_qwen2.5-7b|hospital|O-S": {
+      "point": 0.19896640826873385,
+      "ci": [
+        0.09668578731709006,
+        0.32388117127277255
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.19890000000000002,
+      "p": 0.0020199596008079836,
+      "holm_p": 0.028279434411311772,
+      "significant": true
+    },
+    "local_qwen2.5-7b|hospital|O-W": {
+      "point": 0.14937454010301693,
+      "ci": [
+        0.024752275272006026,
+        0.2822287995020839
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.1494,
+      "p": 0.026879462410751787
+    },
+    "local_qwen2.5-7b|hospital|O-F": {
+      "point": -0.009661835748792286,
+      "ci": [
+        -0.15441669705325736,
+        0.13968488890925584
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.009699999999999986,
+      "p": 0.8955420891582169
+    },
+    "local_qwen2.5-7b|movies|F-W": {
+      "point": 0.020618556701030927,
+      "ci": [
+        0.00577724553351328,
+        0.04360075784687175
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0206,
+      "p": 0.03621927561448771,
+      "holm_p": 0.25353492930141397,
+      "significant": false
+    },
+    "local_qwen2.5-7b|movies|W-S": {
+      "point": 0.0,
+      "ci": [
+        0.0,
+        0.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "diff": 0.0,
+      "p": 1.0
+    },
+    "local_qwen2.5-7b|movies|O-S": {
+      "point": 0.004962779156327543,
+      "ci": [
+        0.00012404332226065206,
+        0.018440348023561103
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.005,
+      "p": 0.14069718605627887
+    },
+    "local_qwen2.5-7b|movies|O-W": {
+      "point": 0.004962779156327543,
+      "ci": [
+        0.00012404332226065206,
+        0.018440348023561103
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.005,
+      "p": 0.14069718605627887,
+      "holm_p": 0.35903281934361314,
+      "significant": false
+    },
+    "local_qwen2.5-7b|movies|O-F": {
+      "point": -0.015655777544703382,
+      "ci": [
+        -0.03973121571269914,
+        0.0041788550974399975
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0156,
+      "p": 0.14161716765664686
+    },
+    "local_qwen2.5-7b|beers|F-W": {
+      "point": 0.05579683474420317,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.0558,
+      "p": null
+    },
+    "local_qwen2.5-7b|beers|W-S": {
+      "point": -0.010526315789473682,
+      "ci": [
+        -0.12024857391500797,
+        0.1033219823208095
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.010500000000000002,
+      "p": 0.7858442831143377
+    },
+    "local_qwen2.5-7b|beers|O-S": {
+      "point": -0.05263157894736842,
+      "ci": [
+        -0.14799754437676946,
+        -0.007683705001181744
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0526,
+      "p": 0.0871382572348553,
+      "holm_p": 0.609967800643987,
+      "significant": false
+    },
+    "local_qwen2.5-7b|beers|O-W": {
+      "point": -0.042105263157894736,
+      "ci": [
+        -0.1389469346495103,
+        -0.004188910149813017
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0421,
+      "p": 0.1115177696446071
+    },
+    "local_qwen2.5-7b|beers|O-F": {
+      "point": -0.0979020979020979,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": -0.0979,
+      "p": null
+    },
+    "local_llama3.1-8b|hospital|F-W": {
+      "point": 0.1908614232209738,
+      "ci": [
+        0.09327879633362998,
+        0.30693930062776265
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.1908,
+      "p": 0.0014199716005679887,
+      "holm_p": 0.02413951720965581,
+      "significant": true
+    },
+    "local_llama3.1-8b|hospital|W-S": {
+      "point": 0.018207517788265733,
+      "ci": [
+        0.0022496252748353133,
+        0.058574734853580265
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0182,
+      "p": 0.1117377652446951,
+      "holm_p": 0.35903281934361314,
+      "significant": false
+    },
+    "local_llama3.1-8b|hospital|O-S": {
+      "point": 0.30180420925901963,
+      "ci": [
+        0.20708578046995008,
+        0.40499406689893425
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.30179999999999996,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "local_llama3.1-8b|hospital|O-W": {
+      "point": 0.2835966914707539,
+      "ci": [
+        0.1793745435301272,
+        0.3915667714127065
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.28359999999999996,
+      "p": 3.999920001599968e-05
+    },
+    "local_llama3.1-8b|hospital|O-F": {
+      "point": 0.0927352682497801,
+      "ci": [
+        -0.046257043222762674,
+        0.2243179758426502
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0928,
+      "p": 0.17331653366932662
+    },
+    "local_llama3.1-8b|movies|F-W": {
+      "point": 0.03559379217273954,
+      "ci": [
+        0.0118896898160537,
+        0.06342906006288676
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0356,
+      "p": 0.009059818803623927,
+      "holm_p": 0.10871782564348711,
+      "significant": false
+    },
+    "local_llama3.1-8b|movies|W-S": {
+      "point": -0.0008395679023862389,
+      "ci": [
+        -0.01490436679132676,
+        0.01221651187967501
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0007999999999999995,
+      "p": 0.877742445151097
+    },
+    "local_llama3.1-8b|movies|O-S": {
+      "point": 0.033221336867900686,
+      "ci": [
+        0.017169856918766036,
+        0.05051600703613563
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.03319999999999999,
+      "p": 0.0002999940001199976
+    },
+    "local_llama3.1-8b|movies|O-W": {
+      "point": 0.03406090477028692,
+      "ci": [
+        0.01425029210341792,
+        0.052781061635756035
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.033999999999999996,
+      "p": 0.0010799784004319913,
+      "holm_p": 0.020519589608207833,
+      "significant": true
+    },
+    "local_llama3.1-8b|movies|O-F": {
+      "point": -0.0015328874024526165,
+      "ci": [
+        -0.03363164801082549,
+        0.02692678451057404
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0016000000000000042,
+      "p": 0.9182016359672807
+    },
+    "local_llama3.1-8b|beers|F-W": {
+      "point": 0.1637957317073171,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.1638,
+      "p": null
+    },
+    "local_llama3.1-8b|beers|W-S": {
+      "point": -0.03288441422594143,
+      "ci": [
+        -0.20840496780431916,
+        0.15488818997838869
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.03290000000000001,
+      "p": 0.6729065418691627
+    },
+    "local_llama3.1-8b|beers|O-S": {
+      "point": 0.03955876759224039,
+      "ci": [
+        -0.13492659488620853,
+        0.22557507593085402
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.03949999999999998,
+      "p": 0.6298874022519549,
+      "holm_p": 1.0,
+      "significant": false
+    },
+    "local_llama3.1-8b|beers|O-W": {
+      "point": 0.07244318181818182,
+      "ci": [
+        -0.11976603040360247,
+        0.2634807383565362
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.07239999999999999,
+      "p": 0.4087918241635167
+    },
+    "local_llama3.1-8b|beers|O-F": {
+      "point": -0.09135254988913527,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": -0.09140000000000001,
+      "p": null
+    },
+    "local_qwen2.5-14b|hospital|F-W": {
+      "point": 0.23388685617787783,
+      "ci": [
+        0.0858481043628257,
+        0.37212411745296886
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.23389999999999997,
+      "p": 0.0017799644007119857,
+      "holm_p": 0.027199456010879784,
+      "significant": true
+    },
+    "local_qwen2.5-14b|hospital|W-S": {
+      "point": 0.14891440928085092,
+      "ci": [
+        0.04834169374223141,
+        0.2529067491884715
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.1489,
+      "p": 0.007819843603127938,
+      "holm_p": 0.1016579668406632,
+      "significant": false
+    },
+    "local_qwen2.5-14b|hospital|O-S": {
+      "point": 0.39876662873839325,
+      "ci": [
+        0.26836721735024593,
+        0.5281497817109221
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.3987,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "local_qwen2.5-14b|hospital|O-W": {
+      "point": 0.2498522194575423,
+      "ci": [
+        0.12238495553787367,
+        0.3793824741512338
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.2498,
+      "p": 0.0005799884002319954
+    },
+    "local_qwen2.5-14b|hospital|O-F": {
+      "point": 0.01596536327966447,
+      "ci": [
+        -0.14199418157061028,
+        0.1748446153751498
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.015900000000000025,
+      "p": 0.8391032179356412
+    },
+    "local_qwen2.5-14b|movies|F-W": {
+      "point": 0.03271070842667155,
+      "ci": [
+        0.0028840865354803017,
+        0.06455432170052398
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0328,
+      "p": 0.03929921401571969,
+      "holm_p": 0.25353492930141397,
+      "significant": false
+    },
+    "local_qwen2.5-14b|movies|W-S": {
+      "point": 0.0035600538421366214,
+      "ci": [
+        -0.01415310190838625,
+        0.026068405995979642
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0034999999999999996,
+      "p": 0.6757664846703066
+    },
+    "local_qwen2.5-14b|movies|O-S": {
+      "point": 0.0532200774819223,
+      "ci": [
+        0.02202232936301717,
+        0.08947025987159135
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0532,
+      "p": 0.003519929601407972
+    },
+    "local_qwen2.5-14b|movies|O-W": {
+      "point": 0.04966002363978568,
+      "ci": [
+        0.026266888539302348,
+        0.07986980206022332
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0497,
+      "p": 0.0016999660006799865,
+      "holm_p": 0.027199456010879784,
+      "significant": true
+    },
+    "local_qwen2.5-14b|movies|O-F": {
+      "point": 0.016949315213114123,
+      "ci": [
+        -0.023406360822958147,
+        0.05772369848312419
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0169,
+      "p": 0.40779184416311676
+    },
+    "local_qwen2.5-14b|beers|F-W": {
+      "point": -0.05650891864455939,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": -0.0565,
+      "p": null
+    },
+    "local_qwen2.5-14b|beers|W-S": {
+      "point": -0.08374766388095489,
+      "ci": [
+        -0.27301179129384795,
+        0.1067781654687504
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.08370000000000001,
+      "p": 0.3611727765444691
+    },
+    "local_qwen2.5-14b|beers|O-S": {
+      "point": -0.03470012960999175,
+      "ci": [
+        -0.2451532155245981,
+        0.19881894162651273
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.03470000000000001,
+      "p": 0.7416051678966421,
+      "holm_p": 1.0,
+      "significant": false
+    },
+    "local_qwen2.5-14b|beers|O-W": {
+      "point": 0.049047534270963145,
+      "ci": [
+        -0.06383094829092918,
+        0.17889171995326078
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.049,
+      "p": 0.373432531349373
+    },
+    "local_qwen2.5-14b|beers|O-F": {
+      "point": 0.10555645291552254,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.10550000000000001,
+      "p": null
+    },
+    "local_qwen2.5-32b-awq|hospital|F-W": {
+      "point": 0.17019436820933115,
+      "ci": [
+        0.01675337182574168,
+        0.3170056192323561
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.17019999999999996,
+      "p": 0.02755944881102378,
+      "holm_p": 0.22047559048819024,
+      "significant": false
+    },
+    "local_qwen2.5-32b-awq|hospital|W-S": {
+      "point": 0.2829317464962768,
+      "ci": [
+        0.18214690055374066,
+        0.3949303484030525
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.28290000000000004,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "local_qwen2.5-32b-awq|hospital|O-S": {
+      "point": 0.5193772561741647,
+      "ci": [
+        0.40186769201480405,
+        0.6342053986525343
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.5194000000000001,
+      "p": 1.999960000799984e-05,
+      "holm_p": 0.0007999840003199936,
+      "significant": true
+    },
+    "local_qwen2.5-32b-awq|hospital|O-W": {
+      "point": 0.2364455096778879,
+      "ci": [
+        0.08842136945330396,
+        0.3832627353959371
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.23650000000000004,
+      "p": 0.0021999560008799826
+    },
+    "local_qwen2.5-32b-awq|hospital|O-F": {
+      "point": 0.06625114146855676,
+      "ci": [
+        -0.0823817394682906,
+        0.2194413689776696
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.06630000000000008,
+      "p": 0.3857722845543089
+    },
+    "local_qwen2.5-32b-awq|movies|F-W": {
+      "point": 0.025497541069373235,
+      "ci": [
+        0.006098942177296078,
+        0.049160007256153423
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.0255,
+      "p": 0.023999520009599807,
+      "holm_p": 0.21599568008639827,
+      "significant": false
+    },
+    "local_qwen2.5-32b-awq|movies|W-S": {
+      "point": 0.003976143141153081,
+      "ci": [
+        0.00010070290951391389,
+        0.014667134580833695
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.004,
+      "p": 0.1373772524549509
+    },
+    "local_qwen2.5-32b-awq|movies|O-S": {
+      "point": 0.029045643153526972,
+      "ci": [
+        0.012217452137951331,
+        0.052051688394787576
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.029,
+      "p": 0.008379832403351934
+    },
+    "local_qwen2.5-32b-awq|movies|O-W": {
+      "point": 0.02506950001237389,
+      "ci": [
+        0.009695240310139557,
+        0.047036367462249616
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": 0.025,
+      "p": 0.015259694806103877,
+      "holm_p": 0.16785664286714264,
+      "significant": false
+    },
+    "local_qwen2.5-32b-awq|movies|O-F": {
+      "point": -0.0004280410569993433,
+      "ci": [
+        -0.02885577770357881,
+        0.02852021330934361
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.000499999999999997,
+      "p": 0.9750204995900082
+    },
+    "local_qwen2.5-32b-awq|beers|F-W": {
+      "point": -0.039735099337748346,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": -0.0397,
+      "p": null
+    },
+    "local_qwen2.5-32b-awq|beers|W-S": {
+      "point": -0.07076213823131242,
+      "ci": [
+        -0.21326311858481534,
+        0.03601965001726959
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0708,
+      "p": 0.19723605527889443
+    },
+    "local_qwen2.5-32b-awq|beers|O-S": {
+      "point": -0.08064649130040405,
+      "ci": [
+        -0.21404738941297813,
+        -0.005073682890610346
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0806,
+      "p": 0.09547809043819123,
+      "holm_p": 0.609967800643987,
+      "significant": false
+    },
+    "local_qwen2.5-32b-awq|beers|O-W": {
+      "point": -0.00988435306909163,
+      "ci": [
+        -0.12561969683836047,
+        0.11023131993954034
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "diff": -0.0098,
+      "p": 0.7380052398952021
+    },
+    "local_qwen2.5-32b-awq|beers|O-F": {
+      "point": 0.029850746268656716,
+      "ci": null,
+      "interval_available": false,
+      "kind": "descriptive",
+      "diff": 0.0299,
+      "p": null
+    }
+  },
+  "near": {
+    "custom_deepseek_deepseek-v4-pro": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.542,
+          "rate_exact": 0.5416666666666666,
+          "ci": [
+            0.25,
+            0.8333333333333334
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 13.0
+        },
+        "near|1|evidence": {
+          "rate": 0.375,
+          "rate_exact": 0.375,
+          "ci": [
+            0.08333333333333333,
+            0.6666666666666666
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 9.0
+        },
+        "near|3|standard": {
+          "rate": 0.111,
+          "rate_exact": 0.11111111111111112,
+          "ci": [
+            0.013888888888888888,
+            0.2777777777777778
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 2.666666666666667
+        },
+        "near|3|evidence": {
+          "rate": 0.028,
+          "rate_exact": 0.027777777777777776,
+          "ci": [
+            0.0,
+            0.06944444444444443
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.6666666666666666
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.062,
+          "rate_exact": 0.0625,
+          "ci": [
+            0.0,
+            0.1875
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 3.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.146,
+          "rate_exact": 0.14583333333333334,
+          "ci": [
+            0.041666666666666664,
+            0.2916666666666667
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 7.0
+        },
+        "near|1|evidence": {
+          "rate": 0.062,
+          "rate_exact": 0.0625,
+          "ci": [
+            0.0,
+            0.16666666666666666
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 3.0
+        },
+        "near|3|standard": {
+          "rate": 0.104,
+          "rate_exact": 0.10416666666666667,
+          "ci": [
+            0.0,
+            0.2708333333333333
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 5.0
+        },
+        "near|3|evidence": {
+          "rate": 0.035,
+          "rate_exact": 0.03472222222222222,
+          "ci": [
+            0.0,
+            0.10416666666666667
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 1.6666666666666665
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 48,
+          "replies": 16,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 0.684,
+          "rate_exact": 0.6842105263157895,
+          "ci": [
+            0.49122807017543857,
+            0.8596491228070176
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 39.0
+        },
+        "real|1|evidence": {
+          "rate": 0.211,
+          "rate_exact": 0.21052631578947367,
+          "ci": [
+            0.05263157894736842,
+            0.42105263157894735
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 12.0
+        },
+        "near|1|standard": {
+          "rate": 0.912,
+          "rate_exact": 0.9122807017543859,
+          "ci": [
+            0.8245614035087719,
+            0.9824561403508771
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 52.0
+        },
+        "near|1|evidence": {
+          "rate": 0.719,
+          "rate_exact": 0.7192982456140351,
+          "ci": [
+            0.543859649122807,
+            0.8771929824561403
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 41.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    },
+    "custom_qwen_qwen3.8-max": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.333,
+          "rate_exact": 0.3333333333333333,
+          "ci": [
+            0.08333333333333333,
+            0.625
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 8.0
+        },
+        "near|1|evidence": {
+          "rate": 0.167,
+          "rate_exact": 0.16666666666666666,
+          "ci": [
+            0.0,
+            0.4166666666666667
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 4.0
+        },
+        "near|3|standard": {
+          "rate": 0.042,
+          "rate_exact": 0.041666666666666664,
+          "ci": [
+            0.0,
+            0.125
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "near|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.022,
+          "rate_exact": 0.022222222222222223,
+          "ci": [
+            0.0,
+            0.06818181818181818
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 1.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.244,
+          "rate_exact": 0.24444444444444444,
+          "ci": [
+            0.11627906976744186,
+            0.37777777777777777
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 11.0
+        },
+        "near|1|evidence": {
+          "rate": 0.156,
+          "rate_exact": 0.15555555555555556,
+          "ci": [
+            0.022727272727272728,
+            0.3191489361702128
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 7.0
+        },
+        "near|3|standard": {
+          "rate": 0.17,
+          "rate_exact": 0.17037037037037037,
+          "ci": [
+            0.04065040650406504,
+            0.3333333333333333
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 7.666666666666667
+        },
+        "near|3|evidence": {
+          "rate": 0.089,
+          "rate_exact": 0.08888888888888889,
+          "ci": [
+            0.014184397163120567,
+            0.19148936170212766
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 4.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 45,
+          "replies": 16,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 0.982,
+          "rate_exact": 0.9824561403508771,
+          "ci": [
+            0.9473684210526315,
+            1.0
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 56.0
+        },
+        "real|1|evidence": {
+          "rate": 0.404,
+          "rate_exact": 0.40350877192982454,
+          "ci": [
+            0.21052631578947367,
+            0.5964912280701754
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 23.0
+        },
+        "near|1|standard": {
+          "rate": 0.912,
+          "rate_exact": 0.9122807017543859,
+          "ci": [
+            0.8421052631578947,
+            0.9649122807017544
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 52.0
+        },
+        "near|1|evidence": {
+          "rate": 0.877,
+          "rate_exact": 0.8771929824561403,
+          "ci": [
+            0.8070175438596491,
+            0.9473684210526315
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 50.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    },
+    "custom_z-ai_glm-5.3": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.458,
+          "rate_exact": 0.4583333333333333,
+          "ci": [
+            0.20833333333333334,
+            0.7083333333333334
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 11.0
+        },
+        "near|1|evidence": {
+          "rate": 0.25,
+          "rate_exact": 0.25,
+          "ci": [
+            0.041666666666666664,
+            0.5416666666666666
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 6.0
+        },
+        "near|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|3|evidence": {
+          "rate": 0.028,
+          "rate_exact": 0.027777777777777776,
+          "ci": [
+            0.0,
+            0.08333333333333333
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.6666666666666666
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.14,
+          "rate_exact": 0.13953488372093023,
+          "ci": [
+            0.0,
+            0.3170731707317073
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 6.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.178,
+          "rate_exact": 0.17829457364341084,
+          "ci": [
+            0.0,
+            0.36507936507936506
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 7.666666666666666
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.279,
+          "rate_exact": 0.27906976744186046,
+          "ci": [
+            0.11627906976744186,
+            0.45454545454545453
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 12.0
+        },
+        "near|1|evidence": {
+          "rate": 0.163,
+          "rate_exact": 0.16279069767441862,
+          "ci": [
+            0.023809523809523808,
+            0.3333333333333333
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 7.0
+        },
+        "near|3|standard": {
+          "rate": 0.124,
+          "rate_exact": 0.12403100775193798,
+          "ci": [
+            0.01515151515151515,
+            0.25362318840579706
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 5.333333333333333
+        },
+        "near|3|evidence": {
+          "rate": 0.047,
+          "rate_exact": 0.046511627906976744,
+          "ci": [
+            0.0,
+            0.14285714285714285
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 2.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 43,
+          "replies": 16,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 1.0,
+          "rate_exact": 1.0,
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 57.0
+        },
+        "real|1|evidence": {
+          "rate": 0.175,
+          "rate_exact": 0.17543859649122806,
+          "ci": [
+            0.017543859649122806,
+            0.3508771929824561
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 10.0
+        },
+        "near|1|standard": {
+          "rate": 0.86,
+          "rate_exact": 0.8596491228070176,
+          "ci": [
+            0.7192982456140351,
+            0.9649122807017544
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 49.0
+        },
+        "near|1|evidence": {
+          "rate": 0.912,
+          "rate_exact": 0.9122807017543859,
+          "ci": [
+            0.8421052631578947,
+            0.9649122807017544
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 52.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    },
+    "openai_gpt-6.1-sol": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.833,
+          "rate_exact": 0.8333333333333334,
+          "ci": [
+            0.5833333333333334,
+            1.0
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 20.0
+        },
+        "near|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|3|standard": {
+          "rate": 0.25,
+          "rate_exact": 0.25,
+          "ci": [
+            0.0,
+            0.625
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 6.0
+        },
+        "near|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.87,
+          "rate_exact": 0.8695652173913043,
+          "ci": [
+            0.6808510638297872,
+            1.0
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 40.0
+        },
+        "near|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "near|3|standard": {
+          "rate": 0.304,
+          "rate_exact": 0.30434782608695654,
+          "ci": [
+            0.10638297872340426,
+            0.5333333333333333
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 14.0
+        },
+        "near|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 46,
+          "replies": 16,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 0.93,
+          "rate_exact": 0.9298245614035088,
+          "ci": [
+            0.8070175438596491,
+            1.0
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 53.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 1.0,
+          "rate_exact": 1.0,
+          "ci": [
+            1.0,
+            1.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 57.0
+        },
+        "near|1|evidence": {
+          "rate": 0.456,
+          "rate_exact": 0.45614035087719296,
+          "ci": [
+            0.24561403508771928,
+            0.6666666666666666
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 26.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 57,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    },
+    "local_qwen2.5-7b": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.045,
+          "rate_exact": 0.045454545454545456,
+          "ci": [
+            0.0,
+            0.13636363636363635
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "near|1|evidence": {
+          "rate": 0.045,
+          "rate_exact": 0.045454545454545456,
+          "ci": [
+            0.0,
+            0.13636363636363635
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "near|3|standard": {
+          "rate": 0.03,
+          "rate_exact": 0.0303030303030303,
+          "ci": [
+            0.0,
+            0.06944444444444443
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.6666666666666666
+        },
+        "near|3|evidence": {
+          "rate": 0.015,
+          "rate_exact": 0.01515151515151515,
+          "ci": [
+            0.0,
+            0.045454545454545456
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.3333333333333333
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 22,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "near|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "near|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "near|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 7,
+          "replies": 6,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 0.135,
+          "rate_exact": 0.1346153846153846,
+          "ci": [
+            0.05263157894736842,
+            0.24
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 52,
+          "replies": 19,
+          "rewritten": 7.0
+        },
+        "real|1|evidence": {
+          "rate": 0.096,
+          "rate_exact": 0.09615384615384616,
+          "ci": [
+            0.03508771929824561,
+            0.17647058823529413
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 52,
+          "replies": 19,
+          "rewritten": 5.0
+        },
+        "near|1|standard": {
+          "rate": 0.173,
+          "rate_exact": 0.17307692307692307,
+          "ci": [
+            0.08,
+            0.2727272727272727
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 52,
+          "replies": 19,
+          "rewritten": 9.0
+        },
+        "near|1|evidence": {
+          "rate": 0.212,
+          "rate_exact": 0.21153846153846154,
+          "ci": [
+            0.09259259259259259,
+            0.35294117647058826
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 52,
+          "replies": 19,
+          "rewritten": 11.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 52,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 52,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    },
+    "local_llama3.1-8b": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|evidence": {
+          "rate": 0.043,
+          "rate_exact": 0.043478260869565216,
+          "ci": [
+            0.0,
+            0.13043478260869565
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "near|3|standard": {
+          "rate": 0.014,
+          "rate_exact": 0.014492753623188404,
+          "ci": [
+            0.0,
+            0.043478260869565216
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.3333333333333333
+        },
+        "near|3|evidence": {
+          "rate": 0.029,
+          "rate_exact": 0.02898550724637681,
+          "ci": [
+            0.0,
+            0.08695652173913043
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.6666666666666666
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 23,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "near|1|evidence": {
+          "rate": 0.034,
+          "rate_exact": 0.034482758620689655,
+          "ci": [
+            0.0,
+            0.1111111111111111
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 1.0
+        },
+        "near|3|standard": {
+          "rate": 0.034,
+          "rate_exact": 0.034482758620689655,
+          "ci": [
+            0.0,
+            0.10344827586206896
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 1.0
+        },
+        "near|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 29,
+          "replies": 15,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 0.321,
+          "rate_exact": 0.32142857142857145,
+          "ci": [
+            0.14035087719298245,
+            0.5272727272727272
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 56,
+          "replies": 19,
+          "rewritten": 18.0
+        },
+        "real|1|evidence": {
+          "rate": 0.268,
+          "rate_exact": 0.26785714285714285,
+          "ci": [
+            0.125,
+            0.42857142857142855
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 56,
+          "replies": 19,
+          "rewritten": 15.0
+        },
+        "near|1|standard": {
+          "rate": 0.214,
+          "rate_exact": 0.21428571428571427,
+          "ci": [
+            0.08771929824561403,
+            0.36363636363636365
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 56,
+          "replies": 19,
+          "rewritten": 12.0
+        },
+        "near|1|evidence": {
+          "rate": 0.161,
+          "rate_exact": 0.16071428571428573,
+          "ci": [
+            0.05263157894736842,
+            0.30357142857142855
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 56,
+          "replies": 19,
+          "rewritten": 9.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 56,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 56,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    },
+    "local_qwen2.5-14b": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.042,
+          "rate_exact": 0.041666666666666664,
+          "ci": [
+            0.0,
+            0.125
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.292,
+          "rate_exact": 0.2916666666666667,
+          "ci": [
+            0.16666666666666666,
+            0.4166666666666667
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 7.0
+        },
+        "near|1|evidence": {
+          "rate": 0.208,
+          "rate_exact": 0.20833333333333334,
+          "ci": [
+            0.08333333333333333,
+            0.2916666666666667
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 5.0
+        },
+        "near|3|standard": {
+          "rate": 0.042,
+          "rate_exact": 0.041666666666666664,
+          "ci": [
+            0.0,
+            0.09722222222222222
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "near|3|evidence": {
+          "rate": 0.042,
+          "rate_exact": 0.041666666666666664,
+          "ci": [
+            0.0,
+            0.09722222222222222
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.158,
+          "rate_exact": 0.15789473684210525,
+          "ci": [
+            0.0,
+            0.3157894736842105
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 3.0
+        },
+        "near|1|evidence": {
+          "rate": 0.105,
+          "rate_exact": 0.10526315789473684,
+          "ci": [
+            0.0,
+            0.25
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 2.0
+        },
+        "near|3|standard": {
+          "rate": 0.07,
+          "rate_exact": 0.07017543859649122,
+          "ci": [
+            0.0,
+            0.15942028985507245
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 1.3333333333333333
+        },
+        "near|3|evidence": {
+          "rate": 0.018,
+          "rate_exact": 0.017543859649122806,
+          "ci": [
+            0.0,
+            0.047619047619047616
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.3333333333333333
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 19,
+          "replies": 11,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 0.691,
+          "rate_exact": 0.6909090909090909,
+          "ci": [
+            0.5714285714285714,
+            0.8
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 55,
+          "replies": 19,
+          "rewritten": 38.0
+        },
+        "real|1|evidence": {
+          "rate": 0.636,
+          "rate_exact": 0.6363636363636364,
+          "ci": [
+            0.4909090909090909,
+            0.7735849056603774
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 55,
+          "replies": 19,
+          "rewritten": 35.0
+        },
+        "near|1|standard": {
+          "rate": 0.691,
+          "rate_exact": 0.6909090909090909,
+          "ci": [
+            0.5636363636363636,
+            0.8035714285714286
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 55,
+          "replies": 19,
+          "rewritten": 38.0
+        },
+        "near|1|evidence": {
+          "rate": 0.655,
+          "rate_exact": 0.6545454545454545,
+          "ci": [
+            0.5185185185185185,
+            0.7818181818181819
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 55,
+          "replies": 19,
+          "rewritten": 36.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 55,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 55,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    },
+    "local_qwen2.5-32b-awq": {
+      "hospital": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.167,
+          "rate_exact": 0.16666666666666666,
+          "ci": [
+            0.041666666666666664,
+            0.2916666666666667
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 4.0
+        },
+        "near|1|evidence": {
+          "rate": 0.125,
+          "rate_exact": 0.125,
+          "ci": [
+            0.041666666666666664,
+            0.25
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 3.0
+        },
+        "near|3|standard": {
+          "rate": 0.042,
+          "rate_exact": 0.041666666666666664,
+          "ci": [
+            0.0,
+            0.09722222222222222
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 1.0
+        },
+        "near|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 24,
+          "replies": 8,
+          "rewritten": 0.0
+        }
+      },
+      "beers": {
+        "real|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "real|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "real|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "real|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "near|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "near|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "near|3|standard": {
+          "rate": 0.061,
+          "rate_exact": 0.0606060606060606,
+          "ci": [
+            0.0,
+            0.13333333333333333
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.6666666666666666
+        },
+        "near|3|evidence": {
+          "rate": 0.03,
+          "rate_exact": 0.0303030303030303,
+          "ci": [
+            0.0,
+            0.08333333333333333
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.3333333333333333
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "control|3|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        },
+        "control|3|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 11,
+          "replies": 9,
+          "rewritten": 0.0
+        }
+      },
+      "movies": {
+        "real|1|standard": {
+          "rate": 0.698,
+          "rate_exact": 0.6981132075471698,
+          "ci": [
+            0.5660377358490566,
+            0.82
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 53,
+          "replies": 19,
+          "rewritten": 37.0
+        },
+        "real|1|evidence": {
+          "rate": 0.604,
+          "rate_exact": 0.6037735849056604,
+          "ci": [
+            0.46296296296296297,
+            0.7407407407407407
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 53,
+          "replies": 19,
+          "rewritten": 32.0
+        },
+        "near|1|standard": {
+          "rate": 0.679,
+          "rate_exact": 0.6792452830188679,
+          "ci": [
+            0.5636363636363636,
+            0.8
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 53,
+          "replies": 19,
+          "rewritten": 36.0
+        },
+        "near|1|evidence": {
+          "rate": 0.491,
+          "rate_exact": 0.49056603773584906,
+          "ci": [
+            0.34545454545454546,
+            0.6363636363636364
+          ],
+          "interval_available": true,
+          "kind": "cluster_percentile",
+          "entities": 53,
+          "replies": 19,
+          "rewritten": 26.0
+        },
+        "control|1|standard": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 53,
+          "replies": 19,
+          "rewritten": 0.0
+        },
+        "control|1|evidence": {
+          "rate": 0.0,
+          "rate_exact": 0.0,
+          "ci": [
+            0.0,
+            0.0
+          ],
+          "interval_available": false,
+          "kind": "empirical_constant",
+          "entities": 53,
+          "replies": 19,
+          "rewritten": 0.0
+        }
+      }
+    }
+  },
+  "main_family": [
+    "custom_deepseek_deepseek-v4-pro|hospital|F-W",
+    "custom_deepseek_deepseek-v4-pro|hospital|W-S",
+    "custom_deepseek_deepseek-v4-pro|hospital|O-S",
+    "custom_deepseek_deepseek-v4-pro|movies|F-W",
+    "custom_deepseek_deepseek-v4-pro|movies|O-W",
+    "custom_qwen_qwen3.8-max|hospital|F-W",
+    "custom_qwen_qwen3.8-max|hospital|W-S",
+    "custom_qwen_qwen3.8-max|hospital|O-S",
+    "custom_qwen_qwen3.8-max|movies|F-W",
+    "custom_qwen_qwen3.8-max|movies|O-W",
+    "custom_z-ai_glm-5.3|hospital|F-W",
+    "custom_z-ai_glm-5.3|hospital|W-S",
+    "custom_z-ai_glm-5.3|hospital|O-S",
+    "custom_z-ai_glm-5.3|movies|F-W",
+    "custom_z-ai_glm-5.3|movies|O-W",
+    "openai_gpt-6.1-sol|hospital|F-W",
+    "openai_gpt-6.1-sol|hospital|W-S",
+    "openai_gpt-6.1-sol|hospital|O-S",
+    "openai_gpt-6.1-sol|movies|F-W",
+    "openai_gpt-6.1-sol|movies|O-W",
+    "local_qwen2.5-7b|hospital|F-W",
+    "local_qwen2.5-7b|hospital|W-S",
+    "local_qwen2.5-7b|hospital|O-S",
+    "local_qwen2.5-7b|movies|F-W",
+    "local_qwen2.5-7b|movies|O-W",
+    "local_llama3.1-8b|hospital|F-W",
+    "local_llama3.1-8b|hospital|W-S",
+    "local_llama3.1-8b|hospital|O-S",
+    "local_llama3.1-8b|movies|F-W",
+    "local_llama3.1-8b|movies|O-W",
+    "local_qwen2.5-14b|hospital|F-W",
+    "local_qwen2.5-14b|hospital|W-S",
+    "local_qwen2.5-14b|hospital|O-S",
+    "local_qwen2.5-14b|movies|F-W",
+    "local_qwen2.5-14b|movies|O-W",
+    "local_qwen2.5-32b-awq|hospital|F-W",
+    "local_qwen2.5-32b-awq|hospital|W-S",
+    "local_qwen2.5-32b-awq|hospital|O-S",
+    "local_qwen2.5-32b-awq|movies|F-W",
+    "local_qwen2.5-32b-awq|movies|O-W"
+  ],
+  "beers_family": [
+    "custom_deepseek_deepseek-v4-pro|beers|O-S",
+    "custom_qwen_qwen3.8-max|beers|O-S",
+    "custom_z-ai_glm-5.3|beers|O-S",
+    "openai_gpt-6.1-sol|beers|O-S",
+    "local_qwen2.5-7b|beers|O-S",
+    "local_llama3.1-8b|beers|O-S",
+    "local_qwen2.5-14b|beers|O-S",
+    "local_qwen2.5-32b-awq|beers|O-S"
+  ],
+  "aligned": {
+    "hospital|O|all": {
+      "point": 0.9680170575692963,
+      "ci": [
+        0.9308626283656422,
+        0.989467310373828
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.4955612386611905,
+        "ci": [
+          0.4237851206526218,
+          0.570897580747247
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.47245581890810584
+    },
+    "hospital|O|identity": {
+      "point": 0.9663461538461539,
+      "ci": [
+        0.9099536645445094,
+        0.993194221952533
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.6787054497591252,
+        "ci": [
+          0.5752267133324436,
+          0.7847159877355218
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.28764070408702874
+    },
+    "hospital|O|other": {
+      "point": 0.9693486590038314,
+      "ci": [
+        0.9201915285188775,
+        0.9933759845786824
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.3784685738650253,
+        "ci": [
+          0.29681830646701945,
+          0.46457633009804705
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.5908800851388061
+    },
+    "hospital|F|all": {
+      "point": 0.9744680851063829,
+      "ci": [
+        0.9442922315889064,
+        0.9917304595765661
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.5168997661154278,
+        "ci": [
+          0.4402091950440225,
+          0.6008897917334928
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.4575683189909552
+    },
+    "hospital|F|identity": {
+      "point": 0.9807692307692307,
+      "ci": [
+        0.9398633793745353,
+        0.9974932652708517
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.6614271823429676,
+        "ci": [
+          0.5253807941555099,
+          0.7990347757285278
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.3193420484262632
+    },
+    "hospital|F|other": {
+      "point": 0.9694656488549618,
+      "ci": [
+        0.9230508616844335,
+        0.9928085057409791
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.41912920553726296,
+        "ci": [
+          0.33584834108753414,
+          0.509496647677936
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.5503364433176988
+    },
+    "hospital|W|all": {
+      "point": 0.8784648187633263,
+      "ci": [
+        0.823662410168952,
+        0.9236599796792058
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.4118373842066428,
+        "ci": [
+          0.3476037479168966,
+          0.48034628173636285
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.4666274345566835
+    },
+    "hospital|W|identity": {
+      "point": 0.7644230769230769,
+      "ci": [
+        0.6524516814914247,
+        0.8580500489044012
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.49230351192612515,
+        "ci": [
+          0.3962338908470181,
+          0.5993737591768167
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.2721195649969517
+    },
+    "hospital|W|other": {
+      "point": 0.9693486590038314,
+      "ci": [
+        0.9208208314330062,
+        0.9931348969962079
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.3784685738650253,
+        "ci": [
+          0.2972590823819561,
+          0.4641361377375368
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.5908800851388061
+    },
+    "hospital|S|all": {
+      "point": 0.8715203426124197,
+      "ci": [
+        0.8129520819404636,
+        0.9201506328403809
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.4034407307622562,
+        "ci": [
+          0.33549904962130883,
+          0.47538584605500944
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.46807961185016356
+    },
+    "hospital|S|identity": {
+      "point": 0.7475728155339806,
+      "ci": [
+        0.6230499794645095,
+        0.8502637227077557
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.4698589583375587,
+        "ci": [
+          0.37180601224974613,
+          0.5771538529963425
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.2777138571964219
+    },
+    "hospital|S|other": {
+      "point": 0.9693486590038314,
+      "ci": [
+        0.9208208314330062,
+        0.9931348969962079
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.3784685738650253,
+        "ci": [
+          0.2972590823819561,
+          0.4641361377375368
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.5908800851388061
+    },
+    "movies|O|all": {
+      "point": 0.8030865961703344,
+      "ci": [
+        0.7841702324478281,
+        0.8216501168911846
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.6046431934727232,
+        "ci": [
+          0.5581585804285388,
+          0.6470036707501051
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.1984434026976112
+    },
+    "movies|O|identity": {
+      "point": 0.6434494195688225,
+      "ci": [
+        0.5836293429036975,
+        0.6974391062109042
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.6434494195688225,
+        "ci": [
+          0.5836293429036975,
+          0.6974391062109042
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.0
+    },
+    "movies|O|other": {
+      "point": 0.8363259668508287,
+      "ci": [
+        0.8183322975758052,
+        0.8543714495727873
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.6004550486908595,
+        "ci": [
+          0.5482066342254114,
+          0.6490754020871169
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.23587091815996916
+    },
+    "movies|F|all": {
+      "point": 0.8322418136020151,
+      "ci": [
+        0.8088102894774322,
+        0.8546665400615597
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.5167678190802134,
+        "ci": [
+          0.47143926786713874,
+          0.5642225419073817
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.3154739945218017
+    },
+    "movies|F|identity": {
+      "point": 0.6744186046511628,
+      "ci": [
+        0.6127064532091064,
+        0.7330931626818565
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.6744186046511628,
+        "ci": [
+          0.6127064532091064,
+          0.7330931626818565
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.0
+    },
+    "movies|F|other": {
+      "point": 0.8604513064133017,
+      "ci": [
+        0.8394257014414024,
+        0.8796065715068575
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.49978985209971727,
+        "ci": [
+          0.4501434770664163,
+          0.5516907788715124
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.36066145431358443
+    },
+    "movies|W|all": {
+      "point": 0.581037982023775,
+      "ci": [
+        0.5529593415924033,
+        0.6089199207879845
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.3823767913392777,
+        "ci": [
+          0.3367750568241404,
+          0.4264718423410048
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.19866119068449725
+    },
+    "movies|W|identity": {
+      "point": 0.09059233449477352,
+      "ci": [
+        0.0619353772985447,
+        0.12177146397476704
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.09059233449477352,
+        "ci": [
+          0.0619353772985447,
+          0.12177146397476704
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.0
+    },
+    "movies|W|other": {
+      "point": 0.6789565217391305,
+      "ci": [
+        0.6526359636946746,
+        0.7038207245757642
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.44308560357916127,
+        "ci": [
+          0.392288532536188,
+          0.49283438920935146
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.23587091815996916
+    },
+    "movies|S|all": {
+      "point": 0.5791460935230903,
+      "ci": [
+        0.5529553628340061,
+        0.606278397502334
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.38054501642717053,
+        "ci": [
+          0.33423079766261354,
+          0.42476813923067025
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.19860107709591981
+    },
+    "movies|S|identity": {
+      "point": 0.07317073170731707,
+      "ci": [
+        0.04706662138564311,
+        0.10414270218005832
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.07317073170731707,
+        "ci": [
+          0.04706662138564311,
+          0.10414270218005832
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.0
+    },
+    "movies|S|other": {
+      "point": 0.6803764377831997,
+      "ci": [
+        0.6569811139903511,
+        0.7040368468934987
+      ],
+      "interval_available": true,
+      "kind": "cluster_percentile",
+      "llm_minus_baran": {
+        "point": 0.4445055196232305,
+        "ci": [
+          0.3930365020703219,
+          0.49419263436980876
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.23587091815996916
+    },
+    "beers|O|all": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.8030520413288939,
+        "ci": [
+          0.7299597038104597,
+          0.8658597003205966
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.19694795867110612
+    },
+    "beers|O|identity": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.8080972222222222,
+        "ci": [
+          0.6634202634661258,
+          0.9165949785057649
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.19190277777777776
+    },
+    "beers|O|other": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.8020119474024927,
+        "ci": [
+          0.72337000349125,
+          0.8683970569666443
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.1979880525975073
+    },
+    "beers|F|all": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.39667023630167464,
+        "ci": [
+          0.3403138410248167,
+          0.4706524734408479
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.6033297636983254
+    },
+    "beers|F|identity": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.2301576132845483,
+        "ci": [
+          0.16586667330940347,
+          0.3121336457629034
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.7698423867154517
+    },
+    "beers|F|other": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.4510446368188078,
+        "ci": [
+          0.38309554632420145,
+          0.529541173765483
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.5489553631811922
+    },
+    "beers|W|all": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.800995215959829,
+        "ci": [
+          0.7282815544147431,
+          0.8640433954757438
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.19900478404017097
+    },
+    "beers|W|identity": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.7987941429801895,
+        "ci": [
+          0.6557908713133468,
+          0.9093996229220672
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.2012058570198105
+    },
+    "beers|W|other": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.8020119474024927,
+        "ci": [
+          0.72337000349125,
+          0.8683970569666443
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.1979880525975073
+    },
+    "beers|S|all": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.7978433516864529,
+        "ci": [
+          0.7241497378476305,
+          0.8624633970466082
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.2021566483135471
+    },
+    "beers|S|identity": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.7841016300032694,
+        "ci": [
+          0.639725726810932,
+          0.9012992969390871
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.21589836999673065
+    },
+    "beers|S|other": {
+      "point": 1.0,
+      "ci": [
+        1.0,
+        1.0
+      ],
+      "interval_available": false,
+      "kind": "empirical_constant",
+      "llm_minus_baran": {
+        "point": 0.8020119474024927,
+        "ci": [
+          0.72337000349125,
+          0.8683970569666443
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile"
+      },
+      "baran_mean": 0.1979880525975073
+    }
+  },
+  "glm": {
+    "F-W": {
+      "all": {
+        "point": 0.16598050914876689,
+        "ci": [
+          0.10557488644334374,
+          0.22783565904441838
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile",
+        "diff": 0.16599999999999998,
+        "p": 1.999960000799984e-05,
+        "holm_p": 0.0007999840003199936,
+        "significant": true
+      },
+      "complete": {
+        "point": 0.165331715210356,
+        "ci": [
+          0.10397715727232056,
+          0.22815980562121455
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile",
+        "diff": 0.1654,
+        "p": 1.999960000799984e-05,
+        "chunks": [
+          50,
+          49
+        ],
+        "holm_p": 0.0007999840003199936
+      }
+    },
+    "O-W": {
+      "all": {
+        "point": 0.06980520317324494,
+        "ci": [
+          0.032005108837567034,
+          0.1111495646021894
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile",
+        "diff": 0.0698,
+        "p": 0.0011999760004799903,
+        "holm_p": 0.021599568008639825,
+        "significant": true
+      },
+      "complete": {
+        "point": 0.06802305274187914,
+        "ci": [
+          0.029175624693813323,
+          0.10962322307662073
+        ],
+        "interval_available": true,
+        "kind": "cluster_percentile",
+        "diff": 0.068,
+        "p": 0.0018599628007439852,
+        "chunks": [
+          48,
+          48
+        ],
+        "holm_p": 0.02889942201155977
+      }
+    }
+  },
+  "inference": "conditional entity/reply working model",
+  "glm_family_complete": {
+    "custom_deepseek_deepseek-v4-pro|hospital|F-W": 0.0007999840003199936,
+    "custom_deepseek_deepseek-v4-pro|hospital|W-S": 0.0013799724005519889,
+    "custom_deepseek_deepseek-v4-pro|hospital|O-S": 0.0007999840003199936,
+    "custom_deepseek_deepseek-v4-pro|movies|F-W": 0.0007999840003199936,
+    "custom_deepseek_deepseek-v4-pro|movies|O-W": 0.0007999840003199936,
+    "custom_qwen_qwen3.8-max|hospital|F-W": 0.0007999840003199936,
+    "custom_qwen_qwen3.8-max|hospital|W-S": 0.00251994960100798,
+    "custom_qwen_qwen3.8-max|hospital|O-S": 0.0007999840003199936,
+    "custom_qwen_qwen3.8-max|movies|F-W": 0.0007999840003199936,
+    "custom_qwen_qwen3.8-max|movies|O-W": 0.0007999840003199936,
+    "custom_z-ai_glm-5.3|hospital|F-W": 0.001759964800703986,
+    "custom_z-ai_glm-5.3|hospital|W-S": 0.0007999840003199936,
+    "custom_z-ai_glm-5.3|hospital|O-S": 0.0007999840003199936,
+    "custom_z-ai_glm-5.3|movies|F-W": 0.0007999840003199936,
+    "custom_z-ai_glm-5.3|movies|O-W": 0.02889942201155977,
+    "openai_gpt-6.1-sol|hospital|F-W": 0.0007999840003199936,
+    "openai_gpt-6.1-sol|hospital|W-S": 0.35903281934361314,
+    "openai_gpt-6.1-sol|hospital|O-S": 0.0027999440011199778,
+    "openai_gpt-6.1-sol|movies|F-W": 0.0007999840003199936,
+    "openai_gpt-6.1-sol|movies|O-W": 0.25699486010279793,
+    "local_qwen2.5-7b|hospital|F-W": 0.16785664286714264,
+    "local_qwen2.5-7b|hospital|W-S": 0.35903281934361314,
+    "local_qwen2.5-7b|hospital|O-S": 0.02889942201155977,
+    "local_qwen2.5-7b|movies|F-W": 0.25353492930141397,
+    "local_qwen2.5-7b|movies|O-W": 0.35903281934361314,
+    "local_llama3.1-8b|hospital|F-W": 0.025559488810223796,
+    "local_llama3.1-8b|hospital|W-S": 0.35903281934361314,
+    "local_llama3.1-8b|hospital|O-S": 0.0007999840003199936,
+    "local_llama3.1-8b|movies|F-W": 0.10871782564348711,
+    "local_llama3.1-8b|movies|O-W": 0.020519589608207833,
+    "local_qwen2.5-14b|hospital|F-W": 0.02889942201155977,
+    "local_qwen2.5-14b|hospital|W-S": 0.1016579668406632,
+    "local_qwen2.5-14b|hospital|O-S": 0.0007999840003199936,
+    "local_qwen2.5-14b|movies|F-W": 0.25353492930141397,
+    "local_qwen2.5-14b|movies|O-W": 0.02889942201155977,
+    "local_qwen2.5-32b-awq|hospital|F-W": 0.22047559048819024,
+    "local_qwen2.5-32b-awq|hospital|W-S": 0.0007999840003199936,
+    "local_qwen2.5-32b-awq|hospital|O-S": 0.0007999840003199936,
+    "local_qwen2.5-32b-awq|movies|F-W": 0.21599568008639827,
+    "local_qwen2.5-32b-awq|movies|O-W": 0.16785664286714264
+  }
+}

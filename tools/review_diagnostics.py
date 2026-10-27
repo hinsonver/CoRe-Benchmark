@@ -15,6 +15,9 @@ import json
 from pathlib import Path
 import random
 import sys
+import contextlib
+import io
+import tempfile
 
 ROOT = Path(__file__).resolve().parents[1]
 AGGREGATE = 'results/derived/review_diagnostics.json'
@@ -196,7 +199,7 @@ class Diagnostics:
                 raise ValueError('Usage aggregate double counts reasoning or totals')
 
 
-def replay(root=ROOT, *, aggregate_path=None):
+def replay(root=ROOT, *, aggregate_path=None, statistics='current'):
     root = Path(root).resolve()
     path = Path(aggregate_path) if aggregate_path is not None else root / AGGREGATE
     raw = path.read_bytes()
@@ -221,6 +224,29 @@ def replay(root=ROOT, *, aggregate_path=None):
     for row in results['rayyan']['strata']:
         row['dirty_assessment'] = 'unassessed' if row['stratum'] == '编码乱码' else 'assessed'
         row['dirty_agrees_assessed'] = None if row['dirty_assessment'] == 'unassessed' else row['dirty_agrees']
+    if statistics=='current':
+        from src.cluster_statistics import run
+        with tempfile.TemporaryDirectory(prefix='core-cluster-review-') as tmp:
+            with contextlib.redirect_stdout(io.StringIO()):
+                clustered=run(root,Path(tmp)/'statistics.json')
+        current=[];complete=[]
+        for index,(tag,display) in enumerate(audit.models):
+            for ds,contrasts in (('hospital',('F-W','W-S','O-S')),('movies',('F-W','O-W'))):
+                for contrast in contrasts:
+                    key=f'{tag}|{ds}|{contrast}';r=clustered['contrasts'][key]
+                    base={'position':len(current),'model':display,'dataset':ds,'contrast':contrast,
+                          'paired':contrast!='F-W','n':[50,50],'diff':r['diff'],'ci95':r['ci'],
+                          'mc_p':r['p'],'holm_p':r['holm_p'],'replicates':50000}
+                    current.append(base);c=dict(base)
+                    if tag=='custom_z-ai_glm-5.3' and ds=='movies':
+                        s=clustered['glm'][contrast]['complete']
+                        c.update(n=s['chunks'],diff=s['diff'],ci95=s['ci'],mc_p=s['p'])
+                    c['holm_p']=clustered['glm_family_complete'][key];complete.append(c)
+        results['families']={'original':current,'sensitivity':complete,
+            'affected_source_positions':[13,14],
+            'changed_positions':[i for i,(a,b) in enumerate(zip(current,complete)) if a!=b],
+            'method':'conditional entity/reply bootstrap, centered two-sided differences'}
+    elif statistics!='frozen':raise ValueError('Unknown statistics mode')
     return {'status': 'PASS', 'aggregate_sha256': AGGREGATE_SHA256,
             'capability': {'raw_movie_reply_rescoring': False, 'usage_log_replay': False,
                            'truncation_detection_replayed': False, 'historical_source_bindings_checked': False,
@@ -238,8 +264,9 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--root', type=Path, default=ROOT)
     parser.add_argument('--output', type=Path)
+    parser.add_argument('--statistics',choices=['current','frozen'],default='current')
     args = parser.parse_args()
-    result = replay(args.root)
+    result = replay(args.root,statistics=args.statistics)
     text = json.dumps(result, ensure_ascii=False, indent=2) + '\n'
     if args.output:
         with args.output.open('x') as handle:

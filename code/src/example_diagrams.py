@@ -106,7 +106,8 @@ def render_overview(output_dir, colors=COLORS):
     with plt.rc_context(STYLE):
         fig = plt.figure(figsize=(7.1, 2.1))
         axes = [_axes(fig, [x, .012, .324, .976]) for x in [.004, .338, .672]]
-        for ax, title, fill in zip(axes, ['Recovery evidence', 'Assigned values', 'Repair credit'],
+        for ax, title, fill in zip(axes, ['What can be recovered?', 'Which value should stay?',
+                                        'What earns repair credit?'],
                                    ['#eaf2fc', '#edf6f1', '#fff5dc']):
             ax.add_patch(Rectangle((.003, .884), .994, .113, facecolor=fill, edgecolor='none'))
             _text(ax, .04, .94, title, bold=True, size=8)
@@ -127,8 +128,8 @@ def render_overview(output_dir, colors=COLORS):
         ax.add_patch(Rectangle((.025, .207), .95, .106, facecolor='#f0f3f6', edgecolor='none'))
         _text(ax, .05, .259, 'O / W / S year: 2014 2015 2016')
         _line(ax, .177)
-        _text(ax, .04, .124, 'Four-condition recovery comparison', size=6.8)
-        _text(ax, .04, .052, '+ independent continuation probe', size=6.8)
+        _text(ax, .04, .124, 'Identifier mapping is missing', size=6.8)
+        _text(ax, .04, .052, 'Year candidates remain available', size=6.8)
 
         ax = axes[1]
         _text(ax, .04, .827, 'Movies conflict test: Taken', bold=True)
@@ -139,13 +140,13 @@ def render_overview(output_dir, colors=COLORS):
             _text(ax, .04, y, label)
             ax.add_patch(Rectangle((.37, y - .037), .59, .076, facecolor='#e8f4ed', edgecolor='none'))
             _text(ax, .39, y, 'Stanley Kubrick', bold=True)
-        _text(ax, .04, .414, 'Schematic counting event', color=MUTED, size=6.8)
+        _text(ax, .04, .414, 'Rewrite being measured', color=MUTED, size=6.8)
         _arrow(ax, (.54, .379), (.54, .307), 'rewrite to real-world director', arrows)
         _text(ax, .04, .248, 'Real credit:')
         _text(ax, .47, .248, 'Pierre Morel', bold=True, color='#167a56')
         _line(ax, .177)
-        _text(ax, .04, .124, 'Separate knowledge-conflict test', size=6.8)
-        _text(ax, .04, .052, 'Count rewrites of assigned values', size=6.8)
+        _text(ax, .04, .124, 'The table assigns Stanley Kubrick', size=6.8)
+        _text(ax, .04, .052, 'A real credit can be a wrong update', size=6.8)
 
         ax = axes[2]
         _text(ax, .04, .827, 'Rayyan: ISSN field (row 120)', bold=True)
@@ -161,8 +162,8 @@ def render_overview(output_dir, colors=COLORS):
         _text(ax, .49, .345, '22-Mar', bold=True, color='#9f3930')
         _text(ax, .04, .248, 'No reference credit', bold=True, color='#9f3930')
         _line(ax, .177)
-        _text(ax, .04, .124, 'Separate field / scoring checks', size=6.8)
-        _text(ax, .04, .052, 'External match differs from reference', size=6.8)
+        _text(ax, .04, .124, 'The score requires a reference match', size=6.8)
+        _text(ax, .04, .052, 'This external match earns no credit', size=6.8)
         return _export(Diagram(fig, axes, arrows, rows), output_dir, 'fig0_overview')
 
 

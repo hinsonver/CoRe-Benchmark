@@ -14,14 +14,16 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT), str(ROOT / 'code')]
-MAIN_SHA = 'ba9f2eacdc984c8324f283fb8278f118f0ac2eaac3f29719a8630dcca681e8a9'
-PDF_SHA = '2b6e5fdd814658307f77e1d1da86fa699c574ecd100474a0838598a206ff2e8e'
+MAIN_SHA = '23e5dc6cc722e907efe5f54796f08ba0d04e758a0f500e89caf9c6fa20b7b4f3'
+PDF_SHA = '48434d05d806c4559ca1669cb9171698e6db839b712bfe9743a721f4094a8080'
 
 
 class CurrentRevision(unittest.TestCase):
     def test_exact_adopted_manuscript_and_navigation(self):
         for name, expected in [('main.tex', MAIN_SHA), ('main.pdf', PDF_SHA)]:
             self.assertEqual(hashlib.sha256((ROOT / 'paper/latex' / name).read_bytes()).hexdigest(), expected)
+        self.assertEqual((ROOT / 'paper/CoRe-current-manuscript.pdf').read_bytes(),
+                         (ROOT / 'paper/latex/main.pdf').read_bytes())
         text = (ROOT / 'paper/latex/main.tex').read_text()
         expanded = re.sub(r'\\input\{(tables/[^}]+)\}',
                           lambda m: (ROOT / 'paper/latex' / (m[1] + '.tex')).read_text(), text)
@@ -30,7 +32,7 @@ class CurrentRevision(unittest.TestCase):
         self.assertEqual(len(re.findall(r'\\label\{find:', text)), 7)
         self.assertEqual(len(list((ROOT / 'paper/companions').glob('[0-9][0-9]-*.md'))), 0)
         self.assertEqual(hashlib.sha256((ROOT / 'paper/CoRe-Supplementary-Technical-Report.pdf').read_bytes()).hexdigest(),
-                         'ce23abbc850bcd4ac4df205bddf31d49569423d8e501e75193ae2388914c090c')
+                         '89ae56e95411d1a4944e9d2b131a7c24e71da56193d7659bc63d6526e7379dee')
         self.assertEqual(len(list((ROOT / 'results/figures').glob('*.csv'))), 11)
 
     def test_current_display_projects_19_tables_exactly(self):
@@ -44,7 +46,7 @@ class CurrentRevision(unittest.TestCase):
                           (output / 'tables/decomposition.tex').read_text())
             self.assertIn('repaired cities (O/F/W/S, of 127)',
                           (output / 'tables/beers.tex').read_text())
-            self.assertIn('separate eight-model Holm families by dataset',
+            self.assertIn('Hospital chunk counts are descriptive; Movies sign tests use Holm correction over eight models',
                           (output / 'tables/counts.tex').read_text())
             for table in (ROOT / 'paper/latex/tables').glob('*.tex'):
                 self.assertEqual((output / 'tables' / table.name).read_bytes(), table.read_bytes(), table.name)
@@ -52,7 +54,7 @@ class CurrentRevision(unittest.TestCase):
             apply_current_display(ROOT, output)
             table = output / 'tables/decomposition.tex'
             table.write_text(table.read_text().replace('DeepSeek-V4-Pro', 'Changed-model', 1))
-            with self.assertRaisesRegex(ValueError, 'frozen non-caption'):
+            with self.assertRaisesRegex(ValueError, r'^Unexpected table input: decomposition\.tex$'):
                 apply_current_display(ROOT, output)
 
     def test_three_figures_replay_source_cells_and_numbers(self):
@@ -86,8 +88,8 @@ class CurrentRevision(unittest.TestCase):
         self.assertTrue((ROOT / 'tools/review_diagnostics.py').is_file(), 'offline diagnostic replay missing')
         return importlib.import_module('tools.review_diagnostics')
 
-    def test_review_diagnostic_recomputes_bound_scope(self):
-        result = self.diagnostic_module().replay(ROOT)
+    def test_frozen_review_diagnostic_recomputes_bound_scope(self):
+        result = self.diagnostic_module().replay(ROOT, statistics='frozen')
         self.assertEqual(result['status'], 'PASS')
         self.assertEqual(result['families']['changed_positions'], [13, 14])
         self.assertEqual(result['families']['sensitivity'][13]['n'], [50, 49])
@@ -103,6 +105,22 @@ class CurrentRevision(unittest.TestCase):
         self.assertEqual(result['capability']['historical_source_bindings_checked'], False)
         self.assertEqual(result.get('aggregate_only', {}).get('rating_count', {}).get('conditions', [{}])[0].get('noops'), 73)
         self.assertEqual(result.get('aggregate_only', {}).get('usage', {}).get('totals', {}).get('input_plus_output'), 26605538)
+
+    def test_current_review_diagnostic_matches_complete_cluster_family(self):
+        result = self.diagnostic_module().replay(ROOT)
+        saved = json.loads((ROOT / 'results/derived/cluster_statistics.json').read_text())
+        families = result['families']
+        self.assertEqual(families['affected_source_positions'], [13, 14])
+        self.assertEqual(families['changed_positions'], [13, 14, 22, 25, 30, 34])
+        self.assertEqual(families['sensitivity'][13]['n'], [50, 49])
+        self.assertEqual(families['sensitivity'][14]['n'], [48, 48])
+        self.assertEqual(len(families['original']), 40)
+        self.assertEqual(sum(row['holm_p'] < .05 for row in families['original']), 27)
+        self.assertEqual(families['method'], 'conditional entity/reply bootstrap, centered two-sided differences')
+        for row, key in zip(families['original'], saved['main_family']):
+            self.assertEqual(row['ci95'], saved['contrasts'][key]['ci'], key)
+            self.assertEqual(row['holm_p'], saved['contrasts'][key]['holm_p'], key)
+            self.assertEqual(row['replicates'], 50000)
 
     def test_diagnostics_never_import_model_clients(self):
         code = ('import sys; from tools.review_diagnostics import replay; '

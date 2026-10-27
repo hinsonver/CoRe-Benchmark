@@ -46,7 +46,7 @@
       "id": "four-condition-cleaning", "title": "Four-condition cleaning comparisons", "claims": ["C1"],
       "input_acquisition": {"included": "Frozen Hospital and Beers O/F/W/S pairs and archived replies", "external": "Movies pairs and replies in the exact separate archive; default Movies numerical witnesses are included"},
       "execution": {"command": "python tools/experiments.py --experiment cleaning --dataset hospital --condition O --model local:qwen2.5-7b --plan", "status": "Original per-condition route; frozen model/condition coverage enforced"},
-      "scoring": {"command": "python tools/core.py reproduce --output build/condition-results", "status": "Statistical replay from saved block counts; authorized historical validation additionally re-scores 84 Movies reply archives"},
+      "scoring": {"command": "python tools/core.py reproduce --output build/condition-results", "status": "Statistical replay from anonymous entity/reply count contributions with conditional cluster intervals and complete Holm families; authorized historical validation additionally re-scores 84 Movies reply archives"},
       "display": ["tab:main", "tab:detection", "tab:counts", "tab:moviescols", "tab:beers", "fig:decomposition", "fig:year"],
       "historical_limits": ["Public cleaning block counts are replayed, not independently re-parsed by this aggregate route", "Three Beers F runs require the included historical-input provenance supplement"]
     },
@@ -70,7 +70,7 @@
       "id": "aligned", "title": "Aligned LLM and Baran correction", "claims": ["C1"],
       "input_acquisition": {"included": "Saved labels and 40 Hospital/Beers archives", "external": "20 Movies archives plus labels/tables in exact historical installation"},
       "execution": {"command": "python tools/experiments.py --experiment aligned-baran --dataset hospital --condition F --algorithm-seed 0 --plan", "status": "Frozen labels; separate aligned-llm route uses the original hosted backbone"},
-      "scoring": {"command": "python tools/score_baselines.py --output build/aligned-scores", "status": "Raw saved corrections/replies, exact selected rows, three Baran runs, means and paired intervals"},
+      "scoring": {"command": "python tools/score_baselines.py --output build/aligned-scores", "status": "Historical raw saved corrections/replies, exact selected rows, three Baran runs and means; manuscript cluster intervals and comparisons against the three-run mean use tools/core.py reproduce"},
       "display": ["fig:aligned", "tab:aligned", "Report section 6"],
       "historical_limits": ["The retained unseeded Movies-fresh diagnostic has stale row metadata and is not a selected frozen comparison"]
     },

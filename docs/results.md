@@ -2,7 +2,7 @@
 
 Read the current [paper PDF](../paper/latex/main.pdf) alongside [paper/result-map.json](../paper/result-map.json). That generated map binds all 25 displayed figures and tables to the current LaTeX labels and numbers. The labels below remain useful if numbering changes.
 
-This is the current 2026-10-26 manuscript with the formal seven-section [technical report](../paper/CoRe-Supplementary-Technical-Report.pdf). [Revision provenance](../paper/revisions/README.md) separates historical records from the current [source/PDF binding](../paper/revision-binding.json). Read the displays as a sequence of questions: what evidence enables recovery, which assigned values should remain, and which changes receive repair credit. These questions use separate inputs and measurements.
+The manuscript is accompanied by the seven-section [technical report](../paper/CoRe-Supplementary-Technical-Report.pdf). The [source/PDF binding](../paper/revision-binding.json) identifies the files. Read the displays as a sequence of questions: what evidence enables recovery, which assigned values should remain, and which changes receive repair credit. These questions use separate inputs and measurements.
 
 Packaged products are in [results/tables](../results/tables/) and [results/figures](../results/figures/). A replay writes the corresponding `tables/`, `figures/` and `derived/` directories under its chosen output path. [Claim-to-evidence navigation](../paper/claim-map.md) explains what each result supports.
 
@@ -31,7 +31,7 @@ Packaged products are in [results/tables](../results/tables/) and [results/figur
 | `tab:p1` | Uniform full-table-screen continuation reanalysis | [p1.tex](../results/tables/p1.tex), [integer provenance](../results/derived/uniform-continuation-provenance.md) |
 | `tab:main` | Identity-column repair and condition contrasts | [decomposition.tex](../results/tables/decomposition.tex) |
 | `tab:detection` | Detection versus repair | [detection.tex](../results/tables/detection.tex) |
-| `tab:counts` | Near-zero repair counts; separate eight-model Holm families by dataset | [counts.tex](../results/tables/counts.tex) |
+| `tab:counts` | Near-zero repair counts and chunk wins; Hospital is descriptive, Movies uses an eight-model Holm sign-test family | [counts.tex](../results/tables/counts.tex) |
 | `tab:moviescols` | Movies results by column | [moviescols.tex](../results/tables/moviescols.tex) |
 | `tab:beers` | Model-specific Beers boundary case | [beers.tex](../results/tables/beers.tex) |
 | `tab:seeds` | Three construction-seed ranges | [seeds.tex](../results/tables/seeds.tex) |
@@ -45,8 +45,8 @@ Packaged products are in [results/tables](../results/tables/) and [results/figur
 
 The [extended-results companion](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-6) retains the original three-dataset [condition overview](../results/figures/fig1_decomposition.csv), [complete Hospital row](../results/tables/example.tex), full acceptance checks, conflict detail, and original Rayyan counts and plot. The Rayyan plot uses [fig5_rayyan.csv](../results/figures/fig5_rayyan.csv) and [fig5_rayyan_display.csv](../results/figures/fig5_rayyan_display.csv); it is an extended display. The two CSVs describe the same audit, not independent samples.
 
-The current replay includes 19 table files, more than the seventeen displayed tables because several main-paper tables are inline and some generated views are retained for extended inspection. In particular, [whole_table.tex](../results/tables/whole_table.tex) is an unused compact projection: use `tab:aligned` for the main-paper comparison. The full eight-model scale plot is the current main-paper view. Aligned Baran whiskers retain the first run's chunk-bootstrap interval translated to the three-run mean; they are neither a confidence interval for that mean nor an interval over seeds. The exact CSV endpoints remain unchanged.
+The replay includes 19 table files, more than the seventeen displayed tables because several main-paper tables are inline and some generated views are retained for extended inspection. In particular, [whole_table.tex](../results/tables/whole_table.tex) is an unused compact projection: use `tab:aligned` for the main-paper comparison. The full eight-model scale plot is the main-paper view. DeepSeek whiskers use entity/reply cluster intervals. Aligned Baran points show the mean of three fixed runs, without error bars. The [statistical guide](cluster-inference.md) specifies the weights and anonymous evidence.
 
 The overview and construction CSVs are diagram witnesses, not new experimental observations. Their generator is [example_diagrams.py](../code/src/example_diagrams.py), called by [figures.py](../code/src/figures.py). The first result figure uses [evidence_panels.py](../code/src/evidence_panels.py), which checks saved repair counts and year accuracies. Its CSV provenance paths point to repository files.
 
-The [archived diagnostics](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-7) and [diagnostic entry](../tools/review_diagnostics.py) supplement this display map without changing the frozen main table, intervals or significance.
+The [technical details](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-7) and [diagnostic entry](../tools/review_diagnostics.py) include the complete comparison families and GLM sensitivity. The [statistical guide](cluster-inference.md) specifies entity/reply inference; `--statistics frozen` selects the archived diagnostic calculation.

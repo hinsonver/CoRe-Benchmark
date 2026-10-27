@@ -1,10 +1,10 @@
 # CoRe
 
-**PRIVATE REVIEW PRERELEASE — not released publicly. Current manuscript and report: 2026-10-26.**
+**Private submission materials — not released publicly. Manuscript and report: 2026-10-27.**
 
-Artifact for *Cleaning or Recalling? Disentangling Memorization and World Knowledge in LLM-based Data Cleaning*, by Jingru Yang, Zheng Chen, Ju Fan and Xiaoyong Du.
+Artifact for *Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning*, by Jingru Yang, Honglu Zhang, Ju Fan, Zheng Chen and Xiaoyong Du.
 
-CoRe connects recovery evidence, assigned-value preservation and reference-based repair credit. It compares original tables (O), fresh real records (F), word-name surrogates (W) and syllable-name surrogates (S), alongside separate conflict and reference checks. Read the current [paper](paper/latex/main.pdf) with the [22-page supplementary technical report](paper/CoRe-Supplementary-Technical-Report.pdf). The [revision binding](paper/revision-binding.json) identifies their exact bytes and current presentation sources; [revision provenance](paper/revisions/README.md) separates historical records from current reading. Existing replies and input tables are preserved. The current continuation display uses uniform re-scoring, and Beers city tests apply Holm before rounding; no model is queried. See the [statistical revision note](docs/statistical-revisions.md).
+CoRe compares original tables (O), fresh real records (F), word-based surrogates (W) and syllable-based surrogates (S), alongside assigned-value and reference checks. Read the [paper](paper/latex/main.pdf) and [supplementary technical report](paper/CoRe-Supplementary-Technical-Report.pdf). The [document binding](paper/revision-binding.json) identifies their sources. Figure 6 shows DeepSeek cluster intervals and three-run Baran means without error bars. The [entity/reply inference guide](docs/cluster-inference.md) specifies the numerical witnesses, 40-comparison and Beers families, reply-cluster conflict intervals and all-or-none displays. No model is queried.
 
 ## Quick start
 
@@ -40,12 +40,12 @@ The [tested runtime](environment/tested-runtime.json) records the local acceptan
 | Inspect every experiment family | [Coverage matrix](REPRODUCTION.json), [continuation scoring](docs/continuation-scoring.md), [baseline scoring](docs/baseline-scoring.md) and [execution plans](docs/experiment-execution.md) |
 | Interpret the scope of the checks | [Limitations](docs/limitations.md) |
 | Read construction, scoring and extended details | [Technical report](paper/CoRe-Supplementary-Technical-Report.pdf) and [seven-section index](paper/CoRe-companion-index.md) |
-| Check construction/reply sensitivity and output summaries | [Archived diagnostics](paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-7) and [offline entry](tools/review_diagnostics.py) |
+| Check construction/reply sensitivity and output summaries | [Technical details](paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-7), [cluster inference](docs/cluster-inference.md) and [offline diagnostics](tools/review_diagnostics.py) |
 | Cite this work | [Citation metadata](CITATION.cff) |
 
 The paper has a 12-page body and 14 pages including references, with eight figures, seventeen tables and seven Findings. Its first result figure contrasts missing identifier mappings with retained year candidates. The overview and Hospital construction figure use worked examples. The original condition overview, complete Hospital row and Rayyan plot remain in the extended displays.
 
-The main PDF has SHA-256 `2b6e5fdd814658307f77e1d1da86fa699c574ecd100474a0838598a206ff2e8e`; the technical report has SHA-256 `ce23abbc850bcd4ac4df205bddf31d49569423d8e501e75193ae2388914c090c`. Both are exact copies of the current four-author reading documents. The report has seven sections, fourteen tables and seven original figures. Its PDF replaces the former seven Markdown reports as the formal scholarly reading document; the Markdown versions remain in repository history. The source includes the matching official template and its original class source. The [current private prerelease](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.2.0-review-private-20261026) does not change the [previous fixed private release](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.1.0-a04-review-private-20261022), its tag or its archives. Records under `paper/revisions/` and the retained author-side frozen-claims snapshot are historical provenance, not current reader instructions.
+The main PDF has SHA-256 `48434d05d806c4559ca1669cb9171698e6db839b712bfe9743a721f4094a8080`; the technical report has SHA-256 `89ae56e95411d1a4944e9d2b131a7c24e71da56193d7659bc63d6526e7379dee`. The report has 24 pages, seven sections, 18 tables and seven figures. This checkout contains the current five-author manuscript and its matching report; the fixed `v0.2.0` core ZIP remains the earlier snapshot. The [statistical methods and replay](docs/cluster-inference.md) describe the entity/reply weights, complete Holm families, conflict denominators and anonymous numerical witnesses. The [Hospital relationship/edit audit](supplements/hospital-semantics/README.md) and [entity/reply and year-choice diagnostics](supplements/dependence-and-year/README.md) provide deterministic checks using existing inputs and replies.
 
 ## Optional exact historical validation
 

@@ -1,7 +1,5 @@
 \begin{table*}[t]
-  \caption{Identity-column repair F1 at seed 0. Nonpaired F$-$W uses fresh records; paired contrasts
-  use O/W/S. $^\dagger$: Holm-corrected $p<0.05$ over 40 differences (two-sided chunk bootstrap,
-  2,000 resamples).}
+  \caption{Identity-column repair F1 at seed 0. F$-$W uses nonpaired fresh records; O/W/S contrasts are paired. $^\dagger$: Holm-corrected $p<0.05$ over 40 contrasts, using 50,000 entity/reply bootstrap reweightings (Section~\ref{sec:setup}).}
   \label{tab:main}
   \small
   \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}l cccc ccc cccc cc@{}}
@@ -15,12 +13,12 @@
     DeepSeek-V4-Pro & 0.88 & 0.95 & 0.50 & 0.16 & +0.45$^\dagger$ & +0.34$^\dagger$ & +0.72$^\dagger$ & 0.36 & 0.45 & 0.04 & 0.01 & +0.41$^\dagger$ & +0.32$^\dagger$ \\
     Qwen3.8-Max & 0.90 & 0.93 & 0.55 & 0.21 & +0.38$^\dagger$ & +0.33$^\dagger$ & +0.68$^\dagger$ & 0.30 & 0.44 & 0.02 & 0.00 & +0.42$^\dagger$ & +0.27$^\dagger$ \\
     GLM-5.3 & 0.78 & 0.83 & 0.55 & 0.19 & +0.28$^\dagger$ & +0.37$^\dagger$ & +0.59$^\dagger$ & 0.11 & 0.20 & 0.04 & 0.01 & +0.17$^\dagger$ & +0.07$^\dagger$ \\
-    GPT-6.1-Sol & 0.94 & 0.98 & 0.71 & 0.62 & +0.28$^\dagger$ & +0.09$^\dagger$ & +0.32$^\dagger$ & 0.12 & 0.37 & 0.05 & 0.04 & +0.32$^\dagger$ & +0.07 \\
+    GPT-6.1-Sol & 0.94 & 0.98 & 0.71 & 0.62 & +0.28$^\dagger$ & +0.09 & +0.32$^\dagger$ & 0.12 & 0.37 & 0.05 & 0.04 & +0.32$^\dagger$ & +0.07 \\
     \midrule
-    Qwen2.5-7B & 0.22 & 0.23 & 0.07 & 0.02 & +0.16$^\dagger$ & +0.05 & +0.20$^\dagger$ & 0.01 & 0.02 & 0.00 & 0.00 & +0.02 & +0.01 \\
-    Llama-3.1-8B & 0.31 & 0.21 & 0.02 & 0.00 & +0.19$^\dagger$ & +0.02 & +0.30$^\dagger$ & 0.04 & 0.04 & 0.01 & 0.01 & +0.04$^\dagger$ & +0.03$^\dagger$ \\
-    Qwen2.5-14B & 0.44 & 0.42 & 0.19 & 0.04 & +0.23$^\dagger$ & +0.15$^\dagger$ & +0.40$^\dagger$ & 0.06 & 0.04 & 0.01 & 0.01 & +0.03 & +0.05$^\dagger$ \\
-    Qwen2.5-32B & 0.55 & 0.48 & 0.31 & 0.03 & +0.17$^\dagger$ & +0.28$^\dagger$ & +0.52$^\dagger$ & 0.03 & 0.03 & 0.00 & 0.00 & +0.03 & +0.03$^\dagger$ \\
+    Qwen2.5-7B & 0.22 & 0.23 & 0.07 & 0.02 & +0.16 & +0.05 & +0.20$^\dagger$ & 0.01 & 0.02 & 0.00 & 0.00 & +0.02 & +0.01 \\
+    Llama-3.1-8B & 0.31 & 0.21 & 0.02 & 0.00 & +0.19$^\dagger$ & +0.02 & +0.30$^\dagger$ & 0.04 & 0.04 & 0.01 & 0.01 & +0.04 & +0.03$^\dagger$ \\
+    Qwen2.5-14B & 0.44 & 0.42 & 0.19 & 0.04 & +0.23$^\dagger$ & +0.15 & +0.40$^\dagger$ & 0.06 & 0.04 & 0.01 & 0.01 & +0.03 & +0.05$^\dagger$ \\
+    Qwen2.5-32B & 0.55 & 0.48 & 0.31 & 0.03 & +0.17 & +0.28$^\dagger$ & +0.52$^\dagger$ & 0.03 & 0.03 & 0.00 & 0.00 & +0.03 & +0.03 \\
     \bottomrule
   \end{tabular*}
 \end{table*}

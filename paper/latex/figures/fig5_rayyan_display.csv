@@ -1,0 +1,6 @@
+stratum,matched_cells,reference_check_failures,dirty_assessed,dirty_check_passes,dirty_display
+日期,44,43,True,42,42/44
+编码乱码,38,38,False,,not assessed
+缺失写成-1,46,28,True,17,17/46
+页码,18,18,True,17,17/18
+ISSN,6,6,True,0,0/6
