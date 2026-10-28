@@ -79,8 +79,8 @@
 
 \begin{abstract}
 High scores on public data-cleaning benchmarks can reflect knowledge of familiar entities,
-making it difficult to assess how well an LLM repairs unfamiliar data. We present \core{},
-an evaluation protocol that compares public benchmarks with fresh real records and paired
+making it difficult to assess how well an LLM repairs unfamiliar data. We present \core{}
+(\textbf{C}leaning \textbf{o}r \textbf{Re}calling), a protocol comparing public benchmarks with fresh real records and paired
 name surrogates built from English words or syllables. The surrogates retain error positions
 and non-identity values while transferring the benchmark's error mechanisms. Across 21
 controlled tables and eight LLMs, repair performance varies substantially with entity names
@@ -137,7 +137,7 @@ Controlled tabular evaluations already test recognition and completion of datase
 and which source should supply their values. It also scores each edit against a reference,
 which may itself contain a systematic conversion.
 
-In this paper, we present \core{}, a protocol that compares repairs on dirty/reference pairs
+We introduce \core{} (\textbf{C}leaning \textbf{o}r \textbf{Re}calling) to compare repairs on dirty/reference pairs
 under controlled entity replacements. Each benchmark is compared with \emph{fresh} real records,
 a \emph{word-based surrogate} with fictitious English-word names, and a \emph{syllable-based surrogate}
 with meaningless names. The original and its surrogates share rows and error positions, while
