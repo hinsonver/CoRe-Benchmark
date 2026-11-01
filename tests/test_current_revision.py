@@ -14,8 +14,8 @@ import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path[:0] = [str(ROOT), str(ROOT / 'code')]
-MAIN_SHA = 'f6dd7854942a0fb405636b2f708b30fad233e8efe35526386af16506fef32ca0'
-PDF_SHA = '4273b3665173c3326f58258783d1d63e807ddfaccfe9589fa23d1e10f2d7ffe2'
+MAIN_SHA = '86e1478bdf927de3623a88ae04753c84f173eb623520c2070b3f380a35e10a84'
+PDF_SHA = 'd69cd04f7444876129f34bcf4fea899ce6974bffef8a0f32a51a3c462918d96d'
 
 
 class CurrentRevision(unittest.TestCase):

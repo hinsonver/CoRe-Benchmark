@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "manuscript_sha256": "f6dd7854942a0fb405636b2f708b30fad233e8efe35526386af16506fef32ca0",
-  "compiled_pdf_sha256": "4273b3665173c3326f58258783d1d63e807ddfaccfe9589fa23d1e10f2d7ffe2",
+  "manuscript_sha256": "86e1478bdf927de3623a88ae04753c84f173eb623520c2070b3f380a35e10a84",
+  "compiled_pdf_sha256": "d69cd04f7444876129f34bcf4fea899ce6974bffef8a0f32a51a3c462918d96d",
   "body_pages": 12,
   "total_pages": 14,
   "entries": [
@@ -511,7 +511,7 @@
       "fig_example_transfer.csv"
     ]
   },
-  "version": "current-candidate-github-sync-20261101",
+  "version": "report-footnote-github-sync-20261101",
   "diagram_cells_are_experimental_samples": false,
   "report_pdf_sha256": "14356913cefa9229a8ffdec1ca367ffaca43e08b56ead8267071651573055b85",
   "manuscript_title": "Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning"

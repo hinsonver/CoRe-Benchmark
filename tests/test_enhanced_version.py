@@ -17,7 +17,7 @@ class EnhancedVersion(unittest.TestCase):
             self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), expected, name)
     def test_current_manuscript_version(self):
         self.assertEqual(hashlib.sha256((ROOT / 'paper/latex/main.tex').read_bytes()).hexdigest(),
-                         'f6dd7854942a0fb405636b2f708b30fad233e8efe35526386af16506fef32ca0')
+                         '86e1478bdf927de3623a88ae04753c84f173eb623520c2070b3f380a35e10a84')
     def test_new_historical_archive_binding(self):
         metadata = json.loads((ROOT / 'data/manifests/SUBMISSION_DATA.json').read_text())
         self.assertEqual(metadata['historical']['archive_filename'],

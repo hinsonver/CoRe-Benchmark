@@ -53,8 +53,8 @@ class DeliveryScope(unittest.TestCase):
         citation=(ROOT/'CITATION.cff').read_text()
         self.assertEqual(citation.count('family-names:'),6)
         self.assertIn('duyong@ruc.edu.cn',citation)
-        expected={'paper/latex/main.tex':'f6dd7854942a0fb405636b2f708b30fad233e8efe35526386af16506fef32ca0',
-                  'paper/latex/main.pdf':'4273b3665173c3326f58258783d1d63e807ddfaccfe9589fa23d1e10f2d7ffe2',
+        expected={'paper/latex/main.tex':'86e1478bdf927de3623a88ae04753c84f173eb623520c2070b3f380a35e10a84',
+                  'paper/latex/main.pdf':'d69cd04f7444876129f34bcf4fea899ce6974bffef8a0f32a51a3c462918d96d',
                   'paper/CoRe-Supplementary-Technical-Report.pdf':'14356913cefa9229a8ffdec1ca367ffaca43e08b56ead8267071651573055b85'}
         for name,digest in expected.items():
             self.assertEqual(hashlib.sha256((ROOT/name).read_bytes()).hexdigest(),digest,name)
