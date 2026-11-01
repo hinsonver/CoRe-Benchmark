@@ -2,7 +2,7 @@
 %%% Do NOT edit. File created by BibTeX with style
 %%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\begin{thebibliography}{72}
+\begin{thebibliography}{73}
 
 %%% ====================================================================
 %%% NOTE TO THE USER: you can override these defaults by providing
@@ -37,9 +37,9 @@
 \providecommand\natexlab[1]{#1}
 \providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem[\protect\citeauthoryear{Abdelaal, Hammacher, and Schoening}{Abdelaal et~al\mbox{.}}{2023}]%
+\bibitem[\protect\citeauthoryear{Abdelaal, Hammacher, and Sch{\"o}ning}{Abdelaal et~al\mbox{.}}{2023}]%
         {abdelaal2023rein}
-\bibfield{author}{\bibinfo{person}{Mohamed Abdelaal}, \bibinfo{person}{Christian Hammacher}, {and} \bibinfo{person}{Harald Schoening}.} \bibinfo{year}{2023}\natexlab{}.
+\bibfield{author}{\bibinfo{person}{Mohamed Abdelaal}, \bibinfo{person}{Christian Hammacher}, {and} \bibinfo{person}{Harald Sch{\"o}ning}.} \bibinfo{year}{2023}\natexlab{}.
 \newblock \showarticletitle{{REIN: A Comprehensive Benchmark Framework for Data Cleaning Methods in ML Pipelines}}. In \bibinfo{booktitle}{\emph{Proceedings of the 26th International Conference on Extending Database Technology (EDBT)}}. \bibinfo{pages}{499--511}.
 \newblock
 \urldef\tempurl%
@@ -133,9 +133,9 @@
 \newblock \bibinfo{title}{SEED: Domain-Specific Data Curation With Large Language Models}.
 \newblock
 \newblock
-\showeprint[arxiv]{2310.00749}~[cs.DB]
+\showeprint[arxiv]{2310.00749v3}~[cs.DB]
 \urldef\tempurl%
-\url{https://arxiv.org/abs/2310.00749}
+\url{https://arxiv.org/abs/2310.00749v3}
 \showURL{%
 \tempurl}
 
@@ -200,6 +200,10 @@
 \newblock
 \newblock
 \showeprint[arxiv]{2407.20256}
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2407.20256}
+\showURL{%
+\tempurl}
 \newblock
 \shownote{Poster at North East Database Day 2024.}
 
@@ -481,7 +485,7 @@
 \bibitem[\protect\citeauthoryear{Ni, Zhang, Miao, Zhao, Wu, Wang, and Yin}{Ni et~al\mbox{.}}{2025}]%
         {ni2025zeroed}
 \bibfield{author}{\bibinfo{person}{Wei Ni}, \bibinfo{person}{Kaihang Zhang}, \bibinfo{person}{Xiaoye Miao}, \bibinfo{person}{Xiangyu Zhao}, \bibinfo{person}{Yangyang Wu}, \bibinfo{person}{Yaoshu Wang}, {and} \bibinfo{person}{Jianwei Yin}.} \bibinfo{year}{2025}\natexlab{}.
-\newblock \showarticletitle{{ZeroED: Hybrid Zero-Shot Error Detection with Large Language Model Reasoning}}. In \bibinfo{booktitle}{\emph{2025 IEEE 41st International Conference on Data Engineering (ICDE)}}. \bibinfo{pages}{3126--3139}.
+\newblock \showarticletitle{{ZeroED: Hybrid Zero-Shot Error Detection Through Large Language Model Reasoning}}. In \bibinfo{booktitle}{\emph{2025 IEEE 41st International Conference on Data Engineering (ICDE)}}. \bibinfo{pages}{3126--3139}.
 \newblock
 \urldef\tempurl%
 \url{https://doi.org/10.1109/ICDE65448.2025.00234}
@@ -534,6 +538,17 @@
 \tempurl}
 
 
+\bibitem[\protect\citeauthoryear{Owen and Eckles}{Owen and Eckles}{2012}]%
+        {owen2012arrays}
+\bibfield{author}{\bibinfo{person}{Art~B. Owen} {and} \bibinfo{person}{Dean Eckles}.} \bibinfo{year}{2012}\natexlab{}.
+\newblock \showarticletitle{Bootstrapping Data Arrays of Arbitrary Order}.
+\newblock \bibinfo{journal}{\emph{The Annals of Applied Statistics}} \bibinfo{volume}{6}, \bibinfo{number}{3} (\bibinfo{year}{2012}), \bibinfo{pages}{895--927}.
+\newblock
+\urldef\tempurl%
+\url{https://doi.org/10.1214/12-AOAS547}
+\showDOI{\tempurl}
+
+
 \bibitem[\protect\citeauthoryear{Peeters, Steiner, and Bizer}{Peeters et~al\mbox{.}}{2025}]%
         {peeters2025entity}
 \bibfield{author}{\bibinfo{person}{Ralph Peeters}, \bibinfo{person}{Aaron Steiner}, {and} \bibinfo{person}{Christian Bizer}.} \bibinfo{year}{2025}\natexlab{}.
@@ -554,19 +569,15 @@
 \showDOI{\tempurl}
 
 
-\bibitem[\protect\citeauthoryear{Qi, Miao, and Wang}{Qi et~al\mbox{.}}{2024}]%
+\bibitem[\protect\citeauthoryear{Qi, Miao, and Wang}{Qi et~al\mbox{.}}{2025}]%
         {qi2024cleanagent}
-\bibfield{author}{\bibinfo{person}{Danrui Qi}, \bibinfo{person}{Zhengjie Miao}, {and} \bibinfo{person}{Jiannan Wang}.} \bibinfo{year}{2024}\natexlab{}.
-\newblock \bibinfo{title}{{CleanAgent: Automating Data Standardization with LLM-based Agents}}.
+\bibfield{author}{\bibinfo{person}{Danrui Qi}, \bibinfo{person}{Zhengjie Miao}, {and} \bibinfo{person}{Jiannan Wang}.} \bibinfo{year}{2025}\natexlab{}.
+\newblock \showarticletitle{{CleanAgent: Automating Data Standardization with LLM-based Agents}}. In \bibinfo{booktitle}{\emph{VLDB 2025 Workshop: Data Driven AI}}.
 \newblock
-\newblock
-\showeprint[arxiv]{2403.08291}
 \urldef\tempurl%
-\url{https://arxiv.org/abs/2403.08291}
+\url{https://www.vldb.org/2025/Workshops/VLDB-Workshops-2025/DATAI/DATAI25_8.pdf}
 \showURL{%
 \tempurl}
-\newblock
-\shownote{Revised June 2025; arXiv:2403.08291v4.}
 
 
 \bibitem[\protect\citeauthoryear{Qwen, Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu, et~al\mbox{.}}{Qwen et~al\mbox{.}}{2024}]%
@@ -620,15 +631,12 @@
 \bibitem[\protect\citeauthoryear{Sadhu, Shahad, and Marino}{Sadhu et~al\mbox{.}}{2026}]%
         {derelab2026}
 \bibfield{author}{\bibinfo{person}{Jayanta Sadhu}, \bibinfo{person}{Sayem Shahad}, {and} \bibinfo{person}{Kenneth Marino}.} \bibinfo{year}{2026}\natexlab{}.
-\newblock \bibinfo{title}{{DERELAB: Probing Defeasible Reasoning and Confirmation Bias in LLMs with a Generative Benchmark}}.
-\newblock
+\newblock \showarticletitle{{DERELAB: Probing Defeasible Reasoning and Confirmation Bias in LLMs with a Generative Benchmark}}. In \bibinfo{booktitle}{\emph{Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing}}. \bibinfo{publisher}{Association for Computational Linguistics}, \bibinfo{pages}{36952--36985}.
 \newblock
 \urldef\tempurl%
-\url{https://doi.org/10.48550/arXiv.2608.30413}
-\showDOI{\tempurl}
-\showeprint[arxiv]{2608.30413}
-\newblock
-\shownote{Accepted at EMNLP 2026.}
+\url{https://aclanthology.org/2026.emnlp-main.1625/}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{Sainz, Campos, Garc{\'i}a-Ferrero, Etxaniz, de~Lacalle, and Agirre}{Sainz et~al\mbox{.}}{2023}]%
@@ -668,13 +676,10 @@
 \bibfield{author}{\bibinfo{person}{Matteo Silvestri}, \bibinfo{person}{Fabiano Veglianti}, \bibinfo{person}{Flavio Giorgi}, \bibinfo{person}{Fabrizio Silvestri}, {and} \bibinfo{person}{Gabriele Tolomei}.} \bibinfo{year}{2026}\natexlab{}.
 \newblock \showarticletitle{{When Large Language Models Know the Table: A Framework for Assessing Data Contamination in Tabular Datasets}}. In \bibinfo{booktitle}{\emph{Conference on Language Modeling (COLM)}}.
 \newblock
-\showeprint[arxiv]{2510.20351}
 \urldef\tempurl%
-\url{https://arxiv.org/abs/2510.20351}
+\url{https://proceedings.colm.cc/paper_files/paper/2026/hash/d80f533473c2dc8dd6984ceffc3ed3fd-Abstract-Conference.html}
 \showURL{%
 \tempurl}
-\newblock
-\shownote{arXiv:2510.20351v4.}
 
 
 \bibitem[\protect\citeauthoryear{Tu, Fan, Tang, Wang, Li, Du, Jia, and Gao}{Tu et~al\mbox{.}}{2023}]%
@@ -723,12 +728,10 @@
 \bibitem[\protect\citeauthoryear{Wang and Liu}{Wang and Liu}{2026}]%
         {wang2026contratable}
 \bibfield{author}{\bibinfo{person}{Xinzhi Wang} {and} \bibinfo{person}{Chunwei Liu}.} \bibinfo{year}{2026}\natexlab{}.
-\newblock \bibinfo{title}{{The Table Says Otherwise: Testing LLMs with Counterfactual Relational Data}}.
+\newblock \showarticletitle{{The Table Says Otherwise: Testing LLMs with Counterfactual Relational Data}}. In \bibinfo{booktitle}{\emph{VLDB 2026 Workshop: NOVAS}}.
 \newblock
-\newblock
-\showeprint[arxiv]{2606.23667}
 \urldef\tempurl%
-\url{https://arxiv.org/abs/2606.23667}
+\url{https://www.vldb.org/2026/Workshops/VLDB-Workshops-2026/NOVAS/NOVAS26_21.pdf}
 \showURL{%
 \tempurl}
 
@@ -740,6 +743,10 @@
 \newblock
 \newblock
 \showeprint[arxiv]{2606.25388}
+\urldef\tempurl%
+\url{https://arxiv.org/abs/2606.25388}
+\showURL{%
+\tempurl}
 
 
 \bibitem[\protect\citeauthoryear{White, Dooley, Roberts, Pal, Feuer, Jain, Shwartz-Ziv, Jain, Saifullah, Dey, {Shubh-Agrawal}, Sandha, Naidu, Hegde, LeCun, Goldstein, Neiswanger, and Goldblum}{White et~al\mbox{.}}{2025}]%
@@ -834,7 +841,7 @@
         {ziemann2016gene}
 \bibfield{author}{\bibinfo{person}{Mark Ziemann}, \bibinfo{person}{Yotam Eren}, {and} \bibinfo{person}{Assam El-Osta}.} \bibinfo{year}{2016}\natexlab{}.
 \newblock \showarticletitle{{Gene name errors are widespread in the scientific literature}}.
-\newblock \bibinfo{journal}{\emph{Genome Biology}} \bibinfo{volume}{17}, \bibinfo{number}{1} (\bibinfo{year}{2016}), \bibinfo{pages}{177}.
+\newblock \bibinfo{journal}{\emph{Genome Biology}} \bibinfo{volume}{17}, \bibinfo{number}{1}, Article \bibinfo{articleno}{177} (\bibinfo{year}{2016}), \bibinfo{numpages}{3}~pages.
 \newblock
 \urldef\tempurl%
 \url{https://doi.org/10.1186/s13059-016-1044-7}

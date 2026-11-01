@@ -34,8 +34,6 @@
 \citation{qi2024cleanagent}
 \citation{chen2024seeddomainspecificdatacuration}
 \citation{tabclean2026}
-\citation{kayali_cidr25,demiralp2024enterprise}
-\citation{bodensohn2025enterprise}
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Recovery evidence in Movies. DeepSeek-V4-Pro repairs fewer identifiers when mappings disappear, but also fewer years when candidates remain. Labels give repaired/error cells; the middle-year rule matches 167/190 references. O/W/S are paired; F uses fresh records.}}{2}{figure.caption.3}\protected@file@percent }
 \providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
 \newlabel{fig:decomposition}{{1}{2}{Recovery evidence in Movies. DeepSeek-V4-Pro repairs fewer identifiers when mappings disappear, but also fewer years when candidates remain. Labels give repaired/error cells; the middle-year rule matches 167/190 references. O/W/S are paired; F uses fresh records}{figure.caption.3}{}}
@@ -45,6 +43,8 @@
 \newlabel{sec:benchmarks}{{2.1}{2}{Cleaning Benchmarks}{subsection.2.1}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.2}LLM-Based Cleaners}{2}{subsection.2.2}\protected@file@percent }
 \newlabel{sec:cleaners}{{2.2}{2}{LLM-Based Cleaners}{subsection.2.2}{}}
+\citation{kayali_cidr25,demiralp2024enterprise}
+\citation{bodensohn2025enterprise}
 \citation{274574,carlini2023quantifying}
 \citation{ICLR2024_bc39a59c}
 \citation{oren2024proving}
@@ -77,10 +77,10 @@
 \newlabel{fig:example}{{3}{4}{Hospital construction example. O/W/S share a row and city error cell while changing identity values. F uses a newer registry row with a newly drawn error location. The \companion {} gives the extended identity-field example}{figure.caption.6}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Condition contrasts and their interpretation. O/W/S pair rows, error cells, chunks and non-identity values; F shares schema, size and error recipes or rules.}}{4}{table.caption.7}\protected@file@percent }
 \newlabel{tab:conditions}{{2}{4}{Condition contrasts and their interpretation. O/W/S pair rows, error cells, chunks and non-identity values; F shares schema, size and error recipes or rules}{table.caption.7}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Recovery evidence relative to the shown input and target convention, as defined in Section\nonbreakingspace \ref {sec:recoverability}.}}{4}{table.caption.8}\protected@file@percent }
-\newlabel{tab:recoverability}{{3}{4}{Recovery evidence relative to the shown input and target convention, as defined in Section~\ref {sec:recoverability}}{table.caption.8}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Chunking, Prompting and Scoring}{4}{subsection.3.3}\protected@file@percent }
 \newlabel{sec:scoring}{{3.3}{4}{Chunking, Prompting and Scoring}{subsection.3.3}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Recovery evidence relative to the shown input and target convention, as defined in Section\nonbreakingspace \ref {sec:recoverability}.}}{4}{table.caption.8}\protected@file@percent }
+\newlabel{tab:recoverability}{{3}{4}{Recovery evidence relative to the shown input and target convention, as defined in Section~\ref {sec:recoverability}}{table.caption.8}{}}
 \citation{arocena2015bart}
 \citation{vrandecic2014wikidata}
 \citation{deepseekai2026deepseekv4}
@@ -135,14 +135,14 @@
 \newlabel{tab:counts}{{9}{8}{Repaired cells and chunk wins:losses, excluding ties. Hospital compares W/S on 219 identity errors; Movies compares O/W on 379. Hospital chunk counts are descriptive; Movies sign tests use Holm correction over eight models}{table.caption.15}{}}
 \newlabel{find:beers}{{4}{8}{Beers: Formatting Errors}{finding.4}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {7.4}Stability over Construction Seeds}{8}{subsection.7.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {8}Information Available for Repair}{8}{section.8}\protected@file@percent }
-\newlabel{sec:generalize}{{8}{8}{Information Available for Repair}{section.8}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Aligned Information and Repeated Records}{8}{subsection.8.1}\protected@file@percent }
-\newlabel{sec:labels}{{8.1}{8}{Aligned Information and Repeated Records}{subsection.8.1}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces DeepSeek-V4-Pro Movies repairs by column (repaired / errors). Identity columns are listed first; each condition uses its own error counts.}}{8}{table.caption.16}\protected@file@percent }
 \newlabel{tab:moviescols}{{10}{8}{DeepSeek-V4-Pro Movies repairs by column (repaired / errors). Identity columns are listed first; each condition uses its own error counts}{table.caption.16}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Beers identity-column repair F1, O$-$S contrasts and repaired cities (O/F/W/S, of 127). $^\dagger $: Holm-corrected $p<0.05$ across eight O$-$S contrasts using entity/reply weights. F is descriptive; its brewery and alcohol-content distributions differ from O.}}{8}{table.caption.17}\protected@file@percent }
 \newlabel{tab:beers}{{11}{8}{Beers identity-column repair F1, O$-$S contrasts and repaired cities (O/F/W/S, of 127). $^\dagger $: Holm-corrected $p<0.05$ across eight O$-$S contrasts using entity/reply weights. F is descriptive; its brewery and alcohol-content distributions differ from O}{table.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {8}Information Available for Repair}{8}{section.8}\protected@file@percent }
+\newlabel{sec:generalize}{{8}{8}{Information Available for Repair}{section.8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.1}Aligned Information and Repeated Records}{8}{subsection.8.1}\protected@file@percent }
+\newlabel{sec:labels}{{8.1}{8}{Aligned Information and Repeated Records}{subsection.8.1}{}}
 \citation{tabclean2026}
 \@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Hospital identity-column repair F1 across model sizes and families. Within Qwen2.5-7B/14B/32B, the O--S gap grows while S scores remain low. Llama and commercial models are shown for comparison; whiskers give 95\% cluster intervals.}}{9}{figure.caption.19}\protected@file@percent }
 \newlabel{fig:scale}{{5}{9}{Hospital identity-column repair F1 across model sizes and families. Within Qwen2.5-7B/14B/32B, the O--S gap grows while S scores remain low. Llama and commercial models are shown for comparison; whiskers give 95\% cluster intervals}{figure.caption.19}{}}
@@ -152,25 +152,25 @@
 \newlabel{fig:aligned}{{6}{9}{Identity-column repair F1 in zero-shot and aligned settings. DeepSeek shows 95\% cluster intervals; aligned Baran shows three-run means without error bars}{figure.caption.20}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {8.2}Model Scale}{9}{subsection.8.2}\protected@file@percent }
 \newlabel{sec:scale}{{8.2}{9}{Model Scale}{subsection.8.2}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Recoverable Syllable Names}{9}{subsection.8.3}\protected@file@percent }
-\newlabel{sec:commercial}{{8.3}{9}{Recoverable Syllable Names}{subsection.8.3}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {13}{\ignorespaces Identity-column repair F1 under aligned and whole-table information. Aligned uses the same chunks, 20 labeled tuples and error positions; Baran is the mean of three runs. Whole-table Baran uses perfect detection. TabClean uses DeepSeek-V4-Pro with development rows excluded.}}{9}{table.caption.21}\protected@file@percent }
 \newlabel{tab:aligned}{{13}{9}{Identity-column repair F1 under aligned and whole-table information. Aligned uses the same chunks, 20 labeled tuples and error positions; Baran is the mean of three runs. Whole-table Baran uses perfect detection. TabClean uses DeepSeek-V4-Pro with development rows excluded}{table.caption.21}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts.}}{9}{table.caption.22}\protected@file@percent }
-\newlabel{tab:decoding}{{14}{9}{Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts}{table.caption.22}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.3}Recoverable Syllable Names}{9}{subsection.8.3}\protected@file@percent }
+\newlabel{sec:commercial}{{8.3}{9}{Recoverable Syllable Names}{subsection.8.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Program-Generating Cleaner}{9}{subsection.8.4}\protected@file@percent }
+\newlabel{sec:e4}{{8.4}{9}{Program-Generating Cleaner}{subsection.8.4}{}}
+\newlabel{find:general}{{5}{9}{Program-Generating Cleaner}{finding.5}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {14}{\ignorespaces Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts.}}{10}{table.caption.22}\protected@file@percent }
+\newlabel{tab:decoding}{{14}{10}{Hospital S repairs by recovery category. Unique and Ambig. use the 24-syllable inventory; Generic covers English terms, and Digits covers numeric tokens. Headers give cell counts, covering 217 of 219 errors, with two address-spacing errors excluded from these counts}{table.caption.22}{}}
 \@writefile{lot}{\contentsline {table}{\numberline {15}{\ignorespaces A conflict target with the same assigned Director reference in three name versions. The real credit of \emph  {Taken} (2008) is Pierre Morel; all other cells remain identical.}}{10}{table.caption.23}\protected@file@percent }
 \newlabel{tab:conflictexample}{{15}{10}{A conflict target with the same assigned Director reference in three name versions. The real credit of \emph {Taken} (2008) is Pierre Morel; all other cells remain identical}{table.caption.23}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {8.4}Program-Generating Cleaner}{10}{subsection.8.4}\protected@file@percent }
-\newlabel{sec:e4}{{8.4}{10}{Program-Generating Cleaner}{subsection.8.4}{}}
-\newlabel{find:general}{{5}{10}{Program-Generating Cleaner}{finding.5}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {9}Preserving Assigned Values}{10}{section.9}\protected@file@percent }
 \newlabel{sec:conflict}{{9}{10}{Preserving Assigned Values}{section.9}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.1}Constructing Knowledge Conflicts}{10}{subsection.9.1}\protected@file@percent }
 \newlabel{sec:conflictdesign}{{9.1}{10}{Constructing Knowledge Conflicts}{subsection.9.1}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Measuring Rewrites}{10}{subsection.9.2}\protected@file@percent }
-\newlabel{sec:conflictmetric}{{9.2}{10}{Measuring Rewrites}{subsection.9.2}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces DeepSeek-V4-Pro rewrites assigned directors more often than cities. Attribute rewrites and name restoration are separate events, using 57 films, 24 hospitals or 48 breweries with one row per target. Whiskers give 95\% reply-cluster intervals; all-or-none outcomes show counts. Controls have zero directed rewrites.}}{10}{figure.caption.24}\protected@file@percent }
 \newlabel{fig:near}{{7}{10}{DeepSeek-V4-Pro rewrites assigned directors more often than cities. Attribute rewrites and name restoration are separate events, using 57 films, 24 hospitals or 48 breweries with one row per target. Whiskers give 95\% reply-cluster intervals; all-or-none outcomes show counts. Controls have zero directed rewrites}{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {9.2}Measuring Rewrites}{10}{subsection.9.2}\protected@file@percent }
+\newlabel{sec:conflictmetric}{{9.2}{10}{Measuring Rewrites}{subsection.9.2}{}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {9.3}Results}{10}{subsection.9.3}\protected@file@percent }
 \newlabel{sec:conflictresults}{{9.3}{10}{Results}{subsection.9.3}{}}
 \citation{ziemann2016gene}
@@ -203,7 +203,7 @@
 \newlabel{sec:conclusion}{{12}{12}{Conclusion}{section.12}{}}
 \bibstyle{ACM-Reference-Format}
 \bibdata{refs}
-\bibcite{abdelaal2023rein}{{1}{2023}{{Abdelaal et~al\mbox  {.}}}{{Abdelaal, Hammacher, and Schoening}}}
+\bibcite{abdelaal2023rein}{{1}{2023}{{Abdelaal et~al\mbox  {.}}}{{Abdelaal, Hammacher, and Sch{\"o}ning}}}
 \bibcite{abedjan2016detecting}{{2}{2016}{{Abedjan et~al\mbox  {.}}}{{Abedjan, Chu, Deng, Fernandez, Ilyas, Ouzzani, Papotti, Stonebraker, and Tang}}}
 \bibcite{arocena2015bart}{{3}{2015}{{Arocena et~al\mbox  {.}}}{{Arocena, Glavic, Mecca, Miller, Papotti, and Santoro}}}
 \bibcite{10.1007/978-3-031-70421-5_7}{{4}{2025}{{Biester et~al\mbox  {.}}}{{Biester, Abdelaal, and Del~Gaudio}}}
@@ -252,7 +252,7 @@
 \bibcite{owen2012arrays}{{46}{2012}{{Owen and Eckles}}{{Owen and Eckles}}}
 \bibcite{peeters2025entity}{{47}{2025}{{Peeters et~al\mbox  {.}}}{{Peeters, Steiner, and Bizer}}}
 \bibcite{petroni2019lama}{{48}{2019}{{Petroni et~al\mbox  {.}}}{{Petroni, Rockt{\"a}schel, Riedel, Lewis, Bakhtin, Wu, and Miller}}}
-\bibcite{qi2024cleanagent}{{49}{2024}{{Qi et~al\mbox  {.}}}{{Qi, Miao, and Wang}}}
+\bibcite{qi2024cleanagent}{{49}{2025}{{Qi et~al\mbox  {.}}}{{Qi, Miao, and Wang}}}
 \bibcite{qwen2025qwen25}{{50}{2024}{{Qwen et~al\mbox  {.}}}{{Qwen, Yang, Yang, Zhang, Hui, Zheng, Yu, Li, Liu, et~al\mbox  {.}}}}
 \bibcite{qwen38}{{51}{2026}{{{Qwen Team}}}{{{Qwen Team}}}}
 \bibcite{rahm2000data}{{52}{2000}{{Rahm and Do}}{{Rahm and Do}}}

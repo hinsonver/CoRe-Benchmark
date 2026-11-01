@@ -15,12 +15,34 @@ class SubmissionContract(unittest.TestCase):
     def test_ordered_citation(self):
         citation = (ROOT / 'CITATION.cff').read_text()
         authors = re.findall(r'family-names: (\w+)', citation)
-        self.assertEqual(authors, ['Yang', 'Zhang', 'Fan', 'Chen', 'Du'])
+        self.assertEqual(authors, ['Yang', 'Zhang', 'Mi', 'Fan', 'Chen', 'Du'])
         self.assertIn('Knowledge Dependence in LLM-based Data Cleaning', citation)
-        for email in ['okiyang@muc.edu.cn','26302276@muc.edu.cn','fanj@ruc.edu.cn',
+        for email in ['okiyang@muc.edu.cn','26302276@muc.edu.cn','25012086@muc.edu.cn','fanj@ruc.edu.cn',
                       '202301050@muc.edu.cn','duyong@ruc.edu.cn']:
             self.assertIn(email,citation)
         self.assertNotIn('doi:',citation)
+
+    def test_six_authors_and_sole_correspondence(self):
+        source=(ROOT/'paper/latex/main.tex').read_text()
+        self.assertEqual(re.findall(r'\\author\{([^}]+)\}',source),
+                         ['Jingru Yang','Honglu Zhang','Jiayi Mi','Ju Fan','Zheng Chen','Xiaoyong Du'])
+        self.assertIn(r'\author{Zheng Chen}'+'\n'+r'\authornote{Zheng Chen is the corresponding author.}',source)
+        self.assertEqual(source.count(r'\authornote{'),1)
+        self.assertNotIn(r'\authornotemark',source)
+        self.assertIn(r'\email{25012086@muc.edu.cn}',source)
+        self.assertIn(r'\settopmatter{authorsperrow=3}',source)
+
+    def test_report_and_binding_correspondence(self):
+        source=(ROOT/'paper/companions/CoRe-Supplementary-Technical-Report.tex').read_text()
+        self.assertIn(r'Jiayi Mi\textsuperscript{1}',source)
+        self.assertIn(r'Ju Fan\textsuperscript{2}',source)
+        self.assertNotIn(r'Ju Fan\textsuperscript{2,*}',source)
+        self.assertIn(r'Zheng Chen\textsuperscript{1,*}',source)
+        binding=json.loads((ROOT/'paper/revision-binding.json').read_text())['current_adoption']
+        self.assertEqual(binding['authors'],['Jingru Yang','Honglu Zhang','Jiayi Mi','Ju Fan','Zheng Chen','Xiaoyong Du'])
+        self.assertEqual(binding['corresponding_authors'],[{'name':'Zheng Chen','email':'202301050@muc.edu.cn'}])
+        self.assertIn('Corresponding author: Zheng Chen',source)
+        self.assertNotIn('Corresponding authors:',source)
 
     def test_complete_paper_float_navigation(self):
         mapping = json.loads((ROOT / 'paper/result-map.json').read_text())

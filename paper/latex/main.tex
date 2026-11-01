@@ -13,7 +13,6 @@
 \settopmatter{authorsperrow=3}
 \makeatletter
 \patchcmd{\@mkauthors@iii}{\par\medskip\leavevmode}{\par\leavevmode}{}{\errmessage{Author spacing patch failed}}
-\patchcmd{\@mkauthors@iii}{\lineskip=1pc\relax}{\lineskip=2pt\relax}{}{\errmessage{Author row spacing patch failed}}
 \makeatother
 \setlist[itemize]{leftmargin=1.1em, itemsep=1pt, topsep=2pt, parsep=0pt}
 \setlist[enumerate]{leftmargin=1.4em, itemsep=1pt, topsep=2pt, parsep=0pt}
@@ -44,11 +43,11 @@
 % float-to-text, 12pt between floats, 10pt between a float and its caption). Fonts and margins
 % are left as in the template.
 \raggedbottom
-\setlength{\textfloatsep}{12pt plus 1pt minus 2pt}
-\setlength{\dbltextfloatsep}{12pt plus 1pt minus 2pt}
-\setlength{\floatsep}{12pt plus 1pt minus 2pt}
-\setlength{\dblfloatsep}{12pt plus 1pt minus 2pt}
-\setlength{\intextsep}{12pt plus 1pt minus 2pt}
+\setlength{\textfloatsep}{10pt plus 1pt minus 2pt}
+\setlength{\dbltextfloatsep}{10pt plus 1pt minus 2pt}
+\setlength{\floatsep}{10pt plus 1pt minus 2pt}
+\setlength{\dblfloatsep}{10pt plus 1pt minus 2pt}
+\setlength{\intextsep}{10pt plus 1pt minus 2pt}
 \captionsetup{skip=4pt}
 
 \begin{document}
@@ -63,11 +62,16 @@
 \affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
 \email{26302276@muc.edu.cn}
 
+\author{Jiayi Mi}
+\affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
+\email{25012086@muc.edu.cn}
+
 \author{Ju Fan}
 \affiliation[obeypunctuation=true]{\institution{Renmin University of China},~\country{China}}
 \email{fanj@ruc.edu.cn}
 
 \author{Zheng Chen}
+\authornote{Zheng Chen is the corresponding author.}
 \affiliation[obeypunctuation=true]{\institution{Minzu University of China},~\country{China}}
 \email{202301050@muc.edu.cn}
 
@@ -75,7 +79,7 @@
 \affiliation[obeypunctuation=true]{\institution{Renmin University of China},~\country{China}}
 \email{duyong@ruc.edu.cn}
 
-\hypersetup{pdfauthor={Jingru Yang; Honglu Zhang; Ju Fan; Zheng Chen; Xiaoyong Du}}
+\AddToHook{shipout/lastpage}{\pdfinfo{/Author (Jingru Yang; Honglu Zhang; Jiayi Mi; Ju Fan; Zheng Chen; Xiaoyong Du)}}
 
 \begin{abstract}
 High scores on public data-cleaning benchmarks can reflect knowledge of familiar entities,
@@ -99,6 +103,11 @@ receives no credit, whereas 94\% of TabClean's credited repairs reproduce the re
 transformation. We provide controlled tables, scoring code and materials for offline replay.
 \end{abstract}
 
+\makeatletter
+\let\core@savedtextbottom\@textbottom
+\flushbottom
+\AddToHookNext{shipout/after}{\global\let\@textbottom\core@savedtextbottom}
+\makeatother
 \maketitle
 
 %%% VLDB block start %%%

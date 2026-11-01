@@ -1,6 +1,6 @@
 # Obtain the current checkout and fixed historical materials
 
-The `main` checkout in the existing private `hinsonver/CoRe-Benchmark` repository contains the current five-author paper, 24-page technical report and matching statistical display. With an account that has repository access:
+The `main` checkout in the existing private `hinsonver/CoRe-Benchmark` repository contains the current paper, 24-page technical report and matching statistical display. With an account that has repository access:
 
 ```sh
 gh repo clone hinsonver/CoRe-Benchmark

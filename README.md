@@ -1,8 +1,10 @@
 # CoRe
 
-**Private submission materials — not released publicly. Manuscript and report: 2026-10-27.**
+**Private submission materials — not released publicly. Manuscript and report: 2026-11-01.**
 
-Artifact for *Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning*, by Jingru Yang, Honglu Zhang, Ju Fan, Zheng Chen and Xiaoyong Du.
+Artifact for *Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning*, by Jingru Yang, Honglu Zhang, Jiayi Mi, Ju Fan, Zheng Chen and Xiaoyong Du.
+
+Corresponding author: Zheng Chen (202301050@muc.edu.cn).
 
 CoRe compares original tables (O), fresh real records (F), word-based surrogates (W) and syllable-based surrogates (S), alongside assigned-value and reference checks. Read the [paper](paper/latex/main.pdf) and [supplementary technical report](paper/CoRe-Supplementary-Technical-Report.pdf). The [document binding](paper/revision-binding.json) identifies their sources. Figure 6 shows DeepSeek cluster intervals and three-run Baran means without error bars. The [entity/reply inference guide](docs/cluster-inference.md) specifies the numerical witnesses, 40-comparison and Beers families, reply-cluster conflict intervals and all-or-none displays. No model is queried.
 
@@ -45,7 +47,7 @@ The [tested runtime](environment/tested-runtime.json) records the local acceptan
 
 The paper has a 12-page body and 14 pages including references, with eight figures, seventeen tables and seven Findings. Its first result figure contrasts missing identifier mappings with retained year candidates. The overview and Hospital construction figure use worked examples. The original condition overview, complete Hospital row and Rayyan plot remain in the extended displays.
 
-The main PDF has SHA-256 `1758dbf40f1ac06751c84b45891b0bf9a637fdbc3e37942e615ef77f2fe5d883`; the technical report has SHA-256 `51bf5fb9bc315b35d5620765de7083049857bb3a90b7c1dff51107f82d922adc`. The report has 24 pages, seven sections, 18 tables and seven figures. This checkout contains the current five-author manuscript and its matching report; the fixed `v0.2.0` core ZIP remains the earlier snapshot. The [statistical methods and replay](docs/cluster-inference.md) describe the entity/reply weights, complete Holm families, conflict denominators and anonymous numerical witnesses. The [Hospital relationship/edit audit](supplements/hospital-semantics/README.md) and [entity/reply and year-choice diagnostics](supplements/dependence-and-year/README.md) provide deterministic checks using existing inputs and replies.
+The main PDF has SHA-256 `4273b3665173c3326f58258783d1d63e807ddfaccfe9589fa23d1e10f2d7ffe2`; the technical report has SHA-256 `14356913cefa9229a8ffdec1ca367ffaca43e08b56ead8267071651573055b85`. The report has 24 pages, seven sections, 18 tables and seven figures. This checkout contains the current six-author manuscript and its matching report; the fixed `v0.2.0` core ZIP remains the earlier snapshot. The [statistical methods and replay](docs/cluster-inference.md) describe the entity/reply weights, complete Holm families, conflict denominators and anonymous numerical witnesses. The [Hospital relationship/edit audit](supplements/hospital-semantics/README.md) and [entity/reply and year-choice diagnostics](supplements/dependence-and-year/README.md) provide deterministic checks using existing inputs and replies.
 
 ## Optional exact historical validation
 
