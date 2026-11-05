@@ -12,7 +12,7 @@ python tools/reproduce_all.py --output build/all-offline
 
 Exit 2 means execution completed with the explicit historical limits in the report; exit 1 means an unexpected failure. For a verified external historical installation, add both `--historical-root /absolute/external/history` and `--authorization-record /absolute/local-use.json`. No raw Movies file is copied into the core. The [coverage matrix](../REPRODUCTION.json) inventories all eleven experiment and supporting-evidence families.
 
-The core and exact historical ZIPs are separate assets of the [same private GitHub prerelease](github-delivery.md). Follow that guide for authenticated acquisition and checksum verification, then the [data guide](data.md) for external installation and your own truthful local-use record. Private hosting does not establish reviewer access or remove any historical evidence limit below.
+The core and exact historical ZIPs are publicly downloadable separate assets of the [same GitHub prerelease](github-delivery.md). Follow that guide for anonymous acquisition and checksum verification, then the [data guide](data.md) for external installation and your own truthful local-use record. Public hosting does not remove any historical evidence limit below.
 
 The original display-only commands remain unchanged:
 

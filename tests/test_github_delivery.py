@@ -1,4 +1,4 @@
-"""Fixed private-release acquisition contract; no network access is exercised."""
+"""Public acquisition contract; fixed private-era tag and archive hashes retained."""
 import json
 from pathlib import Path
 import unittest
@@ -14,7 +14,7 @@ class GitHubDeliveryContract(unittest.TestCase):
     def test_historical_manifest_has_fixed_same_repository_asset(self):
         historical = json.loads((ROOT / 'data/manifests/SUBMISSION_DATA.json').read_text())['historical']
         sources = json.loads((ROOT / 'data/manifests/CORE_SOURCES.json').read_text())
-        self.assertEqual(historical.get('publication_status'), 'private_repository_asset')
+        self.assertEqual(historical.get('publication_status'), 'public_repository_asset')
         self.assertEqual(historical.get('release_tag'), TAG)
         self.assertEqual(historical.get('download_url'), DOWNLOAD)
         self.assertEqual(historical['archive_filename'], ARCHIVE)
@@ -22,25 +22,26 @@ class GitHubDeliveryContract(unittest.TestCase):
         self.assertEqual(historical['file_count'], 289)
         self.assertEqual(historical['files'], {**sources['private_files'], **sources['private_code']})
 
-    def test_coverage_inventory_distinguishes_private_hosting_from_access(self):
+    def test_coverage_inventory_distinguishes_public_access_from_complete_history(self):
         inventory = json.loads((ROOT / 'REPRODUCTION.json').read_text())
         material = inventory['historical_material']
-        self.assertEqual(material.get('publication_status'), 'private_repository_asset')
+        self.assertEqual(material.get('publication_status'), 'public_repository_asset')
         self.assertEqual(material.get('release_tag'), TAG)
         self.assertEqual(material.get('download_url'), DOWNLOAD)
         self.assertEqual(material['archive_sha256'], SHA256)
         self.assertEqual(material['bound_dependencies'], 264)
         self.assertEqual(material['bound_scoring_sources'], 25)
-        self.assertEqual(inventory['readiness']['publication_status'], 'private_repository_prerelease')
-        self.assertFalse(inventory['readiness']['actual_review_access_ready'])
+        self.assertEqual(inventory['readiness']['publication_status'], 'public_repository')
+        self.assertTrue(inventory['readiness']['actual_review_access_ready'])
+        self.assertTrue(inventory['known_limits']['access']['anonymous_http_access_verified'])
         self.assertFalse(inventory['known_limits']['access']['reviewer_access_verified'])
         self.assertFalse(inventory['readiness']['exact_history_complete'])
 
-    def test_authenticated_acquisition_and_existing_install_gate_are_documented(self):
+    def test_anonymous_acquisition_and_existing_install_gate_are_documented(self):
         path = ROOT / 'docs/github-delivery.md'
-        self.assertTrue(path.is_file(), 'fixed private GitHub acquisition guide is missing')
+        self.assertTrue(path.is_file(), 'fixed GitHub acquisition guide is missing')
         text = path.read_text()
-        for required in [DOWNLOAD, SHA256, 'gh auth login', 'gh auth status',
+        for required in [DOWNLOAD, SHA256, 'Download without signing in', 'curl --fail --location',
                          f'gh release download {TAG}', '--repo hinsonver/CoRe-Benchmark',
                          'CoRe-review-core-20261026.zip', 'SHA256SUMS', 'shasum -a 256 -c',
                          'python tools/data.py install', '--authorization-record',
@@ -54,10 +55,11 @@ class GitHubDeliveryContract(unittest.TestCase):
             self.assertIn('github-delivery.md', text, name)
             self.assertNotIn('separate local sibling archive', text.lower(), name)
         readme = (ROOT / 'README.md').read_text()
-        self.assertIn('not released', readme)
+        self.assertIn('Public research repository', readme)
+        self.assertNotIn('Private submission materials', readme)
         self.assertNotIn('LOCAL CORRECTED CANDIDATE', readme)
         licenses = (ROOT / 'LICENSES.md').read_text()
-        self.assertIn('private Release asset', licenses)
+        self.assertIn('publicly downloadable Release asset', licenses)
         self.assertIn('default statistical core', licenses)
 
 

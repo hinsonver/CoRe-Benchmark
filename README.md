@@ -1,6 +1,8 @@
 # CoRe
 
-**Private submission materials — not released publicly. Manuscript and report: 2026-11-01.**
+**Public research repository. Manuscript and report: 2026-11-01.**
+
+The paper has been submitted to arXiv and is awaiting moderation. An arXiv link will be added when available.
 
 Artifact for *Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning*, by Jingru Yang, Honglu Zhang, Jiayi Mi, Ju Fan, Zheng Chen and Xiaoyong Du.
 
@@ -37,7 +39,7 @@ The [tested runtime](environment/tested-runtime.json) records the local acceptan
 | Find a displayed figure or table | [Result navigation](docs/results.md) and [label map](paper/result-map.json) |
 | Identify this manuscript and presentation revision | [Revision binding](paper/revision-binding.json) and [revision provenance](paper/revisions/README.md) |
 | Understand included data and install historical inputs | [Data guide](docs/data.md) |
-| Download the fixed private delivery | [GitHub download and installation](docs/github-delivery.md) |
+| Download the fixed historical materials | [GitHub download and installation](docs/github-delivery.md) |
 | Replay, score or inspect source entry points | [Reproduction guide](docs/reproduction.md) |
 | Inspect every experiment family | [Coverage matrix](REPRODUCTION.json), [continuation scoring](docs/continuation-scoring.md), [baseline scoring](docs/baseline-scoring.md) and [execution plans](docs/experiment-execution.md) |
 | Interpret the scope of the checks | [Limitations](docs/limitations.md) |
@@ -51,7 +53,7 @@ The main PDF has SHA-256 `d69cd04f7444876129f34bcf4fea899ce6974bffef8a0f32a51a3c
 
 ## Optional exact historical validation
 
-The same private GitHub repository hosts `CoRe-submission-VE-M01-M05-historical.zip` as a separate Release asset, alongside `CoRe-review-core-20261026.zip` and `SHA256SUMS`. The default statistical core still contains no raw Movies records or replies. Follow the [authenticated download and installation guide](docs/github-delivery.md), then inspect the [data guide](docs/data.md). With the downloaded archive outside this checkout:
+This repository hosts `CoRe-submission-VE-M01-M05-historical.zip` as a separate, publicly downloadable Release asset, alongside `CoRe-review-core-20261026.zip` and `SHA256SUMS`. The default statistical core still contains no raw Movies records or replies. Follow the [download and installation guide](docs/github-delivery.md), then inspect the [data guide](docs/data.md). With the downloaded archive outside this checkout:
 
 ```sh
 python tools/data.py status
@@ -62,4 +64,4 @@ python tools/data.py install \
 
 The installer checks the archive and all 289 files and writes only to a new directory outside this repository. Validation additionally requires a truthful external local-use record, as described in the data guide.
 
-The repository remains private. Private hosting does not establish a reviewer's actual access, public availability, submission eligibility or a blanket third-party redistribution right. The historical companion remains outside the Git tree and default statistical core; readers must supply their own truthful local-use record, not reuse the authors' declaration as proof of rights.
+The repository and its existing Release assets are publicly accessible without a GitHub account. Public access does not change the applicable third-party terms or resolve the historical evidence limits described above. The historical companion remains outside the current Git tree and default statistical core; readers must supply their own truthful local-use record as described in the data guide. The software license does not relicense third-party data or archived replies.

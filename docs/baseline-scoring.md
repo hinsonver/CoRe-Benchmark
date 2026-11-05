@@ -47,7 +47,7 @@ They remain `archived_count_only` with `raw_verified: false`. Recomputing arithm
 
 ## Optional exact, locally authorized Movies history
 
-The default statistical core excludes Movies row contents. The exact historical ZIP is a [separate Release asset in the same private GitHub repository](github-delivery.md); follow its authenticated download and checksum instructions and the [external installation guide](data.md). By default, Movies is explicitly `excluded_not_raw_verified`, and its numerical witnesses are not used as substitutes. To inspect exact already-saved history, the user must separately supply both a historical-root path and their own truthful local-use authorization record:
+The default statistical core excludes Movies row contents. The exact historical ZIP is a [publicly downloadable separate Release asset](github-delivery.md); follow its download and checksum instructions and the [external installation guide](data.md). By default, Movies is explicitly `excluded_not_raw_verified`, and its numerical witnesses are not used as substitutes. To inspect exact already-saved history, the user must separately supply both a historical-root path and their own truthful local-use authorization record:
 
 ```sh
 python tools/score_baselines.py \

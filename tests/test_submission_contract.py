@@ -68,7 +68,7 @@ class SubmissionContract(unittest.TestCase):
         sources = json.loads((ROOT / 'data/manifests/CORE_SOURCES.json').read_text())
         metadata = json.loads((ROOT / 'data/manifests/SUBMISSION_DATA.json').read_text())
         self.assertEqual(metadata['historical']['file_count'],289)
-        self.assertEqual(metadata['historical']['publication_status'],'private_repository_asset')
+        self.assertEqual(metadata['historical']['publication_status'],'public_repository_asset')
         self.assertEqual(metadata['historical']['files'],{**sources['private_files'],**sources['private_code']})
         for name in sources['omitted_files']:
             self.assertFalse((ROOT / name).exists(),name)
@@ -85,8 +85,9 @@ class SubmissionContract(unittest.TestCase):
         for path in (ROOT / 'scripts').glob('*.sh'):
             self.assertTrue(path.stat().st_mode & 0o111, str(path)+' must be executable')
 
-    def test_no_publication_assertion_or_approval(self):
-        self.assertIn('not released',(ROOT / 'README.md').read_text())
+    def test_public_repository_not_mistaken_for_arxiv_announcement(self):
+        self.assertIn('Public research repository',(ROOT / 'README.md').read_text())
+        self.assertIn('awaiting moderation',(ROOT / 'README.md').read_text())
         self.assertFalse((ROOT / 'release-approval.json').exists())
 
     def test_new_markdown_links_resolve(self):

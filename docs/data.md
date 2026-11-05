@@ -10,11 +10,11 @@ The default replay uses the evidence already in this repository. No raw-data acq
 | Current uniform continuation reanalysis | [Integer aggregates](../results/derived/uniform_continuation.json), [separate binding](../data/manifests/UNIFORM_CONTINUATION.json) and [provenance](../results/derived/uniform-continuation-provenance.md); original saved witnesses remain historical |
 | Rayyan saved retrieval evidence and scoring inputs | [Replay guide](rayyan-replay.md) and [Rayyan companion](../paper/CoRe-Supplementary-Technical-Report.pdf#nameddest=companion-3) |
 | Beers F historical/final input provenance | [Supplement README](../supplements/beers-f-input-provenance/README.md) and its verifier |
-| Optional exact historical Movies dependencies | `CoRe-submission-VE-M01-M05-historical.zip`, a separate Release asset in the same private repository; not in the Git tree or default statistical core |
+| Optional exact historical Movies dependencies | `CoRe-submission-VE-M01-M05-historical.zip`, a publicly downloadable separate Release asset; not in the current Git tree or default statistical core |
 
 ## Download, inspect and install historical inputs
 
-Use the [fixed private GitHub delivery](github-delivery.md) to authenticate, download the two ZIP assets and checksum file, and check their hashes. Downloading requires actual access to `hinsonver/CoRe-Benchmark`; the existence of a private asset does not establish reviewer access. After downloading the historical ZIP outside this checkout:
+Use the [fixed GitHub delivery](github-delivery.md) to download the two ZIP assets and checksum file without signing in, and check their hashes. After downloading the historical ZIP outside this checkout:
 
 ```sh
 python tools/data.py status
@@ -54,4 +54,4 @@ This also invokes the separate raw continuation and baseline scorers. It does no
 
 ## Access and redistribution
 
-The historical companion contains row-level historical records and replies and is hosted as a private Release asset in this same repository. Its fixed URL and authentication instructions are in the [delivery guide](github-delivery.md). Local possession, local use, further redistribution and reviewer access are separate questions; hosting and a successful hash check do not answer them. No public data release or verified reviewer access is implied. Public publication or wider sharing requires separate approval and compliance with applicable source terms and the repository's licensing notices; the code license does not grant rights in third-party data. Each reader must truthfully record their own local-use basis; an author-side declaration is not reviewer proof of rights.
+The historical companion contains row-level historical records and replies and is a publicly downloadable Release asset in this repository. Its fixed URL and anonymous download instructions are in the [delivery guide](github-delivery.md). Public access and a successful hash check do not change the applicable source terms or grant further redistribution rights; the code license does not grant rights in third-party data. Each reader must truthfully record their own local-use basis; an author-side declaration is not reviewer proof of rights.

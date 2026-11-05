@@ -7,8 +7,8 @@
   "references": {"current_tables": "results/tables", "current_csvs": "results/figures", "frozen_tables": "data/reference/frozen-tables", "result_map": "paper/result-map.json"},
   "readiness": {
     "official_eligibility": "not_determined",
-    "actual_review_access_ready": false,
-    "publication_status": "private_repository_prerelease",
+    "actual_review_access_ready": true,
+    "publication_status": "public_repository",
     "technical_checks": "Determined by the generated manifest-bound coverage report, not this static inventory.",
     "exact_history_complete": false,
     "frozen_raw_agreement": false
@@ -16,13 +16,13 @@
   "historical_material": {
     "archive_filename": "CoRe-submission-VE-M01-M05-historical.zip",
     "archive_sha256": "9569fe9d6d475ea0243b5d9a04f2a8ed098557873ffca7597cbcb6eef67bbc09",
-    "publication_status": "private_repository_asset",
+    "publication_status": "public_repository_asset",
     "release_tag": "v0.2.0-review-private-20261026",
     "download_url": "https://github.com/hinsonver/CoRe-Benchmark/releases/download/v0.2.0-review-private-20261026/CoRe-submission-VE-M01-M05-historical.zip",
     "bound_dependencies": 264,
     "bound_scoring_sources": 25,
     "install_command": "python tools/data.py install --archive /path/to/CoRe-submission-VE-M01-M05-historical.zip --output /absolute/external/history",
-    "access": "Separate Release asset in the same private hinsonver/CoRe-Benchmark repository; authenticated acquisition requires actual repository access. No public availability, verified reviewer access or blanket third-party redistribution right is asserted.",
+    "access": "Separate publicly downloadable Release asset in hinsonver/CoRe-Benchmark; no GitHub account required. Public access does not grant additional third-party rights or certify submission eligibility.",
     "local_use_record": "Each reader supplies an external truthful purpose, rights_basis, historical_inputs/historical_outputs scope and redistribution:false; documents local use, not a rights ruling or author-side proof of reviewer rights."
   },
   "known_limits": {
@@ -31,7 +31,7 @@
     "aligned": {"legacy_unseeded_metadata_exceptions": 1, "selected_seeded_comparisons_affected": 0, "disposition": "Unseeded Movies-fresh diagnostic uses earlier label rows; current selected run0/1/2 files match the bound current labels."},
     "reference_audit": {"complete_historical_candidate_payloads": false, "scalar_rechecks": 114, "accepted_sample_cells": 279, "disposition": "Saved matches/outcomes and actual TabClean inputs are checkable; the accepted-sample retrieval route would make new requests, not reconstruct missing historical responses."},
     "hosted_models": {"historical_versions_available_now": "not_established", "credentials": "reviewer_owned_environment_only", "configuration_check": "offline_and_separate_from_model_identity", "model_check": "optional_explicit_network_catalogue_lookup_not_checkpoint_equivalence", "execution_gate": "explicit_network_and_cost_flags_and_exact_model_confirmation", "disposition": "The author's former access path is not a model-wide availability test. Reviewers use their own compatible service credentials, verify the exact archived identifier and keep newly generated outputs separate. No substitute version is silently used; frozen replay requires no key."},
-    "access": {"reviewer_access_verified": false, "private_repository_asset_authorized": true, "further_redistribution_authorized": false, "disposition": "Historical row-level materials are hosted as a separate Release asset in the same private repository, not the Git tree or default statistical core. Private hosting and local verification do not establish reviewer access, public availability or blanket third-party rights."}
+    "access": {"reviewer_access_verified": false, "anonymous_http_access_verified": true, "author_authorized_public_hosting": true, "private_repository_asset_authorized": true, "further_redistribution_authorized": false, "disposition": "Repository and existing Release assets publicly accessible from 2026-11-05; anonymous retrieval is tested separately from an individual reviewer's environment. Historical row-level materials remain outside the current Git tree and default statistical core. Source terms and historical evidence limits remain applicable."}
   },
   "routes": [
     {

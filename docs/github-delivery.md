@@ -1,16 +1,16 @@
 # Obtain the current checkout and fixed historical materials
 
-The `main` checkout in the existing private `hinsonver/CoRe-Benchmark` repository contains the current paper, 24-page technical report and matching statistical display. With an account that has repository access:
+The `main` checkout in the public `hinsonver/CoRe-Benchmark` repository contains the current paper, 24-page technical report and matching statistical display. No GitHub account is required:
 
 ```sh
-gh repo clone hinsonver/CoRe-Benchmark
+git clone https://github.com/hinsonver/CoRe-Benchmark.git
 cd CoRe-Benchmark
 git rev-parse HEAD
 ```
 
 Record that commit identifier when reporting a reproduction. The [README](../README.md#quick-start) gives the current offline commands. The paper and report are linked there and bound by SHA-256 in [the document binding](../paper/revision-binding.json).
 
-The retained [2026-10-26 private prerelease](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.2.0-review-private-20261026) has three fixed assets:
+The retained [2026-10-26 prerelease](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.2.0-review-private-20261026) has three fixed assets. The word `private` in its tag records its original hosting status; the assets are now public:
 
 | Asset | Purpose |
 | --- | --- |
@@ -18,28 +18,24 @@ The retained [2026-10-26 private prerelease](https://github.com/hinsonver/CoRe-B
 | `CoRe-submission-VE-M01-M05-historical.zip` | Exact historical Movies inputs, archived replies and bound historical code, separate from the Git tree and statistical core |
 | `SHA256SUMS` | SHA-256 checksums of both ZIP assets |
 
-Both this fixed snapshot and the [previous fixed private release](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.1.0-a04-review-private-20261022), their tags and assets are unchanged. Use the checkout for the current paper and inference display; use the fixed tag above to acquire exact historical inputs or reproduce the older core snapshot. Do not use a moving `latest` URL or mistake an automatically generated source-code ZIP for the separate historical asset.
+Both this fixed snapshot and the [previous fixed release](https://github.com/hinsonver/CoRe-Benchmark/releases/tag/v0.1.0-a04-review-private-20261022), their tags and asset bytes are unchanged. Use the checkout for the current paper and inference display; use the fixed tag above to acquire exact historical inputs or reproduce the older core snapshot. Do not use a moving `latest` URL or mistake an automatically generated source-code ZIP for the separate historical asset.
 
-## Authenticate and download
+## Download without signing in
 
-Use the GitHub CLI with an account that actually has access to the private repository. If already signed in to the correct account, inspect its status instead of signing in again. Never paste a token into a command or commit credentials:
+Download the three assets with a browser or the following commands. These public URLs require no token or API key:
 
 ```sh
-gh auth login --hostname github.com
-gh auth status --hostname github.com
 CORE_DOWNLOAD_DIR="$(mktemp -d)"
-gh release download v0.2.0-review-private-20261026 \
-  --repo hinsonver/CoRe-Benchmark \
-  --pattern CoRe-review-core-20261026.zip \
-  --pattern CoRe-submission-VE-M01-M05-historical.zip \
-  --pattern SHA256SUMS \
-  --dir "$CORE_DOWNLOAD_DIR"
+CORE_RELEASE_URL="https://github.com/hinsonver/CoRe-Benchmark/releases/download/v0.2.0-review-private-20261026"
+for CORE_ASSET in CoRe-review-core-20261026.zip CoRe-submission-VE-M01-M05-historical.zip SHA256SUMS; do
+  curl --fail --location "$CORE_RELEASE_URL/$CORE_ASSET" --output "$CORE_DOWNLOAD_DIR/$CORE_ASSET" || exit 1
+done
 (cd "$CORE_DOWNLOAD_DIR" && shasum -a 256 -c SHA256SUMS)
 ```
 
 The temporary download directory is outside the repository. Stop if either checksum fails. The historical ZIP's fixed SHA-256 is `9569fe9d6d475ea0243b5d9a04f2a8ed098557873ffca7597cbcb6eef67bbc09`.
 
-Its stable asset URL is [the historical ZIP](https://github.com/hinsonver/CoRe-Benchmark/releases/download/v0.2.0-review-private-20261026/CoRe-submission-VE-M01-M05-historical.zip). A browser must be signed in to an account with repository access. An unauthenticated request may return 404; that is not evidence that the asset is publicly accessible or absent. The authenticated CLI command above handles private Release downloads without putting a credential in the URL.
+Its stable asset URL is [the historical ZIP](https://github.com/hinsonver/CoRe-Benchmark/releases/download/v0.2.0-review-private-20261026/CoRe-submission-VE-M01-M05-historical.zip). The download is public. If it fails, report the URL and HTTP status rather than supplying an author credential. Existing authenticated GitHub CLI users can also use `gh release download v0.2.0-review-private-20261026 --repo hinsonver/CoRe-Benchmark`.
 
 ## Install outside the core and run offline checks
 
@@ -72,7 +68,7 @@ Use a fresh output directory. A completed integrated historical check retains ex
 
 ## Access, rights and evidence limits
 
-Private hosting does not establish that a particular reviewer can access the repository, submission eligibility, public availability or third-party redistribution rights. No public release or change of repository visibility is implied. Applicable source terms, provider terms and [original notices](../LICENSES.md) still apply; CoRe's code license does not relicense data or archived replies. Any public publication or wider sharing requires separate approval and the relevant rights.
+The repository, Git history and existing Releases were opened for public access on 2026-11-05 at the author's request. Applicable source terms, provider terms and [original notices](../LICENSES.md) still apply; CoRe's code license does not relicense data or archived replies. Public access is not a determination of submission eligibility or a new third-party license.
 
 Hosting the exact archive does not recover the older continuation scoring source, the 12 missing whole-table correction lists or missing historical Rayyan responses and encoding evidence. It does not establish historical model-version availability. The [limitations](limitations.md) and [coverage matrix](../REPRODUCTION.json) retain those boundaries; these downloads make no new model or PubMed calls.
 
