@@ -29,3 +29,27 @@ authors:
     affiliation: Renmin University of China
     email: duyong@ruc.edu.cn
 license: MIT
+repository-code: "https://github.com/hinsonver/CoRe-Benchmark"
+preferred-citation:
+  type: article
+  title: "Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning [Experiment, Analysis & Benchmark]"
+  authors:
+    - family-names: Yang
+      given-names: Jingru
+    - family-names: Zhang
+      given-names: Honglu
+    - family-names: Mi
+      given-names: Jiayi
+    - family-names: Fan
+      given-names: Ju
+    - family-names: Chen
+      given-names: Zheng
+    - family-names: Du
+      given-names: Xiaoyong
+  year: 2026
+  month: 11
+  journal: arXiv
+  url: "https://arxiv.org/abs/2611.08106"
+  identifiers:
+    - type: other
+      value: "arXiv:2611.08106"

@@ -52,7 +52,7 @@ class DeliveryScope(unittest.TestCase):
 
     def test_six_authors_and_current_exact_reading_documents(self):
         citation=(ROOT/'CITATION.cff').read_text()
-        self.assertEqual(citation.count('family-names:'),6)
+        self.assertEqual(citation.split('\npreferred-citation:',1)[0].count('family-names:'),6)
         self.assertIn('duyong@ruc.edu.cn',citation)
         expected={'paper/latex/main.tex':'86e1478bdf927de3623a88ae04753c84f173eb623520c2070b3f380a35e10a84',
                   'paper/latex/main.pdf':'d69cd04f7444876129f34bcf4fea899ce6974bffef8a0f32a51a3c462918d96d',

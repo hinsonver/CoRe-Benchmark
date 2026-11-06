@@ -2,7 +2,7 @@
 
 **Public research repository. Manuscript and report: 2026-11-01.**
 
-The paper has been submitted to arXiv and is awaiting moderation. An arXiv link will be added when available.
+The paper is available as an [arXiv preprint (2611.08106)](https://arxiv.org/abs/2611.08106).
 
 Artifact for *Cleaning or Recalling? Knowledge Dependence in LLM-based Data Cleaning*, by Jingru Yang, Honglu Zhang, Jiayi Mi, Ju Fan, Zheng Chen and Xiaoyong Du.
 
@@ -34,7 +34,7 @@ The [tested runtime](environment/tested-runtime.json) records the local acceptan
 
 | Task | Start here |
 | --- | --- |
-| Read the paper | [PDF](paper/latex/main.pdf) or [LaTeX](paper/latex/main.tex) |
+| Read the paper | [arXiv](https://arxiv.org/abs/2611.08106), [repository PDF](paper/latex/main.pdf) or [LaTeX](paper/latex/main.tex) |
 | Find a claim and its executable evidence | [Claim map](paper/claim-map.md) |
 | Find a displayed figure or table | [Result navigation](docs/results.md) and [label map](paper/result-map.json) |
 | Identify this manuscript and presentation revision | [Revision binding](paper/revision-binding.json) and [revision provenance](paper/revisions/README.md) |

@@ -14,7 +14,7 @@ class SubmissionContract(unittest.TestCase):
 
     def test_ordered_citation(self):
         citation = (ROOT / 'CITATION.cff').read_text()
-        authors = re.findall(r'family-names: (\w+)', citation)
+        authors = re.findall(r'family-names: (\w+)', citation.split('\npreferred-citation:',1)[0])
         self.assertEqual(authors, ['Yang', 'Zhang', 'Mi', 'Fan', 'Chen', 'Du'])
         self.assertIn('Knowledge Dependence in LLM-based Data Cleaning', citation)
         for email in ['okiyang@muc.edu.cn','26302276@muc.edu.cn','25012086@muc.edu.cn','fanj@ruc.edu.cn',
@@ -85,9 +85,17 @@ class SubmissionContract(unittest.TestCase):
         for path in (ROOT / 'scripts').glob('*.sh'):
             self.assertTrue(path.stat().st_mode & 0o111, str(path)+' must be executable')
 
-    def test_public_repository_not_mistaken_for_arxiv_announcement(self):
-        self.assertIn('Public research repository',(ROOT / 'README.md').read_text())
-        self.assertIn('awaiting moderation',(ROOT / 'README.md').read_text())
+    def test_public_repository_links_the_verified_arxiv_preprint(self):
+        readme=(ROOT / 'README.md').read_text()
+        self.assertIn('Public research repository',readme)
+        self.assertIn('https://arxiv.org/abs/2611.08106',readme)
+        self.assertNotIn('awaiting moderation',readme)
+        citation=(ROOT / 'CITATION.cff').read_text().split('\npreferred-citation:',1)[1]
+        self.assertEqual(re.findall(r'family-names: (\w+)',citation),
+                         ['Yang','Zhang','Mi','Fan','Chen','Du'])
+        self.assertIn('value: "arXiv:2611.08106"',citation)
+        self.assertIn('journal: arXiv',citation)
+        self.assertIn('https://arxiv.org/abs/2611.08106',citation)
         self.assertFalse((ROOT / 'release-approval.json').exists())
 
     def test_new_markdown_links_resolve(self):
